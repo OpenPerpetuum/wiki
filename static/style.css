@@ -1632,14 +1632,20 @@ html[data-mode="dev"] h1 { color: #b4ffc9; text-shadow: 0 0 12px rgba(0, 255, 65
 }
 .robot-card-stats li {
     display: flex;
-    justify-content: space-between;
+    align-items: baseline;
     font-size: 0.78rem;
     color: var(--muted);
+    gap: 0.5rem;
 }
 .robot-card-stats li b {
     color: var(--fg);
     font-weight: 500;
     letter-spacing: 0.03em;
+    min-width: 5.2em;
+    flex-shrink: 0;
+}
+.robot-card-stats li span {
+    text-align: left;
 }
 
 /* ── Robot class ratings table ────────────────────────────────────────── */

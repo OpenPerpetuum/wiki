@@ -159,11 +159,11 @@ public static class RobotsPage
             sb.Append($"<div class=\"robot-card-size\">{size:0.#}</div>\n");
             sb.Append("</div>\n");
             sb.Append("<ul class=\"robot-card-stats\">\n");
-            sb.Append($"<li><span>⚔ Combat</span><b>{Rating(combat, "⚔")}</b></li>\n");
-            sb.Append($"<li><span>» Speed</span><b>{Rating(speed, "»")}</b></li>\n");
-            sb.Append($"<li><span>■ Armor</span><b>{Rating(armor, "■")}</b></li>\n");
-            sb.Append($"<li><span>□ Storage</span><b>{Rating(storage, "□")}</b></li>\n");
-            sb.Append($"<li><span>$ Cost</span><b>{Rating(cost, "$")}</b></li>\n");
+            sb.Append($"<li><b>{Rating(combat, "⚔")}</b><span>Combat</span></li>\n");
+            sb.Append($"<li><b>{Rating(speed, "»")}</b><span>Speed</span></li>\n");
+            sb.Append($"<li><b>{Rating(armor, "■")}</b><span>Armor</span></li>\n");
+            sb.Append($"<li><b>{Rating(storage, "□")}</b><span>Storage</span></li>\n");
+            sb.Append($"<li><b>{Rating(cost, "$")}</b><span>Cost</span></li>\n");
             sb.Append("</ul>\n");
             sb.Append("</div>\n");
             sb.Append("</div>\n");
