@@ -16,23 +16,19 @@ description: "Syndicate Forces Vektor Main Combat — robot stats, production an
 <div class="robot-card-info">
 <div class="robot-card-header">
 <div class="robot-card-name">Syndicate Forces Vektor Main Combat</div>
-<div class="robot-card-size">0</div>
+<div class="robot-card-size">—</div>
 </div>
 <ul class="robot-card-stats">
-<li><b>⚔⚔⚔</b><span>Combat</span></li>
-<li><b>»»»</b><span>Speed</span></li>
-<li><b>■■■</b><span>Armor</span></li>
-<li><b>□□</b><span>Storage</span></li>
-<li><b>$$$</b><span>Cost</span></li>
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
 </ul>
 </div>
 </div>
 <div class="robot-page-props">
 <table class="robot-props-table">
-<tr><td>Class</td><td>Special</td></tr>
-<tr><td>Size</td><td>0</td></tr>
-<tr><td>Mass</td><td>0</td></tr>
-<tr><td>Health</td><td>100</td></tr>
+<tr><td>Class</td><td>—</td></tr>
+<tr><td>Size</td><td>—</td></tr>
+<tr><td>Mass</td><td>—</td></tr>
+<tr><td>Health</td><td>—</td></tr>
 <tr><td>Purchasable</td><td>Yes</td></tr>
 </table>
 </div>

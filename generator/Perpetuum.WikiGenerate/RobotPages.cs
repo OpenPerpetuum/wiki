@@ -54,6 +54,8 @@ public static class RobotPages
         {
             var slug = Slug(bot.Name);
             var display = Md.DisplayName(bot.Name);
+            var hasClass = (bot.CatFlags & (BitRunner | BitCrawler | BitMech | BitHeavyMech | BitWalker)) != 0;
+            var isPlaceholder = !hasClass && bot.Volume <= 0;
             var (combat, speed, armor, storage, cost) = ClassRating(bot.CatFlags);
             var cls = ClassName(bot.CatFlags);
             var botComps = components.Where(c => c.Def == bot.Id).ToList();
@@ -77,23 +79,32 @@ public static class RobotPages
             sb.Append("<div class=\"robot-card-info\">\n");
             sb.Append("<div class=\"robot-card-header\">\n");
             sb.Append($"<div class=\"robot-card-name\">{display}</div>\n");
-            sb.Append($"<div class=\"robot-card-size\">{bot.Volume:0.#}</div>\n");
+            sb.Append($"<div class=\"robot-card-size\">{(isPlaceholder ? "—" : $"{bot.Volume:0.#}")}</div>\n");
             sb.Append("</div>\n");
-            sb.Append($"<ul class=\"robot-card-stats\">\n");
-            sb.Append($"<li><b>{Rating(combat, "⚔")}</b><span>Combat</span></li>\n");
-            sb.Append($"<li><b>{Rating(speed, "»")}</b><span>Speed</span></li>\n");
-            sb.Append($"<li><b>{Rating(armor, "■")}</b><span>Armor</span></li>\n");
-            sb.Append($"<li><b>{Rating(storage, "□")}</b><span>Storage</span></li>\n");
-            sb.Append($"<li><b>{Rating(cost, "$")}</b><span>Cost</span></li>\n");
-            sb.Append($"</ul>\n");
+            if (isPlaceholder)
+            {
+                sb.Append("<ul class=\"robot-card-stats\">\n");
+                sb.Append("<li><b class=\"stat-unknown\">?</b><span>Stats vary by parts</span></li>\n");
+                sb.Append("</ul>\n");
+            }
+            else
+            {
+                sb.Append("<ul class=\"robot-card-stats\">\n");
+                sb.Append($"<li><b>{Rating(combat, "⚔")}</b><span>Combat</span></li>\n");
+                sb.Append($"<li><b>{Rating(speed, "»")}</b><span>Speed</span></li>\n");
+                sb.Append($"<li><b>{Rating(armor, "■")}</b><span>Armor</span></li>\n");
+                sb.Append($"<li><b>{Rating(storage, "□")}</b><span>Storage</span></li>\n");
+                sb.Append($"<li><b>{Rating(cost, "$")}</b><span>Cost</span></li>\n");
+                sb.Append("</ul>\n");
+            }
             sb.Append("</div>\n");
             sb.Append("</div>\n");
             sb.Append("<div class=\"robot-page-props\">\n");
             sb.Append("<table class=\"robot-props-table\">\n");
-            sb.Append($"<tr><td>Class</td><td>{cls}</td></tr>\n");
-            sb.Append($"<tr><td>Size</td><td>{bot.Volume:0.#}</td></tr>\n");
-            sb.Append($"<tr><td>Mass</td><td>{bot.Mass:0.#}</td></tr>\n");
-            sb.Append($"<tr><td>Health</td><td>{bot.Health:0.#}</td></tr>\n");
+            sb.Append($"<tr><td>Class</td><td>{(isPlaceholder ? "—" : cls)}</td></tr>\n");
+            sb.Append($"<tr><td>Size</td><td>{(isPlaceholder ? "—" : $"{bot.Volume:0.#}")}</td></tr>\n");
+            sb.Append($"<tr><td>Mass</td><td>{(isPlaceholder ? "—" : $"{bot.Mass:0.#}")}</td></tr>\n");
+            sb.Append($"<tr><td>Health</td><td>{(isPlaceholder ? "—" : $"{bot.Health:0.#}")}</td></tr>\n");
             if (bot.Tier > 0)
                 sb.Append($"<tr><td>Tier</td><td>T{bot.TierLevel}</td></tr>\n");
             sb.Append($"<tr><td>Purchasable</td><td>{(bot.Purchasable ? "Yes" : "No")}</td></tr>\n");
