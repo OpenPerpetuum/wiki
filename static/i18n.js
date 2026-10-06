@@ -958,7 +958,23 @@
     };
 
 
+    function getLangFromUrl() {
+        var path = window.location.pathname;
+        var m = /^\/([a-z]{2,3}(?:-[A-Z]{2})?)\//.exec(path);
+        if (m) {
+            for (var i = 0; i < LANGS.length; i++) {
+                if (LANGS[i].code === m[1]) return m[1];
+            }
+        }
+        return null;
+    }
+
     function getLang() {
+        var urlLang = getLangFromUrl();
+        if (urlLang) {
+            try { localStorage.setItem('wiki-lang', urlLang); } catch (e) {}
+            return urlLang;
+        }
         try { return localStorage.getItem('wiki-lang') || 'en'; } catch (e) { return 'en'; }
     }
 
