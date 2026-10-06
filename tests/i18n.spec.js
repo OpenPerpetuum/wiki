@@ -111,4 +111,30 @@ test.describe('i18n language switcher', () => {
     await expect(en).toHaveAttribute('aria-pressed', 'true');
     await expect(fr).toHaveAttribute('aria-pressed', 'false');
   });
+
+  test('translated home page has rich HTML cards', async ({ page, baseURL }) => {
+    // Check that a translated home page (French) has the same card structure as English
+    await page.goto(`${baseURL}/fr/`);
+    
+    // World map card
+    const mapCard = page.locator('.home-card-map');
+    await expect(mapCard).toBeVisible();
+    await expect(mapCard).toHaveAttribute('href', '/zones/map/');
+    
+    // Hero cards (robots + fitting)
+    const heroCards = page.locator('.home-card-hero');
+    expect(await heroCards.count()).toBe(2);
+    
+    // Feature cards
+    const allCards = page.locator('.home-card');
+    expect(await allCards.count()).toBeGreaterThanOrEqual(10);
+    
+    // Cards have data-i18n attributes for translation
+    const i18nCards = page.locator('[data-i18n^="home_"]');
+    expect(await i18nCards.count()).toBeGreaterThanOrEqual(10);
+    
+    // World map thumbnail image
+    const mapImg = mapCard.locator('img');
+    await expect(mapImg).toHaveAttribute('src', '/world-map-thumb.png');
+  });
 });
