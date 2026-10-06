@@ -36,8 +36,8 @@ test.describe('i18n language switcher', () => {
   });
 
   test('switching to French on a page WITHOUT a translation swaps chrome only', async ({ page, baseURL }) => {
-    // /features/getting-started/ has no French equivalent
-    await page.goto(`${baseURL}/features/getting-started/`);
+    // /content/items/titanium/ is a generated page with no French equivalent
+    await page.goto(`${baseURL}/content/items/titanium/`);
     await clearLang(page);
     await page.reload();
     await page.locator('#lang-toggle').click();
@@ -51,7 +51,7 @@ test.describe('i18n language switcher', () => {
     await expect(page.locator('#wiki-search')).toHaveAttribute('placeholder', /Rechercher/);
     await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
     // Content is still English
-    await expect(page.locator('h1')).toContainText('Getting started');
+    await expect(page.locator('h1')).toContainText('Titanium');
   });
 
   test('switching back to English from a French page navigates', async ({ page, baseURL }) => {
