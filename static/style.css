@@ -746,6 +746,15 @@ html[data-theme="light"][data-cb="achro"] {
     border: 1px solid var(--border);
     border-radius: 10px;
 }
+.zonemap-wrap .zonemap-reset { display: none; }
+/* Disable interaction on static diagrams (mermaid, extension tree, tech tree) */
+.mermaid, .ext-cat-tree, .tech-tree-svg {
+    pointer-events: none;
+    user-select: none;
+}
+.mermaid .zoommap-reset, .ext-cat-tree .zoommap-reset, .tech-tree-svg .zoommap-reset {
+    display: none !important;
+}
 .zonemap {
     display: block;
     width: 100%;
@@ -1497,11 +1506,32 @@ html[data-mode="dev"] h1 { color: #b4ffc9; text-shadow: 0 0 12px rgba(0, 255, 65
 }
 
 /* ── World map interactive legend ─────────────────────────────────────── */
-.map-legend {
+.map-legend-toggle {
     position: absolute;
     top: 0.6rem;
-    right: 3rem;
-    z-index: 3;
+    right: 0.6rem;
+    z-index: 4;
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--fg);
+    cursor: pointer;
+}
+.map-legend-toggle:hover { border-color: var(--accent); color: var(--accent); }
+.map-legend-backdrop {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: rgba(0,0,0,0.3);
+}
+.map-legend {
+    position: absolute;
+    top: 2.4rem;
+    right: 0.6rem;
+    z-index: 5;
     background: var(--bg-soft);
     border: 1px solid var(--border);
     border-radius: 8px;
@@ -1580,8 +1610,42 @@ html[data-mode="dev"] h1 { color: #b4ffc9; text-shadow: 0 0 12px rgba(0, 255, 65
     overflow: hidden;
     background: var(--bg2);
     transition: border-color 0.2s;
+    text-decoration: none;
+    color: inherit;
 }
 .robot-card:hover { border-color: var(--accent); }
+
+/* Robot detail page: card + properties side by side */
+.robot-page-top {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+}
+.robot-page-card {
+    flex: 0 1 48%;
+    min-width: 260px;
+    max-width: 50%;
+}
+.robot-page-props {
+    flex: 1;
+    min-width: 200px;
+    font-size: 0.85rem;
+}
+.robot-props-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+}
+.robot-props-table td {
+    padding: 0.3rem 0.5rem;
+    border-bottom: 1px solid var(--border);
+}
+.robot-props-table td:first-child {
+    color: var(--muted);
+    width: 40%;
+}
 .robot-card-img {
     display: flex;
     align-items: center;
@@ -1643,11 +1707,10 @@ html[data-mode="dev"] h1 { color: #b4ffc9; text-shadow: 0 0 12px rgba(0, 255, 65
     letter-spacing: 0.03em;
     min-width: 5.2em;
     flex-shrink: 0;
-    text-align: left;
+    text-align: right;
 }
 .robot-card-stats li span {
     text-align: left;
-    flex: 1;
 }
 
 /* ── Robot class ratings table ────────────────────────────────────────── */

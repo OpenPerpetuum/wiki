@@ -280,6 +280,13 @@
                     </div>
                     <ul class="nav-sub">
                         <li><a href="/content/techtree/" data-i18n="nav_content_techtree">{{ config.extra.ui.nav_content_techtree }}</a></li>
+                        <li><a href="/content/techtree/groups/common1/">Common 1</a></li>
+                        <li><a href="/content/techtree/groups/common2/">Common 2</a></li>
+                        <li><a href="/content/techtree/groups/indy/">Industrial</a></li>
+                        <li><a href="/content/techtree/groups/nuimqol/">Nuimqol</a></li>
+                        <li><a href="/content/techtree/groups/pbs/">PBS</a></li>
+                        <li><a href="/content/techtree/groups/pelistal/">Pelistal</a></li>
+                        <li><a href="/content/techtree/groups/thelodica/">Thelodica</a></li>
                     </ul>
                 </li>
                 <li class="nav-has-sub">
@@ -475,7 +482,6 @@
                 else root.setAttribute("data-cb", c);
                 try { localStorage.setItem("wiki-cb", c); } catch (e3) {}
                 cbCurrent();
-                setOpen(false);
             });
         });
         cbCurrent();

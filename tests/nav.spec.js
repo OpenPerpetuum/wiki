@@ -239,7 +239,7 @@ test('extensions page: Character sub-list auto-opens, Extensions highlighted', a
 test('tech tree page: Research sub-list auto-opens, Tech tree highlighted', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/content/techtree/`);
   const researchSub = page.locator('.sidenav li.nav-has-sub:has(a[href="/features/research/"]) > .nav-sub');
-  expect(await researchSub.locator('a:visible').count()).toBe(1);
+  expect(await researchSub.locator('a:visible').count()).toBeGreaterThanOrEqual(8);
   expect(await page.locator('.sidenav a.active').textContent()).toBe('Tech tree');
 });
 

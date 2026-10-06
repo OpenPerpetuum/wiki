@@ -25,56 +25,40 @@ The first set of standard (non-faction) modules available to every player.
 
 **16 nodes** — everything that descends from [Standard small remote armor repairer](/content/techtree/nodes/standard-small-remote-armor-repairer/).
 
-```mermaid
-graph TD
-    n21["Standard small remote armor repairer"]
-    n22["Standard medium remote armor repairer"]
-    n25["Standard chemical armor"]
-    n702["Avaror GD-200 small remote armor repairer"]
-    n703["Iuviar small remote armor repairer"]
-    n704["PPDT-Apadisiator small remote armor repairer"]
-    n705["Avaror GD-800 medium remote armor repairer"]
-    n706["Basio medium remote armor repairer"]
-    n707["ALS medium remote armor repairer"]
-    n712["Delloy s2s chemical armor"]
-    n716["RePro I. chemical armor"]
-    n720["Impetar chemical armor"]
-    n8788["Standard Adaptive Alloy"]
-    n8790["T2 Adaptive Alloy"]
-    n8793["T3 Adaptive Alloy"]
-    n8796["T4 Adaptive Alloy"]
-    n702 --> n22
-    n21 --> n25
-    n21 --> n702
-    n702 --> n703
-    n703 --> n704
-    n22 --> n705
-    n705 --> n706
-    n706 --> n707
-    n25 --> n712
-    n712 --> n716
-    n716 --> n720
-    n712 --> n8788
-    n8788 --> n8790
-    n8790 --> n8793
-    n8793 --> n8796
-    click n21 "/content/techtree/nodes/standard-small-remote-armor-repairer/" "Standard small remote armor repairer"
-    click n22 "/content/techtree/nodes/standard-medium-remote-armor-repairer/" "Standard medium remote armor repairer"
-    click n25 "/content/techtree/nodes/standard-chm-armor-hardener/" "Standard chemical armor"
-    click n702 "/content/techtree/nodes/named1-small-remote-armor-repairer/" "Avaror GD-200 small remote armor repairer"
-    click n703 "/content/techtree/nodes/named2-small-remote-armor-repairer/" "Iuviar small remote armor repairer"
-    click n704 "/content/techtree/nodes/named3-small-remote-armor-repairer/" "PPDT-Apadisiator small remote armor repairer"
-    click n705 "/content/techtree/nodes/named1-medium-remote-armor-repairer/" "Avaror GD-800 medium remote armor repairer"
-    click n706 "/content/techtree/nodes/named2-medium-remote-armor-repairer/" "Basio medium remote armor repairer"
-    click n707 "/content/techtree/nodes/named3-medium-remote-armor-repairer/" "ALS medium remote armor repairer"
-    click n712 "/content/techtree/nodes/named1-chm-armor-hardener/" "Delloy s2s chemical armor"
-    click n716 "/content/techtree/nodes/named2-chm-armor-hardener/" "RePro I. chemical armor"
-    click n720 "/content/techtree/nodes/named3-chm-armor-hardener/" "Impetar chemical armor"
-    click n8788 "/content/techtree/nodes/standard-adaptive-alloy/" "Standard Adaptive Alloy"
-    click n8790 "/content/techtree/nodes/named1-adaptive-alloy/" "T2 Adaptive Alloy"
-    click n8793 "/content/techtree/nodes/named2-adaptive-alloy/" "T3 Adaptive Alloy"
-    click n8796 "/content/techtree/nodes/named3-adaptive-alloy/" "T4 Adaptive Alloy"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 592" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="920" height="592" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <line x1="290" y1="142" x2="140" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-10" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="290" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="440" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="228" x2="440" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="228" x2="140" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="314" x2="140" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="400" x2="140" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="-10" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="-160" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="314" x2="-160" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="140" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="314" x2="140" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="400" x2="140" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="486" x2="140" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <g><a href="/content/techtree/nodes/standard-small-remote-armor-repairer/"><title>Standard small remote armor repairer</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard small remote armor rep…</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-medium-remote-armor-repairer/"><title>Standard medium remote armor repairer</title><rect x="0" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard medium remote armor re…</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-chm-armor-hardener/"><title>Standard chemical armor</title><rect x="-150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard chemical armor</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-small-remote-armor-repairer/"><title>Avaror GD-200 small remote armor repairer</title><rect x="150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Avaror GD-200 small remote armo…</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-small-remote-armor-repairer/"><title>Iuviar small remote armor repairer</title><rect x="300" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Iuviar small remote armor repairer</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-small-remote-armor-repairer/"><title>PPDT-Apadisiator small remote armor repairer</title><rect x="300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">PPDT-Apadisiator small remote a…</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-medium-remote-armor-repairer/"><title>Avaror GD-800 medium remote armor repairer</title><rect x="0" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Avaror GD-800 medium remote arm…</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-medium-remote-armor-repairer/"><title>Basio medium remote armor repairer</title><rect x="0" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Basio medium remote armor repairer</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-medium-remote-armor-repairer/"><title>ALS medium remote armor repairer</title><rect x="0" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">ALS medium remote armor repairer</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-chm-armor-hardener/"><title>Delloy s2s chemical armor</title><rect x="-150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Delloy s2s chemical armor</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-chm-armor-hardener/"><title>RePro I. chemical armor</title><rect x="-300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">RePro I. chemical armor</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-chm-armor-hardener/"><title>Impetar chemical armor</title><rect x="-300" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Impetar chemical armor</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-adaptive-alloy/"><title>Standard Adaptive Alloy</title><rect x="0" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard Adaptive Alloy</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-adaptive-alloy/"><title>T2 Adaptive Alloy</title><rect x="0" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">T2 Adaptive Alloy</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-adaptive-alloy/"><title>T3 Adaptive Alloy</title><rect x="0" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">T3 Adaptive Alloy</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-adaptive-alloy/"><title>T4 Adaptive Alloy</title><rect x="0" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">T4 Adaptive Alloy</text></a></g>
+</svg>
 
 <a id="line-60"></a>
 
@@ -82,146 +66,100 @@ graph TD
 
 **46 nodes** — everything that descends from [Standard light autocannon](/content/techtree/nodes/standard-small-autocannon/).
 
-```mermaid
-graph TD
-    n60["Standard light autocannon"]
-    n61["Standard medium machine gun"]
-    n62["Standard Hell Cannon"]
-    n259["Small armor-piercing bullet"]
-    n260["Small metal-ceramic bullet"]
-    n261["Small composite bullet"]
-    n262["Small chemoactive bullet"]
-    n263["Medium armor-piercing bullet"]
-    n264["Medium metal-ceramic bullet"]
-    n265["Medium composite bullet"]
-    n266["Medium chemoactive bullet"]
-    n267["Ammo Hell Cannon A"]
-    n268["Ammo Hell Cannon B"]
-    n269["Ammo Hell Cannon C"]
-    n270["Ammo Hell Cannon D"]
-    n840["Malleus light autocannon"]
-    n841["Senner Carbine light autocannon"]
-    n842["Astoc M45 light autocannon"]
-    n843["Grenber 28d medium machine gun"]
-    n844[".5s Hastex medium machine gun"]
-    n845["Torrex-G17 medium machine gun"]
-    n846["T2 Hell Cannon"]
-    n847["T3 Hell Cannon"]
-    n848["T4 Hell Cannon"]
-    n912["Standard firearm tuning"]
-    n933["Diathel-Subperis firearm tuning"]
-    n934["Plasmidwad-9000 firearm tuning"]
-    n935["DVT-800g firearm tuning"]
-    n1004["Standard medium autocannon"]
-    n1005["Standard Raven Cannon"]
-    n1030["GTRB medium autocannon"]
-    n1031["Astoc M75 medium autocannon"]
-    n1032["Znatvoy-Berjiar-IA medium autocannon"]
-    n1033["T2 Raven Cannon"]
-    n1034["T3 Raven Cannon"]
-    n1035["T4 Raven Cannon"]
-    n3257["Standard weapon stabilizer"]
-    n3382["Kobel 450-TZ weapon stabilizer"]
-    n3383["Sharpsy weapon stabilizer"]
-    n3384["Kobel 300-XZ weapon stabilizer"]
-    n8893["Ammo Raven Cannon A"]
-    n8894["Ammo Raven Cannon B"]
-    n8895["Ammo Raven Cannon C"]
-    n8896["Ammo Raven Cannon D"]
-    n8928["Ammo Hell Cannon T"]
-    n8931["Ammo Raven Cannon T"]
-    n840 --> n61
-    n844 --> n62
-    n60 --> n259
-    n259 --> n260
-    n259 --> n261
-    n259 --> n262
-    n61 --> n263
-    n263 --> n264
-    n263 --> n265
-    n263 --> n266
-    n62 --> n267
-    n267 --> n268
-    n267 --> n269
-    n267 --> n270
-    n60 --> n840
-    n840 --> n841
-    n841 --> n842
-    n61 --> n843
-    n843 --> n844
-    n844 --> n845
-    n62 --> n846
-    n846 --> n847
-    n847 --> n848
-    n60 --> n912
-    n912 --> n933
-    n933 --> n934
-    n934 --> n935
-    n843 --> n1004
-    n1004 --> n1005
-    n1004 --> n1030
-    n1030 --> n1031
-    n1031 --> n1032
-    n1005 --> n1033
-    n1033 --> n1034
-    n1034 --> n1035
-    n60 --> n3257
-    n3257 --> n3382
-    n3382 --> n3383
-    n3383 --> n3384
-    n1005 --> n8893
-    n8893 --> n8894
-    n8893 --> n8895
-    n8893 --> n8896
-    n270 --> n8928
-    n8896 --> n8931
-    click n60 "/content/techtree/nodes/standard-small-autocannon/" "Standard light autocannon"
-    click n61 "/content/techtree/nodes/standard-medium-autocannon/" "Standard medium machine gun"
-    click n62 "/content/techtree/nodes/standard-hell-cannon/" "Standard Hell Cannon"
-    click n259 "/content/techtree/nodes/ammo-small-projectile-a/" "Small armor-piercing bullet"
-    click n260 "/content/techtree/nodes/ammo-small-projectile-b/" "Small metal-ceramic bullet"
-    click n261 "/content/techtree/nodes/ammo-small-projectile-c/" "Small composite bullet"
-    click n262 "/content/techtree/nodes/ammo-small-projectile-d/" "Small chemoactive bullet"
-    click n263 "/content/techtree/nodes/ammo-medium-projectile-a/" "Medium armor-piercing bullet"
-    click n264 "/content/techtree/nodes/ammo-medium-projectile-b/" "Medium metal-ceramic bullet"
-    click n265 "/content/techtree/nodes/ammo-medium-projectile-c/" "Medium composite bullet"
-    click n266 "/content/techtree/nodes/ammo-medium-projectile-d/" "Medium chemoactive bullet"
-    click n267 "/content/techtree/nodes/ammo-hell-cannon-a/" "Ammo Hell Cannon A"
-    click n268 "/content/techtree/nodes/ammo-hell-cannon-b/" "Ammo Hell Cannon B"
-    click n269 "/content/techtree/nodes/ammo-hell-cannon-c/" "Ammo Hell Cannon C"
-    click n270 "/content/techtree/nodes/ammo-hell-cannon-d/" "Ammo Hell Cannon D"
-    click n840 "/content/techtree/nodes/named1-small-autocannon/" "Malleus light autocannon"
-    click n841 "/content/techtree/nodes/named2-small-autocannon/" "Senner Carbine light autocannon"
-    click n842 "/content/techtree/nodes/named3-small-autocannon/" "Astoc M45 light autocannon"
-    click n843 "/content/techtree/nodes/named1-medium-autocannon/" "Grenber 28d medium machine gun"
-    click n844 "/content/techtree/nodes/named2-medium-autocannon/" ".5s Hastex medium machine gun"
-    click n845 "/content/techtree/nodes/named3-medium-autocannon/" "Torrex-G17 medium machine gun"
-    click n846 "/content/techtree/nodes/named1-hell-cannon/" "T2 Hell Cannon"
-    click n847 "/content/techtree/nodes/named2-hell-cannon/" "T3 Hell Cannon"
-    click n848 "/content/techtree/nodes/named3-hell-cannon/" "T4 Hell Cannon"
-    click n912 "/content/techtree/nodes/standard-damage-mod-projectile/" "Standard firearm tuning"
-    click n933 "/content/techtree/nodes/named1-damage-mod-projectile/" "Diathel-Subperis firearm tuning"
-    click n934 "/content/techtree/nodes/named2-damage-mod-projectile/" "Plasmidwad-9000 firearm tuning"
-    click n935 "/content/techtree/nodes/named3-damage-mod-projectile/" "DVT-800g firearm tuning"
-    click n1004 "/content/techtree/nodes/longrange-standard-medium-autocannon/" "Standard medium autocannon"
-    click n1005 "/content/techtree/nodes/standard-raven-cannon/" "Standard Raven Cannon"
-    click n1030 "/content/techtree/nodes/named1-longrange-medium-autocannon/" "GTRB medium autocannon"
-    click n1031 "/content/techtree/nodes/named2-longrange-medium-autocannon/" "Astoc M75 medium autocannon"
-    click n1032 "/content/techtree/nodes/named3-longrange-medium-autocannon/" "Znatvoy-Berjiar-IA medium autocannon"
-    click n1033 "/content/techtree/nodes/named1-raven-cannon/" "T2 Raven Cannon"
-    click n1034 "/content/techtree/nodes/named2-raven-cannon/" "T3 Raven Cannon"
-    click n1035 "/content/techtree/nodes/named3-raven-cannon/" "T4 Raven Cannon"
-    click n3257 "/content/techtree/nodes/standard-weapon-stabilizer/" "Standard weapon stabilizer"
-    click n3382 "/content/techtree/nodes/named1-weapon-stabilizer/" "Kobel 450-TZ weapon stabilizer"
-    click n3383 "/content/techtree/nodes/named2-weapon-stabilizer/" "Sharpsy weapon stabilizer"
-    click n3384 "/content/techtree/nodes/named3-weapon-stabilizer/" "Kobel 300-XZ weapon stabilizer"
-    click n8893 "/content/techtree/nodes/ammo-raven-cannon-a/" "Ammo Raven Cannon A"
-    click n8894 "/content/techtree/nodes/ammo-raven-cannon-b/" "Ammo Raven Cannon B"
-    click n8895 "/content/techtree/nodes/ammo-raven-cannon-c/" "Ammo Raven Cannon C"
-    click n8896 "/content/techtree/nodes/ammo-raven-cannon-d/" "Ammo Raven Cannon D"
-    click n8928 "/content/techtree/nodes/ammo-hell-cannon-t/" "Ammo Hell Cannon T"
-    click n8931 "/content/techtree/nodes/ammo-raven-cannon-t/" "Ammo Raven Cannon T"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2120 764" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="2120" height="764" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <line x1="-10" y1="142" x2="-160" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="400" x2="-310" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-310" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="142" x2="-610" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="142" x2="-310" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="142" x2="-10" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="228" x2="-310" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="314" x2="-610" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="314" x2="-310" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="314" x2="-10" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="486" x2="-460" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-460" y1="572" x2="-760" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-460" y1="572" x2="-460" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-460" y1="572" x2="-160" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-10" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="140" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="228" x2="140" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="228" x2="-10" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="314" x2="-160" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="400" x2="-10" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="486" x2="-160" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="572" x2="-160" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="658" x2="-160" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="290" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="290" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="228" x2="290" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="314" x2="290" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="314" x2="140" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="400" x2="-10" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="400" x2="290" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="486" x2="290" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="572" x2="290" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="486" x2="-160" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="572" x2="-160" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="658" x2="-160" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="590" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="142" x2="590" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="228" x2="590" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="314" x2="590" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="486" x2="140" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="572" x2="-160" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="572" x2="140" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="572" x2="440" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="658" x2="-160" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="658" x2="440" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <g><a href="/content/techtree/nodes/standard-small-autocannon/"><title>Standard light autocannon</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard light autocannon</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-medium-autocannon/"><title>Standard medium machine gun</title><rect x="-300" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard medium machine gun</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-hell-cannon/"><title>Standard Hell Cannon</title><rect x="-450" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard Hell Cannon</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-small-projectile-a/"><title>Small armor-piercing bullet</title><rect x="-450" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Small armor-piercing bullet</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-small-projectile-b/"><title>Small metal-ceramic bullet</title><rect x="-750" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-740" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Small metal-ceramic bullet</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-small-projectile-c/"><title>Small composite bullet</title><rect x="-450" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Small composite bullet</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-small-projectile-d/"><title>Small chemoactive bullet</title><rect x="-150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Small chemoactive bullet</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-medium-projectile-a/"><title>Medium armor-piercing bullet</title><rect x="-450" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Medium armor-piercing bullet</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-medium-projectile-b/"><title>Medium metal-ceramic bullet</title><rect x="-750" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-740" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Medium metal-ceramic bullet</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-medium-projectile-c/"><title>Medium composite bullet</title><rect x="-450" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Medium composite bullet</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-medium-projectile-d/"><title>Medium chemoactive bullet</title><rect x="-150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Medium chemoactive bullet</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-hell-cannon-a/"><title>Ammo Hell Cannon A</title><rect x="-600" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-590" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Hell Cannon A</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-hell-cannon-b/"><title>Ammo Hell Cannon B</title><rect x="-900" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-890" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Hell Cannon B</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-hell-cannon-c/"><title>Ammo Hell Cannon C</title><rect x="-600" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-590" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Hell Cannon C</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-hell-cannon-d/"><title>Ammo Hell Cannon D</title><rect x="-300" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Hell Cannon D</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-small-autocannon/"><title>Malleus light autocannon</title><rect x="-150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Malleus light autocannon</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-small-autocannon/"><title>Senner Carbine light autocannon</title><rect x="0" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Senner Carbine light autocannon</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-small-autocannon/"><title>Astoc M45 light autocannon</title><rect x="0" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Astoc M45 light autocannon</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-medium-autocannon/"><title>Grenber 28d medium machine gun</title><rect x="-150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Grenber 28d medium machine gun</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-medium-autocannon/"><title>.5s Hastex medium machine gun</title><rect x="-300" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">.5s Hastex medium machine gun</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-medium-autocannon/"><title>Torrex-G17 medium machine gun</title><rect x="-150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Torrex-G17 medium machine gun</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-hell-cannon/"><title>T2 Hell Cannon</title><rect x="-300" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">T2 Hell Cannon</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-hell-cannon/"><title>T3 Hell Cannon</title><rect x="-300" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">T3 Hell Cannon</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-hell-cannon/"><title>T4 Hell Cannon</title><rect x="-300" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">T4 Hell Cannon</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-damage-mod-projectile/"><title>Standard firearm tuning</title><rect x="150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard firearm tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-damage-mod-projectile/"><title>Diathel-Subperis firearm tuning</title><rect x="150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Diathel-Subperis firearm tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-damage-mod-projectile/"><title>Plasmidwad-9000 firearm tuning</title><rect x="150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Plasmidwad-9000 firearm tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-damage-mod-projectile/"><title>DVT-800g firearm tuning</title><rect x="150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">DVT-800g firearm tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/longrange-standard-medium-autocannon/"><title>Standard medium autocannon</title><rect x="0" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard medium autocannon</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-raven-cannon/"><title>Standard Raven Cannon</title><rect x="-150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard Raven Cannon</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-longrange-medium-autocannon/"><title>GTRB medium autocannon</title><rect x="150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">GTRB medium autocannon</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-longrange-medium-autocannon/"><title>Astoc M75 medium autocannon</title><rect x="150" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Astoc M75 medium autocannon</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-longrange-medium-autocannon/"><title>Znatvoy-Berjiar-IA medium autocannon</title><rect x="150" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Znatvoy-Berjiar-IA medium autoc…</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-raven-cannon/"><title>T2 Raven Cannon</title><rect x="-300" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">T2 Raven Cannon</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-raven-cannon/"><title>T3 Raven Cannon</title><rect x="-300" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">T3 Raven Cannon</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-raven-cannon/"><title>T4 Raven Cannon</title><rect x="-300" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">T4 Raven Cannon</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-weapon-stabilizer/"><title>Standard weapon stabilizer</title><rect x="450" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard weapon stabilizer</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-weapon-stabilizer/"><title>Kobel 450-TZ weapon stabilizer</title><rect x="450" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Kobel 450-TZ weapon stabilizer</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-weapon-stabilizer/"><title>Sharpsy weapon stabilizer</title><rect x="450" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Sharpsy weapon stabilizer</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-weapon-stabilizer/"><title>Kobel 300-XZ weapon stabilizer</title><rect x="450" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Kobel 300-XZ weapon stabilizer</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-raven-cannon-a/"><title>Ammo Raven Cannon A</title><rect x="0" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Raven Cannon A</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-raven-cannon-b/"><title>Ammo Raven Cannon B</title><rect x="-300" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Raven Cannon B</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-raven-cannon-c/"><title>Ammo Raven Cannon C</title><rect x="0" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Raven Cannon C</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-raven-cannon-d/"><title>Ammo Raven Cannon D</title><rect x="300" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Raven Cannon D</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-hell-cannon-t/"><title>Ammo Hell Cannon T</title><rect x="-300" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Hell Cannon T</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-raven-cannon-t/"><title>Ammo Raven Cannon T</title><rect x="300" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Raven Cannon T</text></a></g>
+</svg>
 
 <a id="line-298"></a>
 
@@ -229,53 +167,38 @@ graph TD
 
 **15 nodes** — everything that descends from [Standard lightweight frame](/content/techtree/nodes/standard-mass-reductor/).
 
-```mermaid
-graph TD
-    n298["Standard lightweight frame"]
-    n1402["MR1000-Boogey lightweight frame"]
-    n1403["Eizbiogh-dfg20 lightweight frame"]
-    n1404["MRE 3000 lightweight frame"]
-    n1484["Sequer"]
-    n2549["Standard evasive module"]
-    n2552["Standard evasive NEXUS module"]
-    n2565["R4S-S evasive module"]
-    n2566["Deflectik evasive module"]
-    n2567["Yridan RCD evasive module"]
-    n2589["Oshbo evasive NEXUS module"]
-    n2590["Pareduit evasive NEXUS module"]
-    n2591["R4S-A evasive NEXUS module"]
-    n2866["Lithus"]
-    n4444["Scarab"]
-    n298 --> n1402
-    n1402 --> n1403
-    n1403 --> n1404
-    n298 --> n1484
-    n298 --> n2549
-    n2565 --> n2552
-    n2549 --> n2565
-    n2565 --> n2566
-    n2566 --> n2567
-    n2552 --> n2589
-    n2589 --> n2590
-    n2590 --> n2591
-    n1403 --> n2866
-    n1404 --> n4444
-    click n298 "/content/techtree/nodes/standard-mass-reductor/" "Standard lightweight frame"
-    click n1402 "/content/techtree/nodes/named1-mass-reductor/" "MR1000-Boogey lightweight frame"
-    click n1403 "/content/techtree/nodes/named2-mass-reductor/" "Eizbiogh-dfg20 lightweight frame"
-    click n1404 "/content/techtree/nodes/named3-mass-reductor/" "MRE 3000 lightweight frame"
-    click n1484 "/content/techtree/nodes/sequer/" "Sequer"
-    click n2549 "/content/techtree/nodes/standard-maneuvering-upgrade/" "Standard evasive module"
-    click n2552 "/content/techtree/nodes/standard-gang-assist-coordinated-maneuvering-module/" "Standard evasive NEXUS module"
-    click n2565 "/content/techtree/nodes/named1-maneuvering-upgrade/" "R4S-S evasive module"
-    click n2566 "/content/techtree/nodes/named2-maneuvering-upgrade/" "Deflectik evasive module"
-    click n2567 "/content/techtree/nodes/named3-maneuvering-upgrade/" "Yridan RCD evasive module"
-    click n2589 "/content/techtree/nodes/named1-gang-assist-coordinated-maneuvering-module/" "Oshbo evasive NEXUS module"
-    click n2590 "/content/techtree/nodes/named2-gang-assist-coordinated-maneuvering-module/" "Pareduit evasive NEXUS module"
-    click n2591 "/content/techtree/nodes/named3-gang-assist-coordinated-maneuvering-module/" "R4S-A evasive NEXUS module"
-    click n2866 "/content/techtree/nodes/lithus/" "Lithus"
-    click n4444 "/content/techtree/nodes/scarab/" "Scarab"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 592" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="770" height="592" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <line x1="140" y1="56" x2="-160" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="142" x2="-160" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="228" x2="-310" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="140" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="440" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="228" x2="290" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="142" x2="440" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="228" x2="590" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="314" x2="590" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="314" x2="290" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="290" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="486" x2="290" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="228" x2="-10" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="314" x2="-310" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <g><a href="/content/techtree/nodes/standard-mass-reductor/"><title>Standard lightweight frame</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard lightweight frame</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-mass-reductor/"><title>MR1000-Boogey lightweight frame</title><rect x="-300" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">MR1000-Boogey lightweight frame</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-mass-reductor/"><title>Eizbiogh-dfg20 lightweight frame</title><rect x="-300" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Eizbiogh-dfg20 lightweight frame</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-mass-reductor/"><title>MRE 3000 lightweight frame</title><rect x="-450" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">MRE 3000 lightweight frame</text></a></g>
+  <g><a href="/content/techtree/nodes/sequer/"><title>Sequer</title><rect x="0" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Sequer</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-maneuvering-upgrade/"><title>Standard evasive module</title><rect x="300" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard evasive module</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-gang-assist-coordinated-maneuvering-module/"><title>Standard evasive NEXUS module</title><rect x="150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard evasive NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-maneuvering-upgrade/"><title>R4S-S evasive module</title><rect x="300" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">R4S-S evasive module</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-maneuvering-upgrade/"><title>Deflectik evasive module</title><rect x="450" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Deflectik evasive module</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-maneuvering-upgrade/"><title>Yridan RCD evasive module</title><rect x="450" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Yridan RCD evasive module</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-gang-assist-coordinated-maneuvering-module/"><title>Oshbo evasive NEXUS module</title><rect x="150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Oshbo evasive NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-gang-assist-coordinated-maneuvering-module/"><title>Pareduit evasive NEXUS module</title><rect x="150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Pareduit evasive NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-gang-assist-coordinated-maneuvering-module/"><title>R4S-A evasive NEXUS module</title><rect x="150" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">R4S-A evasive NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/lithus/"><title>Lithus</title><rect x="-150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Lithus</text></a></g>
+  <g><a href="/content/techtree/nodes/scarab/"><title>Scarab</title><rect x="-450" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Scarab</text></a></g>
+</svg>
 
 <a id="line-8888"></a>
 
@@ -283,11 +206,10 @@ graph TD
 
 **1 node** — everything that descends from [Ares](/content/techtree/nodes/ares/).
 
-```mermaid
-graph TD
-    n8888["Ares"]
-    click n8888 "/content/techtree/nodes/ares/" "Ares"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 76" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="320" height="76" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <g><a href="/content/techtree/nodes/ares/"><title>Ares</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ares</text></a></g>
+</svg>
 
 ## Nodes (all)
 

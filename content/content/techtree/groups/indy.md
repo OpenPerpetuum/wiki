@@ -24,116 +24,80 @@ Industrial research: reactor boosters and the modules that keep production lines
 
 **36 nodes** — everything that descends from [Standard small miner module](/content/techtree/nodes/standard-small-driller/).
 
-```mermaid
-graph TD
-    n53["Standard small miner module"]
-    n54["Standard medium miner module"]
-    n56["Standard industrial tuning"]
-    n197["Argano"]
-    n209["Termis"]
-    n217["Riveler"]
-    n228["Standard geoscanner"]
-    n780["Ovostec-Chisomel geoscanner"]
-    n781["Syverz geoscanner"]
-    n782["Eksplor-q3000 geoscanner"]
-    n798["Biroter 5050 small miner module"]
-    n799["Sublimator Low-D small miner module"]
-    n800["Scraper-990 small miner module"]
-    n801["MMA v12-'Alkhemir' medium miner module"]
-    n802["Sublimator Mid-D medium miner module"]
-    n803["Ovostec-Edger medium miner module"]
-    n804["Piog Forgekit AI industrial tuning"]
-    n805["Fraktura SCV industrial tuning"]
-    n806["Piog Forgekit BW1 industrial tuning"]
-    n875["Standard industrial NEXUS module"]
-    n888["Miner charge (titan ore)"]
-    n903["Miner charge (HDT)"]
-    n904["Miner charge (liquizit)"]
-    n905["Miner charge (imentium)"]
-    n906["Miner charge (stermonit)"]
-    n907["Miner charge (epriton)"]
-    n2558["Standard fast extractor NEXUS module"]
-    n2574["Thobys industrial NEXUS module"]
-    n2575["EE-D220 industrial NEXUS module"]
-    n2576["Rypoa industrial NEXUS module"]
-    n2604["AE-D250 fast extractor NEXUS module"]
-    n2605["Matriot-II fast extractor NEXUS module"]
-    n2606["Matriot-IV fast extractor NEXUS module"]
-    n4804["Miner charge (silgium)"]
-    n4805["Miner charge (colixum)"]
-    n5846["Ammo Mining Fluxore"]
-    n798 --> n54
-    n801 --> n56
-    n53 --> n197
-    n54 --> n209
-    n802 --> n217
-    n53 --> n228
-    n228 --> n780
-    n780 --> n781
-    n781 --> n782
-    n53 --> n798
-    n798 --> n799
-    n799 --> n800
-    n54 --> n801
-    n801 --> n802
-    n802 --> n803
-    n56 --> n804
-    n804 --> n805
-    n805 --> n806
-    n801 --> n875
-    n53 --> n888
-    n888 --> n903
-    n888 --> n904
-    n903 --> n905
-    n903 --> n906
-    n904 --> n907
-    n875 --> n2558
-    n875 --> n2574
-    n2574 --> n2575
-    n2575 --> n2576
-    n2558 --> n2604
-    n2604 --> n2605
-    n2605 --> n2606
-    n903 --> n4804
-    n907 --> n4805
-    n904 --> n5846
-    click n53 "/content/techtree/nodes/standard-small-driller/" "Standard small miner module"
-    click n54 "/content/techtree/nodes/standard-medium-driller/" "Standard medium miner module"
-    click n56 "/content/techtree/nodes/standard-mining-upgrade/" "Standard industrial tuning"
-    click n197 "/content/techtree/nodes/argano/" "Argano"
-    click n209 "/content/techtree/nodes/termis/" "Termis"
-    click n217 "/content/techtree/nodes/riveler/" "Riveler"
-    click n228 "/content/techtree/nodes/standard-mining-probe-module/" "Standard geoscanner"
-    click n780 "/content/techtree/nodes/named1-mining-probe-module/" "Ovostec-Chisomel geoscanner"
-    click n781 "/content/techtree/nodes/named2-mining-probe-module/" "Syverz geoscanner"
-    click n782 "/content/techtree/nodes/named3-mining-probe-module/" "Eksplor-q3000 geoscanner"
-    click n798 "/content/techtree/nodes/named1-small-driller/" "Biroter 5050 small miner module"
-    click n799 "/content/techtree/nodes/named2-small-driller/" "Sublimator Low-D small miner module"
-    click n800 "/content/techtree/nodes/named3-small-driller/" "Scraper-990 small miner module"
-    click n801 "/content/techtree/nodes/named1-medium-driller/" "MMA v12-'Alkhemir' medium miner module"
-    click n802 "/content/techtree/nodes/named2-medium-driller/" "Sublimator Mid-D medium miner module"
-    click n803 "/content/techtree/nodes/named3-medium-driller/" "Ovostec-Edger medium miner module"
-    click n804 "/content/techtree/nodes/named1-mining-upgrade/" "Piog Forgekit AI industrial tuning"
-    click n805 "/content/techtree/nodes/named2-mining-upgrade/" "Fraktura SCV industrial tuning"
-    click n806 "/content/techtree/nodes/named3-mining-upgrade/" "Piog Forgekit BW1 industrial tuning"
-    click n875 "/content/techtree/nodes/standard-gang-assist-industry-module/" "Standard industrial NEXUS module"
-    click n888 "/content/techtree/nodes/ammo-mining-titan/" "Miner charge (titan ore)"
-    click n903 "/content/techtree/nodes/ammo-mining-crude/" "Miner charge (HDT)"
-    click n904 "/content/techtree/nodes/ammo-mining-liquizit/" "Miner charge (liquizit)"
-    click n905 "/content/techtree/nodes/ammo-mining-imentium/" "Miner charge (imentium)"
-    click n906 "/content/techtree/nodes/ammo-mining-stermonit/" "Miner charge (stermonit)"
-    click n907 "/content/techtree/nodes/ammo-mining-epriton/" "Miner charge (epriton)"
-    click n2558 "/content/techtree/nodes/standard-gang-assist-fast-extraction-module/" "Standard fast extractor NEXUS module"
-    click n2574 "/content/techtree/nodes/named1-gang-assist-industry-module/" "Thobys industrial NEXUS module"
-    click n2575 "/content/techtree/nodes/named2-gang-assist-industry-module/" "EE-D220 industrial NEXUS module"
-    click n2576 "/content/techtree/nodes/named3-gang-assist-industry-module/" "Rypoa industrial NEXUS module"
-    click n2604 "/content/techtree/nodes/named1-gang-assist-fast-extraction-module/" "AE-D250 fast extractor NEXUS module"
-    click n2605 "/content/techtree/nodes/named2-gang-assist-fast-extraction-module/" "Matriot-II fast extractor NEXUS module"
-    click n2606 "/content/techtree/nodes/named3-gang-assist-fast-extraction-module/" "Matriot-IV fast extractor NEXUS module"
-    click n4804 "/content/techtree/nodes/ammo-mining-silgium/" "Miner charge (silgium)"
-    click n4805 "/content/techtree/nodes/ammo-mining-gammaterial/" "Miner charge (colixum)"
-    click n5846 "/content/techtree/nodes/ammo-mining-fluxore/" "Ammo Mining Fluxore"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1220 764" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="1220" height="764" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <line x1="290" y1="142" x2="140" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="314" x2="-10" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-310" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="228" x2="-10" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="140" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-10" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="-10" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="-10" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="314" x2="-10" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="290" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="440" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="228" x2="440" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="228" x2="290" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="314" x2="290" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="440" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="400" x2="-10" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="486" x2="-10" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="572" x2="-10" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="314" x2="590" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="590" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="142" x2="440" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="142" x2="740" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="228" x2="140" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="228" x2="440" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="228" x2="590" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="400" x2="440" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="400" x2="740" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="486" x2="740" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="572" x2="740" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="486" x2="440" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="572" x2="440" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="658" x2="440" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="228" x2="740" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="314" x2="590" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="228" x2="890" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <g><a href="/content/techtree/nodes/standard-small-driller/"><title>Standard small miner module</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard small miner module</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-medium-driller/"><title>Standard medium miner module</title><rect x="0" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard medium miner module</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-mining-upgrade/"><title>Standard industrial tuning</title><rect x="-150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard industrial tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/argano/"><title>Argano</title><rect x="-450" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Argano</text></a></g>
+  <g><a href="/content/techtree/nodes/termis/"><title>Termis</title><rect x="-150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Termis</text></a></g>
+  <g><a href="/content/techtree/nodes/riveler/"><title>Riveler</title><rect x="0" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Riveler</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-mining-probe-module/"><title>Standard geoscanner</title><rect x="-150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard geoscanner</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-mining-probe-module/"><title>Ovostec-Chisomel geoscanner</title><rect x="-150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ovostec-Chisomel geoscanner</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-mining-probe-module/"><title>Syverz geoscanner</title><rect x="-150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Syverz geoscanner</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-mining-probe-module/"><title>Eksplor-q3000 geoscanner</title><rect x="-150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Eksplor-q3000 geoscanner</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-small-driller/"><title>Biroter 5050 small miner module</title><rect x="150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Biroter 5050 small miner module</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-small-driller/"><title>Sublimator Low-D small miner module</title><rect x="300" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Sublimator Low-D small miner mo…</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-small-driller/"><title>Scraper-990 small miner module</title><rect x="300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Scraper-990 small miner module</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-medium-driller/"><title>MMA v12-'Alkhemir' medium miner module</title><rect x="150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">MMA v12-'Alkhemir' medium miner…</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-medium-driller/"><title>Sublimator Mid-D medium miner module</title><rect x="150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Sublimator Mid-D medium miner m…</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-medium-driller/"><title>Ovostec-Edger medium miner module</title><rect x="300" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ovostec-Edger medium miner module</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-mining-upgrade/"><title>Piog Forgekit AI industrial tuning</title><rect x="-150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Piog Forgekit AI industrial tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-mining-upgrade/"><title>Fraktura SCV industrial tuning</title><rect x="-150" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Fraktura SCV industrial tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-mining-upgrade/"><title>Piog Forgekit BW1 industrial tuning</title><rect x="-150" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Piog Forgekit BW1 industrial tu…</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-gang-assist-industry-module/"><title>Standard industrial NEXUS module</title><rect x="450" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard industrial NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-mining-titan/"><title>Miner charge (titan ore)</title><rect x="450" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Miner charge (titan ore)</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-mining-crude/"><title>Miner charge (HDT)</title><rect x="300" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Miner charge (HDT)</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-mining-liquizit/"><title>Miner charge (liquizit)</title><rect x="600" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Miner charge (liquizit)</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-mining-imentium/"><title>Miner charge (imentium)</title><rect x="0" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Miner charge (imentium)</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-mining-stermonit/"><title>Miner charge (stermonit)</title><rect x="300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Miner charge (stermonit)</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-mining-epriton/"><title>Miner charge (epriton)</title><rect x="450" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Miner charge (epriton)</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-gang-assist-fast-extraction-module/"><title>Standard fast extractor NEXUS module</title><rect x="300" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard fast extractor NEXUS m…</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-gang-assist-industry-module/"><title>Thobys industrial NEXUS module</title><rect x="600" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Thobys industrial NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-gang-assist-industry-module/"><title>EE-D220 industrial NEXUS module</title><rect x="600" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">EE-D220 industrial NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-gang-assist-industry-module/"><title>Rypoa industrial NEXUS module</title><rect x="600" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Rypoa industrial NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-gang-assist-fast-extraction-module/"><title>AE-D250 fast extractor NEXUS module</title><rect x="300" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">AE-D250 fast extractor NEXUS mo…</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-gang-assist-fast-extraction-module/"><title>Matriot-II fast extractor NEXUS module</title><rect x="300" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Matriot-II fast extractor NEXUS…</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-gang-assist-fast-extraction-module/"><title>Matriot-IV fast extractor NEXUS module</title><rect x="300" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Matriot-IV fast extractor NEXUS…</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-mining-silgium/"><title>Miner charge (silgium)</title><rect x="600" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Miner charge (silgium)</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-mining-gammaterial/"><title>Miner charge (colixum)</title><rect x="450" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Miner charge (colixum)</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-mining-fluxore/"><title>Ammo Mining Fluxore</title><rect x="750" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="760" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Mining Fluxore</text></a></g>
+</svg>
 
 <a id="line-639"></a>
 
@@ -141,44 +105,32 @@ graph TD
 
 **12 nodes** — everything that descends from [Standard small harvester](/content/techtree/nodes/standard-small-harvester/).
 
-```mermaid
-graph TD
-    n198["Laird"]
-    n210["Gargoyle"]
-    n218["Symbiont"]
-    n639["Standard small harvester"]
-    n640["Standard medium harvester"]
-    n807["MHA 400-'Avalon' small harvester"]
-    n808["Agraar-I small harvester"]
-    n809["Protrim FDV-30 small harvester"]
-    n810["MHA 900-'Sap' medium harvester"]
-    n811["Cultivator-XM medium harvester"]
-    n812["Protrim V-II medium harvester"]
-    n891["Universal harvester charge"]
-    n639 --> n198
-    n640 --> n210
-    n811 --> n218
-    n807 --> n640
-    n639 --> n807
-    n807 --> n808
-    n808 --> n809
-    n640 --> n810
-    n810 --> n811
-    n811 --> n812
-    n639 --> n891
-    click n198 "/content/techtree/nodes/laird/" "Laird"
-    click n210 "/content/techtree/nodes/gargoyle/" "Gargoyle"
-    click n218 "/content/techtree/nodes/symbiont/" "Symbiont"
-    click n639 "/content/techtree/nodes/standard-small-harvester/" "Standard small harvester"
-    click n640 "/content/techtree/nodes/standard-medium-harvester/" "Standard medium harvester"
-    click n807 "/content/techtree/nodes/named1-small-harvester/" "MHA 400-'Avalon' small harvester"
-    click n808 "/content/techtree/nodes/named2-small-harvester/" "Agraar-I small harvester"
-    click n809 "/content/techtree/nodes/named3-small-harvester/" "Protrim FDV-30 small harvester"
-    click n810 "/content/techtree/nodes/named1-medium-harvester/" "MHA 900-'Sap' medium harvester"
-    click n811 "/content/techtree/nodes/named2-medium-harvester/" "Cultivator-XM medium harvester"
-    click n812 "/content/techtree/nodes/named3-medium-harvester/" "Protrim V-II medium harvester"
-    click n891 "/content/techtree/nodes/ammo-harvesting-standard/" "Universal harvester charge"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 506" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="920" height="506" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <line x1="140" y1="56" x2="-160" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="-160" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="400" x2="-10" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="142" x2="-10" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="140" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="142" x2="290" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="228" x2="290" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="140" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="314" x2="140" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="400" x2="290" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="440" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <g><a href="/content/techtree/nodes/laird/"><title>Laird</title><rect x="-300" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Laird</text></a></g>
+  <g><a href="/content/techtree/nodes/gargoyle/"><title>Gargoyle</title><rect x="-300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Gargoyle</text></a></g>
+  <g><a href="/content/techtree/nodes/symbiont/"><title>Symbiont</title><rect x="-150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Symbiont</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-small-harvester/"><title>Standard small harvester</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard small harvester</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-medium-harvester/"><title>Standard medium harvester</title><rect x="-150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard medium harvester</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-small-harvester/"><title>MHA 400-'Avalon' small harvester</title><rect x="0" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">MHA 400-'Avalon' small harvester</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-small-harvester/"><title>Agraar-I small harvester</title><rect x="150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Agraar-I small harvester</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-small-harvester/"><title>Protrim FDV-30 small harvester</title><rect x="150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Protrim FDV-30 small harvester</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-medium-harvester/"><title>MHA 900-'Sap' medium harvester</title><rect x="0" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">MHA 900-'Sap' medium harvester</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-medium-harvester/"><title>Cultivator-XM medium harvester</title><rect x="0" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Cultivator-XM medium harvester</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-medium-harvester/"><title>Protrim V-II medium harvester</title><rect x="150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Protrim V-II medium harvester</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-harvesting-standard/"><title>Universal harvester charge</title><rect x="300" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Universal harvester charge</text></a></g>
+</svg>
 
 <a id="line-8693"></a>
 
@@ -186,65 +138,46 @@ graph TD
 
 **19 nodes** — everything that descends from [Terramotus](/content/techtree/nodes/terramotus/).
 
-```mermaid
-graph TD
-    n8675["Ammo Mining Deep Titan"]
-    n8678["Standard large miner module"]
-    n8680["MMA v19-'Widge' large miner module"]
-    n8683["Sublimator Hi-D large miner module"]
-    n8686["Pellex large miner module"]
-    n8693["Terramotus"]
-    n8713["Ammo Mining Deep Imentium"]
-    n8716["Ammo Mining Deep Stermonit"]
-    n8719["Ammo Mining Deep Silgium"]
-    n8722["Ammo Mining Deep Gammaterial"]
-    n8725["Ammo Mining Deep Fluxore"]
-    n8810["Ammo Mining Deep Liquizit"]
-    n8813["Ammo Mining Deep Crude"]
-    n8816["Ammo Mining Deep Epriton"]
-    n8858["Ammo Mass Harvesting Standard"]
-    n8861["Standard Large Harvester"]
-    n8863["T2 Large Harvester"]
-    n8866["T3 Large Harvester"]
-    n8869["T4 Large Harvester"]
-    n8678 --> n8675
-    n8693 --> n8678
-    n8678 --> n8680
-    n8680 --> n8683
-    n8683 --> n8686
-    n8680 --> n8713
-    n8680 --> n8716
-    n8680 --> n8719
-    n8686 --> n8722
-    n8683 --> n8725
-    n8680 --> n8810
-    n8678 --> n8813
-    n8683 --> n8816
-    n8861 --> n8858
-    n8693 --> n8861
-    n8861 --> n8863
-    n8863 --> n8866
-    n8866 --> n8869
-    click n8675 "/content/techtree/nodes/ammo-mining-deep-titan/" "Ammo Mining Deep Titan"
-    click n8678 "/content/techtree/nodes/standard-large-driller/" "Standard large miner module"
-    click n8680 "/content/techtree/nodes/named1-large-driller/" "MMA v19-'Widge' large miner module"
-    click n8683 "/content/techtree/nodes/named2-large-driller/" "Sublimator Hi-D large miner module"
-    click n8686 "/content/techtree/nodes/named3-large-driller/" "Pellex large miner module"
-    click n8693 "/content/techtree/nodes/terramotus/" "Terramotus"
-    click n8713 "/content/techtree/nodes/ammo-mining-deep-imentium/" "Ammo Mining Deep Imentium"
-    click n8716 "/content/techtree/nodes/ammo-mining-deep-stermonit/" "Ammo Mining Deep Stermonit"
-    click n8719 "/content/techtree/nodes/ammo-mining-deep-silgium/" "Ammo Mining Deep Silgium"
-    click n8722 "/content/techtree/nodes/ammo-mining-deep-gammaterial/" "Ammo Mining Deep Gammaterial"
-    click n8725 "/content/techtree/nodes/ammo-mining-deep-fluxore/" "Ammo Mining Deep Fluxore"
-    click n8810 "/content/techtree/nodes/ammo-mining-deep-liquizit/" "Ammo Mining Deep Liquizit"
-    click n8813 "/content/techtree/nodes/ammo-mining-deep-crude/" "Ammo Mining Deep Crude"
-    click n8816 "/content/techtree/nodes/ammo-mining-deep-epriton/" "Ammo Mining Deep Epriton"
-    click n8858 "/content/techtree/nodes/ammo-mass-harvesting-standard/" "Ammo Mass Harvesting Standard"
-    click n8861 "/content/techtree/nodes/standard-large-harvester/" "Standard Large Harvester"
-    click n8863 "/content/techtree/nodes/named1-large-harvester/" "T2 Large Harvester"
-    click n8866 "/content/techtree/nodes/named2-large-harvester/" "T3 Large Harvester"
-    click n8869 "/content/techtree/nodes/named3-large-harvester/" "T4 Large Harvester"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 506" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="470" height="506" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <line x1="-10" y1="142" x2="-310" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-10" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="-10" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="-610" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-610" y1="314" x2="-910" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="-310" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="-10" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="290" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-910" y1="400" x2="-910" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-610" y1="314" x2="-610" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="590" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="290" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-610" y1="314" x2="-310" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="140" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="290" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="440" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="228" x2="440" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="314" x2="440" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <g><a href="/content/techtree/nodes/ammo-mining-deep-titan/"><title>Ammo Mining Deep Titan</title><rect x="-450" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Mining Deep Titan</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-large-driller/"><title>Standard large miner module</title><rect x="-150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard large miner module</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-large-driller/"><title>MMA v19-'Widge' large miner module</title><rect x="-150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">MMA v19-'Widge' large miner module</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-large-driller/"><title>Sublimator Hi-D large miner module</title><rect x="-750" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-740" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Sublimator Hi-D large miner module</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-large-driller/"><title>Pellex large miner module</title><rect x="-1050" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1040" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Pellex large miner module</text></a></g>
+  <g><a href="/content/techtree/nodes/terramotus/"><title>Terramotus</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Terramotus</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-mining-deep-imentium/"><title>Ammo Mining Deep Imentium</title><rect x="-450" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Mining Deep Imentium</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-mining-deep-stermonit/"><title>Ammo Mining Deep Stermonit</title><rect x="-150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Mining Deep Stermonit</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-mining-deep-silgium/"><title>Ammo Mining Deep Silgium</title><rect x="150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Mining Deep Silgium</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-mining-deep-gammaterial/"><title>Ammo Mining Deep Gammaterial</title><rect x="-1050" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1040" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Mining Deep Gammaterial</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-mining-deep-fluxore/"><title>Ammo Mining Deep Fluxore</title><rect x="-750" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-740" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Mining Deep Fluxore</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-mining-deep-liquizit/"><title>Ammo Mining Deep Liquizit</title><rect x="450" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Mining Deep Liquizit</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-mining-deep-crude/"><title>Ammo Mining Deep Crude</title><rect x="150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Mining Deep Crude</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-mining-deep-epriton/"><title>Ammo Mining Deep Epriton</title><rect x="-450" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Mining Deep Epriton</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-mass-harvesting-standard/"><title>Ammo Mass Harvesting Standard</title><rect x="0" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Mass Harvesting Standard</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-large-harvester/"><title>Standard Large Harvester</title><rect x="150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard Large Harvester</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-large-harvester/"><title>T2 Large Harvester</title><rect x="300" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">T2 Large Harvester</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-large-harvester/"><title>T3 Large Harvester</title><rect x="300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">T3 Large Harvester</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-large-harvester/"><title>T4 Large Harvester</title><rect x="300" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">T4 Large Harvester</text></a></g>
+</svg>
 
 ## Nodes (all)
 

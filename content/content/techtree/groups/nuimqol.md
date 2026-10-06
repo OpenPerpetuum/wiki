@@ -24,92 +24,64 @@ Research for the Nuimqol rebel faction: its named weapons and the modules that f
 
 **28 nodes** — everything that descends from [Standard small armor repairer](/content/techtree/nodes/standard-small-armor-repairer/).
 
-```mermaid
-graph TD
-    n18["Standard small armor repairer"]
-    n19["Standard medium armor repairer"]
-    n20["Standard large armor repairer"]
-    n27["Standard seismic armor"]
-    n693["A150 small armor repairer"]
-    n694["Quissot's small armor repairer"]
-    n695["Microforge Aestolar small armor repairer"]
-    n696["Vautrell medium armor repairer"]
-    n697["FO-150 'Reparator' medium armor repairer"]
-    n698["CRC40 medium armor repairer"]
-    n699["Stesodenn large armor repairer"]
-    n700["FO-330 'Reconstructor' large armor repairer"]
-    n701["Pandegris large armor repairer"]
-    n714["Ballistris I. seismic armor"]
-    n718["Formantel-DVU seismic armor"]
-    n722["Sheltor seismic armor"]
-    n1060["Standard armor repairer tuning"]
-    n1063["Diaptes armor repairer tuning"]
-    n1064["WPG3000 armor repairer tuning"]
-    n1065["Apogenion armor repairer tuning"]
-    n2554["Standard repairer NEXUS module"]
-    n2592["Diogan repairer NEXUS module"]
-    n2593["Pawish repairer NEXUS module"]
-    n2594["ACF-9900 repairer NEXUS module"]
-    n3301["Standard seismic ERP"]
-    n3302["SER-250 'Eruptico' seismic ERP"]
-    n3303["SER-300 'Devactico' seismic ERP"]
-    n3304["365p-CSD seismic ERP"]
-    n693 --> n19
-    n1063 --> n20
-    n18 --> n27
-    n18 --> n693
-    n693 --> n694
-    n694 --> n695
-    n19 --> n696
-    n696 --> n697
-    n697 --> n698
-    n20 --> n699
-    n699 --> n700
-    n700 --> n701
-    n27 --> n714
-    n714 --> n718
-    n718 --> n722
-    n696 --> n1060
-    n1060 --> n1063
-    n1063 --> n1064
-    n1064 --> n1065
-    n1063 --> n2554
-    n2554 --> n2592
-    n2592 --> n2593
-    n2593 --> n2594
-    n714 --> n3301
-    n3301 --> n3302
-    n3302 --> n3303
-    n3303 --> n3304
-    click n18 "/content/techtree/nodes/standard-small-armor-repairer/" "Standard small armor repairer"
-    click n19 "/content/techtree/nodes/standard-medium-armor-repairer/" "Standard medium armor repairer"
-    click n20 "/content/techtree/nodes/standard-large-armor-repairer/" "Standard large armor repairer"
-    click n27 "/content/techtree/nodes/standard-exp-armor-hardener/" "Standard seismic armor"
-    click n693 "/content/techtree/nodes/named1-small-armor-repairer/" "A150 small armor repairer"
-    click n694 "/content/techtree/nodes/named2-small-armor-repairer/" "Quissot's small armor repairer"
-    click n695 "/content/techtree/nodes/named3-small-armor-repairer/" "Microforge Aestolar small armor repairer"
-    click n696 "/content/techtree/nodes/named1-medium-armor-repairer/" "Vautrell medium armor repairer"
-    click n697 "/content/techtree/nodes/named2-medium-armor-repairer/" "FO-150 'Reparator' medium armor repairer"
-    click n698 "/content/techtree/nodes/named3-medium-armor-repairer/" "CRC40 medium armor repairer"
-    click n699 "/content/techtree/nodes/named1-large-armor-repairer/" "Stesodenn large armor repairer"
-    click n700 "/content/techtree/nodes/named2-large-armor-repairer/" "FO-330 'Reconstructor' large armor repairer"
-    click n701 "/content/techtree/nodes/named3-large-armor-repairer/" "Pandegris large armor repairer"
-    click n714 "/content/techtree/nodes/named1-exp-armor-hardener/" "Ballistris I. seismic armor"
-    click n718 "/content/techtree/nodes/named2-exp-armor-hardener/" "Formantel-DVU seismic armor"
-    click n722 "/content/techtree/nodes/named3-exp-armor-hardener/" "Sheltor seismic armor"
-    click n1060 "/content/techtree/nodes/standard-armor-repairer-upgrade/" "Standard armor repairer tuning"
-    click n1063 "/content/techtree/nodes/named1-armor-repairer-upgrade/" "Diaptes armor repairer tuning"
-    click n1064 "/content/techtree/nodes/named2-armor-repairer-upgrade/" "WPG3000 armor repairer tuning"
-    click n1065 "/content/techtree/nodes/named3-armor-repairer-upgrade/" "Apogenion armor repairer tuning"
-    click n2554 "/content/techtree/nodes/standard-gang-assist-maintance-module/" "Standard repairer NEXUS module"
-    click n2592 "/content/techtree/nodes/named1-gang-assist-maintance-module/" "Diogan repairer NEXUS module"
-    click n2593 "/content/techtree/nodes/named2-gang-assist-maintance-module/" "Pawish repairer NEXUS module"
-    click n2594 "/content/techtree/nodes/named3-gang-assist-maintance-module/" "ACF-9900 repairer NEXUS module"
-    click n3301 "/content/techtree/nodes/standard-explosive-kers/" "Standard seismic ERP"
-    click n3302 "/content/techtree/nodes/named1-explosive-kers/" "SER-250 'Eruptico' seismic ERP"
-    click n3303 "/content/techtree/nodes/named2-explosive-kers/" "SER-300 'Devactico' seismic ERP"
-    click n3304 "/content/techtree/nodes/named3-explosive-kers/" "365p-CSD seismic ERP"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1370 850" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="1370" height="850" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <line x1="290" y1="142" x2="140" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="486" x2="-10" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-10" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="290" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="440" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="228" x2="440" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="228" x2="140" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="314" x2="-10" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="400" x2="-10" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="572" x2="-10" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="658" x2="-10" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="744" x2="-10" y2="794" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="-10" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="-160" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="314" x2="-160" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="314" x2="290" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="290" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="486" x2="290" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="572" x2="290" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="486" x2="590" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="572" x2="590" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="658" x2="590" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="744" x2="590" y2="794" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="140" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="314" x2="140" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="400" x2="140" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="486" x2="140" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <g><a href="/content/techtree/nodes/standard-small-armor-repairer/"><title>Standard small armor repairer</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard small armor repairer</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-medium-armor-repairer/"><title>Standard medium armor repairer</title><rect x="0" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard medium armor repairer</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-large-armor-repairer/"><title>Standard large armor repairer</title><rect x="-150" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard large armor repairer</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-exp-armor-hardener/"><title>Standard seismic armor</title><rect x="-150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard seismic armor</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-small-armor-repairer/"><title>A150 small armor repairer</title><rect x="150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">A150 small armor repairer</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-small-armor-repairer/"><title>Quissot's small armor repairer</title><rect x="300" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Quissot's small armor repairer</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-small-armor-repairer/"><title>Microforge Aestolar small armor repairer</title><rect x="300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Microforge Aestolar small armor…</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-medium-armor-repairer/"><title>Vautrell medium armor repairer</title><rect x="0" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Vautrell medium armor repairer</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-medium-armor-repairer/"><title>FO-150 'Reparator' medium armor repairer</title><rect x="-150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">FO-150 'Reparator' medium armor…</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-medium-armor-repairer/"><title>CRC40 medium armor repairer</title><rect x="-150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">CRC40 medium armor repairer</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-large-armor-repairer/"><title>Stesodenn large armor repairer</title><rect x="-150" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Stesodenn large armor repairer</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-large-armor-repairer/"><title>FO-330 'Reconstructor' large armor repairer</title><rect x="-150" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">FO-330 'Reconstructor' large ar…</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-large-armor-repairer/"><title>Pandegris large armor repairer</title><rect x="-150" y="794" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="816" font-size="12" fill="#e8ecf4" font-family="sans-serif">Pandegris large armor repairer</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-exp-armor-hardener/"><title>Ballistris I. seismic armor</title><rect x="-150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ballistris I. seismic armor</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-exp-armor-hardener/"><title>Formantel-DVU seismic armor</title><rect x="-300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Formantel-DVU seismic armor</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-exp-armor-hardener/"><title>Sheltor seismic armor</title><rect x="-300" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Sheltor seismic armor</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-armor-repairer-upgrade/"><title>Standard armor repairer tuning</title><rect x="150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard armor repairer tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-armor-repairer-upgrade/"><title>Diaptes armor repairer tuning</title><rect x="150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Diaptes armor repairer tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-armor-repairer-upgrade/"><title>WPG3000 armor repairer tuning</title><rect x="150" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">WPG3000 armor repairer tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-armor-repairer-upgrade/"><title>Apogenion armor repairer tuning</title><rect x="150" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Apogenion armor repairer tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-gang-assist-maintance-module/"><title>Standard repairer NEXUS module</title><rect x="450" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard repairer NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-gang-assist-maintance-module/"><title>Diogan repairer NEXUS module</title><rect x="450" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Diogan repairer NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-gang-assist-maintance-module/"><title>Pawish repairer NEXUS module</title><rect x="450" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Pawish repairer NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-gang-assist-maintance-module/"><title>ACF-9900 repairer NEXUS module</title><rect x="450" y="794" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="816" font-size="12" fill="#e8ecf4" font-family="sans-serif">ACF-9900 repairer NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-explosive-kers/"><title>Standard seismic ERP</title><rect x="0" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard seismic ERP</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-explosive-kers/"><title>SER-250 'Eruptico' seismic ERP</title><rect x="0" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">SER-250 'Eruptico' seismic ERP</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-explosive-kers/"><title>SER-300 'Devactico' seismic ERP</title><rect x="0" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">SER-300 'Devactico' seismic ERP</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-explosive-kers/"><title>365p-CSD seismic ERP</title><rect x="0" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">365p-CSD seismic ERP</text></a></g>
+</svg>
 
 <a id="line-50"></a>
 
@@ -117,50 +89,36 @@ graph TD
 
 **14 nodes** — everything that descends from [Standard ECM](/content/techtree/nodes/standard-sensor-jammer/).
 
-```mermaid
-graph TD
-    n50["Standard ECM"]
-    n199["Cameleon"]
-    n211["Vagabond"]
-    n789["Occyt-OEW ECM"]
-    n790["Wavoslur ECM"]
-    n791["Tenion ECM"]
-    n873["Standard velocity NEXUS module"]
-    n2568["Jubatus velocity NEXUS module"]
-    n2569["Iopis-II velocity NEXUS module"]
-    n2570["Contra velocity NEXUS module"]
-    n4578["Standard ECM tuning"]
-    n4587["Distortio ECM tuning"]
-    n4588["Hodge ECM tuning"]
-    n4589["Sludge ECM tuning"]
-    n50 --> n199
-    n790 --> n211
-    n50 --> n789
-    n789 --> n790
-    n790 --> n791
-    n211 --> n873
-    n873 --> n2568
-    n2568 --> n2569
-    n2569 --> n2570
-    n789 --> n4578
-    n4578 --> n4587
-    n4587 --> n4588
-    n4588 --> n4589
-    click n50 "/content/techtree/nodes/standard-sensor-jammer/" "Standard ECM"
-    click n199 "/content/techtree/nodes/cameleon/" "Cameleon"
-    click n211 "/content/techtree/nodes/vagabond/" "Vagabond"
-    click n789 "/content/techtree/nodes/named1-sensor-jammer/" "Occyt-OEW ECM"
-    click n790 "/content/techtree/nodes/named2-sensor-jammer/" "Wavoslur ECM"
-    click n791 "/content/techtree/nodes/named3-sensor-jammer/" "Tenion ECM"
-    click n873 "/content/techtree/nodes/standard-gang-assist-speed-module/" "Standard velocity NEXUS module"
-    click n2568 "/content/techtree/nodes/named1-gang-assist-speed-module/" "Jubatus velocity NEXUS module"
-    click n2569 "/content/techtree/nodes/named2-gang-assist-speed-module/" "Iopis-II velocity NEXUS module"
-    click n2570 "/content/techtree/nodes/named3-gang-assist-speed-module/" "Contra velocity NEXUS module"
-    click n4578 "/content/techtree/nodes/standard-ecm-booster/" "Standard ECM tuning"
-    click n4587 "/content/techtree/nodes/named1-ecm-booster/" "Distortio ECM tuning"
-    click n4588 "/content/techtree/nodes/named2-ecm-booster/" "Hodge ECM tuning"
-    click n4589 "/content/techtree/nodes/named3-ecm-booster/" "Sludge ECM tuning"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 678" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="470" height="678" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <line x1="140" y1="56" x2="-10" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="228" x2="-10" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="290" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="140" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="228" x2="290" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="314" x2="-10" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="400" x2="-10" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="486" x2="-10" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="572" x2="-10" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="440" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="228" x2="440" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="314" x2="440" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="400" x2="440" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <g><a href="/content/techtree/nodes/standard-sensor-jammer/"><title>Standard ECM</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard ECM</text></a></g>
+  <g><a href="/content/techtree/nodes/cameleon/"><title>Cameleon</title><rect x="-150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Cameleon</text></a></g>
+  <g><a href="/content/techtree/nodes/vagabond/"><title>Vagabond</title><rect x="-150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Vagabond</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-sensor-jammer/"><title>Occyt-OEW ECM</title><rect x="150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Occyt-OEW ECM</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-sensor-jammer/"><title>Wavoslur ECM</title><rect x="0" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Wavoslur ECM</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-sensor-jammer/"><title>Tenion ECM</title><rect x="150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Tenion ECM</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-gang-assist-speed-module/"><title>Standard velocity NEXUS module</title><rect x="-150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard velocity NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-gang-assist-speed-module/"><title>Jubatus velocity NEXUS module</title><rect x="-150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Jubatus velocity NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-gang-assist-speed-module/"><title>Iopis-II velocity NEXUS module</title><rect x="-150" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Iopis-II velocity NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-gang-assist-speed-module/"><title>Contra velocity NEXUS module</title><rect x="-150" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Contra velocity NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-ecm-booster/"><title>Standard ECM tuning</title><rect x="300" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard ECM tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-ecm-booster/"><title>Distortio ECM tuning</title><rect x="300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Distortio ECM tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-ecm-booster/"><title>Hodge ECM tuning</title><rect x="300" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hodge ECM tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-ecm-booster/"><title>Sludge ECM tuning</title><rect x="300" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Sludge ECM tuning</text></a></g>
+</svg>
 
 <a id="line-66"></a>
 
@@ -168,143 +126,98 @@ graph TD
 
 **45 nodes** — everything that descends from [Standard light EM-gun](/content/techtree/nodes/standard-small-railgun/).
 
-```mermaid
-graph TD
-    n66["Standard light EM-gun"]
-    n67["Standard medium Gauss gun"]
-    n68["Standard heavy Gauss gun"]
-    n193["Yagel"]
-    n201["Arbalest"]
-    n205["Kain"]
-    n213["Mesmer"]
-    n247["Small incendiary slug"]
-    n248["Small chemoactive slug"]
-    n249["Small liquidcore slug"]
-    n250["Small compositecore slug"]
-    n251["Medium incendiary slug"]
-    n252["Medium chemoactive slug"]
-    n253["Medium liquidcore slug"]
-    n254["Medium compositecore slug"]
-    n255["Large incendiary slug"]
-    n256["Large chemoactive slug"]
-    n257["Large liquidcore slug"]
-    n258["Large compositecore slug"]
-    n858["Nuimtec-ROWO light EM-gun"]
-    n859["Proto-Gard II. light EM-gun"]
-    n860["Nuimtec-Inkandesk light EM-gun"]
-    n861["Iskio-Magnetor medium Gauss gun"]
-    n862["Nuimtec-Midion AMS medium Gauss gun"]
-    n863["Prompt medium Gauss gun"]
-    n864["Iskio-Magnetor II. heavy Gauss gun"]
-    n865["Nuimtec-Gaule heavy Gauss gun"]
-    n866["Pentack-Nailer dd550 heavy Gauss gun"]
-    n876["Standard assault NEXUS module"]
-    n909["Standard magnetic weapon tuning"]
-    n924["Nuimtec-Spilster magnetic weapon tuning"]
-    n925["RSU-Magnitcore magnetic weapon tuning"]
-    n926["Nuimtec-Magniscope XM80 magnetic weapon tuning"]
-    n1000["Standard medium EM-gun"]
-    n1001["Longrange Standard Large Railgun"]
-    n1018["Condor-SPP medium EM-gun"]
-    n1019["Nuimtec-Accolon LRS medium EM-gun"]
-    n1020["5.5-Glipler medium EM-gun"]
-    n1021["T2 Longrange Large Railgun"]
-    n1022["T3 Longrange Large Railgun"]
-    n1023["T4 Longrange Large Railgun"]
-    n2577["Myrmidon assault NEXUS module"]
-    n2578["Mobba assault NEXUS module"]
-    n2579["'Scorch' assault NEXUS module"]
-    n6008["Felos"]
-    n859 --> n67
-    n862 --> n68
-    n66 --> n193
-    n858 --> n201
-    n67 --> n205
-    n1018 --> n213
-    n250 --> n247
-    n250 --> n248
-    n250 --> n249
-    n66 --> n250
-    n254 --> n251
-    n254 --> n252
-    n254 --> n253
-    n67 --> n254
-    n258 --> n255
-    n258 --> n256
-    n258 --> n257
-    n1001 --> n258
-    n66 --> n858
-    n858 --> n859
-    n859 --> n860
-    n67 --> n861
-    n861 --> n862
-    n862 --> n863
-    n68 --> n864
-    n864 --> n865
-    n865 --> n866
-    n925 --> n876
-    n66 --> n909
-    n909 --> n924
-    n924 --> n925
-    n925 --> n926
-    n861 --> n1000
-    n1000 --> n1001
-    n1000 --> n1018
-    n1018 --> n1019
-    n1019 --> n1020
-    n1001 --> n1021
-    n1021 --> n1022
-    n1022 --> n1023
-    n876 --> n2577
-    n2577 --> n2578
-    n2578 --> n2579
-    n213 --> n6008
-    click n66 "/content/techtree/nodes/standard-small-railgun/" "Standard light EM-gun"
-    click n67 "/content/techtree/nodes/standard-medium-railgun/" "Standard medium Gauss gun"
-    click n68 "/content/techtree/nodes/standard-large-railgun/" "Standard heavy Gauss gun"
-    click n193 "/content/techtree/nodes/yagel/" "Yagel"
-    click n201 "/content/techtree/nodes/arbalest/" "Arbalest"
-    click n205 "/content/techtree/nodes/kain/" "Kain"
-    click n213 "/content/techtree/nodes/mesmer/" "Mesmer"
-    click n247 "/content/techtree/nodes/ammo-small-railgun-a/" "Small incendiary slug"
-    click n248 "/content/techtree/nodes/ammo-small-railgun-b/" "Small chemoactive slug"
-    click n249 "/content/techtree/nodes/ammo-small-railgun-c/" "Small liquidcore slug"
-    click n250 "/content/techtree/nodes/ammo-small-railgun-d/" "Small compositecore slug"
-    click n251 "/content/techtree/nodes/ammo-medium-railgun-a/" "Medium incendiary slug"
-    click n252 "/content/techtree/nodes/ammo-medium-railgun-b/" "Medium chemoactive slug"
-    click n253 "/content/techtree/nodes/ammo-medium-railgun-c/" "Medium liquidcore slug"
-    click n254 "/content/techtree/nodes/ammo-medium-railgun-d/" "Medium compositecore slug"
-    click n255 "/content/techtree/nodes/ammo-large-railgun-a/" "Large incendiary slug"
-    click n256 "/content/techtree/nodes/ammo-large-railgun-b/" "Large chemoactive slug"
-    click n257 "/content/techtree/nodes/ammo-large-railgun-c/" "Large liquidcore slug"
-    click n258 "/content/techtree/nodes/ammo-large-railgun-d/" "Large compositecore slug"
-    click n858 "/content/techtree/nodes/named1-small-railgun/" "Nuimtec-ROWO light EM-gun"
-    click n859 "/content/techtree/nodes/named2-small-railgun/" "Proto-Gard II. light EM-gun"
-    click n860 "/content/techtree/nodes/named3-small-railgun/" "Nuimtec-Inkandesk light EM-gun"
-    click n861 "/content/techtree/nodes/named1-medium-railgun/" "Iskio-Magnetor medium Gauss gun"
-    click n862 "/content/techtree/nodes/named2-medium-railgun/" "Nuimtec-Midion AMS medium Gauss gun"
-    click n863 "/content/techtree/nodes/named3-medium-railgun/" "Prompt medium Gauss gun"
-    click n864 "/content/techtree/nodes/named1-large-railgun/" "Iskio-Magnetor II. heavy Gauss gun"
-    click n865 "/content/techtree/nodes/named2-large-railgun/" "Nuimtec-Gaule heavy Gauss gun"
-    click n866 "/content/techtree/nodes/named3-large-railgun/" "Pentack-Nailer dd550 heavy Gauss gun"
-    click n876 "/content/techtree/nodes/standard-gang-assist-siege-module/" "Standard assault NEXUS module"
-    click n909 "/content/techtree/nodes/standard-damage-mod-railgun/" "Standard magnetic weapon tuning"
-    click n924 "/content/techtree/nodes/named1-damage-mod-railgun/" "Nuimtec-Spilster magnetic weapon tuning"
-    click n925 "/content/techtree/nodes/named2-damage-mod-railgun/" "RSU-Magnitcore magnetic weapon tuning"
-    click n926 "/content/techtree/nodes/named3-damage-mod-railgun/" "Nuimtec-Magniscope XM80 magnetic weapon tuning"
-    click n1000 "/content/techtree/nodes/longrange-standard-medium-railgun/" "Standard medium EM-gun"
-    click n1001 "/content/techtree/nodes/longrange-standard-large-railgun/" "Longrange Standard Large Railgun"
-    click n1018 "/content/techtree/nodes/named1-longrange-medium-railgun/" "Condor-SPP medium EM-gun"
-    click n1019 "/content/techtree/nodes/named2-longrange-medium-railgun/" "Nuimtec-Accolon LRS medium EM-gun"
-    click n1020 "/content/techtree/nodes/named3-longrange-medium-railgun/" "5.5-Glipler medium EM-gun"
-    click n1021 "/content/techtree/nodes/named1-longrange-large-railgun/" "T2 Longrange Large Railgun"
-    click n1022 "/content/techtree/nodes/named2-longrange-large-railgun/" "T3 Longrange Large Railgun"
-    click n1023 "/content/techtree/nodes/named3-longrange-large-railgun/" "T4 Longrange Large Railgun"
-    click n2577 "/content/techtree/nodes/named1-gang-assist-siege-module/" "Myrmidon assault NEXUS module"
-    click n2578 "/content/techtree/nodes/named2-gang-assist-siege-module/" "Mobba assault NEXUS module"
-    click n2579 "/content/techtree/nodes/named3-gang-assist-siege-module/" "'Scorch' assault NEXUS module"
-    click n6008 "/content/techtree/nodes/felos/" "Felos"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2120 850" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="2120" height="850" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <line x1="440" y1="228" x2="290" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="486" x2="290" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-310" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="140" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="314" x2="-10" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="890" y1="572" x2="740" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="-310" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="-10" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="290" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-10" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="-10" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="290" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="590" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="314" x2="290" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="658" x2="140" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="658" x2="440" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="658" x2="740" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="572" x2="440" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="290" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="440" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="228" x2="590" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="314" x2="590" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="400" x2="440" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="486" x2="590" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="572" x2="290" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="658" x2="290" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="744" x2="290" y2="794" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="314" x2="440" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="590" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="142" x2="590" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="228" x2="590" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="314" x2="740" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="400" x2="740" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="486" x2="590" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="486" x2="890" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="890" y1="572" x2="1040" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="1040" y1="658" x2="1040" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="572" x2="740" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="658" x2="740" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="744" x2="740" y2="794" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="400" x2="440" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="486" x2="440" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="572" x2="440" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="658" x2="740" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <g><a href="/content/techtree/nodes/standard-small-railgun/"><title>Standard light EM-gun</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard light EM-gun</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-medium-railgun/"><title>Standard medium Gauss gun</title><rect x="150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard medium Gauss gun</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-large-railgun/"><title>Standard heavy Gauss gun</title><rect x="150" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard heavy Gauss gun</text></a></g>
+  <g><a href="/content/techtree/nodes/yagel/"><title>Yagel</title><rect x="-450" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Yagel</text></a></g>
+  <g><a href="/content/techtree/nodes/arbalest/"><title>Arbalest</title><rect x="0" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Arbalest</text></a></g>
+  <g><a href="/content/techtree/nodes/kain/"><title>Kain</title><rect x="-150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Kain</text></a></g>
+  <g><a href="/content/techtree/nodes/mesmer/"><title>Mesmer</title><rect x="600" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Mesmer</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-small-railgun-a/"><title>Small incendiary slug</title><rect x="-450" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Small incendiary slug</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-small-railgun-b/"><title>Small chemoactive slug</title><rect x="-150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Small chemoactive slug</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-small-railgun-c/"><title>Small liquidcore slug</title><rect x="150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Small liquidcore slug</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-small-railgun-d/"><title>Small compositecore slug</title><rect x="-150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Small compositecore slug</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-medium-railgun-a/"><title>Medium incendiary slug</title><rect x="-150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Medium incendiary slug</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-medium-railgun-b/"><title>Medium chemoactive slug</title><rect x="150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Medium chemoactive slug</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-medium-railgun-c/"><title>Medium liquidcore slug</title><rect x="450" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Medium liquidcore slug</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-medium-railgun-d/"><title>Medium compositecore slug</title><rect x="150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Medium compositecore slug</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-large-railgun-a/"><title>Large incendiary slug</title><rect x="0" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Large incendiary slug</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-large-railgun-b/"><title>Large chemoactive slug</title><rect x="300" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Large chemoactive slug</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-large-railgun-c/"><title>Large liquidcore slug</title><rect x="600" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Large liquidcore slug</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-large-railgun-d/"><title>Large compositecore slug</title><rect x="300" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Large compositecore slug</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-small-railgun/"><title>Nuimtec-ROWO light EM-gun</title><rect x="150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Nuimtec-ROWO light EM-gun</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-small-railgun/"><title>Proto-Gard II. light EM-gun</title><rect x="300" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Proto-Gard II. light EM-gun</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-small-railgun/"><title>Nuimtec-Inkandesk light EM-gun</title><rect x="450" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Nuimtec-Inkandesk light EM-gun</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-medium-railgun/"><title>Iskio-Magnetor medium Gauss gun</title><rect x="450" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Iskio-Magnetor medium Gauss gun</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-medium-railgun/"><title>Nuimtec-Midion AMS medium Gauss gun</title><rect x="300" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Nuimtec-Midion AMS medium Gauss…</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-medium-railgun/"><title>Prompt medium Gauss gun</title><rect x="450" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Prompt medium Gauss gun</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-large-railgun/"><title>Iskio-Magnetor II. heavy Gauss gun</title><rect x="150" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Iskio-Magnetor II. heavy Gauss gun</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-large-railgun/"><title>Nuimtec-Gaule heavy Gauss gun</title><rect x="150" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Nuimtec-Gaule heavy Gauss gun</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-large-railgun/"><title>Pentack-Nailer dd550 heavy Gauss gun</title><rect x="150" y="794" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="816" font-size="12" fill="#e8ecf4" font-family="sans-serif">Pentack-Nailer dd550 heavy Gaus…</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-gang-assist-siege-module/"><title>Standard assault NEXUS module</title><rect x="300" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard assault NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-damage-mod-railgun/"><title>Standard magnetic weapon tuning</title><rect x="450" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard magnetic weapon tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-damage-mod-railgun/"><title>Nuimtec-Spilster magnetic weapon tuning</title><rect x="450" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Nuimtec-Spilster magnetic weapo…</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-damage-mod-railgun/"><title>RSU-Magnitcore magnetic weapon tuning</title><rect x="450" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">RSU-Magnitcore magnetic weapon …</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-damage-mod-railgun/"><title>Nuimtec-Magniscope XM80 magnetic weapon tuning</title><rect x="600" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Nuimtec-Magniscope XM80 magneti…</text></a></g>
+  <g><a href="/content/techtree/nodes/longrange-standard-medium-railgun/"><title>Standard medium EM-gun</title><rect x="600" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard medium EM-gun</text></a></g>
+  <g><a href="/content/techtree/nodes/longrange-standard-large-railgun/"><title>Longrange Standard Large Railgun</title><rect x="450" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Longrange Standard Large Railgun</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-longrange-medium-railgun/"><title>Condor-SPP medium EM-gun</title><rect x="750" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="760" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Condor-SPP medium EM-gun</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-longrange-medium-railgun/"><title>Nuimtec-Accolon LRS medium EM-gun</title><rect x="900" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="910" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Nuimtec-Accolon LRS medium EM-gun</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-longrange-medium-railgun/"><title>5.5-Glipler medium EM-gun</title><rect x="900" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="910" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">5.5-Glipler medium EM-gun</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-longrange-large-railgun/"><title>T2 Longrange Large Railgun</title><rect x="600" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">T2 Longrange Large Railgun</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-longrange-large-railgun/"><title>T3 Longrange Large Railgun</title><rect x="600" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">T3 Longrange Large Railgun</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-longrange-large-railgun/"><title>T4 Longrange Large Railgun</title><rect x="600" y="794" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="816" font-size="12" fill="#e8ecf4" font-family="sans-serif">T4 Longrange Large Railgun</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-gang-assist-siege-module/"><title>Myrmidon assault NEXUS module</title><rect x="300" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Myrmidon assault NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-gang-assist-siege-module/"><title>Mobba assault NEXUS module</title><rect x="300" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Mobba assault NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-gang-assist-siege-module/"><title>'Scorch' assault NEXUS module</title><rect x="300" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">'Scorch' assault NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/felos/"><title>Felos</title><rect x="600" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Felos</text></a></g>
+</svg>
 
 ## Nodes (all)
 

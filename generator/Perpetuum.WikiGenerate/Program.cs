@@ -92,6 +92,12 @@ public static class Program
             ("recipes.md", RecipesPage.Build(db, defs)),
             ("stat-reference.md", StatsReferencePage.Build(db)),
         };
+        // Individual robot pages (one per bot)
+        var robotPages = RobotPages.Build(db, defs);
+        foreach (var (file, md) in robotPages)
+            pages.Add((file, md));
+        Console.WriteLine($"wrote robots/ ({robotPages.Count} robot pages)");
+
         // The sparks page lives in content/features (not the generated
         // content/content tree): the generator owns its whole content now.
         File.WriteAllText(Path.Combine(wikiRoot, "content", "features", "sparks.md"), SparksPage.Build(db, sparkFamilySvg));

@@ -22,260 +22,176 @@ Power base station capsules and construction modules — the buildings of open-w
 
 **84 nodes** — everything that descends from [Construction Module Ammo T1](/content/techtree/nodes/construction-module-ammo-t1/).
 
-```mermaid
-graph TD
-    n4616["Standard reactor foundation"]
-    n4623["Standard energy transmitter node foundation"]
-    n4635["Standard main terminal foundation"]
-    n4638["Advanced main terminal foundation"]
-    n4650["Standard reverse engineering foundation"]
-    n4666["Hi-tech main terminal foundation"]
-    n4668["Advanced reactor foundation"]
-    n4671["Hi-tech reactor foundation"]
-    n4676["Advanced energy transmitter node foundation"]
-    n4679["Hi-tech energy transmitter node foundation"]
-    n4680["Standard energy backbone node foundation"]
-    n4683["Advanced energy backbone node foundation"]
-    n4686["Hi-tech energy backbone node foundation"]
-    n4691["Standard mining outpost foundation"]
-    n4693["Standard repair node foundation"]
-    n4697["Standard facility upgrade foundation"]
-    n4700["Standard command relay foundation"]
-    n4703["Advanced reverse engineering foundation"]
-    n4706["Hi-tech reverse engineering foundation"]
-    n4709["Standard refinery foundation"]
-    n4712["Advanced facility upgrade foundation"]
-    n4715["Hi-tech facility upgrade foundation"]
-    n4718["Advanced repair node foundation"]
-    n4721["Hi-tech repair node foundation"]
-    n4724["Advanced refinery foundation"]
-    n4727["Hi-tech refinery foundation"]
-    n4735["Advanced mining outpost foundation"]
-    n4738["Hi-tech mining outpost foundation"]
-    n4741["Advanced command relay foundation"]
-    n4744["Hi-tech command relay foundation"]
-    n4750["Standard masker foundation"]
-    n4753["Advanced masker foundation"]
-    n4756["Hi-tech masker foundation"]
-    n4759["Standard prototype facility foundation"]
-    n4762["Advanced prototype facility foundation"]
-    n4765["Hi-tech prototype facility foundation"]
-    n4768["Standard repair shop foundation"]
-    n4771["Advanced repair shop foundation"]
-    n4774["Hi-tech repair shop foundation"]
-    n4777["Standard recycling plant foundation"]
-    n4780["Advanced recycling plant foundation"]
-    n4783["Hi-tech recycling plant foundation"]
-    n4786["Standard calibration lab foundation"]
-    n4789["Advanced calibration lab foundation"]
-    n4792["Hi-tech calibration lab foundation"]
-    n4795["Standard decoder lab foundation"]
-    n4798["Advanced decoder lab foundation"]
-    n4801["Hi-tech decoder lab foundation"]
-    n4806["Energy storage cell"]
-    n4808["Standard EM-turret foundation"]
-    n4811["Advanced EM-turret foundation"]
-    n4814["Hi-tech EM-turret foundation"]
-    n4817["Standard laser turret foundation"]
-    n4820["Advanced laser turret foundation"]
-    n4823["Hi-tech laser turret foundation"]
-    n4826["Standard missile turret foundation"]
-    n4829["Advanced missile turret foundation"]
-    n4832["Hi-tech missile turret foundation"]
-    n4835["Standard factory foundation"]
-    n4838["Advanced factory foundation"]
-    n4841["Hi-tech factory foundation"]
-    n4844["Standard booster node foundation"]
-    n4847["Advanced booster node foundation"]
-    n4850["Hi-tech booster node foundation"]
-    n5124["Standard energy battery foundation"]
-    n5127["Advanced energy battery foundation"]
-    n5130["Hi-tech energy battery foundation"]
-    n5164["Standard EW turret foundation"]
-    n5167["Advanced EW turret foundation"]
-    n5170["Hi-tech EW turret foundation"]
-    n5192["Standard Aura emitter foundation"]
-    n5193["Advanced Aura emitter foundation"]
-    n5196["Hi-tech Aura emitter foundation"]
-    n5355["Standard energy well foundation"]
-    n5356["Advanced energy well foundation"]
-    n5357["Hi-tech energy well foundation"]
-    n5367["Standard accelerator strip foundation"]
-    n5368["Advanced accelerator strip foundation"]
-    n5369["Hi-tech accelerator strip foundation"]
-    n6110["Reactor Booster B"]
-    n6111["Reactor Booster C"]
-    n6625["Construction Module Ammo T1"]
-    n6626["Construction Module Ammo T2"]
-    n6627["Construction Module Ammo T3"]
-    n4635 --> n4616
-    n4616 --> n4623
-    n6625 --> n4635
-    n4635 --> n4638
-    n4759 --> n4650
-    n4638 --> n4666
-    n4616 --> n4668
-    n4668 --> n4671
-    n4623 --> n4676
-    n4676 --> n4679
-    n4623 --> n4680
-    n4680 --> n4683
-    n4683 --> n4686
-    n4700 --> n4691
-    n4768 --> n4693
-    n4835 --> n4697
-    n4635 --> n4700
-    n4650 --> n4703
-    n4703 --> n4706
-    n4635 --> n4709
-    n4697 --> n4712
-    n4712 --> n4715
-    n4693 --> n4718
-    n4718 --> n4721
-    n4709 --> n4724
-    n4724 --> n4727
-    n4691 --> n4735
-    n4735 --> n4738
-    n4700 --> n4741
-    n4741 --> n4744
-    n4693 --> n4750
-    n4750 --> n4753
-    n4753 --> n4756
-    n4835 --> n4759
-    n4759 --> n4762
-    n4762 --> n4765
-    n4635 --> n4768
-    n4768 --> n4771
-    n4771 --> n4774
-    n4709 --> n4777
-    n4777 --> n4780
-    n4780 --> n4783
-    n4650 --> n4786
-    n4786 --> n4789
-    n4789 --> n4792
-    n4650 --> n4795
-    n4795 --> n4798
-    n4798 --> n4801
-    n4616 --> n4806
-    n4700 --> n4808
-    n4808 --> n4811
-    n4811 --> n4814
-    n4700 --> n4817
-    n4817 --> n4820
-    n4820 --> n4823
-    n4700 --> n4826
-    n4826 --> n4829
-    n4829 --> n4832
-    n4709 --> n4835
-    n4835 --> n4838
-    n4838 --> n4841
-    n4750 --> n4844
-    n4844 --> n4847
-    n4847 --> n4850
-    n4680 --> n5124
-    n5124 --> n5127
-    n5127 --> n5130
-    n4700 --> n5164
-    n5164 --> n5167
-    n5167 --> n5170
-    n4844 --> n5192
-    n5192 --> n5193
-    n5193 --> n5196
-    n4616 --> n5355
-    n5355 --> n5356
-    n5356 --> n5357
-    n4700 --> n5367
-    n5367 --> n5368
-    n5368 --> n5369
-    n4806 --> n6110
-    n6110 --> n6111
-    n6625 --> n6626
-    n6626 --> n6627
-    click n4616 "/content/techtree/nodes/pbs-reactor-small-capsule/" "Standard reactor foundation"
-    click n4623 "/content/techtree/nodes/pbs-core-transmitter-small-capsule/" "Standard energy transmitter node foundation"
-    click n4635 "/content/techtree/nodes/pbs-docking-base-small-capsule/" "Standard main terminal foundation"
-    click n4638 "/content/techtree/nodes/pbs-docking-base-medium-capsule/" "Advanced main terminal foundation"
-    click n4650 "/content/techtree/nodes/pbs-research-lab-small-capsule/" "Standard reverse engineering foundation"
-    click n4666 "/content/techtree/nodes/pbs-docking-base-large-capsule/" "Hi-tech main terminal foundation"
-    click n4668 "/content/techtree/nodes/pbs-reactor-medium-capsule/" "Advanced reactor foundation"
-    click n4671 "/content/techtree/nodes/pbs-reactor-large-capsule/" "Hi-tech reactor foundation"
-    click n4676 "/content/techtree/nodes/pbs-core-transmitter-medium-capsule/" "Advanced energy transmitter node foundation"
-    click n4679 "/content/techtree/nodes/pbs-core-transmitter-large-capsule/" "Hi-tech energy transmitter node foundation"
-    click n4680 "/content/techtree/nodes/pbs-xl-core-transmitter-small-capsule/" "Standard energy backbone node foundation"
-    click n4683 "/content/techtree/nodes/pbs-xl-core-transmitter-medium-capsule/" "Advanced energy backbone node foundation"
-    click n4686 "/content/techtree/nodes/pbs-xl-core-transmitter-large-capsule/" "Hi-tech energy backbone node foundation"
-    click n4691 "/content/techtree/nodes/pbs-mining-tower-small-capsule/" "Standard mining outpost foundation"
-    click n4693 "/content/techtree/nodes/pbs-armor-repairer-small-capsule/" "Standard repair node foundation"
-    click n4697 "/content/techtree/nodes/pbs-production-upgrade-small-capsule/" "Standard facility upgrade foundation"
-    click n4700 "/content/techtree/nodes/pbs-control-tower-small-capsule/" "Standard command relay foundation"
-    click n4703 "/content/techtree/nodes/pbs-research-lab-medium-capsule/" "Advanced reverse engineering foundation"
-    click n4706 "/content/techtree/nodes/pbs-research-lab-large-capsule/" "Hi-tech reverse engineering foundation"
-    click n4709 "/content/techtree/nodes/pbs-refinery-small-capsule/" "Standard refinery foundation"
-    click n4712 "/content/techtree/nodes/pbs-production-upgrade-medium-capsule/" "Advanced facility upgrade foundation"
-    click n4715 "/content/techtree/nodes/pbs-production-upgrade-large-capsule/" "Hi-tech facility upgrade foundation"
-    click n4718 "/content/techtree/nodes/pbs-armor-repairer-medium-capsule/" "Advanced repair node foundation"
-    click n4721 "/content/techtree/nodes/pbs-armor-repairer-large-capsule/" "Hi-tech repair node foundation"
-    click n4724 "/content/techtree/nodes/pbs-refinery-medium-capsule/" "Advanced refinery foundation"
-    click n4727 "/content/techtree/nodes/pbs-refinery-large-capsule/" "Hi-tech refinery foundation"
-    click n4735 "/content/techtree/nodes/pbs-mining-tower-medium-capsule/" "Advanced mining outpost foundation"
-    click n4738 "/content/techtree/nodes/pbs-mining-tower-large-capsule/" "Hi-tech mining outpost foundation"
-    click n4741 "/content/techtree/nodes/pbs-control-tower-medium-capsule/" "Advanced command relay foundation"
-    click n4744 "/content/techtree/nodes/pbs-control-tower-large-capsule/" "Hi-tech command relay foundation"
-    click n4750 "/content/techtree/nodes/pbs-maskertower-small-capsule/" "Standard masker foundation"
-    click n4753 "/content/techtree/nodes/pbs-maskertower-medium-capsule/" "Advanced masker foundation"
-    click n4756 "/content/techtree/nodes/pbs-maskertower-large-capsule/" "Hi-tech masker foundation"
-    click n4759 "/content/techtree/nodes/pbs-prototyper-small-capsule/" "Standard prototype facility foundation"
-    click n4762 "/content/techtree/nodes/pbs-prototyper-medium-capsule/" "Advanced prototype facility foundation"
-    click n4765 "/content/techtree/nodes/pbs-prototyper-large-capsule/" "Hi-tech prototype facility foundation"
-    click n4768 "/content/techtree/nodes/pbs-repair-small-capsule/" "Standard repair shop foundation"
-    click n4771 "/content/techtree/nodes/pbs-repair-medium-capsule/" "Advanced repair shop foundation"
-    click n4774 "/content/techtree/nodes/pbs-repair-large-capsule/" "Hi-tech repair shop foundation"
-    click n4777 "/content/techtree/nodes/pbs-reprocessor-small-capsule/" "Standard recycling plant foundation"
-    click n4780 "/content/techtree/nodes/pbs-reprocessor-medium-capsule/" "Advanced recycling plant foundation"
-    click n4783 "/content/techtree/nodes/pbs-reprocessor-large-capsule/" "Hi-tech recycling plant foundation"
-    click n4786 "/content/techtree/nodes/pbs-calibration-forge-small-capsule/" "Standard calibration lab foundation"
-    click n4789 "/content/techtree/nodes/pbs-calibration-forge-medium-capsule/" "Advanced calibration lab foundation"
-    click n4792 "/content/techtree/nodes/pbs-calibration-forge-large-capsule/" "Hi-tech calibration lab foundation"
-    click n4795 "/content/techtree/nodes/pbs-research-kit-forge-small-capsule/" "Standard decoder lab foundation"
-    click n4798 "/content/techtree/nodes/pbs-research-kit-forge-medium-capsule/" "Advanced decoder lab foundation"
-    click n4801 "/content/techtree/nodes/pbs-research-kit-forge-large-capsule/" "Hi-tech decoder lab foundation"
-    click n4806 "/content/techtree/nodes/reactor-booster-a/" "Energy storage cell"
-    click n4808 "/content/techtree/nodes/pbs-turret-rail-small-capsule/" "Standard EM-turret foundation"
-    click n4811 "/content/techtree/nodes/pbs-turret-rail-medium-capsule/" "Advanced EM-turret foundation"
-    click n4814 "/content/techtree/nodes/pbs-turret-rail-large-capsule/" "Hi-tech EM-turret foundation"
-    click n4817 "/content/techtree/nodes/pbs-turret-laser-small-capsule/" "Standard laser turret foundation"
-    click n4820 "/content/techtree/nodes/pbs-turret-laser-medium-capsule/" "Advanced laser turret foundation"
-    click n4823 "/content/techtree/nodes/pbs-turret-laser-large-capsule/" "Hi-tech laser turret foundation"
-    click n4826 "/content/techtree/nodes/pbs-turret-missile-small-capsule/" "Standard missile turret foundation"
-    click n4829 "/content/techtree/nodes/pbs-turret-missile-medium-capsule/" "Advanced missile turret foundation"
-    click n4832 "/content/techtree/nodes/pbs-turret-missile-large-capsule/" "Hi-tech missile turret foundation"
-    click n4835 "/content/techtree/nodes/pbs-mill-small-capsule/" "Standard factory foundation"
-    click n4838 "/content/techtree/nodes/pbs-mill-medium-capsule/" "Advanced factory foundation"
-    click n4841 "/content/techtree/nodes/pbs-mill-large-capsule/" "Hi-tech factory foundation"
-    click n4844 "/content/techtree/nodes/pbs-effect-supplier-small-capsule/" "Standard booster node foundation"
-    click n4847 "/content/techtree/nodes/pbs-effect-supplier-medium-capsule/" "Advanced booster node foundation"
-    click n4850 "/content/techtree/nodes/pbs-effect-supplier-large-capsule/" "Hi-tech booster node foundation"
-    click n5124 "/content/techtree/nodes/pbs-core-battery-small-capsule/" "Standard energy battery foundation"
-    click n5127 "/content/techtree/nodes/pbs-core-battery-medium-capsule/" "Advanced energy battery foundation"
-    click n5130 "/content/techtree/nodes/pbs-core-battery-large-capsule/" "Hi-tech energy battery foundation"
-    click n5164 "/content/techtree/nodes/pbs-turret-ew-small-capsule/" "Standard EW turret foundation"
-    click n5167 "/content/techtree/nodes/pbs-turret-ew-medium-capsule/" "Advanced EW turret foundation"
-    click n5170 "/content/techtree/nodes/pbs-turret-ew-large-capsule/" "Hi-tech EW turret foundation"
-    click n5192 "/content/techtree/nodes/pbs-aura-emitter-small-capsule/" "Standard Aura emitter foundation"
-    click n5193 "/content/techtree/nodes/pbs-aura-emitter-medium-capsule/" "Advanced Aura emitter foundation"
-    click n5196 "/content/techtree/nodes/pbs-aura-emitter-large-capsule/" "Hi-tech Aura emitter foundation"
-    click n5355 "/content/techtree/nodes/pbs-energywell-small-capsule/" "Standard energy well foundation"
-    click n5356 "/content/techtree/nodes/pbs-energywell-medium-capsule/" "Advanced energy well foundation"
-    click n5357 "/content/techtree/nodes/pbs-energywell-large-capsule/" "Hi-tech energy well foundation"
-    click n5367 "/content/techtree/nodes/pbs-highwaynode-small-capsule/" "Standard accelerator strip foundation"
-    click n5368 "/content/techtree/nodes/pbs-highwaynode-medium-capsule/" "Advanced accelerator strip foundation"
-    click n5369 "/content/techtree/nodes/pbs-highwaynode-large-capsule/" "Hi-tech accelerator strip foundation"
-    click n6110 "/content/techtree/nodes/reactor-booster-b/" "Reactor Booster B"
-    click n6111 "/content/techtree/nodes/reactor-booster-c/" "Reactor Booster C"
-    click n6625 "/content/techtree/nodes/construction-module-ammo-t1/" "Construction Module Ammo T1"
-    click n6626 "/content/techtree/nodes/construction-module-ammo-t2/" "Construction Module Ammo T2"
-    click n6627 "/content/techtree/nodes/construction-module-ammo-t3/" "Construction Module Ammo T3"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1970 764" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="1970" height="764" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <line x1="-10" y1="142" x2="-610" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-610" y1="228" x2="-1060" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-10" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="-310" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="400" x2="440" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="228" x2="-310" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-610" y1="228" x2="-760" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-760" y1="314" x2="-760" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1060" y1="314" x2="-1210" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1210" y1="400" x2="-1210" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1060" y1="314" x2="-910" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-910" y1="400" x2="-1060" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1060" y1="486" x2="-1060" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="-910" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="228" x2="440" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="314" x2="290" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="-10" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="486" x2="140" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="572" x2="140" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="290" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="290" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="486" x2="290" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="314" x2="290" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="290" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="228" x2="-10" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="314" x2="-10" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-910" y1="314" x2="-910" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-910" y1="400" x2="-910" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="-610" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-610" y1="314" x2="-610" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="314" x2="590" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="400" x2="440" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="486" x2="440" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="314" x2="590" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="400" x2="740" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="486" x2="740" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="590" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="228" x2="740" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="314" x2="740" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="228" x2="290" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="314" x2="290" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="290" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="486" x2="440" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="572" x2="440" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="658" x2="440" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="486" x2="740" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="572" x2="740" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="658" x2="740" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-610" y1="228" x2="-460" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="-310" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="314" x2="-310" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="400" x2="-310" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="-10" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="314" x2="-10" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="400" x2="-10" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="290" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="314" x2="290" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="290" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="228" x2="590" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="314" x2="890" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="890" y1="400" x2="890" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="400" x2="740" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="486" x2="590" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="572" x2="590" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-910" y1="400" x2="-760" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-760" y1="486" x2="-760" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-760" y1="572" x2="-760" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="590" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="314" x2="590" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="400" x2="590" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="486" x2="890" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="890" y1="572" x2="890" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="890" y1="658" x2="890" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-610" y1="228" x2="-160" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="314" x2="-160" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="400" x2="-160" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="890" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="890" y1="314" x2="890" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="890" y1="400" x2="890" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-460" y1="314" x2="-460" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-460" y1="400" x2="-460" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="290" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="290" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <g><a href="/content/techtree/nodes/pbs-reactor-small-capsule/"><title>Standard reactor foundation</title><rect x="-750" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-740" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard reactor foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-core-transmitter-small-capsule/"><title>Standard energy transmitter node foundation</title><rect x="-1200" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1190" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard energy transmitter nod…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-docking-base-small-capsule/"><title>Standard main terminal foundation</title><rect x="-150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard main terminal foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-docking-base-medium-capsule/"><title>Advanced main terminal foundation</title><rect x="-450" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced main terminal foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-research-lab-small-capsule/"><title>Standard reverse engineering foundation</title><rect x="300" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard reverse engineering fo…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-docking-base-large-capsule/"><title>Hi-tech main terminal foundation</title><rect x="-450" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech main terminal foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-reactor-medium-capsule/"><title>Advanced reactor foundation</title><rect x="-900" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-890" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced reactor foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-reactor-large-capsule/"><title>Hi-tech reactor foundation</title><rect x="-900" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-890" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech reactor foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-core-transmitter-medium-capsule/"><title>Advanced energy transmitter node foundation</title><rect x="-1350" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1340" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced energy transmitter nod…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-core-transmitter-large-capsule/"><title>Hi-tech energy transmitter node foundation</title><rect x="-1350" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1340" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech energy transmitter node…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-xl-core-transmitter-small-capsule/"><title>Standard energy backbone node foundation</title><rect x="-1050" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1040" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard energy backbone node f…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-xl-core-transmitter-medium-capsule/"><title>Advanced energy backbone node foundation</title><rect x="-1200" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1190" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced energy backbone node f…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-xl-core-transmitter-large-capsule/"><title>Hi-tech energy backbone node foundation</title><rect x="-1200" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1190" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech energy backbone node fo…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-mining-tower-small-capsule/"><title>Standard mining outpost foundation</title><rect x="-1050" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1040" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard mining outpost foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-armor-repairer-small-capsule/"><title>Standard repair node foundation</title><rect x="300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard repair node foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-production-upgrade-small-capsule/"><title>Standard facility upgrade foundation</title><rect x="150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard facility upgrade found…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-control-tower-small-capsule/"><title>Standard command relay foundation</title><rect x="-150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard command relay foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-research-lab-medium-capsule/"><title>Advanced reverse engineering foundation</title><rect x="0" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced reverse engineering fo…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-research-lab-large-capsule/"><title>Hi-tech reverse engineering foundation</title><rect x="0" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech reverse engineering fou…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-refinery-small-capsule/"><title>Standard refinery foundation</title><rect x="150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard refinery foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-production-upgrade-medium-capsule/"><title>Advanced facility upgrade foundation</title><rect x="150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced facility upgrade found…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-production-upgrade-large-capsule/"><title>Hi-tech facility upgrade foundation</title><rect x="150" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech facility upgrade founda…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-armor-repairer-medium-capsule/"><title>Advanced repair node foundation</title><rect x="150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced repair node foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-armor-repairer-large-capsule/"><title>Hi-tech repair node foundation</title><rect x="150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech repair node foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-refinery-medium-capsule/"><title>Advanced refinery foundation</title><rect x="-150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced refinery foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-refinery-large-capsule/"><title>Hi-tech refinery foundation</title><rect x="-150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech refinery foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-mining-tower-medium-capsule/"><title>Advanced mining outpost foundation</title><rect x="-1050" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1040" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced mining outpost foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-mining-tower-large-capsule/"><title>Hi-tech mining outpost foundation</title><rect x="-1050" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1040" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech mining outpost foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-control-tower-medium-capsule/"><title>Advanced command relay foundation</title><rect x="-750" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-740" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced command relay foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-control-tower-large-capsule/"><title>Hi-tech command relay foundation</title><rect x="-750" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-740" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech command relay foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-maskertower-small-capsule/"><title>Standard masker foundation</title><rect x="450" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard masker foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-maskertower-medium-capsule/"><title>Advanced masker foundation</title><rect x="300" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced masker foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-maskertower-large-capsule/"><title>Hi-tech masker foundation</title><rect x="300" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech masker foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-prototyper-small-capsule/"><title>Standard prototype facility foundation</title><rect x="450" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard prototype facility fou…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-prototyper-medium-capsule/"><title>Advanced prototype facility foundation</title><rect x="600" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced prototype facility fou…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-prototyper-large-capsule/"><title>Hi-tech prototype facility foundation</title><rect x="600" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech prototype facility foun…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-repair-small-capsule/"><title>Standard repair shop foundation</title><rect x="450" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard repair shop foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-repair-medium-capsule/"><title>Advanced repair shop foundation</title><rect x="600" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced repair shop foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-repair-large-capsule/"><title>Hi-tech repair shop foundation</title><rect x="600" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech repair shop foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-reprocessor-small-capsule/"><title>Standard recycling plant foundation</title><rect x="150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard recycling plant founda…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-reprocessor-medium-capsule/"><title>Advanced recycling plant foundation</title><rect x="150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced recycling plant founda…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-reprocessor-large-capsule/"><title>Hi-tech recycling plant foundation</title><rect x="150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech recycling plant foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-calibration-forge-small-capsule/"><title>Standard calibration lab foundation</title><rect x="300" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard calibration lab founda…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-calibration-forge-medium-capsule/"><title>Advanced calibration lab foundation</title><rect x="300" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced calibration lab founda…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-calibration-forge-large-capsule/"><title>Hi-tech calibration lab foundation</title><rect x="300" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech calibration lab foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-research-kit-forge-small-capsule/"><title>Standard decoder lab foundation</title><rect x="600" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard decoder lab foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-research-kit-forge-medium-capsule/"><title>Advanced decoder lab foundation</title><rect x="600" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced decoder lab foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-research-kit-forge-large-capsule/"><title>Hi-tech decoder lab foundation</title><rect x="600" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech decoder lab foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/reactor-booster-a/"><title>Energy storage cell</title><rect x="-600" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-590" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Energy storage cell</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-turret-rail-small-capsule/"><title>Standard EM-turret foundation</title><rect x="-450" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard EM-turret foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-turret-rail-medium-capsule/"><title>Advanced EM-turret foundation</title><rect x="-450" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced EM-turret foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-turret-rail-large-capsule/"><title>Hi-tech EM-turret foundation</title><rect x="-450" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech EM-turret foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-turret-laser-small-capsule/"><title>Standard laser turret foundation</title><rect x="-150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard laser turret foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-turret-laser-medium-capsule/"><title>Advanced laser turret foundation</title><rect x="-150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced laser turret foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-turret-laser-large-capsule/"><title>Hi-tech laser turret foundation</title><rect x="-150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech laser turret foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-turret-missile-small-capsule/"><title>Standard missile turret foundation</title><rect x="150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard missile turret foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-turret-missile-medium-capsule/"><title>Advanced missile turret foundation</title><rect x="150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced missile turret foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-turret-missile-large-capsule/"><title>Hi-tech missile turret foundation</title><rect x="150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech missile turret foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-mill-small-capsule/"><title>Standard factory foundation</title><rect x="450" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard factory foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-mill-medium-capsule/"><title>Advanced factory foundation</title><rect x="750" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="760" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced factory foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-mill-large-capsule/"><title>Hi-tech factory foundation</title><rect x="750" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="760" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech factory foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-effect-supplier-small-capsule/"><title>Standard booster node foundation</title><rect x="600" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard booster node foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-effect-supplier-medium-capsule/"><title>Advanced booster node foundation</title><rect x="450" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced booster node foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-effect-supplier-large-capsule/"><title>Hi-tech booster node foundation</title><rect x="450" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech booster node foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-core-battery-small-capsule/"><title>Standard energy battery foundation</title><rect x="-900" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-890" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard energy battery foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-core-battery-medium-capsule/"><title>Advanced energy battery foundation</title><rect x="-900" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-890" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced energy battery foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-core-battery-large-capsule/"><title>Hi-tech energy battery foundation</title><rect x="-900" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-890" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech energy battery foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-turret-ew-small-capsule/"><title>Standard EW turret foundation</title><rect x="450" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard EW turret foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-turret-ew-medium-capsule/"><title>Advanced EW turret foundation</title><rect x="450" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced EW turret foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-turret-ew-large-capsule/"><title>Hi-tech EW turret foundation</title><rect x="450" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech EW turret foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-aura-emitter-small-capsule/"><title>Standard Aura emitter foundation</title><rect x="750" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="760" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard Aura emitter foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-aura-emitter-medium-capsule/"><title>Advanced Aura emitter foundation</title><rect x="750" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="760" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced Aura emitter foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-aura-emitter-large-capsule/"><title>Hi-tech Aura emitter foundation</title><rect x="750" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="760" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech Aura emitter foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-energywell-small-capsule/"><title>Standard energy well foundation</title><rect x="-300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard energy well foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-energywell-medium-capsule/"><title>Advanced energy well foundation</title><rect x="-300" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced energy well foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-energywell-large-capsule/"><title>Hi-tech energy well foundation</title><rect x="-300" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech energy well foundation</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-highwaynode-small-capsule/"><title>Standard accelerator strip foundation</title><rect x="750" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="760" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard accelerator strip foun…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-highwaynode-medium-capsule/"><title>Advanced accelerator strip foundation</title><rect x="750" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="760" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Advanced accelerator strip foun…</text></a></g>
+  <g><a href="/content/techtree/nodes/pbs-highwaynode-large-capsule/"><title>Hi-tech accelerator strip foundation</title><rect x="750" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="760" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hi-tech accelerator strip found…</text></a></g>
+  <g><a href="/content/techtree/nodes/reactor-booster-b/"><title>Reactor Booster B</title><rect x="-600" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-590" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Reactor Booster B</text></a></g>
+  <g><a href="/content/techtree/nodes/reactor-booster-c/"><title>Reactor Booster C</title><rect x="-600" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-590" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Reactor Booster C</text></a></g>
+  <g><a href="/content/techtree/nodes/construction-module-ammo-t1/"><title>Construction Module Ammo T1</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Construction Module Ammo T1</text></a></g>
+  <g><a href="/content/techtree/nodes/construction-module-ammo-t2/"><title>Construction Module Ammo T2</title><rect x="150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Construction Module Ammo T2</text></a></g>
+  <g><a href="/content/techtree/nodes/construction-module-ammo-t3/"><title>Construction Module Ammo T3</title><rect x="150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Construction Module Ammo T3</text></a></g>
+</svg>
 
 ## Nodes (all)
 

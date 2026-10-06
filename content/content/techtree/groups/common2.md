@@ -25,167 +25,114 @@ The second set of standard modules, including the named energy-transfer lines.
 
 **53 nodes** — everything that descends from [Standard coreactor](/content/techtree/nodes/standard-powergrid-upgrades/).
 
-```mermaid
-graph TD
-    n32["Standard small energy transferer"]
-    n33["Standard medium energy transferer"]
-    n35["Standard small energy drainer"]
-    n36["Standard medium energy drainer"]
-    n41["Standard accumulator recharger"]
-    n42["Standard coreactor"]
-    n645["Standard small auxiliary accumulator"]
-    n646["Standard medium auxiliary accumulator"]
-    n647["Standard large auxiliary accumulator"]
-    n648["Standard small energy injector"]
-    n649["Standard medium energy injector"]
-    n650["Standard large energy injector"]
-    n664["Standard energy injector charge"]
-    n735["Uysta small energy transferer"]
-    n736["Bithom small energy transferer"]
-    n737["Livostid PT3 small energy transferer"]
-    n738["CDC-Yamp medium energy transferer"]
-    n739["Avit-Microfloss medium energy transferer"]
-    n740["Livostid PT-VI medium energy transferer"]
-    n744["Portio I. small energy drainer"]
-    n745["Ekcept small energy drainer"]
-    n746["Io-trail SVU small energy drainer"]
-    n747["Portio II. medium energy drainer"]
-    n748["V90-Quadres medium energy drainer"]
-    n749["Filch-AM medium energy drainer"]
-    n762["Basis Ionostator accumulator recharger"]
-    n763["Duobar 300xs-'Othys' accumulator recharger"]
-    n764["Nyhna Filler accumulator recharger"]
-    n765["Y-type 'Connector' coreactor"]
-    n766["Palp coreactor"]
-    n767["E-set 15VaW coreactor"]
-    n813["Co-Fuse small auxiliary accumulator"]
-    n814["Ovostec-Ghioc small auxiliary accumulator"]
-    n815["Pheter Charge-S small auxiliary accumulator"]
-    n816["Ovostec-gpc7000 medium auxiliary accumulator"]
-    n817["Sistolox medium auxiliary accumulator"]
-    n818["Pheter Charge-M medium auxiliary accumulator"]
-    n819["Ovostec-gxc9000 large auxiliary accumulator"]
-    n820["Nibott-I large auxiliary accumulator"]
-    n821["Pheter Charge-L large auxiliary accumulator"]
-    n822["CC25-Veo small energy injector"]
-    n823["Joffret-Refiller small energy injector"]
-    n824["Cerepter I. small energy injector"]
-    n825["Shoxit Parter I. medium energy injector"]
-    n826["Follypsos medium energy injector"]
-    n827["Cerepter II. medium energy injector"]
-    n828["Shoxit Parter II. large energy injector"]
-    n829["CC90-Tensio large energy injector"]
-    n830["Rymur DTTO large energy injector"]
-    n4576["Standard reactor sealing"]
-    n4580["Tortoise reactor sealing"]
-    n4581["GRIP-250 reactor sealing"]
-    n4582["GRIP-500p reactor sealing"]
-    n765 --> n32
-    n735 --> n33
-    n735 --> n35
-    n744 --> n36
-    n42 --> n41
-    n762 --> n645
-    n813 --> n646
-    n646 --> n647
-    n762 --> n648
-    n822 --> n649
-    n649 --> n650
-    n648 --> n664
-    n32 --> n735
-    n735 --> n736
-    n736 --> n737
-    n33 --> n738
-    n738 --> n739
-    n739 --> n740
-    n35 --> n744
-    n744 --> n745
-    n745 --> n746
-    n36 --> n747
-    n747 --> n748
-    n748 --> n749
-    n41 --> n762
-    n762 --> n763
-    n763 --> n764
-    n42 --> n765
-    n765 --> n766
-    n766 --> n767
-    n645 --> n813
-    n813 --> n814
-    n814 --> n815
-    n646 --> n816
-    n816 --> n817
-    n817 --> n818
-    n647 --> n819
-    n819 --> n820
-    n820 --> n821
-    n648 --> n822
-    n822 --> n823
-    n823 --> n824
-    n649 --> n825
-    n825 --> n826
-    n826 --> n827
-    n650 --> n828
-    n828 --> n829
-    n829 --> n830
-    n765 --> n4576
-    n4576 --> n4580
-    n4580 --> n4581
-    n4581 --> n4582
-    click n32 "/content/techtree/nodes/standard-small-energy-transfer/" "Standard small energy transferer"
-    click n33 "/content/techtree/nodes/standard-medium-energy-transfer/" "Standard medium energy transferer"
-    click n35 "/content/techtree/nodes/standard-small-energy-vampire/" "Standard small energy drainer"
-    click n36 "/content/techtree/nodes/standard-medium-energy-vampire/" "Standard medium energy drainer"
-    click n41 "/content/techtree/nodes/standard-core-recharger/" "Standard accumulator recharger"
-    click n42 "/content/techtree/nodes/standard-powergrid-upgrades/" "Standard coreactor"
-    click n645 "/content/techtree/nodes/standard-small-core-battery/" "Standard small auxiliary accumulator"
-    click n646 "/content/techtree/nodes/standard-medium-core-battery/" "Standard medium auxiliary accumulator"
-    click n647 "/content/techtree/nodes/standard-large-core-battery/" "Standard large auxiliary accumulator"
-    click n648 "/content/techtree/nodes/standard-small-core-booster/" "Standard small energy injector"
-    click n649 "/content/techtree/nodes/standard-medium-core-booster/" "Standard medium energy injector"
-    click n650 "/content/techtree/nodes/standard-large-core-booster/" "Standard large energy injector"
-    click n664 "/content/techtree/nodes/corebooster-ammo/" "Standard energy injector charge"
-    click n735 "/content/techtree/nodes/named1-small-energy-transfer/" "Uysta small energy transferer"
-    click n736 "/content/techtree/nodes/named2-small-energy-transfer/" "Bithom small energy transferer"
-    click n737 "/content/techtree/nodes/named3-small-energy-transfer/" "Livostid PT3 small energy transferer"
-    click n738 "/content/techtree/nodes/named1-medium-energy-transfer/" "CDC-Yamp medium energy transferer"
-    click n739 "/content/techtree/nodes/named2-medium-energy-transfer/" "Avit-Microfloss medium energy transferer"
-    click n740 "/content/techtree/nodes/named3-medium-energy-transfer/" "Livostid PT-VI medium energy transferer"
-    click n744 "/content/techtree/nodes/named1-small-energy-vampire/" "Portio I. small energy drainer"
-    click n745 "/content/techtree/nodes/named2-small-energy-vampire/" "Ekcept small energy drainer"
-    click n746 "/content/techtree/nodes/named3-small-energy-vampire/" "Io-trail SVU small energy drainer"
-    click n747 "/content/techtree/nodes/named1-medium-energy-vampire/" "Portio II. medium energy drainer"
-    click n748 "/content/techtree/nodes/named2-medium-energy-vampire/" "V90-Quadres medium energy drainer"
-    click n749 "/content/techtree/nodes/named3-medium-energy-vampire/" "Filch-AM medium energy drainer"
-    click n762 "/content/techtree/nodes/named1-core-recharger/" "Basis Ionostator accumulator recharger"
-    click n763 "/content/techtree/nodes/named2-core-recharger/" "Duobar 300xs-'Othys' accumulator recharger"
-    click n764 "/content/techtree/nodes/named3-core-recharger/" "Nyhna Filler accumulator recharger"
-    click n765 "/content/techtree/nodes/named1-powergrid-upgrades/" "Y-type 'Connector' coreactor"
-    click n766 "/content/techtree/nodes/named2-powergrid-upgrades/" "Palp coreactor"
-    click n767 "/content/techtree/nodes/named3-powergrid-upgrades/" "E-set 15VaW coreactor"
-    click n813 "/content/techtree/nodes/named1-small-core-battery/" "Co-Fuse small auxiliary accumulator"
-    click n814 "/content/techtree/nodes/named2-small-core-battery/" "Ovostec-Ghioc small auxiliary accumulator"
-    click n815 "/content/techtree/nodes/named3-small-core-battery/" "Pheter Charge-S small auxiliary accumulator"
-    click n816 "/content/techtree/nodes/named1-medium-core-battery/" "Ovostec-gpc7000 medium auxiliary accumulator"
-    click n817 "/content/techtree/nodes/named2-medium-core-battery/" "Sistolox medium auxiliary accumulator"
-    click n818 "/content/techtree/nodes/named3-medium-core-battery/" "Pheter Charge-M medium auxiliary accumulator"
-    click n819 "/content/techtree/nodes/named1-large-core-battery/" "Ovostec-gxc9000 large auxiliary accumulator"
-    click n820 "/content/techtree/nodes/named2-large-core-battery/" "Nibott-I large auxiliary accumulator"
-    click n821 "/content/techtree/nodes/named3-large-core-battery/" "Pheter Charge-L large auxiliary accumulator"
-    click n822 "/content/techtree/nodes/named1-small-core-booster/" "CC25-Veo small energy injector"
-    click n823 "/content/techtree/nodes/named2-small-core-booster/" "Joffret-Refiller small energy injector"
-    click n824 "/content/techtree/nodes/named3-small-core-booster/" "Cerepter I. small energy injector"
-    click n825 "/content/techtree/nodes/named1-medium-core-booster/" "Shoxit Parter I. medium energy injector"
-    click n826 "/content/techtree/nodes/named2-medium-core-booster/" "Follypsos medium energy injector"
-    click n827 "/content/techtree/nodes/named3-medium-core-booster/" "Cerepter II. medium energy injector"
-    click n828 "/content/techtree/nodes/named1-large-core-booster/" "Shoxit Parter II. large energy injector"
-    click n829 "/content/techtree/nodes/named2-large-core-booster/" "CC90-Tensio large energy injector"
-    click n830 "/content/techtree/nodes/named3-large-core-booster/" "Rymur DTTO large energy injector"
-    click n4576 "/content/techtree/nodes/standard-reactor-sealing/" "Standard reactor sealing"
-    click n4580 "/content/techtree/nodes/named1-reactor-sealing/" "Tortoise reactor sealing"
-    click n4581 "/content/techtree/nodes/named2-reactor-sealing/" "GRIP-250 reactor sealing"
-    click n4582 "/content/techtree/nodes/named3-reactor-sealing/" "GRIP-500p reactor sealing"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 850" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="920" height="850" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <line x1="290" y1="142" x2="-10" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="314" x2="-310" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="314" x2="-10" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="486" x2="-160" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-10" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="-310" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="400" x2="-460" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-460" y1="486" x2="-610" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="-10" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="400" x2="-10" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="486" x2="-160" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="314" x2="-160" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="-10" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="314" x2="290" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="290" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="400" x2="-310" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="486" x2="-310" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="572" x2="-310" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="400" x2="-10" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="486" x2="140" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="572" x2="140" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="572" x2="-160" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="658" x2="-160" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="744" x2="-160" y2="794" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="-10" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="290" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="314" x2="290" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="290" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="290" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="228" x2="290" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="314" x2="-310" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="400" x2="-160" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="486" x2="-160" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-460" y1="486" x2="-310" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="572" x2="-310" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="658" x2="-310" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-610" y1="572" x2="-610" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-610" y1="658" x2="-610" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-610" y1="744" x2="-610" y2="794" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="314" x2="140" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="400" x2="290" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="486" x2="290" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="486" x2="140" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="572" x2="140" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="658" x2="140" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="572" x2="-160" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="658" x2="-160" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="744" x2="-160" y2="794" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="590" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="228" x2="590" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="314" x2="590" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="400" x2="590" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <g><a href="/content/techtree/nodes/standard-small-energy-transfer/"><title>Standard small energy transferer</title><rect x="-150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard small energy transferer</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-medium-energy-transfer/"><title>Standard medium energy transferer</title><rect x="-450" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard medium energy transferer</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-small-energy-vampire/"><title>Standard small energy drainer</title><rect x="-150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard small energy drainer</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-medium-energy-vampire/"><title>Standard medium energy drainer</title><rect x="-300" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard medium energy drainer</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-core-recharger/"><title>Standard accumulator recharger</title><rect x="-150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard accumulator recharger</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-powergrid-upgrades/"><title>Standard coreactor</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard coreactor</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-small-core-battery/"><title>Standard small auxiliary accumulator</title><rect x="-450" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard small auxiliary accumu…</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-medium-core-battery/"><title>Standard medium auxiliary accumulator</title><rect x="-600" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-590" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard medium auxiliary accum…</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-large-core-battery/"><title>Standard large auxiliary accumulator</title><rect x="-750" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-740" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard large auxiliary accumu…</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-small-core-booster/"><title>Standard small energy injector</title><rect x="-150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard small energy injector</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-medium-core-booster/"><title>Standard medium energy injector</title><rect x="-150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard medium energy injector</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-large-core-booster/"><title>Standard large energy injector</title><rect x="-300" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard large energy injector</text></a></g>
+  <g><a href="/content/techtree/nodes/corebooster-ammo/"><title>Standard energy injector charge</title><rect x="-300" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard energy injector charge</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-small-energy-transfer/"><title>Uysta small energy transferer</title><rect x="-150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Uysta small energy transferer</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-small-energy-transfer/"><title>Bithom small energy transferer</title><rect x="150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Bithom small energy transferer</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-small-energy-transfer/"><title>Livostid PT3 small energy transferer</title><rect x="150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Livostid PT3 small energy trans…</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-medium-energy-transfer/"><title>CDC-Yamp medium energy transferer</title><rect x="-450" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">CDC-Yamp medium energy transferer</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-medium-energy-transfer/"><title>Avit-Microfloss medium energy transferer</title><rect x="-450" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Avit-Microfloss medium energy t…</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-medium-energy-transfer/"><title>Livostid PT-VI medium energy transferer</title><rect x="-450" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Livostid PT-VI medium energy tr…</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-small-energy-vampire/"><title>Portio I. small energy drainer</title><rect x="-150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Portio I. small energy drainer</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-small-energy-vampire/"><title>Ekcept small energy drainer</title><rect x="0" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ekcept small energy drainer</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-small-energy-vampire/"><title>Io-trail SVU small energy drainer</title><rect x="0" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Io-trail SVU small energy drainer</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-medium-energy-vampire/"><title>Portio II. medium energy drainer</title><rect x="-300" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Portio II. medium energy drainer</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-medium-energy-vampire/"><title>V90-Quadres medium energy drainer</title><rect x="-300" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">V90-Quadres medium energy drainer</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-medium-energy-vampire/"><title>Filch-AM medium energy drainer</title><rect x="-300" y="794" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="816" font-size="12" fill="#e8ecf4" font-family="sans-serif">Filch-AM medium energy drainer</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-core-recharger/"><title>Basis Ionostator accumulator recharger</title><rect x="-150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Basis Ionostator accumulator re…</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-core-recharger/"><title>Duobar 300xs-'Othys' accumulator recharger</title><rect x="150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Duobar 300xs-'Othys' accumulato…</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-core-recharger/"><title>Nyhna Filler accumulator recharger</title><rect x="150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Nyhna Filler accumulator recharger</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-powergrid-upgrades/"><title>Y-type 'Connector' coreactor</title><rect x="150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Y-type 'Connector' coreactor</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-powergrid-upgrades/"><title>Palp coreactor</title><rect x="150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Palp coreactor</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-powergrid-upgrades/"><title>E-set 15VaW coreactor</title><rect x="150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">E-set 15VaW coreactor</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-small-core-battery/"><title>Co-Fuse small auxiliary accumulator</title><rect x="-450" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Co-Fuse small auxiliary accumul…</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-small-core-battery/"><title>Ovostec-Ghioc small auxiliary accumulator</title><rect x="-300" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ovostec-Ghioc small auxiliary a…</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-small-core-battery/"><title>Pheter Charge-S small auxiliary accumulator</title><rect x="-300" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Pheter Charge-S small auxiliary…</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-medium-core-battery/"><title>Ovostec-gpc7000 medium auxiliary accumulator</title><rect x="-450" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ovostec-gpc7000 medium auxiliar…</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-medium-core-battery/"><title>Sistolox medium auxiliary accumulator</title><rect x="-450" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Sistolox medium auxiliary accum…</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-medium-core-battery/"><title>Pheter Charge-M medium auxiliary accumulator</title><rect x="-450" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Pheter Charge-M medium auxiliar…</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-large-core-battery/"><title>Ovostec-gxc9000 large auxiliary accumulator</title><rect x="-750" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-740" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ovostec-gxc9000 large auxiliary…</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-large-core-battery/"><title>Nibott-I large auxiliary accumulator</title><rect x="-750" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-740" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Nibott-I large auxiliary accumu…</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-large-core-battery/"><title>Pheter Charge-L large auxiliary accumulator</title><rect x="-750" y="794" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-740" y="816" font-size="12" fill="#e8ecf4" font-family="sans-serif">Pheter Charge-L large auxiliary…</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-small-core-booster/"><title>CC25-Veo small energy injector</title><rect x="0" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">CC25-Veo small energy injector</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-small-core-booster/"><title>Joffret-Refiller small energy injector</title><rect x="150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Joffret-Refiller small energy i…</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-small-core-booster/"><title>Cerepter I. small energy injector</title><rect x="150" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Cerepter I. small energy injector</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-medium-core-booster/"><title>Shoxit Parter I. medium energy injector</title><rect x="0" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Shoxit Parter I. medium energy …</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-medium-core-booster/"><title>Follypsos medium energy injector</title><rect x="0" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Follypsos medium energy injector</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-medium-core-booster/"><title>Cerepter II. medium energy injector</title><rect x="0" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Cerepter II. medium energy inje…</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-large-core-booster/"><title>Shoxit Parter II. large energy injector</title><rect x="-300" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Shoxit Parter II. large energy …</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-large-core-booster/"><title>CC90-Tensio large energy injector</title><rect x="-300" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">CC90-Tensio large energy injector</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-large-core-booster/"><title>Rymur DTTO large energy injector</title><rect x="-300" y="794" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="816" font-size="12" fill="#e8ecf4" font-family="sans-serif">Rymur DTTO large energy injector</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-reactor-sealing/"><title>Standard reactor sealing</title><rect x="450" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard reactor sealing</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-reactor-sealing/"><title>Tortoise reactor sealing</title><rect x="450" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Tortoise reactor sealing</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-reactor-sealing/"><title>GRIP-250 reactor sealing</title><rect x="450" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">GRIP-250 reactor sealing</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-reactor-sealing/"><title>GRIP-500p reactor sealing</title><rect x="450" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">GRIP-500p reactor sealing</text></a></g>
+</svg>
 
 <a id="line-48"></a>
 
@@ -193,332 +140,224 @@ graph TD
 
 **108 nodes** — everything that descends from [Standard coprocessor](/content/techtree/nodes/standard-cpu-upgrade/).
 
-```mermaid
-graph TD
-    n43["Standard sensor amplifier"]
-    n44["Standard remote sensor amplifier"]
-    n45["Standard cargo scanner"]
-    n46["Standard chassis scanner"]
-    n48["Standard coprocessor"]
-    n49["Standard S-demobilizer"]
-    n52["Standard ECCM"]
-    n768["Bullz-I 6601 sensor amplifier"]
-    n769["Desenspure sensor amplifier"]
-    n770["Ambassador SU-I sensor amplifier"]
-    n771["Occul remote sensor amplifier"]
-    n772["Da Gama-PLS10 remote sensor amplifier"]
-    n773["Ambassador-RU2 remote sensor amplifier"]
-    n774["Spurt-Singular cargo scanner"]
-    n775["Nomothetor cargo scanner"]
-    n776["Visioner cargo scanner"]
-    n777["Distalfrisk-MDO2 chassis scanner"]
-    n778["Stalis CS3 chassis scanner"]
-    n779["sy-D-930 chassis scanner"]
-    n783["Parallelyt-C300 coprocessor"]
-    n784["Cerebellum-1000 coprocessor"]
-    n785["Processyt-C1000 coprocessor"]
-    n786["Arachnid-type S-demobilizer"]
-    n787["NNt. IX S-demobilizer"]
-    n788["NNt. IY S-demobilizer"]
-    n795["Wallex ECCM"]
-    n796["Deshrud-QW ECCM"]
-    n797["Braviar ECCM"]
-    n913["Standard range extender"]
-    n936["Opaletrak range extender"]
-    n937["Unotron 60s-'Crack shot' range extender"]
-    n938["ATCS-gh50 range extender"]
-    n2550["Standard EW NEXUS module"]
-    n2583["Yzla-1500 EW NEXUS module"]
-    n2584["Hidmuns EW NEXUS module"]
-    n2585["Yzla-2500 EW NEXUS module"]
-    n2846["Standard interference module"]
-    n2847["Bandoler IU-250 interference module"]
-    n2848["Bandoler IV-500 interference module"]
-    n2849["Omini interference module"]
-    n2896["Standard signal detector"]
-    n2897["Standard signal masker"]
-    n2898["Standard target marker"]
-    n2899["Techodo signal detector"]
-    n2900["MX-1 Dogon signal detector"]
-    n2901["'Rogue' signal detector"]
-    n2902["Mimique signal masker"]
-    n2903["MSMD signal masker"]
-    n2904["Longlag signal masker"]
-    n2905["Pois-D22 target marker"]
-    n2906["Colqual target marker"]
-    n2907["Pulsus target marker"]
-    n3514["Standard L-demobilizer"]
-    n3515["Venom L-demobilizer"]
-    n3516["GLOO L-demobilizer"]
-    n3517["TDR25 L-demobilizer"]
-    n8313["Standart Landmine Detector"]
-    n8314["T2 Landmine Detector"]
-    n8316["T3 Landmine Detector"]
-    n8318["T4 Landmine Detector"]
-    n8324["Standard Assault Remote Controller"]
-    n8325["T2 Assault Remote Controller"]
-    n8326["T3 Assault Remote Controller"]
-    n8327["T4 Assault Remote Controller"]
-    n8340["Sentry Turret Unit"]
-    n8348["Spectator"]
-    n8560["Standard Tactical Remote Controller"]
-    n8561["T2 Tactical Remote Controller"]
-    n8563["T3 Tactical Remote Controller"]
-    n8565["T4 Tactical Remote Controller"]
-    n8571["Standard Industrial Remote Controller"]
-    n8572["T2 Industrial Remote Controller"]
-    n8574["T3 Industrial Remote Controller"]
-    n8576["T4 Industrial Remote Controller"]
-    n8582["Standard Support Remote Controller"]
-    n8583["T2 Support Remote Controller"]
-    n8585["T3 Support Remote Controller"]
-    n8587["T4 Support Remote Controller"]
-    n8598["Syndicate Assault Drone Unit"]
-    n8604["Nuimqol Assault Drone Unit"]
-    n8610["Thelodica Assault Drone Unit"]
-    n8616["Pelistal Assault Drone Unit"]
-    n8622["Syndicate Attack Drone Unit"]
-    n8628["Nuimqol Attack Drone Unit"]
-    n8634["Thelodica Attack Drone Unit"]
-    n8640["Pelistal Attack Drone Unit"]
-    n8646["Mining Industrial Drone Unit"]
-    n8652["Harvesting Industrial Drone Unit"]
-    n8658["Repair Support Drone Unit"]
-    n8831["Standard Remote Command Translator"]
-    n8833["T2 Remote Command Translator"]
-    n8836["T3 Remote Command Translator"]
-    n8839["T4 Remote Command Translator"]
-    n8876["Beholder"]
-    n8970["Standard Self Destruct Module"]
-    n8977["Standard Hunter Remote Controller"]
-    n8978["Standard Hunter Drone Rcu Pve"]
-    n8979["Standard Hunter Drone Rcu Pvp"]
-    n8980["T2 Self Destruct Module"]
-    n8983["T3 Self Destruct Module"]
-    n8986["T4 Self Destruct Module"]
-    n8990["T2 Hunter Remote Controller"]
-    n8993["T3 Hunter Remote Controller"]
-    n8996["T4 Hunter Remote Controller"]
-    n9009["Standard Engineering Remote Controller"]
-    n9010["T2 Engineering Remote Controller"]
-    n9012["T3 Engineering Remote Controller"]
-    n9014["T4 Engineering Remote Controller"]
-    n48 --> n43
-    n43 --> n44
-    n777 --> n45
-    n48 --> n46
-    n769 --> n49
-    n48 --> n52
-    n43 --> n768
-    n768 --> n769
-    n769 --> n770
-    n44 --> n771
-    n771 --> n772
-    n772 --> n773
-    n45 --> n774
-    n774 --> n775
-    n775 --> n776
-    n46 --> n777
-    n777 --> n778
-    n778 --> n779
-    n48 --> n783
-    n783 --> n784
-    n784 --> n785
-    n49 --> n786
-    n786 --> n787
-    n787 --> n788
-    n52 --> n795
-    n795 --> n796
-    n796 --> n797
-    n2896 --> n913
-    n913 --> n936
-    n936 --> n937
-    n937 --> n938
-    n771 --> n2550
-    n2550 --> n2583
-    n2583 --> n2584
-    n2584 --> n2585
-    n44 --> n2846
-    n2846 --> n2847
-    n2847 --> n2848
-    n2848 --> n2849
-    n768 --> n2896
-    n2899 --> n2897
-    n913 --> n2898
-    n2896 --> n2899
-    n2899 --> n2900
-    n2900 --> n2901
-    n2897 --> n2902
-    n2902 --> n2903
-    n2903 --> n2904
-    n2898 --> n2905
-    n2905 --> n2906
-    n2906 --> n2907
-    n786 --> n3514
-    n3514 --> n3515
-    n3515 --> n3516
-    n3516 --> n3517
-    n2847 --> n8313
-    n8313 --> n8314
-    n8314 --> n8316
-    n8316 --> n8318
-    n48 --> n8324
-    n8324 --> n8325
-    n8325 --> n8326
-    n8326 --> n8327
-    n9009 --> n8340
-    n8324 --> n8348
-    n48 --> n8560
-    n8560 --> n8561
-    n8561 --> n8563
-    n8563 --> n8565
-    n48 --> n8571
-    n8571 --> n8572
-    n8572 --> n8574
-    n8574 --> n8576
-    n48 --> n8582
-    n8582 --> n8583
-    n8583 --> n8585
-    n8585 --> n8587
-    n8324 --> n8598
-    n8598 --> n8604
-    n8598 --> n8610
-    n8598 --> n8616
-    n8560 --> n8622
-    n8622 --> n8628
-    n8622 --> n8634
-    n8622 --> n8640
-    n8571 --> n8646
-    n8571 --> n8652
-    n8582 --> n8658
-    n48 --> n8831
-    n8831 --> n8833
-    n8833 --> n8836
-    n8836 --> n8839
-    n8560 --> n8876
-    n48 --> n8970
-    n8970 --> n8977
-    n8977 --> n8978
-    n8977 --> n8979
-    n8970 --> n8980
-    n8980 --> n8983
-    n8983 --> n8986
-    n8977 --> n8990
-    n8990 --> n8993
-    n8993 --> n8996
-    n48 --> n9009
-    n9009 --> n9010
-    n9010 --> n9012
-    n9012 --> n9014
-    click n43 "/content/techtree/nodes/standard-sensor-booster/" "Standard sensor amplifier"
-    click n44 "/content/techtree/nodes/standard-remote-sensor-booster/" "Standard remote sensor amplifier"
-    click n45 "/content/techtree/nodes/standard-cargo-scanner/" "Standard cargo scanner"
-    click n46 "/content/techtree/nodes/standard-chassis-scanner/" "Standard chassis scanner"
-    click n48 "/content/techtree/nodes/standard-cpu-upgrade/" "Standard coprocessor"
-    click n49 "/content/techtree/nodes/standard-webber/" "Standard S-demobilizer"
-    click n52 "/content/techtree/nodes/standard-eccm/" "Standard ECCM"
-    click n768 "/content/techtree/nodes/named1-sensor-booster/" "Bullz-I 6601 sensor amplifier"
-    click n769 "/content/techtree/nodes/named2-sensor-booster/" "Desenspure sensor amplifier"
-    click n770 "/content/techtree/nodes/named3-sensor-booster/" "Ambassador SU-I sensor amplifier"
-    click n771 "/content/techtree/nodes/named1-remote-sensor-booster/" "Occul remote sensor amplifier"
-    click n772 "/content/techtree/nodes/named2-remote-sensor-booster/" "Da Gama-PLS10 remote sensor amplifier"
-    click n773 "/content/techtree/nodes/named3-remote-sensor-booster/" "Ambassador-RU2 remote sensor amplifier"
-    click n774 "/content/techtree/nodes/named1-cargo-scanner/" "Spurt-Singular cargo scanner"
-    click n775 "/content/techtree/nodes/named2-cargo-scanner/" "Nomothetor cargo scanner"
-    click n776 "/content/techtree/nodes/named3-cargo-scanner/" "Visioner cargo scanner"
-    click n777 "/content/techtree/nodes/named1-chassis-scanner/" "Distalfrisk-MDO2 chassis scanner"
-    click n778 "/content/techtree/nodes/named2-chassis-scanner/" "Stalis CS3 chassis scanner"
-    click n779 "/content/techtree/nodes/named3-chassis-scanner/" "sy-D-930 chassis scanner"
-    click n783 "/content/techtree/nodes/named1-cpu-upgrade/" "Parallelyt-C300 coprocessor"
-    click n784 "/content/techtree/nodes/named2-cpu-upgrade/" "Cerebellum-1000 coprocessor"
-    click n785 "/content/techtree/nodes/named3-cpu-upgrade/" "Processyt-C1000 coprocessor"
-    click n786 "/content/techtree/nodes/named1-webber/" "Arachnid-type S-demobilizer"
-    click n787 "/content/techtree/nodes/named2-webber/" "NNt. IX S-demobilizer"
-    click n788 "/content/techtree/nodes/named3-webber/" "NNt. IY S-demobilizer"
-    click n795 "/content/techtree/nodes/named1-eccm/" "Wallex ECCM"
-    click n796 "/content/techtree/nodes/named2-eccm/" "Deshrud-QW ECCM"
-    click n797 "/content/techtree/nodes/named3-eccm/" "Braviar ECCM"
-    click n913 "/content/techtree/nodes/standard-tracking-upgrade/" "Standard range extender"
-    click n936 "/content/techtree/nodes/named1-tracking-upgrade/" "Opaletrak range extender"
-    click n937 "/content/techtree/nodes/named2-tracking-upgrade/" "Unotron 60s-'Crack shot' range extender"
-    click n938 "/content/techtree/nodes/named3-tracking-upgrade/" "ATCS-gh50 range extender"
-    click n2550 "/content/techtree/nodes/standard-gang-assist-ewar-range-module/" "Standard EW NEXUS module"
-    click n2583 "/content/techtree/nodes/named1-gang-assist-ewar-range-module/" "Yzla-1500 EW NEXUS module"
-    click n2584 "/content/techtree/nodes/named2-gang-assist-ewar-range-module/" "Hidmuns EW NEXUS module"
-    click n2585 "/content/techtree/nodes/named3-gang-assist-ewar-range-module/" "Yzla-2500 EW NEXUS module"
-    click n2846 "/content/techtree/nodes/standard-blob-emission-modulator/" "Standard interference module"
-    click n2847 "/content/techtree/nodes/named1-blob-emission-modulator/" "Bandoler IU-250 interference module"
-    click n2848 "/content/techtree/nodes/named2-blob-emission-modulator/" "Bandoler IV-500 interference module"
-    click n2849 "/content/techtree/nodes/named3-blob-emission-modulator/" "Omini interference module"
-    click n2896 "/content/techtree/nodes/standard-detection-modul/" "Standard signal detector"
-    click n2897 "/content/techtree/nodes/standard-stealth-modul/" "Standard signal masker"
-    click n2898 "/content/techtree/nodes/standard-target-painter/" "Standard target marker"
-    click n2899 "/content/techtree/nodes/named1-detection-modul/" "Techodo signal detector"
-    click n2900 "/content/techtree/nodes/named2-detection-modul/" "MX-1 Dogon signal detector"
-    click n2901 "/content/techtree/nodes/named3-detection-modul/" "'Rogue' signal detector"
-    click n2902 "/content/techtree/nodes/named1-stealth-modul/" "Mimique signal masker"
-    click n2903 "/content/techtree/nodes/named2-stealth-modul/" "MSMD signal masker"
-    click n2904 "/content/techtree/nodes/named3-stealth-modul/" "Longlag signal masker"
-    click n2905 "/content/techtree/nodes/named1-target-painter/" "Pois-D22 target marker"
-    click n2906 "/content/techtree/nodes/named2-target-painter/" "Colqual target marker"
-    click n2907 "/content/techtree/nodes/named3-target-painter/" "Pulsus target marker"
-    click n3514 "/content/techtree/nodes/standard-longrange-webber/" "Standard L-demobilizer"
-    click n3515 "/content/techtree/nodes/named1-longrange-webber/" "Venom L-demobilizer"
-    click n3516 "/content/techtree/nodes/named2-longrange-webber/" "GLOO L-demobilizer"
-    click n3517 "/content/techtree/nodes/named3-longrange-webber/" "TDR25 L-demobilizer"
-    click n8313 "/content/techtree/nodes/standart-landmine-detector/" "Standart Landmine Detector"
-    click n8314 "/content/techtree/nodes/named1-landmine-detector/" "T2 Landmine Detector"
-    click n8316 "/content/techtree/nodes/named2-landmine-detector/" "T3 Landmine Detector"
-    click n8318 "/content/techtree/nodes/named3-landmine-detector/" "T4 Landmine Detector"
-    click n8324 "/content/techtree/nodes/standard-assault-remote-controller/" "Standard Assault Remote Controller"
-    click n8325 "/content/techtree/nodes/named1-assault-remote-controller/" "T2 Assault Remote Controller"
-    click n8326 "/content/techtree/nodes/named2-assault-remote-controller/" "T3 Assault Remote Controller"
-    click n8327 "/content/techtree/nodes/named3-assault-remote-controller/" "T4 Assault Remote Controller"
-    click n8340 "/content/techtree/nodes/sentry-turret-unit/" "Sentry Turret Unit"
-    click n8348 "/content/techtree/nodes/spectator/" "Spectator"
-    click n8560 "/content/techtree/nodes/standard-tactical-remote-controller/" "Standard Tactical Remote Controller"
-    click n8561 "/content/techtree/nodes/named1-tactical-remote-controller/" "T2 Tactical Remote Controller"
-    click n8563 "/content/techtree/nodes/named2-tactical-remote-controller/" "T3 Tactical Remote Controller"
-    click n8565 "/content/techtree/nodes/named3-tactical-remote-controller/" "T4 Tactical Remote Controller"
-    click n8571 "/content/techtree/nodes/standard-industrial-remote-controller/" "Standard Industrial Remote Controller"
-    click n8572 "/content/techtree/nodes/named1-industrial-remote-controller/" "T2 Industrial Remote Controller"
-    click n8574 "/content/techtree/nodes/named2-industrial-remote-controller/" "T3 Industrial Remote Controller"
-    click n8576 "/content/techtree/nodes/named3-industrial-remote-controller/" "T4 Industrial Remote Controller"
-    click n8582 "/content/techtree/nodes/standard-support-remote-controller/" "Standard Support Remote Controller"
-    click n8583 "/content/techtree/nodes/named1-support-remote-controller/" "T2 Support Remote Controller"
-    click n8585 "/content/techtree/nodes/named2-support-remote-controller/" "T3 Support Remote Controller"
-    click n8587 "/content/techtree/nodes/named3-support-remote-controller/" "T4 Support Remote Controller"
-    click n8598 "/content/techtree/nodes/syndicate-assault-drone-unit/" "Syndicate Assault Drone Unit"
-    click n8604 "/content/techtree/nodes/nuimqol-assault-drone-unit/" "Nuimqol Assault Drone Unit"
-    click n8610 "/content/techtree/nodes/thelodica-assault-drone-unit/" "Thelodica Assault Drone Unit"
-    click n8616 "/content/techtree/nodes/pelistal-assault-drone-unit/" "Pelistal Assault Drone Unit"
-    click n8622 "/content/techtree/nodes/syndicate-attack-drone-unit/" "Syndicate Attack Drone Unit"
-    click n8628 "/content/techtree/nodes/nuimqol-attack-drone-unit/" "Nuimqol Attack Drone Unit"
-    click n8634 "/content/techtree/nodes/thelodica-attack-drone-unit/" "Thelodica Attack Drone Unit"
-    click n8640 "/content/techtree/nodes/pelistal-attack-drone-unit/" "Pelistal Attack Drone Unit"
-    click n8646 "/content/techtree/nodes/mining-industrial-drone-unit/" "Mining Industrial Drone Unit"
-    click n8652 "/content/techtree/nodes/harvesting-industrial-drone-unit/" "Harvesting Industrial Drone Unit"
-    click n8658 "/content/techtree/nodes/repair-support-drone-unit/" "Repair Support Drone Unit"
-    click n8831 "/content/techtree/nodes/standard-remote-command-translator/" "Standard Remote Command Translator"
-    click n8833 "/content/techtree/nodes/named1-remote-command-translator/" "T2 Remote Command Translator"
-    click n8836 "/content/techtree/nodes/named2-remote-command-translator/" "T3 Remote Command Translator"
-    click n8839 "/content/techtree/nodes/named3-remote-command-translator/" "T4 Remote Command Translator"
-    click n8876 "/content/techtree/nodes/beholder/" "Beholder"
-    click n8970 "/content/techtree/nodes/standard-self-destruct-module/" "Standard Self Destruct Module"
-    click n8977 "/content/techtree/nodes/standard-hunter-remote-controller/" "Standard Hunter Remote Controller"
-    click n8978 "/content/techtree/nodes/standard-hunter-drone-rcu-pve/" "Standard Hunter Drone Rcu Pve"
-    click n8979 "/content/techtree/nodes/standard-hunter-drone-rcu-pvp/" "Standard Hunter Drone Rcu Pvp"
-    click n8980 "/content/techtree/nodes/named1-self-destruct-module/" "T2 Self Destruct Module"
-    click n8983 "/content/techtree/nodes/named2-self-destruct-module/" "T3 Self Destruct Module"
-    click n8986 "/content/techtree/nodes/named3-self-destruct-module/" "T4 Self Destruct Module"
-    click n8990 "/content/techtree/nodes/named1-hunter-remote-controller/" "T2 Hunter Remote Controller"
-    click n8993 "/content/techtree/nodes/named2-hunter-remote-controller/" "T3 Hunter Remote Controller"
-    click n8996 "/content/techtree/nodes/named3-hunter-remote-controller/" "T4 Hunter Remote Controller"
-    click n9009 "/content/techtree/nodes/standard-engineering-remote-controller/" "Standard Engineering Remote Controller"
-    click n9010 "/content/techtree/nodes/named1-engineering-remote-controller/" "T2 Engineering Remote Controller"
-    click n9012 "/content/techtree/nodes/named2-engineering-remote-controller/" "T3 Engineering Remote Controller"
-    click n9014 "/content/techtree/nodes/named3-engineering-remote-controller/" "T4 Engineering Remote Controller"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 850" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="300" height="850" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <line x1="140" y1="56" x2="-1360" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1360" y1="142" x2="-1510" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1060" y1="228" x2="-1210" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-1060" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1360" y1="314" x2="-1510" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-760" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1360" y1="142" x2="-1210" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1210" y1="228" x2="-1360" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1360" y1="314" x2="-1210" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1510" y1="228" x2="-1660" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1660" y1="314" x2="-1810" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1810" y1="400" x2="-1810" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1210" y1="314" x2="-1210" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1210" y1="400" x2="-1210" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1210" y1="486" x2="-1210" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1060" y1="142" x2="-1060" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1060" y1="228" x2="-910" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-910" y1="314" x2="-910" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-460" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-460" y1="142" x2="-460" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-460" y1="228" x2="-460" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1510" y1="400" x2="-1510" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1510" y1="486" x2="-1660" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1660" y1="572" x2="-1660" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-760" y1="142" x2="-760" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-760" y1="228" x2="-760" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-760" y1="314" x2="-760" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1060" y1="314" x2="-1210" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1210" y1="400" x2="-1360" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1360" y1="486" x2="-1360" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1360" y1="572" x2="-1360" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1660" y1="314" x2="-1510" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1510" y1="400" x2="-1510" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1510" y1="486" x2="-1510" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1510" y1="572" x2="-1510" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1510" y1="228" x2="-1360" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1360" y1="314" x2="-1360" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1360" y1="400" x2="-1510" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1510" y1="486" x2="-1510" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1210" y1="228" x2="-1060" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-910" y1="400" x2="-1060" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1210" y1="400" x2="-1060" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1060" y1="314" x2="-910" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-910" y1="400" x2="-760" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-760" y1="486" x2="-760" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1060" y1="486" x2="-1060" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1060" y1="572" x2="-1060" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1060" y1="658" x2="-1060" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1060" y1="486" x2="-1060" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1060" y1="572" x2="-1060" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1060" y1="658" x2="-1060" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1510" y1="486" x2="-1360" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1360" y1="572" x2="-1360" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1360" y1="658" x2="-1360" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1360" y1="744" x2="-1360" y2="794" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1360" y1="400" x2="-1210" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1210" y1="486" x2="-1210" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1210" y1="572" x2="-1210" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-1210" y1="658" x2="-1210" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-160" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="142" x2="-460" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-460" y1="228" x2="-460" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-460" y1="314" x2="-460" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="1640" y1="142" x2="1490" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="142" x2="-160" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="140" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="142" x2="-160" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="228" x2="-160" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="314" x2="-160" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="440" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="142" x2="140" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="228" x2="140" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="314" x2="140" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="740" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="142" x2="590" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="228" x2="590" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="314" x2="590" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="142" x2="140" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="228" x2="-160" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="228" x2="140" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="228" x2="440" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="142" x2="140" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="228" x2="-160" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="228" x2="140" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="228" x2="440" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="142" x2="440" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="142" x2="740" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="142" x2="890" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="1040" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="1040" y1="142" x2="1040" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="1040" y1="228" x2="1040" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="1040" y1="314" x2="1040" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="142" x2="440" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="1340" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="1340" y1="142" x2="1190" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="1190" y1="228" x2="890" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="1190" y1="228" x2="1190" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="1340" y1="142" x2="1490" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="1490" y1="228" x2="1490" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="1490" y1="314" x2="1490" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="1190" y1="228" x2="1490" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="1490" y1="314" x2="1490" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="1490" y1="400" x2="1490" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="1640" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="1640" y1="142" x2="1790" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="1790" y1="228" x2="1790" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="1790" y1="314" x2="1790" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <g><a href="/content/techtree/nodes/standard-sensor-booster/"><title>Standard sensor amplifier</title><rect x="-1500" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1490" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard sensor amplifier</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-remote-sensor-booster/"><title>Standard remote sensor amplifier</title><rect x="-1650" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1640" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard remote sensor amplifier</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-cargo-scanner/"><title>Standard cargo scanner</title><rect x="-1350" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1340" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard cargo scanner</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-chassis-scanner/"><title>Standard chassis scanner</title><rect x="-1200" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1190" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard chassis scanner</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-cpu-upgrade/"><title>Standard coprocessor</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard coprocessor</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-webber/"><title>Standard S-demobilizer</title><rect x="-1650" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1640" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard S-demobilizer</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-eccm/"><title>Standard ECCM</title><rect x="-900" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-890" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard ECCM</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-sensor-booster/"><title>Bullz-I 6601 sensor amplifier</title><rect x="-1350" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1340" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Bullz-I 6601 sensor amplifier</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-sensor-booster/"><title>Desenspure sensor amplifier</title><rect x="-1500" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1490" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Desenspure sensor amplifier</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-sensor-booster/"><title>Ambassador SU-I sensor amplifier</title><rect x="-1350" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1340" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ambassador SU-I sensor amplifier</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-remote-sensor-booster/"><title>Occul remote sensor amplifier</title><rect x="-1800" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1790" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Occul remote sensor amplifier</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-remote-sensor-booster/"><title>Da Gama-PLS10 remote sensor amplifier</title><rect x="-1950" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1940" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Da Gama-PLS10 remote sensor amp…</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-remote-sensor-booster/"><title>Ambassador-RU2 remote sensor amplifier</title><rect x="-1950" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1940" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ambassador-RU2 remote sensor am…</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-cargo-scanner/"><title>Spurt-Singular cargo scanner</title><rect x="-1350" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1340" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Spurt-Singular cargo scanner</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-cargo-scanner/"><title>Nomothetor cargo scanner</title><rect x="-1350" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1340" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Nomothetor cargo scanner</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-cargo-scanner/"><title>Visioner cargo scanner</title><rect x="-1350" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1340" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Visioner cargo scanner</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-chassis-scanner/"><title>Distalfrisk-MDO2 chassis scanner</title><rect x="-1200" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1190" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Distalfrisk-MDO2 chassis scanner</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-chassis-scanner/"><title>Stalis CS3 chassis scanner</title><rect x="-1050" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1040" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Stalis CS3 chassis scanner</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-chassis-scanner/"><title>sy-D-930 chassis scanner</title><rect x="-1050" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1040" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">sy-D-930 chassis scanner</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-cpu-upgrade/"><title>Parallelyt-C300 coprocessor</title><rect x="-600" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-590" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Parallelyt-C300 coprocessor</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-cpu-upgrade/"><title>Cerebellum-1000 coprocessor</title><rect x="-600" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-590" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Cerebellum-1000 coprocessor</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-cpu-upgrade/"><title>Processyt-C1000 coprocessor</title><rect x="-600" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-590" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Processyt-C1000 coprocessor</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-webber/"><title>Arachnid-type S-demobilizer</title><rect x="-1650" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1640" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Arachnid-type S-demobilizer</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-webber/"><title>NNt. IX S-demobilizer</title><rect x="-1800" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1790" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">NNt. IX S-demobilizer</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-webber/"><title>NNt. IY S-demobilizer</title><rect x="-1800" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1790" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">NNt. IY S-demobilizer</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-eccm/"><title>Wallex ECCM</title><rect x="-900" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-890" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Wallex ECCM</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-eccm/"><title>Deshrud-QW ECCM</title><rect x="-900" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-890" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Deshrud-QW ECCM</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-eccm/"><title>Braviar ECCM</title><rect x="-900" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-890" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Braviar ECCM</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-tracking-upgrade/"><title>Standard range extender</title><rect x="-1350" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1340" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard range extender</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-tracking-upgrade/"><title>Opaletrak range extender</title><rect x="-1500" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1490" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Opaletrak range extender</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-tracking-upgrade/"><title>Unotron 60s-'Crack shot' range extender</title><rect x="-1500" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1490" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Unotron 60s-'Crack shot' range …</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-tracking-upgrade/"><title>ATCS-gh50 range extender</title><rect x="-1500" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1490" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">ATCS-gh50 range extender</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-gang-assist-ewar-range-module/"><title>Standard EW NEXUS module</title><rect x="-1650" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1640" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard EW NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-gang-assist-ewar-range-module/"><title>Yzla-1500 EW NEXUS module</title><rect x="-1650" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1640" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Yzla-1500 EW NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-gang-assist-ewar-range-module/"><title>Hidmuns EW NEXUS module</title><rect x="-1650" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1640" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hidmuns EW NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-gang-assist-ewar-range-module/"><title>Yzla-2500 EW NEXUS module</title><rect x="-1650" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1640" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Yzla-2500 EW NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-blob-emission-modulator/"><title>Standard interference module</title><rect x="-1500" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1490" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard interference module</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-blob-emission-modulator/"><title>Bandoler IU-250 interference module</title><rect x="-1500" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1490" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Bandoler IU-250 interference mo…</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-blob-emission-modulator/"><title>Bandoler IV-500 interference module</title><rect x="-1650" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1640" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Bandoler IV-500 interference mo…</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-blob-emission-modulator/"><title>Omini interference module</title><rect x="-1650" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1640" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Omini interference module</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-detection-modul/"><title>Standard signal detector</title><rect x="-1200" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1190" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard signal detector</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-stealth-modul/"><title>Standard signal masker</title><rect x="-1200" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1190" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard signal masker</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-target-painter/"><title>Standard target marker</title><rect x="-1200" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1190" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard target marker</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-detection-modul/"><title>Techodo signal detector</title><rect x="-1050" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1040" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Techodo signal detector</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-detection-modul/"><title>MX-1 Dogon signal detector</title><rect x="-900" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-890" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">MX-1 Dogon signal detector</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-detection-modul/"><title>'Rogue' signal detector</title><rect x="-900" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-890" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">'Rogue' signal detector</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-stealth-modul/"><title>Mimique signal masker</title><rect x="-1200" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1190" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Mimique signal masker</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-stealth-modul/"><title>MSMD signal masker</title><rect x="-1200" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1190" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">MSMD signal masker</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-stealth-modul/"><title>Longlag signal masker</title><rect x="-1200" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1190" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Longlag signal masker</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-target-painter/"><title>Pois-D22 target marker</title><rect x="-1200" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1190" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Pois-D22 target marker</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-target-painter/"><title>Colqual target marker</title><rect x="-1200" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1190" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Colqual target marker</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-target-painter/"><title>Pulsus target marker</title><rect x="-1200" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1190" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Pulsus target marker</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-longrange-webber/"><title>Standard L-demobilizer</title><rect x="-1500" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1490" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard L-demobilizer</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-longrange-webber/"><title>Venom L-demobilizer</title><rect x="-1500" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1490" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Venom L-demobilizer</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-longrange-webber/"><title>GLOO L-demobilizer</title><rect x="-1500" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1490" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">GLOO L-demobilizer</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-longrange-webber/"><title>TDR25 L-demobilizer</title><rect x="-1500" y="794" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1490" y="816" font-size="12" fill="#e8ecf4" font-family="sans-serif">TDR25 L-demobilizer</text></a></g>
+  <g><a href="/content/techtree/nodes/standart-landmine-detector/"><title>Standart Landmine Detector</title><rect x="-1350" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1340" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standart Landmine Detector</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-landmine-detector/"><title>T2 Landmine Detector</title><rect x="-1350" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1340" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">T2 Landmine Detector</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-landmine-detector/"><title>T3 Landmine Detector</title><rect x="-1350" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1340" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">T3 Landmine Detector</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-landmine-detector/"><title>T4 Landmine Detector</title><rect x="-1350" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-1340" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">T4 Landmine Detector</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-assault-remote-controller/"><title>Standard Assault Remote Controller</title><rect x="-300" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard Assault Remote Controller</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-assault-remote-controller/"><title>T2 Assault Remote Controller</title><rect x="-600" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-590" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">T2 Assault Remote Controller</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-assault-remote-controller/"><title>T3 Assault Remote Controller</title><rect x="-600" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-590" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">T3 Assault Remote Controller</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-assault-remote-controller/"><title>T4 Assault Remote Controller</title><rect x="-600" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-590" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">T4 Assault Remote Controller</text></a></g>
+  <g><a href="/content/techtree/nodes/sentry-turret-unit/"><title>Sentry Turret Unit</title><rect x="1350" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="1360" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Sentry Turret Unit</text></a></g>
+  <g><a href="/content/techtree/nodes/spectator/"><title>Spectator</title><rect x="-300" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Spectator</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-tactical-remote-controller/"><title>Standard Tactical Remote Controller</title><rect x="0" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard Tactical Remote Contro…</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-tactical-remote-controller/"><title>T2 Tactical Remote Controller</title><rect x="-300" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">T2 Tactical Remote Controller</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-tactical-remote-controller/"><title>T3 Tactical Remote Controller</title><rect x="-300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">T3 Tactical Remote Controller</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-tactical-remote-controller/"><title>T4 Tactical Remote Controller</title><rect x="-300" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">T4 Tactical Remote Controller</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-industrial-remote-controller/"><title>Standard Industrial Remote Controller</title><rect x="300" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard Industrial Remote Cont…</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-industrial-remote-controller/"><title>T2 Industrial Remote Controller</title><rect x="0" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">T2 Industrial Remote Controller</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-industrial-remote-controller/"><title>T3 Industrial Remote Controller</title><rect x="0" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">T3 Industrial Remote Controller</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-industrial-remote-controller/"><title>T4 Industrial Remote Controller</title><rect x="0" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">T4 Industrial Remote Controller</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-support-remote-controller/"><title>Standard Support Remote Controller</title><rect x="600" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard Support Remote Controller</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-support-remote-controller/"><title>T2 Support Remote Controller</title><rect x="450" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">T2 Support Remote Controller</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-support-remote-controller/"><title>T3 Support Remote Controller</title><rect x="450" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">T3 Support Remote Controller</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-support-remote-controller/"><title>T4 Support Remote Controller</title><rect x="450" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">T4 Support Remote Controller</text></a></g>
+  <g><a href="/content/techtree/nodes/syndicate-assault-drone-unit/"><title>Syndicate Assault Drone Unit</title><rect x="0" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Syndicate Assault Drone Unit</text></a></g>
+  <g><a href="/content/techtree/nodes/nuimqol-assault-drone-unit/"><title>Nuimqol Assault Drone Unit</title><rect x="-300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Nuimqol Assault Drone Unit</text></a></g>
+  <g><a href="/content/techtree/nodes/thelodica-assault-drone-unit/"><title>Thelodica Assault Drone Unit</title><rect x="0" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Thelodica Assault Drone Unit</text></a></g>
+  <g><a href="/content/techtree/nodes/pelistal-assault-drone-unit/"><title>Pelistal Assault Drone Unit</title><rect x="300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Pelistal Assault Drone Unit</text></a></g>
+  <g><a href="/content/techtree/nodes/syndicate-attack-drone-unit/"><title>Syndicate Attack Drone Unit</title><rect x="0" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Syndicate Attack Drone Unit</text></a></g>
+  <g><a href="/content/techtree/nodes/nuimqol-attack-drone-unit/"><title>Nuimqol Attack Drone Unit</title><rect x="-300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Nuimqol Attack Drone Unit</text></a></g>
+  <g><a href="/content/techtree/nodes/thelodica-attack-drone-unit/"><title>Thelodica Attack Drone Unit</title><rect x="0" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Thelodica Attack Drone Unit</text></a></g>
+  <g><a href="/content/techtree/nodes/pelistal-attack-drone-unit/"><title>Pelistal Attack Drone Unit</title><rect x="300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Pelistal Attack Drone Unit</text></a></g>
+  <g><a href="/content/techtree/nodes/mining-industrial-drone-unit/"><title>Mining Industrial Drone Unit</title><rect x="300" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Mining Industrial Drone Unit</text></a></g>
+  <g><a href="/content/techtree/nodes/harvesting-industrial-drone-unit/"><title>Harvesting Industrial Drone Unit</title><rect x="600" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Harvesting Industrial Drone Unit</text></a></g>
+  <g><a href="/content/techtree/nodes/repair-support-drone-unit/"><title>Repair Support Drone Unit</title><rect x="750" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="760" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Repair Support Drone Unit</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-remote-command-translator/"><title>Standard Remote Command Translator</title><rect x="900" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="910" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard Remote Command Translator</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-remote-command-translator/"><title>T2 Remote Command Translator</title><rect x="900" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="910" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">T2 Remote Command Translator</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-remote-command-translator/"><title>T3 Remote Command Translator</title><rect x="900" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="910" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">T3 Remote Command Translator</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-remote-command-translator/"><title>T4 Remote Command Translator</title><rect x="900" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="910" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">T4 Remote Command Translator</text></a></g>
+  <g><a href="/content/techtree/nodes/beholder/"><title>Beholder</title><rect x="300" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Beholder</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-self-destruct-module/"><title>Standard Self Destruct Module</title><rect x="1200" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="1210" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard Self Destruct Module</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-hunter-remote-controller/"><title>Standard Hunter Remote Controller</title><rect x="1050" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="1060" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard Hunter Remote Controller</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-hunter-drone-rcu-pve/"><title>Standard Hunter Drone Rcu Pve</title><rect x="750" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="760" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard Hunter Drone Rcu Pve</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-hunter-drone-rcu-pvp/"><title>Standard Hunter Drone Rcu Pvp</title><rect x="1050" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="1060" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard Hunter Drone Rcu Pvp</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-self-destruct-module/"><title>T2 Self Destruct Module</title><rect x="1350" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="1360" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">T2 Self Destruct Module</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-self-destruct-module/"><title>T3 Self Destruct Module</title><rect x="1350" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="1360" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">T3 Self Destruct Module</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-self-destruct-module/"><title>T4 Self Destruct Module</title><rect x="1350" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="1360" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">T4 Self Destruct Module</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-hunter-remote-controller/"><title>T2 Hunter Remote Controller</title><rect x="1350" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="1360" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">T2 Hunter Remote Controller</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-hunter-remote-controller/"><title>T3 Hunter Remote Controller</title><rect x="1350" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="1360" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">T3 Hunter Remote Controller</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-hunter-remote-controller/"><title>T4 Hunter Remote Controller</title><rect x="1350" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="1360" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">T4 Hunter Remote Controller</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-engineering-remote-controller/"><title>Standard Engineering Remote Controller</title><rect x="1500" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="1510" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard Engineering Remote Con…</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-engineering-remote-controller/"><title>T2 Engineering Remote Controller</title><rect x="1650" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="1660" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">T2 Engineering Remote Controller</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-engineering-remote-controller/"><title>T3 Engineering Remote Controller</title><rect x="1650" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="1660" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">T3 Engineering Remote Controller</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-engineering-remote-controller/"><title>T4 Engineering Remote Controller</title><rect x="1650" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="1660" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">T4 Engineering Remote Controller</text></a></g>
+</svg>
 
 <a id="line-8799"></a>
 
@@ -526,20 +365,16 @@ graph TD
 
 **4 nodes** — everything that descends from [Standard Dreadnought Module](/content/techtree/nodes/standard-dreadnought-module/).
 
-```mermaid
-graph TD
-    n8799["Standard Dreadnought Module"]
-    n8801["T2 Dreadnought Module"]
-    n8804["T3 Dreadnought Module"]
-    n8807["T4 Dreadnought Module"]
-    n8799 --> n8801
-    n8801 --> n8804
-    n8804 --> n8807
-    click n8799 "/content/techtree/nodes/standard-dreadnought-module/" "Standard Dreadnought Module"
-    click n8801 "/content/techtree/nodes/named1-dreadnought-module/" "T2 Dreadnought Module"
-    click n8804 "/content/techtree/nodes/named2-dreadnought-module/" "T3 Dreadnought Module"
-    click n8807 "/content/techtree/nodes/named3-dreadnought-module/" "T4 Dreadnought Module"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 334" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="620" height="334" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <line x1="140" y1="56" x2="140" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="142" x2="140" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="228" x2="140" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <g><a href="/content/techtree/nodes/standard-dreadnought-module/"><title>Standard Dreadnought Module</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard Dreadnought Module</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-dreadnought-module/"><title>T2 Dreadnought Module</title><rect x="0" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">T2 Dreadnought Module</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-dreadnought-module/"><title>T3 Dreadnought Module</title><rect x="0" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">T3 Dreadnought Module</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-dreadnought-module/"><title>T4 Dreadnought Module</title><rect x="0" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">T4 Dreadnought Module</text></a></g>
+</svg>
 
 <a id="line-8819"></a>
 
@@ -547,20 +382,16 @@ graph TD
 
 **4 nodes** — everything that descends from [Standard Excavator Module](/content/techtree/nodes/standard-excavator-module/).
 
-```mermaid
-graph TD
-    n8819["Standard Excavator Module"]
-    n8821["T2 Excavator Module"]
-    n8824["T3 Excavator Module"]
-    n8827["T4 Excavator Module"]
-    n8819 --> n8821
-    n8821 --> n8824
-    n8824 --> n8827
-    click n8819 "/content/techtree/nodes/standard-excavator-module/" "Standard Excavator Module"
-    click n8821 "/content/techtree/nodes/named1-excavator-module/" "T2 Excavator Module"
-    click n8824 "/content/techtree/nodes/named2-excavator-module/" "T3 Excavator Module"
-    click n8827 "/content/techtree/nodes/named3-excavator-module/" "T4 Excavator Module"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 334" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="620" height="334" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <line x1="140" y1="56" x2="140" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="142" x2="140" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="228" x2="140" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <g><a href="/content/techtree/nodes/standard-excavator-module/"><title>Standard Excavator Module</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard Excavator Module</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-excavator-module/"><title>T2 Excavator Module</title><rect x="0" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">T2 Excavator Module</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-excavator-module/"><title>T3 Excavator Module</title><rect x="0" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">T3 Excavator Module</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-excavator-module/"><title>T4 Excavator Module</title><rect x="0" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">T4 Excavator Module</text></a></g>
+</svg>
 
 ## Nodes (all)
 
