@@ -63,13 +63,16 @@ The fast, light class — the cheapest robots to build and pilot.
 <span class="robot-icon icon-mask" role="img" aria-label="Argano icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Argano</div>
-<div class="robot-card-ratings">
-<span title="Combat 1/5">⚔</span> <span title="Speed 5/5">»»»»»</span> <span title="Armor 1/5">■</span> <span title="Storage 2/5">□□</span> <span title="Cost 1/5">$</span>
+<div class="robot-card-size">16</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>16</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔</b></li>
+<li><span>» Speed</span><b>»»»»»</b></li>
+<li><span>■ Armor</span><b>■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$</b></li>
 </ul>
 </div>
 </div>
@@ -78,13 +81,16 @@ The fast, light class — the cheapest robots to build and pilot.
 <span class="robot-icon icon-mask" role="img" aria-label="Beholder icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Beholder</div>
-<div class="robot-card-ratings">
-<span title="Combat 1/5">⚔</span> <span title="Speed 5/5">»»»»»</span> <span title="Armor 1/5">■</span> <span title="Storage 2/5">□□</span> <span title="Cost 1/5">$</span>
+<div class="robot-card-size">123</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>123</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔</b></li>
+<li><span>» Speed</span><b>»»»»»</b></li>
+<li><span>■ Armor</span><b>■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$</b></li>
 </ul>
 </div>
 </div>
@@ -93,13 +99,16 @@ The fast, light class — the cheapest robots to build and pilot.
 <span class="robot-icon icon-mask" role="img" aria-label="Cameleon icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Cameleon</div>
-<div class="robot-card-ratings">
-<span title="Combat 1/5">⚔</span> <span title="Speed 5/5">»»»»»</span> <span title="Armor 1/5">■</span> <span title="Storage 2/5">□□</span> <span title="Cost 1/5">$</span>
+<div class="robot-card-size">10</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>10</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔</b></li>
+<li><span>» Speed</span><b>»»»»»</b></li>
+<li><span>■ Armor</span><b>■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$</b></li>
 </ul>
 </div>
 </div>
@@ -108,13 +117,16 @@ The fast, light class — the cheapest robots to build and pilot.
 <span class="robot-icon icon-mask" role="img" aria-label="Castel icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Castel</div>
-<div class="robot-card-ratings">
-<span title="Combat 1/5">⚔</span> <span title="Speed 5/5">»»»»»</span> <span title="Armor 1/5">■</span> <span title="Storage 2/5">□□</span> <span title="Cost 1/5">$</span>
+<div class="robot-card-size">12</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>12</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔</b></li>
+<li><span>» Speed</span><b>»»»»»</b></li>
+<li><span>■ Armor</span><b>■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$</b></li>
 </ul>
 </div>
 </div>
@@ -123,13 +135,16 @@ The fast, light class — the cheapest robots to build and pilot.
 <span class="robot-icon icon-mask" role="img" aria-label="Helix icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Helix</div>
-<div class="robot-card-ratings">
-<span title="Combat 1/5">⚔</span> <span title="Speed 5/5">»»»»»</span> <span title="Armor 1/5">■</span> <span title="Storage 2/5">□□</span> <span title="Cost 1/5">$</span>
+<div class="robot-card-size">10</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>10</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔</b></li>
+<li><span>» Speed</span><b>»»»»»</b></li>
+<li><span>■ Armor</span><b>■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$</b></li>
 </ul>
 </div>
 </div>
@@ -138,13 +153,16 @@ The fast, light class — the cheapest robots to build and pilot.
 <span class="robot-icon icon-mask" role="img" aria-label="Ikarus icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Ikarus</div>
-<div class="robot-card-ratings">
-<span title="Combat 1/5">⚔</span> <span title="Speed 5/5">»»»»»</span> <span title="Armor 1/5">■</span> <span title="Storage 2/5">□□</span> <span title="Cost 1/5">$</span>
+<div class="robot-card-size">14</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>14</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔</b></li>
+<li><span>» Speed</span><b>»»»»»</b></li>
+<li><span>■ Armor</span><b>■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$</b></li>
 </ul>
 </div>
 </div>
@@ -153,13 +171,16 @@ The fast, light class — the cheapest robots to build and pilot.
 <span class="robot-icon icon-mask" role="img" aria-label="Intakt icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Intakt</div>
-<div class="robot-card-ratings">
-<span title="Combat 1/5">⚔</span> <span title="Speed 5/5">»»»»»</span> <span title="Armor 1/5">■</span> <span title="Storage 2/5">□□</span> <span title="Cost 1/5">$</span>
+<div class="robot-card-size">11</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>11</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔</b></li>
+<li><span>» Speed</span><b>»»»»»</b></li>
+<li><span>■ Armor</span><b>■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$</b></li>
 </ul>
 </div>
 </div>
@@ -168,13 +189,16 @@ The fast, light class — the cheapest robots to build and pilot.
 <span class="robot-icon icon-mask" role="img" aria-label="Laird icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Laird</div>
-<div class="robot-card-ratings">
-<span title="Combat 1/5">⚔</span> <span title="Speed 5/5">»»»»»</span> <span title="Armor 1/5">■</span> <span title="Storage 2/5">□□</span> <span title="Cost 1/5">$</span>
+<div class="robot-card-size">16</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>16</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔</b></li>
+<li><span>» Speed</span><b>»»»»»</b></li>
+<li><span>■ Armor</span><b>■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$</b></li>
 </ul>
 </div>
 </div>
@@ -183,13 +207,16 @@ The fast, light class — the cheapest robots to build and pilot.
 <span class="robot-icon icon-mask" role="img" aria-label="Prometheus icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Prometheus</div>
-<div class="robot-card-ratings">
-<span title="Combat 1/5">⚔</span> <span title="Speed 5/5">»»»»»</span> <span title="Armor 1/5">■</span> <span title="Storage 2/5">□□</span> <span title="Cost 1/5">$</span>
+<div class="robot-card-size">12</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>12</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔</b></li>
+<li><span>» Speed</span><b>»»»»»</b></li>
+<li><span>■ Armor</span><b>■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$</b></li>
 </ul>
 </div>
 </div>
@@ -198,13 +225,16 @@ The fast, light class — the cheapest robots to build and pilot.
 <span class="robot-icon icon-mask" role="img" aria-label="Troiar icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Troiar</div>
-<div class="robot-card-ratings">
-<span title="Combat 1/5">⚔</span> <span title="Speed 5/5">»»»»»</span> <span title="Armor 1/5">■</span> <span title="Storage 2/5">□□</span> <span title="Cost 1/5">$</span>
+<div class="robot-card-size">10</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>10</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔</b></li>
+<li><span>» Speed</span><b>»»»»»</b></li>
+<li><span>■ Armor</span><b>■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$</b></li>
 </ul>
 </div>
 </div>
@@ -213,13 +243,16 @@ The fast, light class — the cheapest robots to build and pilot.
 <span class="robot-icon icon-mask" role="img" aria-label="Vektor icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Vektor</div>
-<div class="robot-card-ratings">
-<span title="Combat 1/5">⚔</span> <span title="Speed 5/5">»»»»»</span> <span title="Armor 1/5">■</span> <span title="Storage 2/5">□□</span> <span title="Cost 1/5">$</span>
+<div class="robot-card-size">12</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>12</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔</b></li>
+<li><span>» Speed</span><b>»»»»»</b></li>
+<li><span>■ Armor</span><b>■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$</b></li>
 </ul>
 </div>
 </div>
@@ -228,13 +261,16 @@ The fast, light class — the cheapest robots to build and pilot.
 <span class="robot-icon icon-mask" role="img" aria-label="Yagel icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Yagel</div>
-<div class="robot-card-ratings">
-<span title="Combat 1/5">⚔</span> <span title="Speed 5/5">»»»»»</span> <span title="Armor 1/5">■</span> <span title="Storage 2/5">□□</span> <span title="Cost 1/5">$</span>
+<div class="robot-card-size">12</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>12</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔</b></li>
+<li><span>» Speed</span><b>»»»»»</b></li>
+<li><span>■ Armor</span><b>■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$</b></li>
 </ul>
 </div>
 </div>
@@ -250,13 +286,16 @@ The mid-size workhorse class.
 <span class="robot-icon icon-mask" role="img" aria-label="Arbalest icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Arbalest</div>
-<div class="robot-card-ratings">
-<span title="Combat 2/5">⚔⚔</span> <span title="Speed 3/5">»»»</span> <span title="Armor 2/5">■■</span> <span title="Storage 4/5">□□□□</span> <span title="Cost 2/5">$$</span>
+<div class="robot-card-size">14</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>14</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔</b></li>
+<li><span>» Speed</span><b>»»»</b></li>
+<li><span>■ Armor</span><b>■■</b></li>
+<li><span>□ Storage</span><b>□□□□</b></li>
+<li><span>$ Cost</span><b>$$</b></li>
 </ul>
 </div>
 </div>
@@ -265,13 +304,16 @@ The mid-size workhorse class.
 <span class="robot-icon icon-mask" role="img" aria-label="Baphomet icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Baphomet</div>
-<div class="robot-card-ratings">
-<span title="Combat 2/5">⚔⚔</span> <span title="Speed 3/5">»»»</span> <span title="Armor 2/5">■■</span> <span title="Storage 4/5">□□□□</span> <span title="Cost 2/5">$$</span>
+<div class="robot-card-size">14</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>14</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔</b></li>
+<li><span>» Speed</span><b>»»»</b></li>
+<li><span>■ Armor</span><b>■■</b></li>
+<li><span>□ Storage</span><b>□□□□</b></li>
+<li><span>$ Cost</span><b>$$</b></li>
 </ul>
 </div>
 </div>
@@ -280,13 +322,16 @@ The mid-size workhorse class.
 <span class="robot-icon icon-mask" role="img" aria-label="Cronus icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Cronus</div>
-<div class="robot-card-ratings">
-<span title="Combat 2/5">⚔⚔</span> <span title="Speed 3/5">»»»</span> <span title="Armor 2/5">■■</span> <span title="Storage 4/5">□□□□</span> <span title="Cost 2/5">$$</span>
+<div class="robot-card-size">22</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>22</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔</b></li>
+<li><span>» Speed</span><b>»»»</b></li>
+<li><span>■ Armor</span><b>■■</b></li>
+<li><span>□ Storage</span><b>□□□□</b></li>
+<li><span>$ Cost</span><b>$$</b></li>
 </ul>
 </div>
 </div>
@@ -295,13 +340,16 @@ The mid-size workhorse class.
 <span class="robot-icon icon-mask" role="img" aria-label="Hermes icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Hermes</div>
-<div class="robot-card-ratings">
-<span title="Combat 2/5">⚔⚔</span> <span title="Speed 3/5">»»»</span> <span title="Armor 2/5">■■</span> <span title="Storage 4/5">□□□□</span> <span title="Cost 2/5">$$</span>
+<div class="robot-card-size">20</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>20</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔</b></li>
+<li><span>» Speed</span><b>»»»</b></li>
+<li><span>■ Armor</span><b>■■</b></li>
+<li><span>□ Storage</span><b>□□□□</b></li>
+<li><span>$ Cost</span><b>$$</b></li>
 </ul>
 </div>
 </div>
@@ -310,13 +358,16 @@ The mid-size workhorse class.
 <span class="robot-icon icon-mask" role="img" aria-label="Locust icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Locust</div>
-<div class="robot-card-ratings">
-<span title="Combat 2/5">⚔⚔</span> <span title="Speed 3/5">»»»</span> <span title="Armor 2/5">■■</span> <span title="Storage 4/5">□□□□</span> <span title="Cost 2/5">$$</span>
+<div class="robot-card-size">16</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>16</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔</b></li>
+<li><span>» Speed</span><b>»»»</b></li>
+<li><span>■ Armor</span><b>■■</b></li>
+<li><span>□ Storage</span><b>□□□□</b></li>
+<li><span>$ Cost</span><b>$$</b></li>
 </ul>
 </div>
 </div>
@@ -325,13 +376,16 @@ The mid-size workhorse class.
 <span class="robot-icon icon-mask" role="img" aria-label="Sequer icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Sequer</div>
-<div class="robot-card-ratings">
-<span title="Combat 2/5">⚔⚔</span> <span title="Speed 3/5">»»»</span> <span title="Armor 2/5">■■</span> <span title="Storage 4/5">□□□□</span> <span title="Cost 2/5">$$</span>
+<div class="robot-card-size">23</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>23</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔</b></li>
+<li><span>» Speed</span><b>»»»</b></li>
+<li><span>■ Armor</span><b>■■</b></li>
+<li><span>□ Storage</span><b>□□□□</b></li>
+<li><span>$ Cost</span><b>$$</b></li>
 </ul>
 </div>
 </div>
@@ -340,13 +394,16 @@ The mid-size workhorse class.
 <span class="robot-icon icon-mask" role="img" aria-label="Waspish icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Waspish</div>
-<div class="robot-card-ratings">
-<span title="Combat 2/5">⚔⚔</span> <span title="Speed 3/5">»»»</span> <span title="Armor 2/5">■■</span> <span title="Storage 4/5">□□□□</span> <span title="Cost 2/5">$$</span>
+<div class="robot-card-size">14</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>14</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔</b></li>
+<li><span>» Speed</span><b>»»»</b></li>
+<li><span>■ Armor</span><b>■■</b></li>
+<li><span>□ Storage</span><b>□□□□</b></li>
+<li><span>$ Cost</span><b>$$</b></li>
 </ul>
 </div>
 </div>
@@ -362,13 +419,16 @@ The main combat class.
 <span class="robot-icon icon-mask" role="img" aria-label="Artemis icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Artemis</div>
-<div class="robot-card-ratings">
-<span title="Combat 4/5">⚔⚔⚔⚔</span> <span title="Speed 2/5">»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 3/5">□□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">19</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>19</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
@@ -377,13 +437,16 @@ The main combat class.
 <span class="robot-icon icon-mask" role="img" aria-label="Callisto icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Callisto</div>
-<div class="robot-card-ratings">
-<span title="Combat 4/5">⚔⚔⚔⚔</span> <span title="Speed 2/5">»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 3/5">□□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">16</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>16</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
@@ -392,13 +455,16 @@ The main combat class.
 <span class="robot-icon icon-mask" role="img" aria-label="Daidalos icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Daidalos</div>
-<div class="robot-card-ratings">
-<span title="Combat 4/5">⚔⚔⚔⚔</span> <span title="Speed 2/5">»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 3/5">□□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">26</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>26</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
@@ -407,13 +473,16 @@ The main combat class.
 <span class="robot-icon icon-mask" role="img" aria-label="Echelon icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Echelon</div>
-<div class="robot-card-ratings">
-<span title="Combat 4/5">⚔⚔⚔⚔</span> <span title="Speed 2/5">»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 3/5">□□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">20</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>20</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
@@ -422,13 +491,16 @@ The main combat class.
 <span class="robot-icon icon-mask" role="img" aria-label="Gargoyle icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Gargoyle</div>
-<div class="robot-card-ratings">
-<span title="Combat 4/5">⚔⚔⚔⚔</span> <span title="Speed 2/5">»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 3/5">□□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">26</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>26</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
@@ -437,13 +509,16 @@ The main combat class.
 <span class="robot-icon icon-mask" role="img" aria-label="Ictus icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Ictus</div>
-<div class="robot-card-ratings">
-<span title="Combat 4/5">⚔⚔⚔⚔</span> <span title="Speed 2/5">»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 3/5">□□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">16</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>16</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
@@ -452,13 +527,16 @@ The main combat class.
 <span class="robot-icon icon-mask" role="img" aria-label="Kain icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Kain</div>
-<div class="robot-card-ratings">
-<span title="Combat 4/5">⚔⚔⚔⚔</span> <span title="Speed 2/5">»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 3/5">□□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">19</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>19</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
@@ -467,13 +545,16 @@ The main combat class.
 <span class="robot-icon icon-mask" role="img" aria-label="Termis icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Termis</div>
-<div class="robot-card-ratings">
-<span title="Combat 4/5">⚔⚔⚔⚔</span> <span title="Speed 2/5">»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 3/5">□□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">26</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>26</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
@@ -482,13 +563,16 @@ The main combat class.
 <span class="robot-icon icon-mask" role="img" aria-label="Tyrannos icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Tyrannos</div>
-<div class="robot-card-ratings">
-<span title="Combat 4/5">⚔⚔⚔⚔</span> <span title="Speed 2/5">»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 3/5">□□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">19</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>19</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
@@ -497,13 +581,16 @@ The main combat class.
 <span class="robot-icon icon-mask" role="img" aria-label="Vagabond icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Vagabond</div>
-<div class="robot-card-ratings">
-<span title="Combat 4/5">⚔⚔⚔⚔</span> <span title="Speed 2/5">»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 3/5">□□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">16</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>16</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
@@ -512,13 +599,16 @@ The main combat class.
 <span class="robot-icon icon-mask" role="img" aria-label="Zenith icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Zenith</div>
-<div class="robot-card-ratings">
-<span title="Combat 4/5">⚔⚔⚔⚔</span> <span title="Speed 2/5">»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 3/5">□□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">16</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>16</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
@@ -534,13 +624,16 @@ The top-tier combat class.
 <span class="robot-icon icon-mask" role="img" aria-label="Archer Gropho Mk3 icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Archer Gropho Mk3</div>
-<div class="robot-card-ratings">
-<span title="Combat 5/5">⚔⚔⚔⚔⚔</span> <span title="Speed 1/5">»</span> <span title="Armor 4/5">■■■■</span> <span title="Storage 3/5">□□□</span> <span title="Cost 5/5">$$$$$</span>
+<div class="robot-card-size">22.5</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>22.5</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»</b></li>
+<li><span>■ Armor</span><b>■■■■</b></li>
+<li><span>□ Storage</span><b>□□□</b></li>
+<li><span>$ Cost</span><b>$$$$$</b></li>
 </ul>
 </div>
 </div>
@@ -549,13 +642,16 @@ The top-tier combat class.
 <span class="robot-icon icon-mask" role="img" aria-label="Gropho icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Gropho</div>
-<div class="robot-card-ratings">
-<span title="Combat 5/5">⚔⚔⚔⚔⚔</span> <span title="Speed 1/5">»</span> <span title="Armor 4/5">■■■■</span> <span title="Storage 3/5">□□□</span> <span title="Cost 5/5">$$$$$</span>
+<div class="robot-card-size">22.5</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>22.5</b></li>
-<li><span>Variants</span><b>3</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»</b></li>
+<li><span>■ Armor</span><b>■■■■</b></li>
+<li><span>□ Storage</span><b>□□□</b></li>
+<li><span>$ Cost</span><b>$$$$$</b></li>
 </ul>
 </div>
 </div>
@@ -564,13 +660,16 @@ The top-tier combat class.
 <span class="robot-icon icon-mask" role="img" aria-label="Legatus icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Legatus</div>
-<div class="robot-card-ratings">
-<span title="Combat 5/5">⚔⚔⚔⚔⚔</span> <span title="Speed 1/5">»</span> <span title="Armor 4/5">■■■■</span> <span title="Storage 3/5">□□□</span> <span title="Cost 5/5">$$$$$</span>
+<div class="robot-card-size">22.5</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>22.5</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»</b></li>
+<li><span>■ Armor</span><b>■■■■</b></li>
+<li><span>□ Storage</span><b>□□□</b></li>
+<li><span>$ Cost</span><b>$$$$$</b></li>
 </ul>
 </div>
 </div>
@@ -579,13 +678,16 @@ The top-tier combat class.
 <span class="robot-icon icon-mask" role="img" aria-label="Lithus icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Lithus</div>
-<div class="robot-card-ratings">
-<span title="Combat 5/5">⚔⚔⚔⚔⚔</span> <span title="Speed 1/5">»</span> <span title="Armor 4/5">■■■■</span> <span title="Storage 3/5">□□□</span> <span title="Cost 5/5">$$$$$</span>
+<div class="robot-card-size">123</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>123</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»</b></li>
+<li><span>■ Armor</span><b>■■■■</b></li>
+<li><span>□ Storage</span><b>□□□</b></li>
+<li><span>$ Cost</span><b>$$$$$</b></li>
 </ul>
 </div>
 </div>
@@ -594,13 +696,16 @@ The top-tier combat class.
 <span class="robot-icon icon-mask" role="img" aria-label="Mesmer icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Mesmer</div>
-<div class="robot-card-ratings">
-<span title="Combat 5/5">⚔⚔⚔⚔⚔</span> <span title="Speed 1/5">»</span> <span title="Armor 4/5">■■■■</span> <span title="Storage 3/5">□□□</span> <span title="Cost 5/5">$$$$$</span>
+<div class="robot-card-size">22.5</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>22.5</b></li>
-<li><span>Variants</span><b>3</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»</b></li>
+<li><span>■ Armor</span><b>■■■■</b></li>
+<li><span>□ Storage</span><b>□□□</b></li>
+<li><span>$ Cost</span><b>$$$$$</b></li>
 </ul>
 </div>
 </div>
@@ -609,13 +714,16 @@ The top-tier combat class.
 <span class="robot-icon icon-mask" role="img" aria-label="Metis icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Metis</div>
-<div class="robot-card-ratings">
-<span title="Combat 5/5">⚔⚔⚔⚔⚔</span> <span title="Speed 1/5">»</span> <span title="Armor 4/5">■■■■</span> <span title="Storage 3/5">□□□</span> <span title="Cost 5/5">$$$$$</span>
+<div class="robot-card-size">31</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>31</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»</b></li>
+<li><span>■ Armor</span><b>■■■■</b></li>
+<li><span>□ Storage</span><b>□□□</b></li>
+<li><span>$ Cost</span><b>$$$$$</b></li>
 </ul>
 </div>
 </div>
@@ -624,13 +732,16 @@ The top-tier combat class.
 <span class="robot-icon icon-mask" role="img" aria-label="Riveler icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Riveler</div>
-<div class="robot-card-ratings">
-<span title="Combat 5/5">⚔⚔⚔⚔⚔</span> <span title="Speed 1/5">»</span> <span title="Armor 4/5">■■■■</span> <span title="Storage 3/5">□□□</span> <span title="Cost 5/5">$$$$$</span>
+<div class="robot-card-size">31</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>31</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»</b></li>
+<li><span>■ Armor</span><b>■■■■</b></li>
+<li><span>□ Storage</span><b>□□□</b></li>
+<li><span>$ Cost</span><b>$$$$$</b></li>
 </ul>
 </div>
 </div>
@@ -639,13 +750,16 @@ The top-tier combat class.
 <span class="robot-icon icon-mask" role="img" aria-label="Seth icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Seth</div>
-<div class="robot-card-ratings">
-<span title="Combat 5/5">⚔⚔⚔⚔⚔</span> <span title="Speed 1/5">»</span> <span title="Armor 4/5">■■■■</span> <span title="Storage 3/5">□□□</span> <span title="Cost 5/5">$$$$$</span>
+<div class="robot-card-size">22.5</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>22.5</b></li>
-<li><span>Variants</span><b>3</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»</b></li>
+<li><span>■ Armor</span><b>■■■■</b></li>
+<li><span>□ Storage</span><b>□□□</b></li>
+<li><span>$ Cost</span><b>$$$$$</b></li>
 </ul>
 </div>
 </div>
@@ -654,13 +768,16 @@ The top-tier combat class.
 <span class="robot-icon icon-mask" role="img" aria-label="Symbiont icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Symbiont</div>
-<div class="robot-card-ratings">
-<span title="Combat 5/5">⚔⚔⚔⚔⚔</span> <span title="Speed 1/5">»</span> <span title="Armor 4/5">■■■■</span> <span title="Storage 3/5">□□□</span> <span title="Cost 5/5">$$$$$</span>
+<div class="robot-card-size">31</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>31</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»</b></li>
+<li><span>■ Armor</span><b>■■■■</b></li>
+<li><span>□ Storage</span><b>□□□</b></li>
+<li><span>$ Cost</span><b>$$$$$</b></li>
 </ul>
 </div>
 </div>
@@ -676,13 +793,16 @@ A rare heavy platform class.
 <span class="robot-icon icon-mask" role="img" aria-label="Scarab icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Scarab</div>
-<div class="robot-card-ratings">
-<span title="Combat 5/5">⚔⚔⚔⚔⚔</span> <span title="Speed 1/5">»</span> <span title="Armor 5/5">■■■■■</span> <span title="Storage 4/5">□□□□</span> <span title="Cost 5/5">$$$$$</span>
+<div class="robot-card-size">213</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>213</b></li>
-<li><span>Variants</span><b>2</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»</b></li>
+<li><span>■ Armor</span><b>■■■■■</b></li>
+<li><span>□ Storage</span><b>□□□□</b></li>
+<li><span>$ Cost</span><b>$$$$$</b></li>
 </ul>
 </div>
 </div>
@@ -698,13 +818,16 @@ The starter bot, the flagship and limited/event models.
 <span class="robot-icon icon-mask" role="img" aria-label="AnniversArkhe icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">AnniversArkhe</div>
-<div class="robot-card-ratings">
-<span title="Combat 3/5">⚔⚔⚔</span> <span title="Speed 3/5">»»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 2/5">□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">12</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>12</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
@@ -713,13 +836,16 @@ The starter bot, the flagship and limited/event models.
 <span class="robot-icon icon-mask" role="img" aria-label="Anniversarkhe Year2 icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Anniversarkhe Year2</div>
-<div class="robot-card-ratings">
-<span title="Combat 3/5">⚔⚔⚔</span> <span title="Speed 3/5">»»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 2/5">□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">12</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>12</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
@@ -728,13 +854,16 @@ The starter bot, the flagship and limited/event models.
 <span class="robot-icon icon-mask" role="img" aria-label="Anniversarkhe Year3 icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Anniversarkhe Year3</div>
-<div class="robot-card-ratings">
-<span title="Combat 3/5">⚔⚔⚔</span> <span title="Speed 3/5">»»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 2/5">□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">12</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>12</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
@@ -743,13 +872,16 @@ The starter bot, the flagship and limited/event models.
 <span class="robot-icon icon-mask" role="img" aria-label="Ares icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Ares</div>
-<div class="robot-card-ratings">
-<span title="Combat 3/5">⚔⚔⚔</span> <span title="Speed 3/5">»»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 2/5">□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">22.5</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>22.5</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
@@ -758,13 +890,16 @@ The starter bot, the flagship and limited/event models.
 <span class="robot-icon icon-mask" role="img" aria-label="Arkhe Mk2 icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Arkhe Mk2</div>
-<div class="robot-card-ratings">
-<span title="Combat 3/5">⚔⚔⚔</span> <span title="Speed 3/5">»»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 2/5">□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">12</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>12</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
@@ -773,13 +908,16 @@ The starter bot, the flagship and limited/event models.
 <span class="robot-icon icon-mask" role="img" aria-label="Felos icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Felos</div>
-<div class="robot-card-ratings">
-<span title="Combat 3/5">⚔⚔⚔</span> <span title="Speed 3/5">»»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 2/5">□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">22.5</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>22.5</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
@@ -788,13 +926,16 @@ The starter bot, the flagship and limited/event models.
 <span class="robot-icon icon-mask" role="img" aria-label="Hydra icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Hydra</div>
-<div class="robot-card-ratings">
-<span title="Combat 3/5">⚔⚔⚔</span> <span title="Speed 3/5">»»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 2/5">□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">22.5</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>22.5</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
@@ -803,13 +944,16 @@ The starter bot, the flagship and limited/event models.
 <span class="robot-icon icon-mask" role="img" aria-label="Arkhe icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Arkhe</div>
-<div class="robot-card-ratings">
-<span title="Combat 3/5">⚔⚔⚔</span> <span title="Speed 3/5">»»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 2/5">□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">12</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>12</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
@@ -818,13 +962,16 @@ The starter bot, the flagship and limited/event models.
 <span class="robot-icon icon-mask" role="img" aria-label="Onyx icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Onyx</div>
-<div class="robot-card-ratings">
-<span title="Combat 3/5">⚔⚔⚔</span> <span title="Speed 3/5">»»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 2/5">□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">22.5</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>22.5</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
@@ -833,13 +980,16 @@ The starter bot, the flagship and limited/event models.
 <span class="robot-icon icon-mask" role="img" aria-label="Terramotus icon"></span>
 </div>
 <div class="robot-card-info">
+<div class="robot-card-header">
 <div class="robot-card-name">Terramotus</div>
-<div class="robot-card-ratings">
-<span title="Combat 3/5">⚔⚔⚔</span> <span title="Speed 3/5">»»»</span> <span title="Armor 3/5">■■■</span> <span title="Storage 2/5">□□</span> <span title="Cost 3/5">$$$</span>
+<div class="robot-card-size">123</div>
 </div>
 <ul class="robot-card-stats">
-<li><span>Size</span><b>123</b></li>
-<li><span>Variants</span><b>1</b></li>
+<li><span>⚔ Combat</span><b>⚔⚔⚔</b></li>
+<li><span>» Speed</span><b>»»»</b></li>
+<li><span>■ Armor</span><b>■■■</b></li>
+<li><span>□ Storage</span><b>□□</b></li>
+<li><span>$ Cost</span><b>$$$</b></li>
 </ul>
 </div>
 </div>
