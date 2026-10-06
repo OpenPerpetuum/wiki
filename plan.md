@@ -45,19 +45,22 @@ Goal: the nav, topbar, search, toasts, and footer are translatable.
 
 **Deliverable**: UI chrome is fully translatable at runtime; French is the first additional language; content stays in English.
 
-### Phase 2 — Hand-written content (deferred)
+### Phase 2 — Hand-written content ✅ DONE (Zola multilingual)
 
-**Status**: Deferred. The current architecture uses runtime JS translation (no per-language
-content directories), so hand-written prose stays in English. The UI chrome + game names
-are translated at runtime from the JSON files. Full prose translation would require either:
-- Per-language content dirs (`content/en/`, `content/fr/`) + Zola multilingual mode, OR
-- A content translation system (e.g. transifex) that feeds translated markdown
+**Status**: Complete. Zola multilingual mode is configured (`languages = {en, fr}`).
+English content stays in `content/` (served at `/`), French in `content/fr/` (served at
+`/fr/`). The language switcher navigates to the translated page if one exists, otherwise
+swaps chrome only.
 
-This is an editorial/content decision, not a technical blocker. The i18n plumbing is in place
-and will support per-language content when it's added.
+**Note**: Content pages are NOT auto-translated. Each page must be manually written in
+the target language under `content/<lang>/`. This is by design — the i18n system handles
+chrome + game names automatically, but prose requires human translation. Adding a
+translated page = create `content/fr/<path>.md` → `make build`.
 
-**What works now**: UI chrome + game names (items, ores, zones) are fully translatable per
-language via the JSON files. Prose content remains in English.
+**What works now**:
+- UI chrome + game names: runtime translation (all languages, all pages)
+- Content pages: per-language URLs when a translation exists (`/fr/features/faq/`)
+- Language switcher: navigates to translated page if available, chrome-only otherwise
 
 ### Phase 3 — Generated content ✅ DONE (runtime translation)
 

@@ -1395,3 +1395,53 @@ html[data-mode="dev"] body {
 html[data-mode="dev"] a { text-shadow: 0 0 8px rgba(0, 255, 65, 0.50); }
 html[data-mode="dev"] .brand { color: #00ff41; text-shadow: 0 0 10px rgba(0, 255, 65, 0.7); }
 html[data-mode="dev"] h1 { color: #b4ffc9; text-shadow: 0 0 12px rgba(0, 255, 65, 0.45); }
+
+/* ── Robots hero card ─────────────────────────────────────────────────── */
+.robots-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    min-height: 280px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 1.2rem 0 1.6rem;
+    text-decoration: none;
+    color: var(--fg);
+    background: var(--bg2);
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+.robots-hero:hover {
+    border-color: var(--accent);
+    box-shadow: 0 0 18px var(--glow-a), inset 0 0 30px var(--glow-a);
+}
+.robots-hero-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    color: var(--fg);
+}
+.robots-hero-label {
+    position: relative;
+    z-index: 1;
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--fg);
+    border: 2px solid var(--fg);
+    padding: 0.15em 0.6em;
+    line-height: 1.2;
+}
+.robots-hero-sub {
+    position: relative;
+    z-index: 1;
+    margin-top: 0.7rem;
+    font-size: 0.9rem;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+}
