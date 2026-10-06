@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
-        // Apply the saved theme before first paint (no flash of wrong theme).
+        // Apply the saved theme + language before first paint (no flash).
         (function () {
             try {
                 if (localStorage.getItem("wiki-theme") === "light")
@@ -17,6 +17,9 @@
                     document.documentElement.setAttribute("data-cb", cb);
                 if (localStorage.getItem("wiki-mode") === "dev")
                     document.documentElement.setAttribute("data-mode", "dev");
+                var lang = localStorage.getItem("wiki-lang");
+                if (lang && lang !== "en")
+                    document.documentElement.setAttribute("lang", lang);
             } catch (e) { /* storage unavailable: stay on the defaults */ }
         })();
     </script>
@@ -25,6 +28,7 @@
     <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}">
     {% if page and page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}">{% endif %}
     <link rel="stylesheet" href="/style.css">
+    <script src="/i18n.js"></script>
     <script src="/search.js"></script>
     <script src="/map.js"></script>
     <script src="/zone-map.js"></script>
@@ -60,41 +64,41 @@
          The hamburger (mobile only) opens the sidenav drawer. -->
     <div class="topbar-main">
         <button id="sidenav-toggle" class="sidenav-toggle" type="button" aria-label="Open the menu" aria-controls="sidenav" aria-expanded="false">☰</button>
-        <a class="brand" href="/"><span class="brand-logo" aria-hidden="true"></span>{{ config.extra.ui.brand }}</a>
+        <a class="brand" href="/"><span class="brand-logo" aria-hidden="true"></span><span data-i18n="brand" data-i18n="brand">{{ config.extra.ui.brand }}</span></a>
         <div class="palette-wrap">
-        <button id="lang-toggle" class="palette-toggle" type="button" aria-label="{{ config.extra.ui.aria_language }}" title="{{ config.extra.ui.aria_language }}" aria-haspopup="true" aria-expanded="false">
+        <button id="lang-toggle" class="palette-toggle" type="button" data-i18n-aria="aria_language" aria-label="{{ config.extra.ui.aria_language }}" title="{{ config.extra.ui.aria_language }}" aria-haspopup="true" aria-expanded="false">
             <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.4 3.8 5.6 3.8 9S14.5 18.6 12 21c-2.5-2.4-3.8-5.6-3.8-9S9.5 5.4 12 3Z"/></svg>
         </button>
         <div id="lang-menu" class="palette-menu" role="menu">
-            <button type="button" role="menuitem" data-lang="en" aria-pressed="true">EN - English</button>
+            <!-- Populated by i18n.js from WIKI_LANGS (translations/*.json) -->
         </div>
-        <button id="palette-toggle" class="palette-toggle" type="button" aria-label="{{ config.extra.ui.aria_palette }}" title="{{ config.extra.ui.aria_palette }}" aria-haspopup="true" aria-expanded="false">
+        <button id="palette-toggle" class="palette-toggle" type="button" data-i18n-aria="aria_palette" aria-label="{{ config.extra.ui.aria_palette }}" title="{{ config.extra.ui.aria_palette }}" aria-haspopup="true" aria-expanded="false">
             <span class="palette-swatch"></span>
         </button>
         <div id="palette-menu" class="palette-menu" role="menu">
-            <div class="palette-group">{{ config.extra.ui.menu_palette_group }}</div>
-            <button type="button" role="menuitem" data-palette="cyan" aria-pressed="true"><span class="palette-dot" aria-hidden="true" style="background:#41d3ff"></span>{{ config.extra.ui.palette_cyan }}</button>
-            <button type="button" role="menuitem" data-palette="violet" aria-pressed="false"><span class="palette-dot" aria-hidden="true" style="background:#a78bfa"></span>{{ config.extra.ui.palette_violet }}</button>
-            <button type="button" role="menuitem" data-palette="green" aria-pressed="false"><span class="palette-dot" aria-hidden="true" style="background:#4ade80"></span>{{ config.extra.ui.palette_phosphor }}</button>
-            <button type="button" role="menuitem" data-palette="amber" aria-pressed="false"><span class="palette-dot" aria-hidden="true" style="background:#fbbf24"></span>{{ config.extra.ui.palette_amber }}</button>
-            <div class="palette-group">{{ config.extra.ui.menu_cb_group }}</div>
-            <button type="button" role="menuitem" data-cb="none" aria-pressed="true">{{ config.extra.ui.cb_default }}</button>
-            <button type="button" role="menuitem" data-cb="deutan">{{ config.extra.ui.cb_deutan }}</button>
-            <button type="button" role="menuitem" data-cb="protan">{{ config.extra.ui.cb_protan }}</button>
-            <button type="button" role="menuitem" data-cb="tritan">{{ config.extra.ui.cb_tritan }}</button>
-            <button type="button" role="menuitem" data-cb="achro">{{ config.extra.ui.cb_achro }}</button>
+            <div class="palette-group" data-i18n="menu_palette_group" data-i18n="menu_palette_group">{{ config.extra.ui.menu_palette_group }}</div>
+            <button type="button" role="menuitem" data-palette="cyan" aria-pressed="true"><span class="palette-dot" aria-hidden="true" style="background:#41d3ff"></span><span data-i18n="palette_cyan" data-i18n="palette_cyan">{{ config.extra.ui.palette_cyan }}</span></button>
+            <button type="button" role="menuitem" data-palette="violet" aria-pressed="false"><span class="palette-dot" aria-hidden="true" style="background:#a78bfa"></span><span data-i18n="palette_violet" data-i18n="palette_violet">{{ config.extra.ui.palette_violet }}</span></button>
+            <button type="button" role="menuitem" data-palette="green" aria-pressed="false"><span class="palette-dot" aria-hidden="true" style="background:#4ade80"></span><span data-i18n="palette_phosphor" data-i18n="palette_phosphor">{{ config.extra.ui.palette_phosphor }}</span></button>
+            <button type="button" role="menuitem" data-palette="amber" aria-pressed="false"><span class="palette-dot" aria-hidden="true" style="background:#fbbf24"></span><span data-i18n="palette_amber" data-i18n="palette_amber">{{ config.extra.ui.palette_amber }}</span></button>
+            <div class="palette-group" data-i18n="menu_cb_group" data-i18n="menu_cb_group">{{ config.extra.ui.menu_cb_group }}</div>
+            <button type="button" role="menuitem" data-cb="none" aria-pressed="true"><span data-i18n="cb_default" data-i18n="cb_default">{{ config.extra.ui.cb_default }}</span></button>
+            <button type="button" role="menuitem" data-cb="deutan"><span data-i18n="cb_deutan" data-i18n="cb_deutan">{{ config.extra.ui.cb_deutan }}</span></button>
+            <button type="button" role="menuitem" data-cb="protan"><span data-i18n="cb_protan" data-i18n="cb_protan">{{ config.extra.ui.cb_protan }}</span></button>
+            <button type="button" role="menuitem" data-cb="tritan"><span data-i18n="cb_tritan" data-i18n="cb_tritan">{{ config.extra.ui.cb_tritan }}</span></button>
+            <button type="button" role="menuitem" data-cb="achro"><span data-i18n="cb_achro" data-i18n="cb_achro">{{ config.extra.ui.cb_achro }}</span></button>
         </div>
-        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="{{ config.extra.ui.aria_theme_toggle }}" title="{{ config.extra.ui.aria_theme_toggle }}">☾</button>
+        <button id="theme-toggle" class="theme-toggle" type="button" data-i18n-aria="aria_theme_toggle" data-i18n-aria="aria_theme_toggle" aria-label="{{ config.extra.ui.aria_theme_toggle}}" title="{{ config.extra.ui.aria_theme_toggle}}">☾</button>
         <!-- Play / Dev mode knob: Dev = matrix theme + the Dev sidenav group.
              The active side is highlighted by html[data-mode] in the CSS. -->
-        <button id="mode-toggle" class="mode-toggle" type="button" aria-pressed="false" aria-label="{{ config.extra.ui.aria_mode_toggle }}" title="{{ config.extra.ui.aria_mode_toggle }}">
-            <span class="mode-opt" data-mode-opt="play">{{ config.extra.ui.nav_mode_play }}</span><span class="mode-opt" data-mode-opt="dev">{{ config.extra.ui.nav_mode_dev }}</span>
+        <button id="mode-toggle" class="mode-toggle" type="button" aria-pressed="false" data-i18n-aria="aria_mode_toggle" data-i18n-aria="aria_mode_toggle" aria-label="{{ config.extra.ui.aria_mode_toggle}}" title="{{ config.extra.ui.aria_mode_toggle}}">
+            <span class="mode-opt" data-mode-opt="play" data-i18n="nav_mode_play" data-i18n="nav_mode_play">{{ config.extra.ui.nav_mode_play }}</span><span class="mode-opt" data-mode-opt="dev" data-i18n="nav_mode_dev" data-i18n="nav_mode_dev">{{ config.extra.ui.nav_mode_dev }}</span>
         </button>
         </div>
     </div>
     <!-- Row 2: the search bar (wide, centered). -->
     <div class="topbar-search">
-        <input type="search" id="wiki-search" placeholder="{{ config.extra.ui.search_placeholder }}" autocomplete="off" spellcheck="false">
+        <input type="search" id="wiki-search" data-i18n-ph="search_placeholder" data-i18n-ph="search_placeholder" placeholder="{{ config.extra.ui.search_placeholder}}" autocomplete="off" spellcheck="false">
     </div>
 </header>
 <div id="search-results" class="search-results" hidden></div>
@@ -112,203 +116,203 @@
 <nav class="sidenav" id="sidenav" aria-label="Sections">
     <ul>
         <li class="nav-quick">
-            <a href="/"><svg class="navicon" aria-hidden="true"><use href="#mi-home"/></svg>{{ config.extra.ui.nav_home }}</a>
+            <a href="/"><svg class="navicon" aria-hidden="true"><use href="#mi-home"/></svg><span data-i18n="nav_home">{{ config.extra.ui.nav_home}}</span></a>
         </li>
         <li class="nav-group">
             <div class="nav-group-head">
-                <a class="nav-group-link" href="/menu/start/"><svg class="navicon" aria-hidden="true"><use href="#mi-start"/></svg>{{ config.extra.ui.nav_start }}</a>
-                <button type="button" class="nav-caret" aria-expanded="true" aria-label="{{ config.extra.ui.nav_collapse }}" title="{{ config.extra.ui.nav_collapse }}">▾</button>
+                <a class="nav-group-link" href="/menu/start/"><svg class="navicon" aria-hidden="true"><use href="#mi-start"/></svg><span data-i18n="nav_start">{{ config.extra.ui.nav_start}}</span></a>
+                <button type="button" class="nav-caret" aria-expanded="true" data-i18n-aria="nav_collapse" aria-label="{{ config.extra.ui.nav_collapse}}" title="{{ config.extra.ui.nav_collapse}}">▾</button>
             </div>
             <ul class="nav-items">
-                <li><a href="/features/getting-started/">{{ config.extra.ui.nav_getting_started }}</a></li>
-                <li><a href="/features/faq/">{{ config.extra.ui.nav_faq }}</a></li>
-                <li><a href="/features/lore/">{{ config.extra.ui.nav_lore }}</a></li>
-                <li><a href="/features/client-setup/">{{ config.extra.ui.nav_client_setup }}</a></li>
+                <li><a href="/features/getting-started/" data-i18n="nav_getting_started">{{ config.extra.ui.nav_getting_started }}</a></li>
+                <li><a href="/features/faq/" data-i18n="nav_faq">{{ config.extra.ui.nav_faq }}</a></li>
+                <li><a href="/features/lore/" data-i18n="nav_lore">{{ config.extra.ui.nav_lore }}</a></li>
+                <li><a href="/features/client-setup/" data-i18n="nav_client_setup">{{ config.extra.ui.nav_client_setup }}</a></li>
             </ul>
         </li>
         <li class="nav-group">
             <div class="nav-group-head">
-                <a class="nav-group-link" href="/zones/map/"><svg class="navicon" aria-hidden="true"><use href="#mi-map"/></svg>{{ config.extra.ui.nav_zone_map }}</a>
-                <button type="button" class="nav-caret" aria-expanded="true" aria-label="{{ config.extra.ui.nav_collapse }}" title="{{ config.extra.ui.nav_collapse }}">▾</button>
+                <a class="nav-group-link" href="/zones/map/"><svg class="navicon" aria-hidden="true"><use href="#mi-map"/></svg><span data-i18n="nav_zone_map">{{ config.extra.ui.nav_zone_map}}</span></a>
+                <button type="button" class="nav-caret" aria-expanded="true" data-i18n-aria="nav_collapse" aria-label="{{ config.extra.ui.nav_collapse}}" title="{{ config.extra.ui.nav_collapse}}">▾</button>
             </div>
             <ul class="nav-items">
-                <li><a href="/zones/zone-training/">{{ config.extra.ui.nav_map_training }}</a></li>
+                <li><a href="/zones/zone-training/" data-i18n="nav_map_training">{{ config.extra.ui.nav_map_training }}</a></li>
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
-                        <a href="/zones/protection/">{{ config.extra.ui.nav_how_it_works }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" aria-label="{{ config.extra.ui.nav_expand }}" title="{{ config.extra.ui.nav_expand }}">▾</button>
+                        <a href="/zones/protection/" data-i18n="nav_how_it_works">{{ config.extra.ui.nav_how_it_works }}</a>
+                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                     </div>
                     <ul class="nav-sub">
-                        <li><a href="/zones/generation/">{{ config.extra.ui.nav_zones_generation }}</a></li>
+                        <li><a href="/zones/generation/" data-i18n="nav_zones_generation">{{ config.extra.ui.nav_zones_generation }}</a></li>
                     </ul>
                 </li>
-                <li><a href="/zones/alpha/">{{ config.extra.ui.nav_map_alpha }}</a></li>
-                <li><a href="/zones/beta/">{{ config.extra.ui.nav_map_beta }}</a></li>
+                <li><a href="/zones/alpha/" data-i18n="nav_map_alpha">{{ config.extra.ui.nav_map_alpha }}</a></li>
+                <li><a href="/zones/beta/" data-i18n="nav_map_beta">{{ config.extra.ui.nav_map_beta }}</a></li>
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
-                        <a href="/zones/gamma/">{{ config.extra.ui.nav_map_gamma }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" aria-label="{{ config.extra.ui.nav_expand }}" title="{{ config.extra.ui.nav_expand }}">▾</button>
+                        <a href="/zones/gamma/" data-i18n="nav_map_gamma">{{ config.extra.ui.nav_map_gamma }}</a>
+                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                     </div>
                     <ul class="map-sub map-sub-deep">
-                        <li><a href="/zones/gamma/#t0">{{ config.extra.ui.nav_map_gamma_t0 }}</a></li>
-                        <li><a href="/zones/gamma/#t1">{{ config.extra.ui.nav_map_gamma_t1 }}</a></li>
-                        <li><a href="/zones/gamma/#t2">{{ config.extra.ui.nav_map_gamma_t2 }}</a></li>
-                        <li><a href="/zones/gamma/#t3">{{ config.extra.ui.nav_map_gamma_t3 }}</a></li>
-                        <li><a href="/zones/gamma/#t4">{{ config.extra.ui.nav_map_gamma_t4 }}</a></li>
+                        <li><a href="/zones/gamma/#t0" data-i18n="nav_map_gamma_t0">{{ config.extra.ui.nav_map_gamma_t0 }}</a></li>
+                        <li><a href="/zones/gamma/#t1" data-i18n="nav_map_gamma_t1">{{ config.extra.ui.nav_map_gamma_t1 }}</a></li>
+                        <li><a href="/zones/gamma/#t2" data-i18n="nav_map_gamma_t2">{{ config.extra.ui.nav_map_gamma_t2 }}</a></li>
+                        <li><a href="/zones/gamma/#t3" data-i18n="nav_map_gamma_t3">{{ config.extra.ui.nav_map_gamma_t3 }}</a></li>
+                        <li><a href="/zones/gamma/#t4" data-i18n="nav_map_gamma_t4">{{ config.extra.ui.nav_map_gamma_t4 }}</a></li>
                     </ul>
                 </li>
-                <li><a href="/zones/zone-index/">{{ config.extra.ui.nav_all_zones }}</a></li>
+                <li><a href="/zones/zone-index/" data-i18n="nav_all_zones">{{ config.extra.ui.nav_all_zones }}</a></li>
             </ul>
         </li>
         <li class="nav-group">
             <div class="nav-group-head">
-                <a class="nav-group-link" href="/menu/play/"><svg class="navicon" aria-hidden="true"><use href="#mi-radar"/></svg>{{ config.extra.ui.nav_play }}</a>
-                <button type="button" class="nav-caret" aria-expanded="true" aria-label="{{ config.extra.ui.nav_collapse }}" title="{{ config.extra.ui.nav_collapse }}">▾</button>
+                <a class="nav-group-link" href="/menu/play/"><svg class="navicon" aria-hidden="true"><use href="#mi-radar"/></svg><span data-i18n="nav_play">{{ config.extra.ui.nav_play}}</span></a>
+                <button type="button" class="nav-caret" aria-expanded="true" data-i18n-aria="nav_collapse" aria-label="{{ config.extra.ui.nav_collapse}}" title="{{ config.extra.ui.nav_collapse}}">▾</button>
             </div>
             <ul class="nav-items">
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
-                        <a href="/features/gathering/">{{ config.extra.ui.nav_gathering }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" aria-label="{{ config.extra.ui.nav_expand }}" title="{{ config.extra.ui.nav_expand }}">▾</button>
+                        <a href="/features/gathering/" data-i18n="nav_gathering">{{ config.extra.ui.nav_gathering }}</a>
+                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                     </div>
                     <ul class="nav-sub">
-                        <li><a href="/content/ores/">{{ config.extra.ui.nav_content_ores }}</a></li>
-                        <li><a href="/content/plants/">{{ config.extra.ui.nav_content_plants }}</a></li>
+                        <li><a href="/content/ores/" data-i18n="nav_content_ores">{{ config.extra.ui.nav_content_ores }}</a></li>
+                        <li><a href="/content/plants/" data-i18n="nav_content_plants">{{ config.extra.ui.nav_content_plants }}</a></li>
                     </ul>
                 </li>
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
-                        <a href="/features/combat/">{{ config.extra.ui.nav_combat }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" aria-label="{{ config.extra.ui.nav_expand }}" title="{{ config.extra.ui.nav_expand }}">▾</button>
+                        <a href="/features/combat/" data-i18n="nav_combat">{{ config.extra.ui.nav_combat }}</a>
+                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                     </div>
                     <ul class="nav-sub">
-                        <li><a href="/features/npcs/">{{ config.extra.ui.nav_npcs }}</a></li>
+                        <li><a href="/features/npcs/" data-i18n="nav_npcs">{{ config.extra.ui.nav_npcs }}</a></li>
                     </ul>
                 </li>
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
-                        <a href="/features/missions/">{{ config.extra.ui.nav_missions }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" aria-label="{{ config.extra.ui.nav_expand }}" title="{{ config.extra.ui.nav_expand }}">▾</button>
+                        <a href="/features/missions/" data-i18n="nav_missions">{{ config.extra.ui.nav_missions }}</a>
+                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                     </div>
                     <ul class="nav-sub">
-                        <li><a href="/content/missions/">{{ config.extra.ui.nav_content_missions }}</a></li>
+                        <li><a href="/content/missions/" data-i18n="nav_content_missions">{{ config.extra.ui.nav_content_missions }}</a></li>
                     </ul>
                 </li>
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
-                        <a href="/features/movement/">{{ config.extra.ui.nav_movement }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" aria-label="{{ config.extra.ui.nav_expand }}" title="{{ config.extra.ui.nav_expand }}">▾</button>
+                        <a href="/features/movement/" data-i18n="nav_movement">{{ config.extra.ui.nav_movement }}</a>
+                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                     </div>
                     <ul class="nav-sub">
-                        <li><a href="/features/exploration/">{{ config.extra.ui.nav_exploration }}</a></li>
-                        <li><a href="/features/probes/">{{ config.extra.ui.nav_probes }}</a></li>
+                        <li><a href="/features/exploration/" data-i18n="nav_exploration">{{ config.extra.ui.nav_exploration }}</a></li>
+                        <li><a href="/features/probes/" data-i18n="nav_probes">{{ config.extra.ui.nav_probes }}</a></li>
                     </ul>
                 </li>
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
-                        <a href="/features/pbs/">{{ config.extra.ui.nav_bases_sites }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" aria-label="{{ config.extra.ui.nav_expand }}" title="{{ config.extra.ui.nav_expand }}">▾</button>
+                        <a href="/features/pbs/" data-i18n="nav_bases_sites">{{ config.extra.ui.nav_bases_sites }}</a>
+                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                     </div>
                     <ul class="nav-sub">
-                        <li><a href="/features/pbs/">{{ config.extra.ui.nav_pbs }}</a></li>
-                        <li><a href="/features/outposts/">{{ config.extra.ui.nav_outposts }}</a></li>
-                        <li><a href="/features/intrusion/">{{ config.extra.ui.nav_intrusion }}</a></li>
+                        <li><a href="/features/pbs/" data-i18n="nav_pbs">{{ config.extra.ui.nav_pbs }}</a></li>
+                        <li><a href="/features/outposts/" data-i18n="nav_outposts">{{ config.extra.ui.nav_outposts }}</a></li>
+                        <li><a href="/features/intrusion/" data-i18n="nav_intrusion">{{ config.extra.ui.nav_intrusion }}</a></li>
                         <li class="nav-has-sub">
                             <div class="nav-sub-head">
-                                <a href="/content/deployables/">{{ config.extra.ui.nav_content_deployables }}</a>
-                                <button type="button" class="nav-caret" aria-expanded="false" aria-label="{{ config.extra.ui.nav_expand }}" title="{{ config.extra.ui.nav_expand }}">▾</button>
+                                <a href="/content/deployables/" data-i18n="nav_content_deployables">{{ config.extra.ui.nav_content_deployables }}</a>
+                                <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                             </div>
                             <ul class="nav-sub">
-                                <li><a href="/content/deployables/#mobile-teleports-12">{{ config.extra.ui.nav_dep_mobile_tp }}</a></li>
-                                <li><a href="/content/deployables/#mobile-fields-6">{{ config.extra.ui.nav_dep_mobile_fields }}</a></li>
-                                <li><a href="/content/deployables/#arena-teleports-2">{{ config.extra.ui.nav_dep_arena_tp }}</a></li>
-                                <li><a href="/content/deployables/#mines-bombs-7">{{ config.extra.ui.nav_dep_mines }}</a></li>
-                                <li><a href="/content/deployables/#wall-repairers-3">{{ config.extra.ui.nav_dep_wall }}</a></li>
-                                <li><a href="/content/deployables/#plant-seeds-13">{{ config.extra.ui.nav_dep_seeds }}</a></li>
-                                <li><a href="/content/deployables/#npc-eggs-82">{{ config.extra.ui.nav_dep_eggs }}</a></li>
-                                <li><a href="/content/deployables/#gates-1">{{ config.extra.ui.nav_dep_gates }}</a></li>
-                                <li><a href="/content/deployables/#containers-1">{{ config.extra.ui.nav_dep_containers }}</a></li>
-                                <li><a href="/content/deployables/#miscellaneous-6">{{ config.extra.ui.nav_dep_misc }}</a></li>
+                                <li><a href="/content/deployables/#mobile-teleports-12" data-i18n="nav_dep_mobile_tp">{{ config.extra.ui.nav_dep_mobile_tp }}</a></li>
+                                <li><a href="/content/deployables/#mobile-fields-6" data-i18n="nav_dep_mobile_fields">{{ config.extra.ui.nav_dep_mobile_fields }}</a></li>
+                                <li><a href="/content/deployables/#arena-teleports-2" data-i18n="nav_dep_arena_tp">{{ config.extra.ui.nav_dep_arena_tp }}</a></li>
+                                <li><a href="/content/deployables/#mines-bombs-7" data-i18n="nav_dep_mines">{{ config.extra.ui.nav_dep_mines }}</a></li>
+                                <li><a href="/content/deployables/#wall-repairers-3" data-i18n="nav_dep_wall">{{ config.extra.ui.nav_dep_wall }}</a></li>
+                                <li><a href="/content/deployables/#plant-seeds-13" data-i18n="nav_dep_seeds">{{ config.extra.ui.nav_dep_seeds }}</a></li>
+                                <li><a href="/content/deployables/#npc-eggs-82" data-i18n="nav_dep_eggs">{{ config.extra.ui.nav_dep_eggs }}</a></li>
+                                <li><a href="/content/deployables/#gates-1" data-i18n="nav_dep_gates">{{ config.extra.ui.nav_dep_gates }}</a></li>
+                                <li><a href="/content/deployables/#containers-1" data-i18n="nav_dep_containers">{{ config.extra.ui.nav_dep_containers }}</a></li>
+                                <li><a href="/content/deployables/#miscellaneous-6" data-i18n="nav_dep_misc">{{ config.extra.ui.nav_dep_misc }}</a></li>
                             </ul>
                         </li>
                     </ul>
                 </li>
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
-                        <a href="/features/groups/">{{ config.extra.ui.nav_with_others }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" aria-label="{{ config.extra.ui.nav_expand }}" title="{{ config.extra.ui.nav_expand }}">▾</button>
+                        <a href="/features/groups/" data-i18n="nav_with_others">{{ config.extra.ui.nav_with_others }}</a>
+                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                     </div>
                     <ul class="nav-sub">
-                        <li><a href="/features/groups/">{{ config.extra.ui.nav_groups }}</a></li>
-                        <li><a href="/features/social/">{{ config.extra.ui.nav_social }}</a></li>
+                        <li><a href="/features/groups/" data-i18n="nav_groups">{{ config.extra.ui.nav_groups }}</a></li>
+                        <li><a href="/features/social/" data-i18n="nav_social">{{ config.extra.ui.nav_social }}</a></li>
                     </ul>
                 </li>
             </ul>
         </li>
         <li class="nav-group">
             <div class="nav-group-head">
-                <a class="nav-group-link" href="/menu/systems/"><svg class="navicon" aria-hidden="true"><use href="#mi-arm"/></svg>{{ config.extra.ui.nav_systems }}</a>
-                <button type="button" class="nav-caret" aria-expanded="true" aria-label="{{ config.extra.ui.nav_collapse }}" title="{{ config.extra.ui.nav_collapse }}">▾</button>
+                <a class="nav-group-link" href="/menu/systems/"><svg class="navicon" aria-hidden="true"><use href="#mi-arm"/></svg><span data-i18n="nav_systems">{{ config.extra.ui.nav_systems}}</span></a>
+                <button type="button" class="nav-caret" aria-expanded="true" data-i18n-aria="nav_collapse" aria-label="{{ config.extra.ui.nav_collapse}}" title="{{ config.extra.ui.nav_collapse}}">▾</button>
             </div>
             <ul class="nav-items">
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
-                        <a href="/features/robots/">{{ config.extra.ui.nav_robots }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" aria-label="{{ config.extra.ui.nav_expand }}" title="{{ config.extra.ui.nav_expand }}">▾</button>
+                        <a href="/features/robots/" data-i18n="nav_robots">{{ config.extra.ui.nav_robots }}</a>
+                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                     </div>
                     <ul class="nav-sub">
-                        <li><a href="/content/robots/">{{ config.extra.ui.nav_content_robots }}</a></li>
+                        <li><a href="/content/robots/" data-i18n="nav_content_robots">{{ config.extra.ui.nav_content_robots }}</a></li>
                     </ul>
                 </li>
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
-                        <a href="/features/production/">{{ config.extra.ui.nav_production }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" aria-label="{{ config.extra.ui.nav_expand }}" title="{{ config.extra.ui.nav_expand }}">▾</button>
+                        <a href="/features/production/" data-i18n="nav_production">{{ config.extra.ui.nav_production }}</a>
+                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                     </div>
                     <ul class="nav-sub">
-                        <li><a href="/content/recipes/">{{ config.extra.ui.nav_content_recipes }}</a></li>
+                        <li><a href="/content/recipes/" data-i18n="nav_content_recipes">{{ config.extra.ui.nav_content_recipes }}</a></li>
                     </ul>
                 </li>
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
-                        <a href="/features/research/">{{ config.extra.ui.nav_research }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" aria-label="{{ config.extra.ui.nav_expand }}" title="{{ config.extra.ui.nav_expand }}">▾</button>
+                        <a href="/features/research/" data-i18n="nav_research">{{ config.extra.ui.nav_research }}</a>
+                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                     </div>
                     <ul class="nav-sub">
-                        <li><a href="/content/techtree/">{{ config.extra.ui.nav_content_techtree }}</a></li>
+                        <li><a href="/content/techtree/" data-i18n="nav_content_techtree">{{ config.extra.ui.nav_content_techtree }}</a></li>
                     </ul>
                 </li>
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
-                        <a href="/features/character/">{{ config.extra.ui.nav_character }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" aria-label="{{ config.extra.ui.nav_expand }}" title="{{ config.extra.ui.nav_expand }}">▾</button>
+                        <a href="/features/character/" data-i18n="nav_character">{{ config.extra.ui.nav_character }}</a>
+                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                     </div>
                     <ul class="nav-sub">
-                        <li><a href="/content/extensions/">{{ config.extra.ui.nav_extensions }}</a></li>
-                        <li><a href="/features/sparks/">{{ config.extra.ui.nav_sparks }}</a></li>
+                        <li><a href="/content/extensions/" data-i18n="nav_extensions">{{ config.extra.ui.nav_extensions }}</a></li>
+                        <li><a href="/features/sparks/" data-i18n="nav_sparks">{{ config.extra.ui.nav_sparks }}</a></li>
                     </ul>
                 </li>
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
-                        <a href="/features/items/">{{ config.extra.ui.nav_items }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" aria-label="{{ config.extra.ui.nav_expand }}" title="{{ config.extra.ui.nav_expand }}">▾</button>
+                        <a href="/features/items/" data-i18n="nav_items">{{ config.extra.ui.nav_items }}</a>
+                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                     </div>
                     <ul class="nav-sub">
-                        <li><a href="/features/modules/">{{ config.extra.ui.nav_modules }}</a></li>
-                        <li><a href="/content/stat-reference/">{{ config.extra.ui.nav_content_statref }}</a></li>
+                        <li><a href="/features/modules/" data-i18n="nav_modules">{{ config.extra.ui.nav_modules }}</a></li>
+                        <li><a href="/content/stat-reference/" data-i18n="nav_content_statref">{{ config.extra.ui.nav_content_statref }}</a></li>
                     </ul>
                 </li>
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
-                        <a href="/features/market/">{{ config.extra.ui.nav_market }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" aria-label="{{ config.extra.ui.nav_expand }}" title="{{ config.extra.ui.nav_expand }}">▾</button>
+                        <a href="/features/market/" data-i18n="nav_market">{{ config.extra.ui.nav_market }}</a>
+                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                     </div>
                     <ul class="nav-sub">
-                        <li><a href="/features/transport/">{{ config.extra.ui.nav_transport }}</a></li>
+                        <li><a href="/features/transport/" data-i18n="nav_transport">{{ config.extra.ui.nav_transport }}</a></li>
                         <li class="nav-has-sub">
                             <div class="nav-sub-head">
-                                <a href="/content/shop/">{{ config.extra.ui.nav_shop }}</a>
-                                <button type="button" class="nav-caret" aria-expanded="false" aria-label="{{ config.extra.ui.nav_expand }}" title="{{ config.extra.ui.nav_expand }}">▾</button>
+                                <a href="/content/shop/" data-i18n="nav_shop">{{ config.extra.ui.nav_shop }}</a>
+                                <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                             </div>
                             <ul class="shop-sub">
                         <li><a href="/content/shop/ammo/">Ammo</a></li>
@@ -330,13 +334,13 @@
         </li>
         <li class="nav-group nav-dev">
             <div class="nav-group-head">
-                <a class="nav-group-link" href="/features/architecture/"><svg class="navicon" aria-hidden="true"><use href="#mi-tree"/></svg>{{ config.extra.ui.nav_dev }}</a>
-                <button type="button" class="nav-caret" aria-expanded="true" aria-label="{{ config.extra.ui.nav_collapse }}" title="{{ config.extra.ui.nav_collapse }}">▾</button>
+                <a class="nav-group-link" href="/features/architecture/"><svg class="navicon" aria-hidden="true"><use href="#mi-tree"/></svg><span data-i18n="nav_dev">{{ config.extra.ui.nav_dev}}</span></a>
+                <button type="button" class="nav-caret" aria-expanded="true" data-i18n-aria="nav_collapse" aria-label="{{ config.extra.ui.nav_collapse}}" title="{{ config.extra.ui.nav_collapse}}">▾</button>
             </div>
             <ul class="nav-items">
-                <li><a href="/features/architecture/">{{ config.extra.ui.nav_dev_home }}</a></li>
-                <li><a href="/features/server/">{{ config.extra.ui.nav_server }}</a></li>
-                <li><a href="/formats/">{{ config.extra.ui.nav_formats }}</a></li>
+                <li><a href="/features/architecture/" data-i18n="nav_dev_home">{{ config.extra.ui.nav_dev_home }}</a></li>
+                <li><a href="/features/server/" data-i18n="nav_server">{{ config.extra.ui.nav_server }}</a></li>
+                <li><a href="/formats/" data-i18n="nav_formats">{{ config.extra.ui.nav_formats }}</a></li>
             </ul>
         </li>
     </ul>
@@ -349,10 +353,10 @@
     <!-- Bottom section: static links; the JS at the end of the body marks the
          section this page belongs to (bold section name + page title in parentheses). -->
     <nav class="footnav">
-        <a href="/">{{ config.extra.ui.foot_home }}</a>
-        <a href="/features/" data-section="features">{{ config.extra.ui.foot_features }}</a>
-        <a href="/content/" data-section="content">{{ config.extra.ui.foot_content }}</a>
-        <a href="/zones/" data-section="zones">{{ config.extra.ui.foot_zones }}</a>
+        <a href="/" data-i18n="foot_home">{{ config.extra.ui.foot_home }}</a>
+        <a href="/features/" data-section="features" data-i18n="foot_features">{{ config.extra.ui.foot_features }}</a>
+        <a href="/content/" data-section="content" data-i18n="foot_content">{{ config.extra.ui.foot_content }}</a>
+        <a href="/zones/" data-section="zones" data-i18n="foot_zones">{{ config.extra.ui.foot_zones }}</a>
     </nav>
     <div class="footlinks">
         <a href="https://github.com/OpenPerpetuum" target="_blank" rel="noopener">
@@ -372,8 +376,8 @@
             Facebook
         </a>
     </div>
-    <p class="footcredit">{{ config.extra.ui.foot_credit | safe }}
-    <span class="attr">{{ config.extra.ui.foot_attribution | safe }}</span>
+    <p class="footcredit"><span data-i18n-html="foot_credit">{{ config.extra.ui.foot_credit | safe }}</span>
+    <span class="attr" data-i18n-html="foot_attribution">{{ config.extra.ui.foot_attribution | safe }}</span>
     </p>
 </footer>
 </div>
@@ -484,7 +488,9 @@
         });
         current();
     })();
-    // Language menu: opens from the globe button; currently English only.
+    // Language menu: opens from the globe button; switches the UI chrome
+    // language at runtime (no page reload). Content stays in the default
+    // language until per-language content is available (Phase 2).
     (function () {
         var btn = document.getElementById("lang-toggle");
         var menu = document.getElementById("lang-menu");
@@ -499,7 +505,7 @@
         });
         Array.prototype.forEach.call(menu.querySelectorAll("button[data-lang]"), function (b) {
             b.addEventListener("click", function () {
-                try { localStorage.setItem("wiki-lang", b.getAttribute("data-lang")); } catch (e2) {}
+                window.WIKI_setLang(b.getAttribute("data-lang"));
                 setOpen(false);
             });
         });

@@ -1,6 +1,7 @@
 # Open Perpetuum Wiki — build tooling.
 #
 #   make build     build the static site into public/ (Docker, pinned Zola image)
+#   make i18n      generate static/i18n.js from translations/*.json
 #   make serve     local live-reload server on :8085 (Docker; override WIKI_PORT=NNNN)
 #   make test      build + run the Playwright browser tests (needs node +
 #                  npm install; CHROMIUM_PATH=... to skip the Playwright
@@ -32,7 +33,7 @@ endif
 DOTNET          ?= $(shell command -v dotnet 2>/dev/null || echo $(HOME)/.dotnet/dotnet)
 TTY_FLAG        := $(shell [ -t 0 ] && echo -it || echo -i)
 
-.PHONY: all build serve test zonemaps generate clean
+.PHONY: all build i18n serve test zonemaps generate clean
 
 all: build
 
@@ -60,10 +61,16 @@ test: build
 # install). The container runs as root (the image has no alpine coreutils),
 # so if a build is ever interrupted and leaves root-owned files in public/,
 # `make clean` removes them via a container.
-build:
-	docker run --rm \
+# Generate the i18n runtime from translations/*.json. Run before build
+# so the generated static/i18n.js is picked up by Zola.
+i18n:
+	python3 tools/gen_i18n.py
+
+build: i18n
+	docker run --rm --user "$$(id -u):$$(id -g)" \
 		-v "$$PWD:/src" \
 		$(ZOLA_IMAGE) -r /src build --force -o /src/public
+	python3 tools/tag_defs.py public
 
 # Local live-reload server: http://localhost:$(WIKI_PORT)
 serve:
