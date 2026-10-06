@@ -117,6 +117,7 @@ public static class ZonesMapPage
         sb.Append("<div class=\"zonemap-wrap\">\n");
         sb.Append("<button type=\"button\" class=\"zonemap-reset\" title=\"Reset the zoom\">⟲</button>\n");
         sb.Append(Svg(all, byName, links, tps, vbW, vbH, Px, Py));
+        sb.Append(LegendHtml());
         sb.Append("</div>\n\n");
         sb.Append("<div class=\"zonemap-legend\">Island sizes (tiles): ");
         foreach (var (lab, px) in LegendSizes())
@@ -228,6 +229,37 @@ public static class ZonesMapPage
         yield return ("1024 (training)", 24);
         yield return ("512 (stronghold)", 15);
         yield return ("256 (tc zones)", 10);
+    }
+
+    /// <summary>The interactive legend overlay inside the map wrapper.</summary>
+    private static string LegendHtml()
+    {
+        var sb = new StringBuilder();
+        sb.Append("<div class=\"map-legend\" id=\"map-legend\">\n");
+        // Zones section
+        sb.Append("  <div class=\"map-legend-group\">\n");
+        sb.Append("    <button type=\"button\" class=\"map-legend-head\" aria-expanded=\"true\">Zones</button>\n");
+        sb.Append("    <ul class=\"map-legend-items\">\n");
+        sb.Append("      <li><span class=\"legend-swatch\" style=\"background:#41d3ff\"></span>TM (The Matriarkh)</li>\n");
+        sb.Append("      <li><span class=\"legend-swatch\" style=\"background:#6ee7a0\"></span>ICS (Interstellar Coalition)</li>\n");
+        sb.Append("      <li><span class=\"legend-swatch\" style=\"background:#f5a05a\"></span>ASI (Ascension)</li>\n");
+        sb.Append("      <li><span class=\"legend-swatch\" style=\"background:#a78bfa\"></span>Gamma</li>\n");
+        sb.Append("    </ul>\n");
+        sb.Append("  </div>\n");
+        // Landmarks section
+        sb.Append("  <div class=\"map-legend-group\">\n");
+        sb.Append("    <button type=\"button\" class=\"map-legend-head\" aria-expanded=\"true\">Landmarks</button>\n");
+        sb.Append("    <ul class=\"map-legend-items\">\n");
+        sb.Append("      <li><span class=\"legend-icon\">Aa</span>Labels</li>\n");
+        sb.Append("      <li><span class=\"legend-icon\">◉</span>Base</li>\n");
+        sb.Append("      <li><span class=\"legend-icon\">▽</span>Field terminal</li>\n");
+        sb.Append("      <li><span class=\"legend-icon\">⬡</span>Teleport</li>\n");
+        sb.Append("      <li><span class=\"legend-icon\">╌</span>Teleport path</li>\n");
+        sb.Append("    </ul>\n");
+        sb.Append("  </div>\n");
+        sb.Append("</div>\n");
+        sb.Append("<script>document.querySelectorAll('.map-legend-head').forEach(function(b){b.addEventListener('click',function(){var g=b.parentElement;var items=g.querySelector('.map-legend-items');var open=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!open));items.classList.toggle('collapsed',open);});});</script>\n");
+        return sb.ToString();
     }
 
     /// <summary>The menu sub-categories, in the order the side menu lists them.

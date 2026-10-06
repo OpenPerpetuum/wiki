@@ -931,6 +931,28 @@ Every zone with an inter-zone teleport connection, drawn at its real grid coordi
   <line x1="553.1" y1="994" x2="590.2" y2="760.5" class="zonemap-tp" stroke="url(#tpg169)"><title>zone_TM_pvp — zone_tm_g_3 (2 TP points)</title></line>
   <line x1="630" y1="1130" x2="498.5" y2="961" class="zonemap-tp" stroke="url(#tpg170)"><title>zone_training — zone_TM (6 TP points)</title></line>
 </svg>
+<div class="map-legend" id="map-legend">
+  <div class="map-legend-group">
+    <button type="button" class="map-legend-head" aria-expanded="true">Zones</button>
+    <ul class="map-legend-items">
+      <li><span class="legend-swatch" style="background:#41d3ff"></span>TM (The Matriarkh)</li>
+      <li><span class="legend-swatch" style="background:#6ee7a0"></span>ICS (Interstellar Coalition)</li>
+      <li><span class="legend-swatch" style="background:#f5a05a"></span>ASI (Ascension)</li>
+      <li><span class="legend-swatch" style="background:#a78bfa"></span>Gamma</li>
+    </ul>
+  </div>
+  <div class="map-legend-group">
+    <button type="button" class="map-legend-head" aria-expanded="true">Landmarks</button>
+    <ul class="map-legend-items">
+      <li><span class="legend-icon">Aa</span>Labels</li>
+      <li><span class="legend-icon">◉</span>Base</li>
+      <li><span class="legend-icon">▽</span>Field terminal</li>
+      <li><span class="legend-icon">⬡</span>Teleport</li>
+      <li><span class="legend-icon">╌</span>Teleport path</li>
+    </ul>
+  </div>
+</div>
+<script>document.querySelectorAll('.map-legend-head').forEach(function(b){b.addEventListener('click',function(){var g=b.parentElement;var items=g.querySelector('.map-legend-items');var open=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!open));items.classList.toggle('collapsed',open);});});</script>
 </div>
 
 <div class="zonemap-legend">Island sizes (tiles): <span class="legend-isle" style="width:19px;min-width:6px"></span> 2048 (main islands);&ensp; <span class="legend-isle" style="width:12px;min-width:6px"></span> 1024 (training);&ensp; <span class="legend-isle" style="width:7.5px;min-width:6px"></span> 512 (stronghold);&ensp; <span class="legend-isle" style="width:5px;min-width:6px"></span> 256 (tc zones);&ensp; </div>

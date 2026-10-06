@@ -1445,3 +1445,72 @@ html[data-mode="dev"] h1 { color: #b4ffc9; text-shadow: 0 0 12px rgba(0, 255, 65
     color: var(--muted);
     letter-spacing: 0.04em;
 }
+
+/* ── World map interactive legend ─────────────────────────────────────── */
+.map-legend {
+    position: absolute;
+    top: 0.6rem;
+    right: 3rem;
+    z-index: 3;
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.5rem 0.6rem;
+    font-size: 0.78rem;
+    color: var(--fg);
+    min-width: 160px;
+    max-width: 220px;
+}
+.map-legend-group { margin-bottom: 0.4rem; }
+.map-legend-group:last-child { margin-bottom: 0; }
+.map-legend-head {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    color: var(--fg);
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    padding: 0.15rem 0;
+}
+.map-legend-head:hover { color: var(--accent); }
+.map-legend-items {
+    list-style: none;
+    margin: 0.2rem 0 0;
+    padding: 0 0 0 0.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.map-legend-items.collapsed { display: none; }
+.map-legend-items li {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--muted);
+    font-size: 0.78rem;
+}
+.legend-swatch {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.3);
+    flex-shrink: 0;
+}
+.legend-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    font-size: 0.7rem;
+    color: var(--muted);
+    flex-shrink: 0;
+}
+@media (max-width: 700px) {
+    .map-legend { display: none; }
+}
