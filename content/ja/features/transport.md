@@ -6,5 +6,4 @@ weight: 250
 
 # 輸送
 
-**輸送</parameter>
-</invoke>
+**輸送

@@ -11,5 +11,4 @@ description: "Open Perpetuum のゲームとサーバーの高レベルアーキ
 
 | コンポーネント | 技術 |
 |---|---|
-| **ゲームサーバー</parameter>
-</invoke>
+| **ゲームサーバー

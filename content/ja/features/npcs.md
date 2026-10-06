@@ -6,5 +6,4 @@ weight: 280
 
 # NPC と PVE 狩り
 
-**NPC</parameter>
-</invoke>
+**NPC

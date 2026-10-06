@@ -6,5 +6,4 @@ weight: 260
 
 # スパーク
 
-**スパーク</parameter>
-</invoke>
+**スパーク

@@ -17,5 +17,4 @@ Open Perpetuum은 먼 은하에서 일어나며, 인류는 수백 개의 항성�
 
 | 진영 | 색상 | 영토 |
 |---|---|---|
-| **TM</parameter>
-</invoke>
+| **TM

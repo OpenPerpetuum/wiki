@@ -6,5 +6,4 @@ weight: 290
 
 # PBS 기지
 
-**PBS</parameter>
-</invoke>
+**PBS

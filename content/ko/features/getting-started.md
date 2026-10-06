@@ -9,5 +9,4 @@ weight: 100
 ## 클라이언트 설치
 
 1. [Steam](https://store.steampowered.com/) 설치 (아직 없는 경우).
-2. **Open Perpetuum</parameter>
-</invoke>
+2. **Open Perpetuum

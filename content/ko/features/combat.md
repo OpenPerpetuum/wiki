@@ -6,5 +6,4 @@ weight: 150
 
 # 전투
 
-**전투</parameter>
-</invoke>
+**전투

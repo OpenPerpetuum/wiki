@@ -6,5 +6,4 @@ weight: 360
 
 # 클라이언트 UI 개요
 
-클라이언트 인터페이스는 **EVE Online</parameter>
-</invoke>
+클라이언트 인터페이스는 **EVE Online

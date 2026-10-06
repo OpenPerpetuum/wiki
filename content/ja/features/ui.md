@@ -6,5 +6,4 @@ weight: 360
 
 # クライアント UI 概要
 
-クライアントインターフェースは **EVE Online</parameter>
-</invoke>
+クライアントインターフェースは **EVE Online

@@ -6,5 +6,4 @@ weight: 200
 
 # アイテム & 荷札
 
-**アイテム</parameter>
-</invoke>
+**アイテム

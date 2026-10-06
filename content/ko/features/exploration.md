@@ -6,5 +6,4 @@ weight: 300
 
 # 탐험(유물과 유적)
 
-**탐험</parameter>
-</invoke>
+**탐험

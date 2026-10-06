@@ -6,5 +6,4 @@ weight: 330
 
 # 전초기지 & SAP
 
-**전초기지</parameter>
-</invoke>
+**전초기지

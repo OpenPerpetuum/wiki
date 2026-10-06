@@ -6,5 +6,4 @@ weight: 180
 
 # 연구
 
-**연구</parameter>
-</invoke>
+**연구

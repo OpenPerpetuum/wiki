@@ -6,5 +6,4 @@ weight: 150
 
 # 戦闘
 
-**戦闘</parameter>
-</invoke>
+**戦闘

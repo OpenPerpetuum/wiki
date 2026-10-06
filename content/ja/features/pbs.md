@@ -6,5 +6,4 @@ weight: 290
 
 # PBS 基地
 
-**PBS</parameter>
-</invoke>
+**PBS

@@ -17,5 +17,4 @@ Open Perpetuum は遠い銀河で起きており、人類は数百の恒星系�
 
 | 陣営 | 色 | 領土 |
 |---|---|---|
-| **TM</parameter>
-</invoke>
+| **TM

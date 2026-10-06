@@ -6,5 +6,4 @@ weight: 330
 
 # 前哨基地 & SAP
 
-**前哨基地</parameter>
-</invoke>
+**前哨基地

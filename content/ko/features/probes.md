@@ -6,5 +6,4 @@ weight: 310
 
 # 접근 센서
 
-**접근 센서</parameter>
-</invoke>
+**접근 센서

@@ -6,5 +6,4 @@ weight: 370
 
 # 移動 & ゾーン
 
-**移動</parameter>
-</invoke>
+**移動

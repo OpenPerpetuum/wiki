@@ -6,5 +6,4 @@ weight: 140
 
 # 採集
 
-**採集</parameter>
-</invoke>
+**採集

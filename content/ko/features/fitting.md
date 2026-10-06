@@ -6,5 +6,4 @@ weight: 230
 
 # 장비
 
-**장비</parameter>
-</invoke>
+**장비

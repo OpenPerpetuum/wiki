@@ -6,5 +6,4 @@ weight: 230
 
 # 装備
 
-**装備</parameter>
-</invoke>
+**装備

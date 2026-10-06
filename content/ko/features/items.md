@@ -6,5 +6,4 @@ weight: 200
 
 # 아이템 & 인벤토리
 
-**아이템</parameter>
-</invoke>
+**아이템

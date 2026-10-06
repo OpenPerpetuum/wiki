@@ -6,5 +6,4 @@ weight: 140
 
 # 채집
 
-**채집</parameter>
-</invoke>
+**채집

@@ -6,5 +6,4 @@ weight: 410
 
 # 배치 가능 필드
 
-**배치 가능</parameter>
-</invoke>
+**배치 가능

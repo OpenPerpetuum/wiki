@@ -6,5 +6,4 @@ weight: 280
 
 # NPC & PVE 사냥
 
-**NPC</parameter>
-</invoke>
+**NPC

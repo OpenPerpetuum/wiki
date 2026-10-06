@@ -9,5 +9,4 @@ weight: 100
 ## クライアントインストール
 
 1. [Steam](https://store.steampowered.com/) をインストール（まだない場合）。
-2. **Open Perpetuum</parameter>
-</invoke>
+2. **Open Perpetuum

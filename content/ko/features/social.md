@@ -6,5 +6,4 @@ weight: 340
 
 # 소셜
 
-**소셜</parameter>
-</invoke>
+**소셜

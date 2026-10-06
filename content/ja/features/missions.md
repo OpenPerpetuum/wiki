@@ -6,5 +6,4 @@ weight: 160
 
 # ミッション
 
-**ミッション</parameter>
-</invoke>
+**ミッション

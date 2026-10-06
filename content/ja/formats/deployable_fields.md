@@ -6,5 +6,4 @@ weight: 410
 
 # 展開可能フィールド
 
-**展開可能</parameter>
-</invoke>
+**展開可能

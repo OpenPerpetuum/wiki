@@ -6,5 +6,4 @@ weight: 240
 
 # 모듈 & 장비
 
-**모듈</parameter>
-</invoke>
+**모듈

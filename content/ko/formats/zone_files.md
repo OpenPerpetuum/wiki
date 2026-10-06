@@ -6,5 +6,4 @@ weight: 400
 
 # 지역 파일
 
-**지역 파일</parameter>
-</invoke>
+**지역 파일

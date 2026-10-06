@@ -6,5 +6,4 @@ weight: 220
 
 # ロボット
 
-**ロボット</parameter>
-</invoke>
+**ロボット

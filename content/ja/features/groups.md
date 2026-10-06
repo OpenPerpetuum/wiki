@@ -6,5 +6,4 @@ weight: 270
 
 # グループ
 
-**グループ</parameter>
-</invoke>
+**グループ

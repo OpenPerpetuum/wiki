@@ -11,5 +11,4 @@ description: "Open Perpetuum 게임 및 서버의 고급 아키텍처. 개발자
 
 | 구성 요소 | 기술 |
 |---|---|
-| **게임 서버</parameter>
-</invoke>
+| **게임 서버
