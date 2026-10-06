@@ -89,9 +89,8 @@ public static class RobotsPage
         {
             sb.Append($"## Hybrid builds ({hybrids.Count})\n\n");
             sb.Append("Mixed-class builds assembled from parts of different robot classes rather than one pure class. They are built from parts, not sold as a finished robot; the finished size comes from the parts chosen.\n\n");
-            Md.WriteTable(sb, new[] { "Robot" },
-                hybrids.Select(d => new[] { Md.DisplayName(d.Name) }).ToArray());
-            sb.Append("\n*Strengths:* mix the advantages of several classes in one build.\n");
+            WriteHybridCards(sb, hybrids);
+            sb.Append("*Strengths:* mix the advantages of several classes in one build.\n");
             sb.Append("*Weaknesses:* you must assemble the parts yourself — no single finished product to buy.\n\n");
         }
 
@@ -99,8 +98,7 @@ public static class RobotsPage
         {
             sb.Append($"## NPC units ({npc.Count})\n\n");
             sb.Append("Combat units fielded by the NPC factions (not acquirable by players).\n\n");
-            Md.WriteTable(sb, new[] { "Unit" },
-                npc.Select(d => new[] { Md.DisplayName(d.Name) }).ToArray());
+            WriteNpcCards(sb, npc);
             sb.Append('\n');
         }
 
@@ -165,6 +163,59 @@ public static class RobotsPage
             sb.Append($"<li><b>{Rating(armor, "■")}</b><span>Armor</span></li>\n");
             sb.Append($"<li><b>{Rating(storage, "□")}</b><span>Storage</span></li>\n");
             sb.Append($"<li><b>{Rating(cost, "$")}</b><span>Cost</span></li>\n");
+            sb.Append("</ul>\n");
+            sb.Append("</div>\n");
+            sb.Append("</a>\n");
+        }
+        sb.Append("</div>\n\n");
+    }
+
+    /// <summary>ID-cards for hybrid builds: no class bits, no volume — generic mixed ratings.</summary>
+    private static void WriteHybridCards(StringBuilder sb, List<DefRow> rows)
+    {
+        sb.Append("<div class=\"robot-cards\">\n");
+        foreach (var d in rows.OrderBy(d => d.Name, StringComparer.Ordinal))
+        {
+            var title = Md.DisplayName(d.Name);
+            var slug = d.Name.Replace("def_", "").Replace("_bot", "").Replace('_', '-').ToLowerInvariant();
+            sb.Append($"<a class=\"robot-card\" href=\"/content/robots/{slug}/\">\n");
+            sb.Append("<div class=\"robot-card-img\">\n");
+            sb.Append($"<span class=\"robot-icon icon-mask\" role=\"img\" aria-label=\"{title} icon\"></span>\n");
+            sb.Append("</div>\n");
+            sb.Append("<div class=\"robot-card-info\">\n");
+            sb.Append("<div class=\"robot-card-header\">\n");
+            sb.Append($"<div class=\"robot-card-name\">{title}</div>\n");
+            sb.Append("<div class=\"robot-card-size\">—</div>\n");
+            sb.Append("</div>\n");
+            sb.Append("<ul class=\"robot-card-stats\">\n");
+            sb.Append("<li><b class=\"stat-unknown\">?</b><span>Stats vary by parts</span></li>\n");
+            sb.Append("</ul>\n");
+            sb.Append("</div>\n");
+            sb.Append("</a>\n");
+        }
+        sb.Append("</div>\n\n");
+    }
+
+    /// <summary>ID-cards for NPC units: uses class bits for ratings where available.</summary>
+    private static void WriteNpcCards(StringBuilder sb, List<DefRow> rows)
+    {
+        sb.Append("<div class=\"robot-cards\">\n");
+        foreach (var d in rows.OrderBy(d => d.Name, StringComparer.Ordinal))
+        {
+            var title = Md.DisplayName(d.Name);
+            var slug = d.Name.Replace("def_", "").Replace("_bot", "").Replace('_', '-').ToLowerInvariant();
+            var sizeStr = d.Volume > 0 ? $"{d.Volume:0.#}" : "—";
+            sb.Append($"<a class=\"robot-card\" href=\"/content/robots/{slug}/\">\n");
+            sb.Append("<div class=\"robot-card-img\">\n");
+            sb.Append($"<span class=\"robot-icon icon-mask\" role=\"img\" aria-label=\"{title} icon\"></span>\n");
+            sb.Append("</div>\n");
+            sb.Append("<div class=\"robot-card-info\">\n");
+            sb.Append("<div class=\"robot-card-header\">\n");
+            sb.Append($"<div class=\"robot-card-name\">{title}</div>\n");
+            sb.Append($"<div class=\"robot-card-size\">{sizeStr}</div>\n");
+            sb.Append("</div>\n");
+            sb.Append("<ul class=\"robot-card-stats\">\n");
+            sb.Append("<li><b class=\"stat-unknown\">?</b><span>NPC unit — not player-acquirable</span></li>\n");
             sb.Append("</ul>\n");
             sb.Append("</div>\n");
             sb.Append("</a>\n");

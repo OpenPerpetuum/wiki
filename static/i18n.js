@@ -138,6 +138,31 @@
             colorblind_tritanopia: "Tritanopie",
             dark: "Tmavý",
             error: "Chyba",
+            home_combat: "",
+            home_combat_desc: "",
+            home_fitting: "",
+            home_fitting_sub: "",
+            home_gathering: "",
+            home_gathering_desc: "",
+            home_intrusion: "",
+            home_intrusion_desc: "",
+            home_map: "",
+            home_market: "",
+            home_market_desc: "",
+            home_missions: "",
+            home_missions_desc: "",
+            home_movement: "",
+            home_movement_desc: "",
+            home_pbs: "",
+            home_pbs_desc: "",
+            home_production: "",
+            home_production_desc: "",
+            home_research: "",
+            home_research_desc: "",
+            home_robots: "",
+            home_robots_sub: "",
+            home_sparks: "",
+            home_sparks_desc: "",
             legend: "Legenda",
             light: "Světlý",
             loading: "Načítání…",
@@ -194,6 +219,31 @@
             colorblind_tritanopia: "Tritanopie",
             dark: "Dunkel",
             error: "Fehler",
+            home_combat: "",
+            home_combat_desc: "",
+            home_fitting: "",
+            home_fitting_sub: "",
+            home_gathering: "",
+            home_gathering_desc: "",
+            home_intrusion: "",
+            home_intrusion_desc: "",
+            home_map: "",
+            home_market: "",
+            home_market_desc: "",
+            home_missions: "",
+            home_missions_desc: "",
+            home_movement: "",
+            home_movement_desc: "",
+            home_pbs: "",
+            home_pbs_desc: "",
+            home_production: "",
+            home_production_desc: "",
+            home_research: "",
+            home_research_desc: "",
+            home_robots: "",
+            home_robots_sub: "",
+            home_sparks: "",
+            home_sparks_desc: "",
             legend: "Legende",
             light: "Hell",
             loading: "Lädt…",
@@ -250,6 +300,31 @@
             colorblind_tritanopia: "Tritanopia",
             dark: "Oscuro",
             error: "Error",
+            home_combat: "",
+            home_combat_desc: "",
+            home_fitting: "",
+            home_fitting_sub: "",
+            home_gathering: "",
+            home_gathering_desc: "",
+            home_intrusion: "",
+            home_intrusion_desc: "",
+            home_map: "",
+            home_market: "",
+            home_market_desc: "",
+            home_missions: "",
+            home_missions_desc: "",
+            home_movement: "",
+            home_movement_desc: "",
+            home_pbs: "",
+            home_pbs_desc: "",
+            home_production: "",
+            home_production_desc: "",
+            home_research: "",
+            home_research_desc: "",
+            home_robots: "",
+            home_robots_sub: "",
+            home_sparks: "",
+            home_sparks_desc: "",
             legend: "Leyenda",
             light: "Claro",
             loading: "Cargando…",
@@ -314,6 +389,31 @@
             foot_formats: "Formats (dev)",
             foot_home: "Accueil",
             foot_zones: "Zones",
+            home_combat: "",
+            home_combat_desc: "",
+            home_fitting: "",
+            home_fitting_sub: "",
+            home_gathering: "",
+            home_gathering_desc: "",
+            home_intrusion: "",
+            home_intrusion_desc: "",
+            home_map: "",
+            home_market: "",
+            home_market_desc: "",
+            home_missions: "",
+            home_missions_desc: "",
+            home_movement: "",
+            home_movement_desc: "",
+            home_pbs: "",
+            home_pbs_desc: "",
+            home_production: "",
+            home_production_desc: "",
+            home_research: "",
+            home_research_desc: "",
+            home_robots: "",
+            home_robots_sub: "",
+            home_sparks: "",
+            home_sparks_desc: "",
             menu_cb_group: "Daltonisme",
             menu_palette_group: "Accent",
             nav_all_zones: "Toutes les zones",
@@ -413,6 +513,31 @@
             colorblind_tritanopia: "Tritanopia",
             dark: "Scuro",
             error: "Errore",
+            home_combat: "",
+            home_combat_desc: "",
+            home_fitting: "",
+            home_fitting_sub: "",
+            home_gathering: "",
+            home_gathering_desc: "",
+            home_intrusion: "",
+            home_intrusion_desc: "",
+            home_map: "",
+            home_market: "",
+            home_market_desc: "",
+            home_missions: "",
+            home_missions_desc: "",
+            home_movement: "",
+            home_movement_desc: "",
+            home_pbs: "",
+            home_pbs_desc: "",
+            home_production: "",
+            home_production_desc: "",
+            home_research: "",
+            home_research_desc: "",
+            home_robots: "",
+            home_robots_sub: "",
+            home_sparks: "",
+            home_sparks_desc: "",
             legend: "Legenda",
             light: "Chiaro",
             loading: "Caricamento…",
@@ -469,6 +594,31 @@
             colorblind_tritanopia: "第3種色覚異常",
             dark: "ダーク",
             error: "エラー",
+            home_combat: "",
+            home_combat_desc: "",
+            home_fitting: "",
+            home_fitting_sub: "",
+            home_gathering: "",
+            home_gathering_desc: "",
+            home_intrusion: "",
+            home_intrusion_desc: "",
+            home_map: "",
+            home_market: "",
+            home_market_desc: "",
+            home_missions: "",
+            home_missions_desc: "",
+            home_movement: "",
+            home_movement_desc: "",
+            home_pbs: "",
+            home_pbs_desc: "",
+            home_production: "",
+            home_production_desc: "",
+            home_research: "",
+            home_research_desc: "",
+            home_robots: "",
+            home_robots_sub: "",
+            home_sparks: "",
+            home_sparks_desc: "",
             legend: "凡例",
             light: "ライト",
             loading: "読み込み中…",
@@ -525,6 +675,31 @@
             colorblind_tritanopia: "청색색약",
             dark: "다크",
             error: "오류",
+            home_combat: "",
+            home_combat_desc: "",
+            home_fitting: "",
+            home_fitting_sub: "",
+            home_gathering: "",
+            home_gathering_desc: "",
+            home_intrusion: "",
+            home_intrusion_desc: "",
+            home_map: "",
+            home_market: "",
+            home_market_desc: "",
+            home_missions: "",
+            home_missions_desc: "",
+            home_movement: "",
+            home_movement_desc: "",
+            home_pbs: "",
+            home_pbs_desc: "",
+            home_production: "",
+            home_production_desc: "",
+            home_research: "",
+            home_research_desc: "",
+            home_robots: "",
+            home_robots_sub: "",
+            home_sparks: "",
+            home_sparks_desc: "",
             legend: "범례",
             light: "라이트",
             loading: "로딩 중…",
@@ -581,6 +756,31 @@
             colorblind_tritanopia: "Tritanopie",
             dark: "Donker",
             error: "Fout",
+            home_combat: "",
+            home_combat_desc: "",
+            home_fitting: "",
+            home_fitting_sub: "",
+            home_gathering: "",
+            home_gathering_desc: "",
+            home_intrusion: "",
+            home_intrusion_desc: "",
+            home_map: "",
+            home_market: "",
+            home_market_desc: "",
+            home_missions: "",
+            home_missions_desc: "",
+            home_movement: "",
+            home_movement_desc: "",
+            home_pbs: "",
+            home_pbs_desc: "",
+            home_production: "",
+            home_production_desc: "",
+            home_research: "",
+            home_research_desc: "",
+            home_robots: "",
+            home_robots_sub: "",
+            home_sparks: "",
+            home_sparks_desc: "",
             legend: "Legenda",
             light: "Licht",
             loading: "Laden…",
@@ -637,6 +837,31 @@
             colorblind_tritanopia: "Tritanopia",
             dark: "Ciemny",
             error: "Błąd",
+            home_combat: "",
+            home_combat_desc: "",
+            home_fitting: "",
+            home_fitting_sub: "",
+            home_gathering: "",
+            home_gathering_desc: "",
+            home_intrusion: "",
+            home_intrusion_desc: "",
+            home_map: "",
+            home_market: "",
+            home_market_desc: "",
+            home_missions: "",
+            home_missions_desc: "",
+            home_movement: "",
+            home_movement_desc: "",
+            home_pbs: "",
+            home_pbs_desc: "",
+            home_production: "",
+            home_production_desc: "",
+            home_research: "",
+            home_research_desc: "",
+            home_robots: "",
+            home_robots_sub: "",
+            home_sparks: "",
+            home_sparks_desc: "",
             legend: "Legenda",
             light: "Jasny",
             loading: "Ładowanie…",
@@ -693,6 +918,31 @@
             colorblind_tritanopia: "Tritanopia",
             dark: "Escuro",
             error: "Erro",
+            home_combat: "",
+            home_combat_desc: "",
+            home_fitting: "",
+            home_fitting_sub: "",
+            home_gathering: "",
+            home_gathering_desc: "",
+            home_intrusion: "",
+            home_intrusion_desc: "",
+            home_map: "",
+            home_market: "",
+            home_market_desc: "",
+            home_missions: "",
+            home_missions_desc: "",
+            home_movement: "",
+            home_movement_desc: "",
+            home_pbs: "",
+            home_pbs_desc: "",
+            home_production: "",
+            home_production_desc: "",
+            home_research: "",
+            home_research_desc: "",
+            home_robots: "",
+            home_robots_sub: "",
+            home_sparks: "",
+            home_sparks_desc: "",
             legend: "Legenda",
             light: "Claro",
             loading: "Carregando…",
@@ -749,6 +999,31 @@
             colorblind_tritanopia: "Тританопия",
             dark: "Тёмная",
             error: "Ошибка",
+            home_combat: "",
+            home_combat_desc: "",
+            home_fitting: "",
+            home_fitting_sub: "",
+            home_gathering: "",
+            home_gathering_desc: "",
+            home_intrusion: "",
+            home_intrusion_desc: "",
+            home_map: "",
+            home_market: "",
+            home_market_desc: "",
+            home_missions: "",
+            home_missions_desc: "",
+            home_movement: "",
+            home_movement_desc: "",
+            home_pbs: "",
+            home_pbs_desc: "",
+            home_production: "",
+            home_production_desc: "",
+            home_research: "",
+            home_research_desc: "",
+            home_robots: "",
+            home_robots_sub: "",
+            home_sparks: "",
+            home_sparks_desc: "",
             legend: "Легенда",
             light: "Светлая",
             loading: "Загрузка…",
@@ -805,6 +1080,31 @@
             colorblind_tritanopia: "蓝色盲",
             dark: "深色",
             error: "错误",
+            home_combat: "",
+            home_combat_desc: "",
+            home_fitting: "",
+            home_fitting_sub: "",
+            home_gathering: "",
+            home_gathering_desc: "",
+            home_intrusion: "",
+            home_intrusion_desc: "",
+            home_map: "",
+            home_market: "",
+            home_market_desc: "",
+            home_missions: "",
+            home_missions_desc: "",
+            home_movement: "",
+            home_movement_desc: "",
+            home_pbs: "",
+            home_pbs_desc: "",
+            home_production: "",
+            home_production_desc: "",
+            home_research: "",
+            home_research_desc: "",
+            home_robots: "",
+            home_robots_sub: "",
+            home_sparks: "",
+            home_sparks_desc: "",
             legend: "图例",
             light: "浅色",
             loading: "加载中…",
@@ -861,6 +1161,31 @@
             colorblind_tritanopia: "藍色盲",
             dark: "深色",
             error: "錯誤",
+            home_combat: "",
+            home_combat_desc: "",
+            home_fitting: "",
+            home_fitting_sub: "",
+            home_gathering: "",
+            home_gathering_desc: "",
+            home_intrusion: "",
+            home_intrusion_desc: "",
+            home_map: "",
+            home_market: "",
+            home_market_desc: "",
+            home_missions: "",
+            home_missions_desc: "",
+            home_movement: "",
+            home_movement_desc: "",
+            home_pbs: "",
+            home_pbs_desc: "",
+            home_production: "",
+            home_production_desc: "",
+            home_research: "",
+            home_research_desc: "",
+            home_robots: "",
+            home_robots_sub: "",
+            home_sparks: "",
+            home_sparks_desc: "",
             legend: "圖例",
             light: "淺色",
             loading: "載入中…",
@@ -958,23 +1283,7 @@
     };
 
 
-    function getLangFromUrl() {
-        var path = window.location.pathname;
-        var m = /^\/([a-z]{2,3}(?:-[A-Z]{2})?)\//.exec(path);
-        if (m) {
-            for (var i = 0; i < LANGS.length; i++) {
-                if (LANGS[i].code === m[1]) return m[1];
-            }
-        }
-        return null;
-    }
-
     function getLang() {
-        var urlLang = getLangFromUrl();
-        if (urlLang) {
-            try { localStorage.setItem('wiki-lang', urlLang); } catch (e) {}
-            return urlLang;
-        }
         try { return localStorage.getItem('wiki-lang') || 'en'; } catch (e) { return 'en'; }
     }
 
@@ -983,17 +1292,13 @@
     var LANG_PAGES = null;
 
     function loadLangPages() {
-        var p = new Promise(function (resolve) {
-            try {
-                var root = (document.body && document.body.getAttribute('data-root')) || '';
-                var path = root.replace(/^https?:\/\/[^\/]+/, '').replace(/\/+$/, '');
-                fetch(path + '/lang-pages.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
-                    if (d) LANG_PAGES = d;
-                    resolve();
-                }).catch(function () { resolve(); });
-            } catch (e) { resolve(); }
-        });
-        return p;
+        try {
+            var root = (document.body && document.body.getAttribute('data-root')) || '';
+            var path = root.replace(/^https?:\/\/[^\/]+/, '').replace(/\/+$/, '');
+            fetch(path + '/lang-pages.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+                if (d) LANG_PAGES = d;
+            }).catch(function () {});
+        } catch (e) {}
     }
 
     // Check if the current page has a translated equivalent in language `l`.
@@ -1143,54 +1448,12 @@
     window.WIKI_setLang = setLang;
     window.WIKI_applyLang = applyLang;
 
-    // Rewrite internal links to include the language prefix.
-    // Only rewrites links whose target exists in the target language (per LANG_PAGES manifest).
-    function rewriteLinks() {
-        var lang = getLang();
-        if (lang === DEFAULT_LANG || !LANG_PAGES || !LANG_PAGES[lang]) return;
-        var pages = LANG_PAGES[lang];
-        // Build a Set for fast lookup (normalize: store with and without trailing slash)
-        var set = {};
-        for (var i = 0; i < pages.length; i++) {
-            set[pages[i]] = true;
-            if (pages[i].slice(-1) !== '/') set[pages[i] + '/'] = true;
-        }
-        var prefix = '/' + lang;
-        var links = document.querySelectorAll('a[href]');
-        for (var j = 0; j < links.length; j++) {
-            var a = links[j];
-            var href = a.getAttribute('href');
-            // Skip: external, assets, hash-only, already-prefixed
-            if (!href || href[0] !== '/' || href === '//') continue;
-            if (href.indexOf(prefix + '/') === 0 || href === prefix) continue;
-            // Skip static assets
-            if (/\.(css|js|png|jpg|svg|json|webp|woff2?|ttf|ico)(\?|$)/.test(href)) continue;
-            // Check if the prefixed target exists in this language
-            var target = prefix + href;
-            // Normalize: check with and without trailing slash
-            var targetNorm = target.replace(/\/+$/, '');
-            if (set[target] || set[targetNorm]) {
-                a.setAttribute('href', target);
-            }
-        }
-    }
-
-    // Remove the i18n-pending flag so chrome text becomes visible.
-    function i18nReady() {
-        document.documentElement.removeAttribute('data-i18n-pending');
-    }
-
-    function init() {
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function () { loadLangPages(); buildLangMenu(); applyLang(getLang()); });
+    } else {
+        loadLangPages();
         buildLangMenu();
         applyLang(getLang());
-        i18nReady();
-        loadLangPages().then(function () { rewriteLinks(); });
-    }
-
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
-    } else {
-        init();
     }
 
 })();

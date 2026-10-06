@@ -1012,35 +1012,386 @@ Complete cult-designed loadouts unlocked through research — a finished fit rat
 
 Mixed-class builds assembled from parts of different robot classes rather than one pure class. They are built from parts, not sold as a finished robot; the finished size comes from the parts chosen.
 
-| Robot |
-|---|
-| Arbalest Hybrid |
-| Argano Hybrid |
-| Artemis Hybrid |
-| Baphomet Hybrid |
-| Cameleon Hybrid |
-| Castel Hybrid |
-| Gargoyle Hybrid |
-| Gropho Hybrid |
-| Hybrid Robot |
-| Ictus Hybrid |
-| Intakt Hybrid |
-| Kain Hybrid |
-| Laird Hybrid |
-| Mesmer Hybrid |
-| Noobbot Hybrid |
-| Prometheus Hybrid |
-| Riveler Hybrid |
-| Sequer Hybrid |
-| Seth Hybrid |
-| Symbiont Hybrid |
-| Termis Hybrid |
-| Troiar Hybrid |
-| Tyrannos Hybrid |
-| Vagabond Hybrid |
-| Waspish Hybrid |
-| Yagel Hybrid |
-| Zenith Hybrid |
+<div class="robot-cards">
+<a class="robot-card" href="/content/robots/arbalest-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Arbalest Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Arbalest Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/argano-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Argano Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Argano Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/artemis-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Artemis Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Artemis Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/baphomet-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Baphomet Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Baphomet Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/cameleon-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Cameleon Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Cameleon Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/castel-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Castel Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Castel Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/gargoyle-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Gargoyle Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Gargoyle Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/gropho-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Gropho Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Gropho Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/hybrid-robot/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Hybrid Robot icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Hybrid Robot</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/ictus-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Ictus Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Ictus Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/intakt-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Intakt Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Intakt Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/kain-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Kain Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Kain Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/laird-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Laird Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Laird Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/mesmer-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Mesmer Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Mesmer Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/noobbot-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Noobbot Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Noobbot Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/prometheus-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Prometheus Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Prometheus Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/riveler-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Riveler Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Riveler Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/sequer-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Sequer Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Sequer Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/seth-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Seth Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Seth Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/symbiont-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Symbiont Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Symbiont Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/termis-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Termis Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Termis Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/troiar-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Troiar Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Troiar Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/tyrannos-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Tyrannos Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Tyrannos Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/vagabond-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Vagabond Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Vagabond Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/waspish-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Waspish Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Waspish Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/yagel-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Yagel Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Yagel Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+<a class="robot-card" href="/content/robots/zenith-hybrid/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Zenith Hybrid icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Zenith Hybrid</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>Stats vary by parts</span></li>
+</ul>
+</div>
+</a>
+</div>
 
 *Strengths:* mix the advantages of several classes in one build.
 *Weaknesses:* you must assemble the parts yourself — no single finished product to buy.
@@ -1049,7 +1400,21 @@ Mixed-class builds assembled from parts of different robot classes rather than o
 
 Combat units fielded by the NPC factions (not acquirable by players).
 
-| Unit |
-|---|
-| Syndicate Forces Locust Main Combat |
+<div class="robot-cards">
+<a class="robot-card" href="/content/robots/syndicate-forces-locust-main-combat/">
+<div class="robot-card-img">
+<span class="robot-icon icon-mask" role="img" aria-label="Syndicate Forces Locust Main Combat icon"></span>
+</div>
+<div class="robot-card-info">
+<div class="robot-card-header">
+<div class="robot-card-name">Syndicate Forces Locust Main Combat</div>
+<div class="robot-card-size">—</div>
+</div>
+<ul class="robot-card-stats">
+<li><b class="stat-unknown">?</b><span>NPC unit — not player-acquirable</span></li>
+</ul>
+</div>
+</a>
+</div>
+
 

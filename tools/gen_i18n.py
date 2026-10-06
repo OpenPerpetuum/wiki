@@ -69,7 +69,9 @@ def main():
     lines.append("    var STRINGS = {")
     for i, l in enumerate(langs):
         comma = "," if i < len(langs) - 1 else ""
-        lines.append(f'        {l["lang"]}: {{')
+        key = l["lang"]
+        if '-' in key: key = f'"{key}"'
+        lines.append(f'        {key}: {{')
         ui = l["ui"]
         keys = sorted(ui.keys())
         for j, k in enumerate(keys):
@@ -84,7 +86,9 @@ def main():
     lines.append("    var NAMES = {")
     for i, l in enumerate(langs):
         comma = "," if i < len(langs) - 1 else ""
-        lines.append(f'        {l["lang"]}: {{')
+        key = l["lang"]
+        if '-' in key: key = f'"{key}"'
+        lines.append(f'        {key}: {{')
         names = l.get("names", {})
         keys = sorted(names.keys())
         for j, k in enumerate(keys):
