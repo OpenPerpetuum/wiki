@@ -8,23 +8,14 @@ public static class RobotsPage
     private const long BitRunner = 0x10000, BitCrawler = 0x20000, BitMech = 0x30000,
                        BitHeavyMech = 0x40000, BitWalker = 0x50000;
 
-    private static readonly (long Bit, string Name, string Intro, string Pros, string Cons)[] Archetypes =
+    // (Bit, Name, Intro, Combat, Speed, Armor, Storage, Cost) — ratings 1–5
+    private static readonly (long Bit, string Name, string Intro, int Combat, int Speed, int Armor, int Storage, int Cost)[] Archetypes =
     {
-        (BitRunner, "Runners", "The fast, light class — the cheapest robots to build and pilot.",
-         "Fast and agile; cheap parts; fine for travel, couriers and scouting.",
-         "Few slots and the weakest base stats of the combat classes."),
-        (BitCrawler, "Crawlers", "The mid-size workhorse class.",
-         "Balanced speed, slots and durability; the standard choice for gathering and hauling.",
-         "No single extreme — outgunned by mechs, outrun by runners."),
-        (BitMech, "Mechs", "The main combat class.",
-         "More slots and durability than crawlers — the usual platform for combat fitting.",
-         "Slower and more expensive to build and maintain."),
-        (BitHeavyMech, "Heavy mechs", "The top-tier combat class.",
-         "The strongest base stats and the most slots; built for sustained fights.",
-         "Slow and the most expensive parts in the game."),
-        (BitWalker, "Walkers", "A rare heavy platform class.",
-         "Heavy-mech-class stats in a distinct platform.",
-         "Very few models; limited part availability."),
+        (BitRunner, "Runners", "The fast, light class — the cheapest robots to build and pilot.", 1, 5, 1, 2, 1),
+        (BitCrawler, "Crawlers", "The mid-size workhorse class.", 2, 3, 2, 4, 2),
+        (BitMech, "Mechs", "The main combat class.", 4, 2, 3, 3, 3),
+        (BitHeavyMech, "Heavy mechs", "The top-tier combat class.", 5, 1, 4, 3, 5),
+        (BitWalker, "Walkers", "A rare heavy platform class.", 5, 1, 5, 4, 5),
     };
 
     public static string Build(Db db, Dictionary<int, DefRow> defs, Dictionary<int, List<string>> statsByDef)
@@ -49,67 +40,39 @@ public static class RobotsPage
         var playerNamedFits = namedFits.Where(d => !npc.Contains(d)).ToList();
 
         var classGroups = Archetypes
-            .Select(a => (a.Name, a.Intro, a.Pros, a.Cons, Rows: player.Where(d => ClassOf(d) == a.Bit).ToList()))
+            .Select(a => (a.Bit, a.Name, a.Intro, a.Combat, a.Speed, a.Armor, a.Storage, a.Cost, Rows: player.Where(d => ClassOf(d) == a.Bit).ToList()))
             .ToList();
         var special = (Name: "Starter & special",
             Intro: "The starter bot, the flagship and limited/event models.",
-            Pros: "Each is a one-off — check the model's parts for its actual stats.",
-            Cons: "Limited availability (starter, anniversary or event models).",
             Rows: player.Where(d => ClassOf(d) == 0).ToList());
 
         var sb = new StringBuilder();
-        sb.Append(Md.Header("Robots", "How a robot is built, the robot classes, and every robot: player, hybrid, NPC and turret.",
+        sb.Append(Md.Header("Robots", "How a robot is built, the robot classes, and every robot: player, hybrid and NPC.",
             "entitydefaults (complete robot definitions, robot class part flags, purchasable flag)"));
         sb.Append("\n\n# Robots\n\n");
-        sb.Append("Fitting, slots and in-game play are covered in the [Robots & fitting](/features/robots/) feature page; this page is the data reference.\n\n");
-sb.Append(@"
-```mermaid
-flowchart TD
-    R[""Robots""] --> P[""Player robots""]
-    P -->|fast, light, cheap| RU[""Runners""]
-    P -->|compact workers| CR[""Crawlers""]
-    P -->|combat workhorses| ME[""Mechs""]
-    P -->|top-tier combat| HM[""Heavy mechs""]
-    P -->|rare heavy platform| WA[""Walkers""]
-    P -->|one-off models| SP[""Starter & special""]
-    R --> HY[""Hybrid builds""]
-    R --> NP[""NPC units""]
-    R --> TU[""Defense turrets""]
-```
-");
+        sb.Append("Fitting, slots and in-game play are covered in the [Robot](/features/robots/) feature page; this page is the data reference.\n\n");
 
-        sb.Append("## How a robot is made\n\n");
-        sb.Append("A robot you control is assembled from **three body parts** — a **head**, a **chassis** and a set of **legs** — plus a **cargo container**. Each part contributes to the robot's stats (core, CPU, power grid, armor, speed, …) and provides **module slots**; modules are fitted into the slots of the part that carries them. A module only fits a slot whose category flags cover the module's own flags (see [slot categories](/features/robots/#slot-categories)).\n\n");
-        sb.Append("Individual parts (heads, chassis, legs, containers) each have their own item page (find them by search, or from the [recipes](/content/recipes/) they appear in). Most models come in two **generations** — the base model and an improved **MK2** — and a few are limited or event models.\n\n");
-
+        // Robot classes with icon-based ratings
         sb.Append("## Robot classes\n\n");
-        sb.Append("A robot's class comes from its parts. Typical roles below are guidance — check the per-model numbers for anything specific.\n\n");
-        sb.Append("| Class | Role | Pros | Cons |\n|---|---|---|---|\n");
-        foreach (var (bit, name, intro, pros, cons) in Archetypes)
-        {
-            sb.Append($"| **{name}** | {intro} | {pros} | {cons} |\n");
-        }
-        sb.Append('\n');
+        sb.Append("A robot's class comes from its parts. Ratings are 1–5 (more icons = higher).\n\n");
+        sb.Append(RatingsTableHtml());
+        sb.Append("\n");
 
         sb.Append("## Player robots\n\n");
-        sb.Append($"Robots you can acquire and control yourself ({player.Count} models), grouped by class; each model gets its own table with its generations.\n\n");
-        sb.Append("- **Size** — the space the packed robot takes up inside a container when you store or transport it (bigger robots need bigger containers).\n");
-        sb.Append("- **Availability** — robots are not restricted to specific zones; you unlock models through [research](/features/research/) or buy them (see the [shop](/content/shop/)). Zone tiers (gamma zones) only limit the [PBS](/features/pbs/) structures you can deploy there.\n\n");
+        sb.Append($"Robots you can acquire and control yourself ({player.Count} models), grouped by class.\n\n");
 
-        foreach (var (name, intro, pros, cons, rows) in classGroups)
+        foreach (var (bit, name, intro, combat, speed, armor, storage, cost, rows) in classGroups)
         {
             if (rows.Count == 0) continue;
             sb.Append($"### {name} ({rows.Count})\n\n");
             sb.Append(intro + "\n\n");
-            sb.Append($"*Strengths:* {pros}\n\n*Weaknesses:* {cons}\n\n");
-            WriteFamilies(sb, rows);
+            WriteFamilies(sb, rows, combat, speed, armor, storage, cost);
         }
         if (special.Rows.Count > 0)
         {
             sb.Append($"### {special.Name} ({special.Rows.Count})\n\n");
             sb.Append(special.Intro + "\n\n");
-            sb.Append($"*Strengths:* {special.Pros}\n\n*Weaknesses:* {special.Cons}\n\n");
-            WriteFamilies(sb, special.Rows);
+            WriteFamilies(sb, special.Rows, 3, 3, 3, 2, 3);
         }
 
         if (playerNamedFits.Count > 0)
@@ -141,22 +104,37 @@ flowchart TD
             sb.Append('\n');
         }
 
-        if (turrets.Count > 0)
-        {
-            sb.Append($"## Defense turrets ({turrets.Count})\n\n");
-            sb.Append("Not player-controllable — deployed as zone/PBS defense structures (see [Power base stations](/features/pbs/)).\n\n");
-            Md.WriteTable(sb, new[] { "Turret" },
-                turrets.Select(d => new[] { Md.DisplayName(d.Name) }).ToArray());
-            sb.Append('\n');
-        }
-
         return sb.ToString();
     }
 
-    /// <summary>One table per model family (base + MK2 + reward variants). The
-    /// class strengths/weaknesses are written once per class section, not per model.</summary>
-    private static void WriteFamilies(StringBuilder sb, List<DefRow> rows)
+    /// <summary>Ratings 1-5 as repeated icon characters.</summary>
+    private static string Rating(int n, string icon) => string.Concat(Enumerable.Repeat(icon, Math.Clamp(n, 0, 5)));
+
+    /// <summary>HTML table of class ratings with icon columns.</summary>
+    private static string RatingsTableHtml()
     {
+        var sb = new StringBuilder();
+        sb.Append("<table class=\"class-ratings\">\n");
+        sb.Append("<thead><tr><th>Class</th><th>Combat</th><th>Speed</th><th>Armor</th><th>Storage</th><th>Cost</th></tr></thead>\n");
+        sb.Append("<tbody>\n");
+        foreach (var (_, name, _, combat, speed, armor, storage, cost) in Archetypes)
+        {
+            sb.Append($"<tr><td><b>{name}</b></td>");
+            sb.Append($"<td class=\"rating\" title=\"{combat}/5\">{Rating(combat, "⚔")}</td>\n");
+            sb.Append($"<td class=\"rating\" title=\"{speed}/5\">{Rating(speed, "»")}</td>\n");
+            sb.Append($"<td class=\"rating\" title=\"{armor}/5\">{Rating(armor, "■")}</td>\n");
+            sb.Append($"<td class=\"rating\" title=\"{storage}/5\">{Rating(storage, "□")}</td>\n");
+            sb.Append($"<td class=\"rating\" title=\"{cost}/5\">{Rating(cost, "$")}</td>\n");
+            sb.Append("</tr>\n");
+        }
+        sb.Append("</tbody></table>\n");
+        return sb.ToString();
+    }
+
+    /// <summary>ID-card layout per model family: icon on the left, ratings + info on the right.</summary>
+    private static void WriteFamilies(StringBuilder sb, List<DefRow> rows, int combat, int speed, int armor, int storage, int cost)
+    {
+        sb.Append("<div class=\"robot-cards\">\n");
         foreach (var family in rows.GroupBy(FamilyKey).OrderBy(f => f.Key, StringComparer.Ordinal))
         {
             var frows = family
@@ -164,20 +142,34 @@ flowchart TD
                 .ThenBy(d => d.Name, StringComparer.Ordinal)
                 .ToList();
             var title = Md.DisplayName(family.Key);
-            sb.Append($"**{title}**\n\n");
-            // Model icon. Real model icons are not bundled (see the reuse policy);
-            // every family shows the shared placeholder until licensed art exists.
-            // RobotIcons can map a family to a file in static/img/robots/ again.
-            // The placeholder is a CSS alpha-mask (theme-tinted); real icons
-            // (when licensed art exists in RobotIcons) are plain <img>.
+            var size = frows[0].Volume;
+
+            sb.Append("<div class=\"robot-card\">\n");
+            // Left: icon
+            sb.Append("<div class=\"robot-card-img\">\n");
             if (RobotIcons.TryGetValue(title, out var ic))
-                sb.Append($"<img class=\"robot-icon\" src=\"/img/robots/{ic}\" alt=\"{title}\">\n\n");
+                sb.Append($"<img src=\"/img/robots/{ic}\" alt=\"{title}\">\n");
             else
-                sb.Append($"<span class=\"robot-icon icon-mask\" role=\"img\" aria-label=\"{title} icon\"></span>\n\n");
-            Md.WriteTable(sb, new[] { "Robot", "Size" },
-                frows.Select(d => new[] { Md.DisplayName(d.Name), Md.Cell(d.Volume) }).ToArray());
-            sb.Append('\n');
+                sb.Append($"<span class=\"robot-icon icon-mask\" role=\"img\" aria-label=\"{title} icon\"></span>\n");
+            sb.Append("</div>\n");
+            // Right: info
+            sb.Append("<div class=\"robot-card-info\">\n");
+            sb.Append($"<div class=\"robot-card-name\">{title}</div>\n");
+            sb.Append("<div class=\"robot-card-ratings\">\n");
+            sb.Append($"<span title=\"Combat {combat}/5\">{Rating(combat, "⚔")}</span> ");
+            sb.Append($"<span title=\"Speed {speed}/5\">{Rating(speed, "»")}</span> ");
+            sb.Append($"<span title=\"Armor {armor}/5\">{Rating(armor, "■")}</span> ");
+            sb.Append($"<span title=\"Storage {storage}/5\">{Rating(storage, "□")}</span> ");
+            sb.Append($"<span title=\"Cost {cost}/5\">{Rating(cost, "$")}</span>\n");
+            sb.Append("</div>\n");
+            sb.Append("<ul class=\"robot-card-stats\">\n");
+            sb.Append($"<li><span>Size</span><b>{size:0.#}</b></li>\n");
+            sb.Append($"<li><span>Variants</span><b>{frows.Count}</b></li>\n");
+            sb.Append("</ul>\n");
+            sb.Append("</div>\n");
+            sb.Append("</div>\n");
         }
+        sb.Append("</div>\n\n");
     }
 
     /// <summary>Model family key: the definition name without generation/reward suffixes.</summary>

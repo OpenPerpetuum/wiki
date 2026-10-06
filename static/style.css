@@ -352,7 +352,7 @@ main p, main li, main blockquote, main dt, main dd {
         z-index: 45;
         flex: none;
         transform: translateX(-103%);
-        transition: transform 0.22s ease-out;
+        transition: none;
         border-radius: 0 10px 10px 0;
         border-top: 0; border-bottom: 0; border-left: 0;
         box-shadow: 8px 0 30px rgba(0, 0, 0, 0.5);
@@ -1514,3 +1514,100 @@ html[data-mode="dev"] h1 { color: #b4ffc9; text-shadow: 0 0 12px rgba(0, 255, 65
 @media (max-width: 700px) {
     .map-legend { display: none; }
 }
+
+/* ── Robot ID cards ───────────────────────────────────────────────────── */
+.robot-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 0.75rem;
+    margin: 1rem 0;
+}
+.robot-card {
+    display: flex;
+    align-items: stretch;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--bg2);
+    transition: border-color 0.2s;
+}
+.robot-card:hover { border-color: var(--accent); }
+.robot-card-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    min-height: 90px;
+    background: var(--bg-soft);
+    border-right: 1px solid var(--border);
+    flex-shrink: 0;
+}
+.robot-card-img .robot-icon { width: 48px; height: 48px; }
+.robot-card-img img { width: 56px; height: 56px; object-fit: contain; }
+.robot-card-info {
+    padding: 0.6rem 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    min-width: 0;
+}
+.robot-card-name {
+    font-weight: 600;
+    font-size: 0.92rem;
+    margin-bottom: 0.35rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.robot-card-stats {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.robot-card-stats li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: var(--muted);
+}
+.robot-card-stats li b {
+    color: var(--fg);
+    font-weight: 500;
+}
+
+/* ── Robot class ratings table ────────────────────────────────────────── */
+.class-ratings {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88rem;
+    margin: 0.8rem 0;
+}
+.class-ratings th, .class-ratings td {
+    padding: 0.4rem 0.6rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+}
+.class-ratings th {
+    color: var(--muted);
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.class-ratings .rating {
+    letter-spacing: 0.05em;
+    color: var(--fg);
+    white-space: nowrap;
+}
+/* Robot card ratings row */
+.robot-card-ratings {
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-bottom: 0.3rem;
+    letter-spacing: 0.03em;
+}
+.robot-card-ratings span { white-space: nowrap; }

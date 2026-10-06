@@ -155,6 +155,22 @@ Boosters are the efficient fuel; raw ore is the cheap fallback.
 - **The expiring base is your timebox** — 7 days, no deconstruction; plan for the kill.
 - **Territory visibility & standing** let you open or close your zone to others.
 
+## Defense turrets
+
+Not player-controllable — deployed as PBS defense structures. Turrets are assembled from
+parts like any other robot, but they are locked to a PBS pad and cannot be piloted.
+
+| Turret | Role |
+|---|---|
+| PBS Turret | Generic PBS defense |
+| PBS EW Turret | Energy warfare (shield/armor disruption) |
+| PBS Laser Turret | Beam weapon defense |
+| PBS Missile Turret | Missile defense |
+| PBS Rail Turret | Projectile (EM) defense |
+| Police guard tower | Zone NPC police defense |
+
+See the [robots reference](/content/robots/) for part-level details.
+
 <!-- TODO: only the in-client name for PBS and the UI remain (structure list, network
      editor, feeding screen).
      Confirmed: 416 def_pbs_* definitions, S/M/L tiers with capsule/cprg/pr/object

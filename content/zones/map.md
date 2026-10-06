@@ -8,8 +8,6 @@ description: "Every zone drawn with its real terrain at its grid position, outli
 
 # World
 
-Every zone with an inter-zone teleport connection, drawn at its real grid coordinates — each island outlined by galaxy family and sized to its real width in tiles (the legend below the map shows the sizes). The dashed lines are the teleport columns recorded in the database, colored from the source island's family color to the destination's, drawn over the islands and touching the real column/landing spots inside them (the count per pair is in the line tooltip). Zones without any teleport connection (strongholds, the PvP arena, dead-end gate islands) are left off the map. **Scroll over the map to zoom** (no key needed), **drag to pan**, and click an island to open its page (islands without a dedicated page go to the [zone index](/zones/zone-index/)). Hover an island for its name, protection level and coordinates.
-
 <div class="zonemap-wrap">
 <button type="button" class="zonemap-reset" title="Reset the zoom">⟲</button>
 <svg viewBox="0 0 1000 1477" role="img" aria-label="Map of all game zones with teleport connections, at their grid positions, coastline outlines colored by galaxy family" class="zonemap" xmlns="http://www.w3.org/2000/svg">

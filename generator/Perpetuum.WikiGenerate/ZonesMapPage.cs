@@ -104,16 +104,6 @@ public static class ZonesMapPage
         sb.Append(Md.Header("World", "Every zone drawn with its real terrain at its grid position, outlined by galaxy, with the teleport and gate connections from the database.",
             "zones (x/y, width, protected, terraformable), teleportdescriptions, zoneentities, strongholdexitconfig + riftconfigs + riftdestinations"));
         sb.Append("\n\n# World\n\n");
-        sb.Append("Every zone with an inter-zone teleport connection, drawn at its real grid coordinates — " +
-                  "each island outlined by galaxy family and sized to its real width in tiles (the legend below " +
-                  "the map shows the sizes). The dashed lines are the teleport columns recorded in the database, " +
-                  "colored from the source island's family color to the destination's, drawn over the islands " +
-                  "and touching the real column/landing spots inside them (the count per pair is in the line " +
-                  "tooltip). Zones without any teleport connection (strongholds, the PvP arena, dead-end gate " +
-                  "islands) are left off the map. **Scroll over the map to zoom** (no key needed), **drag to pan**, " +
-                  "and click an island to open its page (islands without a dedicated page go to the [zone index](/zones/zone-index/)). " +
-                  "Hover an island for its name, protection level and coordinates.\n\n");
-
         sb.Append("<div class=\"zonemap-wrap\">\n");
         sb.Append("<button type=\"button\" class=\"zonemap-reset\" title=\"Reset the zoom\">⟲</button>\n");
         sb.Append(Svg(all, byName, links, tps, vbW, vbH, Px, Py));
