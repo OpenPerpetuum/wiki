@@ -1146,6 +1146,7 @@ footer {
     overflow: hidden;
     min-height: 200px;
     padding: 0;
+    text-decoration: none;
 }
 .home-card-hero:hover, .home-card-hero:focus-visible {
     border-color: var(--accent);
