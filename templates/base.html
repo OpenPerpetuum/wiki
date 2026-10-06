@@ -18,8 +18,14 @@
                 if (localStorage.getItem("wiki-mode") === "dev")
                     document.documentElement.setAttribute("data-mode", "dev");
                 var lang = localStorage.getItem("wiki-lang");
-                if (lang && lang !== "en")
+                // Detect language from URL path (takes priority over localStorage)
+                var m = /^\/([a-z]{2,3}(?:-[A-Z]{2})?)\//.exec(window.location.pathname);
+                if (m) lang = m[1];
+                if (lang && lang !== "en") {
                     document.documentElement.setAttribute("lang", lang);
+                    // Mark as pending so CSS hides chrome text until i18n.js applies translation
+                    document.documentElement.setAttribute("data-i18n-pending", "");
+                }
             } catch (e) { /* storage unavailable: stay on the defaults */ }
         })();
     </script>

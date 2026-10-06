@@ -983,13 +983,17 @@
     var LANG_PAGES = null;
 
     function loadLangPages() {
-        try {
-            var root = (document.body && document.body.getAttribute('data-root')) || '';
-            var path = root.replace(/^https?:\/\/[^\/]+/, '').replace(/\/+$/, '');
-            fetch(path + '/lang-pages.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
-                if (d) LANG_PAGES = d;
-            }).catch(function () {});
-        } catch (e) {}
+        var p = new Promise(function (resolve) {
+            try {
+                var root = (document.body && document.body.getAttribute('data-root')) || '';
+                var path = root.replace(/^https?:\/\/[^\/]+/, '').replace(/\/+$/, '');
+                fetch(path + '/lang-pages.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+                    if (d) LANG_PAGES = d;
+                    resolve();
+                }).catch(function () { resolve(); });
+            } catch (e) { resolve(); }
+        });
+        return p;
     }
 
     // Check if the current page has a translated equivalent in language `l`.
@@ -1139,12 +1143,54 @@
     window.WIKI_setLang = setLang;
     window.WIKI_applyLang = applyLang;
 
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', function () { loadLangPages(); buildLangMenu(); applyLang(getLang()); });
-    } else {
-        loadLangPages();
+    // Rewrite internal links to include the language prefix.
+    // Only rewrites links whose target exists in the target language (per LANG_PAGES manifest).
+    function rewriteLinks() {
+        var lang = getLang();
+        if (lang === DEFAULT_LANG || !LANG_PAGES || !LANG_PAGES[lang]) return;
+        var pages = LANG_PAGES[lang];
+        // Build a Set for fast lookup (normalize: store with and without trailing slash)
+        var set = {};
+        for (var i = 0; i < pages.length; i++) {
+            set[pages[i]] = true;
+            if (pages[i].slice(-1) !== '/') set[pages[i] + '/'] = true;
+        }
+        var prefix = '/' + lang;
+        var links = document.querySelectorAll('a[href]');
+        for (var j = 0; j < links.length; j++) {
+            var a = links[j];
+            var href = a.getAttribute('href');
+            // Skip: external, assets, hash-only, already-prefixed
+            if (!href || href[0] !== '/' || href === '//') continue;
+            if (href.indexOf(prefix + '/') === 0 || href === prefix) continue;
+            // Skip static assets
+            if (/\.(css|js|png|jpg|svg|json|webp|woff2?|ttf|ico)(\?|$)/.test(href)) continue;
+            // Check if the prefixed target exists in this language
+            var target = prefix + href;
+            // Normalize: check with and without trailing slash
+            var targetNorm = target.replace(/\/+$/, '');
+            if (set[target] || set[targetNorm]) {
+                a.setAttribute('href', target);
+            }
+        }
+    }
+
+    // Remove the i18n-pending flag so chrome text becomes visible.
+    function i18nReady() {
+        document.documentElement.removeAttribute('data-i18n-pending');
+    }
+
+    function init() {
         buildLangMenu();
         applyLang(getLang());
+        i18nReady();
+        loadLangPages().then(function () { rewriteLinks(); });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
     }
 
 })();

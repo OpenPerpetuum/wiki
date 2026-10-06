@@ -137,4 +137,43 @@ test.describe('i18n language switcher', () => {
     const mapImg = mapCard.locator('img');
     await expect(mapImg).toHaveAttribute('src', '/world-map-thumb.png');
   });
+
+  test('nav links are rewritten to include language prefix', async ({ page, baseURL }) => {
+    await page.goto(`${baseURL}/fr/features/combat/`);
+    await page.waitForTimeout(500);
+
+    // Home link should point to /fr/
+    const homeLink = page.locator('.nav-quick a');
+    await expect(homeLink).toHaveAttribute('href', '/fr/');
+
+    // Translated nav links should have the /fr/ prefix
+    const gettingStarted = page.locator('.nav-items a[href*="getting-started"]');
+    await expect(gettingStarted).toHaveAttribute('href', '/fr/features/getting-started/');
+
+    // Untranslated links (zones) should NOT be prefixed
+    const zoneLink = page.locator('.nav-items a[href*="/zones/"]').first();
+    const zoneHref = await zoneLink.getAttribute('href');
+    expect(zoneHref).not.toMatch(/^\/fr\//);
+  });
+
+  test('no flash of English on translated pages (data-i18n-pending)', async ({ page, baseURL }) => {
+    // Intercept the page to check the pending attribute is set before i18n.js runs
+    await page.goto(`${baseURL}/fr/features/combat/`);
+
+    // After full load, the pending attribute should be REMOVED (translation applied)
+    const pending = await page.evaluate(() =>
+        document.documentElement.hasAttribute('data-i18n-pending')
+    );
+    expect(pending).toBe(false);
+
+    // The lang attribute should be set to 'fr'
+    const lang = await page.evaluate(() =>
+        document.documentElement.getAttribute('lang')
+    );
+    expect(lang).toBe('fr');
+
+    // Chrome text should be in French (not English)
+    const homeLabel = await page.locator('.nav-quick a span[data-i18n="nav_home"]').textContent();
+    expect(homeLabel).not.toBe('Home');
+  });
 });

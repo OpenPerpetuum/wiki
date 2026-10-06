@@ -747,13 +747,19 @@ html[data-theme="light"][data-cb="achro"] {
     border-radius: 10px;
 }
 .zonemap-wrap .zonemap-reset { display: none; }
-/* Disable interaction on static diagrams (mermaid, extension tree, tech tree) */
-.mermaid, .ext-cat-tree, .tech-tree-svg {
+/* Disable interaction on static diagrams (NOT zone maps or world map) */
+.mermaid:not(.zonemap-wrap):not(.zonemap) {
     pointer-events: none;
     user-select: none;
 }
-.mermaid .zoommap-reset, .ext-cat-tree .zoommap-reset, .tech-tree-svg .zoommap-reset {
+.mermaid:not(.zonemap-wrap):not(.zonemap) .zoommap-reset,
+.ext-cat-tree .zoommap-reset,
+.tech-tree-svg .zoommap-reset {
     display: none !important;
+}
+.ext-cat-tree, .tech-tree-svg {
+    pointer-events: none;
+    user-select: none;
 }
 .zonemap {
     display: block;
@@ -1745,3 +1751,11 @@ html[data-mode="dev"] h1 { color: #b4ffc9; text-shadow: 0 0 12px rgba(0, 255, 65
     letter-spacing: 0.03em;
 }
 .robot-card-ratings span { white-space: nowrap; }
+
+/* i18n: hide chrome text until translation is applied (prevents flash of English) */
+html[data-i18n-pending] [data-i18n],
+html[data-i18n-pending] [data-i18n-aria],
+html[data-i18n-pending] [data-i18n-ph] {
+    opacity: 0;
+    transition: opacity 0.15s ease;
+}
