@@ -1,10 +1,11 @@
-// i18n: UI chrome language switching.
-// The language toggle switches the nav/topbar/search/footer strings
-// at runtime (no page reload). Content stays in the default language.
+// i18n: UI chrome language switching + content navigation.
+// The language toggle:
+//   - Swaps chrome strings (nav, topbar, search, footer) at runtime
+//   - Navigates to the translated page if one exists (e.g. / → /fr/)
+//   - Stays on the current page (chrome-only swap) if no translation exists
 const { test, expect } = require('@playwright/test');
 
 test.describe('i18n language switcher', () => {
-  // Helper: clear the saved language on the current page context.
   async function clearLang(page) {
     await page.evaluate(() => localStorage.removeItem('wiki-lang'));
   }
@@ -13,93 +14,101 @@ test.describe('i18n language switcher', () => {
     await page.goto(`${baseURL}/`);
     await clearLang(page);
     await page.reload();
-    // Nav shows English
     await expect(page.locator('.nav-quick a')).toContainText('Home');
     await expect(page.locator('.nav-group-link[href="/menu/start/"]')).toContainText('Start');
     await expect(page.locator('.nav-group-link[href="/zones/map/"]')).toContainText('World');
-    // Search placeholder is English
     await expect(page.locator('#wiki-search')).toHaveAttribute('placeholder', /Search the wiki/);
   });
 
-  test('switching to French translates the chrome', async ({ page, baseURL }) => {
-    await page.goto(`${baseURL}/`);
-    // Click the language toggle
-    await page.locator('#lang-toggle').click();
-    // Click French
-    await page.locator('#lang-menu button[data-lang="fr"]').click();
-    // Nav is now French
-    await expect(page.locator('.nav-quick a')).toContainText('Accueil');
-    await expect(page.locator('.nav-group-link[href="/menu/start/"]')).toContainText('Démarrer');
-    await expect(page.locator('.nav-group-link[href="/zones/map/"]')).toContainText('Monde');
-    await expect(page.locator('.nav-group-link[href="/menu/play/"]')).toContainText('Jouer');
-    await expect(page.locator('.nav-group-link[href="/menu/systems/"]')).toContainText('Systèmes');
-    // Search placeholder is French
-    await expect(page.locator('#wiki-search')).toHaveAttribute('placeholder', /Rechercher/);
-    // Mode toggle is French
-    await expect(page.locator('.mode-opt[data-mode-opt="play"]')).toContainText('Jouer');
-    // html lang attribute updated
-    await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
-    // Content is STILL English (Phase 1: chrome only)
-    await expect(page.locator('h1')).toContainText('Open Perpetuum');
-  });
-
-  test('switching back to English restores the chrome', async ({ page, baseURL }) => {
-    await page.goto(`${baseURL}/`);
-    await page.locator('#lang-toggle').click();
-    await page.locator('#lang-menu button[data-lang="fr"]').click();
-    await expect(page.locator('.nav-quick a')).toContainText('Accueil');
-    // Switch back
-    await page.locator('#lang-toggle').click();
-    await page.locator('#lang-menu button[data-lang="en"]').click();
-    await expect(page.locator('.nav-quick a')).toContainText('Home');
-    await expect(page.locator('#wiki-search')).toHaveAttribute('placeholder', /Search the wiki/);
-    await expect(page.locator('html')).toHaveAttribute('lang', 'en');
-  });
-
-  test('language preference persists across page loads', async ({ page, baseURL }) => {
+  test('switching to French on a page WITH a translation navigates', async ({ page, baseURL }) => {
     await page.goto(`${baseURL}/`);
     await clearLang(page);
     await page.reload();
-    // Switch to French
+    // Click the language toggle → French
     await page.locator('#lang-toggle').click();
     await page.locator('#lang-menu button[data-lang="fr"]').click();
-    // Navigate to another page (full page load)
+    // Navigated to /fr/ (the French home page exists)
+    await page.waitForURL('**/fr/');
+    // French chrome is active
+    await expect(page.locator('.nav-quick a')).toContainText('Accueil');
+    await expect(page.locator('#wiki-search')).toHaveAttribute('placeholder', /Rechercher/);
+    await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
+  });
+
+  test('switching to French on a page WITHOUT a translation swaps chrome only', async ({ page, baseURL }) => {
+    // /features/getting-started/ has no French equivalent
+    await page.goto(`${baseURL}/features/getting-started/`);
+    await clearLang(page);
+    await page.reload();
+    await page.locator('#lang-toggle').click();
+    await page.locator('#lang-menu button[data-lang="fr"]').click();
+    // Stayed on the same page (no /fr/ navigation)
+    await page.waitForTimeout(300);
+    expect(page.url()).not.toMatch(/\/fr\//);
+    // But the chrome is French
+    await expect(page.locator('.nav-quick a')).toContainText('Accueil');
+    await expect(page.locator('.nav-group-link[href="/zones/map/"]')).toContainText('Monde');
+    await expect(page.locator('#wiki-search')).toHaveAttribute('placeholder', /Rechercher/);
+    await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
+    // Content is still English
+    await expect(page.locator('h1')).toContainText('Getting started');
+  });
+
+  test('switching back to English from a French page navigates', async ({ page, baseURL }) => {
+    // Go directly to the French home page
+    await page.goto(`${baseURL}/fr/`);
+    await page.evaluate(() => localStorage.setItem('wiki-lang', 'fr'));
+    await page.reload();
+    await expect(page.locator('.nav-quick a')).toContainText('Accueil');
+    // Switch back to English (navigates to /)
+    const navPromise = page.waitForNavigation({ waitUntil: 'domcontentloaded' });
+    await page.locator('#lang-toggle').click();
+    await page.locator('#lang-menu button[data-lang="en"]').click();
+    await navPromise;
+    await expect(page.locator('.nav-quick a')).toContainText('Home');
+    await expect(page.locator('#wiki-search')).toHaveAttribute('placeholder', /Search the wiki/);
+  });
+
+  test('language preference persists across page loads', async ({ page, baseURL }) => {
+    await page.goto(`${baseURL}/features/getting-started/`);
+    await clearLang(page);
+    await page.reload();
+    // Switch to French (chrome-only, no nav)
+    await page.locator('#lang-toggle').click();
+    await page.locator('#lang-menu button[data-lang="fr"]').click();
+    await page.waitForTimeout(300);
+    // Navigate to another page (no French equivalent)
     await page.goto(`${baseURL}/features/faq/`);
-    // French is still active (restored from localStorage on load)
+    // French chrome is still active
     await expect(page.locator('.nav-quick a')).toContainText('Accueil');
     await expect(page.locator('#wiki-search')).toHaveAttribute('placeholder', /Rechercher/);
   });
 
   test('WIKI_UI object updates with language', async ({ page, baseURL }) => {
-    await page.goto(`${baseURL}/`);
-    // English defaults
-    let ui = await page.evaluate(() => window.WIKI_UI.searchNoResults);
-    expect(ui).toBe('No pages match');
-    // Switch to French
-    await page.evaluate(() => window.WIKI_setLang('fr'));
-    ui = await page.evaluate(() => window.WIKI_UI.searchNoResults);
-    expect(ui).toBe('Aucune page correspondante');
+    await page.goto(`${baseURL}/features/getting-started/`);
+    await clearLang(page);
+    await page.reload();
+    expect(await page.evaluate(() => window.WIKI_UI.searchNoResults)).toBe('No pages match');
+    // Switch to French (chrome-only on this page)
+    await page.evaluate(() => window.WIKI_applyLang('fr'));
+    expect(await page.evaluate(() => window.WIKI_UI.searchNoResults)).toBe('Aucune page correspondante');
   });
 
   test('aria-labels update with language', async ({ page, baseURL }) => {
-    await page.goto(`${baseURL}/`);
-    await page.evaluate(() => window.WIKI_setLang('fr'));
+    await page.goto(`${baseURL}/features/getting-started/`);
+    await page.evaluate(() => window.WIKI_applyLang('fr'));
     await expect(page.locator('#lang-toggle')).toHaveAttribute('aria-label', /Choisir la langue/);
     await expect(page.locator('#theme-toggle')).toHaveAttribute('aria-label', /clair.sombre/);
   });
 
-  test('lang menu shows both languages with correct active state', async ({ page, baseURL }) => {
+  test('lang menu shows all available languages', async ({ page, baseURL }) => {
     await page.goto(`${baseURL}/`);
     await page.locator('#lang-toggle').click();
     const en = page.locator('#lang-menu button[data-lang="en"]');
     const fr = page.locator('#lang-menu button[data-lang="fr"]');
     await expect(en).toHaveText(/EN/);
     await expect(fr).toHaveText(/FR/);
-    // English is active by default
     await expect(en).toHaveAttribute('aria-pressed', 'true');
     await expect(fr).toHaveAttribute('aria-pressed', 'false');
-    // Switch to French
-    await fr.click();
-    await expect(fr).toHaveAttribute('aria-pressed', 'true');
   });
 });

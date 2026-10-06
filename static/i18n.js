@@ -254,9 +254,58 @@
         try { return localStorage.getItem('wiki-lang') || 'en'; } catch (e) { return 'en'; }
     }
 
+    // Language pages manifest: {"fr": ["/fr/", "/fr/features/faq"], ...}
+    // Loaded from /lang-pages.json on startup.
+    var LANG_PAGES = null;
+
+    function loadLangPages() {
+        try {
+            var root = (document.body && document.body.getAttribute('data-root')) || '';
+            var path = root.replace(/^https?:\/\/[^\/]+/, '').replace(/\/+$/, '');
+            fetch(path + '/lang-pages.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+                if (d) LANG_PAGES = d;
+            }).catch(function () {});
+        } catch (e) {}
+    }
+
+    // Check if the current page has a translated equivalent in language `l`.
+    // Returns the target URL or null.
+    var DEFAULT_LANG = LANGS.length > 0 ? LANGS[0].code : 'en';
+
+    function translatedUrl(l) {
+        var path = window.location.pathname;
+        // Strip the current language prefix if present
+        var currentPrefix = '';
+        var m = /^\/([a-z]{2,3})/.exec(path);
+        if (m && m[1] !== DEFAULT_LANG && LANG_PAGES && LANG_PAGES[m[1]]) {
+            currentPrefix = '/' + m[1];
+        }
+        var basePath = path.replace(currentPrefix, '');
+
+        if (l === DEFAULT_LANG) {
+            // Default language: the target is just the base path (no prefix)
+            if (currentPrefix && basePath !== path) return basePath;
+            return null; // already on the default language
+        }
+
+        // Non-default language: check the manifest
+        if (!LANG_PAGES || !LANG_PAGES[l]) return null;
+        var target = '/' + l + basePath;
+        var pages = LANG_PAGES[l];
+        for (var i = 0; i < pages.length; i++) {
+            if (pages[i] === target || pages[i] + '/' === target) return target;
+        }
+        return null;
+    }
+
     function setLang(l) {
         try { localStorage.setItem('wiki-lang', l); } catch (e) {}
         applyLang(l);
+        // If a translated version of this page exists, navigate to it
+        var url = translatedUrl(l);
+        if (url && url !== window.location.pathname) {
+            window.location.href = url;
+        }
     }
 
     // Swap all translatable chrome strings + game names.
@@ -367,8 +416,9 @@
     window.WIKI_applyLang = applyLang;
 
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', function () { buildLangMenu(); applyLang(getLang()); });
+        document.addEventListener('DOMContentLoaded', function () { loadLangPages(); buildLangMenu(); applyLang(getLang()); });
     } else {
+        loadLangPages();
         buildLangMenu();
         applyLang(getLang());
     }

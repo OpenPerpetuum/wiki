@@ -61,10 +61,11 @@ test: build
 # install). The container runs as root (the image has no alpine coreutils),
 # so if a build is ever interrupted and leaves root-owned files in public/,
 # `make clean` removes them via a container.
-# Generate the i18n runtime from translations/*.json. Run before build
-# so the generated static/i18n.js is picked up by Zola.
+# Generate the i18n runtime from translations/*.json + the language pages
+# manifest. Run before build so the generated files are picked up by Zola.
 i18n:
 	python3 tools/gen_i18n.py
+	python3 tools/gen_lang_pages.py
 
 build: i18n
 	docker run --rm --user "$$(id -u):$$(id -g)" \

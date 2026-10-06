@@ -8,3 +8,4 @@ generator/**/obj/
 tools/__pycache__/
 static/zonemaps/*/
 .assets/
+.test-build/

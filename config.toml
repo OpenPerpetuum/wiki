@@ -2,6 +2,7 @@
 # block (or per-locale content under content/<lang>/), fill ui.* for that
 # locale, and regenerate the search index for it (see generator README).
 default_language = "en"
+
 title = "Open Perpetuum Wiki"
 description = "Player and developer reference for the Open Perpetuum server: what you can do in the game, entity stats, zone generation, and stat field semantics."
 # Local/test base: the site lives at the domain root. The CI DEPLOY build
@@ -137,3 +138,6 @@ foot_formats = "Formats (dev)"
 # These two are raw HTML (rendered with `| safe`); keep the links when translating.
 foot_credit = "Open Perpetuum wiki — generated with <a href=\"https://www.getzola.org/\">Zola</a>. Content tables are generated from the live game database (<code>tools/generate</code>)."
 foot_attribution = "Wiki content is licensed under the Apache License 2.0, except where noted."
+
+[languages.en]
+[languages.fr]
