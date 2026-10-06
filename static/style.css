@@ -1134,6 +1134,55 @@ footer {
     color: var(--accent);
 }
 .home-card-desc { color: var(--muted); font-size: 0.83rem; line-height: 1.35; }
+/* Hero cards on home (Robots, Fitting): 2 columns × 2 rows, same design as robots-hero */
+.home-card-hero {
+    grid-column: span 2;
+    grid-row: span 2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    min-height: 200px;
+    padding: 0;
+}
+.home-card-hero:hover, .home-card-hero:focus-visible {
+    border-color: var(--accent);
+    box-shadow: 0 0 18px var(--glow-a), inset 0 0 30px var(--glow-a);
+    transform: none;
+}
+.home-card-hero .robots-hero-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    color: var(--fg);
+}
+.home-card-hero .robots-hero-label {
+    position: relative;
+    z-index: 1;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--fg);
+    border: 2px solid var(--fg);
+    padding: 0.15em 0.6em;
+    line-height: 1.2;
+}
+.home-card-hero .robots-hero-sub {
+    position: relative;
+    z-index: 1;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+}
+@media (max-width: 640px) {
+    .home-card-hero { grid-column: span 1; grid-row: span 1; min-height: 140px; }
+    .home-card-hero .robots-hero-label { font-size: 1.4rem; }
+}
 
 /* ============ missions catalog: per-type tier cards ============ */
 .mission-index { line-height: 2; margin: 0.8rem 0; }
