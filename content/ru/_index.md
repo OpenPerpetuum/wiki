@@ -1,5 +1,6 @@
 ---
 title: "Главная"
+template: "index.html"
 description: "Добро пожаловать в вики Open Perpetuum — руководство, мир, игра и системы."
 ---
 

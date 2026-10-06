@@ -1,5 +1,6 @@
 ---
 title: "首页"
+template: "index.html"
 description: "欢迎使用 Open Perpetuum 维基 — 指南、世界、游戏和系统。"
 ---
 

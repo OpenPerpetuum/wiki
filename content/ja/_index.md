@@ -1,5 +1,6 @@
 ---
 title: "ホーム"
+template: "index.html"
 description: "Open Perpetuum ウィキへようこそ — ガイド、ワールド、プレイ、システム。"
 ---
 

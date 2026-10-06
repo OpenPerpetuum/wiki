@@ -1,5 +1,6 @@
 ---
 title: "Home"
+template: "index.html"
 description: "Welkom bij de Open Perpetuum wiki — handleiding, wereld, spel en systemen."
 ---
 

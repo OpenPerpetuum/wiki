@@ -1,5 +1,6 @@
 ---
 title: "Úvod"
+template: "index.html"
 description: "Vítejte ve wiki Open Perpetuum — průvodce, svět, hra a systémy."
 ---
 

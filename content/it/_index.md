@@ -1,5 +1,6 @@
 ---
 title: "Home"
+template: "index.html"
 description: "Benvenuti nel wiki di Open Perpetuum — guida per iniziare, mondo, gioco e sistemi."
 ---
 
