@@ -1,0 +1,10 @@
+---
+title: "배치 가능 필드"
+description: "배치 가능 데이터 형식, 구조 유형, 해체 규칙."
+weight: 410
+---
+
+# 배치 가능 필드
+
+**배치 가능</parameter>
+</invoke>

@@ -1,0 +1,10 @@
+---
+title: "접근 센서"
+description: "접근 센서: 등록 및 조회 가능한 지역 감시 장치."
+weight: 310
+---
+
+# 접근 센서
+
+**접근 센서</parameter>
+</invoke>
