@@ -226,9 +226,18 @@ public static class ZonesMapPage
     {
         var sb = new StringBuilder();
         sb.Append("<div class=\"map-legend\" id=\"map-legend\">\n");
+        // Protection level section (top)
+        sb.Append("  <div class=\"map-legend-group\">\n");
+        sb.Append("    <button type=\"button\" class=\"map-legend-head\" aria-expanded=\"true\">Protection</button>\n");
+        sb.Append("    <ul class=\"map-legend-items\">\n");
+        sb.Append("      <li><span class=\"legend-swatch\" style=\"background:transparent;border:2px solid #41d3ff\"></span>Alpha (PvE)</li>\n");
+        sb.Append("      <li><span class=\"legend-swatch\" style=\"background:transparent;border:2px solid #fbbf24\"></span>Beta (PvP)</li>\n");
+        sb.Append("      <li><span class=\"legend-swatch\" style=\"background:transparent;border:2px solid #ef4444\"></span>Gamma (PvP + Terraforming)</li>\n");
+        sb.Append("    </ul>\n");
+        sb.Append("  </div>\n");
         // Zones section
         sb.Append("  <div class=\"map-legend-group\">\n");
-        sb.Append("    <button type=\"button\" class=\"map-legend-head\" aria-expanded=\"true\">Zones</button>\n");
+        sb.Append("    <button type=\"button\" class=\"map-legend-head\" aria-expanded=\"true\">Galaxies</button>\n");
         sb.Append("    <ul class=\"map-legend-items\">\n");
         sb.Append("      <li><span class=\"legend-swatch\" style=\"background:#41d3ff\"></span>TM (The Matriarkh)</li>\n");
         sb.Append("      <li><span class=\"legend-swatch\" style=\"background:#6ee7a0\"></span>ICS (Interstellar Coalition)</li>\n");
@@ -322,9 +331,20 @@ public static class ZonesMapPage
 
         var sb = new StringBuilder();
         // All zones are plotted (including those without TP connections like
-        // Daoden, training, strongholds, PvP arena) to mirror the in-game map.
+        // training, strongholds, PvP arena) to mirror the in-game map.
         // Sentinel rows (x/y >= 49000) are excluded.
-        var plotted = all.Where(z => z.X < 49000 && z.Y < 49000).ToList();
+        // ASI_/TM_ zones with no TP links are removed (isolated duplicates).
+        var tpConnected = new HashSet<string>(
+            tps.Select(t => t.Src).Concat(tps.Select(t => t.Dst)),
+            StringComparer.OrdinalIgnoreCase);
+        var plotted = all.Where(z => z.X < 49000 && z.Y < 49000)
+            .Where(z => {
+                // Remove ASI/TM zones that have no TP connections (isolated duplicates)
+                var n = z.Name.ToLowerInvariant();
+                if ((n.Contains("asi") || n.Contains("tm")) && !n.Contains("gamma") && !tpConnected.Contains(z.Name))
+                    return false;
+                return true;
+            }).ToList();
         var plottedSet = new HashSet<string>(plotted.Select(z => z.Name), StringComparer.Ordinal);
         sb.Append($"<svg viewBox=\"0 0 {vbW:0} {vbH:0}\" role=\"img\" aria-label=\"Map of all game zones with teleport connections, at their grid positions, coastline outlines colored by galaxy family\" class=\"zonemap\" xmlns=\"http://www.w3.org/2000/svg\">\n");
         sb.Append("  <title>Map of all game zones with teleport connections, at their grid positions</title>\n");
@@ -361,21 +381,19 @@ public static class ZonesMapPage
             // Same design as the index cards: the coastline-only thumbnail
             // (thumb.png — family-color island border on the dark plate) over
             // the family-outlined shape.
-            // Second (outer) outline: protection level color.
-            // PVE: none (existing family outline only).
-            // PvP Beta + Gamma TC: yellow. PvP Gamma: red.
-            string protOutline;
-            var protColor = ProtectionColor(z);
-            if (protColor != null && f == "special")
-                protOutline = $"<circle cx=\"{x1:0.#}\" cy=\"{y1:0.#}\" r=\"{size / 2 + 2:0.#}\" fill=\"none\" stroke=\"{protColor}\" stroke-width=\"1.5\" opacity=\"0.9\"/>";
-            else if (protColor != null)
-                protOutline = $"<rect x=\"{x1 - size / 2 - 2:0.#}\" y=\"{y1 - size / 2 - 2:0.#}\" width=\"{size + 4:0.#}\" height=\"{size + 4:0.#}\" rx=\"{(size + 4) * 0.3:0.#}\" fill=\"none\" stroke=\"{protColor}\" stroke-width=\"1.5\" opacity=\"0.9\"/>";
-            else
-                protOutline = "";
             var shape = f == "special"
                 ? $"<circle cx=\"{x1:0.#}\" cy=\"{y1:0.#}\" r=\"{size / 2}\" fill=\"#10151f\" class=\"mapfam-{f} zonemap-node-{f}\"><title>{tip}</title></circle>"
                 : $"<rect x=\"{x1 - size / 2:0.#}\" y=\"{y1 - size / 2:0.#}\" width=\"{size:0.#}\" height=\"{size:0.#}\" rx=\"{size * 0.3:0.#}\" fill=\"#10151f\" class=\"mapfam-{f} zonemap-node-{f}\"><title>{tip}</title></rect>";
             var image = $"<image href=\"/zonemaps/{slug}/thumb.png\" x=\"{x1 - size / 2:0.#}\" y=\"{y1 - size / 2:0.#}\" width=\"{size:0.#}\" height=\"{size:0.#}\" preserveAspectRatio=\"none\"/>";
+            // Protection ring: rendered AFTER the image (on top), slightly
+            // larger than the zone so it appears as a colored border around
+            // the terrain thumbnail. PVE: no ring.
+            var protColor = ProtectionColor(z);
+            var protRing = "";
+            if (protColor != null && f == "special")
+                protRing = $"<circle cx=\"{x1:0.#}\" cy=\"{y1:0.#}\" r=\"{size / 2 + 3:0.#}\" fill=\"none\" stroke=\"{protColor}\" stroke-width=\"2\" class=\"prot-ring\"/>";
+            else if (protColor != null)
+                protRing = $"<rect x=\"{x1 - size / 2 - 3:0.#}\" y=\"{y1 - size / 2 - 3:0.#}\" width=\"{size + 6:0.#}\" height=\"{size + 6:0.#}\" rx=\"{(size + 6) * 0.3:0.#}\" fill=\"none\" stroke=\"{protColor}\" stroke-width=\"2\" class=\"prot-ring\"/>";
             // Label ABOVE the island, centered, scaled down so it never
             // overhangs the island's own width (the map stays readable at
             // rest; zoom in for the small islands).
@@ -384,7 +402,7 @@ public static class ZonesMapPage
             if (fontSize < 0.9) fontSize = 0.9;
             var text = $"<text x=\"{x1:0.#}\" y=\"{y1 - size / 2 - 1.2:0.#}\" text-anchor=\"middle\" font-size=\"{fontSize:0.##}\" class=\"zonemap-label\">{displayName}</text>";
             var href = PageLink(z.Name);
-            sb.Append($"  <a href=\"{href}\"><g>{protOutline}{shape}{image}{text}</g></a>\n");
+            sb.Append($"  <a href=\"{href}\"><g>{shape}{image}{protRing}{text}</g></a>\n");
         }
         for (var i = 0; i < tps.Count; i++)
         {
@@ -396,16 +414,7 @@ public static class ZonesMapPage
             sb.Append($"  <line x1=\"{ax:0.#}\" y1=\"{ay:0.#}\" x2=\"{bx:0.#}\" y2=\"{by:0.#}\" class=\"zonemap-tp\" stroke=\"url(#tpg{i})\">" +
                       $"<title>{l.Src} — {l.Dst} ({l.Tps} TP point{(l.Tps > 1 ? "s" : "")})</title></line>\n");
         }
-        // Gate links only where the source island is on the map at all.
-        foreach (var l in links)
-        {
-            if (!plottedSet.Contains(l.Src) || !plottedSet.Contains(l.Dst)) continue;
-            if (!byName.TryGetValue(l.Src, out var s) || !byName.TryGetValue(l.Dst, out var d)) continue;
-            var (ax, ay) = End(s, l.Gx, l.Gy);
-            var (bx, by) = End(d, null, null);
-            sb.Append($"  <line x1=\"{ax:0.#}\" y1=\"{ay:0.#}\" x2=\"{bx:0.#}\" y2=\"{by:0.#}\" class=\"zonemap-link\">" +
-                      $"<title>{l.Src} — {l.Dst} (exit gate `{l.Rift}`)</title></line>\n");
-        }
+
         sb.Append("</svg>\n");
         return sb.ToString();
     }

@@ -14,7 +14,7 @@
     // (INITIAL_MAX): at s = 1 its islands — a dense cluster at one end of a
     // tall canvas — are a handful of pixels lost in empty space, so it
     // opens pre-zoomed onto the cluster (initContentZoom, below).
-    var MIN = 1, MAX = 8, INITIAL_MAX = 3, MIN_VISIBLE = 0.25;
+    var MIN = 1, MAX = 12, INITIAL_MAX = 3, MIN_VISIBLE = 0.25;
 
     // Deploy base (body[data-root] = config.base_url): "/" locally, the full
     // GitHub Pages URL on the project site (subpath /Wiki/). The static
@@ -368,6 +368,88 @@
         ensureReset(wrap);
         initContentZoom(wrap);
         applyWrap(wrap);
+        // World map only: vertical zoom slider + progressive disclosure
+        if (wrap.querySelector('svg.zonemap')) {
+            attachZoomSlider(wrap);
+            attachProgressiveDisclosure(wrap);
+        }
+    }
+
+    // Vertical zoom slider: a thin draggable bar on the right edge of the
+    // world map wrap. Shows the current zoom level; drag to set it.
+    function attachZoomSlider(wrap) {
+        var slider = document.createElement('div');
+        slider.className = 'zm-zoom-slider';
+        slider.innerHTML = '<div class="zm-zs-title">Zoom</div><div class="zm-zs-track"><div class="zm-zs-thumb"></div></div>';
+        wrap.appendChild(slider);
+        var track = slider.querySelector('.zm-zs-track');
+        var thumb = slider.querySelector('.zm-zs-thumb');
+        var dragging = false;
+
+        function update() {
+            var st = stateOf(wrap);
+            var frac = (Math.log(st.s) / Math.log(MAX)) * 100;
+            thumb.style.bottom = Math.max(0, Math.min(100, frac)) + '%';
+        }
+
+        // Update on every zoom/pan (piggyback on applyWrap)
+        var origApply = applyWrap;
+        // Use a MutationObserver-free approach: just update on pointer events
+        wrap.addEventListener('pointermove', function () { update(); });
+        wrap.addEventListener('wheel', function () { setTimeout(update, 0); }, { passive: true });
+
+        function setFromPointer(clientY) {
+            var r = track.getBoundingClientRect();
+            var frac = 1 - (clientY - r.top) / r.height;
+            frac = Math.max(0, Math.min(1, frac));
+            var st = stateOf(wrap);
+            var ns = Math.pow(MAX, frac);
+            // Zoom about the center of the wrap
+            var rect = wrap.getBoundingClientRect();
+            zoomAt(wrap, rect.left + rect.width / 2, rect.top + rect.height / 2, ns / st.s);
+            update();
+        }
+
+        track.addEventListener('pointerdown', function (e) {
+            dragging = true;
+            track.setPointerCapture(e.pointerId);
+            setFromPointer(e.clientY);
+            e.preventDefault();
+        });
+        track.addEventListener('pointermove', function (e) {
+            if (!dragging) return;
+            setFromPointer(e.clientY);
+        });
+        track.addEventListener('pointerup', function (e) {
+            dragging = false;
+            try { track.releasePointerCapture(e.pointerId); } catch (err) {}
+        });
+
+        // Periodic update (covers wheel zoom, pinch, etc.)
+        setInterval(function () { if (wrap._zoomSvg) update(); }, 200);
+        update();
+    }
+
+    // Progressive disclosure: show/hide SVG element groups based on zoom level.
+    // At low zoom: only zone shapes + labels visible.
+    // At medium zoom (s >= 4): TP line endpoints (dots) appear.
+    // At high zoom (s >= 8): additional detail (if any data-zoom-level groups exist).
+    function attachProgressiveDisclosure(wrap) {
+        var svg = wrap.querySelector('svg.zonemap');
+        if (!svg) return;
+        var groups = svg.querySelectorAll('[data-zoom-level]');
+        if (!groups.length) return;
+        function update() {
+            var st = stateOf(wrap);
+            for (var i = 0; i < groups.length; i++) {
+                var min = parseFloat(groups[i].getAttribute('data-zoom-level'));
+                groups[i].style.display = st.s >= min ? '' : 'none';
+            }
+        }
+        wrap.addEventListener('pointermove', function () { update(); });
+        wrap.addEventListener('wheel', function () { setTimeout(update, 0); }, { passive: true });
+        setInterval(function () { if (wrap._zoomSvg) update(); }, 300);
+        update();
     }
 
     // Local (in-zone) teleports: every .ltp-line is hidden until the cursor

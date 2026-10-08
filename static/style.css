@@ -747,6 +747,47 @@ html[data-theme="light"][data-cb="achro"] {
     border-radius: 10px;
 }
 .zonemap-wrap .zonemap-reset { display: none; }
+/* Vertical zoom slider (world map only) */
+.zm-zoom-slider {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    z-index: 10;
+    pointer-events: auto;
+}
+.zm-zs-title {
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    writing-mode: horizontal-tb;
+}
+.zm-zs-track {
+    width: 6px;
+    height: 120px;
+    background: var(--border);
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+}
+.zm-zs-thumb {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--neon);
+    border: 2px solid var(--bg);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+    cursor: grab;
+}
 /* Disable interaction on static diagrams (NOT zone maps or world map) */
 .mermaid:not(.zonemap-wrap):not(.zonemap) {
     pointer-events: none;
@@ -929,8 +970,8 @@ html[data-theme="light"][data-cb="achro"] {
 main [id] { scroll-margin-top: 4.2rem; }
 @media (max-width: 800px) { main [id] { scroll-margin-top: 7rem; } }
 .zonemap-label { fill: var(--fg); opacity: 0.85; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-.zonemap circle, .zonemap rect { stroke: rgba(0, 0, 0, 0.35); stroke-width: 1; }
-.zonemap a:hover circle, .zonemap a:hover rect { stroke: var(--neon); stroke-width: 2.5; }
+.zonemap circle:not(.prot-ring), .zonemap rect:not(.prot-ring) { stroke: rgba(0, 0, 0, 0.35); stroke-width: 1; }
+.zonemap a:hover circle:not(.prot-ring), .zonemap a:hover rect:not(.prot-ring) { stroke: var(--neon); stroke-width: 2.5; }
 .zonemap a { cursor: pointer; }
 .mapdot { display: inline-block; width: 0.7em; height: 0.7em; border-radius: 50%; margin-right: 0.35em; vertical-align: baseline; }
 
