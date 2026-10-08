@@ -381,19 +381,17 @@ public static class ZonesMapPage
             // Same design as the index cards: the coastline-only thumbnail
             // (thumb.png — family-color island border on the dark plate) over
             // the family-outlined shape.
-            var shape = f == "special"
-                ? $"<circle cx=\"{x1:0.#}\" cy=\"{y1:0.#}\" r=\"{size / 2}\" fill=\"#10151f\" class=\"mapfam-{f} zonemap-node-{f}\"><title>{tip}</title></circle>"
-                : $"<rect x=\"{x1 - size / 2:0.#}\" y=\"{y1 - size / 2:0.#}\" width=\"{size:0.#}\" height=\"{size:0.#}\" rx=\"{size * 0.3:0.#}\" fill=\"#10151f\" class=\"mapfam-{f} zonemap-node-{f}\"><title>{tip}</title></rect>";
-            var image = $"<image href=\"/zonemaps/{slug}/thumb.png\" x=\"{x1 - size / 2:0.#}\" y=\"{y1 - size / 2:0.#}\" width=\"{size:0.#}\" height=\"{size:0.#}\" preserveAspectRatio=\"none\"/>";
-            // Protection ring: rendered AFTER the image (on top), slightly
-            // larger than the zone so it appears as a colored border around
-            // the terrain thumbnail. PVE: no ring.
+            // Protection border: the shape is slightly larger than the terrain
+            // image. Its fill is the protection color (visible border for PvP)
+            // or the background color (invisible border for PVE/Alpha).
             var protColor = ProtectionColor(z);
-            var protRing = "";
-            if (protColor != null && f == "special")
-                protRing = $"<circle cx=\"{x1:0.#}\" cy=\"{y1:0.#}\" r=\"{size / 2 + 3:0.#}\" fill=\"none\" stroke=\"{protColor}\" stroke-width=\"2\" class=\"prot-ring\"/>";
-            else if (protColor != null)
-                protRing = $"<rect x=\"{x1 - size / 2 - 3:0.#}\" y=\"{y1 - size / 2 - 3:0.#}\" width=\"{size + 6:0.#}\" height=\"{size + 6:0.#}\" rx=\"{(size + 6) * 0.3:0.#}\" fill=\"none\" stroke=\"{protColor}\" stroke-width=\"2\" class=\"prot-ring\"/>";
+            var borderFill = protColor ?? "#0a1628";
+            var pad = 2.5; // border thickness in viewBox units
+            var sSize = size + pad * 2;
+            var shape = f == "special"
+                ? $"<circle cx=\"{x1:0.#}\" cy=\"{y1:0.#}\" r=\"{sSize / 2:0.#}\" fill=\"{borderFill}\" class=\"zonemap-node-{f}\"><title>{tip}</title></circle>"
+                : $"<rect x=\"{x1 - sSize / 2:0.#}\" y=\"{y1 - sSize / 2:0.#}\" width=\"{sSize:0.#}\" height=\"{sSize:0.#}\" rx=\"{sSize * 0.3:0.#}\" fill=\"{borderFill}\" class=\"zonemap-node-{f}\"><title>{tip}</title></rect>";
+            var image = $"<image href=\"/zonemaps/{slug}/thumb.png\" x=\"{x1 - size / 2:0.#}\" y=\"{y1 - size / 2:0.#}\" width=\"{size:0.#}\" height=\"{size:0.#}\" preserveAspectRatio=\"none\"/>";
             // Label ABOVE the island, centered, scaled down so it never
             // overhangs the island's own width (the map stays readable at
             // rest; zoom in for the small islands).
@@ -402,7 +400,7 @@ public static class ZonesMapPage
             if (fontSize < 0.9) fontSize = 0.9;
             var text = $"<text x=\"{x1:0.#}\" y=\"{y1 - size / 2 - 1.2:0.#}\" text-anchor=\"middle\" font-size=\"{fontSize:0.##}\" class=\"zonemap-label\">{displayName}</text>";
             var href = PageLink(z.Name);
-            sb.Append($"  <a href=\"{href}\"><g>{shape}{image}{protRing}{text}</g></a>\n");
+            sb.Append($"  <a href=\"{href}\"><g>{shape}{image}{text}</g></a>\n");
         }
         for (var i = 0; i < tps.Count; i++)
         {

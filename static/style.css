@@ -970,8 +970,9 @@ html[data-theme="light"][data-cb="achro"] {
 main [id] { scroll-margin-top: 4.2rem; }
 @media (max-width: 800px) { main [id] { scroll-margin-top: 7rem; } }
 .zonemap-label { fill: var(--fg); opacity: 0.85; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-.zonemap circle:not(.prot-ring), .zonemap rect:not(.prot-ring) { stroke: rgba(0, 0, 0, 0.35); stroke-width: 1; }
-.zonemap a:hover circle:not(.prot-ring), .zonemap a:hover rect:not(.prot-ring) { stroke: var(--neon); stroke-width: 2.5; }
+.zonemap circle:not(.zonemap-node-tm):not(.zonemap-node-ics):not(.zonemap-node-asi):not(.zonemap-node-gamma):not(.zonemap-node-special),
+.zonemap rect:not(.zonemap-node-tm):not(.zonemap-node-ics):not(.zonemap-node-asi):not(.zonemap-node-gamma):not(.zonemap-node-special) { stroke: rgba(0, 0, 0, 0.35); stroke-width: 1; }
+.zonemap a:hover .zonemap-node-tm, .zonemap a:hover .zonemap-node-ics, .zonemap a:hover .zonemap-node-asi, .zonemap a:hover .zonemap-node-gamma, .zonemap a:hover .zonemap-node-special { stroke: var(--neon); stroke-width: 2; }
 .zonemap a { cursor: pointer; }
 .mapdot { display: inline-block; width: 0.7em; height: 0.7em; border-radius: 50%; margin-right: 0.35em; vertical-align: baseline; }
 
