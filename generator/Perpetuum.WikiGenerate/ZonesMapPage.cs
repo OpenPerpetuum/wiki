@@ -14,7 +14,7 @@ namespace Perpetuum.WikiGenerate;
 /// </summary>
 public static class ZonesMapPage
 {
-    internal sealed record Zone(string Name, int Type, double X, double Y, int W, int H, bool Protected, bool Terraformable);
+    internal sealed record Zone(string Name, int Type, double X, double Y, int W, int H, bool Protected, bool Terraformable, int TpCount);
 
     /// <summary>Nullable double read (AVG over an all-NULL column is NULL).</summary>
     private static object? NulDbl(Dictionary<string, object?> r, string k)
@@ -24,10 +24,24 @@ public static class ZonesMapPage
 
     public static string Build(Db db)
     {
-        var zones = db.Query("SELECT id, name, zonetype, x, y, width, height, protected, terraformable, enabled FROM zones ORDER BY id")
+        var zones = db.Query("""
+            SELECT z.id, z.name, z.zonetype, z.x, z.y, z.width, z.height, z.protected, z.terraformable, z.enabled,
+                   (SELECT COUNT(*) FROM zoneentities ze WHERE ze.zoneid = z.id AND LOWER(ze.ename) LIKE 'teleport_column%') AS tpcount
+            FROM zones z ORDER BY z.id
+            """)
             .Select(r => new Zone(r.Str("name"), r.Int("zonetype"), r.Dbl("x"), r.Dbl("y"),
-                r.Int("width"), r.Int("height"), r.Bit("protected"), r.Bit("terraformable")))
+                r.Int("width"), r.Int("height"), r.Bit("protected"), r.Bit("terraformable"), r.Int("tpcount")))
             .ToList();
+
+        // Teleport column positions per zone (tile coords within the zone grid).
+        var tpPos = db.Query("""
+            SELECT z.name AS zonename, ze.x AS tx, ze.y AS ty, ze.ename
+            FROM zoneentities ze
+            JOIN zones z ON z.id = ze.zoneid
+            WHERE LOWER(ze.ename) LIKE 'teleport_column%' AND z.x < 49000 AND z.y < 49000
+            """)
+            .GroupBy(r => r.Str("zonename"))
+            .ToDictionary(g => g.Key, g => g.Select(r => (r.Dbl("tx"), r.Dbl("ty"), r.Str("ename"))).ToList());
 
         // The zones table can hold several rows with the same name (e.g. zone_TM has
         // three — the extra rows sit at 50000/51000 sentinel coordinates). The map
@@ -106,7 +120,7 @@ public static class ZonesMapPage
         sb.Append("\n\n# World\n\n");
         sb.Append("<div class=\"zonemap-wrap\">\n");
         sb.Append("<button type=\"button\" class=\"zonemap-reset\" title=\"Reset the zoom\">⟲</button>\n");
-        sb.Append(Svg(all, byName, links, tps, vbW, vbH, Px, Py));
+        sb.Append(Svg(all, byName, links, tps, tpPos, vbW, vbH, Px, Py));
         sb.Append(LegendHtml());
         sb.Append("</div>\n\n");
         sb.Append("<div class=\"zonemap-legend\">Island sizes (tiles): ");
@@ -132,9 +146,13 @@ public static class ZonesMapPage
     /// (filename, markdown) pairs, ready to write next to map.md.</summary>
     public static List<(string File, string Md)> FamilyPages(Db db)
     {
-        var zones = db.Query("SELECT id, name, zonetype, x, y, width, height, protected, terraformable, enabled FROM zones ORDER BY id")
+        var zones = db.Query("""
+            SELECT z.id, z.name, z.zonetype, z.x, z.y, z.width, z.height, z.protected, z.terraformable, z.enabled,
+                   (SELECT COUNT(*) FROM zoneentities ze WHERE ze.zoneid = z.id AND LOWER(ze.ename) LIKE 'teleport_column%') AS tpcount
+            FROM zones z ORDER BY z.id
+            """)
             .Select(r => new Zone(r.Str("name"), r.Int("zonetype"), r.Dbl("x"), r.Dbl("y"),
-                r.Int("width"), r.Int("height"), r.Bit("protected"), r.Bit("terraformable")))
+                r.Int("width"), r.Int("height"), r.Bit("protected"), r.Bit("terraformable"), r.Int("tpcount")))
             .ToList();
         var byName = zones.GroupBy(z => z.Name).ToDictionary(g => g.Key, g => g.First());
         var all = byName.Values.ToList();
@@ -315,6 +333,7 @@ public static class ZonesMapPage
         Dictionary<string, Zone> byName,
         List<(string Src, string Dst, string Rift, double? Gx, double? Gy)> links,
         List<(string Src, string Dst, int Tps, double? Sx, double? Sy, double? Tx, double? Ty)> tps,
+        Dictionary<string, List<(double Tx, double Ty, string Name)>> tpCols,
         double vbW, double vbH, Func<double, double> Px, Func<double, double> Py)
     {
         // A connection line's endpoint sits at the real spot in the zone —
@@ -384,14 +403,25 @@ public static class ZonesMapPage
             // Protection border: the shape is slightly larger than the terrain
             // image. Its fill is the protection color (visible border for PvP)
             // or the background color (invisible border for PVE/Alpha).
-            var protColor = ProtectionColor(z);
-            var borderFill = protColor ?? "#0a1628";
-            var pad = 2.5; // border thickness in viewBox units
-            var sSize = size + pad * 2;
-            var shape = f == "special"
-                ? $"<circle cx=\"{x1:0.#}\" cy=\"{y1:0.#}\" r=\"{sSize / 2:0.#}\" fill=\"{borderFill}\" class=\"zonemap-node-{f}\"><title>{tip}</title></circle>"
-                : $"<rect x=\"{x1 - sSize / 2:0.#}\" y=\"{y1 - sSize / 2:0.#}\" width=\"{sSize:0.#}\" height=\"{sSize:0.#}\" rx=\"{sSize * 0.3:0.#}\" fill=\"{borderFill}\" class=\"zonemap-node-{f}\"><title>{tip}</title></rect>";
+            var shape = $"<circle cx=\"{x1:0.#}\" cy=\"{y1:0.#}\" r=\"{size / 2:0.#}\" fill=\"#10151f\" class=\"zonemap-node-{f}\"><title>{tip}</title></circle>";
             var image = $"<image href=\"/zonemaps/{slug}/thumb.png\" x=\"{x1 - size / 2:0.#}\" y=\"{y1 - size / 2:0.#}\" width=\"{size:0.#}\" height=\"{size:0.#}\" preserveAspectRatio=\"none\"/>";
+            // Landmark icons at real positions: base (dot) at center + teleports at tile coords.
+            var iconR = Math.Max(0.4, size * 0.02);
+            var baseIcon = $"<circle cx=\"{x1:0.#}\" cy=\"{y1:0.#}\" r=\"{iconR:0.#}\" fill=\"#c8d2e0\" class=\"zm-icon\"><title>{DisplayName(z.Name)} — Base</title></circle>";
+            var tpIcons = "";
+            if (tpCols.TryGetValue(z.Name, out var cols) && cols.Count > 0)
+            {
+                var zw = (double)z.W;
+                var zh = (double)z.H;
+                foreach (var col in cols)
+                {
+                    var tpx = x1 + (col.Tx / zw - 0.5) * size;
+                    var tpy = y1 + (col.Ty / zh - 0.5) * size;
+                    var label = col.Name.Replace("teleport_column_", "").Replace('_', ' ');
+                    tpIcons += $"<polygon points=\"{HexPoints(tpx, tpy, iconR * 1.2)}\" fill=\"none\" stroke=\"#c8d2e0\" stroke-width=\"0.5\" class=\"zm-icon\"><title>{DisplayName(z.Name)} — {label}</title></polygon>";
+                }
+            }
+            var icons = baseIcon + tpIcons;
             // Label ABOVE the island, centered, scaled down so it never
             // overhangs the island's own width (the map stays readable at
             // rest; zoom in for the small islands).
@@ -400,7 +430,7 @@ public static class ZonesMapPage
             if (fontSize < 0.9) fontSize = 0.9;
             var text = $"<text x=\"{x1:0.#}\" y=\"{y1 - size / 2 - 1.2:0.#}\" text-anchor=\"middle\" font-size=\"{fontSize:0.##}\" class=\"zonemap-label\">{displayName}</text>";
             var href = PageLink(z.Name);
-            sb.Append($"  <a href=\"{href}\"><g>{shape}{image}{text}</g></a>\n");
+            sb.Append($"  <a href=\"{href}\"><g>{shape}{image}{icons}{text}</g></a>\n");
         }
         for (var i = 0; i < tps.Count; i++)
         {
@@ -409,7 +439,7 @@ public static class ZonesMapPage
             if (!byName.TryGetValue(l.Src, out var s) || !byName.TryGetValue(l.Dst, out var d)) continue;
             var (ax, ay) = End(s, l.Sx, l.Sy);
             var (bx, by) = End(d, l.Tx, l.Ty);
-            sb.Append($"  <line x1=\"{ax:0.#}\" y1=\"{ay:0.#}\" x2=\"{bx:0.#}\" y2=\"{by:0.#}\" class=\"zonemap-tp\" stroke=\"url(#tpg{i})\">" +
+            sb.Append($"  <line x1=\"{ax:0.#}\" y1=\"{ay:0.#}\" x2=\"{bx:0.#}\" y2=\"{by:0.#}\" class=\"zonemap-tp\" stroke=\"url(#tpg{i})\" data-tps=\"{l.Src}\" data-tpd=\"{l.Dst}\">" +
                       $"<title>{l.Src} — {l.Dst} ({l.Tps} TP point{(l.Tps > 1 ? "s" : "")})</title></line>\n");
         }
 
@@ -436,6 +466,21 @@ public static class ZonesMapPage
             "gamma" => "#a78bfa",
             _ => "#c8d2e0",
         };
+
+    /// <summary>SVG polygon points for a regular hexagon centered at (cx,cy) with radius r.</summary>
+    private static string HexPoints(double cx, double cy, double r)
+    {
+        var pts = new System.Text.StringBuilder();
+        for (var i = 0; i < 6; i++)
+        {
+            var angle = Math.PI / 3 * i - Math.PI / 6;
+            var px = cx + r * Math.Cos(angle);
+            var py = cy + r * Math.Sin(angle);
+            if (i > 0) pts.Append(' ');
+            pts.Append($"{px:0.#},{py:0.#}");
+        }
+        return pts.ToString();
+    }
 
     private static string Escape(string s) => s.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt>");
 

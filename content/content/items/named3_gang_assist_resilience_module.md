@@ -35,6 +35,9 @@ description: "Modules / Enhancements, tier T4"
 
 **Produced from 7 components, research level 7** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [T4 Gang Assist Resilience Module Cprg](/content/items/named3-gang-assist-resilience-module-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-panel"/></svg><a class="prod-card-name" href="/content/items/named2-gang-assist-resilience-module/">T3 Gang Assist Resilience Module</a></div><div class="prod-card-body">required: <b>1</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-crystal"/></svg><a class="prod-card-name" href="/content/items/robotshard-pelistal-advanced/">Functional pelistal fragment</a></div><div class="prod-card-body">required: <b>15</b></div></div>

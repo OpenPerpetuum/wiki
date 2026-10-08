@@ -3,7 +3,6 @@
 {% block description %}{% if section.description %}{{ section.description }}{% else %}{{ config.description }}{% endif %}{% endblock description %}
 {% block content %}
 <article>
-    {% if section.content %}{{ section.content | safe }}{% endif %}
     <div class="home-cards">
       <a class="home-card home-card-map" href="/zones/map/">
         <img src="/world-map-thumb.png" alt="" width="977" height="252" loading="lazy">
@@ -30,5 +29,6 @@
       <a class="home-card" href="/features/market/"><span class="home-card-name" data-i18n="home_market">Market</span><span class="home-card-desc" data-i18n="home_market_desc">Buy, sell and trade with other players</span></a>
       <a class="home-card" href="/features/sparks/"><span class="home-card-name" data-i18n="home_sparks">Sparks</span><span class="home-card-desc" data-i18n="home_sparks_desc">Your agent's nanobot and its ability bonuses</span></a>
     </div>
+    {% if section.content %}{{ section.content | safe }}{% endif %}
 </article>
 {% endblock content %}

@@ -37,6 +37,9 @@ description: "Modules / Weapons, tier T2"
 
 **Produced from 3 components, research level 4** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [Grenber 28d medium machine gun CT](/content/items/named1-medium-autocannon-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">required: <b>200</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/standard-medium-autocannon/">Standard medium machine gun</a></div><div class="prod-card-body">required: <b>1</b></div></div>

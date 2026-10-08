@@ -54,6 +54,9 @@ Fixed-price vendors that sell this item (see the [Item shop](/content/shop/) for
 
 **Produced from 2 components** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [Elitet2 72 Damage Mod Projectile Cprg](/content/items/elitet2-72-damage-mod-projectile-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/material-boss-z72/">Material Boss Z72</a></div><div class="prod-card-body">required: <b>300</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-panel"/></svg><a class="prod-card-name" href="/content/items/named1-damage-mod-projectile/">Diathel-Subperis firearm tuning</a></div><div class="prod-card-body">required: <b>1</b></div></div>

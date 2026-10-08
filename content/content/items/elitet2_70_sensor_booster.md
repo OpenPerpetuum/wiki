@@ -56,6 +56,9 @@ Fixed-price vendors that sell this item (see the [Item shop](/content/shop/) for
 
 **Produced from 2 components** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [Elitet2 70 Sensor Booster Cprg](/content/items/elitet2-70-sensor-booster-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/material-boss-z70/">Material Boss Z70</a></div><div class="prod-card-body">required: <b>300</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/named1-sensor-booster/">Bullz-I 6601 sensor amplifier</a></div><div class="prod-card-body">required: <b>1</b></div></div>

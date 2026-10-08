@@ -24,6 +24,9 @@ _No stats — this item carries no aggregate values._
 
 **Produced from 2 components, research level 1** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [Compressor [Asintec Industry V] CT](/content/items/missionitem-asi-i-tutorial-exp3-05-t04-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/missionitem-asi-i-tutorial-exp3-05-t02/">Compressor valve [Asintec Industry V]</a></div><div class="prod-card-body">required: <b>1</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/missionitem-asi-i-tutorial-exp3-05-t03/">Compressor casket [Asintec Industry V]</a></div><div class="prod-card-body">required: <b>1</b></div></div>

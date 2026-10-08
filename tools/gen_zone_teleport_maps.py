@@ -387,22 +387,115 @@ def world_png(alt, roads):
     return color_png(alt, coast_mask(alt), roads, None)
 
 
-def thumb_png(coast, color):
+def prot_color(zone):
+    """Protection level border color for the thumbnail. None for PVE."""
+    n = zone.lower()
+    # PVE zones: no border
+    if '_pve' in n or 'training' in n:
+        return None
+    if 'gamma_tc' in n:
+        return '#fbbf24'  # yellow (PvP Beta)
+    if 'gamma_z' in n:
+        return '#ef4444'  # red (PvP Gamma)
+    # Beta zones (g_1 through g_8) and other PvP: yellow
+    if '_g_' in n or '_g1' in n or '_g2' in n or '_g3' in n or '_g4' in n:
+        return '#fbbf24'
+    if '_g5' in n or '_g6' in n or '_g7' in n or '_g8' in n:
+        return '#fbbf24'
+    # Other PvP (alpha PVP, arenas, strongholds): yellow
+    if '_pvp' in n or 'arena' in n or 'stronghold' in n:
+        return '#fbbf24'
+    # Alpha PVE main zones (zone_TM, zone_ICS, zone_ASI): no border
+    return None
+
+
+def _dilate(grid, radius):
+    """Dilate a boolean grid by the given radius (Chebyshev distance)."""
+    size = len(grid)
+    out = [row[:] for row in grid]
+    for _ in range(radius):
+        new = [row[:] for row in out]
+        for y in range(size):
+            for x in range(size):
+                if out[y][x]:
+                    for dy in (-1, 0, 1):
+                        ny = y + dy
+                        if 0 <= ny < size:
+                            for dx in (-1, 0, 1):
+                                nx = x + dx
+                                if 0 <= nx < size:
+                                    new[ny][nx] = True
+        out = new
+    return out
+
+
+def thumb_png(coast, color, prot=None):
     """Coastline-only outline for the zone cards: bold island border in the
-    family color, dark background, no points of interest."""
+    family color, dark background, no points of interest.
+    If prot is given, a slightly larger (3-cell dilation) coastline in the
+    protection color is rendered as an outer border (double outline)."""
     size = len(coast)
     r = int(color[1:3], 16); g = int(color[3:5], 16); b = int(color[5:7], 16)
-    px = bytearray()
+    pr = pg = pb = 0
+    dil_gap = None
+    dil_outer = None
+    if prot:
+        pr = int(prot[1:3], 16); pg = int(prot[3:5], 16); pb = int(prot[5:7], 16)
+        dil_gap = _dilate(coast, 2)   # gap: 2 cells of dark background
+        dil_outer = _dilate(coast, 5) # outer edge: 2 gap + 3 border width
+    # Determine "inside" pixels via flood-fill from edges (non-coast pixels
+    # reachable from the border are outside; the rest are inside the island).
+    inside = [[False] * size for _ in range(size)]
+    from collections import deque
+    q = deque()
+    for x in range(size):
+        if not coast[0][x]:
+            q.append((0, x)); inside[0][x] = True
+        if not coast[size-1][x]:
+            q.append((size-1, x)); inside[size-1][x] = True
     for y in range(size):
-        row = coast[y]
-        up = coast[y - 1] if y > 0 else None
-        dn = coast[y + 1] if y < size - 1 else None
-        for x in range(size):
-            # dilate by one cell: a 1-cell coastline reads bold at card size
-            on = (row[x]
-                  or (x > 0 and row[x - 1]) or (x < size - 1 and row[x + 1])
-                  or (up is not None and up[x]) or (dn is not None and dn[x]))
-            px += bytes((r, g, b, 255) if on else (16, 21, 31, 255))
+        if not coast[y][0]:
+            q.append((y, 0)); inside[y][0] = True
+        if not coast[y][size-1]:
+            q.append((y, size-1)); inside[y][size-1] = True
+    while q:
+        cy, cx = q.popleft()
+        for dy, dx in ((-1,0),(1,0),(0,-1),(0,1)):
+            ny, nx = cy+dy, cx+dx
+            if 0 <= ny < size and 0 <= nx < size and not inside[ny][nx] and not coast[ny][nx]:
+                inside[ny][nx] = True
+                q.append((ny, nx))
+
+    px = bytearray()
+    if dil_outer is not None:
+        # PvP: galaxy color fill + outer protection border
+        for y in range(size):
+            row_outer = dil_outer[y]
+            row_gap = dil_gap[y]
+            for x in range(size):
+                if row_outer[x] and not row_gap[x]:
+                    px += bytes((pr, pg, pb, 255))
+                elif not inside[y][x] and not coast[y][x]:
+                    # Island interior (not reachable from edge) = galaxy fill
+                    px += bytes((r//2, g//2, b//2, 255))
+                else:
+                    px += bytes((16, 21, 31, 255))
+    else:
+        # PVE: family color coastline + galaxy fill
+        for y in range(size):
+            row = coast[y]
+            up = coast[y - 1] if y > 0 else None
+            dn = coast[y + 1] if y < size - 1 else None
+            for x in range(size):
+                d1 = (row[x]
+                      or (x > 0 and row[x - 1]) or (x < size - 1 and row[x + 1])
+                      or (up is not None and up[x]) or (dn is not None and dn[x]))
+                if d1:
+                    px += bytes((r, g, b, 255))
+                elif not inside[y][x] and not coast[y][x]:
+                    px += bytes((r//2, g//2, b//2, 255))
+                else:
+                    px += bytes((16, 21, 31, 255))
     return png_encode(size, size, bytes(px))
 
 
@@ -475,7 +568,7 @@ def fallback_world_thumb(color_bytes, zone_name):
                 for dy in range(2):
                     for dx in range(2):
                         coast2[y * 2 + dy][x * 2 + dx] = 1
-    return world, thumb_png(coast2, fam_color(zone_name))
+    return world, thumb_png(coast2, fam_color(zone_name), prot_color(zone_name))
 
 
 FBM_SEA = 0.45  # fBm value below which the procedural placeholder is water
@@ -502,7 +595,7 @@ def fbm_world_thumb(zone_name):
         for x in range(128):
             r, g, b = _ramp(row[x])
             px += bytes((r, g, b, 255))
-    return png_encode(128, 128, bytes(px)), thumb_png(coast, fam_color(zone_name))
+    return png_encode(128, 128, bytes(px)), thumb_png(coast, fam_color(zone_name), prot_color(zone_name))
 # ------------------------------------------------------------- heightmap
 
 def fbm(size, seed, octaves=5, base_freq=3):
@@ -663,7 +756,7 @@ def rebuild(path, name2slug, slug2id, slug2size):
             coast_t = coast_mask(alt_t)
         else:
             alt_t, coast_t = alt, coast
-        open(os.path.join(d, "thumb.png"), "wb").write(thumb_png(coast_t, fam_color(zone)))
+        open(os.path.join(d, "thumb.png"), "wb").write(thumb_png(coast_t, fam_color(zone), prot_color(zone)))
     elif have_fallback:
         # no layer data here: keep the committed derived PNGs (copied into
         # place so the SVG's /zonemaps/<slug>/ URLs resolve)

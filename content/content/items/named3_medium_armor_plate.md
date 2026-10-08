@@ -33,6 +33,9 @@ description: "Modules / Armor, tier T4"
 
 **Produced from 8 components, research level 6** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [THL-Testudo medium armor plate CT](/content/items/named3-medium-armor-plate-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/alligior/">Alligior</a></div><div class="prod-card-body">required: <b>700</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-tree"/></svg><a class="prod-card-name" href="/content/items/named2-medium-armor-plate/">Invigor II. medium armor plate</a></div><div class="prod-card-body">required: <b>1</b></div></div>

@@ -33,6 +33,9 @@ description: "Modules / Armor, tier T3"
 
 **Produced from 6 components, research level 5** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [Invigor II. medium armor plate CT](/content/items/named2-medium-armor-plate-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/alligior/">Alligior</a></div><div class="prod-card-body">required: <b>350</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-tree"/></svg><a class="prod-card-name" href="/content/items/named1-medium-armor-plate/">Azilo-Protec Duoforge medium armor plate</a></div><div class="prod-card-body">required: <b>1</b></div></div>

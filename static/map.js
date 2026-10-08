@@ -14,7 +14,7 @@
     // (INITIAL_MAX): at s = 1 its islands — a dense cluster at one end of a
     // tall canvas — are a handful of pixels lost in empty space, so it
     // opens pre-zoomed onto the cluster (initContentZoom, below).
-    var MIN = 1, MAX = 12, INITIAL_MAX = 3, MIN_VISIBLE = 0.25;
+    var MIN = 1, MAX = 24, INITIAL_MAX = 3, MIN_VISIBLE = 0.25;
 
     // Deploy base (body[data-root] = config.base_url): "/" locally, the full
     // GitHub Pages URL on the project site (subpath /Wiki/). The static
@@ -121,7 +121,8 @@
         var rect = svg.getBoundingClientRect();
         var c0x = rect.left + rect.width / 2 - st.tx;  // identity center
         var c0y = rect.top + rect.height / 2 - st.ty;
-        var cap = wrap._zmPrezoomed ? MAX : Math.min(MAX, INITIAL_MAX);
+        var isWorldMap = wrap._zoomSvg && wrap._zoomSvg.querySelector('.zonemap-tp');
+        var cap = (wrap._zmPrezoomed || isWorldMap) ? MAX : Math.min(MAX, INITIAL_MAX);
         var ns = Math.min(cap, Math.max(MIN, st.s * factor));
         if (ns === st.s) return;
         var qx = (clientX - c0x - st.tx) / st.s;  // (2), relative to C0
@@ -206,12 +207,23 @@
             if (nodes.length) {
                 var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
                 for (var i = 0; i < nodes.length; i++) {
-                    var el = nodes[i], b;
-                    try { b = el.getBBox(); } catch (e) { continue; }
-                    if (b.x < minX) minX = b.x;
-                    if (b.y < minY) minY = b.y;
-                    if (b.x + b.width > maxX) maxX = b.x + b.width;
-                    if (b.y + b.height > maxY) maxY = b.y + b.height;
+                    var el = nodes[i];
+                    var ex, ey, ew, eh;
+                    if (el.tagName === 'circle') {
+                        var cr = parseFloat(el.getAttribute('r')) || 0;
+                        ex = (parseFloat(el.getAttribute('cx')) || 0) - cr;
+                        ey = (parseFloat(el.getAttribute('cy')) || 0) - cr;
+                        ew = eh = cr * 2;
+                    } else {
+                        ex = parseFloat(el.getAttribute('x')) || 0;
+                        ey = parseFloat(el.getAttribute('y')) || 0;
+                        ew = parseFloat(el.getAttribute('width')) || 0;
+                        eh = parseFloat(el.getAttribute('height')) || 0;
+                    }
+                    if (ex < minX) minX = ex;
+                    if (ey < minY) minY = ey;
+                    if (ex + ew > maxX) maxX = ex + ew;
+                    if (ey + eh > maxY) maxY = ey + eh;
                 }
                 // Identity-frame geometry: the svg currently carries the
                 // previous state; measure with it cleared first.
@@ -246,7 +258,14 @@
                 }
             }
         } catch (e) { /* fall through: stay at s = 1 */ }
-        if (typeof ns === 'undefined') return;
+        if (typeof ns === 'undefined') {
+            // World map fallback: the content fills the viewBox so the
+            // pre-zoom formula gives s < 1.05. Set a sensible default
+            // zoom (4x) so labels are readable on load.
+            if (svg.querySelector('.zonemap-tp')) {
+                ns = 4; tx = 0; ty = 0;
+            } else { return; }
+        }
         st.s = ns; st.tx = tx; st.ty = ty;
         wrap._zmPrezoomed = true;
         clamp(wrap);
@@ -388,7 +407,7 @@
 
         function update() {
             var st = stateOf(wrap);
-            var frac = (Math.log(st.s) / Math.log(MAX)) * 100;
+            var frac = ((st.s - MIN) / (MAX - MIN)) * 100;
             thumb.style.bottom = Math.max(0, Math.min(100, frac)) + '%';
         }
 
@@ -403,10 +422,12 @@
             var frac = 1 - (clientY - r.top) / r.height;
             frac = Math.max(0, Math.min(1, frac));
             var st = stateOf(wrap);
-            var ns = Math.pow(MAX, frac);
+            var ns = MIN + frac * (MAX - MIN);
             // Zoom about the center of the wrap
             var rect = wrap.getBoundingClientRect();
-            zoomAt(wrap, rect.left + rect.width / 2, rect.top + rect.height / 2, ns / st.s);
+            var cx = rect.left + rect.width / 2;
+            var cy = rect.top + rect.height / 2;
+            zoomAt(wrap, cx, cy, ns / st.s);
             update();
         }
 
@@ -524,29 +545,44 @@
         var svg = wrap.querySelector('svg.zonemap');
         var lines = svg ? svg.querySelectorAll('line.zonemap-tp') : [];
         if (!lines.length) return;
+        // Zone nodes: each <a> has a center position (from its child shape)
+        var links = svg.querySelectorAll('a[href]');
+        var zones = [];
+        for (var i = 0; i < links.length; i++) {
+            var a = links[i];
+            var shape = a.querySelector('circle, rect');
+            if (!shape) continue;
+            var cx, cy;
+            if (shape.tagName === 'circle') {
+                cx = parseFloat(shape.getAttribute('cx'));
+                cy = parseFloat(shape.getAttribute('cy'));
+            } else {
+                cx = parseFloat(shape.getAttribute('x')) + parseFloat(shape.getAttribute('width')) / 2;
+                cy = parseFloat(shape.getAttribute('y')) + parseFloat(shape.getAttribute('height')) / 2;
+            }
+            // Extract zone slug from href (/zones/zone-gamma-z106/)
+            var href = a.getAttribute('href') || '';
+            var slug = href.replace(/^.*\/zones\//, '').replace(/\/$/, '').replace(/^.*\//, '');
+            var r = shape.tagName === 'circle' ? parseFloat(shape.getAttribute('r')) : Math.max(parseFloat(shape.getAttribute('width')), parseFloat(shape.getAttribute('height'))) / 2;
+            zones.push({ cx: cx, cy: cy, slug: slug, r: r });
+        }
+        // Map each line to its source/dest zone slugs
         var segs = [];
         for (var i = 0; i < lines.length; i++) {
+            var el = lines[i];
             segs.push({
-                el: lines[i], on: false,
-                x1: parseFloat(lines[i].getAttribute('x1')),
-                y1: parseFloat(lines[i].getAttribute('y1')),
-                x2: parseFloat(lines[i].getAttribute('x2')),
-                y2: parseFloat(lines[i].getAttribute('y2'))
+                el: el, on: false,
+                src: el.getAttribute('data-tps') || '',
+                dst: el.getAttribute('data-tpd') || ''
             });
         }
         var pt = null;
         try { pt = document.createElementNS('http://www.w3.org/2000/svg', 'svg').createSVGPoint(); } catch (e) {}
         if (!pt) return;
-        function dist(s, px, py) {
-            var vx = s.x2 - s.x1, vy = s.y2 - s.y1;
-            var wx = px - s.x1, wy = py - s.y1;
-            var l2 = vx * vx + vy * vy;
-            var t = l2 ? (wx * vx + wy * vy) / l2 : 0;
-            t = Math.max(0, Math.min(1, t));
-            var dx = px - (s.x1 + t * vx), dy = py - (s.y1 + t * vy);
-            return Math.sqrt(dx * dx + dy * dy);
+        var raf = 0, mx = 0, my = 0, activeZone = null;
+        function slugFromZoneName(name) {
+            return name.toLowerCase().replace(/_/g, '-');
         }
-        var raf = 0, mx = 0, my = 0;
         function update() {
             raf = 0;
             if (!(tpFine && tpFine.matches)) return;
@@ -554,10 +590,22 @@
             if (!m) return;
             pt.x = mx; pt.y = my;
             var p = pt.matrixTransform(m.inverse());
+            // Find closest zone: use the zone's own radius as the hit threshold.
+            // For overlapping zones, the closest center wins (shortest distance).
+            var best = null, bestD = Infinity;
+            for (var i = 0; i < zones.length; i++) {
+                var dx = p.x - zones[i].cx, dy = p.y - zones[i].cy;
+                var d = dx * dx + dy * dy;
+                if (d < bestD) { bestD = d; best = zones[i]; }
+            }
+            // Threshold: within the zone's own radius (slightly padded)
+            var newZone = (best && bestD < best.r * best.r * 1.2) ? best.slug : null;
+            if (newZone === activeZone) return;
+            // Turn off all, turn on matching
+            activeZone = newZone;
             for (var i = 0; i < segs.length; i++) {
                 var s = segs[i];
-                var d = dist(s, p.x, p.y);
-                var on = d < TP_SHOW ? true : (s.on ? d <= TP_KEEP : false);
+                var on = newZone && (slugFromZoneName(s.src) === newZone || slugFromZoneName(s.dst) === newZone);
                 if (on !== s.on) {
                     s.on = on;
                     if (on) s.el.classList.add('zm-tp-on');
@@ -571,6 +619,7 @@
             if (!raf) raf = requestAnimationFrame(update);
         });
         wrap.addEventListener('pointerleave', function () {
+            activeZone = null;
             for (var i = 0; i < segs.length; i++)
                 if (segs[i].on) { segs[i].on = false; segs[i].el.classList.remove('zm-tp-on'); }
         });

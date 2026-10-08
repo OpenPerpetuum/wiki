@@ -384,7 +384,7 @@ public static class ItemsPage
         if (parts is { Count: > 0 })
         {
             sb.Append("## Production\n\n");
-            sb.Append(ProductionRecipeSection(showName, parts, defs, dupes, researchLvl));
+            sb.Append(ProductionRecipeSection(showName, d.Name, parts, defs, dupes, researchLvl));
         }
         if (production is not { } && users is { Count: > 0 } u)
         {
@@ -402,11 +402,19 @@ public static class ItemsPage
     /// scan with 10+ components. Mirrors tools/gen_production_pages.py
     /// recipe_section() — keep both in sync (byte-identical output).
     /// </summary>
-    private static string ProductionRecipeSection(string selfDisplay, List<(int Comp, int Amt)> parts, Dictionary<int, DefRow> defs, HashSet<string> dupes, int researchLvl)
+    private static string ProductionRecipeSection(string selfDisplay, string selfDef, List<(int Comp, int Amt)> parts, Dictionary<int, DefRow> defs, HashSet<string> dupes, int researchLvl)
     {
         var intro = $"**Produced from {Num(parts.Count)} component{(parts.Count == 1 ? "" : "s")}" +
                     (researchLvl > 0 ? $", research level {researchLvl}" : "") +
                     "** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):\n\n";
+        // Blueprint (CT capsule) link: the _cprg variant of this item
+        var ctDef = selfDef + "_cprg";
+        if (defs.Values.Any(r => r.Name == ctDef && r.Enabled && !r.Hidden))
+        {
+            var ctSlug = ctDef.Replace("def_", "").Replace('_', '-').ToLowerInvariant();
+            var ctName = Md.DisplayName(ctDef);
+            intro += $"\n**Blueprint:** [{ctName}](/content/items/{ctSlug}/)\n\n";
+        }
         var sb = new StringBuilder("<div class=\"prod-cards\">\n");
         for (var i = 0; i < parts.Count; i++)
         {
