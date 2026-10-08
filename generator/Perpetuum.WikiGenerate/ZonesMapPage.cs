@@ -321,16 +321,15 @@ public static class ZonesMapPage
         }
 
         var sb = new StringBuilder();
-        // Zones without any inter-zone teleport connection (the strongholds,
-        // the PvP arena, dead-end gate islands) are left off the map: they add
-        // noise without a line. A zone stays if it is a TP source or target.
-        var connected = new HashSet<string>(
-            tps.Select(t => t.Src).Concat(tps.Select(t => t.Dst)),
-            StringComparer.Ordinal);
-        var plotted = all.Where(z => connected.Contains(z.Name)).ToList();
+        // All zones are plotted (including those without TP connections like
+        // Daoden, training, strongholds, PvP arena) to mirror the in-game map.
+        // Sentinel rows (x/y >= 49000) are excluded.
+        var plotted = all.Where(z => z.X < 49000 && z.Y < 49000).ToList();
         var plottedSet = new HashSet<string>(plotted.Select(z => z.Name), StringComparer.Ordinal);
         sb.Append($"<svg viewBox=\"0 0 {vbW:0} {vbH:0}\" role=\"img\" aria-label=\"Map of all game zones with teleport connections, at their grid positions, coastline outlines colored by galaxy family\" class=\"zonemap\" xmlns=\"http://www.w3.org/2000/svg\">\n");
         sb.Append("  <title>Map of all game zones with teleport connections, at their grid positions</title>\n");
+        // Dark ocean background (matches the in-game world map)
+        sb.Append($"  <rect width=\"{vbW:0}\" height=\"{vbH:0}\" fill=\"#0a1628\"/>\n");
         // Inter-zone TP lines, dashed and gradient-colored from the source
         // island's family color to the destination's (one gradient per line,
         // anchored in userSpace so the gradient follows the line direction).
