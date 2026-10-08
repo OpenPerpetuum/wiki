@@ -361,6 +361,17 @@ public static class ZonesMapPage
             // Same design as the index cards: the coastline-only thumbnail
             // (thumb.png — family-color island border on the dark plate) over
             // the family-outlined shape.
+            // Second (outer) outline: protection level color.
+            // PVE: none (existing family outline only).
+            // PvP Beta + Gamma TC: yellow. PvP Gamma: red.
+            string protOutline;
+            var protColor = ProtectionColor(z);
+            if (protColor != null && f == "special")
+                protOutline = $"<circle cx=\"{x1:0.#}\" cy=\"{y1:0.#}\" r=\"{size / 2 + 2:0.#}\" fill=\"none\" stroke=\"{protColor}\" stroke-width=\"1.5\" opacity=\"0.9\"/>";
+            else if (protColor != null)
+                protOutline = $"<rect x=\"{x1 - size / 2 - 2:0.#}\" y=\"{y1 - size / 2 - 2:0.#}\" width=\"{size + 4:0.#}\" height=\"{size + 4:0.#}\" rx=\"{(size + 4) * 0.3:0.#}\" fill=\"none\" stroke=\"{protColor}\" stroke-width=\"1.5\" opacity=\"0.9\"/>";
+            else
+                protOutline = "";
             var shape = f == "special"
                 ? $"<circle cx=\"{x1:0.#}\" cy=\"{y1:0.#}\" r=\"{size / 2}\" fill=\"#10151f\" class=\"mapfam-{f} zonemap-node-{f}\"><title>{tip}</title></circle>"
                 : $"<rect x=\"{x1 - size / 2:0.#}\" y=\"{y1 - size / 2:0.#}\" width=\"{size:0.#}\" height=\"{size:0.#}\" rx=\"{size * 0.3:0.#}\" fill=\"#10151f\" class=\"mapfam-{f} zonemap-node-{f}\"><title>{tip}</title></rect>";
@@ -373,7 +384,7 @@ public static class ZonesMapPage
             if (fontSize < 0.9) fontSize = 0.9;
             var text = $"<text x=\"{x1:0.#}\" y=\"{y1 - size / 2 - 1.2:0.#}\" text-anchor=\"middle\" font-size=\"{fontSize:0.##}\" class=\"zonemap-label\">{displayName}</text>";
             var href = PageLink(z.Name);
-            sb.Append($"  <a href=\"{href}\"><g>{shape}{image}{text}</g></a>\n");
+            sb.Append($"  <a href=\"{href}\"><g>{protOutline}{shape}{image}{text}</g></a>\n");
         }
         for (var i = 0; i < tps.Count; i++)
         {
@@ -457,6 +468,28 @@ public static class ZonesMapPage
     {
         if (z.Protected) return "protected (alpha)";
         return z.Terraformable ? "open (gamma)" : "open (beta)";
+    }
+
+    /// <summary>Outer outline color by protection level.
+    /// PVE: null (no extra outline). PvP Beta + Gamma TC: yellow. PvP Gamma: red.</summary>
+    private static string? ProtectionColor(Zone z)
+    {
+        // PVE zones: no extra outline
+        if (z.Protected) return null;
+        if (z.Name.Contains("_pve")) return null;
+        if (z.Name.Contains("training")) return null;
+        if (z.Type == 1) return null; // PvE type
+        // Gamma TC zones: yellow (treated as PvP Beta)
+        if (z.Name.Contains("gamma_tc")) return "#fbbf24";
+        // Gamma zones: red
+        if (z.Name.Contains("gamma_z")) return "#ef4444";
+        // Beta zones (g_1 through g_8): yellow
+        if (z.Name.Contains("_g_") || z.Name.Contains("_g1") || z.Name.Contains("_g2") ||
+            z.Name.Contains("_g3") || z.Name.Contains("_g4") || z.Name.Contains("_g5") ||
+            z.Name.Contains("_g6") || z.Name.Contains("_g7") || z.Name.Contains("_g8"))
+            return "#fbbf24";
+        // Other PvP (alpha PVP zones, arenas, strongholds): yellow
+        return "#fbbf24";
     }
 
     private static string TypeLabel(int t) => t switch
