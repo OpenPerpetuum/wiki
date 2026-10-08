@@ -940,6 +940,7 @@ description: "Every zone drawn with its real terrain at its grid position, outli
   <line x1="553.1" y1="994" x2="590.2" y2="760.5" class="zonemap-tp" stroke="url(#tpg169)" data-tps="zone_TM_pvp" data-tpd="zone_tm_g_3"><title>zone_TM_pvp — zone_tm_g_3 (2 TP points)</title></line>
   <line x1="630" y1="1130" x2="498.5" y2="961" class="zonemap-tp" stroke="url(#tpg170)" data-tps="zone_training" data-tpd="zone_TM"><title>zone_training — zone_TM (6 TP points)</title></line>
 </svg>
+<button type="button" class="map-legend-toggle" id="map-legend-toggle" aria-expanded="true">Legend</button>
 <div class="map-legend" id="map-legend">
   <div class="map-legend-group">
     <button type="button" class="map-legend-head" aria-expanded="true">Protection</button>
@@ -969,7 +970,7 @@ description: "Every zone drawn with its real terrain at its grid position, outli
     </ul>
   </div>
 </div>
-<script>document.querySelectorAll('.map-legend-head').forEach(function(b){b.addEventListener('click',function(){var g=b.parentElement;var items=g.querySelector('.map-legend-items');var open=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!open));items.classList.toggle('collapsed',open);});});</script>
+<script>document.querySelectorAll('.map-legend-head').forEach(function(b){b.addEventListener('click',function(){var g=b.parentElement;var items=g.querySelector('.map-legend-items');var open=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!open));items.classList.toggle('collapsed',open);});});var lt=document.getElementById('map-legend-toggle');if(lt){lt.addEventListener('click',function(){var lg=document.getElementById('map-legend');var hidden=lg.classList.toggle('legend-hidden');lt.setAttribute('aria-expanded',String(!hidden));});}</script>
 </div>
 
 <div class="zonemap-legend">Island sizes (tiles): <span class="legend-isle" style="width:19px;min-width:6px"></span> 2048 (main islands);&ensp; <span class="legend-isle" style="width:12px;min-width:6px"></span> 1024 (training);&ensp; <span class="legend-isle" style="width:7.5px;min-width:6px"></span> 512 (stronghold);&ensp; <span class="legend-isle" style="width:5px;min-width:6px"></span> 256 (tc zones);&ensp; </div>

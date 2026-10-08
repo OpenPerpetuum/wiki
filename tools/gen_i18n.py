@@ -101,8 +101,25 @@ def main():
 
     # Runtime logic (same as before, but reads from the generated data)
     lines.append("""
+    function getLangFromUrl() {
+        var m = /^\/([a-z]{2,3}(?:-[A-Z]{2})?)\//.exec(window.location.pathname);
+        if (m) {
+            var code = m[1];
+            for (var i = 0; i < LANGS.length; i++) {
+                if (LANGS[i].code === code) return code;
+            }
+        }
+        return null;
+    }
+
     function getLang() {
+        var url = getLangFromUrl();
+        if (url) return url;
         try { return localStorage.getItem('wiki-lang') || 'en'; } catch (e) { return 'en'; }
+    }
+
+    function i18nReady() {
+        document.documentElement.removeAttribute('data-i18n-pending');
     }
 
     // Language pages manifest: {"fr": ["/fr/", "/fr/features/faq"], ...}
@@ -176,25 +193,25 @@ def main():
         var els = document.querySelectorAll('[data-i18n]');
         for (var i = 0; i < els.length; i++) {
             var key = els[i].getAttribute('data-i18n');
-            if (s[key] != null) els[i].textContent = s[key];
+            if (s[key]) els[i].textContent = s[key];
         }
         // UI chrome: innerHTML (strings with markup)
         var htmls = document.querySelectorAll('[data-i18n-html]');
         for (var h = 0; h < htmls.length; h++) {
             var hk = htmls[h].getAttribute('data-i18n-html');
-            if (s[hk] != null) htmls[h].innerHTML = s[hk];
+            if (s[hk]) htmls[h].innerHTML = s[hk];
         }
         // UI chrome: placeholder
         var phs = document.querySelectorAll('[data-i18n-ph]');
         for (var j = 0; j < phs.length; j++) {
             var pk = phs[j].getAttribute('data-i18n-ph');
-            if (s[pk] != null) phs[j].placeholder = s[pk];
+            if (s[pk]) phs[j].placeholder = s[pk];
         }
         // UI chrome: aria-label + title
         var arias = document.querySelectorAll('[data-i18n-aria]');
         for (var k = 0; k < arias.length; k++) {
             var ak = arias[k].getAttribute('data-i18n-aria');
-            if (s[ak] != null) {
+            if (s[ak]) {
                 arias[k].setAttribute('aria-label', s[ak]);
                 arias[k].setAttribute('title', s[ak]);
             }
@@ -266,12 +283,17 @@ def main():
     window.WIKI_setLang = setLang;
     window.WIKI_applyLang = applyLang;
 
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', function () { loadLangPages(); buildLangMenu(); applyLang(getLang()); });
-    } else {
+    function init() {
         loadLangPages();
         buildLangMenu();
         applyLang(getLang());
+        i18nReady();
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
     }
 """)
     lines.append("})();")

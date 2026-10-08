@@ -14,7 +14,7 @@
     // (INITIAL_MAX): at s = 1 its islands — a dense cluster at one end of a
     // tall canvas — are a handful of pixels lost in empty space, so it
     // opens pre-zoomed onto the cluster (initContentZoom, below).
-    var MIN = 1, MAX = 24, INITIAL_MAX = 3, MIN_VISIBLE = 0.25;
+    var MIN = 1, MAX = 48, INITIAL_MAX = 3, MIN_VISIBLE = 0.25;
 
     // Deploy base (body[data-root] = config.base_url): "/" locally, the full
     // GitHub Pages URL on the project site (subpath /Wiki/). The static

@@ -243,6 +243,7 @@ public static class ZonesMapPage
     private static string LegendHtml()
     {
         var sb = new StringBuilder();
+        sb.Append("<button type=\"button\" class=\"map-legend-toggle\" id=\"map-legend-toggle\" aria-expanded=\"true\">Legend</button>\n");
         sb.Append("<div class=\"map-legend\" id=\"map-legend\">\n");
         // Protection level section (top)
         sb.Append("  <div class=\"map-legend-group\">\n");
@@ -275,7 +276,11 @@ public static class ZonesMapPage
         sb.Append("    </ul>\n");
         sb.Append("  </div>\n");
         sb.Append("</div>\n");
-        sb.Append("<script>document.querySelectorAll('.map-legend-head').forEach(function(b){b.addEventListener('click',function(){var g=b.parentElement;var items=g.querySelector('.map-legend-items');var open=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!open));items.classList.toggle('collapsed',open);});});</script>\n");
+        sb.Append("<script>" +
+            "document.querySelectorAll('.map-legend-head').forEach(function(b){b.addEventListener('click',function(){var g=b.parentElement;var items=g.querySelector('.map-legend-items');var open=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!open));items.classList.toggle('collapsed',open);});});" +
+            "var lt=document.getElementById('map-legend-toggle');" +
+            "if(lt){lt.addEventListener('click',function(){var lg=document.getElementById('map-legend');var hidden=lg.classList.toggle('legend-hidden');lt.setAttribute('aria-expanded',String(!hidden));});}" +
+            "</script>\n");
         return sb.ToString();
     }
 

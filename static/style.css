@@ -747,12 +747,11 @@ html[data-theme="light"][data-cb="achro"] {
     border-radius: 10px;
 }
 .zonemap-wrap .zonemap-reset { display: none; }
-/* Vertical zoom slider (world map only) */
+/* Vertical zoom slider (world map only) — bottom left */
 .zm-zoom-slider {
     position: absolute;
-    right: 8px;
-    top: 50%;
-    transform: translateY(-50%);
+    left: 8px;
+    bottom: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1589,6 +1588,7 @@ html[data-mode="dev"] h1 { color: #b4ffc9; text-shadow: 0 0 12px rgba(0, 255, 65
     min-width: 160px;
     max-width: 220px;
 }
+.map-legend.legend-hidden { display: none; }
 .map-legend-group { margin-bottom: 0.4rem; }
 .map-legend-group:last-child { margin-bottom: 0; }
 .map-legend-head {

@@ -389,31 +389,31 @@
             foot_formats: "Formats (dev)",
             foot_home: "Accueil",
             foot_zones: "Zones",
-            home_combat: "",
-            home_combat_desc: "",
-            home_fitting: "",
-            home_fitting_sub: "",
-            home_gathering: "",
-            home_gathering_desc: "",
-            home_intrusion: "",
-            home_intrusion_desc: "",
-            home_map: "",
-            home_market: "",
-            home_market_desc: "",
-            home_missions: "",
-            home_missions_desc: "",
-            home_movement: "",
-            home_movement_desc: "",
-            home_pbs: "",
-            home_pbs_desc: "",
-            home_production: "",
-            home_production_desc: "",
-            home_research: "",
-            home_research_desc: "",
-            home_robots: "",
-            home_robots_sub: "",
-            home_sparks: "",
-            home_sparks_desc: "",
+            home_combat: "Combat",
+            home_combat_desc: "PvP et PvE, types de dégâts, butin, assurance",
+            home_fitting: "Équipement",
+            home_fitting_sub: "Modules, munitions et presets",
+            home_gathering: "Collecte",
+            home_gathering_desc: "Minerais, plantes, nœuds — la base de l'économie",
+            home_intrusion: "Intrusion",
+            home_intrusion_desc: "Contester des sites avec des SAP, stabilité, installations",
+            home_map: "Carte du monde",
+            home_market: "Marché",
+            home_market_desc: "Acheter, vendre et échanger avec d'autres joueurs",
+            home_missions: "Missions",
+            home_missions_desc: "Jobs répétables pour crédits, objets et EP",
+            home_movement: "Déplacement & zones",
+            home_movement_desc: "Téléports, interzones, amarrage, types de zones",
+            home_pbs: "Stations de base",
+            home_pbs_desc: "Réacteurs, production, défense, amarrage",
+            home_production: "Production",
+            home_production_desc: "Rétro-ingénierie, mill, prototypes, objets",
+            home_research: "Recherche",
+            home_research_desc: "Extensions et arbre de recherche",
+            home_robots: "Robots",
+            home_robots_sub: "Parcourir toutes les classes de robots",
+            home_sparks: "Étincelles",
+            home_sparks_desc: "Le nanobot de votre agent et ses bonus",
             menu_cb_group: "Daltonisme",
             menu_palette_group: "Accent",
             nav_all_zones: "Toutes les zones",
@@ -1295,10 +1295,13 @@
     }
 
     function getLang() {
-        // URL takes priority (e.g. /fr/ → 'fr')
         var url = getLangFromUrl();
         if (url) return url;
         try { return localStorage.getItem('wiki-lang') || 'en'; } catch (e) { return 'en'; }
+    }
+
+    function i18nReady() {
+        document.documentElement.removeAttribute('data-i18n-pending');
     }
 
     // Language pages manifest: {"fr": ["/fr/", "/fr/features/faq"], ...}
@@ -1462,22 +1465,17 @@
     window.WIKI_setLang = setLang;
     window.WIKI_applyLang = applyLang;
 
-    function i18nReady() {
-        document.documentElement.removeAttribute('data-i18n-pending');
-    }
-
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', function () {
-            loadLangPages();
-            buildLangMenu();
-            applyLang(getLang());
-            i18nReady();
-        });
-    } else {
+    function init() {
         loadLangPages();
         buildLangMenu();
         applyLang(getLang());
         i18nReady();
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
     }
 
 })();
