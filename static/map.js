@@ -493,22 +493,48 @@
             var anchors = [];
             for (var j = 0; j < circles.length; j++) {
                 var toks = (circles[j].getAttribute('data-ltp') || '').split(/\s+/);
-                if (toks.indexOf(id) >= 0) anchors.push(circles[j]);
+                if (toks.indexOf(id) >= 0) {
+                    anchors.push({
+                        x: parseFloat(circles[j].getAttribute('cx')),
+                        y: parseFloat(circles[j].getAttribute('cy'))
+                    });
+                }
             }
             if (anchors.length) pairs.push({ line: lines[i], anchors: anchors, on: false });
         }
         if (!pairs.length) return;
         var SHOW = 26, KEEP = 44; // screen px (show / keep-lit radius)
         var raf = 0, cx = 0, cy = 0;
+        
+        var cachedM = null, c_tx = null, c_ty = null, c_s = null, c_l = null, c_t = null;
+        var pt = null;
+        try { pt = document.createElementNS('http://www.w3.org/2000/svg', 'svg').createSVGPoint(); } catch (e) {}
+        if (!pt) return;
+        var svg = wrap.querySelector('svg');
+        function getM() {
+            var st = stateOf(wrap);
+            var rect = wrap.getBoundingClientRect();
+            if (cachedM && c_tx === st.tx && c_ty === st.ty && c_s === st.s && c_l === rect.left && c_t === rect.top) {
+                return cachedM;
+            }
+            cachedM = svg.getScreenCTM();
+            c_tx = st.tx; c_ty = st.ty; c_s = st.s; c_l = rect.left; c_t = rect.top;
+            return cachedM;
+        }
+
         function update() {
             raf = 0;
+            var m = getM();
+            if (!m) return;
             for (var i = 0; i < pairs.length; i++) {
                 var p = pairs[i];
                 var best = Infinity;
                 for (var j = 0; j < p.anchors.length; j++) {
-                    var r = p.anchors[j].getBoundingClientRect();
-                    var dx = cx - (r.left + r.width / 2);
-                    var dy = cy - (r.top + r.height / 2);
+                    var a = p.anchors[j];
+                    pt.x = a.x; pt.y = a.y;
+                    var sp = pt.matrixTransform(m);
+                    var dx = cx - sp.x;
+                    var dy = cy - sp.y;
                     var d = Math.sqrt(dx * dx + dy * dy);
                     if (d < best) best = d;
                 }
@@ -547,8 +573,28 @@
         var svg = wrap.querySelector('svg.zonemap');
         var lines = svg ? svg.querySelectorAll('line.zonemap-tp') : [];
         if (!lines.length) return;
+        
         // Zone nodes: each <a> has a center position (from its child shape)
         var links = svg.querySelectorAll('a[href]');
+        
+        // Isolate nodes and lines into their own hardware layers to prevent 
+        // the heavy island textures from re-rasterizing when line styles change.
+        if (links.length && !links[0].parentNode.classList.contains('zm-nodes-layer')) {
+            var nodesGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            nodesGroup.setAttribute('class', 'zm-nodes-layer');
+            nodesGroup.style.willChange = 'transform';
+            links[0].parentNode.insertBefore(nodesGroup, links[0]);
+            for (var i = 0; i < links.length; i++) nodesGroup.appendChild(links[i]);
+            
+            var linesGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            linesGroup.setAttribute('class', 'zm-lines-layer');
+            linesGroup.style.willChange = 'transform';
+            if (lines.length) {
+                nodesGroup.parentNode.insertBefore(linesGroup, nodesGroup.nextSibling);
+                for (var i = 0; i < lines.length; i++) linesGroup.appendChild(lines[i]);
+            }
+        }
+        
         var zones = [];
         for (var i = 0; i < links.length; i++) {
             var a = links[i];
@@ -585,10 +631,21 @@
         function slugFromZoneName(name) {
             return name.toLowerCase().replace(/_/g, '-');
         }
+        var cachedM = null, c_tx = null, c_ty = null, c_s = null, c_l = null, c_t = null;
+        function getM() {
+            var st = stateOf(wrap);
+            var rect = wrap.getBoundingClientRect();
+            if (cachedM && c_tx === st.tx && c_ty === st.ty && c_s === st.s && c_l === rect.left && c_t === rect.top) {
+                return cachedM;
+            }
+            cachedM = svg.getScreenCTM();
+            c_tx = st.tx; c_ty = st.ty; c_s = st.s; c_l = rect.left; c_t = rect.top;
+            return cachedM;
+        }
         function update() {
             raf = 0;
             if (!(tpFine && tpFine.matches)) return;
-            var m = svg.getScreenCTM();
+            var m = getM();
             if (!m) return;
             pt.x = mx; pt.y = my;
             var p = pt.matrixTransform(m.inverse());
