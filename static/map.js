@@ -47,7 +47,7 @@
 
     function applyWrap(wrap) {
         var svg = wrap._zoomSvg, st = stateOf(wrap);
-        if (svg) svg.style.transform = 'translate(' + st.tx + 'px,' + st.ty + 'px) scale(' + st.s + ')';
+        if (svg) svg.style.transform = 'translate3d(' + st.tx + 'px,' + st.ty + 'px,0) scale(' + st.s + ')';
     }
 
     // Rendered size of the content inside the svg element. The SVG is
@@ -56,9 +56,8 @@
     // the zoom scale, which clamp() needs to know as st.s, not bake in.
     function contentSize(wrap) {
         var svg = wrap._zoomSvg;
-        var st = window.getComputedStyle(svg);
-        var vw = svg.clientWidth - parseFloat(st.paddingLeft) - parseFloat(st.paddingRight);
-        var vh = svg.clientHeight - parseFloat(st.paddingTop) - parseFloat(st.paddingBottom);
+        var vw = svg.clientWidth;
+        var vh = svg.clientHeight;
         if (svg.viewBox && svg.viewBox.baseVal.width) {
             var vb = svg.viewBox.baseVal;
             var k = Math.min(vw / vb.width, vh / vb.height);
@@ -118,9 +117,9 @@
     // map center instead of following the cursor.)
     function zoomAt(wrap, clientX, clientY, factor) {
         var svg = wrap._zoomSvg, st = stateOf(wrap);
-        var rect = svg.getBoundingClientRect();
-        var c0x = rect.left + rect.width / 2 - st.tx;  // identity center
-        var c0y = rect.top + rect.height / 2 - st.ty;
+        var rect = wrap.getBoundingClientRect();
+        var c0x = rect.left + rect.width / 2;  // identity center
+        var c0y = rect.top + rect.height / 2;
         var isWorldMap = wrap._zoomSvg && wrap._zoomSvg.querySelector('.zonemap-tp');
         var cap = (wrap._zmPrezoomed || isWorldMap) ? MAX : Math.min(MAX, INITIAL_MAX);
         var ns = Math.min(cap, Math.max(MIN, st.s * factor));
@@ -464,7 +463,10 @@
             var st = stateOf(wrap);
             for (var i = 0; i < groups.length; i++) {
                 var min = parseFloat(groups[i].getAttribute('data-zoom-level'));
-                groups[i].style.display = st.s >= min ? '' : 'none';
+                var display = st.s >= min ? '' : 'none';
+                if (groups[i].style.display !== display) {
+                    groups[i].style.display = display;
+                }
             }
         }
         wrap.addEventListener('pointermove', function () { update(); });
