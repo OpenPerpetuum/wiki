@@ -22,15 +22,79 @@ public static class ZonesMapPage
 
     internal sealed record Group(string Id, string Label, string Blurb, List<Zone> Zones);
 
+    private static readonly Dictionary<string, (double X, double Y)> MapOverrides = new(StringComparer.OrdinalIgnoreCase)
+    {
+        { "zone_gamma_z124", (0, 10000) }, // Wolf Bay [T2]
+        { "zone_gamma_z125", (2000, 9000) }, // Burbach [T1]
+        { "zone_gamma_z126", (4000, 8500) }, // Jimmis [T2]
+        { "zone_gamma_z123", (-2000, 8500) }, // Krempen [T2]
+        { "zone_gamma_z122", (-3000, 9500) }, // Hazel Grove [T3]
+        { "zone_gamma_z121", (-4000, 8000) }, // Pennsfine [T2]
+        { "zone_gamma_z120", (-4000, 6000) }, // Tosham [T1]
+        { "zone_gamma_z127", (1500, 7000) }, // Oderneisse [T2]
+        { "zone_gamma_z128", (3500, 6500) }, // New Ladoga [T3]
+        { "zone_gamma_z129", (5000, 7000) }, // Dijon-5 [T2]
+        { "zone_gamma_z130", (5000, 5500) }, // Chalydor [T1]
+        { "zone_gamma_tc_z101", (0, 6000) }, // Theatis
+        { "zone_gamma_z115", (-2000, 6500) }, // Myre Barrier [T1]
+        { "zone_gamma_z114", (-1000, 5000) }, // Djodi [T0]
+        { "zone_gamma_z113", (1000, 5000) }, // Boreon [T1]
+        { "zone_gamma_tc_z100", (3000, 4500) }, // Heno Landing
+        { "zone_gamma_tc_z102", (-3000, 4500) }, // Jaego
+        { "zone_gamma_z119", (-5000, 4500) }, // Bachdang [T0]
+        { "zone_gamma_z131", (6000, 4000) }, // Sudraba [T0]
+        { "zone_gamma_z116", (-4000, 3000) }, // Xiantor [T1]
+        { "zone_gamma_z108", (-2000, 3000) }, // Yurain Ro [T2]
+        { "zone_gamma_z107", (0, 2500) }, // Daichi Tengri [T3]
+        { "zone_gamma_z106", (2000, 3000) }, // Beloslovsk [T2]
+        { "zone_gamma_z112", (4000, 3000) }, // Saraille [T1]
+        { "zone_gamma_z117", (-5000, 1500) }, // Senggeh [T1]
+        { "zone_gamma_tc_z103", (-3000, 1000) }, // Mhenosha
+        { "zone_gamma_z109", (-1000, 1000) }, // Joysagar [T1]
+        { "zone_gamma_z110", (1000, 500) }, // Langh [T0]
+        { "zone_gamma_z111", (3000, 1500) }, // Bleumon [T1]
+        { "zone_gamma_tc_z105", (4000, 500) }, // Rasputie
+        { "zone_gamma_z132", (6000, 1500) }, // Vistulato [T1]
+        { "zone_gamma_z133", (6000, 0) }, // Krasnystaw [T2]
+        { "zone_gamma_z134", (5000, -1000) }, // Plodetz [T3]
+        { "zone_gamma_z135", (3000, -500) }, // Plukkis [T2]
+        { "zone_gamma_z136", (4000, -2000) }, // Belukha [T2]
+        { "zone_gamma_z118", (-5000, -500) }, // Shokaku [T2]
+        { "zone_gamma_z140", (-3000, -1000) }, // Mitaka [T3]
+        { "zone_gamma_z139", (-1000, -500) }, // Talayna [T2]
+        { "zone_gamma_z138", (-1000, -2000) }, // Repun [T2]
+        { "zone_gamma_tc_z104", (1000, -1500) }, // Autrim
+        { "zone_gamma_z137", (2000, -2500) }, // Imidero [T1]
+
+        { "zone_ICS_pve", (500, -4500) }, // Tellesis
+        { "zone_ICS_pvp", (0, -5000) }, // Novastrov
+        { "zone_ICS_A_real", (1000, -5500) }, // Domhalarn
+        { "zone_ASI_pve", (-1500, -5500) }, // Shinjalar
+        { "zone_TM_pve", (-500, -5500) }, // Hershfield
+        { "zone_TM", (0, -6000) }, // New Virginia
+        { "zone_ASI_pvp", (-2000, -6500) }, // Kentagura
+        { "zone_TM_A_real", (-500, -7000) }, // Norhoop
+        { "zone_TM_pvp", (500, -6500) }, // Alsbale
+        { "zone_ICS", (1000, -7000) }, // Attalica
+        { "zone_ASI", (-8000, -6000) }, // Daoden
+        { "zone_ASI_A_real", (-1500, -5000) }, // Hokkogaros
+    };
+
     public static string Build(Db db)
     {
         var zones = db.Query("""
             SELECT z.id, z.name, z.zonetype, z.x, z.y, z.width, z.height, z.protected, z.terraformable, z.enabled,
                    (SELECT COUNT(*) FROM zoneentities ze WHERE ze.zoneid = z.id AND LOWER(ze.ename) LIKE 'teleport_column%') AS tpcount
-            FROM zones z ORDER BY z.id
+            FROM zones z WHERE z.enabled = 1 AND z.active = 1 ORDER BY z.id
             """)
-            .Select(r => new Zone(r.Str("name"), r.Int("zonetype"), r.Dbl("x"), r.Dbl("y"),
-                r.Int("width"), r.Int("height"), r.Bit("protected"), r.Bit("terraformable"), r.Int("tpcount")))
+.Select(r => {
+                var name = r.Str("name");
+                var x = r.Dbl("x");
+                var y = r.Dbl("y");
+                if (MapOverrides.TryGetValue(name, out var ov)) { x = ov.X; y = -ov.Y; }
+                return new Zone(name, r.Int("zonetype"), x, y,
+                    r.Int("width"), r.Int("height"), r.Bit("protected"), r.Bit("terraformable"), r.Int("tpcount"));
+            })
             .ToList();
 
         // Teleport column positions per zone (tile coords within the zone grid).
@@ -149,10 +213,16 @@ public static class ZonesMapPage
         var zones = db.Query("""
             SELECT z.id, z.name, z.zonetype, z.x, z.y, z.width, z.height, z.protected, z.terraformable, z.enabled,
                    (SELECT COUNT(*) FROM zoneentities ze WHERE ze.zoneid = z.id AND LOWER(ze.ename) LIKE 'teleport_column%') AS tpcount
-            FROM zones z ORDER BY z.id
+            FROM zones z WHERE z.enabled = 1 AND z.active = 1 ORDER BY z.id
             """)
-            .Select(r => new Zone(r.Str("name"), r.Int("zonetype"), r.Dbl("x"), r.Dbl("y"),
-                r.Int("width"), r.Int("height"), r.Bit("protected"), r.Bit("terraformable"), r.Int("tpcount")))
+.Select(r => {
+                var name = r.Str("name");
+                var x = r.Dbl("x");
+                var y = r.Dbl("y");
+                if (MapOverrides.TryGetValue(name, out var ov)) { x = ov.X; y = -ov.Y; }
+                return new Zone(name, r.Int("zonetype"), x, y,
+                    r.Int("width"), r.Int("height"), r.Bit("protected"), r.Bit("terraformable"), r.Int("tpcount"));
+            })
             .ToList();
         var byName = zones.GroupBy(z => z.Name).ToDictionary(g => g.Key, g => g.First());
         var all = byName.Values.ToList();
