@@ -595,26 +595,6 @@
             }
         }
         
-        var zones = [];
-        for (var i = 0; i < links.length; i++) {
-            var a = links[i];
-            var shape = a.querySelector('circle, rect');
-            if (!shape) continue;
-            var cx, cy;
-            if (shape.tagName === 'circle') {
-                cx = parseFloat(shape.getAttribute('cx'));
-                cy = parseFloat(shape.getAttribute('cy'));
-            } else {
-                cx = parseFloat(shape.getAttribute('x')) + parseFloat(shape.getAttribute('width')) / 2;
-                cy = parseFloat(shape.getAttribute('y')) + parseFloat(shape.getAttribute('height')) / 2;
-            }
-            // Extract zone slug from href (/zones/zone-gamma-z106/)
-            var href = a.getAttribute('href') || '';
-            var slug = href.replace(/^.*\/zones\//, '').replace(/\/$/, '').replace(/^.*\//, '');
-            var r = shape.tagName === 'circle' ? parseFloat(shape.getAttribute('r')) : Math.max(parseFloat(shape.getAttribute('width')), parseFloat(shape.getAttribute('height'))) / 2;
-            zones.push({ cx: cx, cy: cy, slug: slug, r: r });
-        }
-        // Map each line to its source/dest zone slugs
         var segs = [];
         for (var i = 0; i < lines.length; i++) {
             var el = lines[i];
@@ -624,43 +604,13 @@
                 dst: el.getAttribute('data-tpd') || ''
             });
         }
-        var pt = null;
-        try { pt = document.createElementNS('http://www.w3.org/2000/svg', 'svg').createSVGPoint(); } catch (e) {}
-        if (!pt) return;
-        var raf = 0, mx = 0, my = 0, activeZone = null;
+        var activeZone = null;
         function slugFromZoneName(name) {
             return name.toLowerCase().replace(/_/g, '-');
         }
-        var cachedM = null, c_tx = null, c_ty = null, c_s = null, c_l = null, c_t = null;
-        function getM() {
-            var st = stateOf(wrap);
-            var rect = wrap.getBoundingClientRect();
-            if (cachedM && c_tx === st.tx && c_ty === st.ty && c_s === st.s && c_l === rect.left && c_t === rect.top) {
-                return cachedM;
-            }
-            cachedM = svg.getScreenCTM();
-            c_tx = st.tx; c_ty = st.ty; c_s = st.s; c_l = rect.left; c_t = rect.top;
-            return cachedM;
-        }
-        function update() {
-            raf = 0;
+        function setZoneActive(newZone) {
             if (!(tpFine && tpFine.matches)) return;
-            var m = getM();
-            if (!m) return;
-            pt.x = mx; pt.y = my;
-            var p = pt.matrixTransform(m.inverse());
-            // Find closest zone: use the zone's own radius as the hit threshold.
-            // For overlapping zones, the closest center wins (shortest distance).
-            var best = null, bestD = Infinity;
-            for (var i = 0; i < zones.length; i++) {
-                var dx = p.x - zones[i].cx, dy = p.y - zones[i].cy;
-                var d = dx * dx + dy * dy;
-                if (d < bestD) { bestD = d; best = zones[i]; }
-            }
-            // Threshold: within the zone's own radius (slightly padded)
-            var newZone = (best && bestD < best.r * best.r * 1.2) ? best.slug : null;
             if (newZone === activeZone) return;
-            // Turn off all, turn on matching
             activeZone = newZone;
             for (var i = 0; i < segs.length; i++) {
                 var s = segs[i];
@@ -672,16 +622,16 @@
                 }
             }
         }
-        wrap.addEventListener('pointermove', function (e) {
-            if (!(tpFine && tpFine.matches)) return;
-            mx = e.clientX; my = e.clientY;
-            if (!raf) raf = requestAnimationFrame(update);
-        });
-        wrap.addEventListener('pointerleave', function () {
-            activeZone = null;
-            for (var i = 0; i < segs.length; i++)
-                if (segs[i].on) { segs[i].on = false; segs[i].el.classList.remove('zm-tp-on'); }
-        });
+        
+        for (var i = 0; i < links.length; i++) {
+            var a = links[i];
+            var href = a.getAttribute('href') || '';
+            var slug = href.replace(/^.*\/zones\//, '').replace(/\/$/, '').replace(/^.*\//, '');
+            (function(s) {
+                a.addEventListener('pointerenter', function() { setZoneActive(s); });
+                a.addEventListener('pointerleave', function() { if (activeZone === s) setZoneActive(null); });
+            })(slug);
+        }
     }
 
     // Teleport destination selector. An item that can reach MORE THAN ONE
