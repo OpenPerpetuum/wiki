@@ -326,16 +326,38 @@ def color_png(alt, coast, roads, _isl):
 
 # ------------------------------------------- world map + index-card assets
 
-FAM_PARTS = [("gamma", "#a78bfa"), ("tm", "#41d3ff"), ("ics", "#6ee7a0"), ("asi", "#f5a05a")]
+
+FAM_PARTS = [("tm", "#41d3ff"), ("ics", "#6ee7a0"), ("asi", "#f5a05a")]
+
+
+GAMMA_FAM = {
+    "zone_gamma_tc_z100": "tm", "zone_gamma_tc_z101": "tm", "zone_gamma_tc_z102": "asi",
+    "zone_gamma_tc_z103": "asi", "zone_gamma_tc_z104": "ics", "zone_gamma_tc_z105": "ics",
+    "zone_gamma_z106": "tm", "zone_gamma_z107": "asi", "zone_gamma_z108": "asi",
+    "zone_gamma_z109": "asi", "zone_gamma_z110": "asi", "zone_gamma_z111": "ics",
+    "zone_gamma_z112": "tm", "zone_gamma_z113": "tm", "zone_gamma_z114": "asi",
+    "zone_gamma_z115": "asi", "zone_gamma_z116": "asi", "zone_gamma_z117": "asi",
+    "zone_gamma_z118": "asi", "zone_gamma_z119": "asi", "zone_gamma_z120": "asi",
+    "zone_gamma_z121": "asi", "zone_gamma_z122": "asi", "zone_gamma_z123": "asi",
+    "zone_gamma_z124": "tm", "zone_gamma_z125": "tm", "zone_gamma_z126": "tm",
+    "zone_gamma_z127": "tm", "zone_gamma_z128": "tm", "zone_gamma_z129": "tm",
+    "zone_gamma_z130": "tm", "zone_gamma_z131": "tm", "zone_gamma_z132": "ics",
+    "zone_gamma_z133": "ics", "zone_gamma_z134": "ics", "zone_gamma_z135": "ics",
+    "zone_gamma_z136": "ics", "zone_gamma_z137": "ics", "zone_gamma_z138": "ics",
+    "zone_gamma_z139": "asi", "zone_gamma_z140": "asi"
+}
 
 
 def fam_color(zone_name):
     """Galaxy family color, same scheme as the C# generators."""
     n = zone_name.lower()
+    if n in GAMMA_FAM:
+        n = GAMMA_FAM[n]
     for part, c in FAM_PARTS:
         if part in n:
             return c
     return "#c8d2e0"
+
 
 
 def downsample(grid, factor):
@@ -394,7 +416,7 @@ def prot_color(zone):
     if '_pve' in n or 'training' in n:
         return None
     if 'gamma_tc' in n:
-        return '#fbbf24'  # yellow (PvP Beta)
+        return '#a78bfa'  # gamma galaxy color
     if 'gamma_z' in n:
         return '#ef4444'  # red (PvP Gamma)
     # Beta zones (g_1 through g_8) and other PvP: yellow

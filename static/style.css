@@ -843,7 +843,7 @@ html[data-theme="light"][data-cb="achro"] {
 .zonemap a { cursor: pointer; }
 .zonemap a:hover > circle, .zonemap a:hover > path {
     stroke: #ffffff;
-    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.55));
+    stroke-width: 2px;
 }
 .zonemap text { user-select: none; }
 
@@ -866,11 +866,9 @@ html[data-theme="light"][data-cb="achro"] {
    while the cursor is near it (.zm-tp-on); touch layouts keep them plainly
    visible (no mouse to "approach" with). */
 .zonemap-tp { stroke-width: 1.1; stroke-opacity: 0.65; stroke-dasharray: 5 4; }
-.zonemap-tp:hover { stroke-opacity: 1; stroke-width: 2; }
 @media (hover: hover) and (pointer: fine) {
-  .zonemap-tp { stroke-opacity: 0.25; transition: stroke-opacity 0.15s; }
-  .zonemap-tp.zm-tp-on { stroke-opacity: 0.9; stroke-width: 1.6; }
-  .zonemap-tp:hover { stroke-opacity: 1; stroke-width: 2; }
+  .zonemap-tp { stroke-opacity: 0.25; transition: stroke-opacity 0.2s; }
+  .zonemap-tp.zm-tp-on { stroke-opacity: 1.0; stroke-width: 1.8; }
 }
 .zonemap-link { stroke: var(--accent); stroke-width: 1.6; stroke-opacity: 0.85; stroke-dasharray: 5 3; }
 .zonemap-link:hover { stroke: var(--neon); stroke-width: 2.2; }
@@ -972,7 +970,7 @@ main [id] { scroll-margin-top: 4.2rem; }
 .zonemap-label { fill: var(--fg); opacity: 0.85; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 .zonemap circle:not(.zonemap-node-tm):not(.zonemap-node-ics):not(.zonemap-node-asi):not(.zonemap-node-gamma):not(.zonemap-node-special),
 .zonemap rect:not(.zonemap-node-tm):not(.zonemap-node-ics):not(.zonemap-node-asi):not(.zonemap-node-gamma):not(.zonemap-node-special) { stroke: rgba(0, 0, 0, 0.35); stroke-width: 1; }
-.zonemap a:hover .zonemap-node-tm, .zonemap a:hover .zonemap-node-ics, .zonemap a:hover .zonemap-node-asi, .zonemap a:hover .zonemap-node-gamma, .zonemap a:hover .zonemap-node-special { filter: drop-shadow(0 0 4px #22c55e) drop-shadow(0 0 8px #22c55e); }
+.zonemap a:hover .zonemap-node-tm, .zonemap a:hover .zonemap-node-ics, .zonemap a:hover .zonemap-node-asi, .zonemap a:hover .zonemap-node-gamma, .zonemap a:hover .zonemap-node-special { stroke: #22c55e; stroke-width: 2px; }
 .zonemap a { cursor: pointer; }
 .mapdot { display: inline-block; width: 0.7em; height: 0.7em; border-radius: 50%; margin-right: 0.35em; vertical-align: baseline; }
 
@@ -1802,3 +1800,5 @@ html[data-i18n-pending] [data-i18n-ph] {
     opacity: 0;
     transition: opacity 0.15s ease;
 }
+
+.map-legend-items li { cursor: pointer; }

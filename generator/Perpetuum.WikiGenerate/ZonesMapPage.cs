@@ -261,7 +261,6 @@ public static class ZonesMapPage
         sb.Append("      <li><span class=\"legend-swatch\" style=\"background:#41d3ff\"></span>TM (The Matriarkh)</li>\n");
         sb.Append("      <li><span class=\"legend-swatch\" style=\"background:#6ee7a0\"></span>ICS (Interstellar Coalition)</li>\n");
         sb.Append("      <li><span class=\"legend-swatch\" style=\"background:#f5a05a\"></span>ASI (Ascension)</li>\n");
-        sb.Append("      <li><span class=\"legend-swatch\" style=\"background:#a78bfa\"></span>Gamma</li>\n");
         sb.Append("    </ul>\n");
         sb.Append("  </div>\n");
         // Landmarks section
@@ -273,6 +272,7 @@ public static class ZonesMapPage
         sb.Append("      <li><span class=\"legend-icon\">▽</span>Field terminal</li>\n");
         sb.Append("      <li><span class=\"legend-icon\">⬡</span>Teleport</li>\n");
         sb.Append("      <li><span class=\"legend-icon\">╌</span>Teleport path</li>\n");
+        sb.Append("      <li><span class=\"legend-icon\" style=\"color:#a78bfa\">◉</span>Gamma gateway teleport</li>\n");
         sb.Append("    </ul>\n");
         sb.Append("  </div>\n");
         sb.Append("</div>\n");
@@ -280,7 +280,8 @@ public static class ZonesMapPage
             "document.querySelectorAll('.map-legend-head').forEach(function(b){b.addEventListener('click',function(){var g=b.parentElement;var items=g.querySelector('.map-legend-items');var open=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!open));items.classList.toggle('collapsed',open);});});" +
             "var lt=document.getElementById('map-legend-toggle');" +
             "if(lt){lt.addEventListener('click',function(){var lg=document.getElementById('map-legend');var hidden=lg.classList.toggle('legend-hidden');lt.setAttribute('aria-expanded',String(!hidden));});}" +
-            "</script>\n");
+            "document.querySelectorAll('.map-legend-items li').forEach(function(li) { li.addEventListener('click', function() { var group = li.closest('.map-legend-group').querySelector('.map-legend-head').textContent.trim(); if (group === 'Landmarks') return; var text = li.textContent.trim(); var titleIncludes = ''; var selector = ''; if (text.includes('Alpha')) titleIncludes = 'protected (alpha)'; else if (text.includes('Beta')) titleIncludes = 'open (beta)'; else if (text.includes('Gamma (PvP')) titleIncludes = 'open (gamma)'; else if (text.includes('TM (The')) selector = '.zonemap-node-tm'; else if (text.includes('ICS (Inter')) selector = '.zonemap-node-ics'; else if (text.includes('ASI (Asce')) selector = '.zonemap-node-asi'; else if (text.includes('Gamma') && !text.includes('gateway')) selector = '.zonemap-node-gamma'; else return; var nodes = []; if (selector) { document.querySelectorAll(selector).forEach(function(n) { nodes.push(n.closest('a') || n); }); } else if (titleIncludes) { document.querySelectorAll('.zonemap a title').forEach(function(t) { if (t.textContent.includes(titleIncludes)) nodes.push(t.closest('a')); }); } if (!nodes.length) return; var svg = document.querySelector('svg.zonemap'); var wrap = svg.closest('.zonemap-wrap'); var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity; nodes.forEach(function(n) { var shape = n.tagName === 'a' ? n.querySelector('circle,rect') : n; if (!shape) return; var cx = parseFloat(shape.getAttribute('cx') || shape.getAttribute('x')); var cy = parseFloat(shape.getAttribute('cy') || shape.getAttribute('y')); var r = parseFloat(shape.getAttribute('r') || shape.getAttribute('width')) || 0; if (!isNaN(cx) && !isNaN(cy)) { minX = Math.min(minX, cx - r); minY = Math.min(minY, cy - r); maxX = Math.max(maxX, cx + r); maxY = Math.max(maxY, cy + r); } }); if (minX === Infinity) return; var pad = 40; minX -= pad; minY -= pad; maxX += pad; maxY += pad; var bw = maxX - minX; var bh = maxY - minY; var rect = wrap.getBoundingClientRect(); var vb = svg.getAttribute('viewBox').split(' '); var vw = parseFloat(vb[2]), vh = parseFloat(vb[3]); var base_s = Math.min(rect.width / vw, rect.height / vh); var cx = minX + bw / 2; var cy = minY + bh / 2; var ox = (rect.width - vw * base_s) / 2; var oy = (rect.height - vh * base_s) / 2; var px = ox + cx * base_s; var py = oy + cy * base_s; var s = Math.min(rect.width / (bw * base_s), rect.height / (bh * base_s)); if (s > 4) s = 4; var tx = (rect.width / 2 - px) * s; var ty = (rect.height / 2 - py) * s; if (!wrap._zoomState) wrap._zoomState = { s: 1, tx: 0, ty: 0 }; wrap._zoomState.s = s; wrap._zoomState.tx = tx; wrap._zoomState.ty = ty; svg.style.transition = 'transform 0.5s ease'; svg.style.transform = 'translate3d(' + tx + 'px,' + ty + 'px,0) scale(' + s + ')'; setTimeout(function() { svg.style.transition = ''; }, 500); nodes.forEach(function(n) { var shape = n.tagName === 'a' ? n.querySelector('circle,rect') : n; if (!shape) return; var oldStroke = shape.style.stroke || ''; var oldWidth = shape.style.strokeWidth || ''; shape.style.transition = 'stroke 0.2s, stroke-width 0.2s'; shape.style.stroke = '#fff'; shape.style.strokeWidth = '4px'; setTimeout(function() { shape.style.stroke = oldStroke; shape.style.strokeWidth = oldWidth; setTimeout(function() { shape.style.transition = ''; }, 200); }, 1000); }); }); });</script>
+");
         return sb.ToString();
     }
 
@@ -453,13 +454,33 @@ public static class ZonesMapPage
     }
 
     /// <summary>Case-insensitive: the main zones are uppercase (zone_TM) while the gate
-    /// zones are lowercase (zone_tm_g_1).</summary>
-    private static string Family(string name) =>
-        name.Contains("gamma", System.StringComparison.OrdinalIgnoreCase) ? "gamma"
-        : name.Contains("tm", System.StringComparison.OrdinalIgnoreCase) ? "tm"
-        : name.Contains("ics", System.StringComparison.OrdinalIgnoreCase) ? "ics"
-        : name.Contains("asi", System.StringComparison.OrdinalIgnoreCase) ? "asi"
-        : "special";
+    private static readonly System.Collections.Generic.Dictionary<string, string> GammaFam = new()
+    {
+        {"zone_gamma_tc_z100", "tm"}, {"zone_gamma_tc_z101", "tm"}, {"zone_gamma_tc_z102", "asi"},
+        {"zone_gamma_tc_z103", "asi"}, {"zone_gamma_tc_z104", "ics"}, {"zone_gamma_tc_z105", "ics"},
+        {"zone_gamma_z106", "tm"}, {"zone_gamma_z107", "asi"}, {"zone_gamma_z108", "asi"},
+        {"zone_gamma_z109", "asi"}, {"zone_gamma_z110", "asi"}, {"zone_gamma_z111", "ics"},
+        {"zone_gamma_z112", "tm"}, {"zone_gamma_z113", "tm"}, {"zone_gamma_z114", "asi"},
+        {"zone_gamma_z115", "asi"}, {"zone_gamma_z116", "asi"}, {"zone_gamma_z117", "asi"},
+        {"zone_gamma_z118", "asi"}, {"zone_gamma_z119", "asi"}, {"zone_gamma_z120", "asi"},
+        {"zone_gamma_z121", "asi"}, {"zone_gamma_z122", "asi"}, {"zone_gamma_z123", "asi"},
+        {"zone_gamma_z124", "tm"}, {"zone_gamma_z125", "tm"}, {"zone_gamma_z126", "tm"},
+        {"zone_gamma_z127", "tm"}, {"zone_gamma_z128", "tm"}, {"zone_gamma_z129", "tm"},
+        {"zone_gamma_z130", "tm"}, {"zone_gamma_z131", "tm"}, {"zone_gamma_z132", "ics"},
+        {"zone_gamma_z133", "ics"}, {"zone_gamma_z134", "ics"}, {"zone_gamma_z135", "ics"},
+        {"zone_gamma_z136", "ics"}, {"zone_gamma_z137", "ics"}, {"zone_gamma_z138", "ics"},
+        {"zone_gamma_z139", "asi"}, {"zone_gamma_z140", "asi"}
+    };
+
+    private static string Family(string name)
+    {
+        var n = name.ToLowerInvariant();
+        if (GammaFam.TryGetValue(n, out var f)) return f;
+        return n.Contains("tm") ? "tm"
+             : n.Contains("ics") ? "ics"
+             : n.Contains("asi") ? "asi"
+             : "special";
+    }
 
     /// <summary>Same family colors as the zone teleport maps (ZoneMapSvg).</summary>
     private static string FamilyColor(string name) =>
@@ -468,7 +489,6 @@ public static class ZonesMapPage
             "tm" => "#41d3ff",
             "ics" => "#6ee7a0",
             "asi" => "#f5a05a",
-            "gamma" => "#a78bfa",
             _ => "#c8d2e0",
         };
 
@@ -524,6 +544,10 @@ public static class ZonesMapPage
     private static string ProtectionLabel(Zone z)
     {
         if (z.Protected) return "protected (alpha)";
+        if (z.Name.EndsWith("_real", System.StringComparison.OrdinalIgnoreCase)) return "protected (alpha)";
+        if (z.Name.EndsWith("_pve", System.StringComparison.OrdinalIgnoreCase)) return "protected (alpha)";
+        if (z.Name.Contains("gamma", System.StringComparison.OrdinalIgnoreCase)) return "open (gamma)";
+        if (z.Name.EndsWith("_pvp", System.StringComparison.OrdinalIgnoreCase)) return "open (beta)";
         return z.Terraformable ? "open (gamma)" : "open (beta)";
     }
 
@@ -536,12 +560,11 @@ public static class ZonesMapPage
         if (z.Name.Contains("_pve")) return null;
         if (z.Name.Contains("training")) return null;
         if (z.Type == 1) return null; // PvE type
-        // Gamma TC zones: yellow (treated as PvP Beta)
-        if (z.Name.Contains("gamma_tc")) return "#fbbf24";
+        // Gamma TC zones: gamma color (treated as Gamma for color)
+        if (z.Name.Contains("gamma_tc")) return "#a78bfa";
         // Gamma zones: red
         if (z.Name.Contains("gamma_z")) return "#ef4444";
         // Beta zones (g_1 through g_8): yellow
-        if (z.Name.Contains("_g_") || z.Name.Contains("_g1") || z.Name.Contains("_g2") ||
             z.Name.Contains("_g3") || z.Name.Contains("_g4") || z.Name.Contains("_g5") ||
             z.Name.Contains("_g6") || z.Name.Contains("_g7") || z.Name.Contains("_g8"))
             return "#fbbf24";
