@@ -78,6 +78,12 @@ public static class ZonesMapPage
         { "zone_ICS", (1000, -7000) }, // Attalica
         { "zone_ASI", (-8000, -6000) }, // Daoden
         { "zone_ASI_A_real", (-1500, -5000) }, // Hokkogaros
+        
+        { "zone_strghld_70", (5000, -12000) }, // SH: The Sentinel
+        { "zone_strghld_71", (3000, -9000) }, // SH: Bonnie's Hideout
+        { "zone_strghld_72", (3000, -9500) }, // SH: RR Command Outpost
+        { "zone_pvp_arena", (2500, -9000) }, // Omega
+        { "zone_training", (0, -12000) } // Training
     };
 
     public static string Build(Db db)
