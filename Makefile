@@ -24,11 +24,11 @@ WIKI_PORT  ?= 8085
 #   WIKI_DB          SQL Server connection string (falls back to $PERPETUUM_CONNECTIONSTRING)
 #   WIKI_PLANTRULES  directory containing the plant rule files; defaults to the
 #                    server submodule (run `git submodule update --init server` first)
-WIKI_DB         ?= $(PERPETUUM_CONNECTIONSTRING)
+WIKI_DB         ?= Server=localhost,16998;Database=perpetuumsa;User Id=sa;Password=l3<Nv2-QIat4YK*ydt\#u-^+VAAVVdytL;TrustServerCertificate=True;
 # ?= would not override an empty WIKI_PLANTRULES from the environment, so use ifdef.
 ifdef WIKI_PLANTRULES
 else
-WIKI_PLANTRULES = $(abspath server/src/Perpetuum.ServerService2/data/plantrules)
+WIKI_PLANTRULES = ../PerpetuumServer2/src/Perpetuum.ServerService2/data/plantrules
 endif
 DOTNET          ?= $(shell command -v dotnet 2>/dev/null || echo $(HOME)/.dotnet/dotnet)
 TTY_FLAG        := $(shell [ -t 0 ] && echo -it || echo -i)
@@ -50,7 +50,7 @@ all: build
 # Pure standard-library Python — no database, no pip installs.
 ASSETS ?= $(patsubst %/custom-layers,%,$(firstword $(wildcard ../PerpetuumServer2/custom-layers ./server/custom-layers .assets/custom-layers)))
 zonemaps:
-	ASSETS="$(ASSETS)"; if [ -z "$$ASSETS" ]; then bash tools/fetch_zone_layers.sh .assets; ASSETS=$$(pwd)/.assets; fi; OP_ASSETS_DIR="$$ASSETS" python3 tools/gen_zone_teleport_maps.py
+	ASSETS="$(ASSETS)"; if [ -z "$$ASSETS" ]; then bash tools/fetch_zone_layers.sh .assets; ASSETS=$$(pwd)/.assets; fi; OP_ASSETS_DIR="$$ASSETS" uv run --with numpy --with matplotlib tools/gen_zone_teleport_maps.py
 
 # Browser tests (tests/): mermaid syntax of every diagram + sidenav behaviour,
 # run against the built site. One-time setup: npm install.
@@ -91,12 +91,19 @@ generate:
 	@test -n "$(WIKI_DB)" || { echo "error: set WIKI_DB (or PERPETUUM_CONNECTIONSTRING)"; exit 1; }
 	@test -d "$(WIKI_PLANTRULES)" || { echo "error: WIKI_PLANTRULES is not a directory: $(WIKI_PLANTRULES)"; \
 	  echo "hint: run 'git submodule update --init server' (or set WIKI_PLANTRULES to a GameRoot plantrules dir)"; exit 1; }
-	$(DOTNET) build -c Release generator/Perpetuum.WikiGenerate/Perpetuum.WikiGenerate.csproj
-	$(DOTNET) run -c Release --no-build --project generator/Perpetuum.WikiGenerate -- \
-		--connection "$(WIKI_DB)" \
-		--plantrules "$(WIKI_PLANTRULES)" \
-		--out content/content \
-		--zones-out content/zones
+	docker run --rm --network host \
+		-u "$$(id -u):$$(id -g)" \
+		-v "$$PWD:$$PWD" \
+		-v "$(abspath $(WIKI_PLANTRULES)):$(abspath $(WIKI_PLANTRULES))" \
+		-w "$$PWD" \
+		-e HOME=/tmp \
+		mcr.microsoft.com/dotnet/sdk:8.0 \
+		sh -c 'dotnet build -c Release generator/Perpetuum.WikiGenerate/Perpetuum.WikiGenerate.csproj && \
+		dotnet run -c Release --no-build --project generator/Perpetuum.WikiGenerate -- \
+			--connection "$(WIKI_DB)" \
+			--plantrules "$(abspath $(WIKI_PLANTRULES))" \
+			--out content/content \
+			--zones-out content/zones'
 
 clean:
 	rm -rf public 2>/dev/null || true

@@ -54,6 +54,20 @@ public static class ZoneMapSvg
             .ToList();
 
         // Active routes: source column -> destination zones, and landing spots.
+        var pois = db.Query("""
+            SELECT zn.name, e.ename, z.x, z.y
+            FROM zones zn
+            JOIN zoneentities z ON z.zoneid = zn.id
+            JOIN entities e ON e.eid = z.eid
+            WHERE (e.ename LIKE 'fieldTerminal_%' OR e.ename LIKE '%outpost%')
+              AND e.ename NOT LIKE '%_agent%' AND e.ename NOT LIKE '%storage%'
+            AND zn.id < 49000
+            """)
+            .Select(r => (Zone: r.Str("name"), Ename: r.Str("ename"), X: r.Dbl("x"), Y: r.Dbl("y")))
+            .ToList();
+        Console.WriteLine($"Found {pois.Count} POIs!");
+        var poiByZone = pois.GroupBy(p => p.Zone, StringComparer.OrdinalIgnoreCase).ToDictionary(g => g.Key, g => g.ToList(), StringComparer.OrdinalIgnoreCase);
+
         var routes = db.Query("""
             SELECT zs.name AS src, zd.name AS dst, td.sourcecolumn,
                    td.targetx, td.targety, td.active, td.listable
@@ -133,15 +147,16 @@ public static class ZoneMapSvg
             var gateList = gates.Where(g => g.Str("name") == name).Select(g => new Gate(g.Dbl("x"), g.Dbl("y"), g.Str("dst"))).ToList();
             if (colList.Count == 0 && spotList.Count == 0 && gateList.Count == 0) continue;
             var ltpList = localByZone.TryGetValue(name, out var l) ? l : new List<LocalTp>();
+            var zP = poiByZone.TryGetValue(name, out var zPois) ? zPois : new List<(string Zone, string Ename, double X, double Y)>();
             result[name] = Svg(name, sz.W, sz.H, colList, spotList, gateList, ltpList,
                 worldPos.TryGetValue(name, out var selfPos) ? selfPos : default,
-                worldPos);
+                worldPos, zP);
         }
         return result;
     }
 
     private static string Svg(string name, int w, int h, List<Col> cols, List<Spot> spots, List<Gate> gates, List<LocalTp> localTps,
-        (double X, double Y) selfPos, Dictionary<string, (double X, double Y)> worldPos)
+        (double X, double Y) selfPos, Dictionary<string, (double X, double Y)> worldPos, List<(string Zone, string Ename, double X, double Y)> zPois)
     {
         var f = (double)w / 2048.0; // scale font/radii with the zone size
         var r = 12 * f;
@@ -185,7 +200,7 @@ public static class ZoneMapSvg
                     // emphasises lines that START at the hovered column
                     // (two columns may share a destination)
                     sb.Append($"  <line class=\"exi-line\" data-tps=\"{c.Eid}\" data-tpd=\"{Escape(dest)}\" x1=\"{Fx(c.X)}\" y1=\"{Fx(c.Y)}\" x2=\"{Fx(c.X + dx * t)}\" y2=\"{Fx(c.Y + dy * t)}\" " +
-                              $"stroke=\"{FamilyColor(dest)}\" stroke-width=\"{3 * f}\" stroke-dasharray=\"{Fx(16 * f)} {Fx(12 * f)}\" opacity=\"0.6\"/>\n");
+                              $"stroke=\"{FamilyColor(dest)}\" stroke-width=\"{1.5 * f}\" stroke-dasharray=\"{Fx(6 * f)} {Fx(5 * f)}\" opacity=\"0.6\" vector-effect=\"non-scaling-stroke\"/>\n");
                 }
             }
         }
@@ -201,9 +216,9 @@ public static class ZoneMapSvg
             // passes self-closing <line> elements through, but a line with
             // children would fall through its item parser and be dropped
             sb.Append($"  <line class=\"ltp-line ltp-casing zm-casing\" x1=\"{Fx(l.Ax)}\" y1=\"{Fx(l.Ay)}\" x2=\"{Fx(l.Bx)}\" y2=\"{Fx(l.By)}\" " +
-                      $"stroke=\"#0a0f18\" stroke-width=\"{6 * f}\" stroke-dasharray=\"{Fx(12 * f)} {Fx(9 * f)}\" opacity=\"0.55\"/>\n");
+                      $"stroke=\"#0a0f18\" stroke-width=\"{4 * f}\" stroke-dasharray=\"{Fx(5 * f)} {Fx(4 * f)}\" opacity=\"0.55\" vector-effect=\"non-scaling-stroke\"/>\n");
             sb.Append($"  <line class=\"ltp-line\" data-ltp=\"{i}\" x1=\"{Fx(l.Ax)}\" y1=\"{Fx(l.Ay)}\" x2=\"{Fx(l.Bx)}\" y2=\"{Fx(l.By)}\" " +
-                      $"stroke=\"{FamilyColor(name)}\" stroke-width=\"{3 * f}\" stroke-dasharray=\"{Fx(12 * f)} {Fx(9 * f)}\"/>\n");
+                      $"stroke=\"{FamilyColor(name)}\" stroke-width=\"{1.5 * f}\" stroke-dasharray=\"{Fx(5 * f)} {Fx(4 * f)}\" vector-effect=\"non-scaling-stroke\"/>\n");
         }
         // landing spots first (under the columns); the label joins every
         // distinct origin sharing the same spot.
@@ -274,6 +289,14 @@ public static class ZoneMapSvg
             sb.Append($"  <circle cx=\"{Fx(c.X)}\" cy=\"{Fx(c.Y)}\" r=\"{Fx(r)}\" data-eid=\"{c.Eid}\"{ltpAttr}{destsAttr} fill=\"{color}\" stroke=\"#10151f\" stroke-width=\"{2 * f}\" opacity=\"{(c.Enabled ? 1 : 0.55)}\"/>\n");
             if (label.Length > 0)
                 sb.Append($"  <text x=\"{Fx(c.X)}\" y=\"{Fx(ty)}\" font-size=\"{Fx(fs)}\" fill=\"#d5dbe8\" text-anchor=\"middle\" font-family=\"sans-serif\" opacity=\"{(c.Enabled ? 1 : 0.55)}\">{Escape(label)}</text>\n");
+        }
+
+        foreach (var p in zPois)
+        {
+            var isOutpost = p.Ename.Contains("outpost", StringComparison.OrdinalIgnoreCase);
+            var title = isOutpost ? "Outpost" : "Field terminal";
+            var rShape = isOutpost ? 6 * f : 3 * f;
+            sb.Append($"  <rect class=\"zonemap-node-special\" x=\"{Fx(p.X - rShape)}\" y=\"{Fx(p.Y - rShape)}\" width=\"{Fx(rShape * 2)}\" height=\"{Fx(rShape * 2)}\" fill=\"{FamilyColor(name)}\" stroke=\"#1d2534\" stroke-width=\"{1.5 * f}\" vector-effect=\"non-scaling-stroke\" data-title=\"{Escape(title)} ({Escape(p.Ename)})\" />\n");
         }
         sb.Append("</svg>\n");
         return sb.ToString();

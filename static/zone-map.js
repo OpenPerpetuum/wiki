@@ -20,27 +20,30 @@
     function setMode(m) {
         try { localStorage.setItem(MODE_KEY, m); } catch (err) { /* private mode */ }
     }
-    // The color render is bright terrain: the teleport lines get extra
-    // contrast there — CSS (the zm-color class on the wrap) darkens them,
-    // and their stroke-width is multiplied a bit while the mode is on.
-    // The original widths are remembered in data-sw0 and restored on exit.
-    function applyLineEmphasis(svg, on) {
-        if (!svg) return;
-        Array.prototype.forEach.call(svg.querySelectorAll('.ltp-line, .exi-line'), function (l) {
-            if (l.getAttribute('data-sw0') === null) l.setAttribute('data-sw0', l.getAttribute('stroke-width') || '0');
-            var w = parseFloat(l.getAttribute('data-sw0')) || 0;
-            l.setAttribute('stroke-width', (on ? w * 1.7 : w).toString());
-        });
+    function applyWorldMode(svg, mode) {
+        if (mode !== 'color' && mode !== 'height') mode = 'base';
+        Array.prototype.forEach.call(svg.querySelectorAll('.wm-base'), function(el) { el.style.display = mode === 'base' ? '' : 'none'; });
+        Array.prototype.forEach.call(svg.querySelectorAll('.wm-height'), function(el) { el.style.display = mode === 'height' ? '' : 'none'; });
+        Array.prototype.forEach.call(svg.querySelectorAll('.wm-color'), function(el) { el.style.display = mode === 'color' ? '' : 'none'; });
+        var wrap = svg.closest('.zonemap-wrap');
+        if (wrap) {
+            wrap.classList.toggle('zm-color', mode === 'color');
+            var bar = wrap.querySelector('.zonemap-modes');
+            if (bar) {
+                Array.prototype.forEach.call(bar.querySelectorAll('.zonemap-mode'), function (x) {
+                    x.setAttribute('aria-pressed', x.getAttribute('data-mode') === mode ? 'true' : 'false');
+                });
+            }
+        }
     }
 
     function applyMode(hImg, cImg, mode, bar) {
-        if (mode !== 'color') mode = 'height';
+        if (mode !== 'color' && mode !== 'height') mode = 'base';
         hImg.style.display = mode === 'height' ? '' : 'none';
         cImg.style.display = mode === 'color' ? '' : 'none';
         var wrap = hImg.closest ? hImg.closest('.zonetp-wrap') : null;
         if (wrap) {
             wrap.classList.toggle('zm-color', mode === 'color');
-            applyLineEmphasis(wrap.querySelector('svg.zonemap'), mode === 'color');
         }
         if (bar) {
             Array.prototype.forEach.call(bar.querySelectorAll('.zonemap-mode'), function (x) {
@@ -63,7 +66,7 @@
 
     function upgrade(img) {
         var src = img.getAttribute('src');
-        fetch(src, { credentials: 'same-origin' }).then(function (r) {
+        fetch(src + "?t=" + Date.now(), { credentials: 'same-origin' }).then(function (r) {
             if (!r.ok) throw new Error('http ' + r.status);
             return r.text();
         }).then(function (text) {
@@ -83,6 +86,12 @@
                 var h = im.getAttribute('href') || im.getAttribute('xlink:href');
                 if (h) im.setAttribute('href', withRoot(h));
             });
+            Array.prototype.forEach.call(svg.querySelectorAll('.zonemap-node-special[data-title]'), function (node) {
+                var t = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+                t.textContent = node.getAttribute('data-title');
+                node.appendChild(t);
+            });
+
 
             var wrap = document.createElement('div');
             wrap.className = 'zonemap-wrap zonetp-wrap';
@@ -102,7 +111,8 @@
                 var ui = window.WIKI_UI || {};
                 bar = document.createElement('div');
                 bar.className = 'zonemap-modes';
-                [['height', ui.zonemapModeHeight || 'Height'],
+                [['base', ui.zonemapModeBase || 'Base'],
+                 ['height', ui.zonemapModeHeight || 'Height'],
                  ['color', ui.zonemapModeColor || 'Color']].forEach(function (m) {
                     var b = document.createElement('button');
                     b.type = 'button';
@@ -112,6 +122,8 @@
                     b.addEventListener('click', function () {
                         setMode(m[0]);
                         applyMode(hImg, cImg, m[0], bar);
+                        var wmap = document.querySelector('.zonemap-wrap .zonemap.is-worldmap');
+                        if (wmap) applyWorldMode(wmap, m[0]);
                     });
                     bar.appendChild(b);
                 });
@@ -137,6 +149,41 @@
             if (imgs[i].getAttribute('data-zonetp-init')) continue;
             imgs[i].setAttribute('data-zonetp-init', '1');
             upgrade(imgs[i]);
+        }
+        var worldMap = document.querySelector('.zonemap-wrap .zonemap');
+        if (worldMap && !worldMap.closest('.zonetp-wrap')) {
+            if (!worldMap.getAttribute('data-modes-init') && document.querySelector('.wm-height')) {
+                worldMap.setAttribute('data-modes-init', '1');
+                worldMap.classList.add('is-worldmap');
+                var wrap = worldMap.closest('.zonemap-wrap');
+                var ui = window.WIKI_UI || {};
+                var bar = document.createElement('div');
+                bar.className = 'zonemap-modes';
+                [['base', ui.zonemapModeBase || 'Base'],
+                 ['height', ui.zonemapModeHeight || 'Height'],
+                 ['color', ui.zonemapModeColor || 'Color']].forEach(function (m) {
+                    var b = document.createElement('button');
+                    b.type = 'button';
+                    b.className = 'zonemap-mode';
+                    b.textContent = m[1];
+                    b.setAttribute('data-mode', m[0]);
+                    b.addEventListener('click', function () {
+                        setMode(m[0]);
+                        applyWorldMode(worldMap, m[0]);
+                        document.querySelectorAll('.zonetp-wrap').forEach(function(zw) {
+                            var hi = zw.querySelector('#zm-height');
+                            var ci = zw.querySelector('#zm-color');
+                            var bbar = zw.querySelector('.zonemap-modes');
+                            if (hi && ci) applyMode(hi, ci, m[0], bbar);
+                        });
+                    });
+                    bar.appendChild(b);
+                });
+                wrap.appendChild(bar);
+            }
+            if (worldMap.getAttribute('data-modes-init')) {
+                applyWorldMode(worldMap, getMode() || 'base');
+            }
         }
     }
 

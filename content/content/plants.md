@@ -28,6 +28,39 @@ Species with a fruiting stage — the fruit is the harvestable yield (× = fruit
 
 | Plant | Grow rate | Fertility | Spreading | Kill distance | Max slope | Altitude band | Water band | Fruit (yield) | Max amount | Health (stages) | Player seeded |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| electroplant | 0 | 3 | 2 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×125) | 630 | 10,50,125,255,255,255 | yes |
+| electroplant | 0 | 3 | 2 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×175) | 630 | 10,50,125,255,255,255 | yes |
+| electroplant | 3 | 1 | 0 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×125) | 630 | 10,50,125,255,255,255 | no |
+| electroplant | 3 | 1 | 0 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×200) | 630 | 10,50,125,255,255,255 | no |
+| electroplant | 0 | 3 | 2 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×100) | 630 | 10,50,125,255,255,255 | yes |
+| electroplant | 0 | 3 | 2 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×100) | 630 | 10,50,125,255,255,255 | yes |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×75) | 20 | 50,125,255,255 | no |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×150) | 20 | 50,125,255,255 | no |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×75) | 20 | 50,125,255,255 | yes |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×50) | 20 | 50,125,255,255 | yes |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×50) | 20 | 50,125,255,255 | yes |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×200) | 20 | 50,125,255,255 | no |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×150) | 20 | 50,125,255,255 | no |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×125) | 20 | 50,125,255,255 | no |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×100) | 20 | 50,125,255,255 | no |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×50) | 30 | 50,125,255,255 | no |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×100) | 30 | 50,125,255,255 | no |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×200) | 30 | 50,125,255,255 | no |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×150) | 30 | 50,125,255,255 | no |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×125) | 30 | 50,125,255,255 | no |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×100) | 30 | 50,125,255,255 | no |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×75) | 30 | 50,125,255,255 | yes |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×50) | 30 | 50,125,255,255 | yes |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×50) | 30 | 50,125,255,255 | yes |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×50) | 30 | 50,125,255,255 | no |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×100) | 30 | 50,125,255,255 | no |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×200) | 30 | 50,125,255,255 | no |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×150) | 30 | 50,125,255,255 | no |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×125) | 30 | 50,125,255,255 | no |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×100) | 30 | 50,125,255,255 | no |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×75) | 30 | 50,125,255,255 | yes |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×50) | 30 | 50,125,255,255 | yes |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×50) | 30 | 50,125,255,255 | yes |
 
 ## Scenery plants (not harvestable)
 
@@ -35,55 +68,22 @@ Species with no fruiting stage — zone scenery only (cover, landmarks, blocking
 
 | Plant | Grow rate | Fertility | Spreading | Kill distance | Max slope | Altitude band | Water band | Max amount | Health (stages) | Player seeded |
 |---|---|---|---|---|---|---|---|---|---|---|
-| bonsai | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| bush_a | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| bush_b | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| coppertree | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| devrinol | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| electroplant_hi | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| electroplant_lo | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| electroplant_lo_beta | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| electroplant_seeded_t1 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| electroplant_seeded_t2 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| electroplant_t0 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| grass_a | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| grass_b | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| irontree_hi | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| irontree_lo | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| irontree_seeded_t1 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| irontree_seeded_t2 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| irontree_seeded_t3 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| irontree_t0 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| irontree_t1 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| irontree_t2 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| irontree_t3 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| nanowheat | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| pinetree | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| poffeteg | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| quag | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| rango | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| rango_lowaltitude | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| reed | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| rustbush_hi | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| rustbush_lo | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| rustbush_seeded_t1 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| rustbush_seeded_t2 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| rustbush_seeded_t3 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| rustbush_t0 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| rustbush_t1 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| rustbush_t2 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| rustbush_t3 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| slimeroot_hi | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| slimeroot_lo | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| slimeroot_seeded_t1 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| slimeroot_seeded_t2 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| slimeroot_seeded_t3 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| slimeroot_t0 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| slimeroot_t1 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| slimeroot_t2 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| slimeroot_t3 | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| titanplant | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
-| wall | 0 | 0 | 0 | 0 | 0 | 0–0 | 0–0 | -1 | – | no |
+| bonsai | 2 | 1 | 4 | -1 | 18 | 0–8480 | 7–8048 | 15 | 50,125,255,255 | no |
+| bush_a | 1 | 1 | 2 | -1 | 7 | 28–8480 | 8–8048 | 190 | 5,5,5,5 | no |
+| bush_b | 1 | 1 | 2 | -1 | 7 | 27–8480 | 7–8048 | 190 | 5,5,5,5 | no |
+| coppertree | 2 | 1 | 5 | -1 | 6 | 0–8480 | 8–8048 | 15 | 50,125,255,255 | no |
+| devrinol | 5 | 3 | 0 | 0 | 40 | 0–8076 | -6–8076 | 14630 | 250,250,250,250 | yes |
+| grass_a | 1 | 1 | 2 | -1 | 6 | 15–8480 | 6–8048 | 190 | 5,5,5,5 | no |
+| grass_b | 1 | 1 | 2 | -1 | 6 | 14–8480 | 7–2048 | 190 | 5,5,5,5 | no |
+| nanowheat | 1 | 2 | 3 | -1 | 9 | 12–8480 | 8–8048 | -1 | 5,5,5,5 | no |
+| pinetree | 3 | 3 | 3 | -1 | 9 | 0–8048 | 20–8048 | 18 | 50,125,255,255 | no |
+| poffeteg | 2 | 1 | 4 | -1 | 16 | 0–8480 | 5–8048 | 15 | 50,125,255,255 | no |
+| quag | 3 | 3 | 4 | 5 | 19 | 0–76 | 6–76 | 50 | 50,125,255,255 | no |
+| rango | 8 | 6 | 2 | 7 | 19 | 55–8480 | 10–8048 | 14 | 50,125,255,255 | no |
+| rango | 8 | 6 | 2 | 7 | 19 | 15–8480 | 10–8048 | 14 | 50,125,255,255 | no |
+| reed | 1 | 1 | 1 | -1 | 21 | 0–170 | -1–7 | 60 | 5,5,5,5 | no |
+| titanplant | 2 | 1 | 5 | -1 | 19 | 0–8480 | 20–8048 | 15 | 50,125,255,255 | no |
+| wall | 1 | 1 | 5 | -1 | 68 | 0–58000 | -5–58000 | 15 | 20,60,80,120,160,200,230,230,230,255,255,255 | yes |
 
 ## Zones
 

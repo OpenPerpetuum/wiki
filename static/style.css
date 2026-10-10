@@ -717,8 +717,7 @@ html[data-theme="light"][data-cb="achro"] {
     padding: 1rem;
     box-sizing: border-box;
     transform-origin: center center;
-    will-change: transform;
-    touch-action: none;
+        touch-action: none;
     cursor: grab;
 }
 .zoommap.dragging { cursor: grabbing; }
@@ -805,12 +804,10 @@ html[data-theme="light"][data-cb="achro"] {
     display: block;
     width: 100%;
     height: 100%;
-    will-change: transform;
-    padding: 1rem;
+        padding: 1rem;
     box-sizing: border-box;
     transform-origin: center center;
-    will-change: transform;
-    touch-action: none;
+        touch-action: none;
     cursor: grab;
 }
 .zonemap.dragging { cursor: grabbing; }
@@ -865,19 +862,19 @@ html[data-theme="light"][data-cb="achro"] {
    Desktop pointers: almost invisible at rest — map.js fades the line in
    while the cursor is near it (.zm-tp-on); touch layouts keep them plainly
    visible (no mouse to "approach" with). */
-.zonemap-tp { stroke-width: 1.1; stroke-opacity: 0.65; stroke-dasharray: 5 4; }
+.zonemap-tp { stroke-width: 0.8; stroke-opacity: 0.65; stroke-dasharray: 3 3; vector-effect: non-scaling-stroke; }
 @media (hover: hover) and (pointer: fine) {
   .zonemap-tp { stroke-opacity: 0.25; transition: stroke-opacity 0.2s; }
-  .zonemap-tp.zm-tp-on { stroke-opacity: 1.0; stroke-width: 1.8; }
+  .zonemap-tp.zm-tp-on { stroke-opacity: 0.65; }
 }
-.zonemap-link { stroke: var(--accent); stroke-width: 1.6; stroke-opacity: 0.85; stroke-dasharray: 5 3; }
-.zonemap-link:hover { stroke: var(--neon); stroke-width: 2.2; }
+.zonemap-link { stroke: var(--accent); stroke-width: 1.2; stroke-opacity: 0.85; stroke-dasharray: 3 2; vector-effect: non-scaling-stroke; }
+.zonemap-link:hover { stroke: var(--neon); stroke-width: 1.6; }
 /* local (in-zone) teleports on the zone maps: the dashed lines between a
    pair's columns are always visible (they are the point of the map); map.js
    brightens them a touch while the cursor is near an endpoint (data-ltp).
    The world map does not carry ltp elements at all. */
 .zonetp-wrap .ltp-line { opacity: 0.85; transition: opacity 0.15s; pointer-events: none; }
-.zonetp-wrap .ltp-line.ltp-on { opacity: 1; }
+
 .zonetp-wrap .ltp-dot { pointer-events: none; stroke: rgba(0, 0, 0, 0.5); stroke-width: 1; }
 /* exit teleports: a dashed line from the column to the map edge, pointing
    the way the destination zone lies on the world map (family color stroke).
@@ -885,17 +882,12 @@ html[data-theme="light"][data-cb="achro"] {
    readable on the bright color-mode terrain. Neither kind of helper may
    eat pointer events (the columns and spots are the clickable elements). */
 .zonetp-wrap .exi-line { pointer-events: none; opacity: 0.75; transition: opacity 0.15s; }
-/* the color render is bright terrain: the teleport lines get extra contrast
-   there — darkened (zone-map.js also thickens them while the mode is on,
-   via the zm-color class on the wrap). */
-.zonetp-wrap.zm-color .ltp-line, .zonetp-wrap.zm-color .exi-line { filter: brightness(0.5) saturate(1.15); }
+
 .zonetp-wrap .zm-casing { pointer-events: none; }
 /* the destination selector (map.js): while it is open the dashed lines of
    the hovered/tapped item are emphasised — .tp-sel-on on the exit lines
    (zone maps) and the inter-zone TP lines (world map); hovering one entry
    in the selector keeps only THAT line emphasised. */
-.zonetp-wrap .exi-line.tp-sel-on { opacity: 1; }
-.zonemap-tp.tp-sel-on { stroke-opacity: 1; stroke-width: 1.8; }
 /* the destination-selector popover (inside the map wrap, absolute) */
 .tp-sel {
     position: absolute; z-index: 40; display: none;
@@ -970,7 +962,7 @@ main [id] { scroll-margin-top: 4.2rem; }
 .zonemap-label { fill: var(--fg); opacity: 0.85; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 .zonemap circle:not(.zonemap-node-tm):not(.zonemap-node-ics):not(.zonemap-node-asi):not(.zonemap-node-gamma):not(.zonemap-node-special),
 .zonemap rect:not(.zonemap-node-tm):not(.zonemap-node-ics):not(.zonemap-node-asi):not(.zonemap-node-gamma):not(.zonemap-node-special) { stroke: rgba(0, 0, 0, 0.35); stroke-width: 1; }
-.zonemap a:hover .zonemap-node-tm, .zonemap a:hover .zonemap-node-ics, .zonemap a:hover .zonemap-node-asi, .zonemap a:hover .zonemap-node-gamma, .zonemap a:hover .zonemap-node-special { stroke: #22c55e; stroke-width: 2px; }
+
 .zonemap a { cursor: pointer; }
 .mapdot { display: inline-block; width: 0.7em; height: 0.7em; border-radius: 50%; margin-right: 0.35em; vertical-align: baseline; }
 

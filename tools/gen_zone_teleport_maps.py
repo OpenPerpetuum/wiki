@@ -808,6 +808,14 @@ def parse(svg_text):
     m = re.search(r'viewBox="0 0 (\d+) (\d+)"', svg_text)
     w, h = int(m.group(1)), int(m.group(2))
     zone = re.search(r'aria-label="Teleport map of ([^"]+)"', svg_text).group(1)
+    
+    import re as re2
+    svg_text = re2.sub(r'<svg id="zm-height".*?</svg>', '', svg_text, flags=re2.DOTALL)
+    svg_text = re2.sub(r'<svg id="zm-color".*?</svg>', '', svg_text, flags=re2.DOTALL)
+    svg_text = re2.sub(r'<g id="zm-height".*?</g>', '', svg_text, flags=re2.DOTALL)
+    svg_text = re2.sub(r'<g id="zm-color".*?</g>', '', svg_text, flags=re2.DOTALL)
+    svg_text = re2.sub(r'<clipPath id="coast-clip-[^"]+">.*?</clipPath>', '', svg_text, flags=re2.DOTALL)
+    
     els = []
     for tm in ITEM.finditer(svg_text):
         if tm.group(3) is not None:  # <text> alternative
@@ -923,12 +931,18 @@ def rebuild(path, name2slug, slug2id, slug2size):
             p = os.path.join(ZONEMAPS, slug, filename)
             if os.path.isfile(p):
                 content = open(p, "r", encoding="utf-8").read()
-                content = re.sub(r'\s+width="[^"]+"', '', content, count=1)
-                content = re.sub(r'\s+height="[^"]+"', '', content, count=1)
-                content = re.sub(r'\s+xmlns="[^"]+"', '', content, count=1)
-                inject = f'id="{id_name}" x="0" y="0" width="{w}" height="{h}" preserveAspectRatio="none" style="{display}" '
-                content = re.sub(r'<svg\s+', f'<svg {inject}', content, count=1)
-                return content
+                # Find the viewBox to know the internal scale
+                m_vb = re.search(r'viewBox="0\s+0\s+(\d+)\s+(\d+)"', content)
+                if not m_vb: return ""
+                inner_w = float(m_vb.group(1))
+                inner_scale = w / inner_w
+                
+                # Strip the outer <svg> and </svg>
+                content = re.sub(r'^.*?<svg[^>]*>', '', content, flags=re.DOTALL)
+                content = content.replace('</svg>', '')
+                
+                # Wrap in <g> with scale
+                return f'<g id="{id_name}" transform="scale({inner_scale})" style="{display}">{content}</g>'
             return ""
             
         out.append("    " + get_inner_svg("height.svg", "zm-height"))

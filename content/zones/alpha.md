@@ -13,32 +13,32 @@ The main protected islands and their second-wave PvE companions — the safe sta
 
 <div class="zone-cards">
 <a class="zone-card" href="/zones/zone-asi/">
-<img class="zone-card-thumb" src="/zonemaps/zone-asi/thumb.png" alt="" loading="lazy">
+<img class="zone-card-thumb" src="/zonemaps/zone-asi/thumb.svg" alt="" loading="lazy">
 <span class="zone-card-name">Daoden</span>
 <span class="zone-card-meta">PvP · 2048×2048</span>
 </a>
 <a class="zone-card" href="/zones/zone-asi-pve/">
-<img class="zone-card-thumb" src="/zonemaps/zone-asi-pve/thumb.png" alt="" loading="lazy">
+<img class="zone-card-thumb" src="/zonemaps/zone-asi-pve/thumb.svg" alt="" loading="lazy">
 <span class="zone-card-name">Shinjalar</span>
 <span class="zone-card-meta">PvE · 2048×2048</span>
 </a>
 <a class="zone-card" href="/zones/zone-ics/">
-<img class="zone-card-thumb" src="/zonemaps/zone-ics/thumb.png" alt="" loading="lazy">
+<img class="zone-card-thumb" src="/zonemaps/zone-ics/thumb.svg" alt="" loading="lazy">
 <span class="zone-card-name">Attalica</span>
 <span class="zone-card-meta">PvE · 2048×2048</span>
 </a>
 <a class="zone-card" href="/zones/zone-ics-pve/">
-<img class="zone-card-thumb" src="/zonemaps/zone-ics-pve/thumb.png" alt="" loading="lazy">
+<img class="zone-card-thumb" src="/zonemaps/zone-ics-pve/thumb.svg" alt="" loading="lazy">
 <span class="zone-card-name">Tellesis</span>
 <span class="zone-card-meta">PvE · 2048×2048</span>
 </a>
 <a class="zone-card" href="/zones/zone-tm/">
-<img class="zone-card-thumb" src="/zonemaps/zone-tm/thumb.png" alt="" loading="lazy">
+<img class="zone-card-thumb" src="/zonemaps/zone-tm/thumb.svg" alt="" loading="lazy">
 <span class="zone-card-name">New Virginia</span>
 <span class="zone-card-meta">PvE · 2048×2048</span>
 </a>
 <a class="zone-card" href="/zones/zone-tm-pve/">
-<img class="zone-card-thumb" src="/zonemaps/zone-tm-pve/thumb.png" alt="" loading="lazy">
+<img class="zone-card-thumb" src="/zonemaps/zone-tm-pve/thumb.svg" alt="" loading="lazy">
 <span class="zone-card-name">Hershfield</span>
 <span class="zone-card-meta">PvE · 2048×2048</span>
 </a>
