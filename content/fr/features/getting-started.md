@@ -140,7 +140,7 @@ Les nouveaux personnages commencent dans la zone d'entraînement avec une
 robots avec modules et munitions. Vous pouvez l'ignorer (désamarrer et marcher vers
 une sortie de faction) mais vous perdez les récompenses, et vous ne pouvez pas
 revenir dans la zone d'entraînement plus tard. Ce que les quatre sorties de faction
-vous donnent est dans la [FAQ](/fr/features/faq/#what-faction-should-i-pick).
+vous donnent est dans la [FAQ](/fr/features/faq/).
 
 ## Survie
 
@@ -173,4 +173,4 @@ pertes restent survivables :
 2. Désamarrez et déplacez-vous dans la zone — voir [déplacement](/fr/features/movement/).
 3. Scannez le sol et commencez à collecter des ressources — voir [collecte](/fr/features/gathering/).
 4. Recherchez vos premières extensions — voir [recherche](/fr/features/research/).
-5. Choisissez une carrière — la [FAQ](/fr/features/faq/#what-do-i-do-once-i-m-out) a le menu.
+5. Choisissez une carrière — la [FAQ](/fr/features/faq/) a le menu.

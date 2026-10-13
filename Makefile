@@ -64,10 +64,13 @@ test: build
 # Generate the i18n runtime from translations/*.json + the language pages
 # manifest. Run before build so the generated files are picked up by Zola.
 i18n:
-	python3 tools/gen_i18n.py
+	python3 tools/gen_content_translations.py
+	python3 tools/gen_zone_translations.py
 	python3 tools/gen_lang_pages.py
+	python3 tools/gen_i18n.py
 
 build: i18n
+	rm -rf public/*
 	docker run --rm --user "$$(id -u):$$(id -g)" \
 		-v "$$PWD:/src" \
 		$(ZOLA_IMAGE) -r /src build --force -o /src/public

@@ -1,58 +1,97 @@
 ---
-title: "Aperçu de l'interface client"
-description: "La disposition du client : barre supérieure, bouton d'amarrage, catégories d'actions, et le panneau de statut désamarré. Modélisé sur une interface style EVE Online."
+title: "Vue d'ensemble de l'interface client"
+description: "Agencement du client : barre supérieure, bouton de déploiement, catégories d'action et panneau d'état non amarré. Modèle inspiré d'EVE Online."
 weight: 5
 ---
 
-# Aperçu de l'interface client
+# Vue d'ensemble de l'interface client
 
-L'interface client est modélisée sur un style **EVE Online** : un écran principal
-avec une barre supérieure, un bouton central d'amarrage, et des panneaux contextuels.
+Le client propose une interface dans le style d'**EVE Online** : une vue plein écran de l'espace/zone avec
+des fenêtres flottantes, **redimensionnables et déplaçables**, qui peuvent être **fermées et rouvertes** à volonté.
+L'intégration s'effectue système par système — voir les pages liées ci-dessous.
 
-## Barre supérieure
+> Cette disposition est un modèle de travail fourni par le projet, utilisé pour décrire l'emplacement des
+> actions. Les intitulés exacts à l'écran peuvent différer légèrement ; la structure fait référence.
 
-La **barre supérieure** contient :
+```mermaid
+flowchart LR
+    subgraph Topbar["Barre supérieure"]
+        direction LR
+        L["Gauche : Courrier · Personnage ·\nCorporation · Options · Déconnexion"] --- C["Centre : Déployer / S'amarrer"]
+        C --- R["Droite : Raffinerie · Recyclage · Réparation ·\nAssurance · Marché · Missions ·\nStockage de corp · Équiper …"]
+    end
+    subgraph Below["Sous la barre"]
+        direction LR
+        U["Non amarré : actions de zone extensibles\n(en haut à droite) + panneau d'état\n(bouclier / armure / énergie)"]
+        D["Amarré : les catégories de droite\nsont votre espace de travail"]
+    end
+    C --> U
+    C --> D
+```
 
-- **Logo** — le logo du jeu.
-- **Bouton d'amarrage** — le bascule centrale (Déployer/Amarrer).
-- **Statut** — l'état actuel (amarré/désamarré).
-- **Boutons d'action** — les actions rapides.
+## La barre supérieure
 
-## Bouton d'amarrage
+Une barre persistante s'étendant sur toute la largeur supérieure de l'écran.
 
-Le **bouton d'amarrage** (Deploy/Dock) est au centre de la barre supérieure :
-
-- **Amarré** → cliquez pour **désamarrer** (déployer votre robot).
-- **Désamarré** → cliquez pour **amarrer** (revenir à la base).
-- C'est l'action la plus importante du jeu.
-
-## Catégories d'actions
-
-Les **actions** sont organisées en catégories :
-
-| Catégorie | Description |
+| Zone | Contenu |
 |---|---|
-| **Déplacement** | Se déplacer dans la zone |
-| **Scan** | Scanner la zone |
-| **Combat** | Tirer, cibler, fuir |
-| **Production** | Produire, raffiner, réparer |
-| **Social** | Messagerie, chat, standings |
-| **Personnage** | Extensions, sparks, réglages |
-| **Robots** | Sélectionner, équiper, gérer |
+| **Gauche** | Boutons principaux : **Courrier** (Mail), **Personnage** (Character), **Corporation**, autres **Options** et **Déconnexion** (Disconnect) |
+| **Centre** | Le bouton **Déployer / S'amarrer** (Deploy / Dock) — votre bascule principale amarré⇄non amarré (voir [déplacement](/fr/features/movement/)) |
+| **Droite** | Catégories d'actions sous forme de boutons : **Raffinerie**, **Recyclage**, **Réparation**, **Assurance**, **Marché**, **Missions** (Assignments / transports), **Stockage de corp**, **Équiper**, … |
 
-## Panneau de statut désamarré
+Les catégories de droite ouvrent leurs fenêtres système respectives :
 
-Quand vous êtes **désamarré**, le panneau de statut affiche :
+| Bouton | Ouvre / effectue | Page du wiki |
+|---|---|---|
+| Raffinerie | Traiter les ressources brutes en composants | [production](/fr/features/production/) |
+| Recyclage | Décomposer les objets en matériaux de base | [production](/fr/features/production/) |
+| Réparation | Réparer les robots/modules endommagés | [production](/fr/features/production/) |
+| Assurance | Polices d'assurance de robots/production | [production](/fr/features/production/) |
+| Marché | Ordres de marché et achats directs | [marché](/fr/features/market/) |
+| Missions (Assignments) | Missions de transport (expéditions) | [transport](/fr/features/transport/) |
+| Stockage de corp | Hangar/stockage de la corporation | [groupes](/fr/features/groups/) |
+| Équiper | Installer des modules et munitions sur votre robot actif | [robots](/fr/features/robots/) |
 
-- **Bouclier** — la capacité et la régénération du bouclier.
-- **Armure** — la capacité et la réparation de l'armure.
-- **Coque** — la santé de la coque.
-- **Énergie** — la capacité et la production d'énergie.
-- **Cargaison** — l'espace restant dans le conteneur du robot.
+## État amarré (Docked)
 
-## Notes pratiques
+Tant que vous êtes **amarré**, les catégories d'actions situées sur la droite constituent votre espace de travail
+principal : vous pouvez raffiner, commercer, équiper et gérer vos stocks sans quitter la base. Le bouton Déployer
+(Deploy) vous désamarre dans la zone (voir [déplacement](/fr/features/movement/) pour les conditions préalables
+au désamarrage).
 
-- **Le bouton d'amarrage est central** — c'est l'action la plus importante.
-- **Les catégories d'actions** sont contextuelles — elles changent selon l'état.
-- **Le panneau de statut** est vital en combat — surveillez vos réserves.
-- **L'interface est personnalisable** — vous pouvez déplacer les panneaux.
+## État non amarré (Undocked)
+
+Lorsque vous êtes **non amarré** (en pilotant votre robot actif dans une zone) :
+
+- La zone **en haut à droite** gagne un **bouton d'actions extensible** : cliquez dessus pour dérouler vers le bas
+  une liste d'actions de zone supplémentaires (analyse, récolte/interactions, outils de zone — les actions documentées
+  dans [récolte](/fr/features/gathering/) et [combat](/fr/features/combat/)).
+- Le **panneau d'état principal** affiche l'état de votre robot : **bouclier, armure/coque, énergie**, ainsi que le
+  statut de combat associé — les mêmes données auxquelles votre page de [combat](/fr/features/combat/) fait référence
+  (par ex. la vérification de « système d'énergie intact » pour le désamarrage).
+- Les catégories réservées aux bases (raffinerie, marché, …) sont indisponibles jusqu'à votre prochain amarrage.
+
+## Fenêtres courantes
+
+La plupart des systèmes s'ouvrent dans une fenêtre flottante standard : barre de titre, bouton de fermeture, bordures
+redimensionnables, contenu sous forme d'onglets ou de listes. Les systèmes récurrents (inventaire/conteneurs, marché,
+lignes de production) peuvent avoir plusieurs fenêtres ouvertes simultanément.
+
+- **Inventaire / conteneurs** — lister un conteneur, déplacer/empiler/emballer des objets, renommer, jeter — voir
+  [objets](/fr/features/items/).
+- **Fenêtre du personnage** (bouton en haut à gauche) — profil, extensions (recherche), paramètres, crédits — voir
+  [pour commencer](/fr/features/getting-started/) et [recherche](/fr/features/research/).
+- **Fenêtre de corporation** (bouton en haut à gauche) — informations sur la corporation, hangar, documents, votes,
+  bulletin — voir [groupes](/fr/features/groups/).
+- **Fenêtre de messagerie** (bouton en haut à gauche) — courrier personnel et courriers groupés — voir
+  [social](/fr/features/social/).
+
+## Conventions utilisées dans ce wiki
+
+- **« Barre supérieure → X »** = le bouton nommé X sur la barre supérieure.
+- **« Actions non amarré »** = la liste déroulante en haut à droite lorsque vous êtes dans une zone.
+- **Bouton Déployer / S'amarrer** = la bascule centrale de la barre supérieure.
+
+<!-- Remarque : cette page constitue le modèle d'interface convenu (fourni par le projet). Si le véritable client
+     diffère dans le nom ou l'emplacement des boutons, mettez d'abord à jour cette page — toutes les autres
+     pages de features/ font référence aux conventions définies ici. -->

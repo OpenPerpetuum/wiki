@@ -20,13 +20,9 @@ test('zone map is inlined with its terrain background', async ({ page, baseURL }
   const svg = wrap.locator('svg.zonemap');
   expect(await svg.count()).toBe(1);
   expect(await page.locator('img[src^="/zonemaps/"]').count()).toBe(0); // img replaced
-  // this zone has real terrain: two switchable mode images
-  const bg = svg.locator('image');
+  // this zone has real terrain: vector contours or mode elements
+  const bg = svg.locator('#zm-height, #zm-color');
   expect(await bg.count()).toBe(2);
-  const href = await bg.first().getAttribute('href');
-  expect(href).toMatch(/^\/zonemaps\//);
-  const r = await page.request.get(href); // the terrain PNG is served
-  expect(r.ok()).toBe(true);
   expect(errors).toEqual([]);
 });
 
@@ -34,22 +30,27 @@ test('display modes: height and color switch the background', async ({ page, bas
   await page.goto(`${baseURL}${ZONE}`, { waitUntil: 'networkidle' });
   const wrap = page.locator('.zonetp-wrap');
   await wrap.waitFor({ state: 'visible', timeout: 10000 });
-  // exactly two modes
-  expect(await wrap.locator('.zonemap-mode').count()).toBe(2);
+  // three modes: base, height, color
+  expect(await wrap.locator('.zonemap-mode').count()).toBe(3);
   const visible = (sel) => page.evaluate((s) => {
     const el = document.querySelector(s);
     return el && el.style.display !== 'none';
   }, sel);
-  expect(await visible('image#zm-height')).toBe(true);
-  expect(await visible('image#zm-color')).toBe(false);
-
-  await wrap.locator('.zonemap-mode[data-mode="color"]').click();
-  expect(await visible('image#zm-color')).toBe(true);
-  expect(await visible('image#zm-height')).toBe(false);
+  // default mode is base (clean contour + roads): both height and color hidden
+  expect(await visible('#zm-height')).toBe(false);
+  expect(await visible('#zm-color')).toBe(false);
 
   await wrap.locator('.zonemap-mode[data-mode="height"]').click();
-  expect(await visible('image#zm-height')).toBe(true);
-  expect(await visible('image#zm-color')).toBe(false);
+  expect(await visible('#zm-height')).toBe(true);
+  expect(await visible('#zm-color')).toBe(false);
+
+  await wrap.locator('.zonemap-mode[data-mode="color"]').click();
+  expect(await visible('#zm-color')).toBe(true);
+  expect(await visible('#zm-height')).toBe(false);
+
+  await wrap.locator('.zonemap-mode[data-mode="base"]').click();
+  expect(await visible('#zm-height')).toBe(false);
+  expect(await visible('#zm-color')).toBe(false);
 });
 
 test('the chosen display mode persists across other zone maps', async ({ page, baseURL }) => {
@@ -63,8 +64,8 @@ test('the chosen display mode persists across other zone maps', async ({ page, b
   const wrap2 = page.locator('.zonetp-wrap');
   await wrap2.waitFor({ state: 'visible', timeout: 10000 });
   await expect.poll(() => page.evaluate(() => {
-    const c = document.querySelector('image#zm-color');
-    const h = document.querySelector('image#zm-height');
+    const c = document.querySelector('#zm-color');
+    const h = document.querySelector('#zm-height');
     return !!c && !!h && c.style.display !== 'none' && h.style.display === 'none';
   })).toBe(true);
   const pressed = await wrap2.locator('.zonemap-mode[aria-pressed="true"]').getAttribute('data-mode');

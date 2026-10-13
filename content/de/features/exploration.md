@@ -1,53 +1,76 @@
 ---
-title: "Module & Ausrüstung"
-description: "Die Modulfamilien (Waffen, Rüstung, Energie, Elektronik, EWar, EnWar, Industrie, NEXUS, NOX) und die Grundregeln, um einen Roboter auszurüsten."
-weight: 240
+title: "Erkundung (Artefakte & Relikte)"
+description: "Verborgene Schätze unter der Oberfläche finden: Artefaktscannen, Reliktejagd und was die Funde einbringen."
+weight: 14
 ---
 
-# Module & Ausrüstung
+# Erkundung (Artefakte & Relikte)
 
-**Module** sind die Komponenten, die du in die Slots deines Roboters l
+Erkundung bedeutet, verborgene Schätze im Gelände aufzuspüren — eine lohnenswerte Solo-Aktivität auf
+jeder Stufe. Sie existiert in zwei Formen: **Artefakte**, die persönlich und verborgen sind,
+sowie **Relikte**, die für alle offen und umkämpft sind.
 
-<tool_call>
-<function=write>
-<parameter=content>
----
-title: "Module & Ausrüstung"
-description: "Die Modulfamilien (Waffen, Rüstung, Energie, Elektronik, EWar, EnWar, Industrie, NEXUS, NOX) und die Grundregeln, um einen Roboter auszurüsten."
-weight: 240
----
+```mermaid
+flowchart TD
+    A["Artefakt-Scanladungen\nin Geoscanner laden\n(100 / 300 / 500 m)"] --> B["Von eigener Position scannen\n(nur der Satz deines Charakters)"]
+    B --> C["Zu gefundener Position fliegen"]
+    C --> D["Artefakt aufheben"]
+    D --> E["Beutecontainer: Komponenten\n+ Roboter-Fragmente"]
+    D -->|Beobachter- / Verseuchungstypen| F["Feindliche NPCs spawnen damit"]
+    F --> D
+```
 
-# Module & Ausrüstung
+## Artefaktbergung
 
-**Module** sind die Komponenten, die du in die Slots deines Roboters l
+Artefakte sind Punkte, die **pro Charakter** existieren: Der Server führt für jeden Charakter auf jeder
+Insel ein eigenes Artefakt-Set, sodass deine Funde ganz allein dir gehören. Sie sind unsichtbar, bis du gezielt
+nach ihnen scannst.
 
-<tool_call>
-<function=write>
-<parameter=content>
----
-title: "Exploration (Artefakte & Relikte)"
-description: "Verborgene Schätze unter der Oberfläche finden: Artefaktscans, Reliktjagd, und was die Funde zahlen."
-weight: 300
----
+1. Lade **Artefakt-Scanladungen** in ein Geoscanner-Modul. Es gibt drei Ladungsstufen mit unterschiedlichen
+   Scanreichweiten (100 / 300 / 500 m).
+2. Scanne von der Position deines Roboters aus — der Scanner meldet die Artefaktpositionen innerhalb
+   der Reichweite (der Genauigkeitswert des Geoscanners grenzt die gemeldete Position ein).
+3. Fliege zur gefundenen Position und hebe das Artefakt auf; an Ort und Stelle spawnt ein **Beutecontainer**.
 
-# Exploration (Artefakte & Relikte)
+Zwei Umstände machen die Artefaktbergung zu einer Kampf- ebenso wie zu einer Sammelaktivität:
 
-Die **Exploration** besteht darin, verborgene Schätze unter der Oberfläche der
-Zonen zu finden: **Artefakte** und **Relikte**.
+- Einige Artefakttypen **spawnen NPCs bei dir** — die Varianten „Beobachter“ (Observer) und
+  „Verseuchung“ (Infestation) rufen in dem Moment feindliche Einheiten herbei, in dem das Artefakt entdeckt wird;
+  steuere daher einen kampffähigen Roboter.
+- Die Beute ist zufällig je nach Artefakttyp: Modulkomponenten (Panzerplatten, Härter,
+  Generatoren, Reparierer…) und **Roboter-Fragmente** — die fraktionsspezifischen Zutaten für
+  Forschung und Produktion, was Artefakte zu einer zentralen industriellen Karriere macht.
 
-## Artefakte
+Artefakttypen sind gestaffelt (Stufe 1–3, mehr Beute auf höheren Stufen) und existieren in neutralen
+sowie fraktionsspezifischen Varianten.
 
-**Artefakte** sind antike Objekte, die unter der Oberfläche versteckt sind:
+## Reliktejagd
 
-- Sie werden durch **Scannen** gefunden (spezifisches Scanmodul).
-- Ihr **Wert** variiert je nach Typ und Zustand.
-- Sie können auf dem **Markt verkauft** oder für die **Produktion** verwendet
-  werden.
+Relikte sind **Open-World**: Die Zone spawnt sie an zufälligen Positionen (in einem Respawn-Zyklus von
+ungefähr 90 Minuten mit zufälliger Streuung). Sie sind sichtbare Objekte mit einem Lichtstrahl, und wer
+eines zuerst aufhebt, erhält die Beute. Die Beute besteht aus einem Wurf auf NIC plus **Roboter-Fragmenten**,
+skaliert nach der Stufe des Relikts und der Wertigkeitsstufe der Insel — dieselben Fragmente wie bei Artefakten.
 
-## Relikte
+Relikttypen sind pro Insel gestaffelt (Stufen 1–3 mit unterschiedlichen EP-Werten je Stufe) und kommen in
+neutralen, fraktionsspezifischen und industriellen Varianten vor. Einige Relikte sind an
+[Außenposten](/de/features/outposts/) gebunden — die SAP-Aktivität spawnt eigene Relikte, die bis zu 12 Stunden
+überdauern — und auf offenen PvP-Inseln liegen die Spawnpunkte in umkämpftem Gebiet; rechne also mit anderen Jägern.
 
-**Relikte** sind seltenere und wertvollere Objekte:
+## Auch Missionen belohnen es
 
-- Sie liegen **tiefer** als Artefakte.
-- Ihr **Wert** ist höher.
-- Sie sind **selten
+[Missionen](/de/features/missions/) können dir ebenfalls Artefakt-Aufgaben stellen, bei denen du direkt
+bezahlt wirst und die Güter an den Auftraggeber statt in dein Inventar wandern.
+
+<!--
+Written from scratch against the server backend, 2026-09-27:
+Zones/Artifacts/Repositories/ZoneArtifactRepository.cs (per-character artifact
+rows), Zones/Scanning/Scanners/Scanner.Artifact.cs (scan range + accuracy),
+Zones/Artifacts/Generators/Loot/ (random loot per type),
+Services/Relics/RelicManagers/ZoneRelicManager.cs (~1.5 h respawn + random
+window) and SAPRelic.cs (12 h lifespan),
+artifacttypes/artifactloot/relictypes/relicloot tables,
+ammo_artifact_scan_a/b/c (scan ranges 100/300/500).
+An earlier version of this page was adapted from the Open Perpetuum
+community wiki (perpetuum.miraheze.org) and has been fully rewritten from
+backend sources; no text was reused.
+-->

@@ -85,6 +85,7 @@
     "update_available": "Une nouvelle mise à jour est disponible, cliquez ici pour actualiser.",
     "zonemap_mode_height": "Altitude",
     "zonemap_mode_color": "Couleur",
+    "aria_menu_toggle": "Ouvrir le menu",
     "aria_theme_toggle": "Basculer le mode clair/sombre",
     "aria_mode_toggle": "Basculer le mode Jouer / Dev",
     "aria_palette": "Choisir la couleur d'accent",
@@ -131,7 +132,9 @@
     "home_market": "Marché",
     "home_market_desc": "Acheter, vendre et échanger avec d'autres joueurs",
     "home_sparks": "Étincelles",
-    "home_sparks_desc": "Le nanobot de votre agent et ses bonus"
+    "home_sparks_desc": "Le nanobot de votre agent et ses bonus",
+    "home_title": "Open Perpetuum",
+    "home_desc": "Un MMO à univers persistant : pilotez des robots à travers une galaxie de zones, collectez des ressources, construisez et défendez des stations de base (PBS), contestez des sites d'intrusion, commercez et progressez d'un robot de départ à une machine de guerre entièrement équipée."
   },
   "names": {
     "alligior": "Alligior",

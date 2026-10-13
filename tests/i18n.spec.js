@@ -47,7 +47,7 @@ test.describe('i18n language switcher', () => {
     expect(page.url()).not.toMatch(/\/fr\//);
     // But the chrome is French
     await expect(page.locator('.nav-quick a')).toContainText('Accueil');
-    await expect(page.locator('.nav-group-link[href="/zones/map/"]')).toContainText('Monde');
+    await expect(page.locator('.nav-group-link[href*="/zones/map/"]')).toContainText('Monde');
     await expect(page.locator('#wiki-search')).toHaveAttribute('placeholder', /Rechercher/);
     await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
     // Content is still English
@@ -119,7 +119,7 @@ test.describe('i18n language switcher', () => {
     // World map card
     const mapCard = page.locator('.home-card-map');
     await expect(mapCard).toBeVisible();
-    await expect(mapCard).toHaveAttribute('href', '/zones/map/');
+    await expect(mapCard).toHaveAttribute('href', '/fr/zones/map/');
     
     // Hero cards (robots + fitting)
     const heroCards = page.locator('.home-card-hero');
@@ -150,10 +150,17 @@ test.describe('i18n language switcher', () => {
     const gettingStarted = page.locator('.nav-items a[href*="getting-started"]');
     await expect(gettingStarted).toHaveAttribute('href', '/fr/features/getting-started/');
 
-    // Untranslated links (zones) should NOT be prefixed
+    // Translated zone nav links should have the /fr/ prefix
     const zoneLink = page.locator('.nav-items a[href*="/zones/"]').first();
     const zoneHref = await zoneLink.getAttribute('href');
-    expect(zoneHref).not.toMatch(/^\/fr\//);
+    expect(zoneHref).toMatch(/^\/fr\//);
+
+    // Untranslated links (items) should NOT be prefixed
+    await page.goto(`${baseURL}/fr/features/production/`);
+    await page.waitForTimeout(500);
+    const itemLink = page.locator('article a[href*="/content/items/"]').first();
+    const itemHref = await itemLink.getAttribute('href');
+    expect(itemHref).not.toMatch(/^\/fr\//);
   });
 
   test('no flash of English on translated pages (data-i18n-pending)', async ({ page, baseURL }) => {
@@ -175,5 +182,98 @@ test.describe('i18n language switcher', () => {
     // Chrome text should be in French (not English)
     const homeLabel = await page.locator('.nav-quick a span[data-i18n="nav_home"]').textContent();
     expect(homeLabel).not.toBe('Home');
+  });
+
+  test('on Russian home page, clicking Start (СТАРТ) navigates to /ru/menu/start/', async ({ page, baseURL }) => {
+    await page.goto(`${baseURL}/ru/`);
+    await page.waitForTimeout(300);
+
+    const toggle = page.locator('#sidenav-toggle');
+    if (await toggle.isVisible()) {
+      await toggle.click();
+      await page.waitForTimeout(200);
+    }
+
+    // Start nav group link should point to /ru/menu/start/
+    const startLink = page.locator('.nav-group-link[href*="start"]');
+    await expect(startLink).toHaveAttribute('href', '/ru/menu/start/');
+    await expect(startLink).toContainText('Старт');
+
+    // Click Start
+    await startLink.click();
+    await page.waitForURL('**/ru/menu/start/');
+    await expect(page.locator('h1')).toContainText('Начало игры');
+  });
+
+  test('on English home page with Russian saved in localStorage, clicking Start navigates to /ru/menu/start/', async ({ page, baseURL }) => {
+    await page.goto(`${baseURL}/`);
+    await page.evaluate(() => localStorage.setItem('wiki-lang', 'ru'));
+    await page.reload();
+    await page.waitForTimeout(300);
+
+    const toggle = page.locator('#sidenav-toggle');
+    if (await toggle.isVisible()) {
+      await toggle.click();
+      await page.waitForTimeout(200);
+    }
+
+    const startLink = page.locator('.nav-group-link[href*="start"]');
+    await expect(startLink).toHaveAttribute('href', '/ru/menu/start/');
+    await startLink.click();
+    await page.waitForURL('**/ru/menu/start/');
+    await expect(page.locator('h1')).toContainText('Начало игры');
+  });
+
+  test('header and footer are translated on Russian page', async ({ page, baseURL }) => {
+    await page.goto(`${baseURL}/ru/`);
+    await page.waitForTimeout(300);
+
+    // Header elements
+    await expect(page.locator('#wiki-search')).toHaveAttribute('placeholder', /Поиск по вики/);
+    await expect(page.locator('#lang-toggle')).toHaveAttribute('aria-label', /Выбрать язык/);
+    await expect(page.locator('#palette-toggle')).toHaveAttribute('aria-label', /Выбрать цвет акцента/);
+    await expect(page.locator('#theme-toggle')).toHaveAttribute('aria-label', /Переключить светлую/);
+    await expect(page.locator('.mode-opt[data-mode-opt="play"]')).toHaveText('Играть');
+
+    // Footer elements
+    const footHome = page.locator('.footnav a[data-i18n="foot_home"]');
+    const footFeatures = page.locator('.footnav a[data-i18n="foot_features"]');
+    const footContent = page.locator('.footnav a[data-i18n="foot_content"]');
+    const footZones = page.locator('.footnav a[data-i18n="foot_zones"]');
+
+    await expect(footHome).toHaveText('Главная');
+    await expect(footFeatures).toHaveText('Возможности');
+    await expect(footFeatures).toHaveAttribute('href', '/ru/features/');
+    await expect(footContent).toHaveText('Контент');
+    await expect(footZones).toHaveText('Зоны');
+
+    await expect(page.locator('.footcredit [data-i18n-html="foot_credit"]')).toContainText('Вики Open Perpetuum');
+    await expect(page.locator('.footcredit [data-i18n-html="foot_attribution"]')).toContainText('Контент вики лицензирован');
+  });
+
+  test('header and footer are translated on German page', async ({ page, baseURL }) => {
+    await page.goto(`${baseURL}/de/`);
+    await page.waitForTimeout(300);
+
+    // Header elements
+    await expect(page.locator('#wiki-search')).toHaveAttribute('placeholder', /Wiki durchsuchen/);
+    await expect(page.locator('#lang-toggle')).toHaveAttribute('aria-label', /Sprache wählen/);
+    await expect(page.locator('#palette-toggle')).toHaveAttribute('aria-label', /Akzentfarbe wählen/);
+    await expect(page.locator('.mode-opt[data-mode-opt="play"]')).toHaveText('Spielen');
+
+    // Footer elements
+    const footHome = page.locator('.footnav a[data-i18n="foot_home"]');
+    const footFeatures = page.locator('.footnav a[data-i18n="foot_features"]');
+    const footContent = page.locator('.footnav a[data-i18n="foot_content"]');
+    const footZones = page.locator('.footnav a[data-i18n="foot_zones"]');
+
+    await expect(footHome).toHaveText('Startseite');
+    await expect(footFeatures).toHaveText('Funktionen');
+    await expect(footFeatures).toHaveAttribute('href', '/de/features/');
+    await expect(footContent).toHaveText('Inhalte');
+    await expect(footZones).toHaveText('Zonen');
+
+    await expect(page.locator('.footcredit [data-i18n-html="foot_credit"]')).toContainText('Open Perpetuum Wiki — generiert mit');
+    await expect(page.locator('.footcredit [data-i18n-html="foot_attribution"]')).toContainText('Wiki-Inhalte sind unter der Apache License 2.0');
   });
 });

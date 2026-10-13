@@ -99,10 +99,20 @@ def main():
     lines.append("    };")
     lines.append("")
 
+    # Pre-embed the lang-pages manifest if available
+    lang_pages_file = Path("static/lang-pages.json")
+    lang_pages_literal = "null"
+    if lang_pages_file.exists():
+        try:
+            with open(lang_pages_file, "r", encoding="utf-8") as fh:
+                lang_pages_literal = json.dumps(json.load(fh), separators=(',', ':'))
+        except Exception:
+            pass
+
     # Runtime logic (same as before, but reads from the generated data)
-    lines.append("""
+    runtime_template = """
     function getLangFromUrl() {
-        var m = /^\/([a-z]{2,3}(?:-[A-Z]{2})?)\//.exec(window.location.pathname);
+        var m = /^\\/([a-z]{2,3}(?:-[A-Z]{2})?)(\\/|$)/.exec(window.location.pathname);
         if (m) {
             var code = m[1];
             for (var i = 0; i < LANGS.length; i++) {
@@ -123,15 +133,17 @@ def main():
     }
 
     // Language pages manifest: {"fr": ["/fr/", "/fr/features/faq"], ...}
-    // Loaded from /lang-pages.json on startup.
-    var LANG_PAGES = null;
+    // Pre-embedded from static/lang-pages.json for instant synchronous link rewrite;
+    // fallback fetch if null.
+    var LANG_PAGES = __LANG_PAGES_PLACEHOLDER__;
 
     function loadLangPages() {
+        if (LANG_PAGES) return;
         try {
             var root = (document.body && document.body.getAttribute('data-root')) || '';
-            var path = root.replace(/^https?:\/\/[^\/]+/, '').replace(/\/+$/, '');
+            var path = root.replace(/^https?:\\/\\/[^\\/]+/, '').replace(/\\/+$/, '');
             fetch(path + '/lang-pages.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
-                if (d) LANG_PAGES = d;
+                if (d) { LANG_PAGES = d; rewriteNavLinks(getLang()); }
             }).catch(function () {});
         } catch (e) {}
     }
@@ -142,13 +154,15 @@ def main():
 
     function translatedUrl(l) {
         var path = window.location.pathname;
-        // Strip the current language prefix if present
+        // Strip the current language prefix if present (region-aware:
+        // /zh-CN/... must match "zh-CN", not "zh")
         var currentPrefix = '';
-        var m = /^\/([a-z]{2,3})/.exec(path);
+        var m = /^\\/([a-z]{2,3}(?:-[A-Z]{2})?)(\\/|$)/.exec(path);
         if (m && m[1] !== DEFAULT_LANG && LANG_PAGES && LANG_PAGES[m[1]]) {
             currentPrefix = '/' + m[1];
         }
-        var basePath = path.replace(currentPrefix, '');
+        var basePath = currentPrefix ? (path.slice(currentPrefix.length) || '/') : path;
+        if (!basePath.startsWith('/')) basePath = '/' + basePath;
 
         if (l === DEFAULT_LANG) {
             // Default language: the target is just the base path (no prefix)
@@ -159,6 +173,7 @@ def main():
         // Non-default language: check the manifest
         if (!LANG_PAGES || !LANG_PAGES[l]) return null;
         var target = '/' + l + basePath;
+        target = target.replace(/\\/\\//g, '/');
         var pages = LANG_PAGES[l];
         for (var i = 0; i < pages.length; i++) {
             if (pages[i] === target || pages[i] + '/' === target) return target;
@@ -169,6 +184,9 @@ def main():
     function setLang(l) {
         try { localStorage.setItem('wiki-lang', l); } catch (e) {}
         applyLang(l);
+        if (LANG_PAGES) rewriteNavLinks(l);
+        if (window.WIKI_syncLists) window.WIKI_syncLists();
+        if (window.WIKI_selectActive) window.WIKI_selectActive();
         // If a translated version of this page exists, navigate to it
         var url = translatedUrl(l);
         if (url && url !== window.location.pathname) {
@@ -252,6 +270,51 @@ def main():
 
     // Populate the language menu from LANGS (one button per available language).
     // The menu is empty in the HTML; this runs once on load.
+    
+    function rewriteNavLinks(l) {
+        if (!LANG_PAGES || l === DEFAULT_LANG) return;
+        // Sidenav (including .nav-group-link like Start/Play/Systems)
+        // + home cards + footer + topbar brand + in-page content.
+        var links = document.querySelectorAll('.sidenav a, .home-card, .footnav a, .brand, article a, main a');
+        for (var i = 0; i < links.length; i++) {
+            var a = links[i];
+            var href = a.getAttribute('href');
+            if (!href || href.startsWith('http') || href.startsWith('#')) continue;
+            
+            var currentPrefix = '';
+            var m = /^\\/([a-z]{2,3}(?:-[A-Z]{2})?)(\\/|$)/.exec(href);
+            if (m && m[1] !== DEFAULT_LANG && LANG_PAGES[m[1]]) {
+                currentPrefix = '/' + m[1];
+            }
+            var basePath = currentPrefix ? (href.slice(currentPrefix.length) || '/') : href;
+            if (!basePath.startsWith('/')) basePath = '/' + basePath;
+            
+            var target = '/' + l + basePath;
+            target = target.replace(/\\/\\//g, '/');
+            // Drop the anchor before matching: the manifest lists paths only
+            var hashIdx = target.indexOf('#');
+            var anchor = hashIdx !== -1 ? target.slice(hashIdx) : '';
+            if (hashIdx !== -1) target = target.slice(0, hashIdx);
+            var targetNoSlash = target.endsWith('/') ? target.slice(0, -1) : target;
+            var targetWithSlash = target.endsWith('/') ? target : target + '/';
+            
+            var pages = LANG_PAGES[l];
+            var hasTranslation = false;
+            for (var j = 0; j < pages.length; j++) {
+                if (pages[j] === targetNoSlash || pages[j] === targetWithSlash) {
+                    hasTranslation = true;
+                    break;
+                }
+            }
+            
+            if (hasTranslation) {
+                a.setAttribute('href', targetWithSlash + anchor);
+            }
+        }
+        if (window.WIKI_syncLists) window.WIKI_syncLists();
+        if (window.WIKI_selectActive) window.WIKI_selectActive();
+    }
+
     function buildLangMenu() {
         var menu = document.getElementById('lang-menu');
         if (!menu || menu.children.length > 0) return; // already populated
@@ -262,7 +325,7 @@ def main():
             b.setAttribute('role', 'menuitem');
             b.setAttribute('data-lang', LANGS[i].code);
             b.setAttribute('aria-pressed', LANGS[i].code === cur ? 'true' : 'false');
-            b.textContent = LANGS[i].code.toUpperCase() + ' \u2014 ' + LANGS[i].name;
+            b.textContent = LANGS[i].code.toUpperCase() + ' \\u2014 ' + LANGS[i].name;
             (function (btn) {
                 btn.addEventListener('click', function () {
                     setLang(btn.getAttribute('data-lang'));
@@ -287,6 +350,9 @@ def main():
         loadLangPages();
         buildLangMenu();
         applyLang(getLang());
+        if (LANG_PAGES) rewriteNavLinks(getLang());
+        if (window.WIKI_syncLists) window.WIKI_syncLists();
+        if (window.WIKI_selectActive) window.WIKI_selectActive();
         i18nReady();
     }
 
@@ -295,7 +361,8 @@ def main():
     } else {
         init();
     }
-""")
+"""
+    lines.append(runtime_template.replace("__LANG_PAGES_PLACEHOLDER__", lang_pages_literal))
     lines.append("})();")
     lines.append("")
 

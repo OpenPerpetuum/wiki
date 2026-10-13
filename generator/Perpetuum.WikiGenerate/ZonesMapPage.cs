@@ -292,7 +292,7 @@ public static class ZonesMapPage
             sb.Append($"<a class=\"zone-card\" href=\"/zones/{slug}/\">\n");
             sb.Append($"<img class=\"zone-card-thumb\" src=\"/zonemaps/{slug}/thumb.svg\" alt=\"\" loading=\"lazy\">\n");
             sb.Append($"<span class=\"zone-card-name\">{Escape(ZoneName(z.Name))}</span>\n");
-            sb.Append($"<span class=\"zone-card-meta\">{TypeLabel(z.Type)} · {z.W}×{z.H}</span>\n");
+            sb.Append($"<span class=\"zone-card-meta\">{TypeLabel(z.Type)}</span>\n");
             sb.Append("</a>\n");
         }
         sb.Append("</div>\n\n");
@@ -320,8 +320,8 @@ public static class ZonesMapPage
     private static string LegendHtml()
     {
         var sb = new StringBuilder();
-        sb.Append("<button type=\"button\" class=\"map-legend-toggle\" id=\"map-legend-toggle\" aria-expanded=\"true\">Legend</button>\n");
-        sb.Append("<div class=\"map-legend\" id=\"map-legend\">\n");
+        sb.Append("<button type=\"button\" class=\"map-legend-toggle\" id=\"map-legend-toggle\" aria-expanded=\"false\">Legend</button>\n");
+        sb.Append("<div class=\"map-legend legend-hidden\" id=\"map-legend\">\n");
         // Protection level section (top)
         sb.Append("  <div class=\"map-legend-group\">\n");
         sb.Append("    <button type=\"button\" class=\"map-legend-head\" aria-expanded=\"true\">Protection</button>\n");
@@ -448,6 +448,16 @@ public static class ZonesMapPage
             }).ToList();
         var plottedSet = new HashSet<string>(plotted.Select(z => z.Name), StringComparer.Ordinal);
         sb.Append($"<svg viewBox=\"0 0 {vbW:0} {vbH:0}\" role=\"img\" aria-label=\"Map of all game zones with teleport connections, at their grid positions, coastline outlines colored by galaxy family\" class=\"zonemap\" xmlns=\"http://www.w3.org/2000/svg\">\n");
+        // Region anchor targets for the "World map" back-links on zone pages
+        // (ZonePages.MapAnchor: #alpha #beta #t0..#t4 #training).
+        sb.Append("<circle cx=\"550\" cy=\"1080\" r=\"0\" id=\"alpha\"/>\n");
+        sb.Append("<circle cx=\"500\" cy=\"1070\" r=\"0\" id=\"beta\"/>\n");
+        sb.Append("<circle cx=\"580\" cy=\"450\" r=\"0\" id=\"t0\"/>\n");
+        sb.Append("<circle cx=\"580\" cy=\"550\" r=\"0\" id=\"t1\"/>\n");
+        sb.Append("<circle cx=\"580\" cy=\"650\" r=\"0\" id=\"t2\"/>\n");
+        sb.Append("<circle cx=\"580\" cy=\"750\" r=\"0\" id=\"t3\"/>\n");
+        sb.Append("<circle cx=\"580\" cy=\"850\" r=\"0\" id=\"t4\"/>\n");
+        sb.Append("<circle cx=\"559.5\" cy=\"1440.5\" r=\"0\" id=\"training\"/>\n");
         sb.Append("  <title>Map of all game zones with teleport connections, at their grid positions</title>\n");
         // Dark ocean background (matches the in-game world map)
         sb.Append($"  <rect width=\"{vbW:0}\" height=\"{vbH:0}\" fill=\"#0a1628\"/>\n");
@@ -488,8 +498,18 @@ public static class ZonesMapPage
             var shape = "";
             var hitArea = $"<circle cx=\"{x1:0.#}\" cy=\"{y1:0.#}\" r=\"{Math.Max(size / 2, 25):0.#}\" fill=\"transparent\" class=\"zonemap-node-{f}\"><title>{tip}</title></circle>";
             var imgBase = $"<image class=\"wm-base\" href=\"/zonemaps/{slug}/thumb.svg\" x=\"{x1 - size / 2:0.#}\" y=\"{y1 - size / 2:0.#}\" width=\"{size:0.#}\" height=\"{size:0.#}\" preserveAspectRatio=\"none\"/>";
-            var imgHeight = $"<image class=\"wm-height\" href=\"/zonemaps/{slug}/height.png\" x=\"{x1 - size / 2:0.#}\" y=\"{y1 - size / 2:0.#}\" width=\"{size:0.#}\" height=\"{size:0.#}\" preserveAspectRatio=\"none\" style=\"display:none\"/>";
-            var imgColor = $"<image class=\"wm-color\" href=\"/zonemaps/{slug}/color.png\" x=\"{x1 - size / 2:0.#}\" y=\"{y1 - size / 2:0.#}\" width=\"{size:0.#}\" height=\"{size:0.#}\" preserveAspectRatio=\"none\" style=\"display:none\"/>";
+            // The terrain layers (height/color) exist only for zones whose game
+            // layer data is available (tools/gen_zone_teleport_maps.py writes
+            // static/zonemaps/<slug>/). When the static tree is visible from the
+            // working directory, emit a layer image only for files that exist —
+            // a missing file would 404 in the link checker. When it is not
+            // visible (generator run from elsewhere), keep the classic output.
+            var staticRoot = Path.Combine(Directory.GetCurrentDirectory(), "static", "zonemaps");
+            var staticKnown = Directory.Exists(staticRoot);
+            var imgHeight = (!staticKnown || File.Exists(Path.Combine(staticRoot, slug, "height.png")))
+                ? $"<image class=\"wm-height\" href=\"/zonemaps/{slug}/height.png\" x=\"{x1 - size / 2:0.#}\" y=\"{y1 - size / 2:0.#}\" width=\"{size:0.#}\" height=\"{size:0.#}\" preserveAspectRatio=\"none\" style=\"display:none\"/>" : "";
+            var imgColor = (!staticKnown || File.Exists(Path.Combine(staticRoot, slug, "color.png")))
+                ? $"<image class=\"wm-color\" href=\"/zonemaps/{slug}/color.png\" x=\"{x1 - size / 2:0.#}\" y=\"{y1 - size / 2:0.#}\" width=\"{size:0.#}\" height=\"{size:0.#}\" preserveAspectRatio=\"none\" style=\"display:none\"/>" : "";
             var image = imgBase + imgHeight + imgColor;
             // Landmark icons at real positions: base (dot) at center + teleports at tile coords.
             var iconR = Math.Max(0.4, size * 0.02);

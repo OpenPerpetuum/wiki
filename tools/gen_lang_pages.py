@@ -12,8 +12,16 @@ Usage:
   output-file   defaults to "static/lang-pages.json"
 """
 import json
+import re
 import sys
 from pathlib import Path
+
+
+def slugify(name):
+    """Page-name slug as Zola renders it (slug crate): lowercase, runs of
+    non-alphanumerics (including underscores) become single hyphens."""
+    s = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+    return s or name
 
 
 def main():
@@ -36,9 +44,19 @@ def main():
             continue  # not a language dir (e.g. "features", "zones", "content")
         # Build the page path: /<lang>/<section>/<page>/
         # content/fr/features/faq.md → /fr/features/faq/
+        # The page-name segment is slugified the way Zola renders it, so the
+        # manifest matches real URLs (e.g. deployable_fields.md →
+        # /fr/formats/deployable-fields/).
         rel = md_file.relative_to(content_dir)
-        # Remove the .md extension and add trailing slash
-        page_path = "/" + str(rel.with_suffix("")).replace("\\", "/")
+        parts = list(rel.parts)
+        name, _ext = parts[-1].rsplit(".", 1)
+        if name == "_index":
+            # section index → the section root: /ru/features/
+            parts = parts[:-1]
+            page_path = "/" + "/".join(parts)
+        else:
+            parts[-1] = slugify(name)
+            page_path = "/" + "/".join(parts)
         # _index.md → the section root
         if page_path.endswith("/_index"):
             page_path = page_path[: -len("_index")]

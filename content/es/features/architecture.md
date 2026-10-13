@@ -1,68 +1,58 @@
 ---
-title: "Arquitectura del desarrollador"
+title: "Inicio para desarrolladores"
 description: "Arquitectura de alto nivel del juego y servidor Open Perpetuum, para desarrolladores y devops."
 ---
 
-# Arquitectura del desarrollador
+# Inicio para desarrolladores
 
-Esta página da una vista general de la arquitectura de Open Perpetuum para
-desarrolladores y devops.
+Un mapa de alto nivel sobre el funcionamiento del juego desde el punto de vista del desarrollador/devops.
+Próximamente habrá páginas dedicadas con mayor nivel de detalle; por ahora, esta es la orientación general.
 
-## Stack tecnológico
+```mermaid
+flowchart LR
+    C["Cliente\n(C++, Windows)"] <-->|"TCP, protocolo binario"| S["PerpetuumServer2\n(.NET 8, C#)"]
+    S --> DB[("SQL Server\nperpetuumsa")]
+    S --> Z["Tiempo de ejecución de zona\n(casillas, entidades,\narchivos de zona)"]
+    W["Esta wiki\n(Zola, generada\ndesde la misma BD)"] --- DB
+```
 
-| Componente | Tecnología |
-|---|---|
-| **Servidor de juego** | C# / .NET |
-| **Cliente** | C# / .NET (Windows), Proton (Linux) |
-| **Base de datos** | SQL Server |
-| **Wiki** | Zola (Rust) + HTML/CSS/JS |
-| **CI/CD** | GitHub Actions |
+## Las piezas
 
-## Arquitectura del servidor
+- **Cliente** — el cliente de juego de Perpetuum (Windows; consulta [Configuración de PC y cliente](/es/features/client-setup/)
+  para ejecutarlo, incluido Linux). Se comunica con el servidor a través de un protocolo binario TCP;
+  cada acción del jugador es un *comando* con nombre (los mismos nombres que utiliza esta wiki en el
+  [inventario de acciones](/es/features/#complete-action-inventory)).
+- **Servidor (PerpetuumServer2)** — un código base en C#/.NET 8. Un único proceso ejecuta
+  todo el servidor: la capa de conexión, la lógica del juego (robots, zonas, misiones,
+  mercado, producción, investigación) y el tiempo de ejecución de zonas que procesa el
+  mundo de casillas de cada zona (terreno, entidades, teletransportes).
+- **Base de datos** — SQL Server, base de datos `perpetuumsa`. Contenido estático del juego (valores por defecto de
+  entidades, recetas, extensiones, árbol tecnológico, tienda, descripciones de teletransporte) y todo
+  el estado dinámico (personajes, robots, contenedores, mercado, estado de zonas).
+- **Archivos de zona** — las zonas son cuadrículas de casillas (capas de altitud y control, 2 bytes/
+  casilla) distribuidas en archivos `.gbf` y editables por zona; consulta el
+  [formato de archivos de zona](/es/formats/zone-files/).
+- **Datos de referencia** — el cliente descarga tablas de estadísticas del servidor al
+  iniciar (consulta [Servidor y referencia](/es/features/server/)).
 
-El servidor de juego es una aplicación C# que gestiona:
+## Ejecución
 
-- **Las conexiones** de los clientes
-- **El mundo** (zonas, robots, objetos)
-- **Las transacciones** (producción, mercado, investigación)
-- **Las misiones**
-- **Las PBS**
+- El servidor se ejecuta en Docker Compose junto a SQL Server
+  (el proyecto `perpetuumserver2`); el contenedor de base de datos es lo que lee el
+  generador de esta wiki.
+- El contenido estático se valida contra los archivos de reglas **plantrules**; el generador en C#
+  de la wiki (`make generate`) se ejecuta en el mismo ecosistema y lee la misma
+  base de datos, por lo que cada tabla generada en este sitio refleja datos del servidor en vivo.
+- Los mapas de teletransporte de zonas de esta wiki se renderizan a partir de las mismas capas de
+  altitud que utiliza el propio juego.
 
-## Base de datos
+## Dónde ir después
 
-La base de datos SQL Server contiene:
+- **[Formatos](/es/formats/)** — referencia de campos para desarrolladores: cómo se almacena cada campo
+  de estadísticas (columna de base de datos, clave de archivo de reglas, byte de capa binaria) y cómo se
+  consume, con ejemplos prácticos.
+- **[Servidor y referencia](/es/features/server/)** — los metasistemas: información del servidor,
+  puntuaciones más altas, los datos de referencia que descarga el cliente y la tienda del juego.
 
-- **entitydefaults** — todas las definiciones de objetos
-- **components** — las recetas de producción
-- **techtree** — el árbol tecnológico
-- **extensions** — el árbol de extensiones
-- **zones** — las datos de zonas
-- **items** — los objetos de los jugadores
-- **characters** — los personajes
-
-## Wiki
-
-El wiki es un sitio estático generado por **Zola**:
-
-- **Contenido escrito a mano**: `content/features/`, `content/menu/`, `content/formats/`
-- **Contenido generado**: `content/content/` (objetos, minerales, recetas, etc.)
-- **Generador C#**: `generator/Perpetuum.WikiGenerate/`
-- **Assets**: `static/` (CSS, JS, imágenes, SVG)
-
-## CI/CD
-
-El pipeline CI/CD:
-
-1. **Build** — compila el generador C#
-2. **Generate** — genera el contenido desde la base de datos
-3. **Zonemaps** — genera los mapas de zonas
-4. **Build wiki** — build del sitio Zola
-5. **Test** — ejecuta las pruebas Playwright
-6. **Deploy** — despliega en GitHub Pages
-
-## Notas prácticas
-
-- **El generador C# es la fuente de verdad** — el contenido es generado, no escrito a mano.
-- **La base de datos es solo lectura** — el generador nunca modifica las datos.
-- **El wiki es estático** — sin backend, todo es pre-generado.
-- **Las pruebas Playwright** verifican los enlaces, la navegación, y el i18n.
+> Están previstas más páginas para desarrolladores (protocolo, ciclo de vida de zonas, despliegue);
+> esta página es el punto de inicio para ellas.

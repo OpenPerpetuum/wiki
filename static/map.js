@@ -72,8 +72,9 @@
     function contentSize(wrap) {
         if (wrap._d3_cache) return wrap._d3_cache.c;
         var svg = wrap._zoomSvg;
-        var vw = svg.clientWidth;
-        var vh = svg.clientHeight;
+        var st = window.getComputedStyle(svg);
+        var vw = svg.clientWidth - parseFloat(st.paddingLeft || 0) - parseFloat(st.paddingRight || 0);
+        var vh = svg.clientHeight - parseFloat(st.paddingTop || 0) - parseFloat(st.paddingBottom || 0);
         if (svg.viewBox && svg.viewBox.baseVal.width) {
             var vb = svg.viewBox.baseVal;
             var k = Math.min(vw / vb.width, vh / vb.height);
@@ -277,9 +278,9 @@
         if (typeof ns === 'undefined') {
             // World map fallback: the content fills the viewBox so the
             // pre-zoom formula gives s < 1.05. Set a sensible default
-            // zoom (4x) so labels are readable on load.
+            // zoom so labels are readable on load.
             if (svg.querySelector('.zonemap-tp')) {
-                ns = 4; tx = 0; ty = 0;
+                ns = INITIAL_MAX; tx = 0; ty = 0;
             } else { return; }
         }
         st.s = ns; st.tx = tx; st.ty = ty;
@@ -315,8 +316,10 @@
                 .scaleExtent([MIN, MAX])
                 .on("start", function() {
                     // removed willChange: transform as it causes massive compositing layers at max zoom
-var svg = wrap._zoomSvg;
-                    var vw = svg.clientWidth, vh = svg.clientHeight;
+                    var svg = wrap._zoomSvg;
+                    var st = window.getComputedStyle(svg);
+                    var vw = svg.clientWidth - parseFloat(st.paddingLeft || 0) - parseFloat(st.paddingRight || 0);
+                    var vh = svg.clientHeight - parseFloat(st.paddingTop || 0) - parseFloat(st.paddingBottom || 0);
                     var cw = vw, ch = vh;
                     if (svg.viewBox && svg.viewBox.baseVal.width) {
                         var vb = svg.viewBox.baseVal;
@@ -325,8 +328,8 @@ var svg = wrap._zoomSvg;
                     }
                     wrap._d3_cache = {
                         rect: wrap.getBoundingClientRect(),
-                        W: vw,
-                        H: vh,
+                        W: svg.clientWidth,
+                        H: svg.clientHeight,
                         c: { w: cw, h: ch }
                     };
                 })
@@ -366,25 +369,12 @@ wrap._d3_cache = null;
         attachTpLines(wrap);
         attachTpSelector(wrap);
         ensureReset(wrap);
+        initContentZoom(wrap);
+        applyWrap(wrap);
         var isWorldMap = !!wrap.querySelector('svg.zonemap');
-        if (isWorldMap && !wrap._zmMaxZoomDone) {
-            wrap._zmMaxZoomDone = true;
-            svg.style.opacity = '0.01';
-            svg.style.transform = 'scale(' + MAX + ')';
-            setTimeout(function() {
-                svg.style.opacity = '';
-                initContentZoom(wrap);
-                applyWrap(wrap);
-                attachZoomSlider(wrap);
-                attachProgressiveDisclosure(wrap);
-            }, 50);
-        } else {
-            initContentZoom(wrap);
-            applyWrap(wrap);
-            if (isWorldMap) {
-                attachZoomSlider(wrap);
-                attachProgressiveDisclosure(wrap);
-            }
+        if (isWorldMap) {
+            attachZoomSlider(wrap);
+            attachProgressiveDisclosure(wrap);
         }
     }
 
@@ -603,7 +593,7 @@ wrap._d3_cache = null;
             return name.toLowerCase().replace(/_/g, '-');
         }
         function setZoneActive(newZone) {
-            if (!(tpFine && tpFine.matches)) return;
+            if (tpFine && !tpFine.matches && window.matchMedia && window.matchMedia('(pointer: coarse)').matches) return;
             if (newZone === activeZone) return;
             activeZone = newZone;
             for (var i = 0; i < segs.length; i++) {

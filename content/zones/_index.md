@@ -20,6 +20,7 @@ This section explains the mechanics and shows real zones as worked examples.
 | Page | Contents |
 |---|---|
 | [Map](/zones/map/) | All zones plotted on the server's x/y grid, colored by galaxy, with the known rift gate connections |
+| [Protection levels](/zones/protection/) | Alpha, beta, and gamma protection levels, PvP rules, diode markers, and terraforming |
 | [Generation](/zones/generation/) | The rules: how ore nodes and plant populations are created, grown, and replaced |
 | [Zone index](/zones/zone-index/) | Every zone: type, protection, fertility, plant species count, ore configuration |
 | [New Virginia](/zones/zone-tm/) | Worked example — a protected PvE starter zone (3 ore types, basic plants) |

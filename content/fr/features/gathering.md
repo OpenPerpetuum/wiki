@@ -79,7 +79,7 @@ Les champs qui comptent pour un joueur :
 | `onlyOnUnprotectedZone` | Ne pousse que sur les zones non protégées (classe bêta/gamma) |
 
 La référence champ par champ complète (types, valeurs par défaut, stockage, et comment
-le tick de zone les utilise) est dans [Formats → Champs des plantes](/formats/plant-fields/).
+le tick de zone les utilise) est dans [Formats → Champs des plantes](/fr/formats/plant-fields/).
 
 ## Plantes
 

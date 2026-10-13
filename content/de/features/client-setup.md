@@ -1,49 +1,89 @@
 ---
-title: "Client & PC"
-description: "Client-Anforderungen, Installation auf Windows und Linux, und PC-Konfiguration."
-weight: 130
+title: "Client- & PC-Einrichtung"
+description: "Den Client unter Windows und Linux ausführen, Multiboxing im Rahmen der Regeln, UI-Skalierung und Starten ohne Administratorrechte."
+weight: 24
 ---
 
-# Client & PC
+# Client- & PC-Einrichtung
 
-## Anforderungen
+Praktische Hinweise zum Ausführen des Perpetuum-Clients.
 
-| Komponente | Minimum | Empfohlen |
-|---|---|---|
-| **OS** | Windows 10 | Windows 11 |
-| **CPU** | Dual-core 2 GHz | Quad-core 3 GHz |
-| **RAM** | 4 GB | 8 GB |
-| **GPU** | DirectX 11 | DirectX 12 |
-| **Speicher** | 10 GB SSD | 10 GB SSD |
+## Die Regeln zuerst
 
-## Installation auf Windows
+Multiboxing (mehrere Clients, die mehrere Charaktere steuern) ist **in gewissen Grenzen**
+erlaubt. Fair-Play-Regeln, die man vorab kennen muss:
 
-1. Installiere [Steam](https://store.steampowered.com/).
-2. Suche **Open Perpetuum** im Steam Store.
-3. Klicke auf **Installieren**.
-4. Melde dich an und spiele.
+- **Keine Automatisierung oder Multi-Client-Steuerungssoftware** — niemals.
+- **Nicht mehr als 5 gleichzeitig aktive Accounts.**
+- Keine Accounts, die mit gefälschten, ungültigen oder unerreichbaren E-Mail-Adressen registriert wurden —
+  die Adresse muss dir gehören.
 
-## Installation auf Linux
+Verstöße können einen sofortigen, permanenten Bann zur Folge haben.
 
-Der Client ist Windows-only, funktioniert aber mit **Proton**:
+## Windows: Mehrere Clients
 
-1. Installiere [Steam](https://store.steampowered.com/) auf deiner Distro.
-2. Aktiviere **Steam Play** (Proton) in Einstellungen → Plattform.
-3. Suche **Open Perpetuum** und installiere es.
-4. Steam verwendet Proton automatisch.
+1. Installiere den Perpetuum-Steam-Client.
+2. Prüfe, ob der Spielordner eine `steam_appid.txt` enthält, deren Inhalt
+   `223410` lautet.
+3. Kopiere den gesamten Ordner `Perpetuum` einmal für jeden zusätzlichen Client.
+4. Führe die `Perpetuum.exe` in jeder Kopie aus (optional können die Kopien als
+   Steam-fremde Spiele zu Steam hinzugefügt werden).
 
-## Konfiguration
+**Speicherplatz:** `Layers.gbf` und `Perpetuum.gbf` sind groß und in jeder
+Kopie identisch — erstelle symbolische Links (`mklink`) oder Verknüpfungen, damit sie
+nur einmal gespeichert werden.
 
-- **Grafik** — passe die Qualität an deine GPU an.
-- **Audio** — konfiguriere Lautstärke und Kanäle.
-- **Steuerung** — personalisiere die Tastaturbefehle.
-- **Sprache** — wähle deine Sprache (Standard: Englisch).
+## Linux: Mehrere Clients
 
-## Problembehebung
+Jede Client-Kopie benötigt eine **andere Proton-Version**, andernfalls verweigert sie den Start:
 
-| Problem | Lösung |
-|---|---|
-| **Startet nicht** | Prüfe die Anforderungen, aktualisiere GPU-Treiber |
-| **FPS-Verlust** | Reduziere die Grafikqualität, schließe andere Apps |
-| **Verbindungsabbrüche** | Prüfe deine Internetverbindung, nutze Kabel wenn möglich |
-| **Proton-Fehler** | Versuche eine andere Proton-Version |
+1. Installiere Steam und Perpetuum wie gewohnt; überprüfe `steam_appid.txt` (`223410`).
+2. Kopiere den Ordner `Perpetuum` pro Client.
+3. Während du bei Steam angemeldet bist, installiere mehrere aktuelle Proton-Versionen (über Steam,
+   manuell oder GloriousEggroll-Builds).
+4. Füge jede Kopie als Steam-fremdes Spiel zu Steam hinzu und verweise auf die jeweilige `Perpetuum.exe`.
+5. Erzwinge in den Startoptionen jeder Kopie eine **andere Proton-Version**.
+6. Starte zuerst die eigentliche Steam-Anwendung und starte danach die Kopien.
+
+Fehlerbehebung:
+
+- Das Auswählen einer Proton-Version installiert sie **nicht** — du musst das
+  Spiel einmal mit dieser Auswahl starten.
+- Falls die eigentliche Steam-App nicht startet, starte sie zuerst im abgesicherten Modus (Safe Mode).
+- Seit Proton 5.0 läuft die DirectX 9/12-Emulation über **Vulkan**. Keine
+  Vulkan-fähige GPU vorhanden? Füge `PROTON_USE_WINED3D=1 %command%` zu den Startoptionen
+  jeder Kopie hinzu.
+- Leeres Textfeld mit roter Warnung: Installiere `libfreetype6:i386`
+  (Debian-/Ubuntu-basierte Distributionen).
+
+## UI-Skalierung
+
+Der Client verwendet eine Pixel-feste Benutzeroberfläche ohne dynamische Skalierung. Ausweichmöglichkeiten:
+
+- **Vollbild mit niedrigerer Auflösung** — wechsle in den Vollbildmodus mit einer geringeren Auflösung als dein
+  Bildschirm und lasse die Benutzeroberfläche strecken (Fenster- und rahmenlose Modi
+  verwenden immer die native Auflösung). Das Herabsetzen der Bildschirmauflösung im Betriebssystem
+  bewirkt dasselbe.
+- **UI-Scaler-Programme** — z. B. Lossless Scaling (Steam, Windows): Führe den Client im
+  Fenstermodus in der Basisgröße aus, lege einen benutzerdefinierten Skalierungsfaktor im Scaler fest,
+  aktiviere die Skalierung und fokussiere das Client-Fenster. Beachte den üblichen Kompromiss
+  zwischen Bildglättung und Textschärfe.
+- **Bildschirmlupe des Betriebssystems** — die Windows-Bildschirmlupe (oder ein Äquivalent) für das gelegentliche
+  genaue Ablesen.
+
+## Starten ohne Administratorrechte
+
+1. Kopiere die Client-Dateien aus dem Steam-Ordner an einen beschreibbaren Speicherort.
+2. Erstelle dort eine `Perpetuum.bat` mit dem Inhalt:
+   `cmd /min /C "set __COMPAT_LAYER=RUNASINVOKER && start Perpetuum.exe"`.
+3. Starte das Spiel über die Batch-Datei.
+
+<!--
+Developer notes: rewritten 2026 in original prose. An earlier version was adapted from the
+Open Perpetuum community wiki (perpetuum.miraheze.org: Multi-Boxing, Linux
+Setup, Client UI Scaling, Launching without Admin Rights); that text was
+fully replaced, not reused. These are client-side procedures for the retail Steam client build;
+nothing here is verifiable from this server's backend, and no server feature is
+claimed. The Reshader (graphics mod) was intentionally left out: it targets the
+retail client build and is not an OPP-server feature.
+-->

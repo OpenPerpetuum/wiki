@@ -70,8 +70,8 @@
     <!-- Row 1: the wiki title (left) and the chrome icons (right).
          The hamburger (mobile only) opens the sidenav drawer. -->
     <div class="topbar-main">
-        <button id="sidenav-toggle" class="sidenav-toggle" type="button" aria-label="Open the menu" aria-controls="sidenav" aria-expanded="false">☰</button>
-        <a class="brand" href="/"><span class="brand-logo" aria-hidden="true"></span><span data-i18n="brand" data-i18n="brand">{{ config.extra.ui.brand }}</span></a>
+        <button id="sidenav-toggle" class="sidenav-toggle" type="button" data-i18n-aria="aria_menu_toggle" aria-label="Open the menu" aria-controls="sidenav" aria-expanded="false">☰</button>
+        <a class="brand" href="/"><span class="brand-logo" aria-hidden="true"></span><span data-i18n="brand">{{ config.extra.ui.brand }}</span></a>
         <div class="palette-wrap">
         <button id="lang-toggle" class="palette-toggle" type="button" data-i18n-aria="aria_language" aria-label="{{ config.extra.ui.aria_language }}" title="{{ config.extra.ui.aria_language }}" aria-haspopup="true" aria-expanded="false">
             <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.4 3.8 5.6 3.8 9S14.5 18.6 12 21c-2.5-2.4-3.8-5.6-3.8-9S9.5 5.4 12 3Z"/></svg>
@@ -83,29 +83,29 @@
             <span class="palette-swatch"></span>
         </button>
         <div id="palette-menu" class="palette-menu" role="menu">
-            <div class="palette-group" data-i18n="menu_palette_group" data-i18n="menu_palette_group">{{ config.extra.ui.menu_palette_group }}</div>
-            <button type="button" role="menuitem" data-palette="cyan" aria-pressed="true"><span class="palette-dot" aria-hidden="true" style="background:#41d3ff"></span><span data-i18n="palette_cyan" data-i18n="palette_cyan">{{ config.extra.ui.palette_cyan }}</span></button>
-            <button type="button" role="menuitem" data-palette="violet" aria-pressed="false"><span class="palette-dot" aria-hidden="true" style="background:#a78bfa"></span><span data-i18n="palette_violet" data-i18n="palette_violet">{{ config.extra.ui.palette_violet }}</span></button>
-            <button type="button" role="menuitem" data-palette="green" aria-pressed="false"><span class="palette-dot" aria-hidden="true" style="background:#4ade80"></span><span data-i18n="palette_phosphor" data-i18n="palette_phosphor">{{ config.extra.ui.palette_phosphor }}</span></button>
-            <button type="button" role="menuitem" data-palette="amber" aria-pressed="false"><span class="palette-dot" aria-hidden="true" style="background:#fbbf24"></span><span data-i18n="palette_amber" data-i18n="palette_amber">{{ config.extra.ui.palette_amber }}</span></button>
-            <div class="palette-group" data-i18n="menu_cb_group" data-i18n="menu_cb_group">{{ config.extra.ui.menu_cb_group }}</div>
-            <button type="button" role="menuitem" data-cb="none" aria-pressed="true"><span data-i18n="cb_default" data-i18n="cb_default">{{ config.extra.ui.cb_default }}</span></button>
-            <button type="button" role="menuitem" data-cb="deutan"><span data-i18n="cb_deutan" data-i18n="cb_deutan">{{ config.extra.ui.cb_deutan }}</span></button>
-            <button type="button" role="menuitem" data-cb="protan"><span data-i18n="cb_protan" data-i18n="cb_protan">{{ config.extra.ui.cb_protan }}</span></button>
-            <button type="button" role="menuitem" data-cb="tritan"><span data-i18n="cb_tritan" data-i18n="cb_tritan">{{ config.extra.ui.cb_tritan }}</span></button>
-            <button type="button" role="menuitem" data-cb="achro"><span data-i18n="cb_achro" data-i18n="cb_achro">{{ config.extra.ui.cb_achro }}</span></button>
+            <div class="palette-group" data-i18n="menu_palette_group">{{ config.extra.ui.menu_palette_group }}</div>
+            <button type="button" role="menuitem" data-palette="cyan" aria-pressed="true"><span class="palette-dot" aria-hidden="true" style="background:#41d3ff"></span><span data-i18n="palette_cyan">{{ config.extra.ui.palette_cyan }}</span></button>
+            <button type="button" role="menuitem" data-palette="violet" aria-pressed="false"><span class="palette-dot" aria-hidden="true" style="background:#a78bfa"></span><span data-i18n="palette_violet">{{ config.extra.ui.palette_violet }}</span></button>
+            <button type="button" role="menuitem" data-palette="green" aria-pressed="false"><span class="palette-dot" aria-hidden="true" style="background:#4ade80"></span><span data-i18n="palette_phosphor">{{ config.extra.ui.palette_phosphor }}</span></button>
+            <button type="button" role="menuitem" data-palette="amber" aria-pressed="false"><span class="palette-dot" aria-hidden="true" style="background:#fbbf24"></span><span data-i18n="palette_amber">{{ config.extra.ui.palette_amber }}</span></button>
+            <div class="palette-group" data-i18n="menu_cb_group">{{ config.extra.ui.menu_cb_group }}</div>
+            <button type="button" role="menuitem" data-cb="none" aria-pressed="true"><span data-i18n="cb_default">{{ config.extra.ui.cb_default }}</span></button>
+            <button type="button" role="menuitem" data-cb="deutan"><span data-i18n="cb_deutan">{{ config.extra.ui.cb_deutan }}</span></button>
+            <button type="button" role="menuitem" data-cb="protan"><span data-i18n="cb_protan">{{ config.extra.ui.cb_protan }}</span></button>
+            <button type="button" role="menuitem" data-cb="tritan"><span data-i18n="cb_tritan">{{ config.extra.ui.cb_tritan }}</span></button>
+            <button type="button" role="menuitem" data-cb="achro"><span data-i18n="cb_achro">{{ config.extra.ui.cb_achro }}</span></button>
         </div>
-        <button id="theme-toggle" class="theme-toggle" type="button" data-i18n-aria="aria_theme_toggle" data-i18n-aria="aria_theme_toggle" aria-label="{{ config.extra.ui.aria_theme_toggle}}" title="{{ config.extra.ui.aria_theme_toggle}}">☾</button>
+        <button id="theme-toggle" class="theme-toggle" type="button" data-i18n-aria="aria_theme_toggle" aria-label="{{ config.extra.ui.aria_theme_toggle}}" title="{{ config.extra.ui.aria_theme_toggle}}">☾</button>
         <!-- Play / Dev mode knob: Dev = matrix theme + the Dev sidenav group.
              The active side is highlighted by html[data-mode] in the CSS. -->
-        <button id="mode-toggle" class="mode-toggle" type="button" aria-pressed="false" data-i18n-aria="aria_mode_toggle" data-i18n-aria="aria_mode_toggle" aria-label="{{ config.extra.ui.aria_mode_toggle}}" title="{{ config.extra.ui.aria_mode_toggle}}">
-            <span class="mode-opt" data-mode-opt="play" data-i18n="nav_mode_play" data-i18n="nav_mode_play">{{ config.extra.ui.nav_mode_play }}</span><span class="mode-opt" data-mode-opt="dev" data-i18n="nav_mode_dev" data-i18n="nav_mode_dev">{{ config.extra.ui.nav_mode_dev }}</span>
+        <button id="mode-toggle" class="mode-toggle" type="button" aria-pressed="false" data-i18n-aria="aria_mode_toggle" aria-label="{{ config.extra.ui.aria_mode_toggle}}" title="{{ config.extra.ui.aria_mode_toggle}}">
+            <span class="mode-opt" data-mode-opt="play" data-i18n="nav_mode_play">{{ config.extra.ui.nav_mode_play }}</span><span class="mode-opt" data-mode-opt="dev" data-i18n="nav_mode_dev">{{ config.extra.ui.nav_mode_dev }}</span>
         </button>
         </div>
     </div>
     <!-- Row 2: the search bar (wide, centered). -->
     <div class="topbar-search">
-        <input type="search" id="wiki-search" data-i18n-ph="search_placeholder" data-i18n-ph="search_placeholder" placeholder="{{ config.extra.ui.search_placeholder}}" autocomplete="off" spellcheck="false">
+        <input type="search" id="wiki-search" data-i18n-ph="search_placeholder" placeholder="{{ config.extra.ui.search_placeholder}}" autocomplete="off" spellcheck="false">
     </div>
 </header>
 <div id="search-results" class="search-results" hidden></div>
@@ -146,7 +146,7 @@
                 <li><a href="/zones/zone-training/" data-i18n="nav_map_training">{{ config.extra.ui.nav_map_training }}</a></li>
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
-                        <a href="/zones/protection/" data-i18n="nav_how_it_works">{{ config.extra.ui.nav_how_it_works }}</a>
+                        <a href="/zones/protection/" data-i18n="nav_map_protection">{{ config.extra.ui.nav_map_protection }}</a>
                         <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                     </div>
                     <ul class="nav-sub">
@@ -558,6 +558,7 @@
             d.textContent = d.getAttribute("data-src");
         });
         window.mermaid.initialize({ startOnLoad: false, theme: theme,
+                securityLevel: 'loose',
                 themeVariables: { fontSize: '18px' } });
         window.mermaid.run({ querySelector: ".mermaid" });
     }
@@ -611,38 +612,67 @@
     // (e.g. an item-shop category page opens Item shop, a gamma anchor
     // opens Gamma), so the active entry is visible on load.
     (function () {
+        var ROOT = document.body.getAttribute("data-root") || "/";
+        var rootPath = ROOT.replace(/^https?:\/\/[^/]+/, "").replace(/\/+$/, "");
+
+        function stripOrigin(h) {
+            var o = location.origin;
+            return h && h.indexOf(o) === 0 ? (h.slice(o.length) || "/") : h;
+        }
+
+        function stripLang(p) {
+            return p ? p.replace(/^\/([a-z]{2,3}(?:-[A-Z]{2})?)(\/|$)/, "/") : "/";
+        }
+
+        function norm(p) { return p.length > 1 && p[p.length - 1] === "/" ? p : p + "/"; }
+
+        function cleanPath(raw) {
+            if (!raw) return "";
+            var h = stripOrigin(raw);
+            var hashIdx = h.indexOf("#");
+            var anchor = hashIdx !== -1 ? h.slice(hashIdx) : "";
+            var p = hashIdx !== -1 ? h.slice(0, hashIdx) : h;
+            if (rootPath && p.indexOf(rootPath) === 0) {
+                p = p.slice(rootPath.length) || "/";
+            }
+            p = stripLang(p);
+            if (!p.startsWith("/")) p = "/" + p;
+            return norm(p) + anchor;
+        }
+
         function setCollapsed(target, collapsed) {
             target.classList.toggle("collapsed", collapsed);
             var head = target.querySelector(".nav-group-head, .nav-sub-head");
             var btn = head ? head.querySelector(".nav-caret") : null;
             if (btn) btn.setAttribute("aria-expanded", collapsed ? "false" : "true");
         }
+
         Array.prototype.slice.call(document.querySelectorAll(".sidenav .nav-caret")).forEach(function (btn) {
             btn.addEventListener("click", function () {
                 var target = btn.closest(".nav-group, .nav-has-sub");
                 if (target) setCollapsed(target, !target.classList.contains("collapsed"));
             });
         });
-        var path = document.location.pathname;
-        var hash = document.location.hash;
-        function norm(p) { return p.length > 1 && p[p.length - 1] === "/" ? p : p + "/"; }
+
         // Does this link point at the current page? Hash links only count
         // when the URL carries that hash (hash anchors share the page path
         // with their parent entry); plain links count by exact or prefix
         // path match (sub-pages like /content/shop/ammo/ under /content/shop/).
         function linkInside(href) {
+            var canonPath = cleanPath(document.location.pathname);
             var hash = document.location.hash;
-            var i = href.indexOf("#");
-            var h = i === -1 ? href : href.slice(0, i);
-            if (h.length < 2) return false;
-            if (h[h.length - 1] !== "/") h += "/";
-            var linkHash = i === -1 ? "" : href.slice(i);
-            if (hash) return (linkHash === hash || !linkHash) && h === norm(path);
-            return !linkHash && (h === norm(path) || (h.length < path.length && path.indexOf(h) === 0));
+            var ch = cleanPath(href);
+            var i = ch.indexOf("#");
+            var h = i === -1 ? ch : ch.slice(0, i);
+            if (h.length < 2 && h !== "/") return false;
+            if (h.length > 1 && h[h.length - 1] !== "/") h += "/";
+            var linkHash = i === -1 ? "" : ch.slice(i);
+            if (hash) return (linkHash === hash || !linkHash) && h === canonPath;
+            return !linkHash && (h === canonPath || (h !== "/" && canonPath.length > h.length && canonPath.indexOf(h) === 0));
         }
+
         // Open the 2nd-level sub-list that contains the current page (the rest
-        // stay collapsed). Re-run on same-page hash navigation — that is not
-        // a page load, so load-only code would miss it.
+        // stay collapsed). Re-run on same-page hash navigation.
         function syncLists() {
             Array.prototype.slice.call(document.querySelectorAll(".sidenav li li.nav-has-sub")).forEach(function (el) {
                 var inside = Array.prototype.slice.call(el.querySelectorAll("a[href]"))
@@ -652,99 +682,141 @@
         }
         syncLists();
         window.addEventListener("hashchange", syncLists);
-    })();
-    // Current-page selection: bold + outlined in both the left menu and the
-    // bottom menu.
-    (function () {
-        var path = document.location.pathname;
-        // Deploy base (config.base_url, e.g. "/" locally or the full GitHub
-        // Pages URL). Zola rewrites every menu href to carry it, so menu
-        // matching compares against the pathname part and strips the origin.
-        var ROOT = document.body.getAttribute("data-root") || "/";
-        // the base's path part as a prefix: "" at the domain root, "/Wiki"
-        // under the Pages subpath ("" — not "/" — so concatenating
-        // rootPath + "/zones/..." never produces a double slash)
-        var rootPath = ROOT.replace(/^https?:\/\/[^/]+/, "").replace(/\/+$/, "");
-        function stripOrigin(h) {
-            var o = location.origin;
-            return h && h.indexOf(o) === 0 ? (h.slice(o.length) || "/") : h;
-        }
-        function norm(p) { return p.length > 1 && p[p.length - 1] === "/" ? p : p + "/"; }
-        // Left menu selection: same-page anchors (e.g. /zones/map/#training)
-        // use an exact full-href match (path + hash), so the selected anchor
-        // is highlighted instead of its parent entry (World); otherwise the
-        // longest matching entry wins — the page itself, or the deepest menu
-        // entry that is an ancestor of it (so a generated sub-page like an
-        // item page highlights "Content", a shop category its entry).
+        window.WIKI_syncLists = syncLists;
+
+        // Current-page selection: bold + outlined in both the left menu and the
+        // bottom menu.
         function selectActive() {
+            var canonPath = cleanPath(document.location.pathname);
             var hash = document.location.hash;
             var best = null;
+
             // Zone pages belong to a family (the body carries data-zone-family
             // from the page's front matter): highlight the family-listing entry
             // (Alpha / Beta / Gamma) instead of the plain "/zones/" prefix,
             // and open Gamma's tier sub-list so the entry is reachable.
             var fam = document.body.getAttribute("data-zone-family");
-            if (fam && path.indexOf(rootPath + "/zones/zone-") === 0) {
-                var famLink = document.querySelector('.sidenav a[href="' + rootPath + "/zones/" + fam + "/" + '"]');
-                if (famLink) {
-                    var sub = famLink.closest("li.nav-has-sub");
-                    if (sub && sub.classList.contains("collapsed")) {
-                        sub.classList.remove("collapsed");
-                        var btn = sub.querySelector(".nav-caret");
-                        if (btn) btn.setAttribute("aria-expanded", "true");
+            if (fam && canonPath.indexOf("/zones/zone-") === 0) {
+                document.querySelectorAll(".sidenav a[href]").forEach(function (a) {
+                    if (cleanPath(a.getAttribute("href")) === "/zones/" + fam + "/") {
+                        best = a;
                     }
-                }
-                best = famLink;
+                });
                 // a gamma zone page highlights its TIER (T1–T4), not the
                 // Gamma head — the number ranges must stay in sync with
                 // ZonesMapPage.GammaTier (the nav labels carry them too).
-                var gm = new RegExp("^" + rootPath + "/zones/zone-gamma-z(\\d+)/?$").exec(path);
+                var gm = new RegExp("^/zones/zone-gamma-z(\\d+)/?$").exec(canonPath);
                 if (gm) {
                     var n = parseInt(gm[1], 10);
                     if (n >= 106 && n <= 140) {
-                        // (href$=: keeps the link-checker's raw-HTML href scan
-                        // from seeing a "href=...#" literal in this script)
-                        var tierLink = document.querySelector('.sidenav a[href$="#t' + (Math.floor((n - 106) / 9) + 1) + '"]');
+                        var targetTier = "#t" + (Math.floor((n - 106) / 9) + 1);
+                        var tierLink = document.querySelector('.sidenav a[href$="' + targetTier + '"]');
                         if (tierLink) best = tierLink;
                     }
                 }
             }
+
+            // Left menu selection: same-page anchors (e.g. /zones/map/#training)
+            // use an exact full-href match (path + hash)
             if (!best && hash.length > 1) {
                 document.querySelectorAll(".sidenav a[href]").forEach(function (a) {
-                    if (stripOrigin(a.getAttribute("href")) === path + hash) best = a;
+                    if (cleanPath(a.getAttribute("href")) === canonPath + hash) best = a;
                 });
             }
+
+            // Generated item sub-pages: map to the Items menu entry
+            if (!best && canonPath.indexOf("/content/items/") === 0) {
+                document.querySelectorAll(".sidenav a[href]").forEach(function (a) {
+                    if (cleanPath(a.getAttribute("href")) === "/features/items/") {
+                        best = a;
+                    }
+                });
+            }
+
+            // Zone section index: /zones/ maps to World (/zones/map/)
+            if (!best && canonPath === "/zones/") {
+                document.querySelectorAll(".sidenav a[href]").forEach(function (a) {
+                    if (cleanPath(a.getAttribute("href")) === "/zones/map/") {
+                        best = a;
+                    }
+                });
+            }
+
+            // Otherwise longest matching entry wins — exact match beats prefix matches
             if (!best) {
                 var bestLen = -1;
+                var exactFound = false;
                 document.querySelectorAll(".sidenav a[href]").forEach(function (a) {
-                    var href = stripOrigin(a.getAttribute("href"));
-                    if (!href || href === "/") return;
-                    var h = href[href.length - 1] === "/" ? href : href + "/";
-                    var hit = h === norm(path) || (path.startsWith(h) && path.length > h.length);
-                    if (hit && h.length > bestLen) { best = a; bestLen = h.length; }
+                    var ch = cleanPath(a.getAttribute("href"));
+                    if (!ch) return;
+                    var hashIdx = ch.indexOf("#");
+                    var hPath = hashIdx !== -1 ? ch.slice(0, hashIdx) : ch;
+                    if (hPath.length > 1 && hPath[hPath.length - 1] !== "/") hPath += "/";
+
+                    var isExact = (hPath === canonPath);
+                    var isPrefix = (hPath !== "/" && canonPath.indexOf(hPath) === 0 && canonPath.length > hPath.length);
+
+                    if (isExact) {
+                        if (!exactFound || hPath.length > bestLen) {
+                            best = a;
+                            bestLen = hPath.length;
+                            exactFound = true;
+                        }
+                    } else if (!exactFound && isPrefix && hPath.length > bestLen) {
+                        best = a;
+                        bestLen = hPath.length;
+                    }
                 });
             }
+
             document.querySelectorAll(".sidenav a.active").forEach(function (a) {
                 a.classList.remove("active");
             });
             document.querySelectorAll(".sidenav .row-active").forEach(function (r) {
                 r.classList.remove("row-active");
             });
+
             if (best) {
                 best.classList.add("active");
                 // entries with an open/close caret: the selection box spans
                 // the whole row (it ends after the caret button)
                 var row = best.closest(".nav-group-head, .nav-sub-head");
                 if (row) row.classList.add("row-active");
+                // Ensure all ancestor groups and sub-lists are expanded so active item is visible
+                var p = best.parentElement;
+                while (p && !p.classList.contains("sidenav")) {
+                    if (p.classList.contains("collapsed")) {
+                        p.classList.remove("collapsed");
+                        var btn = p.querySelector(".nav-caret");
+                        if (btn) btn.setAttribute("aria-expanded", "true");
+                    }
+                    p = p.parentElement;
+                }
             }
+
+            // bottom menu: section (match on the pathname relative to the
+            // deploy base; the links carry data-section, so no href guessing)
+            var sec = (canonPath.match(/^\/(features|content|zones)\//) || [])[1];
+            var foot = sec
+                ? document.querySelector('.footnav a[data-section="' + sec + '"]')
+                : (canonPath === "/" ? document.querySelector('.footnav a:not([data-section])') : null);
+            document.querySelectorAll(".footnav a.active").forEach(function (a) {
+                a.classList.remove("active");
+            });
+            if (foot) foot.classList.add("active");
+
+            if (window.WIKI_centerActive) window.WIKI_centerActive();
         }
         selectActive();
         // same-page anchor clicks change only the hash (no page load) —
         // re-run the selection so the clicked anchor is highlighted
         window.addEventListener("hashchange", selectActive);
+        window.WIKI_selectActive = selectActive;
+
         // Keep the browser's own scroll restoration on: navigating away and
         // back must restore the page position (e.g. back from a zone page).
         try { if (window.history && history.scrollRestoration) history.scrollRestoration = "auto"; } catch (e) {}
+
         // same-page anchors (e.g. /zones/map/#training): on a fresh menu click
         // the browser scrolls to the section natively; a plain page load (or
         // the back button) of a URL that still carries a menu sub-anchor must
@@ -762,14 +834,6 @@
                 target.scrollIntoView();
             }
         }
-        // bottom menu: section (match on the pathname relative to the
-        // deploy base; the links carry data-section, so no href guessing)
-        var rel = path.indexOf(rootPath) === 0 ? path.slice(rootPath.length) : path;
-        var sec = (rel.match(/^\/(features|content|zones)\//) || [])[1];
-        var foot = sec
-            ? document.querySelector('.footnav a[data-section="' + sec + '"]')
-            : (rel === "/" || rel === "" ? document.querySelector('.footnav a:not([data-section])') : null);
-        if (foot) foot.classList.add("active");
     })();
     // Left-menu scroll: restore the last position after navigation and make
     // sure the highlighted entry is visible (a reset scroll must not hide the
@@ -793,6 +857,7 @@
             if (ar.top < nr.top || ar.bottom > nr.bottom)
                 nav.scrollTop += (ar.top - nr.top) - (nr.height / 2) + (ar.height / 2);
         }
+        window.WIKI_centerActive = centerActive;
         centerActive();
         window.addEventListener("hashchange", centerActive);
         var t = null;
@@ -817,6 +882,7 @@
         if (window.mermaid) {
             var theme = document.documentElement.getAttribute("data-theme") === "light" ? "neutral" : "dark";
             window.mermaid.initialize({ startOnLoad: false, theme: theme,
+                securityLevel: 'loose',
                 themeVariables: { fontSize: '18px' } });
             window.mermaid.run({ querySelector: ".mermaid" });
         } else {
@@ -827,7 +893,8 @@
                     clearInterval(timer);
                     var theme = document.documentElement.getAttribute("data-theme") === "light" ? "neutral" : "dark";
                     window.mermaid.initialize({ startOnLoad: false, theme: theme,
-                themeVariables: { fontSize: '18px' } });
+                        securityLevel: 'loose',
+                        themeVariables: { fontSize: '18px' } });
                     window.mermaid.run({ querySelector: ".mermaid" });
                 } else if (Date.now() - t0 > 10000) {
                     clearInterval(timer);

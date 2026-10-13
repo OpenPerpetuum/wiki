@@ -33,16 +33,16 @@ test('map page loads without script errors', async ({ page, baseURL }) => {
 
 test('zones are drawn with coastline thumbnails and inter-zone TPs are dashed', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}${MAP}`, { waitUntil: 'networkidle' });
-  // every plotted zone node carries its coastline thumbnail (thumb.png);
+  // every plotted zone node carries its coastline thumbnail (thumb.svg or thumb.png);
   // zones without any TP connection are not plotted at all
-  const imgs = page.locator('.zonemap image[href$="thumb.png"]');
+  const imgs = page.locator('.zonemap image.wm-base');
   expect(await imgs.count()).toBeGreaterThanOrEqual(55);
   const nodes = await page.locator('.zonemap a > g').count();
   expect(nodes).toBe(await imgs.count());
   const first = await imgs.first().getAttribute('href');
   const r = await page.request.get(first);
   expect(r.ok()).toBe(true);
-  expect(r.headers()['content-type']).toMatch(/image\/png/);
+  expect(r.headers()['content-type']).toMatch(/image\/(svg\+xml|png)/);
   // inter-zone TP lines: dashed, gradient-colored (stroke = url(#tpgN)),
   // no local-teleport elements on the world map anymore
   const tps = page.locator('.zonemap .zonemap-tp');
@@ -102,31 +102,19 @@ test('TP lines draw OVER the islands and anchor at the real column/landing spots
   expect(info.anchored).toBeGreaterThan(0);
 });
 
-test('TP lines are nearly invisible at rest and fade in near the cursor (desktop)', async ({ page, baseURL }) => {
+test('TP lines are faded at rest and light up when hovering a connected zone (desktop)', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}${MAP}`, { waitUntil: 'networkidle' });
-  // A point ON the first TP line, in screen coordinates (CTM handles
-  // zoom/pan). The map is taller than the viewport, so scroll the line into
-  // view first — a pointer event at y > viewport never fires.
-  const pt = await page.evaluate(() => {
-    const line = document.querySelector('.zonemap-tp');
-    const svg = document.querySelector('.zonemap');
-    const p = svg.createSVGPoint();
-    p.x = (+line.getAttribute('x1') + +line.getAttribute('x2')) / 2;
-    p.y = (+line.getAttribute('y1') + +line.getAttribute('y2')) / 2;
-    const s = p.matrixTransform(svg.getScreenCTM());
-    window.scrollTo(0, window.scrollY + s.y - innerHeight / 2);
-    const s2 = p.matrixTransform(svg.getScreenCTM());
-    return { x: s2.x, y: s2.y };
-  });
-  await page.waitForTimeout(150); // let the scroll settle before the pointer moves
-  const op = () => page.evaluate(() => getComputedStyle(document.querySelector('.zonemap-tp')).strokeOpacity);
+  const a = page.locator('.zonemap a[href*="zone-tm-a-real"]').first();
+  await a.scrollIntoViewIfNeeded();
+  await page.waitForTimeout(150);
+  const op = () => page.evaluate(() => getComputedStyle(document.querySelector('.zonemap-tp[data-tps="zone_TM_A_real"]')).strokeOpacity);
   // at rest: faded to 0.25 (faint, but visible)
   expect(parseFloat(await op())).toBeGreaterThan(0.2);
   expect(parseFloat(await op())).toBeLessThan(0.35);
-  // cursor on the line: it lights up
-  await page.mouse.move(pt.x, pt.y);
+  // hovering the zone lights up its connected TP lines
+  await a.hover();
   await page.waitForTimeout(300);
-  expect(parseFloat(await op())).toBeGreaterThan(0.8);
+  expect(parseFloat(await op())).toBeGreaterThan(0.5);
   // cursor far away: back to the faded state
   await page.mouse.move(5, 5);
   await page.waitForTimeout(400);
@@ -199,7 +187,8 @@ test('wheel outside the map still scrolls the page', async ({ page, baseURL }) =
   if (y1 === y0) {
     await page.evaluate(() => window.scrollTo(0, 0));
     await page.waitForTimeout(100);
-    await page.mouse.move(box.x + 10, Math.max(10, box.y + 10));
+    const box2 = await section.boundingBox();
+    await page.mouse.move(box2.x + 10, box2.y + 10);
     await page.mouse.wheel(0, 300);
     await page.waitForTimeout(50);
     y1 = await page.evaluate(() => window.scrollY);

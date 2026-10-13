@@ -347,28 +347,33 @@ def _generate_contours_svg(alt, roads, coast, mode):
         if d:
             svg.append(f'<path fill="{hex_color}" d="{" ".join(d)}"/>')
             
-    # Roads and coastline
-    if coast or roads:
+    # Coastline
+    if coast:
         path_coast = []
-        path_roads = []
         for y in range(0, size, scale):
             for x in range(0, size, scale):
                 if coast and coast[y][x]:
                     path_coast.append(f"M{x/scale},{y/scale}h1")
-                elif roads and roads[y][x]:
-                    path_roads.append(f"M{x/scale},{y/scale}h1")
-        
-        c_hex = "#2a364b"
-        r_hex = "#f5a05a"
-        
         if path_coast:
-            svg.append(f'<path stroke="{c_hex}" stroke-width="1.0" d="{"".join(path_coast)}"/>')
-        if path_roads:
-            svg.append(f'<path stroke="{r_hex}" stroke-width="1.0" d="{"".join(path_roads)}"/>')
+            svg.append(f'<path stroke="#2a364b" stroke-width="1.0" d="{"".join(path_coast)}"/>')
             
     svg.append('</svg>')
     __import__('matplotlib.pyplot', fromlist=['']).close()
     return "".join(svg).encode('utf-8')
+
+def roads_svg(roads):
+    if not roads:
+        return None
+    size = len(roads)
+    path_roads = []
+    for y in range(size):
+        row = roads[y]
+        for x in range(size):
+            if row[x]:
+                path_roads.append(f"M{x},{y}h1")
+    if not path_roads:
+        return None
+    return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {size} {size}"><path stroke="#f5a05a" stroke-width="1.0" d="{"".join(path_roads)}"/></svg>'.encode('utf-8')
 
 def height_svg(alt, roads, _isl):
     return _generate_contours_svg(alt, roads, None, "height")
@@ -556,7 +561,7 @@ def _dilate(grid, radius):
     return out
 
 
-def thumb_svg(coast, color, prot):
+def thumb_svg(coast, color, prot, roads=None):
     size = len(coast)
     r = int(color[1:3], 16); g = int(color[3:5], 16); b = int(color[5:7], 16)
     pr = int(prot[1:3], 16); pg = int(prot[3:5], 16); pb = int(prot[5:7], 16)
@@ -611,6 +616,16 @@ def thumb_svg(coast, color, prot):
         if d:
             svg.append(f'<path fill="{fill_col}" stroke="{prot_col}" stroke-width="1.5" stroke-linejoin="round" d="{" ".join(d)}"/>')
             
+    if roads:
+        path_roads = []
+        for y in range(size):
+            row = roads[y]
+            for x in range(size):
+                if row[x]:
+                    path_roads.append(f"M{x},{y}h1")
+        if path_roads:
+            svg.append(f'<path stroke="#f5a05a" stroke-width="1.0" d="{"".join(path_roads)}"/>')
+
     svg.append('</svg>')
     __import__('matplotlib.pyplot', fromlist=['']).close()
     return "".join(svg).encode('utf-8')
@@ -814,7 +829,11 @@ def parse(svg_text):
     svg_text = re2.sub(r'<svg id="zm-color".*?</svg>', '', svg_text, flags=re2.DOTALL)
     svg_text = re2.sub(r'<g id="zm-height".*?</g>', '', svg_text, flags=re2.DOTALL)
     svg_text = re2.sub(r'<g id="zm-color".*?</g>', '', svg_text, flags=re2.DOTALL)
+    svg_text = re2.sub(r'<g id="zm-roads".*?</g>', '', svg_text, flags=re2.DOTALL)
     svg_text = re2.sub(r'<clipPath id="coast-clip-[^"]+">.*?</clipPath>', '', svg_text, flags=re2.DOTALL)
+    svg_text = re2.sub(r'<path[^>]*transform="scale\([^"]*\)"[^>]*/>', '', svg_text)
+    svg_text = re2.sub(r'<path[^>]*class="[^"]*zm-coastline-border[^"]*"[^>]*/>', '', svg_text)
+    svg_text = re2.sub(r'<path[^>]*class="[^"]*zm-bg-island[^"]*"[^>]*/>', '', svg_text)
     
     els = []
     for tm in ITEM.finditer(svg_text):
@@ -870,6 +889,9 @@ def rebuild(path, name2slug, slug2id, slug2size):
         os.makedirs(d, exist_ok=True)
         open(os.path.join(d, "height.svg"), "wb").write(height_svg(alt, roads, isl))
         open(os.path.join(d, "color.svg"), "wb").write(color_svg(alt, coast, roads, isl))
+        r_svg = roads_svg(roads)
+        if r_svg:
+            open(os.path.join(d, "roads.svg"), "wb").write(r_svg)
         # world-map node + index-card thumbnail (same altitude data)
         open(os.path.join(d, "world.png"), "wb").write(world_png(alt, roads))
         # the thumb targets 256×256 (a native-512 zone would otherwise draw
@@ -879,9 +901,12 @@ def rebuild(path, name2slug, slug2id, slug2size):
         if tf > 1:
             alt_t = downsample(alt, tf)
             coast_t = coast_mask(alt_t)
+            roads_t = downsample_road(roads, tf) if roads else None
         else:
-            alt_t, coast_t = alt, coast
-        open(os.path.join(d, "thumb.png"), "wb").write(thumb_svg(coast_t, fam_color(zone), prot_color(zone)))
+            alt_t, coast_t, roads_t = alt, coast, roads
+        thumb_bytes = thumb_svg(coast_t, fam_color(zone), prot_color(zone), roads_t)
+        open(os.path.join(d, "thumb.svg"), "wb").write(thumb_bytes)
+        open(os.path.join(d, "thumb.png"), "wb").write(thumb_bytes)
     elif have_fallback:
         # no layer data here: keep the committed derived PNGs (copied into
         # place so the SVG's /zonemaps/<slug>/ URLs resolve)
@@ -891,6 +916,7 @@ def rebuild(path, name2slug, slug2id, slug2size):
             open(os.path.join(d, name), "wb").write(open(os.path.join(fb, name), "rb").read())
         world, thumb = fallback_world_thumb(open(os.path.join(fb, "color.png"), "rb").read(), zone)
         open(os.path.join(d, "world.png"), "wb").write(world)
+        open(os.path.join(d, "thumb.svg"), "wb").write(thumb)
         open(os.path.join(d, "thumb.png"), "wb").write(thumb)
     if not (real[0] is not None or have_fallback):
         # no layer data anywhere: the procedural placeholder — still write the
@@ -899,6 +925,7 @@ def rebuild(path, name2slug, slug2id, slug2size):
         os.makedirs(d, exist_ok=True)
         world, thumb = fbm_world_thumb(zone)
         open(os.path.join(d, "world.png"), "wb").write(world)
+        open(os.path.join(d, "thumb.svg"), "wb").write(thumb)
         open(os.path.join(d, "thumb.png"), "wb").write(thumb)
         b64 = base64.b64encode(heightmap_png(zone)).decode("ascii")
         out.append(f'  <image id="zm-height" x="0" y="0" width="{w}" height="{h}" href="data:image/png;base64,{b64}" opacity="0.55" preserveAspectRatio="none"/>')
@@ -919,15 +946,15 @@ def rebuild(path, name2slug, slug2id, slug2size):
                 sf = w / S
     
     if coast_d:
-        out.append(f'  <clipPath id="coast-clip-{slug}"><path transform="scale({sf})" d="{coast_d}"/></clipPath>')
-        out.append(f'  <path transform="scale({sf})" d="{coast_d}" fill="#10151f" />')
+        out.append(f'  <clipPath id="coast-clip-{slug}"><path class="zm-bg-island" transform="scale({sf})" d="{coast_d}"/></clipPath>')
+        out.append(f'  <path class="zm-bg-island" transform="scale({sf})" d="{coast_d}" fill="#10151f" />')
         out.append(f'  <g clip-path="url(#coast-clip-{slug})">')
     else:
         out.append(f'  <rect x="0" y="0" width="{w}" height="{h}" rx="{16 * f}" fill="#10151f" />')
         out.append(f'  <g>')
         
     if real[0] is not None or have_fallback:
-        def get_inner_svg(filename, id_name, display=""):
+        def get_inner_svg(filename, id_name, display="", extra_class=""):
             p = os.path.join(ZONEMAPS, slug, filename)
             if os.path.isfile(p):
                 content = open(p, "r", encoding="utf-8").read()
@@ -941,12 +968,16 @@ def rebuild(path, name2slug, slug2id, slug2size):
                 content = re.sub(r'^.*?<svg[^>]*>', '', content, flags=re.DOTALL)
                 content = content.replace('</svg>', '')
                 
-                # Wrap in <g> with scale
-                return f'<g id="{id_name}" transform="scale({inner_scale})" style="{display}">{content}</g>'
+                cls_part = f' class="{extra_class}"' if extra_class else ''
+                style_part = f' style="{display}"' if display else ''
+                return f'<g id="{id_name}"{cls_part} transform="scale({inner_scale})"{style_part}>{content}</g>'
             return ""
             
         out.append("    " + get_inner_svg("height.svg", "zm-height"))
         out.append("    " + get_inner_svg("color.svg", "zm-color", "display:none"))
+        roads_inner = get_inner_svg("roads.svg", "zm-roads", extra_class="zm-roads")
+        if roads_inner:
+            out.append("    " + roads_inner)
     else:
         b64 = base64.b64encode(heightmap_png(zone)).decode("ascii")
         out.append(f'    <image id="zm-height" x="0" y="0" width="{w}" height="{h}" href="data:image/png;base64,{b64}" opacity="0.55" preserveAspectRatio="none"/>')
@@ -964,6 +995,12 @@ def rebuild(path, name2slug, slug2id, slug2size):
                 continue  # re-emitted above
             if at.get("fill") == "none" and at.get("stroke") == "#54658a":
                 continue  # border added by a previous run of this script
+            if "zonemap-node-special" in at.get("class", ""):
+                dt = at.get("data-title", "")
+                if "Field terminal" in dt and "zm-node-terminal" not in at["class"]:
+                    at["class"] += " zm-node-terminal"
+                elif "Outpost" in dt and "zm-node-outpost" not in at["class"]:
+                    at["class"] += " zm-node-outpost"
             out.append("  " + markup(kind, at))
         elif kind == "line":
             if at.get("stroke") == "#1d2534":
@@ -972,11 +1009,15 @@ def rebuild(path, name2slug, slug2id, slug2size):
                 if in_clip:
                     out.append("  </g>")
                     in_clip = False
+                if "zm-teleport-line" not in at.get("class", ""):
+                    at["class"] = (at.get("class", "") + " zm-teleport-line").strip()
                 out.append("  " + markup(kind, at))  # ltp lines
         elif kind == "text":
             if in_clip:
                 out.append("  </g>")
                 in_clip = False
+            if "zm-label" not in at.get("class", ""):
+                at["class"] = (at.get("class", "") + " zm-label").strip()
             if last_shape is None:
                 out.append("  " + markup("text", at, txt))
                 continue
@@ -1009,7 +1050,10 @@ def rebuild(path, name2slug, slug2id, slug2size):
                 in_clip = False
             if last_shape is not None:
                 out.append("  " + last_shape[1])
-            shape_kind = "spot" if kind == "circle" and "stroke-dasharray" in at else                          ("gate" if kind == "path" else "col")
+            shape_kind = "spot" if kind == "circle" and "stroke-dasharray" in at else \
+                         ("gate" if kind == "path" else "col")
+            if "zm-node-teleport" not in at.get("class", ""):
+                at["class"] = (at.get("class", "") + " zm-node-teleport").strip()
             growth = 0.0
             if not already and kind == "circle" and "r" in at:
                 growth = float(at["r"]) * 0.5
@@ -1026,9 +1070,9 @@ def rebuild(path, name2slug, slug2id, slug2size):
     # emphasized zone border on top of the heightmap
     pc = prot_color(zone) or '#54658a'
     if coast_d:
-        out.append(f'  <path transform="scale({sf})" d="{coast_d}" fill="none" stroke="{pc}" stroke-width="{4 * f / sf}"/>')
+        out.append(f'  <path class="zm-coastline-border" transform="scale({sf})" d="{coast_d}" fill="none" stroke="{pc}" stroke-width="{4 * f / sf}" pointer-events="none"/>')
     else:
-        out.append(f'  <rect x="0" y="0" width="{w}" height="{h}" rx="{16 * f}" fill="none" stroke="{pc}" stroke-width="{4 * f}"/>')
+        out.append(f'  <rect class="zm-coastline-border" x="0" y="0" width="{w}" height="{h}" rx="{16 * f}" fill="none" stroke="{pc}" stroke-width="{4 * f}" pointer-events="none"/>')
     out.append("</svg>")
 
     with open(path, "w", encoding="utf-8") as fh:

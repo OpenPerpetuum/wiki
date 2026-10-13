@@ -388,7 +388,7 @@ public static class ItemsPage
         }
         if (production is not { } && users is { Count: > 0 } u)
         {
-            sb.Append((parts is { Count: > 0 } ? "\n" : "") + "## Used in production\n\n");
+            sb.Append((parts is { Count: > 0 } ? "\n\n" : "") + "## Used in production\n\n");
             sb.Append(ProductionSection(showName, u, defs, dupes));
         }
         // no "[All items]" footer: the catalog index page was removed — items

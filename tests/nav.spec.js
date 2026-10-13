@@ -215,7 +215,7 @@ test('zone page: the family-listing entry (not Zones) is highlighted', async ({ 
 });
 
 test('family-listing pages list their zones as cards', async ({ page, baseURL }) => {
-  for (const [fam, min] of [['alpha', 6], ['beta', 10], ['gamma', 30]]) {
+  for (const [fam, min] of [['alpha', 5], ['beta', 10], ['gamma', 30]]) {
     await page.goto(`${baseURL}/zones/${fam}/`);
     const cards = page.locator('.zone-cards a.zone-card');
     expect(await cards.count(), fam).toBeGreaterThanOrEqual(min);
@@ -317,3 +317,125 @@ test('every sidenav link lands with its active entry visible in the menu', async
     expect(ok, `active entry not visible in the sidenav for ${href}`).toBe(true);
   }
 });
+
+test('home page: Home quick link is marked active in sidenav', async ({ page, baseURL }) => {
+  await page.goto(`${baseURL}/`);
+  const active = page.locator('.sidenav a.active');
+  expect(await active.count()).toBe(1);
+  expect(await active.getAttribute('href')).toBe('/');
+  expect(await page.locator('.nav-quick a.active').count()).toBe(1);
+});
+
+test('translated pages: active link is highlighted in the menu in translated languages', async ({ page, baseURL }) => {
+  // Russian Home
+  await page.goto(`${baseURL}/ru/`);
+  expect(await page.locator('.nav-quick a.active').count()).toBe(1);
+
+  // Russian Getting Started
+  await page.goto(`${baseURL}/ru/features/getting-started/`);
+  expect(await page.locator('.sidenav a.active').count()).toBe(1);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/ru/features/getting-started/');
+
+  // Russian Combat
+  await page.goto(`${baseURL}/ru/features/combat/`);
+  expect(await page.locator('.sidenav a.active').count()).toBe(1);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/ru/features/combat/');
+
+  // Russian Menu Start overview
+  await page.goto(`${baseURL}/ru/menu/start/`);
+  expect(await page.locator('.sidenav a.active').count()).toBe(1);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/ru/menu/start/');
+
+  // German FAQ
+  await page.goto(`${baseURL}/de/features/faq/`);
+  expect(await page.locator('.sidenav a.active').count()).toBe(1);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/de/features/faq/');
+});
+
+test('translated content pages: active menu highlight and translated content render properly', async ({ page, baseURL }) => {
+  // Russian Ores
+  await page.goto(`${baseURL}/ru/content/ores/`);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/ru/content/ores/');
+  await expect(page.locator('h1')).toContainText('Руды');
+
+  // Russian Robots overview
+  await page.goto(`${baseURL}/ru/content/robots/`);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/ru/content/robots/');
+
+  // Russian Individual Robot page
+  await page.goto(`${baseURL}/ru/content/robots/arbalest/`);
+  await expect(page.locator('h1')).toContainText('Arbalest');
+  await expect(page.locator('.robot-card-stats')).toContainText('Бой');
+  await expect(page.locator('.robot-card-stats')).toContainText('Скорость');
+  await expect(page.locator('.robot-card-stats')).toContainText('Броня');
+
+  // Russian Recipes
+  await page.goto(`${baseURL}/ru/content/recipes/`);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/ru/content/recipes/');
+  await expect(page.locator('body')).toContainText('Уровень исследования');
+
+  // Russian Missions
+  await page.goto(`${baseURL}/ru/content/missions/`);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/ru/content/missions/');
+  await expect(page.locator('body')).toContainText('Вознаграждение');
+
+  // Russian Shop
+  await page.goto(`${baseURL}/ru/content/shop/`);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/ru/content/shop/');
+
+  // Russian Shop category
+  await page.goto(`${baseURL}/ru/content/shop/ammo/`);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/ru/content/shop/ammo/');
+  await expect(page.locator('table')).toContainText('Предмет');
+  await expect(page.locator('table')).toContainText('Кол-во');
+
+  // German Tech Tree Group
+  await page.goto(`${baseURL}/de/content/techtree/groups/common1/`);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/de/content/techtree/groups/common1/');
+
+  // German Tech Tree Node
+  await page.goto(`${baseURL}/de/content/techtree/nodes/ammo-cruisemissile-a/`);
+  await expect(page.locator('table')).toContainText('Schaltet frei');
+  await expect(page.locator('table')).toContainText('Übergeordneter Knoten');
+
+  // French Deployables
+  await page.goto(`${baseURL}/fr/content/deployables/`);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/fr/content/deployables/');
+  await expect(page.locator('body')).toContainText('sans palier');
+
+  // Spanish Extensions
+  await page.goto(`${baseURL}/es/content/extensions/`);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/es/content/extensions/');
+  await expect(page.locator('body')).toContainText('rango');
+  await expect(page.locator('body')).toContainText('sin requisitos previos');
+});
+
+test('protection levels page: active menu link labeled Protection levels and translated', async ({ page, baseURL }) => {
+  // English
+  await page.goto(`${baseURL}/zones/protection/`);
+  const activeEn = page.locator('.sidenav a.active');
+  expect(await activeEn.getAttribute('href')).toBe('/zones/protection/');
+  expect(await activeEn.textContent()).toBe('Protection levels');
+  await expect(page.locator('h1')).toHaveText('Protection levels');
+
+  // Verify World overview links to Protection levels
+  await page.goto(`${baseURL}/zones/`);
+  const protLink = page.locator('article a[href="/zones/protection/"]');
+  expect(await protLink.count()).toBeGreaterThanOrEqual(1);
+  expect(await protLink.first().textContent()).toBe('Protection levels');
+
+  // Russian Protection levels
+  await page.goto(`${baseURL}/ru/zones/protection/`);
+  const activeRu = page.locator('.sidenav a.active');
+  expect(await activeRu.getAttribute('href')).toBe('/ru/zones/protection/');
+  expect(await activeRu.textContent()).toBe('Уровни защиты');
+  await expect(page.locator('h1')).toHaveText('Уровни защиты');
+
+  // German Protection levels
+  await page.goto(`${baseURL}/de/zones/protection/`);
+  const activeDe = page.locator('.sidenav a.active');
+  expect(await activeDe.getAttribute('href')).toBe('/de/zones/protection/');
+  expect(await activeDe.textContent()).toBe('Schutzstufen');
+  await expect(page.locator('h1')).toHaveText('Schutzstufen');
+});
+

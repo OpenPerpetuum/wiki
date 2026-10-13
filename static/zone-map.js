@@ -20,6 +20,62 @@
     function setMode(m) {
         try { localStorage.setItem(MODE_KEY, m); } catch (err) { /* private mode */ }
     }
+
+    var LANDMARKS_KEY = 'wiki-zonemap-landmarks';
+    var DEFAULT_LANDMARKS = {
+        teleports: true,
+        outposts: true,
+        terminals: true,
+        roads: true,
+        labels: true
+    };
+
+    function getLandmarks() {
+        try {
+            var raw = localStorage.getItem(LANDMARKS_KEY);
+            if (raw) return Object.assign({}, DEFAULT_LANDMARKS, JSON.parse(raw));
+        } catch (e) {}
+        return Object.assign({}, DEFAULT_LANDMARKS);
+    }
+
+    function setLandmarks(cfg) {
+        try {
+            localStorage.setItem(LANDMARKS_KEY, JSON.stringify(cfg));
+        } catch (e) {}
+        applyLandmarksGlobally(cfg);
+    }
+
+    function applyLandmarksToWrap(wrap, cfg) {
+        wrap.classList.toggle('zm-hide-teleports', !cfg.teleports);
+        wrap.classList.toggle('zm-hide-outposts', !cfg.outposts);
+        wrap.classList.toggle('zm-hide-terminals', !cfg.terminals);
+        wrap.classList.toggle('zm-hide-roads', !cfg.roads);
+        wrap.classList.toggle('zm-hide-labels', !cfg.labels);
+
+        var panel = wrap.querySelector('.zonemap-landmarks-panel');
+        if (panel) {
+            var inputs = panel.querySelectorAll('input[type="checkbox"][data-landmark]');
+            for (var i = 0; i < inputs.length; i++) {
+                var k = inputs[i].getAttribute('data-landmark');
+                if (k && typeof cfg[k] !== 'undefined') {
+                    inputs[i].checked = !!cfg[k];
+                }
+            }
+        }
+    }
+
+    function applyLandmarksGlobally(cfg) {
+        var wraps = document.querySelectorAll('.zonetp-wrap');
+        for (var i = 0; i < wraps.length; i++) {
+            applyLandmarksToWrap(wraps[i], cfg);
+        }
+    }
+
+    window.addEventListener('storage', function (e) {
+        if (e.key === LANDMARKS_KEY) {
+            applyLandmarksGlobally(getLandmarks());
+        }
+    });
     function applyWorldMode(svg, mode) {
         if (mode !== 'color' && mode !== 'height') mode = 'base';
         Array.prototype.forEach.call(svg.querySelectorAll('.wm-base'), function(el) { el.style.display = mode === 'base' ? '' : 'none'; });
@@ -102,13 +158,99 @@
             btn.textContent = '⟲';
             wrap.appendChild(btn);
 
+            var ui = window.WIKI_UI || {};
+            var lmToggle = document.createElement('button');
+            lmToggle.type = 'button';
+            lmToggle.className = 'zonemap-landmarks-toggle';
+            lmToggle.setAttribute('aria-expanded', 'false');
+            lmToggle.title = ui.zonemapLandmarks || 'Landmarks';
+            lmToggle.textContent = ui.zonemapLandmarks || 'Landmarks';
+
+            var lmPanel = document.createElement('div');
+            lmPanel.className = 'zonemap-landmarks-panel panel-hidden';
+            lmPanel.setAttribute('role', 'dialog');
+            lmPanel.setAttribute('aria-label', ui.zonemapLandmarks || 'Landmarks');
+
+            var lmHeader = document.createElement('div');
+            lmHeader.className = 'zonemap-landmarks-header';
+            var lmTitle = document.createElement('span');
+            lmTitle.textContent = ui.zonemapLandmarks || 'Landmarks';
+            var lmToggleAll = document.createElement('button');
+            lmToggleAll.type = 'button';
+            lmToggleAll.className = 'zonemap-landmarks-all-btn';
+            lmToggleAll.textContent = ui.zonemapToggleAll || 'Toggle all';
+            lmHeader.appendChild(lmTitle);
+            lmHeader.appendChild(lmToggleAll);
+            lmPanel.appendChild(lmHeader);
+
+            var items = [
+                { key: 'teleports', label: ui.zonemapLmTeleports || 'Teleports & Gates', icon: '⬡' },
+                { key: 'outposts', label: ui.zonemapLmOutposts || 'Outposts', icon: '◉' },
+                { key: 'terminals', label: ui.zonemapLmTerminals || 'Field terminals', icon: '▽' },
+                { key: 'roads', label: ui.zonemapLmRoads || 'Roads', icon: '━' },
+                { key: 'labels', label: ui.zonemapLmLabels || 'Labels', icon: 'Aa' }
+            ];
+
+            var lmList = document.createElement('div');
+            lmList.className = 'zonemap-landmarks-list';
+
+            items.forEach(function (item) {
+                var lbl = document.createElement('label');
+                lbl.className = 'zonemap-landmark-item';
+                var cb = document.createElement('input');
+                cb.type = 'checkbox';
+                cb.setAttribute('data-landmark', item.key);
+                cb.addEventListener('change', function () {
+                    var cfg = getLandmarks();
+                    cfg[item.key] = cb.checked;
+                    setLandmarks(cfg);
+                });
+                var iconSpan = document.createElement('span');
+                iconSpan.className = 'zonemap-lm-icon';
+                iconSpan.textContent = item.icon;
+                var textSpan = document.createElement('span');
+                textSpan.textContent = item.label;
+                lbl.appendChild(cb);
+                lbl.appendChild(iconSpan);
+                lbl.appendChild(textSpan);
+                lmList.appendChild(lbl);
+            });
+            lmPanel.appendChild(lmList);
+
+            lmToggleAll.addEventListener('click', function (e) {
+                e.stopPropagation();
+                var cfg = getLandmarks();
+                var allChecked = items.every(function (it) { return cfg[it.key]; });
+                items.forEach(function (it) { cfg[it.key] = !allChecked; });
+                setLandmarks(cfg);
+            });
+
+            lmToggle.addEventListener('pointerdown', function (e) { e.stopPropagation(); });
+            lmToggle.addEventListener('click', function (e) {
+                e.stopPropagation();
+                var isOpen = !lmPanel.classList.contains('panel-hidden');
+                lmPanel.classList.toggle('panel-hidden', isOpen);
+                lmToggle.setAttribute('aria-expanded', String(!isOpen));
+            });
+            lmPanel.addEventListener('pointerdown', function (e) { e.stopPropagation(); });
+            lmPanel.addEventListener('click', function (e) { e.stopPropagation(); });
+
+            document.addEventListener('pointerdown', function (e) {
+                if (!lmPanel.contains(e.target) && e.target !== lmToggle) {
+                    lmPanel.classList.add('panel-hidden');
+                    lmToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+
+            wrap.appendChild(lmToggle);
+            wrap.appendChild(lmPanel);
+
             // display modes (Height / Color) — only for zones whose
             // SVG carries both real-terrain images
             var hImg = svg.querySelector('#zm-height');
             var cImg = svg.querySelector('#zm-color');
             var bar = null;
             if (hImg && cImg) {
-                var ui = window.WIKI_UI || {};
                 bar = document.createElement('div');
                 bar.className = 'zonemap-modes';
                 [['base', ui.zonemapModeBase || 'Base'],
@@ -133,6 +275,7 @@
             // after the SVG is in its wrap, so the remembered choice can also
             // toggle the wrap's zm-color class / line emphasis
             if (hImg && cImg) applyMode(hImg, cImg, getMode(), bar);
+            applyLandmarksToWrap(wrap, getLandmarks());
 
             // the <img> sits alone in a <p>; replace that paragraph so a
             // <div> is not nested in <p>
@@ -147,6 +290,9 @@
         var imgs = document.querySelectorAll('img[src*="/zonemaps/"]');
         for (var i = 0; i < imgs.length; i++) {
             if (imgs[i].getAttribute('data-zonetp-init')) continue;
+            if (imgs[i].classList.contains('zone-card-thumb') || (imgs[i].closest && imgs[i].closest('.zone-card')) || imgs[i].getAttribute('src').indexOf('thumb.') !== -1) {
+                continue;
+            }
             imgs[i].setAttribute('data-zonetp-init', '1');
             upgrade(imgs[i]);
         }

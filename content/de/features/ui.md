@@ -1,92 +1,96 @@
 ---
-title: "Module & Ausrüstung"
-description: "Die Modulfamilien (Waffen, Rüstung, Energie, Elektronik, EWar, EnWar, Industrie, NEXUS, NOX) und die Grundregeln, um einen Roboter auszurüsten."
-weight: 240
+title: "Client-UI-Übersicht"
+description: "Das Client-Layout: Obere Leiste, Abdocken-Schaltfläche, Aktionskategorien und die Statusanzeige im Einsatz. Nach dem Vorbild einer Benutzeroberfläche im Stil von EVE Online."
+weight: 5
 ---
 
-# Module & Ausrüstung
+# Client-UI-Übersicht
 
-**Module** sind die Komponenten, die du in die Slots deines Roboters l
+Der Client verwendet eine Benutzeroberfläche im Stil von **EVE Online**: Eine Vollbild-Ansicht des
+Weltraums bzw. der Zone mit frei schwebenden, **größenveränderbaren und verschiebbaren Fenstern**,
+die nach Belieben **geschlossen und wieder geöffnet** werden können. Die Funktionsweise richtet
+sich nach dem jeweiligen System — siehe die unten verlinkten Seiten.
 
-<tool_call>
-<function=write>
-<parameter=content>
----
-title: "Module & Ausrüstung"
-description: "Die Modulfamilien (Waffen, Rüstung, Energie, Elektronik, EWar, EnWar, Industrie, NEXUS, NOX) und die Grundregeln, um einen Roboter auszurüsten."
-weight: 240
----
+> Dieses Layout ist ein vom Projekt bereitgestelltes Arbeitsmodell, um zu beschreiben, wo sich Aktionen
+> befinden. Genaue Bezeichnungen im Spiel können geringfügig abweichen; maßgeblich ist die Struktur.
 
-# Module & Ausrüstung
+```mermaid
+flowchart LR
+    subgraph Topbar["Obere Leiste"]
+        direction LR
+        L["Links: Mail · Charakter ·\nKonzern · Optionen · Trennen"] --- C["Mitte: Ausrücken / Andocken"]
+        C --- R["Rechts: Raffinerie · Recycling · Reparatur ·\nVersicherung · Markt · Aufträge ·\nKonzernlager · Ausrüsten …"]
+    end
+    subgraph Below["Unter der Leiste"]
+        direction LR
+        U["Im Einsatz: Aufklappbare Zonenaktionen\n(oben rechts) + Statusanzeige\n(Schild / Panzerung / Energie)"]
+        D["Gedockt: Die rechten Kategorien\nsind dein Arbeitsbereich"]
+    end
+    C --> U
+    C --> D
+```
 
-**Module** sind die Komponenten, die du in die Slots deines Roboters l
+## Die obere Leiste
 
-<tool_call>
-<function=write>
-<parameter=content>
----
-title: "Client-UI Übersicht"
-description: "Das Client-Layout: Topbar, Dock-Button, Aktionskategorien, und das undocked-Statuspanel. Modelliert nach einer EVE-Online-ähnlichen Oberfläche."
-weight: 360
----
+Eine dauerhafte Leiste am oberen Bildschirmrand.
 
-# Client-UI Übersicht
+| Bereich | Inhalt |
+|---|---|
+| **Links** | Hauptschaltflächen: **Mail**, **Charakter**, **Konzern**, weitere **Optionen** und **Trennen** |
+| **Mitte** | Die Schaltfläche **Ausrücken / Andocken** — dein primärer Umschalter zwischen gedockt⇄im Einsatz (siehe [Bewegung](/de/features/movement/)) |
+| **Rechts** | Aktionskategorien als Schaltflächen: **Raffinerie**, **Recycling**, **Reparatur**, **Versicherung**, **Markt**, **Aufträge** (Transporte), **Konzernlager**, **Ausrüsten**, … |
 
-Die Client-Oberfläche ist im Stil **EVE Online** modelliert: ein Hauptbildschirm
-mit einer Topbar, einem zentralen Dock-Button und kontextuellen Pane
+Die Kategorien auf der rechten Seite öffnen die jeweiligen Systemfenster:
 
-<tool_call>
-<function=write>
-<parameter=content>
----
-title: "Client-UI Übersicht"
-description: "Das Client-Layout: Topbar, Dock-Button, Aktionskategorien, und das undocked-Statuspanel. Modelliert nach einer EVE-Online-ähnlichen Oberfläche."
-weight: 360
----
+| Schaltfläche | Öffnet / tut | Wiki-Seite |
+|---|---|---|
+| Raffinerie | Rohe Ressourcen zu Komponenten verarbeiten | [Produktion](/de/features/production/) |
+| Recycling | Gegenstände in Basismaterialien zerlegen | [Produktion](/de/features/production/) |
+| Reparatur | Beschädigte Roboter/Module reparieren | [Produktion](/de/features/production/) |
+| Versicherung | Produktions-/Roboter-Versicherungspolicen | [Produktion](/de/features/production/) |
+| Markt | Marktorders und Sofortkäufe | [Markt](/de/features/market/) |
+| Aufträge | Transportaufträge (Lieferungen) | [Transport](/de/features/transport/) |
+| Konzernlager | Konzern-Hangar / Lager | [Gruppen](/de/features/groups/) |
+| Ausrüsten | Module und Munition auf deinem aktiven Roboter ausrüsten | [Roboter](/de/features/robots/) |
 
-# Client-UI Übersicht
+## Gedockter Zustand
 
-Die Client-Oberfläche ist im Stil **EVE Online** modelliert: ein Hauptbildschirm
-mit einer Topbar, einem zentralen Dock-Button und kontextuellen Pane
+Während du **gedockt** bist, bilden die Aktionskategorien auf der rechten Seite den Hauptarbeitsbereich: Du verarbeitest
+Materialien, handelst, rüstest aus und verwaltest dein Lager, ohne die Basis zu verlassen. Die Ausrücken-Schaltfläche
+dockt dich in die Zone ab (siehe [Bewegung](/de/features/movement/) für die Voraussetzungen zum Abdocken).
 
-<tool_call>
-<function=write>
-<parameter=content>
----
-title: "Client-UI Übersicht"
-description: "Das Client-Layout: Topbar, Dock-Button, Aktionskategorien, und das undocked-Statuspanel. Modelliert nach einer EVE-Online-ähnlichen Oberfläche."
-weight: 360
----
+## Ungedockter Zustand (Im Einsatz)
 
-# Client-UI Übersicht
+Während du **ungedockt** bist (deinen aktiven Roboter in einer Zone steuerst):
 
-Die Client-Oberfläche ist im Stil **EVE Online** modelliert: ein Hauptbildschirm
-mit einer Topbar, einem zentralen Dock-Button und kontextuellen Pane
+- Der Bereich **oben rechts** erhält eine **aufklappbare Aktionsschaltfläche**: Klickst du darauf, klappt eine Liste
+  zusätzlicher Zonenaktionen nach unten auf (Scannen, Ernte-/Interaktionsaktionen, Zonenwerkzeuge —
+  die unter [Sammeln](/de/features/gathering/) und [Kampf](/de/features/combat/) dokumentierten Aktionen).
+- Die **Hauptstatusanzeige** zeigt den Zustand deines Roboters: **Schild, Panzerung/Struktur, Energie**
+  sowie den zugehörigen Kampfstatus — dieselben Daten, auf die sich die Seite [Kampf](/de/features/combat/) bezieht
+  (z. B. die Abdock-Prüfung „Energiesystem intakt“).
+- Kategorien, die nur in der Basis verfügbar sind (Raffinerie, Markt, …), bleiben unerreichbar, bis du wieder andockst.
 
-<tool_call>
-<function=write>
-<parameter=content>
----
-title: "Client-UI Übersicht"
-description: "Das Client-Layout: Topbar, Dock-Button, Aktionskategorien, und das undocked-Statuspanel. Modelliert nach einer EVE-Online-ähnlichen Oberfläche."
-weight: 360
----
+## Häufige Fenster
 
-# Client-UI Übersicht
+Die meisten Systeme öffnen sich in einem standardmäßigen frei schwebenden Fenster: Titelleiste, Schließen-Schaltfläche,
+anpassbare Kanten, Reiter- oder Listeninhalte. Wiederkehrende Systeme (Inventar/Container, Markt, Produktionslinien)
+können mehrere Fenster gleichzeitig geöffnet haben.
 
-Die Client-Oberfläche ist im Stil **EVE Online** modelliert: ein Hauptbildschirm
-mit einer Topbar, einem zentralen Dock-Button und kontextuellen Pane
+- **Inventar / Container** — Inhalte auflisten, Gegenstände verschieben/stapeln/verpacken, umbenennen, zerstören —
+  siehe [Gegenstände](/de/features/items/).
+- **Charakterfenster** (Schaltfläche oben links) — Profil, Erweiterungen (Forschung), Einstellungen,
+  Credits — siehe [Erste Schritte](/de/features/getting-started/) und [Forschung](/de/features/research/).
+- **Konzernfenster** (Schaltfläche oben links) — Konzerninfo, Hangar, Dokumente, Abstimmungen,
+  Schwarzes Brett — siehe [Gruppen](/de/features/groups/).
+- **Mailfenster** (Schaltfläche oben links) — Persönliche und Massennachrichten — siehe [Soziales](/de/features/social/).
 
-<tool_call>
-<function=write>
-<parameter=content>
----
-title: "Client-UI Übersicht"
-description: "Das Client-Layout: Topbar, Dock-Button, Aktionskategorien, und das undocked-Statuspanel. Modelliert nach einer EVE-Online-ähnlichen Oberfläche."
-weight: 360
----
+## In diesem Wiki verwendete Konventionen
 
-# Client-UI Übersicht
+- **„Obere Leiste → X“** = die Schaltfläche namens X in der oberen Leiste.
+- **„Zonenaktionen“** = die aufklappbare Liste oben rechts während des Einsatzes in einer Zone.
+- **Ausrücken-/Andocken-Schaltfläche** = der zentrale Umschalter in der oberen Leiste.
 
-Die Client-Oberfläche ist im Stil **EVE Online** modelliert: ein Hauptbildschirm
-mit einer Topbar, einem zentralen Dock-Button und kontextuellen Pane
+<!-- Note: this page is the agreed UI model (project-provided). If the real client
+     differs in button names or placement, update this page first — every other
+     features/ page references the conventions defined here. -->

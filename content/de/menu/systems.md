@@ -1,16 +1,21 @@
 ---
 title: "Systeme"
-description: "Die Systeme des Spiels: Roboter, Produktion, Forschung, Charakter, Gegenstände, und Markt."
-weight: 30
+description: "Die Systeme, die dich voranbringen und Werte transportieren: Roboter, Produktion, Forschung, dein Charakter, Gegenstände und die Wirtschaft."
 ---
 
 # Systeme
 
-Die grundlegenden Systeme von Open Perpetuum:
+Die Systeme, die dich voranbringen und deine Werte bewegen: Was deine Roboter transportieren, wie
+Gegenstände hergestellt werden und wie Waren und Credits fließen.
 
-- [Roboter](/de/features/robots/) — Auswahl und Ausrüstung
-- [Produktion](/de/features/production/) — Fertigung
-- [Forschung](/de/features/research/) — Forschungsbäume
-- [Charakter](/de/features/character/) — Fortschritt
-- [Gegenstände & Inventar](/de/features/items/) — Container
-- [Markt & Handel](/de/features/market/) — Wirtschaft
+## Aufbauen & Wachsen
+
+- **[Roboter & Ausrüstung](/de/features/robots/)** — Deinen aktiven Roboter auswählen, Module und Munition ausrüsten, Voreinstellungen und Lackierungen.
+- **[Produktion](/de/features/production/)** — Komponenten in Gegenstände verwandeln: Produktionslinien, Raffinieren, Reparieren, Wiederaufbereiten, Prototypen und Versicherung. Vollständige Tabellen: [Baupläne](/de/content/recipes/).
+- **[Forschung](/de/features/research/)** — Der Fortschritt durch Forschung: der [Technologiebaum](/de/content/techtree/) für Charakter- und Konzern-Freischaltungen.
+- **[Charakter](/de/features/character/)** — Das Charakterfenster: der [Erweiterungen](/de/content/extensions/)-Fähigkeitenbaum und [Sparks](/de/features/sparks/).
+
+## Transport & Handel
+
+- **[Gegenstände & Inventar](/de/features/items/)** — Dein Inventar: Container, Packen, Stapeln, Umbenennen und spezielle Gegenstände wie einlösbare Items und Goodie-Packs. Außerdem: [Module & Ausrüstung](/de/features/modules/) — die Modulfamilien und Faustregeln.
+- **[Markt & Handel](/de/features/market/)** — Die Wirtschaft: Marktorders, Direktkäufe, direkter Spielerhandel und Credits. Außerdem: [Transport](/de/features/transport/) (Frachtverkehr zwischen Basen) und der [Item-Shop](/de/content/shop/) (Festpreis-Händlerkatalog).

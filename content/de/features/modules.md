@@ -1,236 +1,250 @@
 ---
-title: "Module & Ausrstung"
-description: "Die Modulfamilien (weapons, armor, energy, electronics, EWar, EnWar, industrial, NEXUS, NOX) und die Grundregeln, um einen Roboter auszuruesten."
+title: "Module & Ausrüstung"
+description: "Die Modulfamilien (Waffen, Rüstung, Energie, Elektronik, EWar, EnWar, Industrial, NEXUS, NOX) und die Grundregeln, um einen Roboter auszurüsten."
 weight: 18
 ---
 
-# Module & Ausrstung
+# Module & Ausrüstung
 
-"Buying a robot only gets you the chassis." Outfitting it with modules is where a
-robot becomes what you need it to be. *Fitting* means both the module loadout
-("send me your fitting") and the CPU/reactor budget it consumes.
+„Einen Roboter zu kaufen, bringt dir nur das Chassis." Erst das Ausrüsten mit
+Modulen macht daraus, was du brauchst. *Fitting* meint sowohl die Modul-Ausstattung
+(„schick mir dein Fitting") als auch das CPU-/Reaktor-Budget, das sie frisst.
 
 ```mermaid
 flowchart TD
-    subgraph Frame["Robot frame budget"]
-        CPU["CPU cap"]
-        PG["Reactor (powergrid) cap"]
+    subgraph Frame["Rahmen-Budget des Roboters"]
+        CPU["CPU-Limit"]
+        PG["Reaktor (Powergrid)-Limit"]
     end
-    S["Slot\ntyped by a bitmask:\nturret / missile / head / industrial /\nEWar / size (S·M·L)"] --> R{"Module fits?"}
-    R -->|"module flags ⊆ slot flags"| FIT["Fitted"]
-    R -->|"no"| NO["Refused"]
-    FIT --> B{"Sum of CPU + reactor\ndraw within frame caps?"}
-    B -->|yes| OK["Robot stats re-derived"]
-    B -->|no| NO2["Over budget — remove or\nupgrade (coprocessor, reactor upgrade)"]
+    S["Slot mit Bitmaske:\nTurret / Rakete / Kopf /\nIndustrial / EWar /\nGröße (S·M·L)"] --> R{"Modul passt?"}
+    R -->|"Modul-Flags ⊆ Slot-Flags"| FIT["Ausgerüstet"]
+    R -->|"nein"| NO["Abgewiesen"]
+    FIT --> B{"Summe aus CPU + Reaktor\nim Rahmen-Limit?"}
+    B -->|ja| OK["Roboter-Stats neu abgeleitet"]
+    B -->|nein| NO2["Über Budget — entfernen oder\nupgraden (Koprozessor, Reaktor-Upgrade)"]
 ```
 
-## Slots & resources
+## Slots & Ressourcen
 
-A robot's frame has a fixed set of **slots**, defined by its chassis. Each slot is
-typed by a bitmask — turret, missile launcher, head, industrial, EWar/engineering,
-size (small / medium / large) — and a module only fits a slot when its own type
-mask is a subset of the slot's. So a turret slot on a caster accepts small,
-medium *or* large turret modules, but no missile launcher will ever go in a
-turret slot. Head modules (coprocessors, tuning modules) and chassis/leg modules
-(plates, frames) occupy their own dedicated slots.
+Ein Roboter-Rahmen hat eine feste Menge **Slots**, definiert durch sein Chassis.
+Jeder Slot ist per Bitmaske typisiert — Turret, Raketenwerfer, Kopf, Industrial,
+EWar/Engineering, Größe (klein / mittel / groß) — und ein Modul passt nur in einen
+Slot, wenn seine eigene Typenmaske eine Teilmenge der Slot-Maske ist. Ein
+Turret-Slot auf einem Caster akzeptiert also kleine, mittlere *oder* große
+Turret-Module, aber kein Raketenwerfer kommt je in einen Turret-Slot. Kopf-Module
+(Koprozessoren, Tune-Module) und Chassis-/Bein-Module (Platten, Frames)
+belegen eigene dedizierte Slots.
 
-Every module draws **CPU** and **reactor** (powergrid) from the frame — the sum of
-everything fitted must stay under both limits, and some modules also draw
-**accumulator** (core) per cycle. Leftover capacity is the *available output*
-shown in the fitting window. Rough chassis scale (T1/T2/T3 examples):
+Jedes Modul zieht **CPU** und **Reaktor** (Powergrid) aus dem Rahmen — die Summe
+von allem Ausgerüsteten muss unter beiden Limits bleiben, und manche Module ziehen
+pro Zyklus zusätzlich **Akkumulator** (Kern). Der verbleibende Rest ist der
+*verfügbare Output*, den das Fitting-Fenster anzeigt. Grobe Chassis-Skala
+(T1/T2/T3-Beispiele):
 
-| Frame class | CPU | Reactor | Example |
+| Rahmenklasse | CPU | Reaktor | Beispiel |
 |---|---:|---:|---|
-| Small crawler | ~250 | ~140 | Castel |
-| Light mech | ~480 | ~300 | Waspish |
-| Heavy mech | ~1 100 | ~1 000 | Tyrannos |
+| Kleiner Crawler | ~250 | ~140 | Castel |
+| Leichter Mech | ~480 | ~300 | Waspish |
+| Schwerer Mech | ~1 100 | ~1 000 | Tyrannos |
 | Walker | ~3 200+ | ~1 100+ | Gropho |
 
-When you're short on capacity: **CPU** — coprocessor modules (e.g. the T3
-coprocessor grants +20% CPU) or T2 module variants (lower draw). **Reactor** —
-reactor upgrades (e.g. T3 gives +20% reactor output) or reactor sealing (lowers
-radiation, which also protects you from EnWar — see below).
+Wenn dir Kapazität fehlt: **CPU** — Koprozessor-Module (z. B. gibt der T3-
+Koprozessor +20 % CPU) oder T2-Module-Varianten (geringerer Verbrauch). **Reaktor**
+— Reaktor-Upgrades (z. B. gibt T3 +20 % Reaktor-Output) oder Reaktor-
+Abschirmung (senkt die Strahlung, was dich auch vor EnWar schützt — siehe unten).
 
 ## Die Modulfamilien
 
-Per-model numbers live in the [items catalog](/content/) and the
-[formats reference](/formats/); this is the family map.
+Pro-Modell-Zahlen liegen im [Item-Katalog](/content/) und in der
+[Formate-Referenz](/de/formats/); das hier ist der Familienüberblick.
 
-### Weapons & ammo
+### Waffen & Munition
 
-Four weapon technologies, each with its own ammo and distance profile:
+Vier Waffentechnologien, jede mit eigener Munition und Distanz-Charakteristik:
 
-| Weapon | Ammo | Distance profile | Notes |
+| Waffe | Munition | Distanz-Charakteristik | Notizen |
 |---|---|---|---|
-| **Firearms** | Bullets | Short optimal, huge falloff | Projectiles that *never miss* — but their "accuracy" works as an area radius, so small targets still take reduced damage from wide sprays. |
-| **Magnetic (railguns)** | Slugs | Medium range, sharp falloff | High impact velocity; heavy energy use. |
-| **Lasers** | Energy cells | Long range | Most energy-hungry; concentrated beams. |
-| **Missiles** | Missiles | Long range | Hit or miss is decided by the *robot's* hit-chance stat, not distance. Damage scales with the target's size relative to the explosion radius — big missiles on small targets hit for much less. |
+| **Schusswaffen** | Kugeln | Kurzes Optimum, starker Abfall | Geschosse, die *nie daneben schießen* — aber ihre „Präzision" wirkt als Flächenradius, sodass kleine Ziele von breiten Salven reduzierten Schaden nehmen. |
+| **Magnet (Railguns)** | Slugs | Mittlere Reichweite, steiler Abfall | Hohe Einschlagsgeschwindigkeit; hoher Energieverbrauch. |
+| **Laser** | Zellen | Lange Reichweite | Die energiehungrigsten; gebündelte Strahlen. |
+| **Raketen** | Raketen | Lange Reichweite | Treffer oder Fehlschuss entscheidet die *Trefferchance des Roboters*, nicht die Distanz. Der Schaden skaliert mit der Zielgröße relativ zum Explosionsradius — große Raketen auf kleine Ziele treffen deutlich schwächer. |
 
-Damage falls off with distance on a smooth cosine curve: full damage at optimal
-range, zero at optimal + falloff (see [damage falloff](/features/combat/#damage-types-and-armor)).
+Der Schaden fällt mit der Distanz auf einer glatten Kosinus-Kurve ab: voller
+Schaden auf optimaler Reichweite, null auf Optimum + Falloff (siehe
+[Schadensabfall](/de/features/combat/#schadensarten)).
 
-Ammo is where you tune damage: primary + secondary damage types let you fine-tune
-against a target (see [damage types](/features/combat/#damage-types-and-armor)) —
-at the cost of a bit of total damage versus pure-primary ammo.
+Munition ist dein Schadens-Tuning: Primär- + Sekundär-Schadensarten lassen dich
+gegen ein Ziel feinjustieren (siehe [Schadensarten](/de/features/combat/#schadensarten))
+— auf Kosten eines kleinen Teils des Gesamtschadens gegenüber reiner Primärmunition.
 
-Turrets come in small/medium/large; **match the size to the robot** (small bots
-run small modules, mechs and heavies run medium/large).
+Turms gibt es in klein/mittel/groß; **Größe zum Roboter passend wählen** (kleine
+Bots fahren kleine Module, Mechs und Schwere fahren mittel/groß).
 
-### Defense
+### Verteidigung
 
-- **Armor plates** — the main hitpoint pool; when armor hits zero, the robot
-  explodes. **LWF** (lightweight frame) plates trade durability for speed: a T2
-  LWF plate multiplies armor by ~0.73 but grants +19% speed, −0.2 signature and
-  −0.2 mass.
-- **Shield generator** — an accumulator-fed barrier that absorbs damage ahead of
-  armor. The shield spends *your own core* to absorb: a hit that would deal 100
-  damage on a 2× shield draws 50 core instead of 100 armor. While the shield is
-  active your own weapons cannot fire. Absorption quality scales with the shield
-  radius relative to your signature — big shields on small frames work best.
-- **Armor repair** — active repair modules (small/medium/large); **remote armor
-  repair** reaches a locked target (allies, or a PBS) but has a short range and a
-  longer cycle.
-- **Armor hardeners** — passive resist points per damage type (chemical /
-  kinetic / thermal / explosive variants).
-- **Adaptive alloy** — a passive that *learns* the damage mix it takes and
-  redistributes a fixed pool of resist points toward whatever you've been hit
-  with most.
-- **Evasive / maneuvering** — signature-reduction modules and NEXUS (below) make
-  the target smaller: less damage from area effects and a harder lock.
+- **Rüstungsplatten** — der Haupt-Hitpunkt-Pool; wenn die Rüstung bei null ist,
+  explodiert der Roboter. **LWF** (lightweight frame)-Platten tauchen Haltbarkeit
+  gegen Geschwindigkeit: eine T2-LWF-Platte multipliziert die Rüstung mit ~0,73,
+  gibt aber +19 % Tempo, −0,2 Signatur und −0,2 Masse.
+- **Schildgenerator** — eine akkumulatorgespeiste Barriere, die Schaden vor der
+  Rüstung absorbiert. Der Schild zahlt *deinen eigenen Kern* fürs Absorbieren: ein
+  Treffer, der bei 2× Schild 100 Schaden verursachen würde, zieht 50 Kern statt
+  100 Rüstung. Solange der Schild aktiv ist, können deine eigenen Waffen nicht
+  feuern. Die Absorptionsqualität skaliert mit dem Schildradius relativ zu deiner
+  Signatur — große Schilder auf kleinen Rahmen funktionieren am besten.
+- **Rüstungsreparatur** — aktive Reparaturmodule (klein/mittel/groß); **Fern-
+  Rüstungsreparatur** erreicht ein verriegeltes Ziel (Verbündete oder eine PBS),
+  hat aber kurze Reichweite und längeren Zyklus.
+- **Rüstungshärter** — passive Resistenzpunkte pro Schadensart (chemische /
+  kinetische / thermische / explosive Varianten).
+- **Adaptiver Legierung** — ein Passiv, das den *erhaltenen* Schadensmix lernt und
+  einen festen Pool an Resistenzpunkten dorthin umverteilt, wo du am meisten
+  getroffen wurdest.
+- **Ausweich-/Manöver** — Signatur-Senkungs-Module und NEXUS (unten) machen das
+  Ziel kleiner: weniger Schaden von Flächeneffekten und schwerer zu verriegeln.
 
-### Energy
+### Energie
 
-- **Reactor** — the sustained output limit; reactor upgrades raise it, reactor
-  sealing lowers radiation (less EnWar damage taken, at a small reactor cost).
-- **Accumulator (core)** — the burst-energy reserve that powers module cycles. It
-  recharges over time (chassis `core_recharge_time`, ~120 ms on a T1 crawler);
-  **accumulator rechargers** speed the recharge.
-- **Energy injectors (core boosters)** — consume a charge to instantly top up the
-  accumulator.
-- **Energy transferers** — beam core from your robot to a locked ally (players
-  can't beam NPCs).
+- **Reaktor** — das nachhaltige Output-Limit; Reaktor-Upgrades erhöhen es,
+  Reaktor-Abschirmung senkt die Strahlung (weniger erlittener EnWar-Schaden, auf
+  Kosten eines kleinen Teils des Reaktors).
+- **Akkumulator (Kern)** — der Burst-Energie-Rest, der die Module-Zyklen antreibt.
+  Er lädt sich mit der Zeit nach (Chassis-`core_recharge_time`, ~120 ms auf einem
+  T1-Crawler); **Akkumulator-Lader** beschleunigen den Ladevorgang.
+- **Energieinjektoren (Core-Booster)** — verbrauchen eine Ladung, um den
+  Akkumulator sofort vollzumachen.
+- **Energietransferatoren** — strahlen Kern von deinem Roboter zu einem
+  verriegelten Verbündeten (Spieler können keine NPCs strahlen).
 
-### Electronics
+### Elektronik
 
-- **Sensor booster** — passive, self: shortens your lock time and extends your
-  lock range.
-- **Remote sensor booster** — active, target: same boost applied to a locked ally
-  for ~10.5 s.
-- **Coprocessors** — raise the frame's CPU limit (T1 +10% … T3 +20%).
-- **Weapon stabilizers** — improve weapon accuracy (smaller effective area
-  radius) and shave a bit of mass.
-- **Tuning modules** (head slots) — flat bonuses to specific families: damage
-  mods (+25% damage per weapon family at T3), mining upgrades (+10% mining and
-  harvesting at T3), armor-repairer upgrades (+16% repair, −8% cycle at T3).
+- **Sensorbooster** — passiv, selbst: verkürzt deine Verriegelungszeit und
+  verlängert deine Verriegelungsreichweite.
+- **Fern-Sensorbooster** — aktiv, Ziel: derselbe Boost, auf einen verriegelten
+  Verbündeten für ~10,5 s angewendet.
+- **Koprozessoren** — erhöhen das CPU-Limit des Rahmens (T1 +10 % … T3 +20 %).
+- **Waffenstabilisatoren** — verbessern die Waffengenauigkeit (kleinerer
+  effektiver Flächenradius) und sparen etwas Masse.
+- **Tune-Module** (Kopf-Slots) — flache Boni für bestimmte Familien:
+  Schadens-Mods (+25 % Schaden pro Waffenfamilie auf T3), Mining-Upgrades
+  (+10 % Mining und Ernte auf T3), Reparatur-Upgrades (+16 % Reparatur, −8 %
+  Zyklus auf T3).
 
 ### Electronic Warfare (EWar)
 
-Make the enemy blind and deaf:
+Mach den Feind blind und taub:
 
-- **Sensor dampener** — ranged debuff: lengthens the target's lock time and cuts
-  its lock range for ~5.5 s. Only lands if your ECM strength beats the target's
-  (randomized) sensor strength.
-- **Sensor jammer** — instant: resets *all* of the target's locks on a successful
-  ECM check.
-- **ECCM** — self buff for 20 s: raises sensor strength and lock resistance, and
-  *cures* ECM-vulnerable debuffs (dampeners, webs).
-- **Neuralyzer** — resets the locks of **every** player within ~1.65 km. A panic
-  button.
+- **Sensordämpfer** — Reichweiten-Debuff: verlängert die Verriegelungszeit des
+  Ziels und senkt seine Verriegelungsreichweite für ~5,5 s. Wirkt nur, wenn deine
+  ECM-Stärke die (randomisierte) Sensorstärke des Ziels schlägt.
+- **Sensorjammer** — sofort: setzt bei erfolgreichem ECM-Check *alle*
+  Verriegelungen des Ziels zurück.
+- **ECCM** — Selbst-Buff für 20 s: erhöht Sensorstärke und Verriegelungsresistenz
+  und *heilt* ECM-verwundbare Debuffs (Dämpfer, Webs).
+- **Neuralyzer** — setzt die Verriegelungen **aller** Spieler innerhalb von
+  ~1,65 km zurück. Ein Panikknopf.
 
-Counterplay: sensor strength (chassis), ECCM, and keeping distance.
+Gegenmittel: Sensorstärke (Chassis), ECCM und Distanz halten.
 
-### Stealth & detection
+### Stealth & Detektion
 
-- **Stealth module** — ~10.5 s of stealth; the drain scales with your signature
-  radius (bigger frame, faster core burn).
-- **Target painter** — ~10.5 s debuff that strips the target's stealth strength.
-- **Detection module** — passive boost to your detection strength.
+- **Stealth-Modul** — ~10,5 s Tarnung; der Verbrauch skaliert mit deinem
+  Signaturradius (größerer Rahmen, schnellerer Kern-Verbrauch).
+- **Zielmaler** — ~10,5 s Debuff, das die Tarnstärke des Ziels entfernt.
+- **Detektionsmodul** — passiver Boost deiner Detektionsstärke.
 
-Detection strength vs. stealth strength decides whether you can see (and lock) a
-cloaked target at all — see [detection & masking](/features/combat/#detection-interference-and-speed).
+Detektionsstärke gegen Tarnstärke entscheidet, ob du ein getarntes Ziel überhaupt
+sehen (und verriegeln) kannst — siehe [Detektion & Maskierung](/de/features/combat/#scannen-und-zielung).
 
 ### Energy Warfare (EnWar)
 
-Drain or cut the enemy's energy:
+Entzieh dem Feind Energie oder schneide sie ab:
 
-- **Drainers (energy vampires)** — siphon core from a locked target and add it to
-  your own accumulator.
-- **Neutralizers** — the same, but the drained core is destroyed.
-- Both are weakened by the target's **reactor radiation** — sealing is a real
-  counter.
-- **Demobilizers (webs)** — ~5.5 s speed reduction on the target; the effect
-  scales with the target's mass (heavy frames are slowed less) and fails against
-  targets outside the module's optimal range.
-- **Scorcher** — an electric weapon that *chains* up to 5 targets, hitting
-  shields and armor with penetrating damage.
+- **Drainer (Energievampire)** — pumpen Kern aus einem verriegelten Ziel und
+  addieren ihn zu deinem eigenen Akkumulator.
+- **Neutralisierer** — dasselbe, aber der entzogene Kern wird zerstört.
+- Beide werden von der **Reaktor-Strahlung** des Ziels abgeschwächt — Abschirmung
+  ist ein echtes Gegenmittel.
+- **Demobilisierer (Webs)** — ~5,5 s Tempoverringerung am Ziel; der Effekt
+  skaliert mit der Zielmasse (schwere Rahmen werden weniger gebremst) und
+  schlägt gegen Ziele außerhalb der optimalen Reichweite des Moduls fehl.
+- **Scorcher** — eine elektrische Waffe, die bis zu 5 Ziele *ketten* und
+  Schild und Rüstung mit durchschlagendem Schaden trifft.
 
 ### Industrial
 
-- **Drills** (small / large) and **harvesters** (small / large) — the gathering
-  modules; yield, cycle time and accumulator use are the stats that matter.
-  Mining grants EP (with a daily cap and liquid penalty).
-- **Geoscanner** — scans the mineral field around you with the probe's accuracy;
-  the result is a map of what's under the ground (see [gathering](/features/gathering/)).
-- **Excavator** — aura module: boosts mining/harvesting yield of nearby units
-  (T3: +50%) at the cost of stealth.
-- **Terraforming** (gamma zones) — terrain locks that raise, lower or level
-  ground (max radius 5 m) and grow wall plants; see the [zones section](/zones/zone-gamma-z106/).
-- **Remote controllers** — turrets and drones on a leash: each controller
-  module carries a bandwidth (how many), an operational range and a drone
-  lifetime (5–10 min by tier). Variants: tactical (damage/cycle), assault
-  (damage), support (remote repair), industrial (mining/harvesting drones),
-  hunter. A **remote command translator** module amplifies drone damage, armor,
-  mining yield and repair output (T3: +7.5% each) and can extend the controller's
-  bandwidth.
+- **Bohrer** (klein / groß) und **Ernter** (klein / groß) — die
+  Sammelmodule; Ertrag, Zykluszeit und Akkumulator-Verbrauch sind die relevanten
+  Stats. Mining gibt EP (mit Tageslimit und Liquiditäts-Abzug).
+- **Geoskaner** — scannt das Mineralfeld um dich herum mit der Genauigkeit der
+  Sonde; das Ergebnis ist eine Karte dessen, was unter dem Boden liegt (siehe
+  [Sammeln](/de/features/gathering/)).
+- **Bagger** — Aura-Modul: erhöht den Mining-/Ernte-Ertrag in der Nähe
+  (T3: +50 %) auf Kosten von Tarnung.
+- **Terraforming** (Gamma-Zonen) — Terrain-Locks, die den Boden anheben,
+  senken oder eben machen (maximaler Radius 5 m), und Mauerpflanzen wachsen
+  lassen; siehe den [Zonen-Bereich](/zones/zone-gamma-z106/).
+- **Fernsteuerungen** — Turms und Dronen an der Leine: jedes Controller-Modul
+  hat eine Bandbreite (wie viele), einen Einsatzradius und eine Drohnen-
+  Lebensdauer (5–10 min je Tier). Varianten: taktisch (Schaden/Zyklus),
+  Sturmangriff (Schaden), Unterstützung (Fernreparatur), Industrial
+  (Mining-/Ernte-Drohnen), Jäger. Ein **Fernbefehls-Translator**-Modul
+  verstärkt Drohnen-Schaden, Rüstung, Mining-Ertrag und Reparatur-Output
+  (T3: je +7,5 %) und kann die Bandbreite des Controllers verlängern.
 
 ### NEXUS
 
-Networked Extension Utilization Systems: **squad buffs**. A NEXUS module emits an
-aura around its own robot that buffs **gang members** (and their turrets/drones)
-within the aura radius — default 10 m, refreshable every 10 s. Rules:
+Networked Extension Utilization Systems: **Truppen-Buffs**. Ein NEXUS-Modul
+emittiert eine Aura um seinen eigenen Roboter, die **Gang-Mitglieder** (und ihre
+Turms/Drohnen) im Aura-Radius bufft — Standard 10 m, alle 10 s auffrischbar.
+Regeln:
 
-- a robot can carry at most **3 NEXUS auras**, and at most **one of each type**;
-- the aura only reaches units in your **gang**, not random allies.
+- ein Roboter kann höchstens **3 NEXUS-Auren** tragen und höchstens **eine
+  je Typ**;
+- die Aura erreicht nur Einheiten in deinem **Gang**, keine zufälligen Verbündeten.
 
-The T3 type list (13): velocity, armor, shield, farlock (lock range), lock
-booster (lock time), critical hit, assault (weapon cycle), EW (EWar range),
-evasive (signature), repairer, industrial (accumulator use while gathering),
-fast extractor (gathering cycle), recharger (core recharge). Each T3 module
-grants roughly +7.5% of its stat; e.g. the velocity NEXUS multiplies max speed
-by 1.075 for every gangmate standing within 10 m.
+Die T3-Typenliste (13): Geschwindigkeit, Rüstung, Schild, Fernverriegelung
+(Verriegelungsreichweite), Verriegelungs-Booster (Verriegelungszeit),
+Kritischer Treffer, Sturmangriff (Waffenzyklus), EW (EWar-Reichweite),
+Ausweich (Signatur), Reparatur, Industrial (Akkumulator-Verbrauch beim
+Sammeln), schneller Extraktor (Sammelzyklus), Lader (Kern-Nachladung). Jedes
+T3-Modul gibt ungefähr +7,5 % seiner Statistik; z. B. multipliziert die
+Geschwindigkeits-NEXUS die Maximalgeschwindigkeit mit 1,075 für jeden
+Gang-Kameraden, der innerhalb von 10 m steht.
 
 ### NOX
 
-Cultist-grade counters: **negator** modules that *disable* enemy modules inside
-their radius — a **shield negator** (cuts shield absorption by ~90%), a
-**repair negator** (cuts repair output) and a **teleport negator** (blocks
-teleporting). Each activation **consumes plasma** from your cargo, and using one
-on an open (non-training) zone **flags your character for PvP**.
+Kultisten-Grad-Gegenmittel: **Negator**-Module, die feindliche Module innerhalb
+ihres Radius *deaktivieren* — ein **Schild-Negator** (senkt die
+Schildabsorption um ~90 %), ein **Reparatur-Negator** (senkt den
+Reparatur-Output) und ein **Teleport-Negator** (blockiert Teleportieren).
+Jede Aktivierung **verbraucht Plasma** aus deinem Cargo, und der Einsatz in
+einer offenen (nicht-Trainings-)Zone **flaggt deinen Charakter für PvP**.
 
-### Special-purpose
+### Spezialzwecke
 
-- **Siege hack module** — the active-SAP tool: 5 s cycle, 3 m range (see
-  [outposts](/features/outposts/)).
-- **Self-destruct** — arms an 8-second countdown; the beam is visible for 600 m.
-  Last-resort cleanup.
-- **Mine detector** — extends the frame's mine detection range.
-- **Blob emitters** — deploy an emitter that spreads a blob field; the
-  emission-modulator module tunes the field (see [combat](/features/combat/)).
-- **PBS construction** — the module used to place PBS structures on gamma zones.
+- **Siege-Hack-Modul** — das aktive-SAP-Werkzeug: 5 s Zyklus, 3 m Reichweite
+  (siehe [Außenposten](/de/features/outposts/)).
+- **Selbstzerstörung** — armerst einen 8-Sekunden-Countdown; der Strahl ist aus
+  600 m sichtbar. Aufräumen in letzter Verzweiflung.
+- **Minendetektor** — verlängert den Minendetektionsradius des Rahmens.
+- **Blob-Emitter** — deployt einen Emitter, der ein Blob-Feld ausbreitet; das
+  Emissionsmodulator-Modul justiert das Feld (siehe [Kampf](/de/features/combat/)).
+- **PBS-Bau** — das Modul, mit dem man PBS-Strukturen auf Gamma-Zonen platziert.
 
-## Rules of thumb
+## Faustregeln
 
-1. **Don't mix your guns.** Magnetic + laser + missiles on one bot usually
-   underperforms all three; mixing short- and long-range rarely ends well.
-2. **Mind the mass.** Every plate and shield module adds mass and signature —
-   sometimes speed matters more than defense.
-3. **Don't do everything.** A bot that mines, scans and shoots does none of it
-   as well as a specialist.
-4. **Size-match your modules** to the robot, and leave a little CPU/reactor head
-   for the tuning modules that make a build actually work.
-5. …and yes, some niche fits break all of the above and still work. Just put
-   some thought into it.
+1. **Nicht die Waffen mischen.** Magnet + Laser + Raketen auf einem Bot
+   unterperformt meist alle drei; kurz- und langreichweitiges Mischen endet
+   selten gut.
+2. **Achte auf die Masse.** Jede Platte und jedes Schild-Modul fügt Masse und
+   Signatur hinzu — manchmal zählt Tempo mehr als Verteidigung.
+3. **Nicht alles auf einmal.** Ein Bot, der mined, scannt und schießt, macht
+   davon nichts so gut wie ein Spezialist.
+4. **Modul-Größe zum Roboter passend wählen** und etwas CPU-/Reaktor-Reserve
+   für die Tune-Module lassen, die einen Build erst richtig zum Laufen bringen.
+5. …und ja, einige Nischen-Fits brechen all das oben und funktionieren trotzdem.
+   Nur ein bisschen nachdenken.
 
 <!--
 Developer notes: rewritten 2026 from backend sources; no community-wiki text reused.

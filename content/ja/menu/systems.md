@@ -1,16 +1,21 @@
 ---
 title: "システム"
-description: "ゲームシステム：ロボット、生産、研究、キャラクター、アイテム、マーケット。"
-weight: 30
+description: "キャラクターの強化と価値の循環を担うシステム：ロボット、生産、研究、キャラクター、アイテム、経済。"
 ---
 
 # システム
 
-Open Perpetuum の基本システム：
+プレイヤーを強化し価値を循環させるシステム：ロボットが搭載するもの、
+アイテムの製造方法、物資とクレジットの流れを扱います。
 
-- [ロボット](/ja/features/robots/) — 選択と装備
-- [生産](/ja/features/production/) — 製造
-- [研究](/ja/features/research/) — 研究ツリー
-- [キャラクター](/ja/features/character/) — 進行度
-- [アイテム & 荷札](/ja/features/items/) — コンテナ
-- [マーケット & 取引](/ja/features/market/) — 経済
+## 構築 & 成長
+
+- **[ロボットとフィッティング](/ja/features/robots/)** — アクティブなロボットの選択、モジュールや弾薬の装備、プリセット、カラーリング。
+- **[生産](/ja/features/production/)** — 部品からアイテムへの製造：生産ライン、精製、修理、再処理、プロトタイプ、保険。完全な表：[レシピ](/content/recipes/)。
+- **[研究](/ja/features/research/)** — 研究によって得られる進行度：キャラクター別およびコーポレーション別のアンロック [技術ツリー](/content/techtree/)。
+- **[キャラクター](/ja/features/character/)** — キャラクターウィンドウ：[エクステンション](/content/extensions/)スキルツリーと[スパーク](/ja/features/sparks/)。
+
+## 保管 & 取引
+
+- **[アイテム & インベントリ](/ja/features/items/)** — インベントリ：コンテナ、梱包、スタック、名前変更、引換券や特典パックなどの特殊アイテム。関連：[モジュール & フィッティング](/ja/features/modules/) — モジュール系列とおおまかな指針。
+- **[マーケット & 取引](/ja/features/market/)** — 経済：マーケット注文、直接購入、プレイヤー間直接取引、クレジット。関連：[輸送](/ja/features/transport/)（基地間輸送）および[アイテムショップ](/content/shop/)（固定価格ベンダーカタログ）。

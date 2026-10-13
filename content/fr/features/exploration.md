@@ -6,52 +6,72 @@ weight: 14
 
 # Exploration (artefacts & reliques)
 
-L'**exploration** consiste à trouver des trésors cachés sous la surface des zones :
-**artefacts** et **reliques**.
+L'exploration consiste à découvrir de la valeur dissimulée dans le terrain — une excellente activité solo
+à tous les niveaux. Elle se présente sous deux formes : les **artefacts**, qui sont personnels et cachés,
+et les **reliques**, qui sont visibles de tous et disputées.
 
-## Artefacts
+```mermaid
+flowchart TD
+    A["Charger des charges de scan d'artefact\ndans le géoscanner\n(100 / 300 / 500 m)"] --> B["Scanner depuis votre position\n(ensemble propre à votre personnage)"]
+    B --> C["Se rendre à la position détectée"]
+    C --> D["Ramasser l'artefact"]
+    D --> E["Conteneur de butin : composants\n+ fragments de robot"]
+    D -->|types observateur / infestation| F["Des PNJ hostiles apparaissent avec lui"]
+    F --> D
+```
 
-Les **artefacts** sont des objets anciens cachés sous la surface :
+## Recherche d'artefacts (Artifacting)
 
-- Ils sont trouvés par **scan** (module de scan spécifique).
-- Leur **valeur** varie selon leur type et leur état.
-- Ils peuvent être **vendus** au marché ou utilisés pour la **production**.
+Les artefacts sont des points qui existent **par personnage** : le serveur maintient un ensemble d'artefacts
+distinct pour chaque personnage sur chaque île, ce que vous trouvez n'appartient donc qu'à vous. Ils restent
+invisibles tant que vous ne les scannez pas.
 
-### Scan d'artefacts
+1. Chargez des **charges de scan d'artefact** dans un module géoscanner. Il existe trois niveaux de charges
+   offrant des portées de scan différentes (100 / 300 / 500 m).
+2. Scannez depuis la position de votre robot — le scanner renvoie les positions des artefacts situés à portée
+   (la précision du géoscanner affine la position indiquée).
+3. Volez jusqu'à la position trouvée et ramassez l'artefact ; cela fait apparaître un **conteneur de butin** sur place.
 
-1. **Désamarrez** et déplacez-vous dans une zone.
-2. **Scannez** la zone avec un module de scan d'artefacts.
-3. **Localisez** les artefacts détectés.
-4. **Excavez** les artefacts (module de forage requis).
-5. **Récoltez** les artefacts dans votre cargaison.
+Deux caractéristiques font de la recherche d'artefacts une activité autant martiale que de collecte :
 
-## Reliques
+- Certains types d'artefacts **font apparaître des PNJ à vos côtés** — les variantes « observateur » et « infestation »
+  attirent des ennemis dès la découverte de l'artefact, pilotez donc un engin capable de se battre.
+- Le butin est aléatoire selon le type d'artefact : composants de modules (plaques de blindage, durcisseurs,
+  générateurs, réparateurs…) et **fragments de robot (shards)** — ingrédients de recherche et de production
+  propres à chaque faction, ce qui fait de l'exploration une filière industrielle majeure.
 
-Les **reliques** sont des objets plus rares et plus值ables :
+Les types d'artefacts sont échelonnés par niveaux (niveaux 1 à 3, avec un butin plus abondant aux niveaux supérieurs)
+et existent en variantes neutres ainsi que par faction.
 
-- Elles sont **plus profondes** que les artefacts.
-- Leur **valeur** est plus élevée.
-- Elles sont **plus rares** à trouver.
+## Chasse aux reliques (Relic hunting)
 
-### Chasse aux reliques
+Les reliques existent en **monde ouvert** : la zone les fait apparaître à des positions aléatoires (selon un cycle
+de réapparition d'environ 90 minutes avec une marge aléatoire), ce sont des objets visibles surmontés d'un rayon
+lumineux, et le premier à les ramasser remporte le butin. Le butin est un tirage de NIC accompagné de **fragments
+de robot**, proportionnel au niveau de la relique et au rang de valeur de l'île — les mêmes fragments que ceux obtenus
+via les artefacts.
 
-- Les reliques sont cachées à **grande profondeur**.
-- Elles nécessitent des **modules de forage avancés**.
-- Leur **extraction** prend plus de temps.
-- Leur **valeur** est bien supérieure aux artefacts.
+Les types de reliques sont échelonnés par île (niveaux 1 à 3, avec différentes valeurs en EP selon le niveau)
+et se déclinent en variantes neutres, par faction et industrielles. Certaines reliques sont liées aux
+[avant-postes](/fr/features/outposts/) — l'activité SAP génère ses propres reliques, qui restent actives jusqu'à 12 heures —
+et sur les îles en JcJ ouvert, les points d'apparition se situent en territoire contesté : attendez-vous donc à croiser
+d'autres chasseurs.
 
-## Récompenses
+## Les missions en proposent également
 
-| Type | Valeur | Rareté |
-|---|---|---|
-| **Artefact commun** | Faible | Courant |
-| **Artefact rare** | Moyenne | Rare |
-| **Artefact épique** | Élevée | Très rare |
-| **Relique** | Très élevée | Extrêmement rare |
+Les [missions](/fr/features/missions/) peuvent également vous confier des tâches liées aux artefacts, dans lesquelles
+vous êtes rémunéré directement tandis que les objets récupérés reviennent au commanditaire plutôt qu'à votre inventaire.
 
-## Notes pratiques
-
-- **Le scan coûte de l'énergie** — ne scannez pas sans raison.
-- **L'extraction prend du temps** — soyez patient.
-- **Les reliques sont rares** — ne négligez pas les artefacts communs.
-- **Vendez au bon moment** — le marché fluctue.
+<!--
+Written from scratch against the server backend, 2026-09-27:
+Zones/Artifacts/Repositories/ZoneArtifactRepository.cs (per-character artifact
+rows), Zones/Scanning/Scanners/Scanner.Artifact.cs (scan range + accuracy),
+Zones/Artifacts/Generators/Loot/ (random loot per type),
+Services/Relics/RelicManagers/ZoneRelicManager.cs (~1.5 h respawn + random
+window) and SAPRelic.cs (12 h lifespan),
+artifacttypes/artifactloot/relictypes/relicloot tables,
+ammo_artifact_scan_a/b/c (scan ranges 100/300/500).
+An earlier version of this page was adapted from the Open Perpetuum
+community wiki (perpetuum.miraheze.org) and has been fully rewritten from
+backend sources; no text was reused.
+-->

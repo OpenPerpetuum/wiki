@@ -1,44 +1,38 @@
 ---
 title: "Personaje"
-description: "La progresión de tu personaje: la ventana personaje, la pestaña extensiones (árbol de habilidades), y los sparks."
-weight: 190
+description: "La progresión de tu personaje: la ventana de personaje, la pestaña de extensiones (árbol de habilidades) y los sparks."
+weight: 12
 ---
 
 # Personaje
 
-Tu **personaje** es el centro de tu progresión. La ventana personaje da acceso a tus
-habilidades, tus sparks, y tus ajustes.
+La **ventana de personaje** (barra superior → **Personaje**, arriba a la izquierda) es donde reside la progresión
+de tu personaje: perfil, créditos, las **extensiones** (habilidades) y la configuración.
+Todo en esta página es por personaje — las cuentas pueden albergar varios, cada uno con su
+propio árbol. Las ubicaciones de la interfaz siguen el [resumen de la interfaz del cliente](/es/features/ui/).
 
-## La ventana personaje
+```mermaid
+flowchart LR
+    C["Ventana de personaje"] --> E["Pestaña de extensiones — árbol de habilidades"]
+    C --> S["Sparks — especialización pasiva"]
+    E -. "las extensiones habilitadoras desbloquean" .-> T["Desbloqueos del árbol tecnológico"]
+```
 
-La ventana personaje contiene varias pestañas:
+## Extensiones
 
-- **Extensiones** — tu árbol de habilidades.
-- **Sparks** — tus sparks activos y disponibles.
-- **Perfil** — tu información de personaje.
+La **pestaña de extensiones** es el árbol de habilidades del personaje: niveles de habilidad por personaje
+que desbloquean mecánicas de juego y ajustan atributos — especialmente las **extensiones
+habilitadoras** requeridas para pilotar una clase de robot. El nivel 1 cuesta créditos; cada nivel
+posterior cuesta Puntos de Extensión (EP), y los prerrequisitos marcan el camino.
 
-## Las extensiones
+- [Categorías principales](/es/content/extensions/#categories) — las 15 categorías de un vistazo:
+  qué categorías abren paso a cuáles (haz clic en un recuadro para ir a sus fichas)
+- [Extensiones por categoría](/es/content/extensions/#table) — cada extensión: rango,
+  precio, bonificación, prerrequisitos
+- Cómo funcionan los EP y el árbol tecnológico: [Investigación](/es/features/research/)
 
-Las **extensiones** son habilidades pasivas que tu personaje aprende. Cada extensión
-tiene:
+## Sparks
 
-- Un **costo en EP** (Energy Points)
-- Un **tiempo de aprendizaje**
-- **Requisitos** (otras extensiones que debes tener primero)
-
-## Los sparks
-
-Los **sparks** son la manifestación nanobot de tu agente. Te dan:
-
-- **Bonificaciones pasivas** (estadísticas, capacidades)
-- **Autorizaciones** (acceso a ciertas zonas, estructuras)
-- Un **costo de conmutación** (cuando cambias de spark)
-
-## Ajustes del personaje
-
-- **Avatar** — la apariencia de tu personaje.
-- **Mensaje de humor** — una frase corta visible para otros jugadores.
-- **Nota privada** — una nota visible solo para ti.
-- **Base principal** — tu base de amarrage por defecto.
-- **Bloquear intercambios** — activar/desactivar el comercio.
-- **Créditos** — transferir créditos entre tus personajes.
+Tu **spark** es la especialización de nanobots instalada en el personaje — mientras esté
+activo, sus bonificaciones se aplican a cada robot que pilotes. Cambiar de spark tiene un coste;
+la autorización regula las líneas superiores. Detalles en [Sparks](/es/features/sparks/).

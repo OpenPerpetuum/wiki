@@ -1,14 +1,13 @@
 ---
-title: "Start"
-description: "Startovní stránka menu."
-weight: 10
+title: "Začátek"
+description: "Vaše první kroky v Open Perpetuum: vytvoření postavy, získání pomoci, svět a spuštění klienta."
 ---
 
-# Start
+# Začátek
 
-Vítejte v Open Perpetuum. Tato sekce vás vede od nuly k hraní.
+Vaše první kroky v Open Perpetuum: vytvoření postavy, získání pomoci a spuštění klienta.
 
-- [První kroky](/cs/features/getting-started/)
-- [FAQ](/cs/features/faq/)
-- [Lore](/cs/features/lore/)
-- [Klient & PC](/cs/features/client-setup/)
+- **[Začínáme](/cs/features/getting-started/)** — Vytvoření postavy, získání úvodního robota a základy postavy.
+- **[Časté otázky](/cs/features/faq/)** — Odpovědi na nejčastější otázky z rané fáze hry: tutoriál, výběr frakce, co dělat po výcviku — a [terminologie](/cs/features/faq/) (EP, NIC, CT, EWar).
+- **[Svět](/cs/features/lore/)** — Setting: Nia, Niané, Syndikát.
+- **[Klient a nastavení PC](/cs/features/client-setup/)** — Spouštění klienta na Windows a Linuxu, multi-boxing v rámci pravidel, škálování UI a spuštění.

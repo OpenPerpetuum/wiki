@@ -12,60 +12,65 @@ extra:
 The open-PvP islands: the three main islands' PvP twins (the "_real" names), the eight gate islands of each galaxy, and the special zones (the [PvP arena](/zones/zone-pvp-arena/) and the strongholds — protected instances, listed here for completeness).
 
 <div class="zone-cards">
-<a class="zone-card" href="/zones/zone-asi/">
-<img class="zone-card-thumb" src="/zonemaps/zone-asi/thumb.svg" alt="" loading="lazy">
-<span class="zone-card-name">Daoden</span>
-<span class="zone-card-meta">PvP · 2048×2048</span>
-</a>
 <a class="zone-card" href="/zones/zone-asi-a-real/">
 <img class="zone-card-thumb" src="/zonemaps/zone-asi-a-real/thumb.svg" alt="" loading="lazy">
 <span class="zone-card-name">Hokkogaros</span>
-<span class="zone-card-meta">PvP · 2048×2048</span>
+<span class="zone-card-meta">PvP</span>
 </a>
 <a class="zone-card" href="/zones/zone-asi-pvp/">
 <img class="zone-card-thumb" src="/zonemaps/zone-asi-pvp/thumb.svg" alt="" loading="lazy">
 <span class="zone-card-name">Kentagura</span>
-<span class="zone-card-meta">PvP · 2048×2048</span>
+<span class="zone-card-meta">PvP</span>
 </a>
 <a class="zone-card" href="/zones/zone-ics-a-real/">
 <img class="zone-card-thumb" src="/zonemaps/zone-ics-a-real/thumb.svg" alt="" loading="lazy">
 <span class="zone-card-name">Domhalarn</span>
-<span class="zone-card-meta">PvP · 2048×2048</span>
+<span class="zone-card-meta">PvP</span>
 </a>
 <a class="zone-card" href="/zones/zone-ics-pvp/">
 <img class="zone-card-thumb" src="/zonemaps/zone-ics-pvp/thumb.svg" alt="" loading="lazy">
 <span class="zone-card-name">Novastrov</span>
-<span class="zone-card-meta">PvP · 2048×2048</span>
+<span class="zone-card-meta">PvP</span>
 </a>
 <a class="zone-card" href="/zones/zone-tm-a-real/">
 <img class="zone-card-thumb" src="/zonemaps/zone-tm-a-real/thumb.svg" alt="" loading="lazy">
 <span class="zone-card-name">Norhoop</span>
-<span class="zone-card-meta">PvP · 2048×2048</span>
+<span class="zone-card-meta">PvP</span>
 </a>
 <a class="zone-card" href="/zones/zone-tm-pvp/">
 <img class="zone-card-thumb" src="/zonemaps/zone-tm-pvp/thumb.svg" alt="" loading="lazy">
 <span class="zone-card-name">Alsbale</span>
-<span class="zone-card-meta">PvP · 2048×2048</span>
+<span class="zone-card-meta">PvP</span>
 </a>
-<a class="zone-card" href="/zones/zone-pvp-arena/">
-<img class="zone-card-thumb" src="/zonemaps/zone-pvp-arena/thumb.svg" alt="" loading="lazy">
-<span class="zone-card-name">Omega</span>
-<span class="zone-card-meta">Stronghold · 2048×2048</span>
+<a class="zone-card" href="/zones/zone-asi-g-1/">
+<img class="zone-card-thumb" src="/zonemaps/zone-asi-g-1/thumb.svg" alt="" loading="lazy">
+<span class="zone-card-name">Rhaoshan</span>
+<span class="zone-card-meta">PvP</span>
 </a>
-<a class="zone-card" href="/zones/zone-strghld-70/">
-<img class="zone-card-thumb" src="/zonemaps/zone-strghld-70/thumb.svg" alt="" loading="lazy">
-<span class="zone-card-name">strghld_70</span>
-<span class="zone-card-meta">Stronghold · 512×512</span>
+<a class="zone-card" href="/zones/zone-asi-g-4/">
+<img class="zone-card-thumb" src="/zonemaps/zone-asi-g-4/thumb.svg" alt="" loading="lazy">
+<span class="zone-card-name">Xiantor</span>
+<span class="zone-card-meta">PvP</span>
 </a>
-<a class="zone-card" href="/zones/zone-strghld-71/">
-<img class="zone-card-thumb" src="/zonemaps/zone-strghld-71/thumb.svg" alt="" loading="lazy">
-<span class="zone-card-name">strghld_71</span>
-<span class="zone-card-meta">Stronghold · 256×256</span>
+<a class="zone-card" href="/zones/zone-ics-g-3/">
+<img class="zone-card-thumb" src="/zonemaps/zone-ics-g-3/thumb.svg" alt="" loading="lazy">
+<span class="zone-card-name">Kraslovsk</span>
+<span class="zone-card-meta">PvP</span>
 </a>
-<a class="zone-card" href="/zones/zone-strghld-72/">
-<img class="zone-card-thumb" src="/zonemaps/zone-strghld-72/thumb.svg" alt="" loading="lazy">
-<span class="zone-card-name">strghld_72</span>
-<span class="zone-card-meta">Stronghold · 256×256</span>
+<a class="zone-card" href="/zones/zone-ics-g-8/">
+<img class="zone-card-thumb" src="/zonemaps/zone-ics-g-8/thumb.svg" alt="" loading="lazy">
+<span class="zone-card-name">Chalydor</span>
+<span class="zone-card-meta">PvP</span>
+</a>
+<a class="zone-card" href="/zones/zone-tm-g-3/">
+<img class="zone-card-thumb" src="/zonemaps/zone-tm-g-3/thumb.svg" alt="" loading="lazy">
+<span class="zone-card-name">Emperth</span>
+<span class="zone-card-meta">PvP</span>
+</a>
+<a class="zone-card" href="/zones/zone-tm-g-6/">
+<img class="zone-card-thumb" src="/zonemaps/zone-tm-g-6/thumb.svg" alt="" loading="lazy">
+<span class="zone-card-name">Solarfield</span>
+<span class="zone-card-meta">PvP</span>
 </a>
 </div>
 

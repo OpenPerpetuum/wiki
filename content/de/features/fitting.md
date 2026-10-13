@@ -1,59 +1,87 @@
 ---
 title: "Ausrüstung"
-description: "Module in Slots laden, Munition ausstatten, Presets, und Farben. Alles Fitting ist nur gedockt."
-weight: 230
+description: "Module in Slots einsetzen, Munition ausrüsten, Voreinstellungen und Lackierungen. Jedes Ausrüsten ist nur im gedockten Zustand möglich."
+weight: 61
 ---
 
 # Ausrüstung
 
-Die **Ausrüstung** (Fitting) ist der Prozess, Module in die Slots deines
-Roboters zu laden. Alles wird **gedockt** gemacht.
+Ausrüsten (Fitting) bedeutet das Einsetzen von **Modulen** in die Komponentenslots des Roboters und das Laden
+von **Munition** in deine Waffen. Sämtliches Ausrüsten ist **nur im gedockten Zustand** möglich — du kannst
+nicht im Einsatz in einer Zone ausrüsten.
 
-## Slots
+> UI-Positionen richten sich nach der [Client-UI-Übersicht](/de/features/ui/) (die Kategorie **Ausrüsten** in
+> der oberen Leiste). Die folgenden Mechaniken sind anhand des Servers bestätigt.
 
-Jeder Roboter hat eine begrenzte Anzahl von **Slots** verschiedener Typen:
+```mermaid
+flowchart LR
+    subgraph Robot["Dein Roboter"]
+        H["Kopf\nSensor- / Coprozessor-Slots"]
+        C["Chassis\nWaffen- + Industrie-Slots"]
+        L["Beine\nAntriebs-Slots"]
+        K["Frachtcontainer"]
+    end
+    M["Module (in Slots eingesetzt)"] --> H
+    M --> C
+    M --> L
+    AM["Munition (in Waffen geladen)"] --> C
+    R["Roboter = 3 Teile + Container\njedes Teil liefert Werte + Slots"]
+    H -.-> R
+    C -.-> R
+    L -.-> R
+```
 
-| Typ | Beschreibung |
-|---|---|
-| **Waffe** | Slot für eine Waffe |
-| **Verteidigung** | Slot für ein Verteidigungsmodul |
-| **Energie** | Slot für ein Energiedmodul |
-| **Elektronik** | Slot für ein Elektronikmodul |
-| **EWar** | Slot für ein EWar-Modul |
-| **EnWar** | Slot für ein EnWar-Modul |
-| **Industrie** | Slot für ein Industriemodul |
-| **Navigation** | Slot für ein Navigationsmodul |
+## Module ausrüsten
 
-## Modul laden
+Ein Roboter verfügt über mehrere **Komponenten** (Waffe, Schild, Panzerung, Antrieb, Sensor usw.), jede
+mit einer Reihe von **Slots**.
 
-1. Wähle deinen aktiven Roboter.
-2. Öffne die Ausrüstungsoberfläche.
-3. Ziehe ein Modul aus deinem Inventar in einen kompatiblen Slot.
-4. Das Modul wird **geladen** — es verbraucht Energie und Platz.
+- **Ein Modul ausrüsten** — nimm ein Modul aus einem Container und lade es in einen bestimmten
+  Komponentenslot. Der Modultyp muss für diesen Slot auf dieser Roboterklasse zulässig sein.
+  Ist der Slot bereits belegt, wird das vorhandene Modul in den Container zurückgelegt.
+- **Module tauschen** — bewege ein Modul zwischen zwei Slots derselben Komponente.
+- **Ein Modul entfernen** — nimm ein Modul aus einem Slot zurück in einen Container.
 
-## Munition
+Der Server berechnet die Werte des Roboters nach jeder Änderung neu (Module beeinflussen die auf der
+Statusanzeige im Einsatz sichtbaren Werte — siehe [Kampf](/de/features/combat/)).
 
-- **Munition** wird in die Waffenslots geladen.
-- Jede Waffe hat einen kompatiblen Munitionstyp.
-- Munition wird **verbraucht**, wenn sie verwendet wird.
+## Munition laden
 
-## Presets
+- **Munition ausrüsten** — lade einen kompatiblen Munitionsgegenstand in ein aktives (Waffen-)Modul. Das Modul
+  muss **diesen Munitionstyp akzeptieren** und lädt bis zur **Munitionskapazität** des Moduls nach.
+  Zuvor geladene Munition wird zuerst in den Container zurückgelegt.
+- **Munition wechseln** — tausche die geladene Munition gegen einen anderen kompatiblen Typ aus.
+- **Munition entladen** — lege die geladene Munition zurück in einen Container.
 
-**Presets** sind gespeicherte Konfigurationen:
+## Ausrüstungs-Voreinstellungen
 
-- Du kannst deine aktuelle Ausrüstung als **Preset speichern**.
-- Du kannst ein **Preset anwenden**, um schnell nachzuladen.
-- Presets sind **pro Roboter**.
+Ein **Preset** (Voreinstellung) ist eine gespeicherte Ausrüstungskonfiguration, die du schnell wieder anwenden kannst:
 
-## Farben
+- **Speichern** — speichere die aktuelle Ausrüstung eines Roboters unter einem Namen ab.
+- **Auflisten** — sieh deine gespeicherten Voreinstellungen ein.
+- **Anwenden** — lade eine Voreinstellung aus einem Container auf einen (anderen) Roboter.
+- **Löschen** — entferne eine gespeicherte Voreinstellung.
 
-- **Farben** sind die Farbe/Bemalung deines Roboters.
-- Sie sind **kosmetisch** — sie ändern die Stats nicht.
-- Du kannst Farben im **Shop kaufen** oder durch Missionen erhalten.
+Voreinstellungen sind praktisch für das schnelle Neuausrüsten nach einer Schlacht oder beim Wechsel zwischen Rollen.
 
 ## Praktische Hinweise
 
-- **Prüfe die Kompatibilität** — ein Modul kann nicht in jeden Slot.
-- **Energie ist begrenzt** — überlaste deinen Reaktor nicht.
-- **Presets sind deine Freunde** — speichere deine Konfigurationen.
-- **Munition kostet** — verschwende sie nicht.
+- **Du kannst nicht in einer Zone ausrüsten** — alles hier erfordert, dass du angedockt bist.
+- **Befähigungs-Erweiterung zuerst** — ohne erforschte Roboterklasse kannst du sie weder auswählen noch steuern.
+- **Munition muss zur Waffe passen** — inkompatible Munitionsdefinitionen werden abgelehnt.
+- **Umverpackte Roboter können nicht genutzt werden** — packe einen Roboter aus, bevor du ihn auswählst oder ausrüstest.
+- **Nutze Voreinstellungen zum schnellen Nachrüsten** — speichere eine bewährte Konfiguration und wende sie nach Verlusten direkt an.
+
+## Slot-Kategorien
+
+Die Komponenten eines Roboters (Kopf, Chassis, Beine) stellen **Slots** bereit, und jeder Slot verfügt über eine Reihe
+von Kategorie-Flags. Ein Modul passt nur dann in einen Slot, wenn die Flags des Moduls eine **Teilmenge** der
+Flags des Slots sind. Die Flag-Kategorien lauten:
+
+`small`, `medium`, `large`, `turret`, `missile`, `melee`, `industrial`,
+`ew_and_engineering`, `specialized` (ein spezialisierter Slot akzeptiert nur spezialisierte
+Module), plus die strukturellen Slots `head` / `chassis` / `leg`.
+
+Module können auch auf bestimmte Roboter beschränkt sein, und einige tragen ein **unique**-Flag, sodass
+jeweils nur eines dieses Typs ausgerüstet werden kann. Modulspezifische Werteffekte befinden sich in der
+generierten [Robotertabelle](/de/content/robots/).

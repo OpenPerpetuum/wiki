@@ -3,11 +3,6 @@ title: "Open Perpetuum Wiki"
 description: "Your guide to the Open Perpetuum server: what you can do, how to start, and where to dig deeper."
 ---
 
-# Open Perpetuum
-
-A persistent-universe MMO: you pilot **robots** across a galaxy of zones, gather
-resources, build and defend **power base stations (PBS)**, contest **intrusion sites**,
-trade, and research your way up from a starter bot to a fully fitted war machine.
 ## New here?
 
 1. [**Getting started**](/features/getting-started/) — account, character, your first

@@ -1,59 +1,86 @@
 ---
 title: "Équipement"
-description: "Charger des modules dans les emplacements, équiper des munitions, préréglages, et teintes. Tout l'équipement est amarré uniquement."
+description: "Installer des modules dans les emplacements, équiper des munitions, préréglages et teintes. Tout l'équipement se fait à quai uniquement."
 weight: 61
 ---
 
 # Équipement
 
-L'**équipement** (fitting) est le processus de charger des modules dans les
-emplacements de votre robot. Tout se fait **amarré**.
+L'équipement consiste à monter des **modules** dans les emplacements de composants du robot et à charger des **munitions**
+dans vos armes. Tout l'équipement s'effectue **à quai uniquement** — il est impossible de s'équiper dans une zone.
 
-## Emplacements
+> Les emplacements dans l'interface suivent la [vue d'ensemble de l'interface](/fr/features/ui/) (la catégorie **Équiper** sur
+> la barre supérieure). Les mécaniques ci-dessous sont confirmées par le serveur.
 
-Chaque robot a un nombre limité d'**emplacements** de différents types :
+```mermaid
+flowchart LR
+    subgraph Robot["Votre robot"]
+        H["Tête\nemplacements capteurs / coprocesseur"]
+        C["Châssis\nemplacements armes + industriels"]
+        L["Jambes\nemplacements propulsion"]
+        K["Conteneur de cargaison"]
+    end
+    M["Modules (équipés dans les emplacements)"] --> H
+    M --> C
+    M --> L
+    AM["Munitions (chargées dans les armes)"] --> C
+    R["Robot = 3 pièces + conteneur\nchaque pièce apporte stats + emplacements"]
+    H -.-> R
+    C -.-> R
+    L -.-> R
+```
 
-| Type | Description |
-|---|---|
-| **Arme** | Emplacement pour une arme |
-| **Défense** | Emplacement pour un module de défense |
-| **Énergie** | Emplacement pour un module d'énergie |
-| **Électronique** | Emplacement pour un module électronique |
-| **EWar** | Emplacement pour un module de guerre électronique |
-| **EnWar** | Emplacement pour un module de guerre énergétique |
-| **Industriel** | Emplacement pour un module industriel |
-| **Navigation** | Emplacement pour un module de navigation |
+## Installer des modules
 
-## Charger un module
+Un robot comprend plusieurs **composants** (arme, bouclier, blindage, propulsion, capteur, etc.), chacun disposant
+d'un ensemble d'**emplacements (slots)**.
 
-1. Sélectionnez votre robot actif.
-2. Ouvrez l'écran d'équipement.
-3. Glissez un module depuis votre inventaire vers un emplacement compatible.
-4. Le module est **chargé** — il consomme de l'énergie et de l'espace.
+- **Équiper un module** — prélevez un module depuis un conteneur et installez-le dans un emplacement de composant précis.
+  Le type de module doit être valide pour cet emplacement sur cette classe de robot. Si l'emplacement est déjà occupé,
+  l'ancien module retourne dans le conteneur.
+- **Intervertir des modules** — déplacez un module entre deux emplacements d'un même composant.
+- **Retirer un module** — retirez un module d'un emplacement pour le remettre dans un conteneur.
 
-## Munitions
+Le serveur recalcule les caractéristiques du robot après chaque modification (les modules influent sur les valeurs
+affichées sur le panneau d'état désamarré — voir [combat](/fr/features/combat/)).
 
-- Les **munitions** se chargent dans les emplacements d'armes.
-- Chaque arme a un type de munition compatible.
-- Les munitions sont **consommées** à l'usage.
+## Charger des munitions
 
-## Préréglages
+- **Équiper des munitions** — chargez un objet de munition compatible dans un module (d'arme) actif. Le module doit
+  **accepter ce type de munition**, et il se charge jusqu'à concurrence de sa **capacité de munitions**.
+  Toute munition précédemment chargée retourne d'abord dans le conteneur.
+- **Changer de munitions** — remplacez les munitions chargées par un autre type compatible.
+- **Décharger les munitions** — remettez les munitions chargées dans un conteneur.
 
-Les **préréglages** (presets) sont des configurations sauvegardées :
+## Préréglages d'équipement
 
-- Vous pouvez **enregistrer** votre équipement actuel comme préréglage.
-- Vous pouvez **appliquer** un préréglage pour recharger rapidement.
-- Les préréglages sont **par robot** — chaque robot a ses propres préréglages.
+Un **préréglage (preset)** est un équipement sauvegardé réutilisable rapidement :
 
-## Teintes
+- **Enregistrer** — sauvegardez l'équipement actuel d'un robot sous un nom choisi.
+- **Lister** — consultez vos préréglages sauvegardés.
+- **Appliquer** — chargez un préréglage sur un (autre) robot depuis un conteneur.
+- **Supprimer** — retirez un préréglage enregistré.
 
-- Les **teintes** sont la couleur/peinture de votre robot.
-- Elles sont **cosmétiques** — elles ne changent pas les stats.
-- Vous pouvez **acheter** des teintes à la boutique ou les obtenir par des missions.
+Les préréglages sont très pratiques pour rééquiper rapidement après un combat ou lors d'un changement de rôle.
 
 ## Notes pratiques
 
-- **Vérifiez la compatibilité** — un module ne peut pas aller dans n'importe quel emplacement.
-- **L'énergie est limitée** — ne surchargeez pas votre réacteur.
-- **Les préréglages sont vos amis** — sauvegardez vos configurations.
-- **Les munitions coûtent** — ne les gaspillez pas.
+- **Impossible de s'équiper en zone** — toutes ces opérations nécessitent d'être amarré.
+- **Extension d'activation requise d'abord** — sans la classe de robot recherchée, vous ne pouvez ni le sélectionner ni le piloter.
+- **Les munitions doivent correspondre à l'arme** — une munition incompatible sera refusée.
+- **Les robots reconditionnés (repackaged) sont inutilisables** — déballez un robot avant de le sélectionner ou de l'équiper.
+- **Utilisez les préréglages pour vous rééquiper vite** — sauvegardez une configuration éprouvée pour la réappliquer après une perte.
+
+## Catégories d'emplacements
+
+Les composants d'un robot (tête, châssis, jambes) fournissent des **emplacements**, chacun associé à un jeu
+de drapeaux de catégorie. Un module ne s'installe sur un emplacement que si ses propres drapeaux forment un **sous-ensemble**
+des drapeaux de l'emplacement. Les catégories de drapeaux sont :
+
+`small`, `medium`, `large`, `turret`, `missile`, `melee`, `industrial`,
+`ew_and_engineering`, `specialized` (un emplacement spécialisé n'accepte que des modules spécialisés),
+ainsi que les emplacements structurels `head` / `chassis` / `leg`.
+
+Les modules peuvent également être restreints à des robots particuliers, et certains portent le drapeau **unique**
+interdisant d'en équiper plus d'un à la fois. Les effets de caractéristiques par module sont répertoriés dans le
+[tableau des robots](/fr/content/robots/).

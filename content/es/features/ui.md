@@ -1,58 +1,95 @@
 ---
-title: "Vista general de la interfaz del cliente"
-description: "El diseño del cliente: barra superior, botón de amarrage, categorías de acciones, y el panel de estado desamarrado. Modelado en una interfaz estilo EVE Online."
-weight: 360
+title: "Resumen de la interfaz del cliente"
+description: "La distribución del cliente: barra superior, botón de acoplamiento, categorías de acciones y panel de estado desacoplado. Modelado en una interfaz estilo EVE Online."
+weight: 5
 ---
 
-# Vista general de la interfaz del cliente
+# Resumen de la interfaz del cliente
 
-La interfaz del cliente está modelada en un estilo **EVE Online**: una pantalla
-principal con una barra superior, un botón central de amarrage, y paneles contextuales.
+El cliente presenta una interfaz **estilo EVE Online**: una vista espacial/de zona a pantalla completa con
+ventanas flotantes, **redimensionables y móviles** que se pueden **cerrar y reabrir** a voluntad.
+La vinculación es por sistema — consulta las páginas enlazadas a continuación.
 
-## Barra superior
+> Esta distribución es un modelo de trabajo proporcionado por el proyecto, utilizado para describir dónde se ubican
+> las acciones. Los nombres exactos en pantalla pueden variar ligeramente; la estructura sirve de referencia.
 
-La **barra superior** contiene:
+```mermaid
+flowchart LR
+    subgraph Topbar["Barra superior"]
+        direction LR
+        L["Izquierda: Correo · Personaje ·\nCorporación · Opciones · Desconectar"] --- C["Centro: Desplegar / Acoplar"]
+        C --- R["Derecha: Refinería · Reciclaje · Reparación ·\nSeguro · Mercado · Tareas ·\nAlmacén corp · Equipar …"]
+    end
+    subgraph Below["Debajo de la barra"]
+        direction LR
+        U["Desacoplado: acciones de zona desplegables\n(arriba a la derecha) + panel de estado\n(escudo / blindaje / energía)"]
+        D["Acoplado: las categorías de la derecha\nson tu espacio de trabajo"]
+    end
+    C --> U
+    C --> D
+```
 
-- **Logo** — el logo del juego.
-- **Botón de amarrage** — el interruptor central (Desplegar/Amarrar).
-- **Estado** — el estado actual (amarrado/desamarrado).
-- **Botones de acción** — las acciones rápidas.
+## La barra superior
 
-## Botón de amarrage
+Una barra persistente situada en la parte superior de la pantalla.
 
-El **botón de amarrage** (Deploy/Dock) está en el centro de la barra superior:
-
-- **Amarrado** → haz clic para **desamarrar** (desplegar tu robot).
-- **Desamarrado** → haz clic para **amarrar** (volver a la base).
-- Es la acción más importante del juego.
-
-## Categorías de acciones
-
-Las **acciones** están organizadas en categorías:
-
-| Categoría | Descripción |
+| Área | Contenido |
 |---|---|
-| **Movimiento** | Moverse en la zona |
-| **Escaneo** | Escanear la zona |
-| **Combate** | Disparar, apuntar, huir |
-| **Producción** | Producir, refinar, reparar |
-| **Social** | Correo, chat, standings |
-| **Personaje** | Extensiones, sparks, ajustes |
-| **Robots** | Seleccionar, equipar, gestionar |
+| **Izquierda** | Botones principales: **Correo**, **Personaje**, **Corporación**, otras **Opciones** y **Desconectar** |
+| **Centro** | El botón **Desplegar / Acoplar** — tu interruptor principal acoplado⇄desacoplado (ver [movimiento](/es/features/movement/)) |
+| **Derecha** | Categorías de acción como botones: **Refinería**, **Reciclaje**, **Reparación**, **Seguro**, **Mercado**, **Tareas** (transportes), **Almacén corporativo**, **Equipar**, … |
 
-## Panel de estado desamarrado
+Las categorías de la derecha abren sus respectivas ventanas del sistema:
 
-Cuando estás **desamarrado**, el panel de estado muestra:
+| Botón | Abre / realiza | Página de la wiki |
+|---|---|---|
+| Refinería | Procesa recursos brutos para convertirlos en componentes | [producción](/es/features/production/) |
+| Reciclaje | Descompone objetos en materiales base | [producción](/es/features/production/) |
+| Reparación | Repara robots/módulos dañados | [producción](/es/features/production/) |
+| Seguro | Pólizas de seguro de producción/robots | [producción](/es/features/production/) |
+| Mercado | Órdenes de mercado y compras directas | [mercado](/es/features/market/) |
+| Tareas | Tareas de transporte (envíos) | [transporte](/es/features/transport/) |
+| Almacén corporativo | Hangar/almacén corporativo | [grupos](/es/features/groups/) |
+| Equipar | Equipa módulos y munición en tu robot activo | [robots](/es/features/robots/) |
 
-- **Escudo** — la capacidad y regeneración del escudo.
-- **Armura** — la capacidad y reparación de la armadura.
-- **Casco** — la salud del casco.
-- **Energía** — la capacidad y producción de energía.
-- **Carga** — el espacio restante en el contenedor del robot.
+## Estado acoplado
 
-## Notas prácticas
+Mientras estás **acoplado**, las categorías de acción del lado derecho son el espacio de trabajo principal: procesas,
+comercies, equipas y gestionas el almacenamiento sin salir de la base. El botón Desplegar te desacopla
+hacia la zona (ver [movimiento](/es/features/movement/) para conocer las condiciones previas de desacoplamiento).
 
-- **El botón de amarrage es central** — es la acción más importante.
-- **Las categorías de acciones** son contextuales — cambian según el estado.
-- **El panel de estado** es vital en combate — vigila tus reservas.
-- **La interfaz es personalizable** — puedes mover los paneles.
+## Estado desacoplado
+
+Mientras estás **desacoplado** (pilotando tu robot activo en una zona):
+
+- El área **superior derecha** incorpora un **botón desplegable de acciones**: haz clic en él y se expandirá
+  hacia abajo una lista de acciones de zona adicionales (escaneo, acciones de cosecha/interacción, herramientas de zona —
+  las acciones documentadas en [recolección](/es/features/gathering/) y [combate](/es/features/combat/)).
+- El **panel de estado principal** muestra las condiciones de tu robot: **escudo, blindaje/casco, energía**,
+  y el estado de combate correspondiente — los mismos datos a los que se refiere la página de [combate](/es/features/combat/)
+  (p. ej., la comprobación de desacoplamiento "sistema de energía intacto").
+- Las categorías exclusivas de base (refinería, mercado, …) no están disponibles hasta que vuelvas a acoplarte.
+
+## Ventanas comunes
+
+La mayoría de los sistemas se abren en una ventana flotante estándar: barra de título, botón de cierre, bordes
+redimensionables, contenido en pestañas o listas. Los sistemas repetidos (inventario/contenedores, mercado, líneas
+de producción) pueden tener varias ventanas abiertas al mismo tiempo.
+
+- **Inventario / contenedores** — listar un contenedor, mover/apilar/empaquetar objetos, renombrar, destruir —
+  ver [objetos](/es/features/items/).
+- **Ventana de personaje** (botón superior izquierdo) — perfil, extensiones (investigación), ajustes,
+  créditos — ver [primeros pasos](/es/features/getting-started/) e [investigación](/es/features/research/).
+- **Ventana de corporación** (botón superior izquierdo) — información de la corporación, hangar, documentos, votaciones,
+  tablón de anuncios — ver [grupos](/es/features/groups/).
+- **Ventana de correo** (botón superior izquierdo) — correo personal y masivo — ver [social](/es/features/social/).
+
+## Convención utilizada en esta wiki
+
+- **"Barra superior → X"** = el botón llamado X en la barra superior.
+- **"Acciones desacoplado"** = la lista desplegable en la parte superior derecha mientras estás en una zona.
+- **Botón Desplegar/Acoplar** = el interruptor central de la barra superior.
+
+<!-- Note: this page is the agreed UI model (project-provided). If the real client
+     differs in button names or placement, update this page first — every other
+     features/ page references the conventions defined here. -->

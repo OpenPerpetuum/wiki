@@ -30,6 +30,7 @@ _No stats — this item carries no aggregate values._
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/prismocitae/">Prismocitae</a></div><div class="prod-card-body">required: <b>25</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/triandlus/">Triandlus</a></div><div class="prod-card-body">required: <b>25</b></div></div>
 </div>
+
 ## Used in production
 
 **Component of 41 items** — a sample of what can be produced with it (the full list is in [Recipes](/content/recipes/)).

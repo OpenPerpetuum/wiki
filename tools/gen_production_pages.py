@@ -169,13 +169,17 @@ def component_icon(name: str) -> str:
     return "mi-grid"
 
 
-def recipe_section(name: str, comps, research, registry, ores, names):
+def recipe_section(name: str, item_def: str, comps, research, registry, ores, names):
     """One card per component (icon + name left, required amount in the body).
     The old mermaid tree was hard to scan with 10+ components."""
     rl = int(research) if str(research).isdigit() else 0
     intro = (f"**Produced from {num(len(comps))} component{'s' if len(comps) != 1 else ''}"
              + (f", research level {rl}" if rl > 0 else "")
              + "** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):\n\n")
+    ct_def = item_def + "_cprg"
+    if ct_def in registry:
+        ct_name, _cat, ct_url = registry[ct_def]
+        intro += f"\n**Blueprint:** [{ct_name}]({ct_url})\n\n"
     out = ['<div class="prod-cards">']
     for comp, amt in comps:
         cname, url = product_info(comp, registry, ores, names)
@@ -256,20 +260,20 @@ def intro_text(n: int, sample: bool) -> str:
     return f"**Component of {num(n)} items** — everything that uses it in production:\n\n"
 
 
-def item_section(name, comps, research, users, registry, ores, names):
+def item_section(item_def, name, comps, research, users, registry, ores, names):
     """The marked production area: the recipe tree (when this item is a recipe
     product) and the end-products tree (when it is a component of others) —
     same sections, same order, as ItemsPage.cs."""
     parts = []
     if comps:
-        parts.append("## Production\n\n" + recipe_section(name, comps, research, registry, ores, names))
+        parts.append("## Production\n\n" + recipe_section(name, item_def, comps, research, registry, ores, names))
     if users:
         parts.append("## Used in production\n\n"
                      + intro_text(len(users), len(users) > MAX_PRODUCTS)
                      + production_section(name, users, registry, ores, names))
     if not parts:
         return None
-    return MARKER + "\n" + "\n".join(parts) + "\n"
+    return MARKER + "\n" + "\n\n".join(parts) + "\n"
 
 
 def main():
@@ -325,7 +329,7 @@ def main():
         name, _cat, _url = registry[item_def]
         comps, research = recipes.get(item_def, ([], "–"))
         who = sorted(users.get(item_def, ()))
-        section = item_section(name, comps, research, who, registry, ores, names)
+        section = item_section(item_def, name, comps, research, who, registry, ores, names)
         if section is None:
             continue
         insert_section(path, section, "[All items]")

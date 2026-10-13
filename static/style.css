@@ -745,7 +745,6 @@ html[data-theme="light"][data-cb="achro"] {
     border: 1px solid var(--border);
     border-radius: 10px;
 }
-.zonemap-wrap .zonemap-reset { display: none; }
 /* Vertical zoom slider (world map only) — bottom left */
 .zm-zoom-slider {
     position: absolute;
@@ -791,7 +790,13 @@ html[data-theme="light"][data-cb="achro"] {
     pointer-events: none;
     user-select: none;
 }
+.mermaid:not(.zonemap-wrap):not(.zonemap) a,
+.mermaid:not(.zonemap-wrap):not(.zonemap) a * {
+    pointer-events: auto;
+    cursor: pointer;
+}
 .mermaid:not(.zonemap-wrap):not(.zonemap) .zoommap-reset,
+.mermaid:not(.zonemap-wrap):not(.zonemap) .zonemap-reset,
 .ext-cat-tree .zoommap-reset,
 .tech-tree-svg .zoommap-reset {
     display: none !important;
@@ -837,6 +842,89 @@ html[data-theme="light"][data-cb="achro"] {
 }
 .zonemap-mode:hover, .zonemap-mode:focus-visible { border-color: var(--neon); outline: none; }
 .zonemap-mode[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
+
+/* Landmarks toggle button and panel (zone-map.js) */
+.zonemap-landmarks-toggle {
+    position: absolute; top: 0.6rem; right: 3.4rem; z-index: 2;
+    height: 2.2rem; padding: 0 0.65rem;
+    display: inline-flex; align-items: center; justify-content: center; gap: 0.35rem;
+    font-size: 0.78rem; font-weight: 600; line-height: 1;
+    color: var(--chrome-fg); background: var(--bg-soft);
+    border: 1px solid var(--border); border-radius: 8px; cursor: pointer;
+    user-select: none; transition: border-color 0.15s, color 0.15s;
+}
+.zonemap-landmarks-toggle:hover, .zonemap-landmarks-toggle:focus-visible {
+    border-color: var(--neon); color: var(--neon); outline: none;
+}
+.zonemap-landmarks-toggle[aria-expanded="true"] {
+    border-color: var(--accent); color: var(--accent);
+}
+.zonemap-landmarks-panel {
+    position: absolute; top: 3.2rem; right: 3.4rem; z-index: 50;
+    background: var(--bg-soft); border: 1px solid var(--border); border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.55); padding: 0.6rem 0.75rem;
+    min-width: 185px; font-size: 0.8rem; color: var(--fg);
+}
+.zonemap-landmarks-panel.panel-hidden { display: none; }
+.zonemap-landmarks-header {
+    display: flex; align-items: center; justify-content: space-between; gap: 0.5rem;
+    padding-bottom: 0.4rem; margin-bottom: 0.4rem; border-bottom: 1px solid var(--border);
+    font-weight: 600; font-size: 0.8rem; color: var(--chrome-fg);
+}
+.zonemap-landmarks-all-btn {
+    background: none; border: 1px solid var(--border); border-radius: 4px;
+    padding: 0.15rem 0.4rem; font-size: 0.7rem; color: var(--chrome-muted); cursor: pointer;
+}
+.zonemap-landmarks-all-btn:hover { border-color: var(--neon); color: var(--neon); }
+.zonemap-landmarks-list { display: flex; flex-direction: column; gap: 0.35rem; }
+.zonemap-landmark-item {
+    display: flex; align-items: center; gap: 0.45rem; cursor: pointer;
+    user-select: none; font-size: 0.78rem; color: var(--fg);
+}
+.zonemap-landmark-item input[type="checkbox"] {
+    margin: 0; cursor: pointer; accent-color: var(--accent);
+}
+.zonemap-lm-icon {
+    display: inline-block; width: 1.1em; text-align: center;
+    color: var(--chrome-muted); font-size: 0.85em;
+}
+
+/* Zone map landmark visibility toggles */
+.zonetp-wrap.zm-hide-teleports .zm-node-teleport,
+.zonetp-wrap.zm-hide-teleports .zm-teleport-line,
+.zonetp-wrap.zm-hide-teleports .ltp-line,
+.zonetp-wrap.zm-hide-teleports .exi-line,
+.zonetp-wrap.zm-hide-teleports .zm-casing,
+.zonetp-wrap.zm-hide-teleports .ltp-casing,
+.zonetp-wrap.zm-hide-teleports circle[data-eid],
+.zonetp-wrap.zm-hide-teleports path[fill="#f5a05a"]:not([stroke]) {
+    display: none !important;
+}
+.zonetp-wrap.zm-hide-teleports a:has(.zm-node-teleport),
+.zonetp-wrap.zm-hide-teleports a:has(circle[data-eid]) {
+    display: none !important;
+}
+.zonetp-wrap.zm-hide-teleports a text,
+.zonetp-wrap.zm-hide-teleports text.zm-label {
+    display: none !important;
+}
+.zonetp-wrap.zm-hide-terminals .zm-node-terminal,
+.zonetp-wrap.zm-hide-terminals rect[data-title*="Field terminal"] {
+    display: none !important;
+}
+.zonetp-wrap.zm-hide-outposts .zm-node-outpost,
+.zonetp-wrap.zm-hide-outposts rect[data-title*="Outpost"] {
+    display: none !important;
+}
+.zonetp-wrap.zm-hide-roads #zm-roads,
+.zonetp-wrap.zm-hide-roads .zm-roads {
+    display: none !important;
+}
+.zonetp-wrap.zm-hide-labels text,
+.zonetp-wrap.zm-hide-labels .zm-label {
+    display: none !important;
+}
+
 .zonemap a { cursor: pointer; }
 .zonemap a:hover > circle, .zonemap a:hover > path {
     stroke: #ffffff;
@@ -862,7 +950,7 @@ html[data-theme="light"][data-cb="achro"] {
    Desktop pointers: almost invisible at rest — map.js fades the line in
    while the cursor is near it (.zm-tp-on); touch layouts keep them plainly
    visible (no mouse to "approach" with). */
-.zonemap-tp { stroke-width: 0.8; stroke-opacity: 0.65; stroke-dasharray: 3 3; vector-effect: non-scaling-stroke; }
+.zonemap-tp { stroke-width: 0.8; stroke-opacity: 0.65; stroke-dasharray: 3 3; vector-effect: non-scaling-stroke; pointer-events: none; }
 @media (hover: hover) and (pointer: fine) {
   .zonemap-tp { stroke-opacity: 0.25; transition: stroke-opacity 0.2s; }
   .zonemap-tp.zm-tp-on { stroke-opacity: 0.65; }
@@ -933,27 +1021,54 @@ html[data-theme="light"][data-cb="achro"] {
 .zone-cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
-    gap: 0.7rem;
+    gap: 1rem;
     margin: 0.8rem 0 1.4rem;
 }
 .zone-card {
-    display: flex; flex-direction: column; gap: 0.35rem;
-    padding: 0.55rem;
-    background: var(--bg-soft);
-    border: 1px solid var(--border);
-    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.35rem;
+    padding: 0.5rem;
+    background: transparent;
+    border: none;
     text-decoration: none;
 }
 .zone-card:hover, .zone-card:focus-visible {
-    border-color: var(--neon); outline: none;
-    transform: translateY(-1px);
+    outline: none;
 }
 .zone-card-thumb {
-    width: 100%; aspect-ratio: 1; object-fit: cover;
-    border-radius: 6px; background: #10151f;
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: contain;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    pointer-events: none;
+    display: block;
+    transition: opacity 0.15s ease;
 }
-.zone-card-name { color: var(--fg); font-weight: 600; font-size: 0.95rem; line-height: 1.2; }
-.zone-card-meta { color: var(--muted); font-size: 0.82rem; }
+.zone-card:hover .zone-card-thumb {
+    opacity: 0.85;
+}
+.zone-card-name {
+    color: var(--fg);
+    font-weight: 600;
+    font-size: 0.95rem;
+    line-height: 1.2;
+    transition: color 0.15s ease;
+}
+.zone-card:hover .zone-card-name {
+    color: var(--neon);
+}
+.zone-card-meta {
+    color: var(--muted);
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+}
 /* anchor jumps (category boxes on the extensions page, the side-menu map
    anchors, …) land below the sticky topbar so the section heading stays
    visible — one row on desktop, two rows on mobile */
@@ -1547,7 +1662,7 @@ html[data-mode="dev"] h1 { color: #b4ffc9; text-shadow: 0 0 12px rgba(0, 255, 65
 .map-legend-toggle {
     position: absolute;
     top: 0.6rem;
-    right: 0.6rem;
+    right: 3.4rem;
     z-index: 4;
     background: var(--bg-soft);
     border: 1px solid var(--border);
@@ -1568,7 +1683,7 @@ html[data-mode="dev"] h1 { color: #b4ffc9; text-shadow: 0 0 12px rgba(0, 255, 65
 .map-legend {
     position: absolute;
     top: 2.4rem;
-    right: 0.6rem;
+    right: 3.4rem;
     z-index: 5;
     background: var(--bg-soft);
     border: 1px solid var(--border);

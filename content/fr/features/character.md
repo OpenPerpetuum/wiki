@@ -1,61 +1,38 @@
 ---
 title: "Personnage"
-description: "La progression de votre personnage : la fenêtre personnage, l'onglet extensions (arbre de compétences), et les sparks."
+description: "La progression de votre personnage : la fenêtre personnage, l'onglet extensions (arbre de compétences) et les sparks."
 weight: 12
 ---
 
 # Personnage
 
-Votre personnage est le centre de votre progression. La fenêtre personnage donne
-accès à vos compétences, vos sparks, et vos réglages.
+La **fenêtre personnage** (barre supérieure → **Personnage**, en haut à gauche) est le lieu où réside
+la progression de votre personnage : profil, crédits, les **extensions** (compétences) et paramètres.
+Tout ce qui se trouve sur cette page est spécifique à chaque personnage — un compte peut en posséder plusieurs,
+chacun avec son propre arbre. Les emplacements d'interface suivent la [vue d'ensemble de l'interface](/fr/features/ui/).
 
-## La fenêtre personnage
+```mermaid
+flowchart LR
+    C["Fenêtre personnage"] --> E["Onglet Extensions — arbre de compétences"]
+    C --> S["Sparks — spécialisation passive"]
+    E -. "les extensions d'activation conditionnent" .-> T["Déblocages de l'arbre technologique"]
+```
 
-La fenêtre personnage contient plusieurs onglets :
+## Extensions
 
-- **Extensions** — votre arbre de compétences.
-- **Sparks** — vos sparks actifs et disponibles.
-- **Profil** — vos informations de personnage.
+L'**onglet extensions** représente l'arbre de compétences du personnage : des niveaux de compétence propres
+au personnage qui débloquent des pans de gameplay et améliorent les caractéristiques — plus particulièrement les
+**extensions d'activation (enablers)** requises pour piloter une classe de robot. Le niveau 1 s'achète avec des crédits,
+chaque niveau suivant coûte des points d'extension (EP), et des prérequis jalonnent la progression.
 
-## Les extensions
+- [Catégories principales](/fr/content/extensions/#categories) — les 15 catégories en un coup d'œil :
+  quelles catégories débloquent lesquelles (cliquez sur une case pour accéder à ses fiches)
+- [Extensions par catégorie](/fr/content/extensions/#table) — chaque extension : rang,
+  prix, bonus, prérequis
+- Fonctionnement des EP et de l'arbre technologique : [Recherche](/fr/features/research/)
 
-Les **extensions** sont des compétences passives que votre personnage apprend.
-Chaque extension a :
+## Sparks
 
-- Un **coût en EP** (Energy Points)
-- Un **temps d'apprentissage**
-- Des **prérequis** (autres extensions à avoir d'abord)
-
-Les extensions sont organisées en **catégories** :
-
-| Catégorie | Description |
-|---|---|
-| **Combat** | Compétences de combat (dégâts, précision, etc.) |
-| **Défense** | Compétences de défense (armure, bouclier, etc.) |
-| **Énergie** | Compétences d'énergie (réacteurs, capacité, etc.) |
-| **Électronique** | Compétences électroniques (capteurs, scanners, etc.) |
-| **EWar** | Compétences de guerre électronique (brouillage, etc.) |
-| **EnWar** | Compétences de guerre énergétique (neutralisation, etc.) |
-| **Industriel** | Compétences industrielles (production, raffinage, etc.) |
-| **Navigation** | Compétences de navigation (vitesse, inertie, etc.) |
-| **Social** | Compétences sociales (commerce, diplomatie, etc.) |
-| **Spécial** | Compétences spéciales (téléportation, etc.) |
-
-## Les sparks
-
-Les **sparks** sont la manifestation nanobotique de votre agent. Ils vous donnent :
-
-- Des **bonus passifs** (statistiques, capacités)
-- Des **autorisations** (accès à certaines zones, structures)
-- Un **coût de commutation** (quand vous changez de spark)
-
-Voir [Sparks](/fr/features/sparks/) pour les détails.
-
-## Réglages du personnage
-
-- **Avatar** — l'apparence de votre personnage.
-- **Message d'humeur** — une courte phrase visible par les autres joueurs.
-- **Note privée** — une note visible uniquement par vous.
-- **Base principale** — votre base d'amarrage par défaut.
-- **Bloquer les échanges** — activer/désactiver le commerce.
-- **Crédits** — transférer des crédits entre vos personnages.
+Votre **spark** est la spécialisation de nanobots installée sur le personnage — tant qu'elle est active,
+ses bonus s'appliquent à chaque robot que vous pilotez. Changer de spark a un coût ;
+l'autorisation conditionne l'accès aux lignées supérieures. Tous les détails dans [Sparks](/fr/features/sparks/).

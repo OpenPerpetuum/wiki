@@ -1,68 +1,38 @@
 ---
-title: "Architecture développeur"
+title: "Accueil développeur"
 description: "Architecture de haut niveau du jeu et du serveur Open Perpetuum, pour les développeurs et les devops."
 ---
 
-# Architecture développeur
+# Accueil développeur
 
-Cette page donne une vue d'ensemble de l'architecture d'Open Perpetuum pour les
-développeurs et les devops.
+Une vue d'ensemble du fonctionnement du jeu, du point de vue développeur et devops.
+Des pages d'analyse approfondie dédiées sont en préparation — pour l'instant, ceci constitue le guide d'orientation.
 
-## Stack technique
+```mermaid
+flowchart LR
+    C["Client\n(C++, Windows)"] <-->|"TCP, protocole binaire"| S["PerpetuumServer2\n(.NET 8, C#)"]
+    S --> DB[("SQL Server\nperpetuumsa")]
+    S --> Z["Exécution de zone\n(tuiles, entités,\nfichiers de zone)"]
+    W["Ce wiki\n(Zola, généré à\npartir de la même BDD)"] --- DB
+```
 
-| Composant | Technologie |
-|---|---|
-| **Serveur de jeu** | C# / .NET |
-| **Client** | C# / .NET (Windows), Proton (Linux) |
-| **Base de données** | SQL Server |
-| **Wiki** | Zola (Rust) + HTML/CSS/JS |
-| **CI/CD** | GitHub Actions |
+## Les composants
 
-## Architecture du serveur
+- **Client** — le client de jeu Perpetuum (Windows ; voir [Configuration du client & PC](/fr/features/client-setup/) pour l'exécuter, y compris sous Linux). Il communique avec le serveur via un protocole binaire TCP ; chaque action du joueur est une *commande* nommée (les mêmes noms que ceux utilisés par ce wiki dans l'[inventaire des actions](/fr/features/#complete-action-inventory)).
+- **Serveur (PerpetuumServer2)** — un codebase C#/.NET 8. Un processus unique exécute l'ensemble du serveur : la couche de connexion, la logique de jeu (robots, zones, missions, marché, production, recherche), et le moteur d'exécution de zone qui anime le monde de tuiles de chaque zone (terrain, entités, téléporteurs).
+- **Base de données** — SQL Server, base `perpetuumsa`. Contenu statique du jeu (valeurs par défaut des entités, recettes, extensions, arbre technologique, boutique, descriptions de téléporteurs) et l'ensemble de l'état dynamique (personnages, robots, conteneurs, marché, état des zones).
+- **Fichiers de zone** — les zones sont des grilles de tuiles (couches d'altitude + de contrôle, 2 octets/tuile) fournies dans des archives `.gbf` et modifiables par zone ; voir le [format des fichiers de zone](/fr/formats/zone-files/).
+- **Données de référence** — le client télécharge les tables de statistiques depuis le serveur au démarrage (voir [Serveur & référence](/fr/features/server/)).
 
-Le serveur de jeu est une application C# qui gère :
+## Exécution
 
-- **Les connexions** des clients
-- **Le monde** (zones, robots, objets)
-- **Les transactions** (production, marché, recherche)
-- **Les missions**
-- **Les PBS**
+- Le serveur s'exécute dans Docker Compose aux côtés de SQL Server (le projet `perpetuumserver2`) ; le conteneur de base de données est celui que lit le générateur de ce wiki.
+- Le contenu statique est validé par rapport aux fichiers de règles **plantrules** ; le générateur C# du wiki (`make generate`) s'exécute dans le même écosystème et lit la même base de données, ainsi chaque tableau généré sur ce site reflète les données réelles du serveur.
+- Les cartes de téléportation de zone de ce wiki sont générées à partir des mêmes couches d'altitude que celles utilisées par le jeu lui-même.
 
-## Base de données
+## Où aller ensuite
 
-La base de données SQL Server contient :
+- **[Formats](/fr/formats/)** — référence des champs développeur : comment chaque champ de statistiques est stocké (colonne BDD, clé de fichier de règles, octet de couche binaire) et consommé, avec des exemples concrets.
+- **[Serveur & référence](/fr/features/server/)** — les méta-systèmes : informations sur le serveur, meilleurs scores, données de référence téléchargées par le client, et boutique en jeu.
 
-- **entitydefaults** — toutes les définitions d'objets
-- **components** — les recettes de production
-- **techtree** — l'arbre technologique
-- **extensions** — l'arbre d'extensions
-- **zones** — les données de zones
-- **items** — les objets des joueurs
-- **characters** — les personnages
-
-## Wiki
-
-Le wiki est un site statique généré par **Zola** :
-
-- **Contenu manuscrit** : `content/features/`, `content/menu/`, `content/formats/`
-- **Contenu généré** : `content/content/` (items, ores, recipes, etc.)
-- **Générateur C#** : `generator/Perpetuum.WikiGenerate/`
-- **Assets** : `static/` (CSS, JS, images, SVG)
-
-## CI/CD
-
-Le pipeline CI/CD :
-
-1. **Build** — compile le générateur C#
-2. **Generate** — génère le contenu depuis la base de données
-3. **Zonemaps** — génère les cartes de zones
-4. **Build wiki** — build le site Zola
-5. **Test** — exécute les tests Playwright
-6. **Deploy** — déploie sur GitHub Pages
-
-## Notes pratiques
-
-- **Le générateur C# est la source de vérité** — le contenu est généré, pas écrit à la main.
-- **La base de données est en lecture seule** — le générateur ne modifie jamais les données.
-- **Le wiki est statique** — pas de backend, tout est pré-généré.
-- **Les tests Playwright** vérifient les liens, la navigation, et l'i18n.
+> D'autres pages développeur (protocole, cycle de vie des zones, déploiement) sont prévues — cette page est leur point d'ancrage.

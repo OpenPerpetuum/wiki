@@ -1,14 +1,14 @@
 ---
-title: "Inizio"
-description: "Pagina di inizio del menu."
-weight: 10
+title: "Inizia"
+description: "I tuoi primi passi in Open Perpetuum: creazione del personaggio, richiesta di aiuto, l'ambientazione e l'avvio del client."
 ---
 
-# Inizio
+# Inizia
 
-Benvenuti in Open Perpetuum. Questa sezione ti guida da zero a giocare.
+I tuoi primi passi in Open Perpetuum: creazione del personaggio, richiesta di aiuto e
+avvio del client.
 
-- [Primi passi](/it/features/getting-started/)
-- [FAQ](/it/features/faq/)
-- [Lore](/it/features/lore/)
-- [Client & PC](/it/features/client-setup/)
+- **[Guida introduttiva](/it/features/getting-started/)** — Creazione del personaggio, ricezione del robot iniziale e nozioni di base sul personaggio.
+- **[FAQ](/it/features/faq/)** — Risposte alle domande più frequenti nelle fasi iniziali di gioco: il tutorial, la scelta di una fazione, cosa fare dopo l'addestramento — e il [gergo](/it/features/faq/) (EP, NIC, CT, EWar).
+- **[Lore](/it/features/lore/)** — L'ambientazione: Nia, i Niani, il Sindacato.
+- **[Configurazione client e PC](/it/features/client-setup/)** — Esecuzione del client su Windows e Linux, multi-boxing secondo il regolamento, ridimensionamento dell'interfaccia utente (UI scaling) e avvio.

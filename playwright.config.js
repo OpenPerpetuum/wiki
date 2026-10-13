@@ -16,7 +16,10 @@ module.exports = defineConfig({
   testDir: 'tests',
   timeout: 180 * 1000,
   retries: 0,
-  workers: 1, // single static server; the mermaid suite is CPU-heavy
+  // The static server is stateless, so many workers can share one port.
+  // Capped below Playwright's default (cores/2) because the mermaid suite is
+  // CPU-heavy; override with -w <n> (e.g. `npx playwright test -w 16`).
+  workers: 8,
   reporter: 'list',
   use: {
     baseURL: `http://127.0.0.1:${port}`,
