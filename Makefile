@@ -99,12 +99,15 @@ build: i18n i18n-check
 	python3 tools/tag_defs.py public
 
 # Local live-reload server: http://localhost:$(WIKI_PORT)
+# zola serve keeps the HTML in memory but writes the site's ASSETS into its
+# output dir (default: public/) — which would wipe a previous `make build`
+# output. Point it at a scratch dir so public/ is left untouched.
 serve:
 	docker run --rm $(TTY_FLAG) \
 		-u "$$(id -u):$$(id -g)" \
 		-p "$(WIKI_PORT):1111" \
 		-v "$$PWD:/src" \
-		$(ZOLA_IMAGE) -r /src serve -i 0.0.0.0 --no-port-append -u "http://localhost:$(WIKI_PORT)/"
+		$(ZOLA_IMAGE) -r /src serve -i 0.0.0.0 --no-port-append -u "http://localhost:$(WIKI_PORT)/" -o /src/.serve-public
 
 # Regenerate the generated pages (content/content + zone index + zone map +
 # search index) from the database. See generator/README.md for the table
@@ -131,5 +134,5 @@ generate:
 			--zones-out content/zones'
 
 clean:
-	rm -rf public 2>/dev/null || true
+	rm -rf public .serve-public 2>/dev/null || true
 	if [ -d public ]; then docker run --rm -v "$$PWD/public:/out" alpine:3.20 sh -c "rm -rf /out/*"; rm -rf public; fi

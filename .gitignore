@@ -12,3 +12,4 @@ tools/__pycache__/
 static/zonemaps/*/
 .assets/
 .test-build/
+.serve-public/

@@ -889,6 +889,10 @@ def rebuild(path, name2slug, slug2id, slug2size):
         os.makedirs(d, exist_ok=True)
         open(os.path.join(d, "height.svg"), "wb").write(height_svg(alt, roads, isl))
         open(os.path.join(d, "color.svg"), "wb").write(color_svg(alt, coast, roads, isl))
+        # world-map swatches: map.md references <slug>/{height,color}.png
+        # (the .NET map generator emits the references when the files exist)
+        open(os.path.join(d, "height.png"), "wb").write(height_png(alt, roads, isl))
+        open(os.path.join(d, "color.png"), "wb").write(color_png(alt, coast, roads, isl))
         r_svg = roads_svg(roads)
         if r_svg:
             open(os.path.join(d, "roads.svg"), "wb").write(r_svg)
@@ -927,7 +931,12 @@ def rebuild(path, name2slug, slug2id, slug2size):
         open(os.path.join(d, "world.png"), "wb").write(world)
         open(os.path.join(d, "thumb.svg"), "wb").write(thumb)
         open(os.path.join(d, "thumb.png"), "wb").write(thumb)
-        b64 = base64.b64encode(heightmap_png(zone)).decode("ascii")
+        # procedural placeholder swatches, so the world map's
+        # <slug>/{height,color}.png references always resolve
+        noise = heightmap_png(zone)
+        open(os.path.join(d, "height.png"), "wb").write(noise)
+        open(os.path.join(d, "color.png"), "wb").write(noise)
+        b64 = base64.b64encode(noise).decode("ascii")
         out.append(f'  <image id="zm-height" x="0" y="0" width="{w}" height="{h}" href="data:image/png;base64,{b64}" opacity="0.55" preserveAspectRatio="none"/>')
 
 
