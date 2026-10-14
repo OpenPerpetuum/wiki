@@ -138,7 +138,7 @@ New characters start in the training zone with a **Rookie Checklist** — finish
 it covers the basics and pays out several robots with modules and ammo. You can
 skip it (undock and walk to a faction exit) but you lose the rewards, and you
 cannot return to the training zone later. What the four faction exits give you is
-in the [FAQ](/features/faq/#what-faction-should-i-pick).
+in the [FAQ](/features/faq/#what-does-each-exit-give-me).
 
 ## Survival
 

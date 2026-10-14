@@ -11,9 +11,13 @@ public static class ZoneIndexPage
 {
     public static string Build(Db db)
     {
-        var zones = db.Query("SELECT id, name, zonetype, x, y, width, height, protected, terraformable, enabled FROM zones ORDER BY id")
+        var zones = db.Query("""
+            SELECT z.id, z.name, z.zonetype, z.x, z.y, z.width, z.height, z.protected, z.terraformable, z.enabled,
+                   (SELECT COUNT(*) FROM zoneentities ze WHERE ze.zoneid = z.id AND LOWER(ze.ename) LIKE 'teleport_column%') AS tpcount
+            FROM zones z ORDER BY z.id
+            """)
             .Select(r => new ZonesMapPage.Zone(r.Str("name"), r.Int("zonetype"), r.Dbl("x"), r.Dbl("y"),
-                r.Int("width"), r.Int("height"), r.Bit("protected"), r.Bit("terraformable")))
+                r.Int("width"), r.Int("height"), r.Bit("protected"), r.Bit("terraformable"), r.Int("tpcount")))
             .ToList();
 
         // The zones table can hold several rows with the same name (sentinel

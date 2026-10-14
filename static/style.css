@@ -102,6 +102,14 @@ pre code { background: none; padding: 0; }
     letter-spacing: 0.14em; text-transform: uppercase;
     text-shadow: 0 0 10px var(--neon-dim);
 }
+/* The full brand name is shown when the topbar row fits it (desktop);
+   below the 801px breakpoint the short form takes its place. */
+.brand-long { display: none; }
+.brand-short { display: inline; }
+@media (min-width: 801px) {
+    .brand-long { display: inline; }
+    .brand-short { display: none; }
+}
 .brand:hover { text-decoration: none; color: var(--neon); }
 .brand-logo {
     width: 26px; height: 26px;
@@ -120,6 +128,9 @@ pre code { background: none; padding: 0; }
     padding: 0;
 }
 .palette-toggle:hover { border-color: var(--neon); box-shadow: 0 0 8px var(--neon-faint); }
+/* locked in dev mode (the matrix theme owns the accent): dimmed, no hover */
+.palette-toggle[disabled] { opacity: 0.4; cursor: not-allowed; }
+.palette-toggle[disabled]:hover { border-color: var(--neon-dim); box-shadow: none; }
 /* the swatch: a ring through all four accent colors */
 .palette-swatch {
     width: 16px; height: 16px; border-radius: 50%;
@@ -192,10 +203,65 @@ pre code { background: none; padding: 0; }
     z-index: 30; padding: 0.4rem;
 }
 .search-results a { display: block; padding: 0.45rem 0.7rem; border-radius: 6px; color: var(--chrome-fg); }
-.search-results a:hover { background: var(--neon-faint); color: var(--neon); text-decoration: none; }
+.search-results a:hover, .search-results a.sel { background: var(--neon-faint); color: var(--neon); text-decoration: none; }
+.search-results a.sel { outline: 1px solid var(--neon-dim); outline-offset: -1px; }
 .search-results a .result-desc { color: var(--chrome-muted); font-size: 0.85em; }
 .search-results .no-results, .search-results .result-count { padding: 0.6rem 0.7rem; color: var(--chrome-muted); }
 .search-results .result-count { font-size: 0.8rem; border-bottom: 1px solid var(--neon-faint); border-radius: 6px 6px 0 0; padding-bottom: 0.4rem; }
+
+/* ============ chrome: shortcuts window (? key) ============ */
+/* A small dialog positioned inside the content area by the inline JS
+   (templates/base.html). The backdrop catches outside clicks. */
+#shortcuts-backdrop {
+    position: fixed; inset: 0; z-index: 60;
+    background: rgba(0, 0, 0, 0.45);
+}
+.shortcuts-panel {
+    position: fixed; z-index: 61;
+    width: min(620px, calc(100vw - 4rem));
+    max-height: calc(100vh - 3rem);
+    overflow-y: auto;
+    background: linear-gradient(180deg, var(--chrome-bg2), var(--chrome-bg));
+    border: 1px solid var(--neon-dim);
+    border-radius: 10px;
+    box-shadow: 0 0 18px var(--neon-faint), 0 12px 40px rgba(0, 0, 0, 0.6);
+    padding: 0.9rem 1.1rem 1rem;
+}
+.shortcuts-head { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.7rem; }
+.shortcuts-head h2 {
+    margin: 0; flex: 1;
+    font-size: 0.8rem; font-weight: 700;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--neon); opacity: 0.9;
+}
+.shortcuts-close {
+    flex: none; width: 1.7rem; height: 1.7rem; padding: 0;
+    border: 1px solid var(--neon-dim); border-radius: 5px;
+    background: transparent; color: var(--chrome-muted);
+    font-size: 0.75rem; line-height: 1; cursor: pointer;
+}
+.shortcuts-close:hover { color: var(--neon); background: var(--neon-faint); }
+/* Two-column grid when the panel is wide enough, one column when it is not */
+.shortcuts-grid {
+    list-style: none; margin: 0; padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 0.5rem 1.4rem;
+}
+.shortcuts-grid li { display: flex; align-items: baseline; gap: 0.7rem; min-width: 0; }
+.shortcuts-grid .sc-keys { flex: none; white-space: nowrap; }
+.shortcuts-grid li span:last-child { color: var(--chrome-muted); font-size: 0.88rem; }
+.shortcuts-grid kbd {
+    display: inline-block;
+    padding: 0.1rem 0.4rem;
+    border: 1px solid var(--neon-dim);
+    border-bottom-width: 2px;
+    border-radius: 5px;
+    background: var(--neon-faint);
+    color: var(--chrome-fg);
+    font: 600 0.78rem/1.4 ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+.shortcuts-grid .sc-or { color: var(--chrome-muted); font-size: 0.8em; padding: 0 0.1rem; }
 
 /* ============ chrome: side menu ============ */
 .layout {
@@ -216,7 +282,70 @@ pre code { background: none; padding: 0; }
 .sidenav ul { list-style: none; padding: 0; margin: 0; }
 /* top-level groups: header row (overview link + collapse caret) above the items */
 .sidenav .nav-group { margin-top: 0.9rem; }
-.sidenav .nav-quick { margin-top: 0; }
+.sidenav .nav-modes { margin-top: 0; }
+/* Home / Dev mode tabs: two halves split by a DIAGONAL divider, each half
+   a different color (home = accent, dev = matrix green). The container is
+   skewed so the straight divider between the halves reads diagonal; the
+   labels counter-skew back. The active half glows (html[data-mode] in the
+   CSS below). */
+.mode-tabs {
+    display: flex;
+    margin: 0 0.45rem 0.4rem;
+    transform: skewX(-14deg);
+    border: 1px solid var(--neon-dim);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px var(--neon-faint);
+}
+.mode-tab {
+    flex: 1 1 0;
+    display: block;
+    transform: skewX(14deg);
+    margin: 0;
+    padding: 0.4rem 0.3rem;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    font-size: 0.82rem; font-weight: 700; letter-spacing: 0.1em;
+    text-transform: uppercase; text-decoration: none;
+    cursor: pointer;
+    background: transparent;
+    color: var(--chrome-muted);
+    transition: background 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+.mode-tab + .mode-tab { border-left: 1px solid var(--neon-dim); }
+/* the two resting colors: home = accent tint, dev = matrix-green tint */
+.sidenav .mode-tab[data-mode-tab="home"] { background: var(--neon-faint); color: var(--neon); }
+.sidenav .mode-tab[data-mode-tab="dev"] { background: rgba(0, 255, 65, 0.10); color: #59d97f; }
+/* the active half glows (home glows in play mode, dev glows in dev mode) */
+html:not([data-mode="dev"]) .sidenav .mode-tab[data-mode-tab="home"] {
+    box-shadow: inset 0 0 14px var(--neon-faint);
+}
+html[data-mode="dev"] .sidenav .mode-tab[data-mode-tab="home"] {
+    color: var(--chrome-muted);
+}
+html[data-mode="dev"] .sidenav .mode-tab[data-mode-tab="dev"] {
+    background: rgba(0, 255, 65, 0.22);
+    color: #00ff41;
+    box-shadow: inset 0 0 16px rgba(0, 255, 65, 0.30);
+}
+/* hover (higher specificity than the generic .sidenav a:hover rules) */
+.sidenav .mode-tab[data-mode-tab="home"]:hover,
+.sidenav .mode-tab[data-mode-tab="dev"]:hover {
+    border-left-color: var(--neon-dim);
+}
+.sidenav .mode-tab[data-mode-tab="dev"]:hover { color: #00ff41; background: rgba(0, 255, 65, 0.16); }
+.sidenav .mode-tab[data-mode-tab="home"]:hover { color: var(--neon); }
+/* current-page highlight (home page): keep the glow, drop the box outline */
+.sidenav .mode-tab.active {
+    outline: none;
+    border-radius: 0;
+    text-shadow: none;
+}
+html[data-mode="dev"] .sidenav .mode-tab.active {
+    background: rgba(0, 255, 65, 0.22);
+    color: #00ff41;
+}
 .sidenav .nav-group-head { display: flex; align-items: center; gap: 0.5rem; }
 /* collapse caret button on a group header */
 .sidenav .nav-caret {
@@ -235,13 +364,6 @@ pre code { background: none; padding: 0; }
 .sidenav .nav-has-sub.collapsed > ul { display: none; }
 .sidenav .nav-group.collapsed > .nav-group-head .nav-caret,
 .sidenav .nav-has-sub.collapsed > .nav-sub-head .nav-caret { transform: rotate(-90deg); }
-/* Home quick link */
-.sidenav .nav-quick a {
-    margin-bottom: 0.2rem;
-    border: 1px solid var(--neon-dim);
-    background: var(--neon-faint);
-    font-weight: 600;
-}
 /* a regular item that carries an icon (World, Extension tree) */
 .sidenav a.nav-item-icon { display: flex; align-items: center; gap: 0.5rem; }
 .sidenav a.nav-item-icon .navicon { width: 20px; height: 20px; }
@@ -352,7 +474,7 @@ main p, main li, main blockquote, main dt, main dd {
         z-index: 45;
         flex: none;
         transform: translateX(-103%);
-        transition: transform 0.22s ease-out;
+        transition: none;
         border-radius: 0 10px 10px 0;
         border-top: 0; border-bottom: 0; border-left: 0;
         box-shadow: 8px 0 30px rgba(0, 0, 0, 0.5);
@@ -717,8 +839,7 @@ html[data-theme="light"][data-cb="achro"] {
     padding: 1rem;
     box-sizing: border-box;
     transform-origin: center center;
-    will-change: transform;
-    touch-action: none;
+        touch-action: none;
     cursor: grab;
 }
 .zoommap.dragging { cursor: grabbing; }
@@ -746,15 +867,74 @@ html[data-theme="light"][data-cb="achro"] {
     border: 1px solid var(--border);
     border-radius: 10px;
 }
+/* Vertical zoom slider (world map only) — bottom left */
+.zm-zoom-slider {
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    z-index: 10;
+    pointer-events: auto;
+}
+.zm-zs-title {
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    writing-mode: horizontal-tb;
+}
+.zm-zs-track {
+    width: 6px;
+    height: 120px;
+    background: var(--border);
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+}
+.zm-zs-thumb {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--neon);
+    border: 2px solid var(--bg);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+    cursor: grab;
+}
+/* Disable interaction on static diagrams (NOT zone maps or world map) */
+.mermaid:not(.zonemap-wrap):not(.zonemap) {
+    pointer-events: none;
+    user-select: none;
+}
+.mermaid:not(.zonemap-wrap):not(.zonemap) a,
+.mermaid:not(.zonemap-wrap):not(.zonemap) a * {
+    pointer-events: auto;
+    cursor: pointer;
+}
+.mermaid:not(.zonemap-wrap):not(.zonemap) .zoommap-reset,
+.mermaid:not(.zonemap-wrap):not(.zonemap) .zonemap-reset,
+.ext-cat-tree .zoommap-reset,
+.tech-tree-svg .zoommap-reset {
+    display: none !important;
+}
+.ext-cat-tree, .tech-tree-svg {
+    pointer-events: none;
+    user-select: none;
+}
 .zonemap {
     display: block;
     width: 100%;
     height: 100%;
-    padding: 1rem;
+        padding: 1rem;
     box-sizing: border-box;
     transform-origin: center center;
-    will-change: transform;
-    touch-action: none;
+        touch-action: none;
     cursor: grab;
 }
 .zonemap.dragging { cursor: grabbing; }
@@ -784,10 +964,93 @@ html[data-theme="light"][data-cb="achro"] {
 }
 .zonemap-mode:hover, .zonemap-mode:focus-visible { border-color: var(--neon); outline: none; }
 .zonemap-mode[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
+
+/* Landmarks toggle button and panel (zone-map.js) */
+.zonemap-landmarks-toggle {
+    position: absolute; top: 0.6rem; right: 3.4rem; z-index: 2;
+    height: 2.2rem; padding: 0 0.65rem;
+    display: inline-flex; align-items: center; justify-content: center; gap: 0.35rem;
+    font-size: 0.78rem; font-weight: 600; line-height: 1;
+    color: var(--chrome-fg); background: var(--bg-soft);
+    border: 1px solid var(--border); border-radius: 8px; cursor: pointer;
+    user-select: none; transition: border-color 0.15s, color 0.15s;
+}
+.zonemap-landmarks-toggle:hover, .zonemap-landmarks-toggle:focus-visible {
+    border-color: var(--neon); color: var(--neon); outline: none;
+}
+.zonemap-landmarks-toggle[aria-expanded="true"] {
+    border-color: var(--accent); color: var(--accent);
+}
+.zonemap-landmarks-panel {
+    position: absolute; top: 3.2rem; right: 3.4rem; z-index: 50;
+    background: var(--bg-soft); border: 1px solid var(--border); border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.55); padding: 0.6rem 0.75rem;
+    min-width: 185px; font-size: 0.8rem; color: var(--fg);
+}
+.zonemap-landmarks-panel.panel-hidden { display: none; }
+.zonemap-landmarks-header {
+    display: flex; align-items: center; justify-content: space-between; gap: 0.5rem;
+    padding-bottom: 0.4rem; margin-bottom: 0.4rem; border-bottom: 1px solid var(--border);
+    font-weight: 600; font-size: 0.8rem; color: var(--chrome-fg);
+}
+.zonemap-landmarks-all-btn {
+    background: none; border: 1px solid var(--border); border-radius: 4px;
+    padding: 0.15rem 0.4rem; font-size: 0.7rem; color: var(--chrome-muted); cursor: pointer;
+}
+.zonemap-landmarks-all-btn:hover { border-color: var(--neon); color: var(--neon); }
+.zonemap-landmarks-list { display: flex; flex-direction: column; gap: 0.35rem; }
+.zonemap-landmark-item {
+    display: flex; align-items: center; gap: 0.45rem; cursor: pointer;
+    user-select: none; font-size: 0.78rem; color: var(--fg);
+}
+.zonemap-landmark-item input[type="checkbox"] {
+    margin: 0; cursor: pointer; accent-color: var(--accent);
+}
+.zonemap-lm-icon {
+    display: inline-block; width: 1.1em; text-align: center;
+    color: var(--chrome-muted); font-size: 0.85em;
+}
+
+/* Zone map landmark visibility toggles */
+.zonetp-wrap.zm-hide-teleports .zm-node-teleport,
+.zonetp-wrap.zm-hide-teleports .zm-teleport-line,
+.zonetp-wrap.zm-hide-teleports .ltp-line,
+.zonetp-wrap.zm-hide-teleports .exi-line,
+.zonetp-wrap.zm-hide-teleports .zm-casing,
+.zonetp-wrap.zm-hide-teleports .ltp-casing,
+.zonetp-wrap.zm-hide-teleports circle[data-eid],
+.zonetp-wrap.zm-hide-teleports path[fill="#f5a05a"]:not([stroke]) {
+    display: none !important;
+}
+.zonetp-wrap.zm-hide-teleports a:has(.zm-node-teleport),
+.zonetp-wrap.zm-hide-teleports a:has(circle[data-eid]) {
+    display: none !important;
+}
+.zonetp-wrap.zm-hide-teleports a text,
+.zonetp-wrap.zm-hide-teleports text.zm-label {
+    display: none !important;
+}
+.zonetp-wrap.zm-hide-terminals .zm-node-terminal,
+.zonetp-wrap.zm-hide-terminals rect[data-title*="Field terminal"] {
+    display: none !important;
+}
+.zonetp-wrap.zm-hide-outposts .zm-node-outpost,
+.zonetp-wrap.zm-hide-outposts rect[data-title*="Outpost"] {
+    display: none !important;
+}
+.zonetp-wrap.zm-hide-roads #zm-roads,
+.zonetp-wrap.zm-hide-roads .zm-roads {
+    display: none !important;
+}
+.zonetp-wrap.zm-hide-labels text,
+.zonetp-wrap.zm-hide-labels .zm-label {
+    display: none !important;
+}
+
 .zonemap a { cursor: pointer; }
 .zonemap a:hover > circle, .zonemap a:hover > path {
     stroke: #ffffff;
-    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.55));
+    stroke-width: 2px;
 }
 .zonemap text { user-select: none; }
 
@@ -809,21 +1072,19 @@ html[data-theme="light"][data-cb="achro"] {
    Desktop pointers: almost invisible at rest — map.js fades the line in
    while the cursor is near it (.zm-tp-on); touch layouts keep them plainly
    visible (no mouse to "approach" with). */
-.zonemap-tp { stroke-width: 1.1; stroke-opacity: 0.65; stroke-dasharray: 5 4; }
-.zonemap-tp:hover { stroke-opacity: 1; stroke-width: 2; }
+.zonemap-tp { stroke-width: 0.8; stroke-opacity: 0.65; stroke-dasharray: 3 3; vector-effect: non-scaling-stroke; pointer-events: none; }
 @media (hover: hover) and (pointer: fine) {
-  .zonemap-tp { stroke-opacity: 0.25; transition: stroke-opacity 0.15s; }
-  .zonemap-tp.zm-tp-on { stroke-opacity: 0.9; stroke-width: 1.6; }
-  .zonemap-tp:hover { stroke-opacity: 1; stroke-width: 2; }
+  .zonemap-tp { stroke-opacity: 0.25; transition: stroke-opacity 0.2s; }
+  .zonemap-tp.zm-tp-on { stroke-opacity: 0.65; }
 }
-.zonemap-link { stroke: var(--accent); stroke-width: 1.6; stroke-opacity: 0.85; stroke-dasharray: 5 3; }
-.zonemap-link:hover { stroke: var(--neon); stroke-width: 2.2; }
+.zonemap-link { stroke: var(--accent); stroke-width: 1.2; stroke-opacity: 0.85; stroke-dasharray: 3 2; vector-effect: non-scaling-stroke; }
+.zonemap-link:hover { stroke: var(--neon); stroke-width: 1.6; }
 /* local (in-zone) teleports on the zone maps: the dashed lines between a
    pair's columns are always visible (they are the point of the map); map.js
    brightens them a touch while the cursor is near an endpoint (data-ltp).
    The world map does not carry ltp elements at all. */
 .zonetp-wrap .ltp-line { opacity: 0.85; transition: opacity 0.15s; pointer-events: none; }
-.zonetp-wrap .ltp-line.ltp-on { opacity: 1; }
+
 .zonetp-wrap .ltp-dot { pointer-events: none; stroke: rgba(0, 0, 0, 0.5); stroke-width: 1; }
 /* exit teleports: a dashed line from the column to the map edge, pointing
    the way the destination zone lies on the world map (family color stroke).
@@ -831,17 +1092,12 @@ html[data-theme="light"][data-cb="achro"] {
    readable on the bright color-mode terrain. Neither kind of helper may
    eat pointer events (the columns and spots are the clickable elements). */
 .zonetp-wrap .exi-line { pointer-events: none; opacity: 0.75; transition: opacity 0.15s; }
-/* the color render is bright terrain: the teleport lines get extra contrast
-   there — darkened (zone-map.js also thickens them while the mode is on,
-   via the zm-color class on the wrap). */
-.zonetp-wrap.zm-color .ltp-line, .zonetp-wrap.zm-color .exi-line { filter: brightness(0.5) saturate(1.15); }
+
 .zonetp-wrap .zm-casing { pointer-events: none; }
 /* the destination selector (map.js): while it is open the dashed lines of
    the hovered/tapped item are emphasised — .tp-sel-on on the exit lines
    (zone maps) and the inter-zone TP lines (world map); hovering one entry
    in the selector keeps only THAT line emphasised. */
-.zonetp-wrap .exi-line.tp-sel-on { opacity: 1; }
-.zonemap-tp.tp-sel-on { stroke-opacity: 1; stroke-width: 1.8; }
 /* the destination-selector popover (inside the map wrap, absolute) */
 .tp-sel {
     position: absolute; z-index: 40; display: none;
@@ -887,35 +1143,71 @@ html[data-theme="light"][data-cb="achro"] {
 .zone-cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
-    gap: 0.7rem;
+    gap: 1rem;
     margin: 0.8rem 0 1.4rem;
 }
 .zone-card {
-    display: flex; flex-direction: column; gap: 0.35rem;
-    padding: 0.55rem;
-    background: var(--bg-soft);
-    border: 1px solid var(--border);
-    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.35rem;
+    padding: 0.5rem;
+    background: transparent;
+    border: none;
     text-decoration: none;
 }
 .zone-card:hover, .zone-card:focus-visible {
-    border-color: var(--neon); outline: none;
-    transform: translateY(-1px);
+    outline: none;
 }
 .zone-card-thumb {
-    width: 100%; aspect-ratio: 1; object-fit: cover;
-    border-radius: 6px; background: #10151f;
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: contain;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    pointer-events: none;
+    display: block;
+    transition: opacity 0.15s ease;
 }
-.zone-card-name { color: var(--fg); font-weight: 600; font-size: 0.95rem; line-height: 1.2; }
-.zone-card-meta { color: var(--muted); font-size: 0.82rem; }
+.zone-card:hover .zone-card-thumb {
+    opacity: 0.85;
+}
+.zone-card-name {
+    color: var(--fg);
+    font-weight: 600;
+    font-size: 0.95rem;
+    line-height: 1.2;
+    transition: color 0.15s ease;
+}
+.zone-card:hover .zone-card-name {
+    color: var(--neon);
+}
+.zone-card-meta {
+    color: var(--muted);
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+}
 /* anchor jumps (category boxes on the extensions page, the side-menu map
    anchors, …) land below the sticky topbar so the section heading stays
    visible — one row on desktop, two rows on mobile */
 main [id] { scroll-margin-top: 4.2rem; }
 @media (max-width: 800px) { main [id] { scroll-margin-top: 7rem; } }
-.zonemap-label { fill: var(--fg); opacity: 0.85; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-.zonemap circle, .zonemap rect { stroke: rgba(0, 0, 0, 0.35); stroke-width: 1; }
-.zonemap a:hover circle, .zonemap a:hover rect { stroke: var(--neon); stroke-width: 2.5; }
+.zonemap-label {
+    fill: var(--fg); opacity: 0.85;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    /* Black outline (painted under the fill) so the names stay readable
+       over the bright terrain islands. User-unit width: the outline keeps
+       its ratio to the (per-label) font size at every zoom level. */
+    paint-order: stroke fill;
+    stroke: #000; stroke-width: 0.4; stroke-linejoin: round;
+}
+.zonemap circle:not(.zonemap-node-tm):not(.zonemap-node-ics):not(.zonemap-node-asi):not(.zonemap-node-gamma):not(.zonemap-node-special),
+.zonemap rect:not(.zonemap-node-tm):not(.zonemap-node-ics):not(.zonemap-node-asi):not(.zonemap-node-gamma):not(.zonemap-node-special) { stroke: rgba(0, 0, 0, 0.35); stroke-width: 1; }
+
 .zonemap a { cursor: pointer; }
 .mapdot { display: inline-block; width: 0.7em; height: 0.7em; border-radius: 50%; margin-right: 0.35em; vertical-align: baseline; }
 
@@ -1134,6 +1426,56 @@ footer {
     color: var(--accent);
 }
 .home-card-desc { color: var(--muted); font-size: 0.83rem; line-height: 1.35; }
+/* Hero cards on home (Robots, Fitting): 2 columns × 2 rows, same design as robots-hero */
+.home-card-hero {
+    grid-column: span 2;
+    grid-row: span 2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    min-height: 200px;
+    padding: 0;
+    text-decoration: none;
+}
+.home-card-hero:hover, .home-card-hero:focus-visible {
+    border-color: var(--accent);
+    box-shadow: 0 0 18px var(--glow-a), inset 0 0 30px var(--glow-a);
+    transform: none;
+}
+.home-card-hero .robots-hero-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    color: var(--fg);
+}
+.home-card-hero .robots-hero-label {
+    position: relative;
+    z-index: 1;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--fg);
+    border: 2px solid var(--fg);
+    padding: 0.15em 0.6em;
+    line-height: 1.2;
+}
+.home-card-hero .robots-hero-sub {
+    position: relative;
+    z-index: 1;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+}
+@media (max-width: 860px) {
+    .home-card-hero { grid-column: span 1; grid-row: span 1; min-height: 160px; }
+    .home-card-hero .robots-hero-label { font-size: 1.6rem; }
+}
 
 /* ============ missions catalog: per-type tier cards ============ */
 .mission-index { line-height: 2; margin: 0.8rem 0; }
@@ -1331,31 +1673,13 @@ a.prod-card-name:hover { color: var(--neon, #41d3ff); }
 }
 
 /* ------------------------------------------------------------------ */
-/* Play / Dev mode toggle (top bar) + dev-mode visibility              */
+/* Home / Dev mode tabs (top of the sidenav) + dev-mode visibility     */
 /* ------------------------------------------------------------------ */
-.mode-toggle {
-    display: inline-flex; align-items: center; gap: 1px;
-    padding: 2px;
-    border: 1px solid var(--neon-dim); border-radius: 999px;
-    background: var(--chrome-bg2); color: var(--chrome-muted);
-    font: 600 0.7rem/1.3 system-ui, sans-serif; letter-spacing: 0.04em;
-    cursor: pointer;
-    transition: border-color 0.15s ease;
-}
-.mode-toggle:hover, .mode-toggle:focus-visible { border-color: var(--neon); outline: none; }
-.mode-opt { padding: 2px 8px; border-radius: 999px; opacity: 0.55; transition: opacity 0.15s ease; }
-html:not([data-mode="dev"]) .mode-opt[data-mode-opt="play"],
-html[data-mode="dev"] .mode-opt[data-mode-opt="dev"] {
-    opacity: 1; color: var(--neon);
-    background: var(--neon-faint);
-    box-shadow: 0 0 8px var(--neon-faint);
-}
-/* the Dev sidenav group is hidden outside dev mode */
+/* the Dev sidenav group is hidden outside dev mode; the menu tree stays
+   visible in both modes (dev mode adds the group, it no longer replaces
+   the tree) */
 .nav-dev { display: none; }
 html[data-mode="dev"] .nav-dev { display: block; }
-/* dev mode: the menu shows ONLY the Dev group — the Home quick link and
-   every play-mode group are hidden */
-html[data-mode="dev"] .sidenav > ul > li:not(.nav-dev) { display: none; }
 
 /* ------------------------------------------------------------------ */
 /* Dev mode: "the matrix" — near-black, everything glows bright green */
@@ -1395,3 +1719,305 @@ html[data-mode="dev"] body {
 html[data-mode="dev"] a { text-shadow: 0 0 8px rgba(0, 255, 65, 0.50); }
 html[data-mode="dev"] .brand { color: #00ff41; text-shadow: 0 0 10px rgba(0, 255, 65, 0.7); }
 html[data-mode="dev"] h1 { color: #b4ffc9; text-shadow: 0 0 12px rgba(0, 255, 65, 0.45); }
+
+/* ── Robots hero card ─────────────────────────────────────────────────── */
+.robots-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    min-height: 280px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 1.2rem 0 1.6rem;
+    text-decoration: none;
+    color: var(--fg);
+    background: var(--bg2);
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+.robots-hero:hover {
+    border-color: var(--accent);
+    box-shadow: 0 0 18px var(--glow-a), inset 0 0 30px var(--glow-a);
+}
+.robots-hero-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    color: var(--fg);
+}
+.robots-hero-label {
+    position: relative;
+    z-index: 1;
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--fg);
+    border: 2px solid var(--fg);
+    padding: 0.15em 0.6em;
+    line-height: 1.2;
+}
+.robots-hero-sub {
+    position: relative;
+    z-index: 1;
+    margin-top: 0.7rem;
+    font-size: 0.9rem;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+}
+
+/* ── World map interactive legend ─────────────────────────────────────── */
+.map-legend-toggle {
+    position: absolute;
+    top: 0.6rem;
+    right: 3.4rem;
+    z-index: 4;
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--fg);
+    cursor: pointer;
+}
+.map-legend-toggle:hover { border-color: var(--accent); color: var(--accent); }
+.map-legend-backdrop {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: rgba(0,0,0,0.3);
+}
+.map-legend {
+    position: absolute;
+    top: 2.4rem;
+    right: 3.4rem;
+    z-index: 5;
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.5rem 0.6rem;
+    font-size: 0.78rem;
+    color: var(--fg);
+    min-width: 160px;
+    max-width: 220px;
+}
+.map-legend.legend-hidden { display: none; }
+.map-legend-group { margin-bottom: 0.4rem; }
+.map-legend-group:last-child { margin-bottom: 0; }
+.map-legend-head {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    color: var(--fg);
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    padding: 0.15rem 0;
+}
+.map-legend-head:hover { color: var(--accent); }
+.map-legend-items {
+    list-style: none;
+    margin: 0.2rem 0 0;
+    padding: 0 0 0 0.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.map-legend-items.collapsed { display: none; }
+.map-legend-items li {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--muted);
+    font-size: 0.78rem;
+}
+.legend-swatch {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.3);
+    flex-shrink: 0;
+}
+.legend-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    font-size: 0.7rem;
+    color: var(--muted);
+    flex-shrink: 0;
+}
+@media (max-width: 700px) {
+    .map-legend { display: none; }
+}
+
+/* ── Robot ID cards ───────────────────────────────────────────────────── */
+.robot-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 0.75rem;
+    margin: 1rem 0;
+}
+.robot-card {
+    display: flex;
+    align-items: stretch;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--bg2);
+    transition: border-color 0.2s;
+    text-decoration: none;
+    color: inherit;
+}
+.robot-card:hover { border-color: var(--accent); }
+
+/* Robot detail page: card + properties side by side */
+.robot-page-top {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+}
+.robot-page-card {
+    flex: 0 1 48%;
+    min-width: 260px;
+    max-width: 50%;
+}
+.robot-page-props {
+    flex: 1;
+    min-width: 200px;
+    font-size: 0.85rem;
+}
+.robot-props-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+}
+.robot-props-table td {
+    padding: 0.3rem 0.5rem;
+    border-bottom: 1px solid var(--border);
+}
+.robot-props-table td:first-child {
+    color: var(--muted);
+    width: 40%;
+}
+.robot-card-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    min-height: 90px;
+    background: var(--bg-soft);
+    border-right: 1px solid var(--border);
+    flex-shrink: 0;
+}
+.robot-card-img .robot-icon { width: 48px; height: 48px; }
+.robot-card-img img { width: 56px; height: 56px; object-fit: contain; }
+.robot-card-info {
+    padding: 0.5rem 0.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    min-width: 0;
+}
+.robot-card-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 0.4rem;
+}
+.robot-card-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.robot-card-size {
+    font-size: 0.75rem;
+    color: var(--muted);
+    font-weight: 500;
+    flex-shrink: 0;
+    margin-left: 0.4rem;
+}
+.robot-card-stats {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+.robot-card-stats li {
+    display: flex;
+    align-items: baseline;
+    font-size: 0.78rem;
+    color: var(--muted);
+    gap: 0.5rem;
+}
+.robot-card-stats li b {
+    color: var(--fg);
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    min-width: 5.2em;
+    flex-shrink: 0;
+    text-align: right;
+}
+.robot-card-stats li span {
+    text-align: left;
+}
+
+/* ── Robot class ratings table ────────────────────────────────────────── */
+.class-ratings {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88rem;
+    margin: 0.8rem 0;
+}
+.class-ratings th, .class-ratings td {
+    padding: 0.4rem 0.6rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+}
+.class-ratings th {
+    color: var(--muted);
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.class-ratings .rating {
+    letter-spacing: 0.05em;
+    color: var(--fg);
+    white-space: nowrap;
+}
+/* Robot card ratings row */
+.robot-card-ratings {
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-bottom: 0.3rem;
+    letter-spacing: 0.03em;
+}
+.robot-card-ratings span { white-space: nowrap; }
+
+/* i18n: hide chrome text until translation is applied (prevents flash of English) */
+html[data-i18n-pending] [data-i18n],
+html[data-i18n-pending] [data-i18n-aria],
+html[data-i18n-pending] [data-i18n-ph] {
+    opacity: 0;
+    transition: opacity 0.15s ease;
+}
+
+.map-legend-items li { cursor: pointer; }

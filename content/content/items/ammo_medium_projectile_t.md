@@ -41,10 +41,14 @@ graph LR
     classDef current fill:#2f9e6f,stroke:#1f6f4a,color:#ffffff
     classDef finished fill:#3b6ea5,stroke:#274a75,color:#ffffff
 ```
+
 <!-- production:generated -->
 ## Production
 
 **Produced from 5 components** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
+
+
+**Blueprint:** [Ammo Medium Projectile T Cprg](/content/items/ammo-medium-projectile-t-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">required: <b>200</b></div></div>

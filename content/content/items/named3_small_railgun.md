@@ -37,6 +37,9 @@ description: "Modules / Weapons, tier T4"
 
 **Produced from 10 components, research level 5** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [Nuimtec-Inkandesk light EM-gun CT](/content/items/named3-small-railgun-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/hydrobenol/">Hydrobenol</a></div><div class="prod-card-body">required: <b>100</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/named2-small-railgun/">Proto-Gard II. light EM-gun</a></div><div class="prod-card-body">required: <b>1</b></div></div>
@@ -49,6 +52,7 @@ description: "Modules / Weapons, tier T4"
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-crystal"/></svg><a class="prod-card-name" href="/content/items/robotshard-nuimqol-expert/">Perfect nuimqol fragment</a></div><div class="prod-card-body">required: <b>22</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/unimetal/">Briochit</a></div><div class="prod-card-body">required: <b>100</b></div></div>
 </div>
+
 ## Used in production
 
 **Component of 1 items** — everything that uses it in production:

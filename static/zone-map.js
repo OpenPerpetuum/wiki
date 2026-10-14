@@ -20,27 +20,86 @@
     function setMode(m) {
         try { localStorage.setItem(MODE_KEY, m); } catch (err) { /* private mode */ }
     }
-    // The color render is bright terrain: the teleport lines get extra
-    // contrast there — CSS (the zm-color class on the wrap) darkens them,
-    // and their stroke-width is multiplied a bit while the mode is on.
-    // The original widths are remembered in data-sw0 and restored on exit.
-    function applyLineEmphasis(svg, on) {
-        if (!svg) return;
-        Array.prototype.forEach.call(svg.querySelectorAll('.ltp-line, .exi-line'), function (l) {
-            if (l.getAttribute('data-sw0') === null) l.setAttribute('data-sw0', l.getAttribute('stroke-width') || '0');
-            var w = parseFloat(l.getAttribute('data-sw0')) || 0;
-            l.setAttribute('stroke-width', (on ? w * 1.7 : w).toString());
-        });
+
+    var LANDMARKS_KEY = 'wiki-zonemap-landmarks';
+    var DEFAULT_LANDMARKS = {
+        teleports: true,
+        outposts: true,
+        terminals: true,
+        roads: true,
+        labels: true
+    };
+
+    function getLandmarks() {
+        try {
+            var raw = localStorage.getItem(LANDMARKS_KEY);
+            if (raw) return Object.assign({}, DEFAULT_LANDMARKS, JSON.parse(raw));
+        } catch (e) {}
+        return Object.assign({}, DEFAULT_LANDMARKS);
+    }
+
+    function setLandmarks(cfg) {
+        try {
+            localStorage.setItem(LANDMARKS_KEY, JSON.stringify(cfg));
+        } catch (e) {}
+        applyLandmarksGlobally(cfg);
+    }
+
+    function applyLandmarksToWrap(wrap, cfg) {
+        wrap.classList.toggle('zm-hide-teleports', !cfg.teleports);
+        wrap.classList.toggle('zm-hide-outposts', !cfg.outposts);
+        wrap.classList.toggle('zm-hide-terminals', !cfg.terminals);
+        wrap.classList.toggle('zm-hide-roads', !cfg.roads);
+        wrap.classList.toggle('zm-hide-labels', !cfg.labels);
+
+        var panel = wrap.querySelector('.zonemap-landmarks-panel');
+        if (panel) {
+            var inputs = panel.querySelectorAll('input[type="checkbox"][data-landmark]');
+            for (var i = 0; i < inputs.length; i++) {
+                var k = inputs[i].getAttribute('data-landmark');
+                if (k && typeof cfg[k] !== 'undefined') {
+                    inputs[i].checked = !!cfg[k];
+                }
+            }
+        }
+    }
+
+    function applyLandmarksGlobally(cfg) {
+        var wraps = document.querySelectorAll('.zonetp-wrap');
+        for (var i = 0; i < wraps.length; i++) {
+            applyLandmarksToWrap(wraps[i], cfg);
+        }
+    }
+
+    window.addEventListener('storage', function (e) {
+        if (e.key === LANDMARKS_KEY) {
+            applyLandmarksGlobally(getLandmarks());
+        }
+    });
+    function applyWorldMode(svg, mode) {
+        if (mode !== 'color' && mode !== 'height') mode = 'base';
+        Array.prototype.forEach.call(svg.querySelectorAll('.wm-base'), function(el) { el.style.display = mode === 'base' ? '' : 'none'; });
+        Array.prototype.forEach.call(svg.querySelectorAll('.wm-height'), function(el) { el.style.display = mode === 'height' ? '' : 'none'; });
+        Array.prototype.forEach.call(svg.querySelectorAll('.wm-color'), function(el) { el.style.display = mode === 'color' ? '' : 'none'; });
+        var wrap = svg.closest('.zonemap-wrap');
+        if (wrap) {
+            wrap.classList.toggle('zm-color', mode === 'color');
+            var bar = wrap.querySelector('.zonemap-modes');
+            if (bar) {
+                Array.prototype.forEach.call(bar.querySelectorAll('.zonemap-mode'), function (x) {
+                    x.setAttribute('aria-pressed', x.getAttribute('data-mode') === mode ? 'true' : 'false');
+                });
+            }
+        }
     }
 
     function applyMode(hImg, cImg, mode, bar) {
-        if (mode !== 'color') mode = 'height';
+        if (mode !== 'color' && mode !== 'height') mode = 'base';
         hImg.style.display = mode === 'height' ? '' : 'none';
         cImg.style.display = mode === 'color' ? '' : 'none';
         var wrap = hImg.closest ? hImg.closest('.zonetp-wrap') : null;
         if (wrap) {
             wrap.classList.toggle('zm-color', mode === 'color');
-            applyLineEmphasis(wrap.querySelector('svg.zonemap'), mode === 'color');
         }
         if (bar) {
             Array.prototype.forEach.call(bar.querySelectorAll('.zonemap-mode'), function (x) {
@@ -63,7 +122,7 @@
 
     function upgrade(img) {
         var src = img.getAttribute('src');
-        fetch(src, { credentials: 'same-origin' }).then(function (r) {
+        fetch(src + "?t=" + Date.now(), { credentials: 'same-origin' }).then(function (r) {
             if (!r.ok) throw new Error('http ' + r.status);
             return r.text();
         }).then(function (text) {
@@ -83,15 +142,108 @@
                 var h = im.getAttribute('href') || im.getAttribute('xlink:href');
                 if (h) im.setAttribute('href', withRoot(h));
             });
+            Array.prototype.forEach.call(svg.querySelectorAll('.zonemap-node-special[data-title]'), function (node) {
+                var t = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+                t.textContent = node.getAttribute('data-title');
+                node.appendChild(t);
+            });
+
 
             var wrap = document.createElement('div');
             wrap.className = 'zonemap-wrap zonetp-wrap';
+            var ui = window.WIKI_UI || {};
             var btn = document.createElement('button');
             btn.type = 'button';
             btn.className = 'zonemap-reset';
-            btn.title = 'Reset the zoom';
+            btn.title = ui.zonemapResetZoom || 'Reset the zoom';
             btn.textContent = '⟲';
             wrap.appendChild(btn);
+
+            var lmToggle = document.createElement('button');
+            lmToggle.type = 'button';
+            lmToggle.className = 'zonemap-landmarks-toggle';
+            lmToggle.setAttribute('aria-expanded', 'false');
+            lmToggle.title = ui.zonemapLandmarks || 'Landmarks';
+            lmToggle.textContent = ui.zonemapLandmarks || 'Landmarks';
+
+            var lmPanel = document.createElement('div');
+            lmPanel.className = 'zonemap-landmarks-panel panel-hidden';
+            lmPanel.setAttribute('role', 'dialog');
+            lmPanel.setAttribute('aria-label', ui.zonemapLandmarks || 'Landmarks');
+
+            var lmHeader = document.createElement('div');
+            lmHeader.className = 'zonemap-landmarks-header';
+            var lmTitle = document.createElement('span');
+            lmTitle.textContent = ui.zonemapLandmarks || 'Landmarks';
+            var lmToggleAll = document.createElement('button');
+            lmToggleAll.type = 'button';
+            lmToggleAll.className = 'zonemap-landmarks-all-btn';
+            lmToggleAll.textContent = ui.zonemapToggleAll || 'Toggle all';
+            lmHeader.appendChild(lmTitle);
+            lmHeader.appendChild(lmToggleAll);
+            lmPanel.appendChild(lmHeader);
+
+            var items = [
+                { key: 'teleports', label: ui.zonemapLmTeleports || 'Teleports & Gates', icon: '⬡' },
+                { key: 'outposts', label: ui.zonemapLmOutposts || 'Outposts', icon: '◉' },
+                { key: 'terminals', label: ui.zonemapLmTerminals || 'Field terminals', icon: '▽' },
+                { key: 'roads', label: ui.zonemapLmRoads || 'Roads', icon: '━' },
+                { key: 'labels', label: ui.zonemapLmLabels || 'Labels', icon: 'Aa' }
+            ];
+
+            var lmList = document.createElement('div');
+            lmList.className = 'zonemap-landmarks-list';
+
+            items.forEach(function (item) {
+                var lbl = document.createElement('label');
+                lbl.className = 'zonemap-landmark-item';
+                var cb = document.createElement('input');
+                cb.type = 'checkbox';
+                cb.setAttribute('data-landmark', item.key);
+                cb.addEventListener('change', function () {
+                    var cfg = getLandmarks();
+                    cfg[item.key] = cb.checked;
+                    setLandmarks(cfg);
+                });
+                var iconSpan = document.createElement('span');
+                iconSpan.className = 'zonemap-lm-icon';
+                iconSpan.textContent = item.icon;
+                var textSpan = document.createElement('span');
+                textSpan.textContent = item.label;
+                lbl.appendChild(cb);
+                lbl.appendChild(iconSpan);
+                lbl.appendChild(textSpan);
+                lmList.appendChild(lbl);
+            });
+            lmPanel.appendChild(lmList);
+
+            lmToggleAll.addEventListener('click', function (e) {
+                e.stopPropagation();
+                var cfg = getLandmarks();
+                var allChecked = items.every(function (it) { return cfg[it.key]; });
+                items.forEach(function (it) { cfg[it.key] = !allChecked; });
+                setLandmarks(cfg);
+            });
+
+            lmToggle.addEventListener('pointerdown', function (e) { e.stopPropagation(); });
+            lmToggle.addEventListener('click', function (e) {
+                e.stopPropagation();
+                var isOpen = !lmPanel.classList.contains('panel-hidden');
+                lmPanel.classList.toggle('panel-hidden', isOpen);
+                lmToggle.setAttribute('aria-expanded', String(!isOpen));
+            });
+            lmPanel.addEventListener('pointerdown', function (e) { e.stopPropagation(); });
+            lmPanel.addEventListener('click', function (e) { e.stopPropagation(); });
+
+            document.addEventListener('pointerdown', function (e) {
+                if (!lmPanel.contains(e.target) && e.target !== lmToggle) {
+                    lmPanel.classList.add('panel-hidden');
+                    lmToggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+
+            wrap.appendChild(lmToggle);
+            wrap.appendChild(lmPanel);
 
             // display modes (Height / Color) — only for zones whose
             // SVG carries both real-terrain images
@@ -99,10 +251,10 @@
             var cImg = svg.querySelector('#zm-color');
             var bar = null;
             if (hImg && cImg) {
-                var ui = window.WIKI_UI || {};
                 bar = document.createElement('div');
                 bar.className = 'zonemap-modes';
-                [['height', ui.zonemapModeHeight || 'Height'],
+                [['base', ui.zonemapModeBase || 'Base'],
+                 ['height', ui.zonemapModeHeight || 'Height'],
                  ['color', ui.zonemapModeColor || 'Color']].forEach(function (m) {
                     var b = document.createElement('button');
                     b.type = 'button';
@@ -112,6 +264,8 @@
                     b.addEventListener('click', function () {
                         setMode(m[0]);
                         applyMode(hImg, cImg, m[0], bar);
+                        var wmap = document.querySelector('.zonemap-wrap .zonemap.is-worldmap');
+                        if (wmap) applyWorldMode(wmap, m[0]);
                     });
                     bar.appendChild(b);
                 });
@@ -121,6 +275,7 @@
             // after the SVG is in its wrap, so the remembered choice can also
             // toggle the wrap's zm-color class / line emphasis
             if (hImg && cImg) applyMode(hImg, cImg, getMode(), bar);
+            applyLandmarksToWrap(wrap, getLandmarks());
 
             // the <img> sits alone in a <p>; replace that paragraph so a
             // <div> is not nested in <p>
@@ -135,8 +290,46 @@
         var imgs = document.querySelectorAll('img[src*="/zonemaps/"]');
         for (var i = 0; i < imgs.length; i++) {
             if (imgs[i].getAttribute('data-zonetp-init')) continue;
+            if (imgs[i].classList.contains('zone-card-thumb') || (imgs[i].closest && imgs[i].closest('.zone-card')) || imgs[i].getAttribute('src').indexOf('thumb.') !== -1) {
+                continue;
+            }
             imgs[i].setAttribute('data-zonetp-init', '1');
             upgrade(imgs[i]);
+        }
+        var worldMap = document.querySelector('.zonemap-wrap .zonemap');
+        if (worldMap && !worldMap.closest('.zonetp-wrap')) {
+            if (!worldMap.getAttribute('data-modes-init') && document.querySelector('.wm-height')) {
+                worldMap.setAttribute('data-modes-init', '1');
+                worldMap.classList.add('is-worldmap');
+                var wrap = worldMap.closest('.zonemap-wrap');
+                var ui = window.WIKI_UI || {};
+                var bar = document.createElement('div');
+                bar.className = 'zonemap-modes';
+                [['base', ui.zonemapModeBase || 'Base'],
+                 ['height', ui.zonemapModeHeight || 'Height'],
+                 ['color', ui.zonemapModeColor || 'Color']].forEach(function (m) {
+                    var b = document.createElement('button');
+                    b.type = 'button';
+                    b.className = 'zonemap-mode';
+                    b.textContent = m[1];
+                    b.setAttribute('data-mode', m[0]);
+                    b.addEventListener('click', function () {
+                        setMode(m[0]);
+                        applyWorldMode(worldMap, m[0]);
+                        document.querySelectorAll('.zonetp-wrap').forEach(function(zw) {
+                            var hi = zw.querySelector('#zm-height');
+                            var ci = zw.querySelector('#zm-color');
+                            var bbar = zw.querySelector('.zonemap-modes');
+                            if (hi && ci) applyMode(hi, ci, m[0], bbar);
+                        });
+                    });
+                    bar.appendChild(b);
+                });
+                wrap.appendChild(bar);
+            }
+            if (worldMap.getAttribute('data-modes-init')) {
+                applyWorldMode(worldMap, getMode() || 'base');
+            }
         }
     }
 

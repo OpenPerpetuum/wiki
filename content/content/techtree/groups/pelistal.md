@@ -24,92 +24,64 @@ Research for the Pelistal domain faction: its named weapons and the modules that
 
 **28 nodes** — everything that descends from [Standard small shield generator](/content/techtree/nodes/standard-small-shield-generator/).
 
-```mermaid
-graph TD
-    n24["Standard thermal armor"]
-    n28["Standard small shield generator"]
-    n29["Standard medium shield generator"]
-    n30["Standard large shield generator"]
-    n31["Standard shield hardener"]
-    n711["Lava-3T thermal armor"]
-    n715["Thermoflake thermal armor"]
-    n719["Hephaistos-TSS thermal armor"]
-    n723["Parsvaal-IP small shield generator"]
-    n724["Ovostec-Yellowray small shield generator"]
-    n725["SBA-200 Forebrace small shield generator"]
-    n726["Parsvaal-IIX medium shield generator"]
-    n727["Ovostec-Yellowray II. medium shield generator"]
-    n728["Penik medium shield generator"]
-    n729["AVA-Spintarge large shield generator"]
-    n730["Gegel Ioner large shield generator"]
-    n731["Umbeler large shield generator"]
-    n732["Bund shield hardener"]
-    n733["Patronus shield hardener"]
-    n734["Guardian shield hardener"]
-    n2559["Standard shield NEXUS module"]
-    n2607["Bomitar I. shield NEXUS module"]
-    n2608["Stasis-Gen shield NEXUS module"]
-    n2609["Bomitar II. shield NEXUS module"]
-    n3297["Standard thermal ERP"]
-    n3298["Pyropaster thermal ERP"]
-    n3299["DE-melt thermal ERP"]
-    n3300["Dyoriva thermal ERP"]
-    n28 --> n24
-    n723 --> n29
-    n732 --> n30
-    n726 --> n31
-    n24 --> n711
-    n711 --> n715
-    n715 --> n719
-    n28 --> n723
-    n723 --> n724
-    n724 --> n725
-    n29 --> n726
-    n726 --> n727
-    n727 --> n728
-    n30 --> n729
-    n729 --> n730
-    n730 --> n731
-    n31 --> n732
-    n732 --> n733
-    n733 --> n734
-    n732 --> n2559
-    n2559 --> n2607
-    n2607 --> n2608
-    n2608 --> n2609
-    n711 --> n3297
-    n3297 --> n3298
-    n3298 --> n3299
-    n3299 --> n3300
-    click n24 "/content/techtree/nodes/standard-thrm-armor-hardener/" "Standard thermal armor"
-    click n28 "/content/techtree/nodes/standard-small-shield-generator/" "Standard small shield generator"
-    click n29 "/content/techtree/nodes/standard-medium-shield-generator/" "Standard medium shield generator"
-    click n30 "/content/techtree/nodes/standard-large-shield-generator/" "Standard large shield generator"
-    click n31 "/content/techtree/nodes/standard-shield-hardener/" "Standard shield hardener"
-    click n711 "/content/techtree/nodes/named1-thrm-armor-hardener/" "Lava-3T thermal armor"
-    click n715 "/content/techtree/nodes/named2-thrm-armor-hardener/" "Thermoflake thermal armor"
-    click n719 "/content/techtree/nodes/named3-thrm-armor-hardener/" "Hephaistos-TSS thermal armor"
-    click n723 "/content/techtree/nodes/named1-small-shield-generator/" "Parsvaal-IP small shield generator"
-    click n724 "/content/techtree/nodes/named2-small-shield-generator/" "Ovostec-Yellowray small shield generator"
-    click n725 "/content/techtree/nodes/named3-small-shield-generator/" "SBA-200 Forebrace small shield generator"
-    click n726 "/content/techtree/nodes/named1-medium-shield-generator/" "Parsvaal-IIX medium shield generator"
-    click n727 "/content/techtree/nodes/named2-medium-shield-generator/" "Ovostec-Yellowray II. medium shield generator"
-    click n728 "/content/techtree/nodes/named3-medium-shield-generator/" "Penik medium shield generator"
-    click n729 "/content/techtree/nodes/named1-large-shield-generator/" "AVA-Spintarge large shield generator"
-    click n730 "/content/techtree/nodes/named2-large-shield-generator/" "Gegel Ioner large shield generator"
-    click n731 "/content/techtree/nodes/named3-large-shield-generator/" "Umbeler large shield generator"
-    click n732 "/content/techtree/nodes/named1-shield-hardener/" "Bund shield hardener"
-    click n733 "/content/techtree/nodes/named2-shield-hardener/" "Patronus shield hardener"
-    click n734 "/content/techtree/nodes/named3-shield-hardener/" "Guardian shield hardener"
-    click n2559 "/content/techtree/nodes/standard-gang-assist-shield-calculation-module/" "Standard shield NEXUS module"
-    click n2607 "/content/techtree/nodes/named1-gang-assist-shield-calculation-module/" "Bomitar I. shield NEXUS module"
-    click n2608 "/content/techtree/nodes/named2-gang-assist-shield-calculation-module/" "Stasis-Gen shield NEXUS module"
-    click n2609 "/content/techtree/nodes/named3-gang-assist-shield-calculation-module/" "Bomitar II. shield NEXUS module"
-    click n3297 "/content/techtree/nodes/standard-thermal-kers/" "Standard thermal ERP"
-    click n3298 "/content/techtree/nodes/named1-thermal-kers/" "Pyropaster thermal ERP"
-    click n3299 "/content/techtree/nodes/named2-thermal-kers/" "DE-melt thermal ERP"
-    click n3300 "/content/techtree/nodes/named3-thermal-kers/" "Dyoriva thermal ERP"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1070 850" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="1070" height="850" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <line x1="140" y1="56" x2="-10" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="140" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="486" x2="-310" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="314" x2="-10" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="-10" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="-160" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="314" x2="-160" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="290" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="440" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="228" x2="440" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="228" x2="140" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="314" x2="290" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="290" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="572" x2="-310" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="658" x2="-310" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="744" x2="-310" y2="794" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="400" x2="-10" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="486" x2="-10" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="572" x2="-10" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="486" x2="290" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="572" x2="290" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="658" x2="290" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="744" x2="290" y2="794" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="140" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="314" x2="140" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="400" x2="140" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="486" x2="140" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <g><a href="/content/techtree/nodes/standard-thrm-armor-hardener/"><title>Standard thermal armor</title><rect x="-150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard thermal armor</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-small-shield-generator/"><title>Standard small shield generator</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard small shield generator</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-medium-shield-generator/"><title>Standard medium shield generator</title><rect x="0" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard medium shield generator</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-large-shield-generator/"><title>Standard large shield generator</title><rect x="-450" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard large shield generator</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-shield-hardener/"><title>Standard shield hardener</title><rect x="-150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard shield hardener</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-thrm-armor-hardener/"><title>Lava-3T thermal armor</title><rect x="-150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Lava-3T thermal armor</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-thrm-armor-hardener/"><title>Thermoflake thermal armor</title><rect x="-300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Thermoflake thermal armor</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-thrm-armor-hardener/"><title>Hephaistos-TSS thermal armor</title><rect x="-300" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hephaistos-TSS thermal armor</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-small-shield-generator/"><title>Parsvaal-IP small shield generator</title><rect x="150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Parsvaal-IP small shield generator</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-small-shield-generator/"><title>Ovostec-Yellowray small shield generator</title><rect x="300" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ovostec-Yellowray small shield …</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-small-shield-generator/"><title>SBA-200 Forebrace small shield generator</title><rect x="300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">SBA-200 Forebrace small shield …</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-medium-shield-generator/"><title>Parsvaal-IIX medium shield generator</title><rect x="0" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Parsvaal-IIX medium shield gene…</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-medium-shield-generator/"><title>Ovostec-Yellowray II. medium shield generator</title><rect x="150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ovostec-Yellowray II. medium sh…</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-medium-shield-generator/"><title>Penik medium shield generator</title><rect x="150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Penik medium shield generator</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-large-shield-generator/"><title>AVA-Spintarge large shield generator</title><rect x="-450" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">AVA-Spintarge large shield gene…</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-large-shield-generator/"><title>Gegel Ioner large shield generator</title><rect x="-450" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Gegel Ioner large shield generator</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-large-shield-generator/"><title>Umbeler large shield generator</title><rect x="-450" y="794" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="816" font-size="12" fill="#e8ecf4" font-family="sans-serif">Umbeler large shield generator</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-shield-hardener/"><title>Bund shield hardener</title><rect x="-150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Bund shield hardener</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-shield-hardener/"><title>Patronus shield hardener</title><rect x="-150" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Patronus shield hardener</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-shield-hardener/"><title>Guardian shield hardener</title><rect x="-150" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Guardian shield hardener</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-gang-assist-shield-calculation-module/"><title>Standard shield NEXUS module</title><rect x="150" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard shield NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-gang-assist-shield-calculation-module/"><title>Bomitar I. shield NEXUS module</title><rect x="150" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Bomitar I. shield NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-gang-assist-shield-calculation-module/"><title>Stasis-Gen shield NEXUS module</title><rect x="150" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Stasis-Gen shield NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-gang-assist-shield-calculation-module/"><title>Bomitar II. shield NEXUS module</title><rect x="150" y="794" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="816" font-size="12" fill="#e8ecf4" font-family="sans-serif">Bomitar II. shield NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-thermal-kers/"><title>Standard thermal ERP</title><rect x="0" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard thermal ERP</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-thermal-kers/"><title>Pyropaster thermal ERP</title><rect x="0" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Pyropaster thermal ERP</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-thermal-kers/"><title>DE-melt thermal ERP</title><rect x="0" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">DE-melt thermal ERP</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-thermal-kers/"><title>Dyoriva thermal ERP</title><rect x="0" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Dyoriva thermal ERP</text></a></g>
+</svg>
 
 <a id="line-38"></a>
 
@@ -117,62 +89,44 @@ graph TD
 
 **18 nodes** — everything that descends from [Standard small energy neutralizer](/content/techtree/nodes/standard-small-energy-neutralizer/).
 
-```mermaid
-graph TD
-    n38["Standard small energy neutralizer"]
-    n39["Standard medium energy neutralizer"]
-    n753["Gox I. small energy neutralizer"]
-    n754["600GFX-Spasm small energy neutralizer"]
-    n755["Cerba small energy neutralizer"]
-    n756["Gox II. medium energy neutralizer"]
-    n757["1300RFX-Spasm medium energy neutralizer"]
-    n758["Sicado I. medium energy neutralizer"]
-    n942["Troiar"]
-    n948["Ictus"]
-    n2557["Standard recharger NEXUS module"]
-    n2601["Columcyl recharger NEXUS module"]
-    n2602["ARMS E300 recharger NEXUS module"]
-    n2603["ARMS X500 recharger NEXUS module"]
-    n4577["Standard EnWar upgrade"]
-    n4583["Blister EnWar upgrade"]
-    n4585["OM-Shock EnWar upgrade"]
-    n4586["XT-Shock EnWar upgrade"]
-    n753 --> n39
-    n38 --> n753
-    n753 --> n754
-    n754 --> n755
-    n39 --> n756
-    n756 --> n757
-    n757 --> n758
-    n38 --> n942
-    n39 --> n948
-    n948 --> n2557
-    n2557 --> n2601
-    n2601 --> n2602
-    n2602 --> n2603
-    n753 --> n4577
-    n4577 --> n4583
-    n4583 --> n4585
-    n4585 --> n4586
-    click n38 "/content/techtree/nodes/standard-small-energy-neutralizer/" "Standard small energy neutralizer"
-    click n39 "/content/techtree/nodes/standard-medium-energy-neutralizer/" "Standard medium energy neutralizer"
-    click n753 "/content/techtree/nodes/named1-small-energy-neutralizer/" "Gox I. small energy neutralizer"
-    click n754 "/content/techtree/nodes/named2-small-energy-neutralizer/" "600GFX-Spasm small energy neutralizer"
-    click n755 "/content/techtree/nodes/named3-small-energy-neutralizer/" "Cerba small energy neutralizer"
-    click n756 "/content/techtree/nodes/named1-medium-energy-neutralizer/" "Gox II. medium energy neutralizer"
-    click n757 "/content/techtree/nodes/named2-medium-energy-neutralizer/" "1300RFX-Spasm medium energy neutralizer"
-    click n758 "/content/techtree/nodes/named3-medium-energy-neutralizer/" "Sicado I. medium energy neutralizer"
-    click n942 "/content/techtree/nodes/troiar/" "Troiar"
-    click n948 "/content/techtree/nodes/ictus/" "Ictus"
-    click n2557 "/content/techtree/nodes/standard-gang-assist-core-management-module/" "Standard recharger NEXUS module"
-    click n2601 "/content/techtree/nodes/named1-gang-assist-core-management-module/" "Columcyl recharger NEXUS module"
-    click n2602 "/content/techtree/nodes/named2-gang-assist-core-management-module/" "ARMS E300 recharger NEXUS module"
-    click n2603 "/content/techtree/nodes/named3-gang-assist-core-management-module/" "ARMS X500 recharger NEXUS module"
-    click n4577 "/content/techtree/nodes/standard-energy-warfare-upgrade/" "Standard EnWar upgrade"
-    click n4583 "/content/techtree/nodes/named1-energy-warfare-upgrade/" "Blister EnWar upgrade"
-    click n4585 "/content/techtree/nodes/named2-energy-warfare-upgrade/" "OM-Shock EnWar upgrade"
-    click n4586 "/content/techtree/nodes/named3-energy-warfare-upgrade/" "XT-Shock EnWar upgrade"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 678" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="320" height="678" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <line x1="-10" y1="142" x2="-310" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-10" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="-10" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="-10" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="228" x2="-460" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-460" y1="314" x2="-460" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-460" y1="400" x2="-460" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="290" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-310" y1="228" x2="-160" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="314" x2="-160" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="400" x2="-160" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="486" x2="-160" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="572" x2="-160" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="290" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="228" x2="290" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="314" x2="290" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="290" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <g><a href="/content/techtree/nodes/standard-small-energy-neutralizer/"><title>Standard small energy neutralizer</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard small energy neutralizer</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-medium-energy-neutralizer/"><title>Standard medium energy neutralizer</title><rect x="-450" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard medium energy neutralizer</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-small-energy-neutralizer/"><title>Gox I. small energy neutralizer</title><rect x="-150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Gox I. small energy neutralizer</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-small-energy-neutralizer/"><title>600GFX-Spasm small energy neutralizer</title><rect x="-150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">600GFX-Spasm small energy neutr…</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-small-energy-neutralizer/"><title>Cerba small energy neutralizer</title><rect x="-150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Cerba small energy neutralizer</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-medium-energy-neutralizer/"><title>Gox II. medium energy neutralizer</title><rect x="-600" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-590" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Gox II. medium energy neutralizer</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-medium-energy-neutralizer/"><title>1300RFX-Spasm medium energy neutralizer</title><rect x="-600" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-590" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">1300RFX-Spasm medium energy neu…</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-medium-energy-neutralizer/"><title>Sicado I. medium energy neutralizer</title><rect x="-600" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-590" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Sicado I. medium energy neutral…</text></a></g>
+  <g><a href="/content/techtree/nodes/troiar/"><title>Troiar</title><rect x="150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Troiar</text></a></g>
+  <g><a href="/content/techtree/nodes/ictus/"><title>Ictus</title><rect x="-300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ictus</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-gang-assist-core-management-module/"><title>Standard recharger NEXUS module</title><rect x="-300" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard recharger NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-gang-assist-core-management-module/"><title>Columcyl recharger NEXUS module</title><rect x="-300" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Columcyl recharger NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-gang-assist-core-management-module/"><title>ARMS E300 recharger NEXUS module</title><rect x="-300" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">ARMS E300 recharger NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-gang-assist-core-management-module/"><title>ARMS X500 recharger NEXUS module</title><rect x="-300" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">ARMS X500 recharger NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-energy-warfare-upgrade/"><title>Standard EnWar upgrade</title><rect x="150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard EnWar upgrade</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-energy-warfare-upgrade/"><title>Blister EnWar upgrade</title><rect x="150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Blister EnWar upgrade</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-energy-warfare-upgrade/"><title>OM-Shock EnWar upgrade</title><rect x="150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">OM-Shock EnWar upgrade</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-energy-warfare-upgrade/"><title>XT-Shock EnWar upgrade</title><rect x="150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">XT-Shock EnWar upgrade</text></a></g>
+</svg>
 
 <a id="line-63"></a>
 
@@ -180,143 +134,98 @@ graph TD
 
 **45 nodes** — everything that descends from [Standard light missile launcher](/content/techtree/nodes/standard-rocket-launcher/).
 
-```mermaid
-graph TD
-    n63["Standard light missile launcher"]
-    n64["Standard medium missile launcher"]
-    n65["Standard heavy missile launcher"]
-    n196["Waspish"]
-    n204["Castel"]
-    n208["Tyrannos"]
-    n216["Gropho"]
-    n283["Small armor-piercing ballistic missile"]
-    n284["Small chemoactive ballistic missile"]
-    n285["Small doublecore ballistic missile"]
-    n286["Small sonic ballistic missile"]
-    n287["Medium armor-piercing compact missile"]
-    n288["Medium chemoactive compact missile"]
-    n289["Medium doublecore compact missile"]
-    n290["Medium sonic compact missile"]
-    n291["Large armor-piercing compact missile"]
-    n292["Large chemoactive compact missile"]
-    n293["Large doublecore compact missile"]
-    n294["Large sonic compact missile"]
-    n849["Pelistec-Horosol DBM light missile launcher"]
-    n850["Morteq light missile launcher"]
-    n851["Pelistec-TR110 light missile launcher"]
-    n852["ST-Dupot medium missile launcher"]
-    n853["Vollert medium missile launcher"]
-    n854["Pelistec-TR250 medium missile launcher"]
-    n855["Aqwit Imperator heavy missile launcher"]
-    n856["Teppes heavy missile launcher"]
-    n857["Pelistec-TR500 heavy missile launcher"]
-    n910["Standard missile launcher tuning"]
-    n927["AIT-Dipris Propellant missile launcher tuning"]
-    n928["Pelistec-FBP-II. missile launcher tuning"]
-    n929["Dozer-IMT missile launcher tuning"]
-    n1036["Medium armor-piercing ballistic missile"]
-    n1037["Medium chemoactive ballistic missile"]
-    n1038["Medium doublecore ballistic missile"]
-    n1039["Medium sonic ballistic missile"]
-    n1040["Ammo Longrange Cruisemissile A"]
-    n1041["Ammo Longrange Cruisemissile B"]
-    n1042["Ammo Longrange Cruisemissile C"]
-    n1043["Ammo Longrange Cruisemissile D"]
-    n2551["Standard lock booster NEXUS module"]
-    n2586["JPS-Redeye lock booster NEXUS module"]
-    n2587["Tersung lock booster NEXUS module"]
-    n2588["JPS-Greeneye lock booster NEXUS module"]
-    n6003["Hydra"]
-    n850 --> n64
-    n853 --> n65
-    n849 --> n196
-    n63 --> n204
-    n64 --> n208
-    n853 --> n216
-    n286 --> n283
-    n286 --> n284
-    n286 --> n285
-    n63 --> n286
-    n290 --> n287
-    n290 --> n288
-    n290 --> n289
-    n64 --> n290
-    n294 --> n291
-    n294 --> n292
-    n294 --> n293
-    n65 --> n294
-    n63 --> n849
-    n849 --> n850
-    n850 --> n851
-    n64 --> n852
-    n852 --> n853
-    n853 --> n854
-    n65 --> n855
-    n855 --> n856
-    n856 --> n857
-    n63 --> n910
-    n910 --> n927
-    n927 --> n928
-    n928 --> n929
-    n1039 --> n1036
-    n1039 --> n1037
-    n1039 --> n1038
-    n852 --> n1039
-    n1043 --> n1040
-    n1043 --> n1041
-    n1043 --> n1042
-    n294 --> n1043
-    n928 --> n2551
-    n2551 --> n2586
-    n2586 --> n2587
-    n2587 --> n2588
-    n216 --> n6003
-    click n63 "/content/techtree/nodes/standard-rocket-launcher/" "Standard light missile launcher"
-    click n64 "/content/techtree/nodes/standard-missile-launcher/" "Standard medium missile launcher"
-    click n65 "/content/techtree/nodes/standard-cruisemissile-launcher/" "Standard heavy missile launcher"
-    click n196 "/content/techtree/nodes/waspish/" "Waspish"
-    click n204 "/content/techtree/nodes/castel/" "Castel"
-    click n208 "/content/techtree/nodes/tyrannos/" "Tyrannos"
-    click n216 "/content/techtree/nodes/gropho/" "Gropho"
-    click n283 "/content/techtree/nodes/ammo-rocket-a/" "Small armor-piercing ballistic missile"
-    click n284 "/content/techtree/nodes/ammo-rocket-b/" "Small chemoactive ballistic missile"
-    click n285 "/content/techtree/nodes/ammo-rocket-c/" "Small doublecore ballistic missile"
-    click n286 "/content/techtree/nodes/ammo-rocket-d/" "Small sonic ballistic missile"
-    click n287 "/content/techtree/nodes/ammo-missile-a/" "Medium armor-piercing compact missile"
-    click n288 "/content/techtree/nodes/ammo-missile-b/" "Medium chemoactive compact missile"
-    click n289 "/content/techtree/nodes/ammo-missile-c/" "Medium doublecore compact missile"
-    click n290 "/content/techtree/nodes/ammo-missile-d/" "Medium sonic compact missile"
-    click n291 "/content/techtree/nodes/ammo-cruisemissile-a/" "Large armor-piercing compact missile"
-    click n292 "/content/techtree/nodes/ammo-cruisemissile-b/" "Large chemoactive compact missile"
-    click n293 "/content/techtree/nodes/ammo-cruisemissile-c/" "Large doublecore compact missile"
-    click n294 "/content/techtree/nodes/ammo-cruisemissile-d/" "Large sonic compact missile"
-    click n849 "/content/techtree/nodes/named1-rocket-launcher/" "Pelistec-Horosol DBM light missile launcher"
-    click n850 "/content/techtree/nodes/named2-rocket-launcher/" "Morteq light missile launcher"
-    click n851 "/content/techtree/nodes/named3-rocket-launcher/" "Pelistec-TR110 light missile launcher"
-    click n852 "/content/techtree/nodes/named1-missile-launcher/" "ST-Dupot medium missile launcher"
-    click n853 "/content/techtree/nodes/named2-missile-launcher/" "Vollert medium missile launcher"
-    click n854 "/content/techtree/nodes/named3-missile-launcher/" "Pelistec-TR250 medium missile launcher"
-    click n855 "/content/techtree/nodes/named1-cruisemissile-launcher/" "Aqwit Imperator heavy missile launcher"
-    click n856 "/content/techtree/nodes/named2-cruisemissile-launcher/" "Teppes heavy missile launcher"
-    click n857 "/content/techtree/nodes/named3-cruisemissile-launcher/" "Pelistec-TR500 heavy missile launcher"
-    click n910 "/content/techtree/nodes/standard-damage-mod-missile/" "Standard missile launcher tuning"
-    click n927 "/content/techtree/nodes/named1-damage-mod-missile/" "AIT-Dipris Propellant missile launcher tuning"
-    click n928 "/content/techtree/nodes/named2-damage-mod-missile/" "Pelistec-FBP-II. missile launcher tuning"
-    click n929 "/content/techtree/nodes/named3-damage-mod-missile/" "Dozer-IMT missile launcher tuning"
-    click n1036 "/content/techtree/nodes/ammo-longrange-missile-a/" "Medium armor-piercing ballistic missile"
-    click n1037 "/content/techtree/nodes/ammo-longrange-missile-b/" "Medium chemoactive ballistic missile"
-    click n1038 "/content/techtree/nodes/ammo-longrange-missile-c/" "Medium doublecore ballistic missile"
-    click n1039 "/content/techtree/nodes/ammo-longrange-missile-d/" "Medium sonic ballistic missile"
-    click n1040 "/content/techtree/nodes/ammo-longrange-cruisemissile-a/" "Ammo Longrange Cruisemissile A"
-    click n1041 "/content/techtree/nodes/ammo-longrange-cruisemissile-b/" "Ammo Longrange Cruisemissile B"
-    click n1042 "/content/techtree/nodes/ammo-longrange-cruisemissile-c/" "Ammo Longrange Cruisemissile C"
-    click n1043 "/content/techtree/nodes/ammo-longrange-cruisemissile-d/" "Ammo Longrange Cruisemissile D"
-    click n2551 "/content/techtree/nodes/standard-gang-assist-shared-dataprocessing-module/" "Standard lock booster NEXUS module"
-    click n2586 "/content/techtree/nodes/named1-gang-assist-shared-dataprocessing-module/" "JPS-Redeye lock booster NEXUS module"
-    click n2587 "/content/techtree/nodes/named2-gang-assist-shared-dataprocessing-module/" "Tersung lock booster NEXUS module"
-    click n2588 "/content/techtree/nodes/named3-gang-assist-shared-dataprocessing-module/" "JPS-Greeneye lock booster NEXUS module"
-    click n6003 "/content/techtree/nodes/hydra/" "Hydra"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1670 850" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="1670" height="850" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <line x1="440" y1="228" x2="290" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="486" x2="140" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="140" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-310" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="314" x2="-10" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="486" x2="440" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="-310" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="-10" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="290" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-10" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="-10" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="290" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="590" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="314" x2="290" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="658" x2="-460" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="658" x2="-160" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="658" x2="140" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="572" x2="-10" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="290" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="440" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="228" x2="590" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="314" x2="590" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="400" x2="440" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="486" x2="740" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="572" x2="290" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="658" x2="290" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="744" x2="290" y2="794" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="590" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="142" x2="590" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="228" x2="590" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="314" x2="440" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="486" x2="440" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="486" x2="740" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="486" x2="1040" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="400" x2="740" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="744" x2="140" y2="794" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="744" x2="440" y2="794" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="744" x2="740" y2="794" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="658" x2="440" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="314" x2="740" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="400" x2="740" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="486" x2="740" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="572" x2="740" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="572" x2="440" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <g><a href="/content/techtree/nodes/standard-rocket-launcher/"><title>Standard light missile launcher</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard light missile launcher</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-missile-launcher/"><title>Standard medium missile launcher</title><rect x="150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard medium missile launcher</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-cruisemissile-launcher/"><title>Standard heavy missile launcher</title><rect x="0" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard heavy missile launcher</text></a></g>
+  <g><a href="/content/techtree/nodes/waspish/"><title>Waspish</title><rect x="0" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Waspish</text></a></g>
+  <g><a href="/content/techtree/nodes/castel/"><title>Castel</title><rect x="-450" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Castel</text></a></g>
+  <g><a href="/content/techtree/nodes/tyrannos/"><title>Tyrannos</title><rect x="-150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Tyrannos</text></a></g>
+  <g><a href="/content/techtree/nodes/gropho/"><title>Gropho</title><rect x="300" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Gropho</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-rocket-a/"><title>Small armor-piercing ballistic missile</title><rect x="-450" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Small armor-piercing ballistic …</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-rocket-b/"><title>Small chemoactive ballistic missile</title><rect x="-150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Small chemoactive ballistic mis…</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-rocket-c/"><title>Small doublecore ballistic missile</title><rect x="150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Small doublecore ballistic missile</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-rocket-d/"><title>Small sonic ballistic missile</title><rect x="-150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Small sonic ballistic missile</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-missile-a/"><title>Medium armor-piercing compact missile</title><rect x="-150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Medium armor-piercing compact m…</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-missile-b/"><title>Medium chemoactive compact missile</title><rect x="150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Medium chemoactive compact missile</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-missile-c/"><title>Medium doublecore compact missile</title><rect x="450" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Medium doublecore compact missile</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-missile-d/"><title>Medium sonic compact missile</title><rect x="150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Medium sonic compact missile</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-cruisemissile-a/"><title>Large armor-piercing compact missile</title><rect x="-600" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-590" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Large armor-piercing compact mi…</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-cruisemissile-b/"><title>Large chemoactive compact missile</title><rect x="-300" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Large chemoactive compact missile</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-cruisemissile-c/"><title>Large doublecore compact missile</title><rect x="0" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Large doublecore compact missile</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-cruisemissile-d/"><title>Large sonic compact missile</title><rect x="-150" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Large sonic compact missile</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-rocket-launcher/"><title>Pelistec-Horosol DBM light missile launcher</title><rect x="150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Pelistec-Horosol DBM light miss…</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-rocket-launcher/"><title>Morteq light missile launcher</title><rect x="300" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Morteq light missile launcher</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-rocket-launcher/"><title>Pelistec-TR110 light missile launcher</title><rect x="450" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Pelistec-TR110 light missile la…</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-missile-launcher/"><title>ST-Dupot medium missile launcher</title><rect x="450" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">ST-Dupot medium missile launcher</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-missile-launcher/"><title>Vollert medium missile launcher</title><rect x="300" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Vollert medium missile launcher</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-missile-launcher/"><title>Pelistec-TR250 medium missile launcher</title><rect x="600" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Pelistec-TR250 medium missile l…</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-cruisemissile-launcher/"><title>Aqwit Imperator heavy missile launcher</title><rect x="150" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Aqwit Imperator heavy missile l…</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-cruisemissile-launcher/"><title>Teppes heavy missile launcher</title><rect x="150" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Teppes heavy missile launcher</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-cruisemissile-launcher/"><title>Pelistec-TR500 heavy missile launcher</title><rect x="150" y="794" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="816" font-size="12" fill="#e8ecf4" font-family="sans-serif">Pelistec-TR500 heavy missile la…</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-damage-mod-missile/"><title>Standard missile launcher tuning</title><rect x="450" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard missile launcher tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-damage-mod-missile/"><title>AIT-Dipris Propellant missile launcher tuning</title><rect x="450" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">AIT-Dipris Propellant missile l…</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-damage-mod-missile/"><title>Pelistec-FBP-II. missile launcher tuning</title><rect x="450" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Pelistec-FBP-II. missile launch…</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-damage-mod-missile/"><title>Dozer-IMT missile launcher tuning</title><rect x="300" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Dozer-IMT missile launcher tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-longrange-missile-a/"><title>Medium armor-piercing ballistic missile</title><rect x="300" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Medium armor-piercing ballistic…</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-longrange-missile-b/"><title>Medium chemoactive ballistic missile</title><rect x="600" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Medium chemoactive ballistic mi…</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-longrange-missile-c/"><title>Medium doublecore ballistic missile</title><rect x="900" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="910" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Medium doublecore ballistic mis…</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-longrange-missile-d/"><title>Medium sonic ballistic missile</title><rect x="600" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Medium sonic ballistic missile</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-longrange-cruisemissile-a/"><title>Ammo Longrange Cruisemissile A</title><rect x="0" y="794" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="816" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Longrange Cruisemissile A</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-longrange-cruisemissile-b/"><title>Ammo Longrange Cruisemissile B</title><rect x="300" y="794" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="816" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Longrange Cruisemissile B</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-longrange-cruisemissile-c/"><title>Ammo Longrange Cruisemissile C</title><rect x="600" y="794" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="816" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Longrange Cruisemissile C</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-longrange-cruisemissile-d/"><title>Ammo Longrange Cruisemissile D</title><rect x="300" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Ammo Longrange Cruisemissile D</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-gang-assist-shared-dataprocessing-module/"><title>Standard lock booster NEXUS module</title><rect x="600" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard lock booster NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-gang-assist-shared-dataprocessing-module/"><title>JPS-Redeye lock booster NEXUS module</title><rect x="600" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">JPS-Redeye lock booster NEXUS m…</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-gang-assist-shared-dataprocessing-module/"><title>Tersung lock booster NEXUS module</title><rect x="600" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Tersung lock booster NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-gang-assist-shared-dataprocessing-module/"><title>JPS-Greeneye lock booster NEXUS module</title><rect x="600" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">JPS-Greeneye lock booster NEXUS…</text></a></g>
+  <g><a href="/content/techtree/nodes/hydra/"><title>Hydra</title><rect x="300" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hydra</text></a></g>
+</svg>
 
 ## Nodes (all)
 

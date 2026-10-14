@@ -31,6 +31,9 @@ description: "Ammo / Projectiles"
 
 **Produced from 4 components, research level 1** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [Small armor-piercing bullet CT](/content/items/ammo-small-projectile-a-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">required: <b>50</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">required: <b>10</b></div></div>

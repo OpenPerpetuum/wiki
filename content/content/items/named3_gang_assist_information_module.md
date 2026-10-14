@@ -35,6 +35,9 @@ description: "Modules / Enhancements, tier T4"
 
 **Produced from 7 components, research level 7** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [Gecko M-2000 farlock NEXUS module CT](/content/items/named3-gang-assist-information-module-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/espitium/">Espitium</a></div><div class="prod-card-body">required: <b>600</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-panel"/></svg><a class="prod-card-name" href="/content/items/named2-gang-assist-information-module/">Martimal farlock NEXUS module</a></div><div class="prod-card-body">required: <b>1</b></div></div>

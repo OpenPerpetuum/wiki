@@ -39,6 +39,9 @@ description: "Special & other / Miscellaneous, tier T2"
 
 **Produced from 2 components, research level 4** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [T2 Pelistal Combat Drone Unit Cprg](/content/items/named1-pelistal-combat-drone-unit-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">required: <b>3.0k</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/titanium/">Titanium</a></div><div class="prod-card-body">required: <b>1.5k</b></div></div>

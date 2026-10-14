@@ -35,11 +35,15 @@ description: "Modules / Enhancements, tier T2"
 
 **Produced from 3 components, research level 5** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [T2 Gang Assist Resilience Module Cprg](/content/items/named1-gang-assist-resilience-module-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-crystal"/></svg><a class="prod-card-name" href="/content/items/robotshard-pelistal-basic/">Damaged pelistal fragment</a></div><div class="prod-card-body">required: <b>15</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-crystal"/></svg><a class="prod-card-name" href="/content/items/robotshard-thelodica-basic/">Damaged thelodica fragment</a></div><div class="prod-card-body">required: <b>15</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-panel"/></svg><a class="prod-card-name" href="/content/items/standard-gang-assist-resilience-module/">Standard Gang Assist Resilience Module</a></div><div class="prod-card-body">required: <b>1</b></div></div>
 </div>
+
 ## Used in production
 
 **Component of 2 items** — everything that uses it in production:

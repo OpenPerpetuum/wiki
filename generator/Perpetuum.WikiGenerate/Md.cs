@@ -116,10 +116,10 @@ public static class Md
         return sb.ToString().TrimEnd('-');
     }
 
-    /// <summary>Scroll link to a robot family on the robots catalog page
-    /// (mirrors RobotsPage.FamilyKey, so the anchor always exists).</summary>
+    /// <summary>Link to the individual robot page for a defname
+    /// (mirrors RobotPages slugs: base family name, mk2/reward variants folded in).</summary>
     public static string RobotAnchorUrl(string defname)
-        => "/content/robots/#" + Slug(DisplayName(defname.Replace("_mk2", "").Replace("_reward1", "")));
+        => "/content/robots/" + Slug(DisplayName(defname.Replace("_mk2", "").Replace("_reward1", ""))) + "/";
 
     public static string DisplayName(string name, bool forceDerived = false)
     {

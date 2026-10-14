@@ -35,6 +35,9 @@ description: "Modules / Enhancements, tier T4"
 
 **Produced from 10 components, research level 8** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [Omini interference module CT](/content/items/named3-blob-emission-modulator-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">required: <b>250</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">required: <b>100</b></div></div>

@@ -33,6 +33,9 @@ description: "Modules / Armor, tier T4"
 
 **Produced from 9 components** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [T4 Large Armor Plate Cprg](/content/items/named3-large-armor-plate-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/alligior/">Alligior</a></div><div class="prod-card-body">required: <b>1.1k</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-tree"/></svg><a class="prod-card-name" href="/content/items/named2-large-armor-plate/">Invigor III. heavy armor plate</a></div><div class="prod-card-body">required: <b>1</b></div></div>

@@ -183,28 +183,7 @@ public static class TechTreePage
                           $"[{rname}]({NodeUrl(r)}).\n\n");
 
                 var ordered = lns.OrderBy(x => x.Int("childdefinition")).ToList();
-                var m = new StringBuilder();
-                m.AppendLine("```mermaid");
-                m.AppendLine("graph TD");
-                foreach (var n in ordered)
-                {
-                    var c = n.Int("childdefinition");
-                    var label = Md.DisplayName(defs.TryGetValue(c, out var d3) ? d3.Item1 : "def_" + c).Replace("\"", "'");
-                    m.AppendLine($"    n{c}[\"{label}\"]");
-                }
-                foreach (var n in ordered)
-                {
-                    var c = n.Int("childdefinition");
-                    var p = n.Int("parentdefinition");
-                    if (p != 0) m.AppendLine($"    n{p} --> n{c}");
-                }
-                foreach (var n in ordered)
-                {
-                    var c = n.Int("childdefinition");
-                    m.AppendLine($"    click n{c} \"{NodeUrl(c)}\" \"{Label(c)}\"");
-                }
-                m.AppendLine("```");
-                sb.Append(m.ToString());
+                sb.Append(TreeSvg(ordered, defs, children, NodeUrl, Label));
                 sb.Append("\n");
             }
 
@@ -277,4 +256,72 @@ public static class TechTreePage
 
         return pages;
     }
+
+    private static string TreeSvg(List<Dictionary<string, object?>> lns, Dictionary<int, (string, bool, bool, long)> defs, Dictionary<int, List<int>> children, Func<int, string> nodeUrl, Func<int, string> label)
+    {
+        const int NW = 280, NH = 36, GAP_Y = 50, GAP_X = 20, PAD = 20;
+        // Build a simple top-down tree layout
+        var ordered = lns.OrderBy(x => x.Int("childdefinition")).ToList();
+        var roots = ordered.Where(n => n.Int("parentdefinition") == 0 || !ordered.Any(p => p.Int("childdefinition") == n.Int("parentdefinition"))).ToList();
+        // Assign positions: simple BFS by depth
+        var pos = new Dictionary<int, (int x, int y)>();
+        var maxW = 0;
+        foreach (var root in roots)
+        {
+            var rx = 0;
+            Queue<(int def, int x, int depth)> q = new();
+            q.Enqueue((root.Int("childdefinition"), rx, 0));
+            while (q.Count > 0)
+            {
+                var (def, x, depth) = q.Dequeue();
+                pos[def] = (x, PAD + depth * (NH + GAP_Y));
+                var kids = children.TryGetValue(def, out var k) ? k : new List<int>();
+                if (kids.Count == 0) { rx += NW + GAP_X; }
+                else
+                {
+                    var startX = x - (kids.Count - 1) * (NW + GAP_X) / 2;
+                    for (int i = 0; i < kids.Count; i++)
+                        q.Enqueue((kids[i], startX + i * (NW + GAP_X), depth + 1));
+                    rx = x + NW + GAP_X;
+                }
+            }
+            maxW = Math.Max(maxW, rx + PAD);
+        }
+        var totalH = pos.Values.Max(p => p.y) + NH + PAD;
+        var W = Math.Max(maxW, 300);
+        var H = totalH;
+
+        var sb = new StringBuilder();
+        sb.Append($"<svg class=\"tech-tree-svg\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 {W} {H}\" role=\"img\" aria-label=\"Tech tree diagram\">\n");
+        sb.Append($"  <rect x=\"0\" y=\"0\" width=\"{W}\" height=\"{H}\" fill=\"#10151f\" stroke=\"#39445a\" stroke-width=\"1\"/>\n");
+        // Edges first (under nodes)
+        foreach (var n in ordered)
+        {
+            var c = n.Int("childdefinition");
+            var p = n.Int("parentdefinition");
+            if (!pos.TryGetValue(c, out var cp) || !pos.TryGetValue(p, out var pp)) continue;
+            var cx = cp.x + NW / 2.0;
+            var cy = cp.y;
+            var px = pp.x + NW / 2.0;
+            var py = pp.y + NH;
+            sb.Append($"  <line x1=\"{px}\" y1=\"{py}\" x2=\"{cx}\" y2=\"{cy}\" stroke=\"#4a5568\" stroke-width=\"1.2\"/>\n");
+        }
+        // Nodes
+        foreach (var n in ordered)
+        {
+            var c = n.Int("childdefinition");
+            if (!pos.TryGetValue(c, out var np)) continue;
+            var lbl = Safe(label(c));
+            var url = nodeUrl(c);
+            sb.Append($"  <g><a href=\"{url}\"><title>{Safe(lbl)}</title>");
+            sb.Append($"<rect x=\"{np.x}\" y=\"{np.y}\" width=\"{NW}\" height=\"{NH}\" rx=\"6\" fill=\"#1a2233\" stroke=\"#4a90d9\" stroke-width=\"1.2\"/>");
+            var txt = lbl.Length > 34 ? lbl[..31] + "…" : lbl;
+            sb.Append($"<text x=\"{np.x + 10}\" y=\"{np.y + 22}\" font-size=\"12\" fill=\"#e8ecf4\" font-family=\"sans-serif\">{txt}</text>");
+            sb.Append("</a></g>\n");
+        }
+        sb.Append("</svg>\n");
+        return sb.ToString();
+    }
+
+    private static string Safe(string s) => s.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\"", "&quot;");
 }

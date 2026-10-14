@@ -36,6 +36,9 @@ description: "Modules / Shield, tier T2"
 
 **Produced from 6 components, research level 5** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [Portio II. medium energy drainer CT](/content/items/named1-medium-energy-vampire-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">required: <b>400</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">required: <b>200</b></div></div>
@@ -44,6 +47,7 @@ description: "Modules / Shield, tier T2"
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/standard-medium-energy-vampire/">Standard medium energy drainer</a></div><div class="prod-card-body">required: <b>1</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/titanium/">Titanium</a></div><div class="prod-card-body">required: <b>200</b></div></div>
 </div>
+
 ## Used in production
 
 **Component of 2 items** — everything that uses it in production:

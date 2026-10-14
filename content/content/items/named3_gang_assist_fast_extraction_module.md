@@ -35,6 +35,9 @@ description: "Modules / Enhancements, tier T4"
 
 **Produced from 10 components, research level 7** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [Matriot-IV fast extractor NEXUS module CT](/content/items/named3-gang-assist-fast-extraction-module-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/alligior/">Alligior</a></div><div class="prod-card-body">required: <b>50</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">required: <b>500</b></div></div>

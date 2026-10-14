@@ -35,6 +35,9 @@ description: "Modules / Enhancements, tier T2"
 
 **Produced from 6 components, research level 5** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [Jubatus velocity NEXUS module CT](/content/items/named1-gang-assist-speed-module-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">required: <b>300</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/chollonin/">Chollonin</a></div><div class="prod-card-body">required: <b>300</b></div></div>
@@ -43,6 +46,7 @@ description: "Modules / Enhancements, tier T2"
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-panel"/></svg><a class="prod-card-name" href="/content/items/standard-gang-assist-speed-module/">Standard velocity NEXUS module</a></div><div class="prod-card-body">required: <b>1</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/titanium/">Titanium</a></div><div class="prod-card-body">required: <b>50</b></div></div>
 </div>
+
 ## Used in production
 
 **Component of 2 items** — everything that uses it in production:

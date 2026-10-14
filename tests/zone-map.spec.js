@@ -20,13 +20,9 @@ test('zone map is inlined with its terrain background', async ({ page, baseURL }
   const svg = wrap.locator('svg.zonemap');
   expect(await svg.count()).toBe(1);
   expect(await page.locator('img[src^="/zonemaps/"]').count()).toBe(0); // img replaced
-  // this zone has real terrain: two switchable mode images
-  const bg = svg.locator('image');
+  // this zone has real terrain: vector contours or mode elements
+  const bg = svg.locator('#zm-height, #zm-color');
   expect(await bg.count()).toBe(2);
-  const href = await bg.first().getAttribute('href');
-  expect(href).toMatch(/^\/zonemaps\//);
-  const r = await page.request.get(href); // the terrain PNG is served
-  expect(r.ok()).toBe(true);
   expect(errors).toEqual([]);
 });
 
@@ -34,22 +30,27 @@ test('display modes: height and color switch the background', async ({ page, bas
   await page.goto(`${baseURL}${ZONE}`, { waitUntil: 'networkidle' });
   const wrap = page.locator('.zonetp-wrap');
   await wrap.waitFor({ state: 'visible', timeout: 10000 });
-  // exactly two modes
-  expect(await wrap.locator('.zonemap-mode').count()).toBe(2);
+  // three modes: base, height, color
+  expect(await wrap.locator('.zonemap-mode').count()).toBe(3);
   const visible = (sel) => page.evaluate((s) => {
     const el = document.querySelector(s);
     return el && el.style.display !== 'none';
   }, sel);
-  expect(await visible('image#zm-height')).toBe(true);
-  expect(await visible('image#zm-color')).toBe(false);
-
-  await wrap.locator('.zonemap-mode[data-mode="color"]').click();
-  expect(await visible('image#zm-color')).toBe(true);
-  expect(await visible('image#zm-height')).toBe(false);
+  // default mode is base (clean contour + roads): both height and color hidden
+  expect(await visible('#zm-height')).toBe(false);
+  expect(await visible('#zm-color')).toBe(false);
 
   await wrap.locator('.zonemap-mode[data-mode="height"]').click();
-  expect(await visible('image#zm-height')).toBe(true);
-  expect(await visible('image#zm-color')).toBe(false);
+  expect(await visible('#zm-height')).toBe(true);
+  expect(await visible('#zm-color')).toBe(false);
+
+  await wrap.locator('.zonemap-mode[data-mode="color"]').click();
+  expect(await visible('#zm-color')).toBe(true);
+  expect(await visible('#zm-height')).toBe(false);
+
+  await wrap.locator('.zonemap-mode[data-mode="base"]').click();
+  expect(await visible('#zm-height')).toBe(false);
+  expect(await visible('#zm-color')).toBe(false);
 });
 
 test('the chosen display mode persists across other zone maps', async ({ page, baseURL }) => {
@@ -63,8 +64,8 @@ test('the chosen display mode persists across other zone maps', async ({ page, b
   const wrap2 = page.locator('.zonetp-wrap');
   await wrap2.waitFor({ state: 'visible', timeout: 10000 });
   await expect.poll(() => page.evaluate(() => {
-    const c = document.querySelector('image#zm-color');
-    const h = document.querySelector('image#zm-height');
+    const c = document.querySelector('#zm-color');
+    const h = document.querySelector('#zm-height');
     return !!c && !!h && c.style.display !== 'none' && h.style.display === 'none';
   })).toBe(true);
   const pressed = await wrap2.locator('.zonemap-mode[aria-pressed="true"]').getAttribute('data-mode');
@@ -314,4 +315,29 @@ test('TP selector destinations navigate only to safe zone slugs (js/xss-through-
   const expectedSlug = dests[0].toLowerCase().replace(/_/g, '-');
   // the display name and zone name differ; verify the path is at least safe
   expect(m[1]).toMatch(/^[a-z0-9-]+$/);
+});
+
+test('landmarks panel labels follow the page language', async ({ page, baseURL }) => {
+  // RU zone page: the runtime-built panel (zone-map.js) must use the
+  // translated WIKI_UI strings, not the English fallbacks.
+  await page.goto(`${baseURL}/ru/zones/zone-asi-pve/`, { waitUntil: 'networkidle' });
+  const wrap = page.locator('.zonetp-wrap');
+  await wrap.waitFor({ state: 'visible', timeout: 10000 });
+  const toggle = wrap.locator('.zonemap-landmarks-toggle');
+  await expect(toggle).toHaveText('Знаковые объекты');
+  await expect(wrap.locator('.zonemap-reset')).toHaveAttribute('title', 'Сбросить масштаб');
+  await toggle.click();
+  expect(await wrap.locator('.zonemap-landmark-item span:last-child').allTextContents()).toEqual([
+    'Телепорты и врата', 'Передовые базы', 'Полевые терминалы', 'Дороги', 'Надписи',
+  ]);
+  await expect(wrap.locator('.zonemap-landmarks-all-btn')).toHaveText('Переключить всё');
+
+  // EN page: the same panel stays English.
+  await page.goto(`${baseURL}/zones/zone-asi-pve/`, { waitUntil: 'networkidle' });
+  const wrap2 = page.locator('.zonetp-wrap');
+  await wrap2.waitFor({ state: 'visible', timeout: 10000 });
+  await expect(wrap2.locator('.zonemap-landmarks-toggle')).toHaveText('Landmarks');
+  expect(await wrap2.locator('.zonemap-landmark-item span:last-child').allTextContents()).toEqual([
+    'Teleports & Gates', 'Outposts', 'Field terminals', 'Roads', 'Labels',
+  ]);
 });

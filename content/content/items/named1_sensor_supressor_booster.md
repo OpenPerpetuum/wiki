@@ -33,6 +33,9 @@ description: "Modules / Sensors & scanning, tier T2"
 
 **Produced from 6 components, research level 6** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [DDX200-Veil sensor suppressor tuning CT](/content/items/named1-sensor-supressor-booster-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">required: <b>150</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/prilumium/">Prilumium</a></div><div class="prod-card-body">required: <b>150</b></div></div>
@@ -41,6 +44,7 @@ description: "Modules / Sensors & scanning, tier T2"
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/standard-sensor-supressor-booster/">Standard sensor suppressor tuning</a></div><div class="prod-card-body">required: <b>1</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/titanium/">Titanium</a></div><div class="prod-card-body">required: <b>50</b></div></div>
 </div>
+
 ## Used in production
 
 **Component of 2 items** — everything that uses it in production:

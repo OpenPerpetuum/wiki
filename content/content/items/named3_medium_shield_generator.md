@@ -34,6 +34,9 @@ description: "Modules / Shield, tier T4"
 
 **Produced from 9 components, research level 7** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [Penik medium shield generator CT](/content/items/named3-medium-shield-generator-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/alligior/">Alligior</a></div><div class="prod-card-body">required: <b>800</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/espitium/">Espitium</a></div><div class="prod-card-body">required: <b>400</b></div></div>
@@ -45,6 +48,7 @@ description: "Modules / Shield, tier T4"
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/unimetal/">Briochit</a></div><div class="prod-card-body">required: <b>400</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/vitricyl/">Vitricyl</a></div><div class="prod-card-body">required: <b>400</b></div></div>
 </div>
+
 ## Used in production
 
 **Component of 2 items** — everything that uses it in production:

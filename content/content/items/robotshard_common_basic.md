@@ -30,6 +30,7 @@ _No stats — this item carries no aggregate values._
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/plasteosine/">Plasteosine</a></div><div class="prod-card-body">required: <b>1</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/titanium/">Titanium</a></div><div class="prod-card-body">required: <b>1</b></div></div>
 </div>
+
 ## Used in production
 
 **Component of 850 items** — a sample of what can be produced with it (the full list is in [Recipes](/content/recipes/)).

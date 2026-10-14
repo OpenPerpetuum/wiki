@@ -58,6 +58,9 @@ Fixed-price vendors that sell this item (see the [Item shop](/content/shop/) for
 
 **Produced from 2 components** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [Elitet4 Gamma Small Autocannon Cprg](/content/items/elitet4-gamma-small-autocannon-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/material-boss-gamma-syndicate/">Material Boss Gamma Syndicate</a></div><div class="prod-card-body">required: <b>200</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-robots"/></svg><a class="prod-card-name" href="/content/items/named3-small-autocannon/">Astoc M45 light autocannon</a></div><div class="prod-card-body">required: <b>1</b></div></div>

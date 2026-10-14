@@ -15,7 +15,7 @@ Each character has a **default spark** given at creation. Beyond that, sparks
 come in families — the basic default lines, per-faction combat/industrial/social
 lines (three levels each), paid Syndicate lines, and special limited lines
 — and a spark's exact bonuses are just a bundle of fixed skill levels you can
-see on the [extensions page](/content/extensions/). The [family overview below](#families)
+see on the [extensions page](/content/extensions/). The [family overview below](#spark-families)
 jumps straight to each family's sparks.
 
 ## Unlocking (authorizing) a spark

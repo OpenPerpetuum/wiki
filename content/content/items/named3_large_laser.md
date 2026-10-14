@@ -36,6 +36,9 @@ description: "Modules / Weapons, tier T4"
 
 **Produced from 11 components** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [T4 Large Laser Cprg](/content/items/named3-large-laser-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/hydrobenol/">Hydrobenol</a></div><div class="prod-card-body">required: <b>300</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-robots"/></svg><a class="prod-card-name" href="/content/items/named2-large-laser/">Thelotec-Apocalyptor heavy LCL laser</a></div><div class="prod-card-body">required: <b>1</b></div></div>

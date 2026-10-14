@@ -24,92 +24,64 @@ Research for the Thelodica Clan faction: its named weapons and the modules that 
 
 **28 nodes** — everything that descends from [Standard light armor plate](/content/techtree/nodes/standard-small-armor-plate/).
 
-```mermaid
-graph TD
-    n14["Standard light armor plate"]
-    n16["Standard medium armor plate"]
-    n17["Standard large armor plate"]
-    n26["Standard kinetic armor"]
-    n684["Wobost-Titangrip light armor plate"]
-    n685["Invigor I. light armor plate"]
-    n686["Karapas light armor plate"]
-    n687["Azilo-Protec Duoforge medium armor plate"]
-    n688["Invigor II. medium armor plate"]
-    n689["THL-Testudo medium armor plate"]
-    n690["Vorbol p113 heavy armor plate"]
-    n691["Invigor III. heavy armor plate"]
-    n692["Halc heavy armor plate"]
-    n713["Counterpress I-230 kinetic armor"]
-    n717["Apparod Defragger kinetic armor"]
-    n721["Grampier-VK kinetic armor"]
-    n877["Standard armor NEXUS module"]
-    n951["Standard universal armor"]
-    n954["Diverter universal armor"]
-    n955["UNI300pls universal armor"]
-    n956["Aegis UAP-10XL universal armor"]
-    n2580["Starodix armor NEXUS module"]
-    n2581["Paternis armor NEXUS module"]
-    n2582["TSP-Hindoo armor NEXUS module"]
-    n3256["Standard kinetic ERP"]
-    n3294["Hegatex-1000 kinetic ERP"]
-    n3295["Solitex-990 kinetic ERP"]
-    n3296["Emerolyte kinetic ERP"]
-    n684 --> n16
-    n954 --> n17
-    n14 --> n26
-    n14 --> n684
-    n684 --> n685
-    n685 --> n686
-    n16 --> n687
-    n687 --> n688
-    n688 --> n689
-    n17 --> n690
-    n690 --> n691
-    n691 --> n692
-    n26 --> n713
-    n713 --> n717
-    n717 --> n721
-    n954 --> n877
-    n687 --> n951
-    n951 --> n954
-    n954 --> n955
-    n955 --> n956
-    n877 --> n2580
-    n2580 --> n2581
-    n2581 --> n2582
-    n713 --> n3256
-    n3256 --> n3294
-    n3294 --> n3295
-    n3295 --> n3296
-    click n14 "/content/techtree/nodes/standard-small-armor-plate/" "Standard light armor plate"
-    click n16 "/content/techtree/nodes/standard-medium-armor-plate/" "Standard medium armor plate"
-    click n17 "/content/techtree/nodes/standard-large-armor-plate/" "Standard large armor plate"
-    click n26 "/content/techtree/nodes/standard-kin-armor-hardener/" "Standard kinetic armor"
-    click n684 "/content/techtree/nodes/named1-small-armor-plate/" "Wobost-Titangrip light armor plate"
-    click n685 "/content/techtree/nodes/named2-small-armor-plate/" "Invigor I. light armor plate"
-    click n686 "/content/techtree/nodes/named3-small-armor-plate/" "Karapas light armor plate"
-    click n687 "/content/techtree/nodes/named1-medium-armor-plate/" "Azilo-Protec Duoforge medium armor plate"
-    click n688 "/content/techtree/nodes/named2-medium-armor-plate/" "Invigor II. medium armor plate"
-    click n689 "/content/techtree/nodes/named3-medium-armor-plate/" "THL-Testudo medium armor plate"
-    click n690 "/content/techtree/nodes/named1-large-armor-plate/" "Vorbol p113 heavy armor plate"
-    click n691 "/content/techtree/nodes/named2-large-armor-plate/" "Invigor III. heavy armor plate"
-    click n692 "/content/techtree/nodes/named3-large-armor-plate/" "Halc heavy armor plate"
-    click n713 "/content/techtree/nodes/named1-kin-armor-hardener/" "Counterpress I-230 kinetic armor"
-    click n717 "/content/techtree/nodes/named2-kin-armor-hardener/" "Apparod Defragger kinetic armor"
-    click n721 "/content/techtree/nodes/named3-kin-armor-hardener/" "Grampier-VK kinetic armor"
-    click n877 "/content/techtree/nodes/standard-gang-assist-defense-module/" "Standard armor NEXUS module"
-    click n951 "/content/techtree/nodes/standard-resistant-plating/" "Standard universal armor"
-    click n954 "/content/techtree/nodes/named1-resistant-plating/" "Diverter universal armor"
-    click n955 "/content/techtree/nodes/named2-resistant-plating/" "UNI300pls universal armor"
-    click n956 "/content/techtree/nodes/named3-resistant-plating/" "Aegis UAP-10XL universal armor"
-    click n2580 "/content/techtree/nodes/named1-gang-assist-defense-module/" "Starodix armor NEXUS module"
-    click n2581 "/content/techtree/nodes/named2-gang-assist-defense-module/" "Paternis armor NEXUS module"
-    click n2582 "/content/techtree/nodes/named3-gang-assist-defense-module/" "TSP-Hindoo armor NEXUS module"
-    click n3256 "/content/techtree/nodes/standard-kinetic-kers/" "Standard kinetic ERP"
-    click n3294 "/content/techtree/nodes/named1-kinetic-kers/" "Hegatex-1000 kinetic ERP"
-    click n3295 "/content/techtree/nodes/named2-kinetic-kers/" "Solitex-990 kinetic ERP"
-    click n3296 "/content/techtree/nodes/named3-kinetic-kers/" "Emerolyte kinetic ERP"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1070 850" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="1070" height="850" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <line x1="290" y1="142" x2="140" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="486" x2="-10" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-10" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="290" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="440" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="228" x2="440" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="228" x2="140" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="314" x2="-10" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="400" x2="-10" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="572" x2="-10" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="658" x2="-10" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="744" x2="-10" y2="794" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="-10" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="-160" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-160" y1="314" x2="-160" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="486" x2="290" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="314" x2="290" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="290" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="486" x2="590" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="572" x2="590" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="572" x2="290" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="658" x2="290" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="744" x2="290" y2="794" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="228" x2="140" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="314" x2="140" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="400" x2="140" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="486" x2="140" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <g><a href="/content/techtree/nodes/standard-small-armor-plate/"><title>Standard light armor plate</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard light armor plate</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-medium-armor-plate/"><title>Standard medium armor plate</title><rect x="0" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard medium armor plate</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-large-armor-plate/"><title>Standard large armor plate</title><rect x="-150" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard large armor plate</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-kin-armor-hardener/"><title>Standard kinetic armor</title><rect x="-150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard kinetic armor</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-small-armor-plate/"><title>Wobost-Titangrip light armor plate</title><rect x="150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Wobost-Titangrip light armor plate</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-small-armor-plate/"><title>Invigor I. light armor plate</title><rect x="300" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Invigor I. light armor plate</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-small-armor-plate/"><title>Karapas light armor plate</title><rect x="300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Karapas light armor plate</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-medium-armor-plate/"><title>Azilo-Protec Duoforge medium armor plate</title><rect x="0" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Azilo-Protec Duoforge medium ar…</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-medium-armor-plate/"><title>Invigor II. medium armor plate</title><rect x="-150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Invigor II. medium armor plate</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-medium-armor-plate/"><title>THL-Testudo medium armor plate</title><rect x="-150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">THL-Testudo medium armor plate</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-large-armor-plate/"><title>Vorbol p113 heavy armor plate</title><rect x="-150" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Vorbol p113 heavy armor plate</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-large-armor-plate/"><title>Invigor III. heavy armor plate</title><rect x="-150" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Invigor III. heavy armor plate</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-large-armor-plate/"><title>Halc heavy armor plate</title><rect x="-150" y="794" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="816" font-size="12" fill="#e8ecf4" font-family="sans-serif">Halc heavy armor plate</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-kin-armor-hardener/"><title>Counterpress I-230 kinetic armor</title><rect x="-150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Counterpress I-230 kinetic armor</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-kin-armor-hardener/"><title>Apparod Defragger kinetic armor</title><rect x="-300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Apparod Defragger kinetic armor</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-kin-armor-hardener/"><title>Grampier-VK kinetic armor</title><rect x="-300" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-290" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Grampier-VK kinetic armor</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-gang-assist-defense-module/"><title>Standard armor NEXUS module</title><rect x="150" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard armor NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-resistant-plating/"><title>Standard universal armor</title><rect x="150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard universal armor</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-resistant-plating/"><title>Diverter universal armor</title><rect x="150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Diverter universal armor</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-resistant-plating/"><title>UNI300pls universal armor</title><rect x="450" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">UNI300pls universal armor</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-resistant-plating/"><title>Aegis UAP-10XL universal armor</title><rect x="450" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Aegis UAP-10XL universal armor</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-gang-assist-defense-module/"><title>Starodix armor NEXUS module</title><rect x="150" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Starodix armor NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-gang-assist-defense-module/"><title>Paternis armor NEXUS module</title><rect x="150" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Paternis armor NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-gang-assist-defense-module/"><title>TSP-Hindoo armor NEXUS module</title><rect x="150" y="794" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="816" font-size="12" fill="#e8ecf4" font-family="sans-serif">TSP-Hindoo armor NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-kinetic-kers/"><title>Standard kinetic ERP</title><rect x="0" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard kinetic ERP</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-kinetic-kers/"><title>Hegatex-1000 kinetic ERP</title><rect x="0" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Hegatex-1000 kinetic ERP</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-kinetic-kers/"><title>Solitex-990 kinetic ERP</title><rect x="0" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Solitex-990 kinetic ERP</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-kinetic-kers/"><title>Emerolyte kinetic ERP</title><rect x="0" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Emerolyte kinetic ERP</text></a></g>
+</svg>
 
 <a id="line-51"></a>
 
@@ -117,50 +89,36 @@ graph TD
 
 **14 nodes** — everything that descends from [Standard sensor suppressor](/content/techtree/nodes/standard-sensor-dampener/).
 
-```mermaid
-graph TD
-    n51["Standard sensor suppressor"]
-    n200["Intakt"]
-    n212["Zenith"]
-    n792["Suboster I. sensor suppressor"]
-    n793["MSD m\2315 'Filch' sensor suppressor"]
-    n794["Stellis sensor suppressor"]
-    n874["Standard farlock NEXUS module"]
-    n2571["Gecko D-1500 farlock NEXUS module"]
-    n2572["Martimal farlock NEXUS module"]
-    n2573["Gecko M-2000 farlock NEXUS module"]
-    n4579["Standard sensor suppressor tuning"]
-    n4590["DDX200-Veil sensor suppressor tuning"]
-    n4591["Radiocor sensor suppressor tuning"]
-    n4592["DDX700-Mist sensor suppressor tuning"]
-    n51 --> n200
-    n793 --> n212
-    n51 --> n792
-    n792 --> n793
-    n793 --> n794
-    n212 --> n874
-    n874 --> n2571
-    n2571 --> n2572
-    n2572 --> n2573
-    n792 --> n4579
-    n4579 --> n4590
-    n4590 --> n4591
-    n4591 --> n4592
-    click n51 "/content/techtree/nodes/standard-sensor-dampener/" "Standard sensor suppressor"
-    click n200 "/content/techtree/nodes/intakt/" "Intakt"
-    click n212 "/content/techtree/nodes/zenith/" "Zenith"
-    click n792 "/content/techtree/nodes/named1-sensor-dampener/" "Suboster I. sensor suppressor"
-    click n793 "/content/techtree/nodes/named2-sensor-dampener/" "MSD m\2315 'Filch' sensor suppressor"
-    click n794 "/content/techtree/nodes/named3-sensor-dampener/" "Stellis sensor suppressor"
-    click n874 "/content/techtree/nodes/standard-gang-assist-information-module/" "Standard farlock NEXUS module"
-    click n2571 "/content/techtree/nodes/named1-gang-assist-information-module/" "Gecko D-1500 farlock NEXUS module"
-    click n2572 "/content/techtree/nodes/named2-gang-assist-information-module/" "Martimal farlock NEXUS module"
-    click n2573 "/content/techtree/nodes/named3-gang-assist-information-module/" "Gecko M-2000 farlock NEXUS module"
-    click n4579 "/content/techtree/nodes/standard-sensor-supressor-booster/" "Standard sensor suppressor tuning"
-    click n4590 "/content/techtree/nodes/named1-sensor-supressor-booster/" "DDX200-Veil sensor suppressor tuning"
-    click n4591 "/content/techtree/nodes/named2-sensor-supressor-booster/" "Radiocor sensor suppressor tuning"
-    click n4592 "/content/techtree/nodes/named3-sensor-supressor-booster/" "DDX700-Mist sensor suppressor tuning"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 678" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="470" height="678" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <line x1="140" y1="56" x2="-10" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="228" x2="-10" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="290" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="140" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="228" x2="290" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="314" x2="-10" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="400" x2="-10" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="486" x2="-10" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="572" x2="-10" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="440" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="228" x2="440" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="314" x2="440" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="400" x2="440" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <g><a href="/content/techtree/nodes/standard-sensor-dampener/"><title>Standard sensor suppressor</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard sensor suppressor</text></a></g>
+  <g><a href="/content/techtree/nodes/intakt/"><title>Intakt</title><rect x="-150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Intakt</text></a></g>
+  <g><a href="/content/techtree/nodes/zenith/"><title>Zenith</title><rect x="-150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Zenith</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-sensor-dampener/"><title>Suboster I. sensor suppressor</title><rect x="150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Suboster I. sensor suppressor</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-sensor-dampener/"><title>MSD m\2315 'Filch' sensor suppressor</title><rect x="0" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">MSD m\2315 'Filch' sensor suppr…</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-sensor-dampener/"><title>Stellis sensor suppressor</title><rect x="150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Stellis sensor suppressor</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-gang-assist-information-module/"><title>Standard farlock NEXUS module</title><rect x="-150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard farlock NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-gang-assist-information-module/"><title>Gecko D-1500 farlock NEXUS module</title><rect x="-150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Gecko D-1500 farlock NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-gang-assist-information-module/"><title>Martimal farlock NEXUS module</title><rect x="-150" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Martimal farlock NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-gang-assist-information-module/"><title>Gecko M-2000 farlock NEXUS module</title><rect x="-150" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Gecko M-2000 farlock NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-sensor-supressor-booster/"><title>Standard sensor suppressor tuning</title><rect x="300" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard sensor suppressor tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-sensor-supressor-booster/"><title>DDX200-Veil sensor suppressor tuning</title><rect x="300" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">DDX200-Veil sensor suppressor t…</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-sensor-supressor-booster/"><title>Radiocor sensor suppressor tuning</title><rect x="300" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Radiocor sensor suppressor tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-sensor-supressor-booster/"><title>DDX700-Mist sensor suppressor tuning</title><rect x="300" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">DDX700-Mist sensor suppressor t…</text></a></g>
+</svg>
 
 <a id="line-57"></a>
 
@@ -168,143 +126,98 @@ graph TD
 
 **45 nodes** — everything that descends from [Standard light HCL laser](/content/techtree/nodes/standard-small-laser/).
 
-```mermaid
-graph TD
-    n57["Standard light HCL laser"]
-    n58["Standard medium LCL laser"]
-    n59["Standard heavy LCL laser"]
-    n194["Prometheus"]
-    n202["Baphomet"]
-    n206["Artemis"]
-    n214["Seth"]
-    n271["Small chemoactive energy cell"]
-    n272["Small sonic energy cell"]
-    n273["Small photokinetic energy cell"]
-    n274["Small thermic energy cell"]
-    n275["Medium chemoactive energy cell"]
-    n276["Medium sonic energy cell"]
-    n277["Medium photokinetic energy cell"]
-    n278["Medium thermic energy cell"]
-    n279["Large chemoactive energy cell"]
-    n280["Large sonic energy cell"]
-    n281["Large photokinetic energy cell"]
-    n282["Large thermic energy cell"]
-    n831["Thelotec-Dabis light HCL laser"]
-    n832["Pikolo light HCL laser"]
-    n833["Thelotec-Stroyar light HCL laser"]
-    n834["Thelotec-Grazier medium LCL laser"]
-    n835["Kauska Heatpin I. medium LCL laser"]
-    n836["Thermodissector medium LCL laser"]
-    n837["Thelotec-Etequitor heavy LCL laser"]
-    n838["Thelotec-Apocalyptor heavy LCL laser"]
-    n839["Kauska Heatpin II. heavy LCL laser"]
-    n911["Standard laser tuning"]
-    n930["Reflexis II. laser tuning"]
-    n931["Kauska Optibrace laser tuning"]
-    n932["Oqulus laser tuning"]
-    n1002["Standard medium HCL laser"]
-    n1003["Longrange Standard Large Laser"]
-    n1024["Tertzer medium HCL laser"]
-    n1025["Thelotec-Iocle I. medium HCL laser"]
-    n1026["Phisker 30PW medium HCL laser"]
-    n1027["T2 Longrange Large Laser"]
-    n1028["T3 Longrange Large Laser"]
-    n1029["T4 Longrange Large Laser"]
-    n2555["Standard critical hit NEXUS module"]
-    n2595["Qandellay critical hit NEXUS module"]
-    n2596["E-scope critical hit NEXUS module"]
-    n2597["ZTW critical hit NEXUS module"]
-    n6013["Onyx"]
-    n832 --> n58
-    n835 --> n59
-    n57 --> n194
-    n831 --> n202
-    n58 --> n206
-    n1024 --> n214
-    n274 --> n271
-    n274 --> n272
-    n274 --> n273
-    n57 --> n274
-    n278 --> n275
-    n278 --> n276
-    n278 --> n277
-    n58 --> n278
-    n282 --> n279
-    n282 --> n280
-    n282 --> n281
-    n1003 --> n282
-    n57 --> n831
-    n831 --> n832
-    n832 --> n833
-    n58 --> n834
-    n834 --> n835
-    n835 --> n836
-    n59 --> n837
-    n837 --> n838
-    n838 --> n839
-    n57 --> n911
-    n911 --> n930
-    n930 --> n931
-    n931 --> n932
-    n834 --> n1002
-    n1002 --> n1003
-    n1002 --> n1024
-    n1024 --> n1025
-    n1025 --> n1026
-    n1003 --> n1027
-    n1027 --> n1028
-    n1028 --> n1029
-    n931 --> n2555
-    n2555 --> n2595
-    n2595 --> n2596
-    n2596 --> n2597
-    n214 --> n6013
-    click n57 "/content/techtree/nodes/standard-small-laser/" "Standard light HCL laser"
-    click n58 "/content/techtree/nodes/standard-medium-laser/" "Standard medium LCL laser"
-    click n59 "/content/techtree/nodes/standard-large-laser/" "Standard heavy LCL laser"
-    click n194 "/content/techtree/nodes/prometheus/" "Prometheus"
-    click n202 "/content/techtree/nodes/baphomet/" "Baphomet"
-    click n206 "/content/techtree/nodes/artemis/" "Artemis"
-    click n214 "/content/techtree/nodes/seth/" "Seth"
-    click n271 "/content/techtree/nodes/ammo-small-lasercrystal-a/" "Small chemoactive energy cell"
-    click n272 "/content/techtree/nodes/ammo-small-lasercrystal-b/" "Small sonic energy cell"
-    click n273 "/content/techtree/nodes/ammo-small-lasercrystal-c/" "Small photokinetic energy cell"
-    click n274 "/content/techtree/nodes/ammo-small-lasercrystal-d/" "Small thermic energy cell"
-    click n275 "/content/techtree/nodes/ammo-medium-lasercrystal-a/" "Medium chemoactive energy cell"
-    click n276 "/content/techtree/nodes/ammo-medium-lasercrystal-b/" "Medium sonic energy cell"
-    click n277 "/content/techtree/nodes/ammo-medium-lasercrystal-c/" "Medium photokinetic energy cell"
-    click n278 "/content/techtree/nodes/ammo-medium-lasercrystal-d/" "Medium thermic energy cell"
-    click n279 "/content/techtree/nodes/ammo-large-lasercrystal-a/" "Large chemoactive energy cell"
-    click n280 "/content/techtree/nodes/ammo-large-lasercrystal-b/" "Large sonic energy cell"
-    click n281 "/content/techtree/nodes/ammo-large-lasercrystal-c/" "Large photokinetic energy cell"
-    click n282 "/content/techtree/nodes/ammo-large-lasercrystal-d/" "Large thermic energy cell"
-    click n831 "/content/techtree/nodes/named1-small-laser/" "Thelotec-Dabis light HCL laser"
-    click n832 "/content/techtree/nodes/named2-small-laser/" "Pikolo light HCL laser"
-    click n833 "/content/techtree/nodes/named3-small-laser/" "Thelotec-Stroyar light HCL laser"
-    click n834 "/content/techtree/nodes/named1-medium-laser/" "Thelotec-Grazier medium LCL laser"
-    click n835 "/content/techtree/nodes/named2-medium-laser/" "Kauska Heatpin I. medium LCL laser"
-    click n836 "/content/techtree/nodes/named3-medium-laser/" "Thermodissector medium LCL laser"
-    click n837 "/content/techtree/nodes/named1-large-laser/" "Thelotec-Etequitor heavy LCL laser"
-    click n838 "/content/techtree/nodes/named2-large-laser/" "Thelotec-Apocalyptor heavy LCL laser"
-    click n839 "/content/techtree/nodes/named3-large-laser/" "Kauska Heatpin II. heavy LCL laser"
-    click n911 "/content/techtree/nodes/standard-damage-mod-laser/" "Standard laser tuning"
-    click n930 "/content/techtree/nodes/named1-damage-mod-laser/" "Reflexis II. laser tuning"
-    click n931 "/content/techtree/nodes/named2-damage-mod-laser/" "Kauska Optibrace laser tuning"
-    click n932 "/content/techtree/nodes/named3-damage-mod-laser/" "Oqulus laser tuning"
-    click n1002 "/content/techtree/nodes/longrange-standard-medium-laser/" "Standard medium HCL laser"
-    click n1003 "/content/techtree/nodes/longrange-standard-large-laser/" "Longrange Standard Large Laser"
-    click n1024 "/content/techtree/nodes/named1-longrange-medium-laser/" "Tertzer medium HCL laser"
-    click n1025 "/content/techtree/nodes/named2-longrange-medium-laser/" "Thelotec-Iocle I. medium HCL laser"
-    click n1026 "/content/techtree/nodes/named3-longrange-medium-laser/" "Phisker 30PW medium HCL laser"
-    click n1027 "/content/techtree/nodes/named1-longrange-large-laser/" "T2 Longrange Large Laser"
-    click n1028 "/content/techtree/nodes/named2-longrange-large-laser/" "T3 Longrange Large Laser"
-    click n1029 "/content/techtree/nodes/named3-longrange-large-laser/" "T4 Longrange Large Laser"
-    click n2555 "/content/techtree/nodes/standard-gang-assist-precision-firing-module/" "Standard critical hit NEXUS module"
-    click n2595 "/content/techtree/nodes/named1-gang-assist-precision-firing-module/" "Qandellay critical hit NEXUS module"
-    click n2596 "/content/techtree/nodes/named2-gang-assist-precision-firing-module/" "E-scope critical hit NEXUS module"
-    click n2597 "/content/techtree/nodes/named3-gang-assist-precision-firing-module/" "ZTW critical hit NEXUS module"
-    click n6013 "/content/techtree/nodes/onyx/" "Onyx"
-```
+<svg class="tech-tree-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2120 850" role="img" aria-label="Tech tree diagram">
+  <rect x="0" y="0" width="2120" height="850" fill="#10151f" stroke="#39445a" stroke-width="1"/>
+  <line x1="440" y1="228" x2="290" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="486" x2="290" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-310" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="140" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="314" x2="-10" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="890" y1="572" x2="740" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="-310" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="-10" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="-10" y1="142" x2="290" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="-10" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="-10" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="290" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="400" x2="590" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="314" x2="290" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="658" x2="140" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="658" x2="440" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="658" x2="740" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="572" x2="440" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="290" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="142" x2="440" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="228" x2="590" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="314" x2="590" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="400" x2="440" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="440" y1="486" x2="590" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="572" x2="290" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="658" x2="290" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="290" y1="744" x2="290" y2="794" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="140" y1="56" x2="590" y2="106" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="142" x2="590" y2="192" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="228" x2="590" y2="278" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="314" x2="440" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="400" x2="740" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="486" x2="590" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="486" x2="890" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="890" y1="572" x2="1040" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="1040" y1="658" x2="1040" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="572" x2="740" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="658" x2="740" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="744" x2="740" y2="794" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="590" y1="314" x2="740" y2="364" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="400" x2="740" y2="450" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="486" x2="740" y2="536" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="572" x2="740" y2="622" stroke="#4a5568" stroke-width="1.2"/>
+  <line x1="740" y1="658" x2="740" y2="708" stroke="#4a5568" stroke-width="1.2"/>
+  <g><a href="/content/techtree/nodes/standard-small-laser/"><title>Standard light HCL laser</title><rect x="0" y="20" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="42" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard light HCL laser</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-medium-laser/"><title>Standard medium LCL laser</title><rect x="150" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard medium LCL laser</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-large-laser/"><title>Standard heavy LCL laser</title><rect x="150" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard heavy LCL laser</text></a></g>
+  <g><a href="/content/techtree/nodes/prometheus/"><title>Prometheus</title><rect x="-450" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Prometheus</text></a></g>
+  <g><a href="/content/techtree/nodes/baphomet/"><title>Baphomet</title><rect x="0" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Baphomet</text></a></g>
+  <g><a href="/content/techtree/nodes/artemis/"><title>Artemis</title><rect x="-150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Artemis</text></a></g>
+  <g><a href="/content/techtree/nodes/seth/"><title>Seth</title><rect x="600" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Seth</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-small-lasercrystal-a/"><title>Small chemoactive energy cell</title><rect x="-450" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-440" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Small chemoactive energy cell</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-small-lasercrystal-b/"><title>Small sonic energy cell</title><rect x="-150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Small sonic energy cell</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-small-lasercrystal-c/"><title>Small photokinetic energy cell</title><rect x="150" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Small photokinetic energy cell</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-small-lasercrystal-d/"><title>Small thermic energy cell</title><rect x="-150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Small thermic energy cell</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-medium-lasercrystal-a/"><title>Medium chemoactive energy cell</title><rect x="-150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="-140" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Medium chemoactive energy cell</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-medium-lasercrystal-b/"><title>Medium sonic energy cell</title><rect x="150" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Medium sonic energy cell</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-medium-lasercrystal-c/"><title>Medium photokinetic energy cell</title><rect x="450" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Medium photokinetic energy cell</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-medium-lasercrystal-d/"><title>Medium thermic energy cell</title><rect x="150" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Medium thermic energy cell</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-large-lasercrystal-a/"><title>Large chemoactive energy cell</title><rect x="0" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="10" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Large chemoactive energy cell</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-large-lasercrystal-b/"><title>Large sonic energy cell</title><rect x="300" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Large sonic energy cell</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-large-lasercrystal-c/"><title>Large photokinetic energy cell</title><rect x="600" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Large photokinetic energy cell</text></a></g>
+  <g><a href="/content/techtree/nodes/ammo-large-lasercrystal-d/"><title>Large thermic energy cell</title><rect x="300" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Large thermic energy cell</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-small-laser/"><title>Thelotec-Dabis light HCL laser</title><rect x="150" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Thelotec-Dabis light HCL laser</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-small-laser/"><title>Pikolo light HCL laser</title><rect x="300" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Pikolo light HCL laser</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-small-laser/"><title>Thelotec-Stroyar light HCL laser</title><rect x="450" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Thelotec-Stroyar light HCL laser</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-medium-laser/"><title>Thelotec-Grazier medium LCL laser</title><rect x="450" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Thelotec-Grazier medium LCL laser</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-medium-laser/"><title>Kauska Heatpin I. medium LCL laser</title><rect x="300" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Kauska Heatpin I. medium LCL laser</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-medium-laser/"><title>Thermodissector medium LCL laser</title><rect x="450" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Thermodissector medium LCL laser</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-large-laser/"><title>Thelotec-Etequitor heavy LCL laser</title><rect x="150" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Thelotec-Etequitor heavy LCL laser</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-large-laser/"><title>Thelotec-Apocalyptor heavy LCL laser</title><rect x="150" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Thelotec-Apocalyptor heavy LCL …</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-large-laser/"><title>Kauska Heatpin II. heavy LCL laser</title><rect x="150" y="794" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="160" y="816" font-size="12" fill="#e8ecf4" font-family="sans-serif">Kauska Heatpin II. heavy LCL laser</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-damage-mod-laser/"><title>Standard laser tuning</title><rect x="450" y="106" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="128" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard laser tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-damage-mod-laser/"><title>Reflexis II. laser tuning</title><rect x="450" y="192" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="214" font-size="12" fill="#e8ecf4" font-family="sans-serif">Reflexis II. laser tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-damage-mod-laser/"><title>Kauska Optibrace laser tuning</title><rect x="450" y="278" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="300" font-size="12" fill="#e8ecf4" font-family="sans-serif">Kauska Optibrace laser tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-damage-mod-laser/"><title>Oqulus laser tuning</title><rect x="300" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="310" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Oqulus laser tuning</text></a></g>
+  <g><a href="/content/techtree/nodes/longrange-standard-medium-laser/"><title>Standard medium HCL laser</title><rect x="600" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard medium HCL laser</text></a></g>
+  <g><a href="/content/techtree/nodes/longrange-standard-large-laser/"><title>Longrange Standard Large Laser</title><rect x="450" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="460" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Longrange Standard Large Laser</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-longrange-medium-laser/"><title>Tertzer medium HCL laser</title><rect x="750" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="760" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">Tertzer medium HCL laser</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-longrange-medium-laser/"><title>Thelotec-Iocle I. medium HCL laser</title><rect x="900" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="910" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">Thelotec-Iocle I. medium HCL laser</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-longrange-medium-laser/"><title>Phisker 30PW medium HCL laser</title><rect x="900" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="910" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Phisker 30PW medium HCL laser</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-longrange-large-laser/"><title>T2 Longrange Large Laser</title><rect x="600" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">T2 Longrange Large Laser</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-longrange-large-laser/"><title>T3 Longrange Large Laser</title><rect x="600" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">T3 Longrange Large Laser</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-longrange-large-laser/"><title>T4 Longrange Large Laser</title><rect x="600" y="794" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="816" font-size="12" fill="#e8ecf4" font-family="sans-serif">T4 Longrange Large Laser</text></a></g>
+  <g><a href="/content/techtree/nodes/standard-gang-assist-precision-firing-module/"><title>Standard critical hit NEXUS module</title><rect x="600" y="364" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="386" font-size="12" fill="#e8ecf4" font-family="sans-serif">Standard critical hit NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named1-gang-assist-precision-firing-module/"><title>Qandellay critical hit NEXUS module</title><rect x="600" y="450" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="472" font-size="12" fill="#e8ecf4" font-family="sans-serif">Qandellay critical hit NEXUS mo…</text></a></g>
+  <g><a href="/content/techtree/nodes/named2-gang-assist-precision-firing-module/"><title>E-scope critical hit NEXUS module</title><rect x="600" y="536" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="558" font-size="12" fill="#e8ecf4" font-family="sans-serif">E-scope critical hit NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/named3-gang-assist-precision-firing-module/"><title>ZTW critical hit NEXUS module</title><rect x="600" y="622" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="644" font-size="12" fill="#e8ecf4" font-family="sans-serif">ZTW critical hit NEXUS module</text></a></g>
+  <g><a href="/content/techtree/nodes/onyx/"><title>Onyx</title><rect x="600" y="708" width="280" height="36" rx="6" fill="#1a2233" stroke="#4a90d9" stroke-width="1.2"/><text x="610" y="730" font-size="12" fill="#e8ecf4" font-family="sans-serif">Onyx</text></a></g>
+</svg>
 
 ## Nodes (all)
 

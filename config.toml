@@ -2,6 +2,7 @@
 # block (or per-locale content under content/<lang>/), fill ui.* for that
 # locale, and regenerate the search index for it (see generator README).
 default_language = "en"
+
 title = "Open Perpetuum Wiki"
 description = "Player and developer reference for the Open Perpetuum server: what you can do in the game, entity stats, zone generation, and stat field semantics."
 # Local/test base: the site lives at the domain root. The CI DEPLOY build
@@ -27,8 +28,10 @@ smart_punctuation = false
 # into Zola [translations]); the chrome reads `config.extra.ui`, and the
 # inline JS receives it via window.WIKI_UI.
 [extra.ui]
-# The topbar brand (short; the full site name stays the page <title>).
-brand = "OP Wiki"
+# The topbar brand: the full name when the row fits (desktop), the short
+# form below the 801px breakpoint (see .brand-long/.brand-short in style.css).
+brand = "Open Perpetuum Wiki"
+brand_short = "OP Wiki"
 # Top-level sidenav links (always visible) and main-menu group names (high
 # level; each group expands in the sidenav and has an overview page under
 # /menu/).
@@ -54,7 +57,7 @@ nav_movement = "Movement & zones"
 nav_npcs = "NPCs & PVE hunting"
 nav_exploration = "Exploration"
 nav_probes = "Proximity probes"
-nav_robots = "Robots & fitting"
+nav_robots = "Robot"
 nav_production = "Production"
 nav_research = "Research"
 nav_items = "Items & inventory"
@@ -114,10 +117,32 @@ search_pages_found_many = "{n} pages found"
 update_available = "A new update is available, click here to refresh."
 zonemap_mode_height = "Height"
 zonemap_mode_color = "Color"
+# Zone-map landmarks panel (built at runtime by static/zone-map.js; the
+# per-language values come from translations/*.json via i18n.js — these are
+# the pre-JS defaults).
+zonemap_landmarks = "Landmarks"
+zonemap_toggle_all = "Toggle all"
+zonemap_lm_teleports = "Teleports & Gates"
+zonemap_lm_outposts = "Outposts"
+zonemap_lm_terminals = "Field terminals"
+zonemap_lm_roads = "Roads"
+zonemap_lm_labels = "Labels"
+zonemap_mode_base = "Base"
+zonemap_reset_zoom = "Reset the zoom"
+aria_menu_toggle = "Open the menu"
 aria_theme_toggle = "Toggle light/dark mode"
 aria_mode_toggle = "Toggle Play / Dev mode"
 aria_palette = "Choose accent color"
 aria_language = "Choose language"
+aria_close = "Close"
+# Shortcuts window (? key): title + one label per shortcut row.
+shortcuts_title = "Shortcuts"
+sc_search = "Focus the search"
+sc_close = "Close the window / clear the search"
+sc_move = "Move the search selection"
+sc_jump = "Jump to the first / last result"
+sc_open = "Open the selected result"
+sc_toggle = "Toggle this window"
 menu_palette_group = "Accent"
 menu_cb_group = "Colorblind"
 cb_default = "Default"
@@ -137,3 +162,18 @@ foot_formats = "Formats (dev)"
 # These two are raw HTML (rendered with `| safe`); keep the links when translating.
 foot_credit = "Open Perpetuum wiki — generated with <a href=\"https://www.getzola.org/\">Zola</a>. Content tables are generated from the live game database (<code>tools/generate</code>)."
 foot_attribution = "Wiki content is licensed under the Apache License 2.0, except where noted."
+
+[languages.en]
+[languages.fr]
+[languages.es]
+[languages.de]
+[languages.pt]
+[languages.it]
+[languages.nl]
+[languages.ru]
+[languages.pl]
+[languages.cs]
+[languages.zh-CN]
+[languages.zh-TW]
+[languages.ja]
+[languages.ko]

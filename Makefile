@@ -1,6 +1,7 @@
 # Open Perpetuum Wiki — build tooling.
 #
 #   make build     build the static site into public/ (Docker, pinned Zola image)
+#   make i18n      generate static/i18n.js from translations/*.json
 #   make serve     local live-reload server on :8085 (Docker; override WIKI_PORT=NNNN)
 #   make test      build + run the Playwright browser tests (needs node +
 #                  npm install; CHROMIUM_PATH=... to skip the Playwright
@@ -8,6 +9,11 @@
 #   make zonemaps  regenerate the zone teleport maps: real terrain from the
 #                  game's layer data (fetched when no local checkout exists)
 #                  + clickable teleports (pure-stdlib Python, no database)
+#   make i18n-check  validate translations/*.json: key parity vs en, {placeholder}
+#                    consistency, no empty values (CI gate; pure-stdlib Python)
+#   make test-py     run the Python generator tests with coverage (pytest +
+#                    coverage, both preinstalled; unit + fixture + in-place
+#                    idempotency layers)
 #   make generate  regenerate the generated content pages from the database
 #   make clean     remove the build output
 #
@@ -23,16 +29,16 @@ WIKI_PORT  ?= 8085
 #   WIKI_DB          SQL Server connection string (falls back to $PERPETUUM_CONNECTIONSTRING)
 #   WIKI_PLANTRULES  directory containing the plant rule files; defaults to the
 #                    server submodule (run `git submodule update --init server` first)
-WIKI_DB         ?= $(PERPETUUM_CONNECTIONSTRING)
+WIKI_DB         ?= Server=localhost,16998;Database=perpetuumsa;User Id=sa;Password=l3<Nv2-QIat4YK*ydt\#u-^+VAAVVdytL;TrustServerCertificate=True;
 # ?= would not override an empty WIKI_PLANTRULES from the environment, so use ifdef.
 ifdef WIKI_PLANTRULES
 else
-WIKI_PLANTRULES = $(abspath server/src/Perpetuum.ServerService2/data/plantrules)
+WIKI_PLANTRULES = ../PerpetuumServer2/src/Perpetuum.ServerService2/data/plantrules
 endif
 DOTNET          ?= $(shell command -v dotnet 2>/dev/null || echo $(HOME)/.dotnet/dotnet)
 TTY_FLAG        := $(shell [ -t 0 ] && echo -it || echo -i)
 
-.PHONY: all build serve test zonemaps generate clean
+.PHONY: all build i18n serve test test-py zonemaps generate clean i18n-check
 
 all: build
 
@@ -49,29 +55,59 @@ all: build
 # Pure standard-library Python — no database, no pip installs.
 ASSETS ?= $(patsubst %/custom-layers,%,$(firstword $(wildcard ../PerpetuumServer2/custom-layers ./server/custom-layers .assets/custom-layers)))
 zonemaps:
-	ASSETS="$(ASSETS)"; if [ -z "$$ASSETS" ]; then bash tools/fetch_zone_layers.sh .assets; ASSETS=$$(pwd)/.assets; fi; OP_ASSETS_DIR="$$ASSETS" python3 tools/gen_zone_teleport_maps.py
+	ASSETS="$(ASSETS)"; if [ -z "$$ASSETS" ]; then bash tools/fetch_zone_layers.sh .assets; ASSETS=$$(pwd)/.assets; fi; OP_ASSETS_DIR="$$ASSETS" uv run --with numpy --with matplotlib tools/gen_zone_teleport_maps.py
 
 # Browser tests (tests/): mermaid syntax of every diagram + sidenav behaviour,
 # run against the built site. One-time setup: npm install.
 test: build
 	npm test
 
+# Python generator tests (tests_py/) with coverage. The integration tests run
+# the generators in subprocesses; COVERAGE_PROCESS_START + parallel=true make
+# coverage measure those too (see .coveragerc). Idempotency tests re-run the
+# generators in place, so the working tree must be in a generated state.
+test-py:
+	COVERAGE_PROCESS_START=$(CURDIR)/.coveragerc coverage run -m pytest tests_py -q
+	coverage combine
+	coverage report --include='tools/*.py' -m
+
 # Build the static site with the pinned official Zola container (no local
 # install). The container runs as root (the image has no alpine coreutils),
 # so if a build is ever interrupted and leaves root-owned files in public/,
 # `make clean` removes them via a container.
-build:
-	docker run --rm \
+# Generate the i18n runtime from translations/*.json + the language pages
+# manifest + the menu tree (sidenav links for the search index). Run before
+# build so the generated files are picked up by Zola.
+i18n:
+	python3 tools/gen_content_translations.py
+	python3 tools/gen_zone_translations.py
+	python3 tools/gen_lang_pages.py
+	python3 tools/gen_i18n.py
+	python3 tools/gen_menu_tree.py
+
+# Translation-file integrity gate (see tools/i18n_check.py header). Fails the
+# build when a language is missing a key, a value is empty, or a {placeholder}
+# set diverges from en.json.
+i18n-check:
+	python3 tools/i18n_check.py
+
+build: i18n i18n-check
+	rm -rf public/*
+	docker run --rm --user "$$(id -u):$$(id -g)" \
 		-v "$$PWD:/src" \
 		$(ZOLA_IMAGE) -r /src build --force -o /src/public
+	python3 tools/tag_defs.py public
 
 # Local live-reload server: http://localhost:$(WIKI_PORT)
+# zola serve keeps the HTML in memory but writes the site's ASSETS into its
+# output dir (default: public/) — which would wipe a previous `make build`
+# output. Point it at a scratch dir so public/ is left untouched.
 serve:
 	docker run --rm $(TTY_FLAG) \
 		-u "$$(id -u):$$(id -g)" \
 		-p "$(WIKI_PORT):1111" \
 		-v "$$PWD:/src" \
-		$(ZOLA_IMAGE) -r /src serve -i 0.0.0.0 --no-port-append -u "http://localhost:$(WIKI_PORT)/"
+		$(ZOLA_IMAGE) -r /src serve -i 0.0.0.0 --no-port-append -u "http://localhost:$(WIKI_PORT)/" -o /src/.serve-public
 
 # Regenerate the generated pages (content/content + zone index + zone map +
 # search index) from the database. See generator/README.md for the table
@@ -83,13 +119,20 @@ generate:
 	@test -n "$(WIKI_DB)" || { echo "error: set WIKI_DB (or PERPETUUM_CONNECTIONSTRING)"; exit 1; }
 	@test -d "$(WIKI_PLANTRULES)" || { echo "error: WIKI_PLANTRULES is not a directory: $(WIKI_PLANTRULES)"; \
 	  echo "hint: run 'git submodule update --init server' (or set WIKI_PLANTRULES to a GameRoot plantrules dir)"; exit 1; }
-	$(DOTNET) build -c Release generator/Perpetuum.WikiGenerate/Perpetuum.WikiGenerate.csproj
-	$(DOTNET) run -c Release --no-build --project generator/Perpetuum.WikiGenerate -- \
-		--connection "$(WIKI_DB)" \
-		--plantrules "$(WIKI_PLANTRULES)" \
-		--out content/content \
-		--zones-out content/zones
+	docker run --rm --network host \
+		-u "$$(id -u):$$(id -g)" \
+		-v "$$PWD:$$PWD" \
+		-v "$(abspath $(WIKI_PLANTRULES)):$(abspath $(WIKI_PLANTRULES))" \
+		-w "$$PWD" \
+		-e HOME=/tmp \
+		mcr.microsoft.com/dotnet/sdk:8.0 \
+		sh -c 'dotnet build -c Release generator/Perpetuum.WikiGenerate/Perpetuum.WikiGenerate.csproj && \
+		dotnet run -c Release --no-build --project generator/Perpetuum.WikiGenerate -- \
+			--connection "$(WIKI_DB)" \
+			--plantrules "$(abspath $(WIKI_PLANTRULES))" \
+			--out content/content \
+			--zones-out content/zones'
 
 clean:
-	rm -rf public 2>/dev/null || true
+	rm -rf public .serve-public 2>/dev/null || true
 	if [ -d public ]; then docker run --rm -v "$$PWD/public:/out" alpine:3.20 sh -c "rm -rf /out/*"; rm -rf public; fi

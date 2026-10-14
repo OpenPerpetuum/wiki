@@ -3,18 +3,18 @@ namespace Perpetuum.WikiGenerate;
 /// <summary>
 /// The zone map page: every zone drawn at its real grid coordinates
 /// (zones.x/y) with the same design as its index card — the coastline-only
-/// thumb.png (tools/gen_zone_teleport_maps.py) in the family color over a
+/// thumb.svg (tools/gen_zone_teleport_maps.py) in the family color over a
 /// dark plate, outlined by galaxy family — plus the teleport and rift gate
 /// connections recorded in the server database: inter-zone TPs as dashed
 /// lines gradient-colored from the source family color to the destination's,
 /// exit gates as the classic dashed link lines. Rendered as inline SVG so it
 /// themes with the site; map.js adds zoom (wheel) and pan (drag), and every
 /// island links to a zone page. The sub-category sections below the map are
-/// card grids (the same thumb.png) instead of stat tables.
+/// card grids (the same thumb.svg) instead of stat tables.
 /// </summary>
 public static class ZonesMapPage
 {
-    internal sealed record Zone(string Name, int Type, double X, double Y, int W, int H, bool Protected, bool Terraformable);
+    internal sealed record Zone(string Name, int Type, double X, double Y, int W, int H, bool Protected, bool Terraformable, int TpCount);
 
     /// <summary>Nullable double read (AVG over an all-NULL column is NULL).</summary>
     private static object? NulDbl(Dictionary<string, object?> r, string k)
@@ -22,12 +22,96 @@ public static class ZonesMapPage
 
     internal sealed record Group(string Id, string Label, string Blurb, List<Zone> Zones);
 
+    private static readonly Dictionary<string, (double X, double Y)> MapOverrides = new(StringComparer.OrdinalIgnoreCase)
+    {
+        { "zone_gamma_z124", (0, 10000) }, // Wolf Bay [T2]
+        { "zone_gamma_z125", (2000, 9000) }, // Burbach [T1]
+        { "zone_gamma_z126", (4000, 8500) }, // Jimmis [T2]
+        { "zone_gamma_z123", (-2000, 8500) }, // Krempen [T2]
+        { "zone_gamma_z122", (-3000, 9500) }, // Hazel Grove [T3]
+        { "zone_gamma_z121", (-4000, 8000) }, // Pennsfine [T2]
+        { "zone_gamma_z120", (-4000, 6000) }, // Tosham [T1]
+        { "zone_gamma_z127", (1500, 7000) }, // Oderneisse [T2]
+        { "zone_gamma_z128", (3500, 6500) }, // New Ladoga [T3]
+        { "zone_gamma_z129", (5000, 7000) }, // Dijon-5 [T2]
+        { "zone_gamma_z130", (5000, 5500) }, // Chalydor [T1]
+        { "zone_gamma_tc_z101", (0, 6000) }, // Theatis
+        { "zone_gamma_z115", (-2000, 6500) }, // Myre Barrier [T1]
+        { "zone_gamma_z114", (-1000, 5000) }, // Djodi [T0]
+        { "zone_gamma_z113", (1000, 5000) }, // Boreon [T1]
+        { "zone_gamma_tc_z100", (3000, 4500) }, // Heno Landing
+        { "zone_gamma_tc_z102", (-3000, 4500) }, // Jaego
+        { "zone_gamma_z119", (-5000, 4500) }, // Bachdang [T0]
+        { "zone_gamma_z131", (6000, 4000) }, // Sudraba [T0]
+        { "zone_gamma_z116", (-4000, 3000) }, // Xiantor [T1]
+        { "zone_gamma_z108", (-2000, 3000) }, // Yurain Ro [T2]
+        { "zone_gamma_z107", (0, 2500) }, // Daichi Tengri [T3]
+        { "zone_gamma_z106", (2000, 3000) }, // Beloslovsk [T2]
+        { "zone_gamma_z112", (4000, 3000) }, // Saraille [T1]
+        { "zone_gamma_z117", (-5000, 1500) }, // Senggeh [T1]
+        { "zone_gamma_tc_z103", (-3000, 1000) }, // Mhenosha
+        { "zone_gamma_z109", (-1000, 1000) }, // Joysagar [T1]
+        { "zone_gamma_z110", (1000, 500) }, // Langh [T0]
+        { "zone_gamma_z111", (3000, 1500) }, // Bleumon [T1]
+        { "zone_gamma_tc_z105", (4000, 500) }, // Rasputie
+        { "zone_gamma_z132", (6000, 1500) }, // Vistulato [T1]
+        { "zone_gamma_z133", (6000, 0) }, // Krasnystaw [T2]
+        { "zone_gamma_z134", (5000, -1000) }, // Plodetz [T3]
+        { "zone_gamma_z135", (3000, -500) }, // Plukkis [T2]
+        { "zone_gamma_z136", (4000, -2000) }, // Belukha [T2]
+        { "zone_gamma_z118", (-5000, -500) }, // Shokaku [T2]
+        { "zone_gamma_z140", (-3000, -1000) }, // Mitaka [T3]
+        { "zone_gamma_z139", (-1000, -500) }, // Talayna [T2]
+        { "zone_gamma_z138", (-1000, -2000) }, // Repun [T2]
+        { "zone_gamma_tc_z104", (1000, -1500) }, // Autrim
+        { "zone_gamma_z137", (2000, -2500) }, // Imidero [T1]
+
+        { "zone_ICS_pve", (500, -4500) }, // Tellesis
+        { "zone_ICS_pvp", (0, -5000) }, // Novastrov
+        { "zone_ICS_A_real", (1000, -5500) }, // Domhalarn
+        { "zone_ASI_pve", (-1500, -5500) }, // Shinjalar
+        { "zone_TM_pve", (-500, -5500) }, // Hershfield
+        { "zone_TM", (0, -6000) }, // New Virginia
+        { "zone_ASI_pvp", (-2000, -6500) }, // Kentagura
+        { "zone_TM_A_real", (-500, -7000) }, // Norhoop
+        { "zone_TM_pvp", (500, -6500) }, // Alsbale
+        { "zone_ICS", (1000, -7000) }, // Attalica
+        { "zone_ASI", (-8000, -6000) }, // Daoden
+        { "zone_ASI_A_real", (-1500, -5000) }, // Hokkogaros
+        
+        { "zone_strghld_70", (5000, -12000) }, // SH: The Sentinel
+        { "zone_strghld_71", (3000, -9000) }, // SH: Bonnie's Hideout
+        { "zone_strghld_72", (3000, -9500) }, // SH: RR Command Outpost
+        { "zone_pvp_arena", (2500, -9000) }, // Omega
+        { "zone_training", (0, -12000) } // Training
+    };
+
     public static string Build(Db db)
     {
-        var zones = db.Query("SELECT id, name, zonetype, x, y, width, height, protected, terraformable, enabled FROM zones ORDER BY id")
-            .Select(r => new Zone(r.Str("name"), r.Int("zonetype"), r.Dbl("x"), r.Dbl("y"),
-                r.Int("width"), r.Int("height"), r.Bit("protected"), r.Bit("terraformable")))
+        var zones = db.Query("""
+            SELECT z.id, z.name, z.zonetype, z.x, z.y, z.width, z.height, z.protected, z.terraformable, z.enabled,
+                   (SELECT COUNT(*) FROM zoneentities ze WHERE ze.zoneid = z.id AND LOWER(ze.ename) LIKE 'teleport_column%') AS tpcount
+            FROM zones z WHERE z.enabled = 1 AND z.active = 1 ORDER BY z.id
+            """)
+.Select(r => {
+                var name = r.Str("name");
+                var x = r.Dbl("x");
+                var y = r.Dbl("y");
+                if (MapOverrides.TryGetValue(name, out var ov)) { x = ov.X; y = -ov.Y; }
+                return new Zone(name, r.Int("zonetype"), x, y,
+                    r.Int("width"), r.Int("height"), r.Bit("protected"), r.Bit("terraformable"), r.Int("tpcount"));
+            })
             .ToList();
+
+        // Teleport column positions per zone (tile coords within the zone grid).
+        var tpPos = db.Query("""
+            SELECT z.name AS zonename, ze.x AS tx, ze.y AS ty, ze.ename
+            FROM zoneentities ze
+            JOIN zones z ON z.id = ze.zoneid
+            WHERE LOWER(ze.ename) LIKE 'teleport_column%' AND z.x < 49000 AND z.y < 49000
+            """)
+            .GroupBy(r => r.Str("zonename"))
+            .ToDictionary(g => g.Key, g => g.Select(r => (r.Dbl("tx"), r.Dbl("ty"), r.Str("ename"))).ToList());
 
         // The zones table can hold several rows with the same name (e.g. zone_TM has
         // three — the extra rows sit at 50000/51000 sentinel coordinates). The map
@@ -84,19 +168,20 @@ public static class ZonesMapPage
         // (targetx/targety) anchor each line to the REAL spots in both zones,
         // not their centers.
         var tps = db.Query("""
-            SELECT zs.name AS src, zd.name AS dst, COUNT(*) AS tps,
-                   AVG(ze.x) AS sx, AVG(ze.y) AS sy,
-                   AVG(td.targetx) AS tx, AVG(td.targety) AS ty
+            SELECT zs.name AS src, zd.name AS dst,
+                   ze.x AS sx, ze.y AS sy,
+                   td.targetx AS tx, td.targety AS ty
             FROM teleportdescriptions td
             JOIN zones zs ON zs.id = td.sourcezone
             JOIN zones zd ON zd.id = td.targetzone
             JOIN zoneentities ze ON ze.eid = td.sourcecolumn
             WHERE td.sourcezone <> td.targetzone AND td.active = 1
-            GROUP BY zs.name, zd.name
             """)
-            .Select(r => (Src: r.Str("src"), Dst: r.Str("dst"), Tps: r.Int("tps"),
+            .Select(r => (Src: r.Str("src"), Dst: r.Str("dst"),
                 Sx: (double?)NulDbl(r, "sx"), Sy: (double?)NulDbl(r, "sy"),
                 Tx: (double?)NulDbl(r, "tx"), Ty: (double?)NulDbl(r, "ty")))
+            .GroupBy(l => (l.Src, l.Dst, l.Sx, l.Sy, l.Tx, l.Ty))
+            .Select(g => (g.Key.Src, g.Key.Dst, Tps: g.Count(), g.Key.Sx, g.Key.Sy, g.Key.Tx, g.Key.Ty))
             .OrderBy(l => l.Src).ThenBy(l => l.Dst)
             .ToList();
 
@@ -104,19 +189,10 @@ public static class ZonesMapPage
         sb.Append(Md.Header("World", "Every zone drawn with its real terrain at its grid position, outlined by galaxy, with the teleport and gate connections from the database.",
             "zones (x/y, width, protected, terraformable), teleportdescriptions, zoneentities, strongholdexitconfig + riftconfigs + riftdestinations"));
         sb.Append("\n\n# World\n\n");
-        sb.Append("Every zone with an inter-zone teleport connection, drawn at its real grid coordinates — " +
-                  "each island outlined by galaxy family and sized to its real width in tiles (the legend below " +
-                  "the map shows the sizes). The dashed lines are the teleport columns recorded in the database, " +
-                  "colored from the source island's family color to the destination's, drawn over the islands " +
-                  "and touching the real column/landing spots inside them (the count per pair is in the line " +
-                  "tooltip). Zones without any teleport connection (strongholds, the PvP arena, dead-end gate " +
-                  "islands) are left off the map. **Scroll over the map to zoom** (no key needed), **drag to pan**, " +
-                  "and click an island to open its page (islands without a dedicated page go to the [zone index](/zones/zone-index/)). " +
-                  "Hover an island for its name, protection level and coordinates.\n\n");
-
         sb.Append("<div class=\"zonemap-wrap\">\n");
         sb.Append("<button type=\"button\" class=\"zonemap-reset\" title=\"Reset the zoom\">⟲</button>\n");
-        sb.Append(Svg(all, byName, links, tps, vbW, vbH, Px, Py));
+        sb.Append(Svg(all, byName, links, tps, tpPos, vbW, vbH, Px, Py));
+        sb.Append(LegendHtml());
         sb.Append("</div>\n\n");
         sb.Append("<div class=\"zonemap-legend\">Island sizes (tiles): ");
         foreach (var (lab, px) in LegendSizes())
@@ -141,9 +217,19 @@ public static class ZonesMapPage
     /// (filename, markdown) pairs, ready to write next to map.md.</summary>
     public static List<(string File, string Md)> FamilyPages(Db db)
     {
-        var zones = db.Query("SELECT id, name, zonetype, x, y, width, height, protected, terraformable, enabled FROM zones ORDER BY id")
-            .Select(r => new Zone(r.Str("name"), r.Int("zonetype"), r.Dbl("x"), r.Dbl("y"),
-                r.Int("width"), r.Int("height"), r.Bit("protected"), r.Bit("terraformable")))
+        var zones = db.Query("""
+            SELECT z.id, z.name, z.zonetype, z.x, z.y, z.width, z.height, z.protected, z.terraformable, z.enabled,
+                   (SELECT COUNT(*) FROM zoneentities ze WHERE ze.zoneid = z.id AND LOWER(ze.ename) LIKE 'teleport_column%') AS tpcount
+            FROM zones z WHERE z.enabled = 1 AND z.active = 1 ORDER BY z.id
+            """)
+.Select(r => {
+                var name = r.Str("name");
+                var x = r.Dbl("x");
+                var y = r.Dbl("y");
+                if (MapOverrides.TryGetValue(name, out var ov)) { x = ov.X; y = -ov.Y; }
+                return new Zone(name, r.Int("zonetype"), x, y,
+                    r.Int("width"), r.Int("height"), r.Bit("protected"), r.Bit("terraformable"), r.Int("tpcount"));
+            })
             .ToList();
         var byName = zones.GroupBy(z => z.Name).ToDictionary(g => g.Key, g => g.First());
         var all = byName.Values.ToList();
@@ -194,7 +280,7 @@ public static class ZonesMapPage
     /// with "t" too — it is not a tier.</summary>
     internal static bool IsTier(Group g) => g.Id.Length == 2 && g.Id[0] == 't';
 
-    /// <summary>A zone-card grid (thumb.png per zone) — the same cards the
+    /// <summary>A zone-card grid (thumb.svg per zone) — the same cards the
     /// family pages and the zone index use.</summary>
     internal static string Cards(List<Zone> zones)
     {
@@ -204,9 +290,9 @@ public static class ZonesMapPage
         {
             var slug = z.Name.ToLowerInvariant().Replace("_", "-");
             sb.Append($"<a class=\"zone-card\" href=\"/zones/{slug}/\">\n");
-            sb.Append($"<img class=\"zone-card-thumb\" src=\"/zonemaps/{slug}/thumb.png\" alt=\"\" loading=\"lazy\">\n");
+            sb.Append($"<img class=\"zone-card-thumb\" src=\"/zonemaps/{slug}/thumb.svg\" alt=\"\" loading=\"lazy\">\n");
             sb.Append($"<span class=\"zone-card-name\">{Escape(ZoneName(z.Name))}</span>\n");
-            sb.Append($"<span class=\"zone-card-meta\">{TypeLabel(z.Type)} · {z.W}×{z.H}</span>\n");
+            sb.Append($"<span class=\"zone-card-meta\">{TypeLabel(z.Type)}</span>\n");
             sb.Append("</a>\n");
         }
         sb.Append("</div>\n\n");
@@ -228,6 +314,51 @@ public static class ZonesMapPage
         yield return ("1024 (training)", 24);
         yield return ("512 (stronghold)", 15);
         yield return ("256 (tc zones)", 10);
+    }
+
+    /// <summary>The interactive legend overlay inside the map wrapper.</summary>
+    private static string LegendHtml()
+    {
+        var sb = new StringBuilder();
+        sb.Append("<button type=\"button\" class=\"map-legend-toggle\" id=\"map-legend-toggle\" aria-expanded=\"false\">Legend</button>\n");
+        sb.Append("<div class=\"map-legend legend-hidden\" id=\"map-legend\">\n");
+        // Protection level section (top)
+        sb.Append("  <div class=\"map-legend-group\">\n");
+        sb.Append("    <button type=\"button\" class=\"map-legend-head\" aria-expanded=\"true\">Protection</button>\n");
+        sb.Append("    <ul class=\"map-legend-items\">\n");
+        sb.Append("      <li><span class=\"legend-swatch\" style=\"background:transparent;border:2px solid #41d3ff\"></span>Alpha (PvE)</li>\n");
+        sb.Append("      <li><span class=\"legend-swatch\" style=\"background:transparent;border:2px solid #fbbf24\"></span>Beta (PvP)</li>\n");
+        sb.Append("      <li><span class=\"legend-swatch\" style=\"background:transparent;border:2px solid #ef4444\"></span>Gamma (PvP + Terraforming)</li>\n");
+        sb.Append("    </ul>\n");
+        sb.Append("  </div>\n");
+        // Zones section
+        sb.Append("  <div class=\"map-legend-group\">\n");
+        sb.Append("    <button type=\"button\" class=\"map-legend-head\" aria-expanded=\"true\">Galaxies</button>\n");
+        sb.Append("    <ul class=\"map-legend-items\">\n");
+        sb.Append("      <li><span class=\"legend-swatch\" style=\"background:#41d3ff\"></span>TM (The Matriarkh)</li>\n");
+        sb.Append("      <li><span class=\"legend-swatch\" style=\"background:#6ee7a0\"></span>ICS (Interstellar Coalition)</li>\n");
+        sb.Append("      <li><span class=\"legend-swatch\" style=\"background:#f5a05a\"></span>ASI (Ascension)</li>\n");
+        sb.Append("    </ul>\n");
+        sb.Append("  </div>\n");
+        // Landmarks section
+        sb.Append("  <div class=\"map-legend-group\">\n");
+        sb.Append("    <button type=\"button\" class=\"map-legend-head\" aria-expanded=\"true\">Landmarks</button>\n");
+        sb.Append("    <ul class=\"map-legend-items\">\n");
+        sb.Append("      <li><span class=\"legend-icon\">Aa</span>Labels</li>\n");
+        sb.Append("      <li><span class=\"legend-icon\">◉</span>Base</li>\n");
+        sb.Append("      <li><span class=\"legend-icon\">▽</span>Field terminal</li>\n");
+        sb.Append("      <li><span class=\"legend-icon\">⬡</span>Teleport</li>\n");
+        sb.Append("      <li><span class=\"legend-icon\">╌</span>Teleport path</li>\n");
+        sb.Append("      <li><span class=\"legend-icon\" style=\"color:#a78bfa\">◉</span>Gamma gateway teleport</li>\n");
+        sb.Append("    </ul>\n");
+        sb.Append("  </div>\n");
+        sb.Append("</div>\n");
+        sb.Append("<script>" +
+            "document.querySelectorAll('.map-legend-head').forEach(function(b){b.addEventListener('click',function(){var g=b.parentElement;var items=g.querySelector('.map-legend-items');var open=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!open));items.classList.toggle('collapsed',open);});});" +
+            "var lt=document.getElementById('map-legend-toggle');" +
+            "if(lt){lt.addEventListener('click',function(){var lg=document.getElementById('map-legend');var hidden=lg.classList.toggle('legend-hidden');lt.setAttribute('aria-expanded',String(!hidden));});}" +
+            "document.querySelectorAll('.map-legend-items li').forEach(function(li) { li.addEventListener('click', function() { var group = li.closest('.map-legend-group').querySelector('.map-legend-head').textContent.trim(); if (group === 'Landmarks') return; var text = li.textContent.trim(); var titleIncludes = ''; var selector = ''; if (text.includes('Alpha')) titleIncludes = 'protected (alpha)'; else if (text.includes('Beta')) titleIncludes = 'open (beta)'; else if (text.includes('Gamma (PvP')) titleIncludes = 'open (gamma)'; else if (text.includes('TM (The')) selector = '.zonemap-node-tm'; else if (text.includes('ICS (Inter')) selector = '.zonemap-node-ics'; else if (text.includes('ASI (Asce')) selector = '.zonemap-node-asi'; else if (text.includes('Gamma') && !text.includes('gateway')) selector = '.zonemap-node-gamma'; else return; var nodes = []; if (selector) { document.querySelectorAll(selector).forEach(function(n) { nodes.push(n.closest('a') || n); }); } else if (titleIncludes) { document.querySelectorAll('.zonemap a title').forEach(function(t) { if (t.textContent.includes(titleIncludes)) nodes.push(t.closest('a')); }); } if (!nodes.length) return; var svg = document.querySelector('svg.zonemap'); var wrap = svg.closest('.zonemap-wrap'); var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity; nodes.forEach(function(n) { var shape = n.tagName === 'a' ? n.querySelector('circle,rect') : n; if (!shape) return; var cx = parseFloat(shape.getAttribute('cx') || shape.getAttribute('x')); var cy = parseFloat(shape.getAttribute('cy') || shape.getAttribute('y')); var r = parseFloat(shape.getAttribute('r') || shape.getAttribute('width')) || 0; if (!isNaN(cx) && !isNaN(cy)) { minX = Math.min(minX, cx - r); minY = Math.min(minY, cy - r); maxX = Math.max(maxX, cx + r); maxY = Math.max(maxY, cy + r); } }); if (minX === Infinity) return; var pad = 40; minX -= pad; minY -= pad; maxX += pad; maxY += pad; var bw = maxX - minX; var bh = maxY - minY; var rect = wrap.getBoundingClientRect(); var vb = svg.getAttribute('viewBox').split(' '); var vw = parseFloat(vb[2]), vh = parseFloat(vb[3]); var base_s = Math.min(rect.width / vw, rect.height / vh); var cx = minX + bw / 2; var cy = minY + bh / 2; var ox = (rect.width - vw * base_s) / 2; var oy = (rect.height - vh * base_s) / 2; var px = ox + cx * base_s; var py = oy + cy * base_s; var s = Math.min(rect.width / (bw * base_s), rect.height / (bh * base_s)); if (s > 4) s = 4; var tx = (rect.width / 2 - px) * s; var ty = (rect.height / 2 - py) * s; if (!wrap._zoomState) wrap._zoomState = { s: 1, tx: 0, ty: 0 }; wrap._zoomState.s = s; wrap._zoomState.tx = tx; wrap._zoomState.ty = ty; svg.style.transition = 'transform 0.5s ease'; svg.style.transform = 'translate(' + tx + 'px,' + ty + 'px) scale(' + s + ')'; setTimeout(function() { svg.style.transition = ''; }, 500); nodes.forEach(function(n) { var shape = n.tagName === 'a' ? n.querySelector('circle,rect') : n; if (!shape) return; var oldStroke = shape.style.stroke || ''; var oldWidth = shape.style.strokeWidth || ''; shape.style.transition = 'stroke 0.2s, stroke-width 0.2s'; shape.style.stroke = '#fff'; shape.style.strokeWidth = '4px'; setTimeout(function() { shape.style.stroke = oldStroke; shape.style.strokeWidth = oldWidth; setTimeout(function() { shape.style.transition = ''; }, 200); }, 1000); }); }); });</script>");
+        return sb.ToString();
     }
 
     /// <summary>The menu sub-categories, in the order the side menu lists them.
@@ -284,6 +415,7 @@ public static class ZonesMapPage
         Dictionary<string, Zone> byName,
         List<(string Src, string Dst, string Rift, double? Gx, double? Gy)> links,
         List<(string Src, string Dst, int Tps, double? Sx, double? Sy, double? Tx, double? Ty)> tps,
+        Dictionary<string, List<(double Tx, double Ty, string Name)>> tpCols,
         double vbW, double vbH, Func<double, double> Px, Func<double, double> Py)
     {
         // A connection line's endpoint sits at the real spot in the zone —
@@ -299,16 +431,36 @@ public static class ZonesMapPage
         }
 
         var sb = new StringBuilder();
-        // Zones without any inter-zone teleport connection (the strongholds,
-        // the PvP arena, dead-end gate islands) are left off the map: they add
-        // noise without a line. A zone stays if it is a TP source or target.
-        var connected = new HashSet<string>(
+        // All zones are plotted (including those without TP connections like
+        // training, strongholds, PvP arena) to mirror the in-game map.
+        // Sentinel rows (x/y >= 49000) are excluded.
+        // ASI_/TM_ zones with no TP links are removed (isolated duplicates).
+        var tpConnected = new HashSet<string>(
             tps.Select(t => t.Src).Concat(tps.Select(t => t.Dst)),
-            StringComparer.Ordinal);
-        var plotted = all.Where(z => connected.Contains(z.Name)).ToList();
+            StringComparer.OrdinalIgnoreCase);
+        var plotted = all.Where(z => z.X < 49000 && z.Y < 49000)
+            .Where(z => {
+                // Remove ASI/TM zones that have no TP connections (isolated duplicates)
+                var n = z.Name.ToLowerInvariant();
+                if ((n.Contains("asi") || n.Contains("tm")) && !n.Contains("gamma") && !tpConnected.Contains(z.Name))
+                    return false;
+                return true;
+            }).ToList();
         var plottedSet = new HashSet<string>(plotted.Select(z => z.Name), StringComparer.Ordinal);
         sb.Append($"<svg viewBox=\"0 0 {vbW:0} {vbH:0}\" role=\"img\" aria-label=\"Map of all game zones with teleport connections, at their grid positions, coastline outlines colored by galaxy family\" class=\"zonemap\" xmlns=\"http://www.w3.org/2000/svg\">\n");
+        // Region anchor targets for the "World map" back-links on zone pages
+        // (ZonePages.MapAnchor: #alpha #beta #t0..#t4 #training).
+        sb.Append("<circle cx=\"550\" cy=\"1080\" r=\"0\" id=\"alpha\"/>\n");
+        sb.Append("<circle cx=\"500\" cy=\"1070\" r=\"0\" id=\"beta\"/>\n");
+        sb.Append("<circle cx=\"580\" cy=\"450\" r=\"0\" id=\"t0\"/>\n");
+        sb.Append("<circle cx=\"580\" cy=\"550\" r=\"0\" id=\"t1\"/>\n");
+        sb.Append("<circle cx=\"580\" cy=\"650\" r=\"0\" id=\"t2\"/>\n");
+        sb.Append("<circle cx=\"580\" cy=\"750\" r=\"0\" id=\"t3\"/>\n");
+        sb.Append("<circle cx=\"580\" cy=\"850\" r=\"0\" id=\"t4\"/>\n");
+        sb.Append("<circle cx=\"559.5\" cy=\"1440.5\" r=\"0\" id=\"training\"/>\n");
         sb.Append("  <title>Map of all game zones with teleport connections, at their grid positions</title>\n");
+        // Dark ocean background (matches the in-game world map)
+        sb.Append($"  <rect width=\"{vbW:0}\" height=\"{vbH:0}\" fill=\"#0a1628\"/>\n");
         // Inter-zone TP lines, dashed and gradient-colored from the source
         // island's family color to the destination's (one gradient per line,
         // anchored in userSpace so the gradient follows the line direction).
@@ -338,21 +490,67 @@ public static class ZonesMapPage
             var tip = $"{z.Name} — {ProtectionLabel(z)} · {TypeLabel(z.Type)} ({z.X:0} / {z.Y:0})";
             var slug = z.Name.ToLowerInvariant().Replace("_", "-");
             // Same design as the index cards: the coastline-only thumbnail
-            // (thumb.png — family-color island border on the dark plate) over
+            // (thumb.svg — family-color island border on the dark plate) over
             // the family-outlined shape.
-            var shape = f == "special"
-                ? $"<circle cx=\"{x1:0.#}\" cy=\"{y1:0.#}\" r=\"{size / 2}\" fill=\"#10151f\" class=\"mapfam-{f} zonemap-node-{f}\"><title>{tip}</title></circle>"
-                : $"<rect x=\"{x1 - size / 2:0.#}\" y=\"{y1 - size / 2:0.#}\" width=\"{size:0.#}\" height=\"{size:0.#}\" rx=\"{size * 0.3:0.#}\" fill=\"#10151f\" class=\"mapfam-{f} zonemap-node-{f}\"><title>{tip}</title></rect>";
-            var image = $"<image href=\"/zonemaps/{slug}/thumb.png\" x=\"{x1 - size / 2:0.#}\" y=\"{y1 - size / 2:0.#}\" width=\"{size:0.#}\" height=\"{size:0.#}\" preserveAspectRatio=\"none\"/>";
+            // Protection border: the shape is slightly larger than the terrain
+            // image. Its fill is the protection color (visible border for PvP)
+            // or the background color (invisible border for PVE/Alpha).
+            var shape = "";
+            var hitArea = $"<circle cx=\"{x1:0.#}\" cy=\"{y1:0.#}\" r=\"{Math.Max(size / 2, 25):0.#}\" fill=\"transparent\" class=\"zonemap-node-{f}\"><title>{tip}</title></circle>";
+            var imgBase = $"<image class=\"wm-base\" href=\"/zonemaps/{slug}/thumb.svg\" x=\"{x1 - size / 2:0.#}\" y=\"{y1 - size / 2:0.#}\" width=\"{size:0.#}\" height=\"{size:0.#}\" preserveAspectRatio=\"none\"/>";
+            // The terrain layers (height/color) exist only for zones whose game
+            // layer data is available (tools/gen_zone_teleport_maps.py writes
+            // static/zonemaps/<slug>/). When the static tree is visible from the
+            // working directory, emit a layer image only for files that exist —
+            // a missing file would 404 in the link checker. When it is not
+            // visible (generator run from elsewhere), keep the classic output.
+            var staticRoot = Path.Combine(Directory.GetCurrentDirectory(), "static", "zonemaps");
+            var staticKnown = Directory.Exists(staticRoot);
+            var imgHeight = (!staticKnown || File.Exists(Path.Combine(staticRoot, slug, "height.png")))
+                ? $"<image class=\"wm-height\" href=\"/zonemaps/{slug}/height.png\" x=\"{x1 - size / 2:0.#}\" y=\"{y1 - size / 2:0.#}\" width=\"{size:0.#}\" height=\"{size:0.#}\" preserveAspectRatio=\"none\" style=\"display:none\"/>" : "";
+            var imgColor = (!staticKnown || File.Exists(Path.Combine(staticRoot, slug, "color.png")))
+                ? $"<image class=\"wm-color\" href=\"/zonemaps/{slug}/color.png\" x=\"{x1 - size / 2:0.#}\" y=\"{y1 - size / 2:0.#}\" width=\"{size:0.#}\" height=\"{size:0.#}\" preserveAspectRatio=\"none\" style=\"display:none\"/>" : "";
+            var image = imgBase + imgHeight + imgColor;
+            // Landmark icons at real positions: base (dot) at center + teleports at tile coords.
+            var iconR = Math.Max(0.4, size * 0.02);
+            var baseIcon = $"<circle cx=\"{x1:0.#}\" cy=\"{y1:0.#}\" r=\"{iconR:0.#}\" fill=\"#c8d2e0\" class=\"zm-icon\"><title>{DisplayName(z.Name)} — Base</title></circle>";
+            var tpIcons = "";
+            if (tpCols.TryGetValue(z.Name, out var cols) && cols.Count > 0)
+            {
+                var zw = (double)z.W;
+                var zh = (double)z.H;
+                foreach (var col in cols)
+                {
+                    var tpx = x1 + (col.Tx / zw - 0.5) * size;
+                    var tpy = y1 + (col.Ty / zh - 0.5) * size;
+                    var label = col.Name.Replace("teleport_column_", "").Replace('_', ' ');
+                    
+                    // Tint the teleport icon purple (#a78bfa) if it's in a beta island and connects to a gamma zone
+                    var strokeColor = "#c8d2e0";
+                    if (ProtectionLabel(z).Contains("beta") && tps.Any(t => t.Src == z.Name && Math.Abs(t.Sx.GetValueOrDefault() - col.Tx) < 0.1 && Math.Abs(t.Sy.GetValueOrDefault() - col.Ty) < 0.1 && t.Dst.Contains("gamma", StringComparison.OrdinalIgnoreCase)))
+                    {
+                        strokeColor = "#a78bfa";
+                        label += " (Gamma Gateway)"; // add hint to title for clarity
+                    }
+
+                    tpIcons += $"<polygon points=\"{HexPoints(tpx, tpy, iconR * 1.2)}\" fill=\"none\" stroke=\"{strokeColor}\" stroke-width=\"0.5\" class=\"zm-icon\"><title>{DisplayName(z.Name)} — {label}</title></polygon>";
+                }
+            }
+            var icons = baseIcon + tpIcons;
             // Label ABOVE the island, centered, scaled down so it never
             // overhangs the island's own width (the map stays readable at
             // rest; zoom in for the small islands).
-            var displayName = DisplayName(z.Name);
+            // Client display name when the client named the zone (same
+            // source as the zone pages and the home cards); otherwise the
+            // derived slug form.
+            var displayName = Md.ClientStrings.TryGetValue(z.Name, out var clientName) && clientName != z.Name
+                ? clientName
+                : DisplayName(z.Name);
             var fontSize = Math.Min(7, size / (0.62 * displayName.Length));
             if (fontSize < 0.9) fontSize = 0.9;
             var text = $"<text x=\"{x1:0.#}\" y=\"{y1 - size / 2 - 1.2:0.#}\" text-anchor=\"middle\" font-size=\"{fontSize:0.##}\" class=\"zonemap-label\">{displayName}</text>";
             var href = PageLink(z.Name);
-            sb.Append($"  <a href=\"{href}\"><g>{shape}{image}{text}</g></a>\n");
+            sb.Append($"  <a href=\"{href}\"><g>{hitArea}{shape}{image}{icons}{text}</g></a>\n");
         }
         for (var i = 0; i < tps.Count; i++)
         {
@@ -361,31 +559,42 @@ public static class ZonesMapPage
             if (!byName.TryGetValue(l.Src, out var s) || !byName.TryGetValue(l.Dst, out var d)) continue;
             var (ax, ay) = End(s, l.Sx, l.Sy);
             var (bx, by) = End(d, l.Tx, l.Ty);
-            sb.Append($"  <line x1=\"{ax:0.#}\" y1=\"{ay:0.#}\" x2=\"{bx:0.#}\" y2=\"{by:0.#}\" class=\"zonemap-tp\" stroke=\"url(#tpg{i})\">" +
+            sb.Append($"  <line x1=\"{ax:0.#}\" y1=\"{ay:0.#}\" x2=\"{bx:0.#}\" y2=\"{by:0.#}\" class=\"zonemap-tp\" stroke=\"url(#tpg{i})\" data-tps=\"{l.Src}\" data-tpd=\"{l.Dst}\">" +
                       $"<title>{l.Src} — {l.Dst} ({l.Tps} TP point{(l.Tps > 1 ? "s" : "")})</title></line>\n");
         }
-        // Gate links only where the source island is on the map at all.
-        foreach (var l in links)
-        {
-            if (!plottedSet.Contains(l.Src) || !plottedSet.Contains(l.Dst)) continue;
-            if (!byName.TryGetValue(l.Src, out var s) || !byName.TryGetValue(l.Dst, out var d)) continue;
-            var (ax, ay) = End(s, l.Gx, l.Gy);
-            var (bx, by) = End(d, null, null);
-            sb.Append($"  <line x1=\"{ax:0.#}\" y1=\"{ay:0.#}\" x2=\"{bx:0.#}\" y2=\"{by:0.#}\" class=\"zonemap-link\">" +
-                      $"<title>{l.Src} — {l.Dst} (exit gate `{l.Rift}`)</title></line>\n");
-        }
+
         sb.Append("</svg>\n");
         return sb.ToString();
     }
 
     /// <summary>Case-insensitive: the main zones are uppercase (zone_TM) while the gate
-    /// zones are lowercase (zone_tm_g_1).</summary>
-    private static string Family(string name) =>
-        name.Contains("gamma", System.StringComparison.OrdinalIgnoreCase) ? "gamma"
-        : name.Contains("tm", System.StringComparison.OrdinalIgnoreCase) ? "tm"
-        : name.Contains("ics", System.StringComparison.OrdinalIgnoreCase) ? "ics"
-        : name.Contains("asi", System.StringComparison.OrdinalIgnoreCase) ? "asi"
-        : "special";
+    private static readonly System.Collections.Generic.Dictionary<string, string> GammaFam = new()
+    {
+        {"zone_gamma_tc_z100", "tm"}, {"zone_gamma_tc_z101", "tm"}, {"zone_gamma_tc_z102", "asi"},
+        {"zone_gamma_tc_z103", "asi"}, {"zone_gamma_tc_z104", "ics"}, {"zone_gamma_tc_z105", "ics"},
+        {"zone_gamma_z106", "tm"}, {"zone_gamma_z107", "asi"}, {"zone_gamma_z108", "asi"},
+        {"zone_gamma_z109", "asi"}, {"zone_gamma_z110", "asi"}, {"zone_gamma_z111", "ics"},
+        {"zone_gamma_z112", "tm"}, {"zone_gamma_z113", "tm"}, {"zone_gamma_z114", "asi"},
+        {"zone_gamma_z115", "asi"}, {"zone_gamma_z116", "asi"}, {"zone_gamma_z117", "asi"},
+        {"zone_gamma_z118", "asi"}, {"zone_gamma_z119", "asi"}, {"zone_gamma_z120", "asi"},
+        {"zone_gamma_z121", "asi"}, {"zone_gamma_z122", "asi"}, {"zone_gamma_z123", "asi"},
+        {"zone_gamma_z124", "tm"}, {"zone_gamma_z125", "tm"}, {"zone_gamma_z126", "tm"},
+        {"zone_gamma_z127", "tm"}, {"zone_gamma_z128", "tm"}, {"zone_gamma_z129", "tm"},
+        {"zone_gamma_z130", "tm"}, {"zone_gamma_z131", "tm"}, {"zone_gamma_z132", "ics"},
+        {"zone_gamma_z133", "ics"}, {"zone_gamma_z134", "ics"}, {"zone_gamma_z135", "ics"},
+        {"zone_gamma_z136", "ics"}, {"zone_gamma_z137", "ics"}, {"zone_gamma_z138", "ics"},
+        {"zone_gamma_z139", "asi"}, {"zone_gamma_z140", "asi"}
+    };
+
+    private static string Family(string name)
+    {
+        var n = name.ToLowerInvariant();
+        if (GammaFam.TryGetValue(n, out var f)) return f;
+        return n.Contains("tm") ? "tm"
+             : n.Contains("ics") ? "ics"
+             : n.Contains("asi") ? "asi"
+             : "special";
+    }
 
     /// <summary>Same family colors as the zone teleport maps (ZoneMapSvg).</summary>
     private static string FamilyColor(string name) =>
@@ -394,17 +603,32 @@ public static class ZonesMapPage
             "tm" => "#41d3ff",
             "ics" => "#6ee7a0",
             "asi" => "#f5a05a",
-            "gamma" => "#a78bfa",
             _ => "#c8d2e0",
         };
 
+    /// <summary>SVG polygon points for a regular hexagon centered at (cx,cy) with radius r.</summary>
+    private static string HexPoints(double cx, double cy, double r)
+    {
+        var pts = new System.Text.StringBuilder();
+        for (var i = 0; i < 6; i++)
+        {
+            var angle = Math.PI / 3 * i - Math.PI / 6;
+            var px = cx + r * Math.Cos(angle);
+            var py = cy + r * Math.Sin(angle);
+            if (i > 0) pts.Append(' ');
+            pts.Append($"{px:0.#},{py:0.#}");
+        }
+        return pts.ToString();
+    }
+
     private static string Escape(string s) => s.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt>");
 
-    /// <summary>Human form of a zone definition name for the map labels —
-    /// the DB carries no client display names, so derive one: tokens are
+    /// <summary>Human form of a zone definition name for the map labels,
+    /// used when the client never named the zone (ClientStrings has no
+    /// entry): tokens are
     /// space-joined, short tokens uppercased (tc, pve, z, g), the rest
     /// title-cased, existing acronyms kept (ASI, TM). zone_gamma_tc_z106
-    /// -> "Gamma TC Z106"; zone_asi_a_real -> "ASI A Real".</summary>
+    /// -> "Gamma TC Z106"; zone_strghld_70 -> "Strghld 70".</summary>
     private static string DisplayName(string name)
     {
         var n = name.StartsWith("zone_", StringComparison.Ordinal) ? name[5..] : name;
@@ -435,7 +659,32 @@ public static class ZonesMapPage
     private static string ProtectionLabel(Zone z)
     {
         if (z.Protected) return "protected (alpha)";
+        if (z.Name.EndsWith("_real", System.StringComparison.OrdinalIgnoreCase)) return "protected (alpha)";
+        if (z.Name.EndsWith("_pve", System.StringComparison.OrdinalIgnoreCase)) return "protected (alpha)";
+        if (z.Name.Contains("gamma", System.StringComparison.OrdinalIgnoreCase)) return "open (gamma)";
+        if (z.Name.EndsWith("_pvp", System.StringComparison.OrdinalIgnoreCase)) return "open (beta)";
         return z.Terraformable ? "open (gamma)" : "open (beta)";
+    }
+
+    /// <summary>Outer outline color by protection level.
+    /// PVE: null (no extra outline). PvP Beta + Gamma TC: yellow. PvP Gamma: red.</summary>
+    private static string? ProtectionColor(Zone z)
+    {
+        // PVE zones: no extra outline
+        if (z.Protected) return null;
+        if (z.Name.Contains("_pve")) return null;
+        if (z.Name.Contains("training")) return null;
+        if (z.Type == 1) return null; // PvE type
+        // Gamma TC zones: gamma color (treated as Gamma for color)
+        if (z.Name.Contains("gamma_tc")) return "#a78bfa";
+        // Gamma zones: red
+        if (z.Name.Contains("gamma_z")) return "#ef4444";
+        // Beta zones (g_1 through g_8): yellow
+        if (z.Name.Contains("_g_") || z.Name.Contains("_g3") || z.Name.Contains("_g4") || z.Name.Contains("_g5") ||
+            z.Name.Contains("_g6") || z.Name.Contains("_g7") || z.Name.Contains("_g8"))
+            return "#fbbf24";
+        // Other PvP (alpha PVP zones, arenas, strongholds): yellow
+        return "#fbbf24";
     }
 
     private static string TypeLabel(int t) => t switch

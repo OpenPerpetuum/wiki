@@ -32,6 +32,9 @@ description: "Modules / Enhancements, tier T2"
 
 **Produced from 5 components, research level 6** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [R4S-S evasive module CT](/content/items/named1-maneuvering-upgrade-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">required: <b>150</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/plasteosine/">Plasteosine</a></div><div class="prod-card-body">required: <b>150</b></div></div>
@@ -39,6 +42,7 @@ description: "Modules / Enhancements, tier T2"
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-panel"/></svg><a class="prod-card-name" href="/content/items/standard-maneuvering-upgrade/">Standard evasive module</a></div><div class="prod-card-body">required: <b>1</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/titanium/">Titanium</a></div><div class="prod-card-body">required: <b>100</b></div></div>
 </div>
+
 ## Used in production
 
 **Component of 3 items** — everything that uses it in production:

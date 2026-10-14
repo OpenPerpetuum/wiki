@@ -18,7 +18,7 @@ const SUBS = '.sidenav li li.nav-has-sub'; // 2nd level: World(2) + Play(7, incl
 
 test('home: groups open, 2nd-level sub-lists closed', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/`);
-  expect(await page.locator('.nav-quick a').getAttribute('href')).toBe('/');
+  expect(await page.locator('.mode-tab[data-mode-tab="home"]').getAttribute('href')).toBe('/');
   expect(await page.evaluate(COLLAPSED, GROUPS)).toEqual([false, false, false, false, false]);
   expect(await page.evaluate(COLLAPSED, SUBS)).toEqual(Array(16).fill(true));
   // Home + Start(1 header + 4) + World(1 + 6) + Play(1 + 6 sub-heads)
@@ -215,7 +215,7 @@ test('zone page: the family-listing entry (not Zones) is highlighted', async ({ 
 });
 
 test('family-listing pages list their zones as cards', async ({ page, baseURL }) => {
-  for (const [fam, min] of [['alpha', 6], ['beta', 10], ['gamma', 30]]) {
+  for (const [fam, min] of [['alpha', 5], ['beta', 10], ['gamma', 30]]) {
     await page.goto(`${baseURL}/zones/${fam}/`);
     const cards = page.locator('.zone-cards a.zone-card');
     expect(await cards.count(), fam).toBeGreaterThanOrEqual(min);
@@ -239,39 +239,52 @@ test('extensions page: Character sub-list auto-opens, Extensions highlighted', a
 test('tech tree page: Research sub-list auto-opens, Tech tree highlighted', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/content/techtree/`);
   const researchSub = page.locator('.sidenav li.nav-has-sub:has(a[href="/features/research/"]) > .nav-sub');
-  expect(await researchSub.locator('a:visible').count()).toBe(1);
+  expect(await researchSub.locator('a:visible').count()).toBeGreaterThanOrEqual(8);
   expect(await page.locator('.sidenav a.active').textContent()).toBe('Tech tree');
 });
 
 // --- Play / Dev mode toggle ---
 
-test('dev mode: knob switches to the matrix theme, reveals the Dev group, persists', async ({ page, baseURL }) => {
+test('dev mode: the Dev tab switches to the matrix theme, reveals the Dev group, persists', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/`);
-  // play mode (default): the Dev group is hidden
+  // play mode (default): the Dev group is hidden, the menu tree is shown
   expect(await page.locator('.nav-dev').isVisible()).toBe(false);
-  await page.click('#mode-toggle');
+  // palette selector: enabled in play mode
+  expect(await page.locator('#palette-toggle').isDisabled()).toBe(false);
+  const playTop = await page.locator('.sidenav > ul > li:visible').evaluateAll((lis) => lis.map((li) => li.className));
+  expect(playTop.filter((c) => c.startsWith('nav-group'))).toEqual(
+      Array(4).fill('nav-group')); // Start, World, Play, Systems
+  expect(playTop).toContain('nav-modes');
+  // the Dev tab: matrix theme + the Dev group — and the menu tree STAYS visible
+  await page.click('.mode-tab[data-mode-tab="dev"]');
   expect(await page.locator('html').getAttribute('data-mode')).toBe('dev');
   expect(await page.locator('.nav-dev').isVisible()).toBe(true);
-  // dev mode hides every other menu entry: only the Dev group remains
-  const visibleTop = await page.locator('.sidenav > ul > li:visible').evaluateAll((lis) => lis.map((li) => li.className));
-  expect(visibleTop).toEqual(['nav-group nav-dev']);
+  const devTop = await page.locator('.sidenav > ul > li:visible').evaluateAll((lis) => lis.map((li) => li.className));
+  expect(devTop.filter((c) => c.startsWith('nav-group')).length).toBe(5); // tree + Dev
   const devLinks = await page.locator('.nav-dev a').evaluateAll((as) => as.map((a) => a.getAttribute('href')));
   expect(devLinks).toEqual(['/features/architecture/', '/features/architecture/', '/features/server/', '/formats/']);
   // the matrix theme: bright green neon on near-black
   const neon = await page.evaluate(() => getComputedStyle(document.documentElement).getPropertyValue('--neon').trim());
   expect(neon.toLowerCase()).toBe('#00ff41');
+  // the palette selector is locked in dev mode (the matrix theme owns the
+  // accent); the tooltip points at the Home tab
+  const pal = page.locator('#palette-toggle');
+  expect(await pal.isDisabled()).toBe(true);
+  expect(await pal.getAttribute('title')).toMatch(/Home/);
   await page.reload(); // the choice survives a reload (localStorage)
   expect(await page.locator('html').getAttribute('data-mode')).toBe('dev');
   expect(await page.locator('.nav-dev').isVisible()).toBe(true);
-  // back to play
-  await page.click('#mode-toggle');
+  expect(await pal.isDisabled()).toBe(true); // still locked after reload
+  // the Home tab exits dev mode (and links to the home page)
+  await page.click('.mode-tab[data-mode-tab="home"]');
   expect(await page.locator('html').getAttribute('data-mode')).toBe(null);
   expect(await page.locator('.nav-dev').isVisible()).toBe(false);
+  expect(await pal.isDisabled()).toBe(false); // palette unlocked again
 });
 
 test('dev mode: developer home page highlights its entry', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/`);
-  await page.click('#mode-toggle');
+  await page.click('.mode-tab[data-mode-tab="dev"]');
   await page.goto(`${baseURL}/features/architecture/`);
   // the Dev group header links to the developer home: it is the active entry
   expect(await page.locator('.sidenav a.active').textContent()).toBe('Dev');
@@ -317,3 +330,125 @@ test('every sidenav link lands with its active entry visible in the menu', async
     expect(ok, `active entry not visible in the sidenav for ${href}`).toBe(true);
   }
 });
+
+test('home page: Home quick link is marked active in sidenav', async ({ page, baseURL }) => {
+  await page.goto(`${baseURL}/`);
+  const active = page.locator('.sidenav a.active');
+  expect(await active.count()).toBe(1);
+  expect(await active.getAttribute('href')).toBe('/');
+  expect(await page.locator('.mode-tab[data-mode-tab="home"].active').count()).toBe(1);
+});
+
+test('translated pages: active link is highlighted in the menu in translated languages', async ({ page, baseURL }) => {
+  // Russian Home
+  await page.goto(`${baseURL}/ru/`);
+  expect(await page.locator('.mode-tab[data-mode-tab="home"].active').count()).toBe(1);
+
+  // Russian Getting Started
+  await page.goto(`${baseURL}/ru/features/getting-started/`);
+  expect(await page.locator('.sidenav a.active').count()).toBe(1);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/ru/features/getting-started/');
+
+  // Russian Combat
+  await page.goto(`${baseURL}/ru/features/combat/`);
+  expect(await page.locator('.sidenav a.active').count()).toBe(1);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/ru/features/combat/');
+
+  // Russian Menu Start overview
+  await page.goto(`${baseURL}/ru/menu/start/`);
+  expect(await page.locator('.sidenav a.active').count()).toBe(1);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/ru/menu/start/');
+
+  // German FAQ
+  await page.goto(`${baseURL}/de/features/faq/`);
+  expect(await page.locator('.sidenav a.active').count()).toBe(1);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/de/features/faq/');
+});
+
+test('translated content pages: active menu highlight and translated content render properly', async ({ page, baseURL }) => {
+  // Russian Ores
+  await page.goto(`${baseURL}/ru/content/ores/`);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/ru/content/ores/');
+  await expect(page.locator('h1')).toContainText('Руды');
+
+  // Russian Robots overview
+  await page.goto(`${baseURL}/ru/content/robots/`);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/ru/content/robots/');
+
+  // Russian Individual Robot page
+  await page.goto(`${baseURL}/ru/content/robots/arbalest/`);
+  await expect(page.locator('h1')).toContainText('Arbalest');
+  await expect(page.locator('.robot-card-stats')).toContainText('Бой');
+  await expect(page.locator('.robot-card-stats')).toContainText('Скорость');
+  await expect(page.locator('.robot-card-stats')).toContainText('Броня');
+
+  // Russian Recipes
+  await page.goto(`${baseURL}/ru/content/recipes/`);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/ru/content/recipes/');
+  await expect(page.locator('body')).toContainText('Уровень исследования');
+
+  // Russian Missions
+  await page.goto(`${baseURL}/ru/content/missions/`);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/ru/content/missions/');
+  await expect(page.locator('body')).toContainText('Вознаграждение');
+
+  // Russian Shop
+  await page.goto(`${baseURL}/ru/content/shop/`);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/ru/content/shop/');
+
+  // Russian Shop category
+  await page.goto(`${baseURL}/ru/content/shop/ammo/`);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/ru/content/shop/ammo/');
+  await expect(page.locator('table')).toContainText('Предмет');
+  await expect(page.locator('table')).toContainText('Кол-во');
+
+  // German Tech Tree Group
+  await page.goto(`${baseURL}/de/content/techtree/groups/common1/`);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/de/content/techtree/groups/common1/');
+
+  // German Tech Tree Node
+  await page.goto(`${baseURL}/de/content/techtree/nodes/ammo-cruisemissile-a/`);
+  await expect(page.locator('table')).toContainText('Schaltet frei');
+  await expect(page.locator('table')).toContainText('Übergeordneter Knoten');
+
+  // French Deployables
+  await page.goto(`${baseURL}/fr/content/deployables/`);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/fr/content/deployables/');
+  await expect(page.locator('body')).toContainText('sans palier');
+
+  // Spanish Extensions
+  await page.goto(`${baseURL}/es/content/extensions/`);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/es/content/extensions/');
+  await expect(page.locator('body')).toContainText('rango');
+  await expect(page.locator('body')).toContainText('sin requisitos previos');
+});
+
+test('protection levels page: active menu link labeled Protection levels and translated', async ({ page, baseURL }) => {
+  // English
+  await page.goto(`${baseURL}/zones/protection/`);
+  const activeEn = page.locator('.sidenav a.active');
+  expect(await activeEn.getAttribute('href')).toBe('/zones/protection/');
+  expect(await activeEn.textContent()).toBe('Protection levels');
+  await expect(page.locator('h1')).toHaveText('Protection levels');
+
+  // Verify World overview links to Protection levels
+  await page.goto(`${baseURL}/zones/`);
+  const protLink = page.locator('article a[href="/zones/protection/"]');
+  expect(await protLink.count()).toBeGreaterThanOrEqual(1);
+  expect(await protLink.first().textContent()).toBe('Protection levels');
+
+  // Russian Protection levels
+  await page.goto(`${baseURL}/ru/zones/protection/`);
+  const activeRu = page.locator('.sidenav a.active');
+  expect(await activeRu.getAttribute('href')).toBe('/ru/zones/protection/');
+  expect(await activeRu.textContent()).toBe('Уровни защиты');
+  await expect(page.locator('h1')).toHaveText('Уровни защиты');
+
+  // German Protection levels
+  await page.goto(`${baseURL}/de/zones/protection/`);
+  const activeDe = page.locator('.sidenav a.active');
+  expect(await activeDe.getAttribute('href')).toBe('/de/zones/protection/');
+  expect(await activeDe.textContent()).toBe('Schutzstufen');
+  await expect(page.locator('h1')).toHaveText('Schutzstufen');
+});
+

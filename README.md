@@ -21,10 +21,47 @@ All commands run from this directory; the Zola build runs in a Docker container
 (pinned `ghcr.io/getzola/zola:v0.23.6`), so no local Zola install is required.
 
 ```bash
-make build   # build the static site into public/
+make build   # build the static site into public/ (runs make i18n + i18n-check first)
 make serve   # live-reload server on http://localhost:8085 (WIKI_PORT=NNNN to override)
 make clean   # remove public/
 ```
+
+## Languages
+
+The site is available in English (the source language) and 13 more — Čeština,
+Deutsch, Español, Français, Italiano, 日本語, 한국어, Nederlands, Polski,
+Português, Русский, 简体中文 and 繁體中文. All translatable strings (UI chrome,
+game names, generated content) live in `translations/<lang>.json`; the
+per-language pages are generated into `content/<lang>/` at build time.
+
+**Adding a new language: drop a `translations/<lang>.json` in place and run
+`make build`.** The file must carry the same keys as `translations/en.json`
+(`make i18n-check` enforces this — missing keys and empty values fail the
+build); start from `en.json` and translate the values. No further wiring:
+`tools/gen_i18n.py` picks the new file up automatically, so the topbar
+language menu, the `/<lang>/` routes and the translated menu labels in the
+search results all appear with it. Game display names go under the `"names"` key, extracted from
+the client's per-language string file (see below).
+
+The file format, the translation conventions (in-game terms stay English,
+`{lang}` placeholder exception, mermaid `\n`), the name-extraction workflow,
+and the test setup are documented in
+[TRANSLATIONS.md](TRANSLATIONS.md).
+
+## Testing
+
+```bash
+make test    # Playwright suite (tests/) against the built site.
+             # One-time setup: npm install && npx playwright install chromium
+make test-py # Python generator tests (tests_py/) with coverage
+             # (pytest + coverage; the in-place idempotency tests need the
+             #  working tree in a generated state — plain `make build` is enough)
+make i18n-check  # translation-file CI gate (key parity, placeholders, empty values)
+```
+
+The i18n machinery (translation files, generators, conventions, and the
+Python/browser test suites) is documented in
+[TRANSLATIONS.md](TRANSLATIONS.md).
 
 ## Regenerating the content pages
 

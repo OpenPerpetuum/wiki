@@ -24,6 +24,9 @@ _No stats — this item carries no aggregate values._
 
 **Produced from 4 components** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [Ammo Mining Fluxore Cprg](/content/items/ammo-mining-fluxore-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/isopropentol/">Isopropentol</a></div><div class="prod-card-body">required: <b>10</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/metachropin/">Metachropin</a></div><div class="prod-card-body">required: <b>10</b></div></div>

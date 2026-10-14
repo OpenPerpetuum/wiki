@@ -281,8 +281,111 @@ ROAD_LAND_H = (150, 158, 172)
 ROAD_WATER_H = (96, 104, 118)
 
 
+def _generate_contours_svg(alt, roads, coast, mode):
+    size = len(alt)
+    s_size = size
+    scale = 1
+    
+    z = __import__('numpy').zeros((size, size))
+    for y in range(size):
+        for x in range(size):
+            z[y, x] = alt[y][x]
+            
+    vmin, vmax = z.min(), z.max()
+    
+    import numpy as np
+    # We will use native resolution!
+    if mode == "color":
+        levels = np.unique(np.clip(np.linspace(min(0, vmin), max(vmax, 1.0), 10), 0, None))
+        if len(levels) < 2:
+            levels = [0.0, 1.0]
+    else:
+        levels = np.unique(np.clip(np.linspace(0, max(vmax, 2000.0), 10), 0, None))
+        if len(levels) < 2:
+            levels = [0.0, 200.0]
+            
+    cs = __import__('matplotlib.pyplot', fromlist=['']).contourf(z, levels=levels)
+    
+    svg = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {s_size} {s_size}" width="100%" height="100%">']
+    
+    # Base background color
+    if mode == "color":
+        r, g, b = _ramp(0)
+    else:
+        r, g, b = (10, 16, 30)
+    bg_hex = f"#{int(r):02x}{int(g):02x}{int(b):02x}"
+    svg.append(f'<rect width="{s_size}" height="{s_size}" fill="{bg_hex}" />')
+
+    for i, path in enumerate(cs.get_paths()):
+        if i >= len(levels): break
+        level_alt = levels[i]
+        
+        if mode == "color":
+            r, g, b = _ramp(level_alt)
+        else:
+            vmax = z.max()
+            t = (level_alt / vmax) ** 0.65 if vmax else 0.0
+            r = min(255, 10 + (66 - 10) * t)
+            g = min(255, 16 + (92 - 16) * t)
+            b = min(255, 30 + (128 - 30) * t)
+            
+        hex_color = f"#{int(r):02x}{int(g):02x}{int(b):02x}"
+        
+        v = path.vertices
+        codes = path.codes
+        
+        d = []
+        for j, point in enumerate(v):
+            code = codes[j] if codes is not None else (1 if j == 0 else 2)
+            if j % 2 != 0 and code not in (1, 79): continue
+            if code == 1: # MOVETO
+                d.append(f"M{point[0]:.1f},{point[1]:.1f}")
+            elif code == 2: # LINETO
+                d.append(f"L{point[0]:.1f},{point[1]:.1f}")
+            elif code == 79: # CLOSEPOLY
+                d.append("Z")
+        if d:
+            svg.append(f'<path fill="{hex_color}" d="{" ".join(d)}"/>')
+            
+    # Coastline
+    if coast:
+        path_coast = []
+        for y in range(0, size, scale):
+            for x in range(0, size, scale):
+                if coast and coast[y][x]:
+                    path_coast.append(f"M{x/scale},{y/scale}h1")
+        if path_coast:
+            svg.append(f'<path stroke="#2a364b" stroke-width="1.0" d="{"".join(path_coast)}"/>')
+            
+    svg.append('</svg>')
+    __import__('matplotlib.pyplot', fromlist=['']).close()
+    return "".join(svg).encode('utf-8')
+
+def roads_svg(roads):
+    if not roads:
+        return None
+    size = len(roads)
+    path_roads = []
+    for y in range(size):
+        row = roads[y]
+        for x in range(size):
+            if row[x]:
+                path_roads.append(f"M{x},{y}h1")
+    if not path_roads:
+        return None
+    return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {size} {size}"><path stroke="#f5a05a" stroke-width="1.0" d="{"".join(path_roads)}"/></svg>'.encode('utf-8')
+
+def height_svg(alt, roads, _isl):
+    return _generate_contours_svg(alt, roads, None, "height")
+
+def color_svg(alt, coast, roads, _isl):
+    return _generate_contours_svg(alt, roads, coast, "color")
+
+# ------------------------------------------- world map + index-card assets
+
+
+
 def height_png(alt, roads, _isl):
-    """Hillshaded monochrome heightmap (real terrain) as PNG bytes."""
     size = len(alt)
     px = bytearray()
     vmax = max(max(r) for r in alt)
@@ -296,15 +399,13 @@ def height_png(alt, roads, _isl):
                 continue
             sh = _shade_at(alt, y, x)
             t = (row[x] / vmax) ** 0.65 if vmax else 0.0
-            r = int(min(255, (LO[0] + (HI[0] - LO[0]) * t) * sh))
-            g = int(min(255, (LO[1] + (HI[1] - LO[1]) * t) * sh))
-            b = int(min(255, (LO[2] + (HI[2] - LO[2]) * t) * sh))
+            r = int(min(255, (10 + (66 - 10) * t) * sh))
+            g = int(min(255, (16 + (92 - 16) * t) * sh))
+            b = int(min(255, (30 + (128 - 30) * t) * sh))
             px += bytes((r, g, b, 255))
     return png_encode(size, size, bytes(px))
 
-
 def color_png(alt, coast, roads, _isl):
-    """Altitude color ramp + roads + island coastline as PNG bytes."""
     size = len(alt)
     px = bytearray()
     for y in range(size):
@@ -313,7 +414,7 @@ def color_png(alt, coast, roads, _isl):
         rrow = roads[y] if roads else None
         for x in range(size):
             if crow and crow[x]:
-                px += bytes((191, 232, 255, 255))  # island border
+                px += bytes((191, 232, 255, 255))
                 continue
             if rrow and rrow[x]:
                 c = ROAD_LAND if row[x] >= SEA_LEVEL else ROAD_WATER
@@ -324,18 +425,35 @@ def color_png(alt, coast, roads, _isl):
             px += bytes((int(min(255, r * sh)), int(min(255, g * sh)), int(min(255, b * sh)), 255))
     return png_encode(size, size, bytes(px))
 
-# ------------------------------------------- world map + index-card assets
+FAM_PARTS = [("tm", "#41d3ff"), ("ics", "#6ee7a0"), ("asi", "#f5a05a")]
 
-FAM_PARTS = [("gamma", "#a78bfa"), ("tm", "#41d3ff"), ("ics", "#6ee7a0"), ("asi", "#f5a05a")]
-
+GAMMA_FAM = {
+    "zone_gamma_tc_z100": "tm", "zone_gamma_tc_z101": "tm", "zone_gamma_tc_z102": "asi",
+    "zone_gamma_tc_z103": "asi", "zone_gamma_tc_z104": "ics", "zone_gamma_tc_z105": "ics",
+    "zone_gamma_z106": "tm", "zone_gamma_z107": "asi", "zone_gamma_z108": "asi",
+    "zone_gamma_z109": "asi", "zone_gamma_z110": "asi", "zone_gamma_z111": "ics",
+    "zone_gamma_z112": "tm", "zone_gamma_z113": "tm", "zone_gamma_z114": "asi",
+    "zone_gamma_z115": "asi", "zone_gamma_z116": "asi", "zone_gamma_z117": "asi",
+    "zone_gamma_z118": "asi", "zone_gamma_z119": "asi", "zone_gamma_z120": "asi",
+    "zone_gamma_z121": "asi", "zone_gamma_z122": "asi", "zone_gamma_z123": "asi",
+    "zone_gamma_z124": "tm", "zone_gamma_z125": "tm", "zone_gamma_z126": "tm",
+    "zone_gamma_z127": "tm", "zone_gamma_z128": "tm", "zone_gamma_z129": "tm",
+    "zone_gamma_z130": "tm", "zone_gamma_z131": "tm", "zone_gamma_z132": "ics",
+    "zone_gamma_z133": "ics", "zone_gamma_z134": "ics", "zone_gamma_z135": "ics",
+    "zone_gamma_z136": "ics", "zone_gamma_z137": "ics", "zone_gamma_z138": "ics",
+    "zone_gamma_z139": "asi", "zone_gamma_z140": "asi"
+}
 
 def fam_color(zone_name):
     """Galaxy family color, same scheme as the C# generators."""
     n = zone_name.lower()
+    if n in GAMMA_FAM:
+        n = GAMMA_FAM[n]
     for part, c in FAM_PARTS:
         if part in n:
             return c
     return "#c8d2e0"
+
 
 
 def downsample(grid, factor):
@@ -387,23 +505,130 @@ def world_png(alt, roads):
     return color_png(alt, coast_mask(alt), roads, None)
 
 
-def thumb_png(coast, color):
-    """Coastline-only outline for the zone cards: bold island border in the
-    family color, dark background, no points of interest."""
+def prot_color(zone):
+    """Protection level border color for the thumbnail."""
+    n = zone.lower()
+    # PVE zones: true blue
+    if '_pve' in n or 'training' in n:
+        return '#3b82f6'
+    if 'gamma_tc' in n:
+        return '#a78bfa'  # gamma galaxy color
+    if 'gamma_z' in n:
+        return '#ef4444'  # red (PvP Gamma)
+    # Beta zones (g_1 through g_8) and other PvP: yellow
+    if '_g_' in n or '_g1' in n or '_g2' in n or '_g3' in n or '_g4' in n:
+        return '#fbbf24'
+    if '_g5' in n or '_g6' in n or '_g7' in n or '_g8' in n:
+        return '#fbbf24'
+    # Other PvP (alpha PVP, arenas, strongholds): yellow
+    if '_pvp' in n or 'arena' in n or 'stronghold' in n:
+        return '#fbbf24'
+    # Alpha PVE main zones (zone_TM, zone_ICS, zone_ASI): true blue
+    return '#3b82f6'
+    if 'gamma_tc' in n:
+        return '#a78bfa'  # gamma galaxy color
+    if 'gamma_z' in n:
+        return '#ef4444'  # red (PvP Gamma)
+    # Beta zones (g_1 through g_8) and other PvP: yellow
+    if '_g_' in n or '_g1' in n or '_g2' in n or '_g3' in n or '_g4' in n:
+        return '#fbbf24'
+    if '_g5' in n or '_g6' in n or '_g7' in n or '_g8' in n:
+        return '#fbbf24'
+    # Other PvP (alpha PVP, arenas, strongholds): yellow
+    if '_pvp' in n or 'arena' in n or 'stronghold' in n:
+        return '#fbbf24'
+    # Alpha PVE main zones (zone_TM, zone_ICS, zone_ASI): no border
+    return None
+
+
+def _dilate(grid, radius):
+    """Dilate a boolean grid by the given radius (Chebyshev distance)."""
+    size = len(grid)
+    out = [row[:] for row in grid]
+    for _ in range(radius):
+        new = [row[:] for row in out]
+        for y in range(size):
+            for x in range(size):
+                if out[y][x]:
+                    for dy in (-1, 0, 1):
+                        ny = y + dy
+                        if 0 <= ny < size:
+                            for dx in (-1, 0, 1):
+                                nx = x + dx
+                                if 0 <= nx < size:
+                                    new[ny][nx] = True
+        out = new
+    return out
+
+
+def thumb_svg(coast, color, prot, roads=None):
     size = len(coast)
     r = int(color[1:3], 16); g = int(color[3:5], 16); b = int(color[5:7], 16)
-    px = bytearray()
+    pr = int(prot[1:3], 16); pg = int(prot[3:5], 16); pb = int(prot[5:7], 16)
+    
+    inside = [[False] * size for _ in range(size)]
+    from collections import deque
+    q = deque()
+    for x in range(size):
+        if not coast[0][x]:
+            q.append((0, x)); inside[0][x] = True
+        if not coast[size-1][x]:
+            q.append((size-1, x)); inside[size-1][x] = True
     for y in range(size):
-        row = coast[y]
-        up = coast[y - 1] if y > 0 else None
-        dn = coast[y + 1] if y < size - 1 else None
+        if not coast[y][0]:
+            q.append((y, 0)); inside[y][0] = True
+        if not coast[y][size-1]:
+            q.append((y, size-1)); inside[y][size-1] = True
+    while q:
+        cy, cx = q.popleft()
+        for dy, dx in ((-1,0),(1,0),(0,-1),(0,1)):
+            ny, nx = cy+dy, cx+dx
+            if 0 <= ny < size and 0 <= nx < size and not inside[ny][nx] and not coast[ny][nx]:
+                inside[ny][nx] = True
+                q.append((ny, nx))
+
+    mask = __import__('numpy').zeros((size, size), dtype=__import__('numpy').uint8)
+    for y in range(size):
         for x in range(size):
-            # dilate by one cell: a 1-cell coastline reads bold at card size
-            on = (row[x]
-                  or (x > 0 and row[x - 1]) or (x < size - 1 and row[x + 1])
-                  or (up is not None and up[x]) or (dn is not None and dn[x]))
-            px += bytes((r, g, b, 255) if on else (16, 21, 31, 255))
-    return png_encode(size, size, bytes(px))
+            if not inside[y][x]:
+                mask[y, x] = 1
+                
+    cs = __import__('matplotlib.pyplot', fromlist=['']).contourf(mask, levels=[0.5, 1.5])
+    
+    fill_col = f"#{r//2:02x}{g//2:02x}{b//2:02x}"
+    prot_col = f"#{pr:02x}{pg:02x}{pb:02x}"
+    
+    svg = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {size} {size}">']
+    
+    for paths in cs.get_paths():
+        v = paths.vertices
+        codes = paths.codes
+        d = []
+        for j, point in enumerate(v):
+            code = codes[j] if codes is not None else (1 if j == 0 else 2)
+            if j % 2 != 0 and code not in (1, 79): continue
+            if code == 1:
+                d.append(f"M{point[0]:.1f},{point[1]:.1f}")
+            elif code == 2:
+                d.append(f"L{point[0]:.1f},{point[1]:.1f}")
+            elif code == 79:
+                d.append("Z")
+        if d:
+            svg.append(f'<path fill="{fill_col}" stroke="{prot_col}" stroke-width="1.5" stroke-linejoin="round" d="{" ".join(d)}"/>')
+            
+    if roads:
+        path_roads = []
+        for y in range(size):
+            row = roads[y]
+            for x in range(size):
+                if row[x]:
+                    path_roads.append(f"M{x},{y}h1")
+        if path_roads:
+            svg.append(f'<path stroke="#f5a05a" stroke-width="1.0" d="{"".join(path_roads)}"/>')
+
+    svg.append('</svg>')
+    __import__('matplotlib.pyplot', fromlist=['']).close()
+    return "".join(svg).encode('utf-8')
 
 
 def png_decode(b):
@@ -475,7 +700,7 @@ def fallback_world_thumb(color_bytes, zone_name):
                 for dy in range(2):
                     for dx in range(2):
                         coast2[y * 2 + dy][x * 2 + dx] = 1
-    return world, thumb_png(coast2, fam_color(zone_name))
+    return world, thumb_svg(coast2, fam_color(zone_name), prot_color(zone_name))
 
 
 FBM_SEA = 0.45  # fBm value below which the procedural placeholder is water
@@ -502,7 +727,7 @@ def fbm_world_thumb(zone_name):
         for x in range(128):
             r, g, b = _ramp(row[x])
             px += bytes((r, g, b, 255))
-    return png_encode(128, 128, bytes(px)), thumb_png(coast, fam_color(zone_name))
+    return png_encode(128, 128, bytes(px)), thumb_svg(coast, fam_color(zone_name), prot_color(zone_name))
 # ------------------------------------------------------------- heightmap
 
 def fbm(size, seed, octaves=5, base_freq=3):
@@ -598,6 +823,18 @@ def parse(svg_text):
     m = re.search(r'viewBox="0 0 (\d+) (\d+)"', svg_text)
     w, h = int(m.group(1)), int(m.group(2))
     zone = re.search(r'aria-label="Teleport map of ([^"]+)"', svg_text).group(1)
+    
+    import re as re2
+    svg_text = re2.sub(r'<svg id="zm-height".*?</svg>', '', svg_text, flags=re2.DOTALL)
+    svg_text = re2.sub(r'<svg id="zm-color".*?</svg>', '', svg_text, flags=re2.DOTALL)
+    svg_text = re2.sub(r'<g id="zm-height".*?</g>', '', svg_text, flags=re2.DOTALL)
+    svg_text = re2.sub(r'<g id="zm-color".*?</g>', '', svg_text, flags=re2.DOTALL)
+    svg_text = re2.sub(r'<g id="zm-roads".*?</g>', '', svg_text, flags=re2.DOTALL)
+    svg_text = re2.sub(r'<clipPath id="coast-clip-[^"]+">.*?</clipPath>', '', svg_text, flags=re2.DOTALL)
+    svg_text = re2.sub(r'<path[^>]*transform="scale\([^"]*\)"[^>]*/>', '', svg_text)
+    svg_text = re2.sub(r'<path[^>]*class="[^"]*zm-coastline-border[^"]*"[^>]*/>', '', svg_text)
+    svg_text = re2.sub(r'<path[^>]*class="[^"]*zm-bg-island[^"]*"[^>]*/>', '', svg_text)
+    
     els = []
     for tm in ITEM.finditer(svg_text):
         if tm.group(3) is not None:  # <text> alternative
@@ -632,7 +869,7 @@ def rebuild(path, name2slug, slug2id, slug2size):
     # zone extent, then the background: real terrain (two switchable modes —
     # static/zone-map.js swaps the images) or, when the zone has no layer
     # data, an embedded procedural heightmap.
-    out.append(f'  <rect x="0" y="0" width="{w}" height="{h}" rx="{16 * f}" fill="#10151f" stroke="#39445a" stroke-width="{2 * f}"/>')
+
     zid = slug2id.get(slug)
     real = (None, None, None, None)
     if zid is not None:
@@ -650,8 +887,15 @@ def rebuild(path, name2slug, slug2id, slug2size):
         alt, coast, roads, isl = real
         d = os.path.join(ZONEMAPS, slug)
         os.makedirs(d, exist_ok=True)
+        open(os.path.join(d, "height.svg"), "wb").write(height_svg(alt, roads, isl))
+        open(os.path.join(d, "color.svg"), "wb").write(color_svg(alt, coast, roads, isl))
+        # world-map swatches: map.md references <slug>/{height,color}.png
+        # (the .NET map generator emits the references when the files exist)
         open(os.path.join(d, "height.png"), "wb").write(height_png(alt, roads, isl))
         open(os.path.join(d, "color.png"), "wb").write(color_png(alt, coast, roads, isl))
+        r_svg = roads_svg(roads)
+        if r_svg:
+            open(os.path.join(d, "roads.svg"), "wb").write(r_svg)
         # world-map node + index-card thumbnail (same altitude data)
         open(os.path.join(d, "world.png"), "wb").write(world_png(alt, roads))
         # the thumb targets 256×256 (a native-512 zone would otherwise draw
@@ -661,9 +905,12 @@ def rebuild(path, name2slug, slug2id, slug2size):
         if tf > 1:
             alt_t = downsample(alt, tf)
             coast_t = coast_mask(alt_t)
+            roads_t = downsample_road(roads, tf) if roads else None
         else:
-            alt_t, coast_t = alt, coast
-        open(os.path.join(d, "thumb.png"), "wb").write(thumb_png(coast_t, fam_color(zone)))
+            alt_t, coast_t, roads_t = alt, coast, roads
+        thumb_bytes = thumb_svg(coast_t, fam_color(zone), prot_color(zone), roads_t)
+        open(os.path.join(d, "thumb.svg"), "wb").write(thumb_bytes)
+        open(os.path.join(d, "thumb.png"), "wb").write(thumb_bytes)
     elif have_fallback:
         # no layer data here: keep the committed derived PNGs (copied into
         # place so the SVG's /zonemaps/<slug>/ URLs resolve)
@@ -673,20 +920,76 @@ def rebuild(path, name2slug, slug2id, slug2size):
             open(os.path.join(d, name), "wb").write(open(os.path.join(fb, name), "rb").read())
         world, thumb = fallback_world_thumb(open(os.path.join(fb, "color.png"), "rb").read(), zone)
         open(os.path.join(d, "world.png"), "wb").write(world)
+        open(os.path.join(d, "thumb.svg"), "wb").write(thumb)
         open(os.path.join(d, "thumb.png"), "wb").write(thumb)
-    if real[0] is not None or have_fallback:
-        out.append(f'  <image id="zm-height" x="0" y="0" width="{w}" height="{h}" href="/zonemaps/{slug}height.png" preserveAspectRatio="none"/>')
-        out.append(f'  <image id="zm-color" x="0" y="0" width="{w}" height="{h}" href="/zonemaps/{slug}color.png" preserveAspectRatio="none" style="display:none"/>')
-    else:
+    if not (real[0] is not None or have_fallback):
         # no layer data anywhere: the procedural placeholder — still write the
         # world.png/thumb.png the world map and the zone cards need
         d = os.path.join(ZONEMAPS, slug)
         os.makedirs(d, exist_ok=True)
         world, thumb = fbm_world_thumb(zone)
         open(os.path.join(d, "world.png"), "wb").write(world)
+        open(os.path.join(d, "thumb.svg"), "wb").write(thumb)
         open(os.path.join(d, "thumb.png"), "wb").write(thumb)
-        b64 = base64.b64encode(heightmap_png(zone)).decode("ascii")
+        # procedural placeholder swatches, so the world map's
+        # <slug>/{height,color}.png references always resolve
+        noise = heightmap_png(zone)
+        open(os.path.join(d, "height.png"), "wb").write(noise)
+        open(os.path.join(d, "color.png"), "wb").write(noise)
+        b64 = base64.b64encode(noise).decode("ascii")
         out.append(f'  <image id="zm-height" x="0" y="0" width="{w}" height="{h}" href="data:image/png;base64,{b64}" opacity="0.55" preserveAspectRatio="none"/>')
+
+
+    # Extract coastline from thumb.svg to use as map shape
+    coast_d = None
+    sf = 1.0
+    thumb_path = os.path.join(ZONEMAPS, slug, "thumb.svg")
+    if os.path.isfile(thumb_path):
+        with open(thumb_path, "r", encoding="utf-8") as fthumb:
+            thumb_data = fthumb.read()
+            m_vb = re.search(r'viewBox="0 0 (\d+) (\d+)"', thumb_data)
+            m_d = re.search(r'<path[^>]* d="([^"]+)"', thumb_data)
+            if m_vb and m_d:
+                S = int(m_vb.group(1))
+                coast_d = m_d.group(1)
+                sf = w / S
+    
+    if coast_d:
+        out.append(f'  <clipPath id="coast-clip-{slug}"><path class="zm-bg-island" transform="scale({sf})" d="{coast_d}"/></clipPath>')
+        out.append(f'  <path class="zm-bg-island" transform="scale({sf})" d="{coast_d}" fill="#10151f" />')
+        out.append(f'  <g clip-path="url(#coast-clip-{slug})">')
+    else:
+        out.append(f'  <rect x="0" y="0" width="{w}" height="{h}" rx="{16 * f}" fill="#10151f" />')
+        out.append(f'  <g>')
+        
+    if real[0] is not None or have_fallback:
+        def get_inner_svg(filename, id_name, display="", extra_class=""):
+            p = os.path.join(ZONEMAPS, slug, filename)
+            if os.path.isfile(p):
+                content = open(p, "r", encoding="utf-8").read()
+                # Find the viewBox to know the internal scale
+                m_vb = re.search(r'viewBox="0\s+0\s+(\d+)\s+(\d+)"', content)
+                if not m_vb: return ""
+                inner_w = float(m_vb.group(1))
+                inner_scale = w / inner_w
+                
+                # Strip the outer <svg> and </svg>
+                content = re.sub(r'^.*?<svg[^>]*>', '', content, flags=re.DOTALL)
+                content = content.replace('</svg>', '')
+                
+                cls_part = f' class="{extra_class}"' if extra_class else ''
+                style_part = f' style="{display}"' if display else ''
+                return f'<g id="{id_name}"{cls_part} transform="scale({inner_scale})"{style_part}>{content}</g>'
+            return ""
+            
+        out.append("    " + get_inner_svg("height.svg", "zm-height"))
+        out.append("    " + get_inner_svg("color.svg", "zm-color", "display:none"))
+        roads_inner = get_inner_svg("roads.svg", "zm-roads", extra_class="zm-roads")
+        if roads_inner:
+            out.append("    " + roads_inner)
+    else:
+        b64 = base64.b64encode(heightmap_png(zone)).decode("ascii")
+        out.append(f'    <image id="zm-height" x="0" y="0" width="{w}" height="{h}" href="data:image/png;base64,{b64}" opacity="0.55" preserveAspectRatio="none"/>')
 
     # the generated points of interest are small (r = w/170); enlarge them
     # a bit and give the labels a dark halo so they read on any terrain.
@@ -694,16 +997,36 @@ def rebuild(path, name2slug, slug2id, slug2size):
     # hidden until map.js lights them up) and the data-ltp tokens on the
     # endpoint column circles pass through untouched.
     last_shape = None  # (kind, markup, radius-growth) waiting for its label
+    in_clip = True
     for kind, at, txt in els:
         if kind == "rect":
             if at.get("fill") == "#10151f":
                 continue  # re-emitted above
             if at.get("fill") == "none" and at.get("stroke") == "#54658a":
                 continue  # border added by a previous run of this script
+            if "zonemap-node-special" in at.get("class", ""):
+                dt = at.get("data-title", "")
+                if "Field terminal" in dt and "zm-node-terminal" not in at["class"]:
+                    at["class"] += " zm-node-terminal"
+                elif "Outpost" in dt and "zm-node-outpost" not in at["class"]:
+                    at["class"] += " zm-node-outpost"
             out.append("  " + markup(kind, at))
         elif kind == "line":
-            out.append("  " + markup(kind, at))  # grid + ltp lines pass through
+            if at.get("stroke") == "#1d2534":
+                out.append("    " + markup(kind, at))  # grid line
+            else:
+                if in_clip:
+                    out.append("  </g>")
+                    in_clip = False
+                if "zm-teleport-line" not in at.get("class", ""):
+                    at["class"] = (at.get("class", "") + " zm-teleport-line").strip()
+                out.append("  " + markup(kind, at))  # ltp lines
         elif kind == "text":
+            if in_clip:
+                out.append("  </g>")
+                in_clip = False
+            if "zm-label" not in at.get("class", ""):
+                at["class"] = (at.get("class", "") + " zm-label").strip()
             if last_shape is None:
                 out.append("  " + markup("text", at, txt))
                 continue
@@ -722,10 +1045,6 @@ def rebuild(path, name2slug, slug2id, slug2size):
                 at["stroke-linejoin"] = "round"
             if at.get("fill") == "#d5dbe8":
                 at["fill"] = "#eef4fd"  # brighter over the new backgrounds
-            # A multi-destination column (data-dests with 2+ names) is NOT
-            # wrapped in an <a>: static/map.js opens a destination selector
-            # on hover/tap and a click must never guess a destination (the
-            # single-destination case keeps its plain link).
             href = None if multidest else resolve(label_names(kind_name, txt), name2slug)
             if href:
                 out.append(f'  <a href="{href}" title="{esc(txt)}">')
@@ -735,27 +1054,34 @@ def rebuild(path, name2slug, slug2id, slug2size):
                 out.append("  </a>")
             last_shape = None
         else:
-            # circle (column or landing spot) or path (exit gate)
+            if in_clip:
+                out.append("  </g>")
+                in_clip = False
             if last_shape is not None:
-                # previous shape had no label — emit it plain
                 out.append("  " + last_shape[1])
             shape_kind = "spot" if kind == "circle" and "stroke-dasharray" in at else \
                          ("gate" if kind == "path" else "col")
+            if "zm-node-teleport" not in at.get("class", ""):
+                at["class"] = (at.get("class", "") + " zm-node-teleport").strip()
             growth = 0.0
             if not already and kind == "circle" and "r" in at:
                 growth = float(at["r"]) * 0.5
                 at["r"] = _fmt(float(at["r"]) + growth)
             if not already and kind in ("circle", "path") and "stroke-width" in at:
                 at["stroke-width"] = _fmt(float(at["stroke-width"]) * 1.25)
-            # data-dests is ;-separated "display|zone" pairs (display names
-            # may contain spaces)
             multidest = kind == "circle" and at.get("data-dests", "").count("|") >= 2
             last_shape = (shape_kind, markup(kind, at), growth, multidest)
 
+    if in_clip:
+        out.append("  </g>")
     if last_shape is not None:
         out.append("  " + last_shape[1])
     # emphasized zone border on top of the heightmap
-    out.append(f'  <rect x="0" y="0" width="{w}" height="{h}" rx="{16 * f}" fill="none" stroke="#54658a" stroke-width="{4 * f}"/>')
+    pc = prot_color(zone) or '#54658a'
+    if coast_d:
+        out.append(f'  <path class="zm-coastline-border" transform="scale({sf})" d="{coast_d}" fill="none" stroke="{pc}" stroke-width="{4 * f / sf}" pointer-events="none"/>')
+    else:
+        out.append(f'  <rect class="zm-coastline-border" x="0" y="0" width="{w}" height="{h}" rx="{16 * f}" fill="none" stroke="{pc}" stroke-width="{4 * f}" pointer-events="none"/>')
     out.append("</svg>")
 
     with open(path, "w", encoding="utf-8") as fh:
@@ -794,6 +1120,9 @@ def main():
         os.makedirs(d, exist_ok=True)
         world, thumb = fbm_world_thumb(slug.rstrip("/"))
         open(os.path.join(d, "world.png"), "wb").write(world)
+        # the world map references <slug>/thumb.svg (the per-zone SVGs use
+        # both names for the same procedural placeholder)
+        open(os.path.join(d, "thumb.svg"), "wb").write(thumb)
         open(os.path.join(d, "thumb.png"), "wb").write(thumb)
     workers = max(1, min(len(files), os.cpu_count() or 1))
     with Pool(workers) as pool:  # one process per core, one zone each

@@ -14,7 +14,7 @@
     // (INITIAL_MAX): at s = 1 its islands — a dense cluster at one end of a
     // tall canvas — are a handful of pixels lost in empty space, so it
     // opens pre-zoomed onto the cluster (initContentZoom, below).
-    var MIN = 1, MAX = 8, INITIAL_MAX = 3, MIN_VISIBLE = 0.25;
+    var MIN = 1, MAX = 48, INITIAL_MAX = 3, MIN_VISIBLE = 0.25;
 
     // Deploy base (body[data-root] = config.base_url): "/" locally, the full
     // GitHub Pages URL on the project site (subpath /Wiki/). The static
@@ -40,6 +40,20 @@
 
     // Per-wrap zoom state, on the element so it survives mermaid re-renders
     // (theme toggle) replacing the svg inside the same box.
+    
+    function syncToD3(wrap) {
+        if (wrap._d3zoom && typeof d3 !== 'undefined') {
+            var st = stateOf(wrap);
+            wrap._d3_syncing = true;
+            var W = wrap._d3_cache ? wrap._d3_cache.W : wrap._zoomSvg.clientWidth;
+            var H = wrap._d3_cache ? wrap._d3_cache.H : wrap._zoomSvg.clientHeight;
+            var Cx = W / 2, Cy = H / 2;
+            var dx = st.tx + Cx * (1 - st.s);
+            var dy = st.ty + Cy * (1 - st.s);
+            d3.select(wrap).call(wrap._d3zoom.transform, d3.zoomIdentity.translate(dx, dy).scale(st.s));
+            wrap._d3_syncing = false;
+        }
+    }
     function stateOf(wrap) {
         if (!wrap._zoomState) wrap._zoomState = { s: 1, tx: 0, ty: 0 };
         return wrap._zoomState;
@@ -47,6 +61,7 @@
 
     function applyWrap(wrap) {
         var svg = wrap._zoomSvg, st = stateOf(wrap);
+        if (!wrap._d3_syncing) syncToD3(wrap);
         if (svg) svg.style.transform = 'translate(' + st.tx + 'px,' + st.ty + 'px) scale(' + st.s + ')';
     }
 
@@ -55,10 +70,11 @@
     // the LAYOUT (untransformed) size — getBoundingClientRect would include
     // the zoom scale, which clamp() needs to know as st.s, not bake in.
     function contentSize(wrap) {
+        if (wrap._d3_cache) return wrap._d3_cache.c;
         var svg = wrap._zoomSvg;
         var st = window.getComputedStyle(svg);
-        var vw = svg.clientWidth - parseFloat(st.paddingLeft) - parseFloat(st.paddingRight);
-        var vh = svg.clientHeight - parseFloat(st.paddingTop) - parseFloat(st.paddingBottom);
+        var vw = svg.clientWidth - parseFloat(st.paddingLeft || 0) - parseFloat(st.paddingRight || 0);
+        var vh = svg.clientHeight - parseFloat(st.paddingTop || 0) - parseFloat(st.paddingBottom || 0);
         if (svg.viewBox && svg.viewBox.baseVal.width) {
             var vb = svg.viewBox.baseVal;
             var k = Math.min(vw / vb.width, vh / vb.height);
@@ -69,7 +85,7 @@
 
     function clamp(wrap) {
         var st = stateOf(wrap);
-        var rect = wrap.getBoundingClientRect();
+        var rect = wrap._d3_cache ? wrap._d3_cache.rect : wrap.getBoundingClientRect();
         var W = rect.width, H = rect.height;
         var c = contentSize(wrap);
         var sw = st.s * c.w, sh = st.s * c.h;
@@ -118,10 +134,11 @@
     // map center instead of following the cursor.)
     function zoomAt(wrap, clientX, clientY, factor) {
         var svg = wrap._zoomSvg, st = stateOf(wrap);
-        var rect = svg.getBoundingClientRect();
-        var c0x = rect.left + rect.width / 2 - st.tx;  // identity center
-        var c0y = rect.top + rect.height / 2 - st.ty;
-        var cap = wrap._zmPrezoomed ? MAX : Math.min(MAX, INITIAL_MAX);
+        var rect = wrap._d3_cache ? wrap._d3_cache.rect : wrap.getBoundingClientRect();
+        var c0x = rect.left + rect.width / 2;  // identity center
+        var c0y = rect.top + rect.height / 2;
+        var isWorldMap = wrap._zoomSvg && wrap._zoomSvg.querySelector('.zonemap-tp');
+        var cap = (wrap._zmPrezoomed || isWorldMap) ? MAX : Math.min(MAX, INITIAL_MAX);
         var ns = Math.min(cap, Math.max(MIN, st.s * factor));
         if (ns === st.s) return;
         var qx = (clientX - c0x - st.tx) / st.s;  // (2), relative to C0
@@ -130,6 +147,7 @@
         st.ty = clientY - c0y - ns * qy;
         st.s = ns;
         clamp(wrap);
+        syncToD3(wrap);
         applyWrap(wrap);
     }
 
@@ -206,12 +224,23 @@
             if (nodes.length) {
                 var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
                 for (var i = 0; i < nodes.length; i++) {
-                    var el = nodes[i], b;
-                    try { b = el.getBBox(); } catch (e) { continue; }
-                    if (b.x < minX) minX = b.x;
-                    if (b.y < minY) minY = b.y;
-                    if (b.x + b.width > maxX) maxX = b.x + b.width;
-                    if (b.y + b.height > maxY) maxY = b.y + b.height;
+                    var el = nodes[i];
+                    var ex, ey, ew, eh;
+                    if (el.tagName === 'circle') {
+                        var cr = parseFloat(el.getAttribute('r')) || 0;
+                        ex = (parseFloat(el.getAttribute('cx')) || 0) - cr;
+                        ey = (parseFloat(el.getAttribute('cy')) || 0) - cr;
+                        ew = eh = cr * 2;
+                    } else {
+                        ex = parseFloat(el.getAttribute('x')) || 0;
+                        ey = parseFloat(el.getAttribute('y')) || 0;
+                        ew = parseFloat(el.getAttribute('width')) || 0;
+                        eh = parseFloat(el.getAttribute('height')) || 0;
+                    }
+                    if (ex < minX) minX = ex;
+                    if (ey < minY) minY = ey;
+                    if (ex + ew > maxX) maxX = ex + ew;
+                    if (ey + eh > maxY) maxY = ey + eh;
                 }
                 // Identity-frame geometry: the svg currently carries the
                 // previous state; measure with it cleared first.
@@ -246,10 +275,18 @@
                 }
             }
         } catch (e) { /* fall through: stay at s = 1 */ }
-        if (typeof ns === 'undefined') return;
+        if (typeof ns === 'undefined') {
+            // World map fallback: the content fills the viewBox so the
+            // pre-zoom formula gives s < 1.05. Set a sensible default
+            // zoom so labels are readable on load.
+            if (svg.querySelector('.zonemap-tp')) {
+                ns = INITIAL_MAX; tx = 0; ty = 0;
+            } else { return; }
+        }
         st.s = ns; st.tx = tx; st.ty = ty;
         wrap._zmPrezoomed = true;
         clamp(wrap);
+        syncToD3(wrap);
     }
 
     function attach(wrap) {
@@ -270,97 +307,63 @@
             if (h) im.setAttribute('href', withRoot(h));
         });
 
-        // Wheel = zoom (no key needed). The listener is non-passive so the
-        // page scroll is suppressed while the pointer is over the map.
-        wrap.addEventListener('wheel', function (e) {
-            // Re-check in case the pie became detectable only after the
-            // render (a pie detected late must not swallow the wheel).
-            if (wrap.classList.contains('mermaid') && pieNow(wrap)) return;
-            e.preventDefault();
-            zoomAt(wrap, e.clientX, e.clientY, Math.exp(-e.deltaY * 0.0015));
-        }, { passive: false });
 
-        // Two-finger pinch on touch devices.
-        var pinch = null;
-        function dist(e) {
-            var d = 0;
-            for (var i = 0; i + 1 < e.touches.length; i += 2) {
-                var dx = e.touches[i + 1].clientX - e.touches[i].clientX;
-                var dy = e.touches[i + 1].clientY - e.touches[i].clientY;
-                d += Math.sqrt(dx * dx + dy * dy);
-            }
-            return d;
+        if (typeof d3 !== 'undefined') {
+            var isWorldMap = !!wrap.querySelector('svg.zonemap');
+            var cap = (wrap._zmPrezoomed || isWorldMap) ? MAX : Math.min(MAX, INITIAL_MAX);
+            
+            var d3zoom = d3.zoom()
+                .scaleExtent([MIN, MAX])
+                .on("start", function() {
+                    // removed willChange: transform as it causes massive compositing layers at max zoom
+                    var svg = wrap._zoomSvg;
+                    var st = window.getComputedStyle(svg);
+                    var vw = svg.clientWidth - parseFloat(st.paddingLeft || 0) - parseFloat(st.paddingRight || 0);
+                    var vh = svg.clientHeight - parseFloat(st.paddingTop || 0) - parseFloat(st.paddingBottom || 0);
+                    var cw = vw, ch = vh;
+                    if (svg.viewBox && svg.viewBox.baseVal.width) {
+                        var vb = svg.viewBox.baseVal;
+                        var k = Math.min(vw / vb.width, vh / vb.height);
+                        cw = vb.width * k; ch = vb.height * k;
+                    }
+                    wrap._d3_cache = {
+                        rect: wrap.getBoundingClientRect(),
+                        W: svg.clientWidth,
+                        H: svg.clientHeight,
+                        c: { w: cw, h: ch }
+                    };
+                })
+                .on("end", function() {
+                    // removed willChange cleanup
+wrap._d3_cache = null;
+                })
+                .on("zoom", function(e) {
+                    if (wrap._d3_syncing) return;
+                    var st = stateOf(wrap);
+                    var W = wrap._d3_cache ? wrap._d3_cache.W : wrap._zoomSvg.clientWidth;
+            var H = wrap._d3_cache ? wrap._d3_cache.H : wrap._zoomSvg.clientHeight;
+                    var Cx = W / 2, Cy = H / 2;
+                    st.tx = e.transform.x - Cx * (1 - e.transform.k);
+                    st.ty = e.transform.y - Cy * (1 - e.transform.k);
+                    st.s = e.transform.k;
+                    
+                    // We can just use clamp or let d3 handle bounds.
+                    // Let's call applyWrap directly. We might want clamp logic but D3 handles some of it.
+                    // For now, let's keep the existing clamp for bounds:
+                    clamp(wrap);
+        syncToD3(wrap);
+                    
+                    // If clamp modified it, we should feedback to d3? 
+                    // Let's just apply
+                    applyWrap(wrap);
+                });
+                
+            d3.select(wrap).call(d3zoom).on("dblclick.zoom", null);
+            
+            // To sync our initContentZoom and zoom slider with d3, we need to update d3's transform
+            wrap._d3zoom = d3zoom;
         }
-        wrap.addEventListener('touchstart', function (e) {
-            if (e.touches.length === 2) { pinch = dist(e); dragging = false; }
-        }, { passive: true });
-        wrap.addEventListener('touchmove', function (e) {
-            if (pinch !== null && e.touches.length === 2 &&
-                !(wrap.classList.contains('mermaid') && pieNow(wrap))) {
-                e.preventDefault();
-                var d = dist(e);
-                if (d > 0 && pinch > 0) {
-                    // Free two-finger zoom: the anchor is the midpoint
-                    // between the fingers, so the map follows the pinch.
-                    var mx = (e.touches[0].clientX + e.touches[1].clientX) / 2;
-                    var my = (e.touches[0].clientY + e.touches[1].clientY) / 2;
-                    zoomAt(wrap, mx, my, d / pinch);
-                }
-                pinch = d;
-            }
-        }, { passive: false });
-        wrap.addEventListener('touchend', function () { pinch = null; }, { passive: true });
 
-        // Pan handlers live on the wrapper, not the svg: zoomed in and
-        // panned, the (transformed) svg can leave empty areas inside the
-        // panel, and a drag started there should still pan the map.
-        var dragging = false, moved = false, lx = 0, ly = 0;
-        wrap.addEventListener('pointerdown', function (e) {
-            // consume the stale flag from the previous gesture: the drag's
-            // own click echo is already gone (pointerup was prevented), so a
-            // new pointerdown means the next click is a real one (e.g. the
-            // reset button right after panning)
-            moved = false;
-            if (e.target.closest && e.target.closest('button')) return; // reset button
-            if (wrap.classList.contains('mermaid') && pieNow(wrap)) return;
-            dragging = true; moved = false; lx = e.clientX; ly = e.clientY;
-            svg.classList.add('dragging');
-        });
-        wrap.addEventListener('pointermove', function (e) {
-            if (!dragging) return;
-            var dx = e.clientX - lx, dy = e.clientY - ly;
-            if (!moved) {
-                if (Math.abs(dx) + Math.abs(dy) <= 2) return; // still a click
-                // capture only once it is really a drag — capturing on
-                // pointerdown would retarget the pointerup to the wrapper
-                // and the derived click event would never reach the <a>
-                // elements inside the map (teleport links would be
-                // unclickable)
-                moved = true;
-                try { wrap.setPointerCapture(e.pointerId); } catch (err) { /* no capture */ }
-                return;
-            }
-            var st = stateOf(wrap);
-            st.tx += dx; st.ty += dy;
-            lx = e.clientX; ly = e.clientY;
-            clamp(wrap); // keep at least MIN_VISIBLE of the viewport covered
-            applyWrap(wrap);
-        });
-        function endDrag(e) {
-            if (!dragging) return;
-            dragging = false;
-            svg.classList.remove('dragging');
-            if (moved) {
-                try { wrap.releasePointerCapture(e.pointerId); } catch (err) { /* already released */ }
-                if (e.type === 'pointerup') e.preventDefault();
-            }
-        }
-        wrap.addEventListener('pointerup', endDrag);
-        wrap.addEventListener('pointercancel', endDrag);
-        // Suppress the click-through to the zone link right after a drag.
-        wrap.addEventListener('click', function (e) {
-            if (moved) { e.preventDefault(); e.stopPropagation(); moved = false; }
-        }, true);
 
         attachLtp(wrap);
         attachTpLines(wrap);
@@ -368,6 +371,94 @@
         ensureReset(wrap);
         initContentZoom(wrap);
         applyWrap(wrap);
+        var isWorldMap = !!wrap.querySelector('svg.zonemap');
+        if (isWorldMap) {
+            attachZoomSlider(wrap);
+            attachProgressiveDisclosure(wrap);
+        }
+    }
+
+    // Vertical zoom slider: a thin draggable bar on the right edge of the
+    // world map wrap. Shows the current zoom level; drag to set it.
+    function attachZoomSlider(wrap) {
+        var slider = document.createElement('div');
+        slider.className = 'zm-zoom-slider';
+        slider.innerHTML = '<div class="zm-zs-title">Zoom</div><div class="zm-zs-track"><div class="zm-zs-thumb"></div></div>';
+        wrap.appendChild(slider);
+        var track = slider.querySelector('.zm-zs-track');
+        var thumb = slider.querySelector('.zm-zs-thumb');
+        var dragging = false;
+
+        function update() {
+            var st = stateOf(wrap);
+            var frac = ((st.s - MIN) / (MAX - MIN)) * 100;
+            thumb.style.bottom = Math.max(0, Math.min(100, frac)) + '%';
+        }
+
+        // Update on every zoom/pan (piggyback on applyWrap)
+        var origApply = applyWrap;
+        // Use a MutationObserver-free approach: just update on pointer events
+        wrap.addEventListener('pointermove', function () { update(); });
+        wrap.addEventListener('wheel', function () { setTimeout(update, 0); }, { passive: true });
+
+        function setFromPointer(clientY) {
+            var r = track.getBoundingClientRect();
+            var frac = 1 - (clientY - r.top) / r.height;
+            frac = Math.max(0, Math.min(1, frac));
+            var st = stateOf(wrap);
+            var ns = MIN + frac * (MAX - MIN);
+            // Zoom about the center of the wrap
+            var rect = wrap._d3_cache ? wrap._d3_cache.rect : wrap.getBoundingClientRect();
+            var cx = rect.left + rect.width / 2;
+            var cy = rect.top + rect.height / 2;
+            zoomAt(wrap, cx, cy, ns / st.s);
+            update();
+        syncToD3(wrap);
+        }
+
+        track.addEventListener('pointerdown', function (e) {
+            dragging = true;
+            track.setPointerCapture(e.pointerId);
+            setFromPointer(e.clientY);
+            e.preventDefault();
+        });
+        track.addEventListener('pointermove', function (e) {
+            if (!dragging) return;
+            setFromPointer(e.clientY);
+        });
+        track.addEventListener('pointerup', function (e) {
+            dragging = false;
+            try { track.releasePointerCapture(e.pointerId); } catch (err) {}
+        });
+
+        // Periodic update (covers wheel zoom, pinch, etc.)
+        setInterval(function () { if (wrap._zoomSvg) update(); }, 200);
+        update();
+    }
+
+    // Progressive disclosure: show/hide SVG element groups based on zoom level.
+    // At low zoom: only zone shapes + labels visible.
+    // At medium zoom (s >= 4): TP line endpoints (dots) appear.
+    // At high zoom (s >= 8): additional detail (if any data-zoom-level groups exist).
+    function attachProgressiveDisclosure(wrap) {
+        var svg = wrap.querySelector('svg.zonemap');
+        if (!svg) return;
+        var groups = svg.querySelectorAll('[data-zoom-level]');
+        if (!groups.length) return;
+        function update() {
+            var st = stateOf(wrap);
+            for (var i = 0; i < groups.length; i++) {
+                var min = parseFloat(groups[i].getAttribute('data-zoom-level'));
+                var display = st.s >= min ? '' : 'none';
+                if (groups[i].style.display !== display) {
+                    groups[i].style.display = display;
+                }
+            }
+        }
+        wrap.addEventListener('pointermove', function () { update(); });
+        wrap.addEventListener('wheel', function () { setTimeout(update, 0); }, { passive: true });
+        setInterval(function () { if (wrap._zoomSvg) update(); }, 300);
+        update();
     }
 
     // Local (in-zone) teleports: every .ltp-line is hidden until the cursor
@@ -388,22 +479,48 @@
             var anchors = [];
             for (var j = 0; j < circles.length; j++) {
                 var toks = (circles[j].getAttribute('data-ltp') || '').split(/\s+/);
-                if (toks.indexOf(id) >= 0) anchors.push(circles[j]);
+                if (toks.indexOf(id) >= 0) {
+                    anchors.push({
+                        x: parseFloat(circles[j].getAttribute('cx')),
+                        y: parseFloat(circles[j].getAttribute('cy'))
+                    });
+                }
             }
             if (anchors.length) pairs.push({ line: lines[i], anchors: anchors, on: false });
         }
         if (!pairs.length) return;
         var SHOW = 26, KEEP = 44; // screen px (show / keep-lit radius)
         var raf = 0, cx = 0, cy = 0;
+        
+        var cachedM = null, c_tx = null, c_ty = null, c_s = null, c_l = null, c_t = null;
+        var pt = null;
+        try { pt = document.createElementNS('http://www.w3.org/2000/svg', 'svg').createSVGPoint(); } catch (e) {}
+        if (!pt) return;
+        var svg = wrap.querySelector('svg');
+        function getM() {
+            var st = stateOf(wrap);
+            var rect = wrap._d3_cache ? wrap._d3_cache.rect : wrap.getBoundingClientRect();
+            if (cachedM && c_tx === st.tx && c_ty === st.ty && c_s === st.s && c_l === rect.left && c_t === rect.top) {
+                return cachedM;
+            }
+            cachedM = svg.getScreenCTM();
+            c_tx = st.tx; c_ty = st.ty; c_s = st.s; c_l = rect.left; c_t = rect.top;
+            return cachedM;
+        }
+
         function update() {
             raf = 0;
+            var m = getM();
+            if (!m) return;
             for (var i = 0; i < pairs.length; i++) {
                 var p = pairs[i];
                 var best = Infinity;
                 for (var j = 0; j < p.anchors.length; j++) {
-                    var r = p.anchors[j].getBoundingClientRect();
-                    var dx = cx - (r.left + r.width / 2);
-                    var dy = cy - (r.top + r.height / 2);
+                    var a = p.anchors[j];
+                    pt.x = a.x; pt.y = a.y;
+                    var sp = pt.matrixTransform(m);
+                    var dx = cx - sp.x;
+                    var dy = cy - sp.y;
                     var d = Math.sqrt(dx * dx + dy * dy);
                     if (d < best) best = d;
                 }
@@ -442,40 +559,46 @@
         var svg = wrap.querySelector('svg.zonemap');
         var lines = svg ? svg.querySelectorAll('line.zonemap-tp') : [];
         if (!lines.length) return;
+        
+        // Zone nodes: each <a> has a center position (from its child shape)
+        var links = svg.querySelectorAll('a[href]');
+        
+        // Isolate nodes and lines into their own hardware layers to prevent 
+        // the heavy island textures from re-rasterizing when line styles change.
+        if (links.length && !links[0].parentNode.classList.contains('zm-nodes-layer')) {
+            var nodesGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            nodesGroup.setAttribute('class', 'zm-nodes-layer');
+            links[0].parentNode.insertBefore(nodesGroup, links[0]);
+            for (var i = 0; i < links.length; i++) nodesGroup.appendChild(links[i]);
+            
+            var linesGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            linesGroup.setAttribute('class', 'zm-lines-layer');
+            if (lines.length) {
+                nodesGroup.parentNode.insertBefore(linesGroup, nodesGroup.nextSibling);
+                for (var i = 0; i < lines.length; i++) linesGroup.appendChild(lines[i]);
+            }
+        }
+        
         var segs = [];
         for (var i = 0; i < lines.length; i++) {
+            var el = lines[i];
             segs.push({
-                el: lines[i], on: false,
-                x1: parseFloat(lines[i].getAttribute('x1')),
-                y1: parseFloat(lines[i].getAttribute('y1')),
-                x2: parseFloat(lines[i].getAttribute('x2')),
-                y2: parseFloat(lines[i].getAttribute('y2'))
+                el: el, on: false,
+                src: el.getAttribute('data-tps') || '',
+                dst: el.getAttribute('data-tpd') || ''
             });
         }
-        var pt = null;
-        try { pt = document.createElementNS('http://www.w3.org/2000/svg', 'svg').createSVGPoint(); } catch (e) {}
-        if (!pt) return;
-        function dist(s, px, py) {
-            var vx = s.x2 - s.x1, vy = s.y2 - s.y1;
-            var wx = px - s.x1, wy = py - s.y1;
-            var l2 = vx * vx + vy * vy;
-            var t = l2 ? (wx * vx + wy * vy) / l2 : 0;
-            t = Math.max(0, Math.min(1, t));
-            var dx = px - (s.x1 + t * vx), dy = py - (s.y1 + t * vy);
-            return Math.sqrt(dx * dx + dy * dy);
+        var activeZone = null;
+        function slugFromZoneName(name) {
+            return name.toLowerCase().replace(/_/g, '-');
         }
-        var raf = 0, mx = 0, my = 0;
-        function update() {
-            raf = 0;
-            if (!(tpFine && tpFine.matches)) return;
-            var m = svg.getScreenCTM();
-            if (!m) return;
-            pt.x = mx; pt.y = my;
-            var p = pt.matrixTransform(m.inverse());
+        function setZoneActive(newZone) {
+            if (tpFine && !tpFine.matches && window.matchMedia && window.matchMedia('(pointer: coarse)').matches) return;
+            if (newZone === activeZone) return;
+            activeZone = newZone;
             for (var i = 0; i < segs.length; i++) {
                 var s = segs[i];
-                var d = dist(s, p.x, p.y);
-                var on = d < TP_SHOW ? true : (s.on ? d <= TP_KEEP : false);
+                var on = newZone && (slugFromZoneName(s.src) === newZone || slugFromZoneName(s.dst) === newZone);
                 if (on !== s.on) {
                     s.on = on;
                     if (on) s.el.classList.add('zm-tp-on');
@@ -483,15 +606,16 @@
                 }
             }
         }
-        wrap.addEventListener('pointermove', function (e) {
-            if (!(tpFine && tpFine.matches)) return;
-            mx = e.clientX; my = e.clientY;
-            if (!raf) raf = requestAnimationFrame(update);
-        });
-        wrap.addEventListener('pointerleave', function () {
-            for (var i = 0; i < segs.length; i++)
-                if (segs[i].on) { segs[i].on = false; segs[i].el.classList.remove('zm-tp-on'); }
-        });
+        
+        for (var i = 0; i < links.length; i++) {
+            var a = links[i];
+            var href = a.getAttribute('href') || '';
+            var slug = href.replace(/^.*\/zones\//, '').replace(/\/$/, '').replace(/^.*\//, '');
+            (function(s) {
+                a.addEventListener('pointerenter', function() { setZoneActive(s); });
+                a.addEventListener('pointerleave', function() { if (activeZone === s) setZoneActive(null); });
+            })(slug);
+        }
     }
 
     // Teleport destination selector. An item that can reach MORE THAN ONE

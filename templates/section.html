@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block title %}{% if section.title %}{{ section.title }} | {% endif %}{{ config.title }}{% endblock title %}
 {% block content %}
-<article>
+<article><!-- SECTION-TEMPLATE -->
     {% if section.content %}{{ section.content | safe }}{% endif %}
     <h2>Pages</h2>
     <ul>

@@ -68,10 +68,10 @@ Four weapon technologies, each with its own ammo and distance profile:
 | **Missiles** | Missiles | Long range | Hit or miss is decided by the *robot's* hit-chance stat, not distance. Damage scales with the target's size relative to the explosion radius — big missiles on small targets hit for much less. |
 
 Damage falls off with distance on a smooth cosine curve: full damage at optimal
-range, zero at optimal + falloff (see [damage falloff](/features/combat/#damage-types-and-armor)).
+range, zero at optimal + falloff (see [damage falloff](/features/combat/#damage-types)).
 
 Ammo is where you tune damage: primary + secondary damage types let you fine-tune
-against a target (see [damage types](/features/combat/#damage-types-and-armor)) —
+against a target (see [damage types](/features/combat/#damage-types)) —
 at the cost of a bit of total damage versus pure-primary ammo.
 
 Turrets come in small/medium/large; **match the size to the robot** (small bots
@@ -148,7 +148,7 @@ Counterplay: sensor strength (chassis), ECCM, and keeping distance.
 - **Detection module** — passive boost to your detection strength.
 
 Detection strength vs. stealth strength decides whether you can see (and lock) a
-cloaked target at all — see [detection & masking](/features/combat/#detection-interference-and-speed).
+cloaked target at all — see [detection & masking](/features/combat/#detection-masking-and-speed).
 
 ### Energy Warfare (EnWar)
 

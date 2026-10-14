@@ -24,11 +24,12 @@ public static class SearchIndex
             // page slug, section pages map to their section root.
             var urlParts = parts
                 .Take(parts.Length - 1)
-                .Select(p => p.Replace('_', '-'))
-                .Concat(isSectionPage ? Enumerable.Empty<string>() : new[] { Path.GetFileNameWithoutExtension(fileName).Replace('_', '-') })
+                .Select(p => p.Replace('_', '-').ToLowerInvariant())
+                .Concat(isSectionPage ? Enumerable.Empty<string>() : new[] { Path.GetFileNameWithoutExtension(fileName).Replace('_', '-').ToLowerInvariant() })
                 .ToArray();
-            var (title, description) = FrontMatter(File.ReadAllText(file));
+            var (title, description, render) = FrontMatter(File.ReadAllText(file));
             if (string.IsNullOrEmpty(title)) continue;
+            if (render is "false" or "False") continue;
             var url = urlParts.Length == 0 ? "/" : "/" + string.Join("/", urlParts) + "/";
             entries.Add(new()
             {
@@ -43,18 +44,19 @@ public static class SearchIndex
         Console.WriteLine($"wrote static/search_index.json ({entries.Count} pages)");
     }
 
-    private static (string Title, string Description) FrontMatter(string text)
+    private static (string Title, string Description, string Render) FrontMatter(string text)
     {
-        if (!text.StartsWith("---\n")) return ("", "");
+        if (!text.StartsWith("---\n")) return ("", "", "");
         var end = text.IndexOf("\n---", 4, StringComparison.Ordinal);
-        if (end < 0) return ("", "");
-        var (title, description) = ("", "");
+        if (end < 0) return ("", "", "");
+        var (title, description, render) = ("", "", "");
         foreach (var line in text[4..end].Split('\n'))
         {
             if (line.StartsWith("title:")) title = Unquote(line["title:".Length..].Trim());
             else if (line.StartsWith("description:")) description = Unquote(line["description:".Length..].Trim());
+            else if (line.StartsWith("render:")) render = line["render:".Length..].Trim();
         }
-        return (title, description);
+        return (title, description, render);
     }
 
     private static string Unquote(string s) => s.Length >= 2 && s.StartsWith('"') && s.EndsWith('"') ? s[1..^1] : s;

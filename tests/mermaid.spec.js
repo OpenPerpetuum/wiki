@@ -35,9 +35,11 @@ test('every mermaid diagram in content/ parses', async ({ page, baseURL }) => {
   ).toEqual([]);
 });
 
-// Diagrams are interactive like the maps: wheel zooms the diagram (not the
-// page), a reset button is added, and it restores the original view.
-test('diagram zooms on wheel and resets', async ({ page, baseURL }) => {
+// Content-page diagrams are deliberately NOT interactive (pointer-events:
+// none in style.css, since the layout rework): the wheel keeps scrolling the
+// page, there is no pan, and the reset button is hidden. Zone/world maps and
+// the extension tree keep the d3 zoom.
+test('diagram is not interactive (wheel scrolls the page)', async ({ page, baseURL }) => {
   test.skip(page.viewportSize().width <= 500, 'desktop layout only');
   await page.goto(`${baseURL}/features/pbs/`, { waitUntil: 'networkidle' });
   const box = page.locator('.mermaid').first();
@@ -47,18 +49,17 @@ test('diagram zooms on wheel and resets', async ({ page, baseURL }) => {
   await page.waitForTimeout(100);
   const b = await box.boundingBox();
   await page.mouse.move(b.x + b.width / 2, b.y + b.height / 2);
-  const y0 = await page.evaluate(() => window.scrollY);
-  await page.mouse.wheel(0, -240);
+  // Wheel over the diagram scrolls the page (the diagram ignores it).
+  await page.mouse.wheel(0, 240);
   await page.waitForTimeout(50);
-  expect(await page.evaluate(() => window.scrollY)).toBe(y0); // page did not scroll
-  let t = await box.locator('svg').evaluate((el) => el.style.transform);
-  expect(t).toMatch(/scale\((1\.[1-9]|[2-9])/);
-
-  const reset = box.locator('.zonemap-reset');
-  expect(await reset.count()).toBe(1);
-  await reset.click();
-  t = await box.locator('svg').evaluate((el) => el.style.transform);
+  expect(await page.evaluate(() => window.scrollY)).toBeGreaterThan(0);
+  // No zoom transform, and any reset button the JS adds is hidden by CSS.
+  const t = await box.locator('svg').evaluate((el) => el.style.transform);
   expect(t).toMatch(/scale\(1\)/);
+  const resets = box.locator('.zonemap-reset, .zoommap-reset');
+  for (let i = 0; i < await resets.count(); i++) {
+    expect(await resets.nth(i).isVisible()).toBe(false);
+  }
 });
 
 // Pie charts are deliberately NOT interactive: the wheel keeps scrolling the

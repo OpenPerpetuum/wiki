@@ -33,6 +33,9 @@ description: "Modules / Sensors & scanning, tier T3"
 
 **Produced from 8 components, research level 7** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [Radiocor sensor suppressor tuning CT](/content/items/named2-sensor-supressor-booster-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/espitium/">Espitium</a></div><div class="prod-card-body">required: <b>150</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/named1-sensor-supressor-booster/">DDX200-Veil sensor suppressor tuning</a></div><div class="prod-card-body">required: <b>1</b></div></div>
@@ -43,6 +46,7 @@ description: "Modules / Sensors & scanning, tier T3"
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-crystal"/></svg><a class="prod-card-name" href="/content/items/robotshard-thelodica-basic/">Damaged thelodica fragment</a></div><div class="prod-card-body">required: <b>10</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/titanium/">Titanium</a></div><div class="prod-card-body">required: <b>50</b></div></div>
 </div>
+
 ## Used in production
 
 **Component of 2 items** — everything that uses it in production:

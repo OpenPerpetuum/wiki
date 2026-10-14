@@ -24,6 +24,9 @@ _No stats — this item carries no aggregate values._
 
 **Produced from 2 components, research level 1** — assemble the components to build it (see [Recipes](/content/recipes/) for the full list):
 
+
+**Blueprint:** [Mobile synthesizer [Obelisk VI] CT](/content/items/missionitem-tm-ii-level03-exp3-06-t06-cprg/)
+
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/missionitem-tm-ii-level03-exp3-06-t04/">Mobile synthesizer casing [Obelisk VI]</a></div><div class="prod-card-body">required: <b>1</b></div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/content/items/missionitem-tm-ii-level03-exp3-06-t05/">Mobile synthesizer emitter [Obelisk VI]</a></div><div class="prod-card-body">required: <b>1</b></div></div>
