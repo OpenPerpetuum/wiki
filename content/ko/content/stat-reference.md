@@ -8,12 +8,12 @@ description: "What the item stats mean and how big each value is: units, catalog
 
 # 능력치 설명
 
-Every item page lists raw stat values. This page puts them in scale: the unit of each stat, the smallest/largest values in the whole catalog, and real items to compare against. Ranges are computed over all enabled items (prototypes and test objects excluded).
+모든 아이템 페이지가 원시 스탯 값을 나열합니다. 이 페이지는 그것들을 규모로 놓습니다: 각 스탯의 단위, 전체 카탈로그의 최소/최대 값, 비교할 실제 아이템. 범위는 모든 활성화된 아이템으로 계산(프로토타입과 테스트 오브젝트 제외).
 
 
-## Powergrid and CPU in context
+## 맥락에서의 Powergrid와 CPU
 
-A module's **powergrid_usage** is only meaningful against the robot that carries it: the chassis defines the total RP (**powergrid_max**), energy (**core_max**) and CPU (**cpu_max**) its modules may use. **Powergrid upgrades** modules add a fixed amount of RP. A usage value is a percentage of the available capacity — for example a module with powergrid_usage 214 uses 214% of an Ikarus chassis (100 RP, nothing fits beyond the frame) but only ~3% of an Onyx chassis (6.6k RP).
+모듈의 **powergrid_usage**는 그것을 싣는 로봇에 대해서만 의미 있습니다: 차체는 그 모듈이 사용할 수 있는 총 RP(**powergrid_max**), 에너지(**core_max**), CPU(**cpu_max**)를 정의합니다. **Powergrid 업그레이드** 모듈은 고정량의 RP를 추가합니다. 사용 값은 가용 용량의 백분율입니다 — 예를 들어 powergrid_usage 214인 모듈은 Ikarus 차체(100 RP, 프레임 초과로는 아무것도 맞지 않음)의 214%를 사용하지만 Onyx 차체(6.6k RP)의 약 3%만 사용합니다.
 
 | Chassis (frame) | Powergrid (RP) | Core (RP) | CPU |
 |---|---|---|---|
@@ -89,7 +89,7 @@ A module's **powergrid_usage** is only meaningful against the robot that carries
 
 ## Stat scale
 
-For each documented stat: how many items have it, its unit, and the smallest / median / largest value in the catalog with an item you can open at each end.
+문서화된 각 스탯에 대해: 그것을 가진 아이템 수, 단위, 카탈로그의 최소 / 중간 / 최대 값, 각 끝에서 열 수 있는 아이템과 함께.
 
 | Stat | Unit | Items | Smallest | Median | Largest | Small example | Large example |
 |---|---|---|---|---|---|---|---|
@@ -135,4 +135,4 @@ For each documented stat: how many items have it, its unit, and the smallest / m
 | `stealth_strength` | — | 525 | 1 | 100 | 100M | [Asintec terminal](/content/items/public-docking-base-thelodica/) | [Relic Sap](/content/items/relic-sap/) |
 
 
-Stats not listed here are either **modifier** stats (they change another stat instead of setting one) or internal values without a player-facing unit — the developer field reference in [Formats](/ko/formats/) lists every field.
+여기 나열되지 않은 스탯은 **모디파이어** 스탯(다른 스탯을 설정하기보다 변경)이거나 플레이어용 단위가 없는 내부 값입니다 — [Formats](/ko/formats/)의 개발자 필드 참조에 모든 필드가 나열됩니다.

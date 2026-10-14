@@ -8,11 +8,11 @@ description: "Deployable structures and placeable items: one card per deployable
 
 # 可部署物
 
-Deployables are items that can be **placed in the terrain** to act on the zone — effect suppliers, repairers, turrets, teleports, and similar. Placing one is a corporation/privilege-gated action. The 133 non-PBS deployables are listed below, one page each: **click a card to open it.** The PBS structures are documented on the [Power base stations](/zh-TW/features/pbs/) page. How deployables are identified, paired capsule↔object, and which stat fields drive them is in [Deployable fields](/zh-TW/formats/deployable-fields/).
+可部署物(deployable)是可以**放置在地形中**以影響區域的物品——效果供應者、修理器、砲塔、傳送門等。放置是一個由公司/權限限制的操作。下方列出133個非 PBS 可部署物,每個一頁:**點擊卡片以打開。** PBS 結構記錄在[Power base stations](/zh-TW/features/pbs/)頁面。可部署物如何被標識、膠囊↔對象如何配對、哪些狀態欄位驅動它們,在[Deployable fields](/zh-TW/formats/deployable-fields/)中。
 
-## Mobile teleports (12)
+## 移動傳送(12)
 
-Deployable teleports a player places in the terrain (see [Teleporting](/zh-TW/features/movement/)).
+玩家放置在地形中的傳送門(見[Teleporting](/zh-TW/features/movement/))。
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-map"/></svg><a class="prod-card-name" href="/zh-TW/content/deployables/mobile-teleport-capsule-armored/">Armored teleport beacon</a></div><div class="prod-card-body">無等級</div></div>
@@ -29,9 +29,9 @@ Deployable teleports a player places in the terrain (see [Teleporting](/zh-TW/fe
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-map"/></svg><a class="prod-card-name" href="/zh-TW/content/deployables/mobile-world-teleporter-basic/">Interzone teleport beacon</a></div><div class="prod-card-body">無等級</div></div>
 </div>
 
-## Mobile fields (6)
+## 移動力場(6)
 
-Deployable effect fields: ECCM, maskers and the reactor stabilizer.
+可部署效果場:ECCM、遮蔽器與反應堆穩定器。
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-radar"/></svg><a class="prod-card-name" href="/zh-TW/content/deployables/mobile-field-eccm/">Mobile Field Eccm</a></div><div class="prod-card-body">無等級</div></div>
@@ -42,18 +42,18 @@ Deployable effect fields: ECCM, maskers and the reactor stabilizer.
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-radar"/></svg><a class="prod-card-name" href="/zh-TW/content/deployables/mobile-field-reactor-stabilizer-capsule/">Mobile Field Reactor Stabilizer Capsule</a></div><div class="prod-card-body">無等級</div></div>
 </div>
 
-## Arena teleports (2)
+## 競技場傳送(2)
 
-Teleport devices that move combatants and audience between the arena and the outer zones.
+在競技場與外部區域之間移動戰鬥者與觀眾的傳送裝置。
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-map"/></svg><a class="prod-card-name" href="/zh-TW/content/deployables/mobile-arena-teleporter-warrior-object/">Arena warrior starter position teleport</a></div><div class="prod-card-body">無等級</div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-map"/></svg><a class="prod-card-name" href="/zh-TW/content/deployables/mobile-arena-teleporter-warriorhome-object/">Warrior exit teleport</a></div><div class="prod-card-body">無等級</div></div>
 </div>
 
-## Mines & bombs (7)
+## 地雷與炸彈(7)
 
-Deployed explosives: the landmine sizes, wall bombs, the area bomb and plant bombs.
+部署的爆炸物:地雷尺寸、牆壁炸彈、區域炸彈與植物炸彈。
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-star"/></svg><a class="prod-card-name" href="/zh-TW/content/deployables/area-bomb-capsule/">Plasma bomb</a></div><div class="prod-card-body">無等級</div></div>
@@ -65,9 +65,9 @@ Deployed explosives: the landmine sizes, wall bombs, the area bomb and plant bom
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-star"/></svg><a class="prod-card-name" href="/zh-TW/content/deployables/wall-bomb-b-capsule/">Wall Bomb B Capsule</a></div><div class="prod-card-body">T2</div></div>
 </div>
 
-## Wall repairers (3)
+## 牆壁修復器(3)
 
-Deployed repairers that heal the wall structures.
+治療牆體結構的部署修理器。
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-tree"/></svg><a class="prod-card-name" href="/zh-TW/content/deployables/wall-healer-large-capsule/">DWM-3 wall maintenance unit</a></div><div class="prod-card-body">無等級</div></div>
@@ -75,9 +75,9 @@ Deployed repairers that heal the wall structures.
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-tree"/></svg><a class="prod-card-name" href="/zh-TW/content/deployables/wall-healer-small-capsule/">DWM-1 wall maintenance unit</a></div><div class="prod-card-body">無等級</div></div>
 </div>
 
-## Plant seeds (13)
+## 植物種子(13)
 
-Seeds that grow the matching plant species when planted (see [Plants](/zh-TW/content/plants/)).
+種植後長成對應植物種類的種子(見[Plants](/zh-TW/content/plants/))。
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-tree"/></svg><a class="prod-card-name" href="/zh-TW/content/deployables/plant-seed-bonsai/">Uropsia incubator</a></div><div class="prod-card-body">無等級</div></div>
@@ -95,9 +95,9 @@ Seeds that grow the matching plant species when planted (see [Plants](/zh-TW/con
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-tree"/></svg><a class="prod-card-name" href="/zh-TW/content/deployables/plant-seed-wall/">Defensive Wall Unit</a></div><div class="prod-card-body">無等級</div></div>
 </div>
 
-## NPC eggs (82)
+## NPC 蛋(82)
 
-Capsules that hatch an NPC unit when placed (bought in the [NPC egg shop](/zh-TW/content/shop/npc-eggs/)).
+放置後孵化 NPC 單位的膠囊(在[NPC egg shop](/zh-TW/content/shop/npc-eggs/)購買)。
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-robots"/></svg><a class="prod-card-name" href="/zh-TW/content/deployables/npc-egg-2ndyear-capsule/">Guardian Commander TAP</a></div><div class="prod-card-body">無等級</div></div>
@@ -184,25 +184,25 @@ Capsules that hatch an NPC unit when placed (bought in the [NPC egg shop](/zh-TW
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-robots"/></svg><a class="prod-card-name" href="/zh-TW/content/deployables/npc-egg-thelodica-small-miniboss3-capsule/">Level 3 Light Mercenary TAP</a></div><div class="prod-card-body">T3</div></div>
 </div>
 
-## Gates (1)
+## 閘門(1)
 
-The zone gate capsule.
+區域之門膠囊。
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-TW/content/deployables/gate-capsule/">Forcefield gate</a></div><div class="prod-card-body">無等級</div></div>
 </div>
 
-## Containers (1)
+## 容器(1)
 
-The deployable container capsule.
+可部署容器膠囊。
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-home"/></svg><a class="prod-card-name" href="/zh-TW/content/deployables/container-capsule/">Field container capsule</a></div><div class="prod-card-body">無等級</div></div>
 </div>
 
-## Miscellaneous (6)
+## 其他(6)
 
-Everything else that can be placed in the terrain: beacons, probes, buoys, and the test deployables.
+其他所有可以放置在地形中的物品:信標、探針、浮標與測試用可部署物。
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-TW/content/deployables/deploy-punchbag/">Deploy Punchbag</a></div><div class="prod-card-body">無等級</div></div>

@@ -8,11 +8,11 @@ description: "The research tree: every category, and every node with the item it
 
 # 科技樹
 
-Tech tree nodes unlock items by spending **research points** (earned from kernels — see [Research](/zh-TW/features/research/) in the features section). A node can only be unlocked when its **parent** node is unlocked and the **enabler extension** is learned. Point types: common, hitech, industrial, newtech, nuimqol, pelistal, thelodica.
+科技樹節點通過花費**研究點數**(從內核獲得——見功能區的[Research](/zh-TW/features/research/))解鎖物品。只有當其**父**節點已解鎖且已學習**啟動擴展**時,節點才能解鎖。點數類型:common、hitech、industrial、newtech、nuimqol、pelistal、thelodica。
 
 ## 分類
 
-Each category is its own page with the full tree and one page per node.
+每個類別有包含完整樹與每節點一頁的自己的頁面。
 
 | Category | Nodes | Root lines | What it unlocks |
 |---|---|---|---|

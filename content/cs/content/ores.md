@@ -8,7 +8,7 @@ description: "All ore types and their extraction yields; the per-zone node param
 
 # Rudy
 
-Ore exists in the ground as **deposits (nodes)**. Each node holds a limited total amount; when a node is mined below its threshold it is removed and the zone regenerates new nodes up to its configured maximum. Every ore has its own page with its extraction facts, the zones it spawns in and what is made from it. How each column is used by the server, with the node-generation formulas, is in [Ore fields](/cs/formats/ore-fields/).
+Ruda se v zemi vyskytuje jako **ložiska (uzly)**. Každý uzel drží omezené celkové množství; když je uzel dobýt pod svůj práh, je odstraněn a zóna regeneruje nové uzly až po nastavené maximum. Každá ruda má vlastní stránku se svými fakty o dobývání, zónami, ve kterých se vyskytuje, a tím, co se z ní vyrábí. Jak server využívá každý sloupec, včetně vzorců generování uzlů, je v [Ore fields](/cs/formats/ore-fields/).
 
 ## Typy rud
 
@@ -16,26 +16,26 @@ Ore exists in the ground as **deposits (nodes)**. Each node holds a limited tota
 
 <table>
 <tr><th>Ruda</th><th>Množství na těžbu</th><th>Typ těžby</th><th>Aktivační efekt</th><th>Geologický skenovací dokument</th></tr>
-<tr><td><a href="/cs/content/ores/titan/">titan</a></td><td>1.5k</td><td>0</td><td>no</td><td>5382</td></tr>
-<tr><td><a href="/cs/content/ores/crude/">crude</a></td><td>1.5k</td><td>1</td><td>no</td><td>5383</td></tr>
-<tr><td><a href="/cs/content/ores/stermonit/">stermonit</a></td><td>975</td><td>0</td><td>no</td><td>5384</td></tr>
-<tr><td><a href="/cs/content/ores/imentium/">imentium</a></td><td>975</td><td>0</td><td>no</td><td>5385</td></tr>
-<tr><td><a href="/cs/content/ores/liquizit/">liquizit</a></td><td>450</td><td>1</td><td>no</td><td>5386</td></tr>
-<tr><td><a href="/cs/content/ores/epriton/">epriton</a></td><td>450</td><td>1</td><td>no</td><td>5387</td></tr>
-<tr><td><a href="/cs/content/ores/helioptris/">helioptris</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/cs/content/ores/triandlus/">triandlus</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/cs/content/ores/prismocitae/">prismocitae</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/cs/content/ores/gravel/">gravel</a></td><td>1</td><td>0</td><td>no</td><td>5388</td></tr>
-<tr><td><a href="/cs/content/ores/electrofruit/">electrofruit</a></td><td>300</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/cs/content/ores/silgium/">silgium</a></td><td>975</td><td>0</td><td>no</td><td>5389</td></tr>
+<tr><td><a href="/cs/content/ores/titan/">titan</a></td><td>1.5k</td><td>0</td><td>Ne</td><td>5382</td></tr>
+<tr><td><a href="/cs/content/ores/crude/">crude</a></td><td>1.5k</td><td>1</td><td>Ne</td><td>5383</td></tr>
+<tr><td><a href="/cs/content/ores/stermonit/">stermonit</a></td><td>975</td><td>0</td><td>Ne</td><td>5384</td></tr>
+<tr><td><a href="/cs/content/ores/imentium/">imentium</a></td><td>975</td><td>0</td><td>Ne</td><td>5385</td></tr>
+<tr><td><a href="/cs/content/ores/liquizit/">liquizit</a></td><td>450</td><td>1</td><td>Ne</td><td>5386</td></tr>
+<tr><td><a href="/cs/content/ores/epriton/">epriton</a></td><td>450</td><td>1</td><td>Ne</td><td>5387</td></tr>
+<tr><td><a href="/cs/content/ores/helioptris/">helioptris</a></td><td>450</td><td>0</td><td>Ne</td><td>–</td></tr>
+<tr><td><a href="/cs/content/ores/triandlus/">triandlus</a></td><td>450</td><td>0</td><td>Ne</td><td>–</td></tr>
+<tr><td><a href="/cs/content/ores/prismocitae/">prismocitae</a></td><td>450</td><td>0</td><td>Ne</td><td>–</td></tr>
+<tr><td><a href="/cs/content/ores/gravel/">gravel</a></td><td>1</td><td>0</td><td>Ne</td><td>5388</td></tr>
+<tr><td><a href="/cs/content/ores/electrofruit/">electrofruit</a></td><td>300</td><td>0</td><td>Ne</td><td>–</td></tr>
+<tr><td><a href="/cs/content/ores/silgium/">silgium</a></td><td>975</td><td>0</td><td>Ne</td><td>5389</td></tr>
 <tr><td><a href="/cs/content/ores/gammaterial/">gammaterial</a></td><td>150</td><td>0</td><td>vyžadován</td><td>–</td></tr>
-<tr><td><a href="/cs/content/ores/plants/">plants</a></td><td>10</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/cs/content/ores/energymineral/">energymineral</a></td><td>100</td><td>1</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/cs/content/ores/fluxore/">fluxore</a></td><td>100</td><td>0</td><td>no</td><td>5842</td></tr>
-<tr><td><a href="/cs/content/ores/deeptanium/">deeptanium</a></td><td>1.5k</td><td>0</td><td>no</td><td>8671</td></tr>
-<tr><td><a href="/cs/content/ores/deepriton/">deepriton</a></td><td>450</td><td>1</td><td>no</td><td>8699</td></tr>
-<tr><td><a href="/cs/content/ores/dhdt/">dhdt</a></td><td>450</td><td>1</td><td>no</td><td>8706</td></tr>
+<tr><td><a href="/cs/content/ores/plants/">plants</a></td><td>10</td><td>0</td><td>Ne</td><td>–</td></tr>
+<tr><td><a href="/cs/content/ores/energymineral/">energymineral</a></td><td>100</td><td>1</td><td>Ne</td><td>–</td></tr>
+<tr><td><a href="/cs/content/ores/fluxore/">fluxore</a></td><td>100</td><td>0</td><td>Ne</td><td>5842</td></tr>
+<tr><td><a href="/cs/content/ores/deeptanium/">deeptanium</a></td><td>1.5k</td><td>0</td><td>Ne</td><td>8671</td></tr>
+<tr><td><a href="/cs/content/ores/deepriton/">deepriton</a></td><td>450</td><td>1</td><td>Ne</td><td>8699</td></tr>
+<tr><td><a href="/cs/content/ores/dhdt/">dhdt</a></td><td>450</td><td>1</td><td>Ne</td><td>8706</td></tr>
 </table>
 
-**Extraction type**: 0 = solid (tile-by-tile with a drill), 1 = liquid (continuous pump). **Enabler effect** — when *required*, the robot needs the matching enabler effect active to extract that ore at all. How many nodes of each ore a zone maintains, and how large each node is, is on each ore's own page (the *Zone parameters* table there).
+**Typ dobývání**: 0 = pevná (vrtání dlaždice po dlaždici vrtákem), 1 = kapalná (neprerušité čerpání). **Efekt enableru** — když je vyžadován, robot potřebuje pro dobývání této rudy aktivní odpovídající enabler efekt. Kolik uzlů každé rudy zóna udržuje a jak velké jsou, je na vlastní stránce každé rudy (tamtéž tabulka *Parametry zóny*).
 

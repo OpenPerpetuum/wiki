@@ -8,12 +8,12 @@ description: "What the item stats mean and how big each value is: units, catalog
 
 # Přehled statistik
 
-Every item page lists raw stat values. This page puts them in scale: the unit of each stat, the smallest/largest values in the whole catalog, and real items to compare against. Ranges are computed over all enabled items (prototypes and test objects excluded).
+Každá stránka položky uvádí surové hodnoty statistik. Tato stránka jim dává měřítko: jednotka každé statistiky, nejmenší/největší hodnoty v celém katalogu a skutečné položky pro srovnání. Rozmezí se počítají přes všechny povolené položky (prototypy a testovací objekty vyjmuty).
 
 
-## Powergrid and CPU in context
+## Powergrid a CPU v kontextu
 
-A module's **powergrid_usage** is only meaningful against the robot that carries it: the chassis defines the total RP (**powergrid_max**), energy (**core_max**) and CPU (**cpu_max**) its modules may use. **Powergrid upgrades** modules add a fixed amount of RP. A usage value is a percentage of the available capacity — for example a module with powergrid_usage 214 uses 214% of an Ikarus chassis (100 RP, nothing fits beyond the frame) but only ~3% of an Onyx chassis (6.6k RP).
+**powergrid_usage** modulu má význam jen vůči robotu, který nese: šasi definuje celkové RP (**powergrid_max**), energii (**core_max**) a CPU (**cpu_max**), které mohou jeho moduly použít. Moduly **vylepšení powergridu** přidávají pevné množství RP. Hodnota užití je procento dostupné kapacity — například modul s powergrid_usage 214 používá 214% šasi Ikarus (100 RP, nic nevejde nad rámec), ale jen ~3% šasi Onyx (6,6k RP).
 
 | Chassis (frame) | Powergrid (RP) | Core (RP) | CPU |
 |---|---|---|---|
@@ -89,7 +89,7 @@ A module's **powergrid_usage** is only meaningful against the robot that carries
 
 ## Stat scale
 
-For each documented stat: how many items have it, its unit, and the smallest / median / largest value in the catalog with an item you can open at each end.
+Pro každou zdokumentovanou statistiku: kolik ji má položek, její jednotka a nejmenší / mediánová / největší hodnota v katalogu s položkou, kterou lze otevřít na každém konci.
 
 | Stat | Unit | Items | Smallest | Median | Largest | Small example | Large example |
 |---|---|---|---|---|---|---|---|
@@ -135,4 +135,4 @@ For each documented stat: how many items have it, its unit, and the smallest / m
 | `stealth_strength` | — | 525 | 1 | 100 | 100M | [Asintec terminal](/content/items/public-docking-base-thelodica/) | [Relic Sap](/content/items/relic-sap/) |
 
 
-Stats not listed here are either **modifier** stats (they change another stat instead of setting one) or internal values without a player-facing unit — the developer field reference in [Formats](/cs/formats/) lists every field.
+Statistiky, které zde nejsou uvedeny, jsou buď statistiky **modifikátoru** (mění jinou statistiku místo nastavení jedné), nebo interní hodnoty bez jednotky pro hráče — reference polí pro vývojáře v [Formats](/cs/formats/) uvádí každé pole.

@@ -260,6 +260,17 @@ def main():
             window.WIKI_UI.updateAvailable = s.update_available || '';
             window.WIKI_UI.zonemapModeHeight = s.zonemap_mode_height || '';
             window.WIKI_UI.zonemapModeColor = s.zonemap_mode_color || '';
+            // Zone-map landmarks panel + reset (zone-map.js builds it at
+            // runtime, so it reads these WIKI_UI keys instead of data-* tags)
+            window.WIKI_UI.zonemapLandmarks = s.zonemap_landmarks || '';
+            window.WIKI_UI.zonemapToggleAll = s.zonemap_toggle_all || '';
+            window.WIKI_UI.zonemapLmTeleports = s.zonemap_lm_teleports || '';
+            window.WIKI_UI.zonemapLmOutposts = s.zonemap_lm_outposts || '';
+            window.WIKI_UI.zonemapLmTerminals = s.zonemap_lm_terminals || '';
+            window.WIKI_UI.zonemapLmRoads = s.zonemap_lm_roads || '';
+            window.WIKI_UI.zonemapLmLabels = s.zonemap_lm_labels || '';
+            window.WIKI_UI.zonemapModeBase = s.zonemap_mode_base || '';
+            window.WIKI_UI.zonemapResetZoom = s.zonemap_reset_zoom || '';
         }
         // Lang menu active state
         var btns = document.querySelectorAll('#lang-menu button[data-lang]');

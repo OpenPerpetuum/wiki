@@ -8,14 +8,14 @@ description: "Every extension (character skill): the clickable category overview
 
 # Rozšíření
 
-Extensions are the per-character skill tree — learned with credits (level 1) and EP (later levels), gated by prerequisites. See [Character](/cs/features/character/) for the character window this tree lives in. The spark extensions (the passive specialization lines) have their own diagram on the [Sparks](/cs/features/sparks/) page.
+Extensions (rozšíření) jsou per-charakterové dovednostní stromy — učí se se credity (úroveň 1) a EP (pozdější úrovně), bráněna předpoklady. Viz [Character](/cs/features/character/) pro okno postavy, ve kterém tento strom žije. Spark rozšíření (pasivní linky specializace) mají svůj vlastní diagram na stránce [Sparks](/cs/features/sparks/).
 
 <!-- categories:generated -->
 <a id="categories"></a>
 
 ## Main categories
 
-The 15 categories at a glance: one box per category (extension count, entry points without prerequisites, rank range), left to right by starting rank, and an arrow for every cross-category prerequisite (hover an arrow for the exact requirements) — which categories open up which. **Click a box to jump to that category's cards below.** The spark extensions sit outside this diagram (no prerequisites of their own) — their bundle diagram is on the [Sparks](/cs/features/sparks/) page. **Scroll over the diagram to zoom**, drag to pan, and use the ⟲ button to reset.
+15 kategorií na jednu stránku: jedno rámeček na kategorii (počet rozšíření, vstupní body bez předpokladů, rozsah ranku), zleva doprava podle startovního ranku, a šipka pro každý cross-kategoriální předpoklad (najetím na šipku přesné požadavky) — které kategorie otevírají které. **Kliknutím na rámeček skočíte na karty této kategorie níže.** Spark rozšíření jsou mimo tento diagram (bez vlastních předpokladů) — jejich svazkový diagram je na stránce [Sparks](/cs/features/sparks/). **Přejete myší přes diagram pro zoom**, tažením pro posun, a tlačítkem ⟲ pro reset.
 
 <div class="map-zoom-wrap extcats-wrap">
 <button type="button" class="zoommap-reset" title="Reset the zoom">⟲</button>
@@ -66,7 +66,7 @@ The 15 categories at a glance: one box per category (extension count, entry poin
 
 ## Extensions by category
 
-One section per category, one card per extension. **Price** is the level-1 credit cost (later levels cost EP only). **Prerequisites** are the extensions (and minimum level) to learn first. Inactive entries are not offered by the current server build.
+Jedna sekce na kategorii, jedna karta na rozšíření. **Cena** je kreditový náklad 1. úrovně (pozdější úrovně stojí jen EP). **Předpoklady** jsou rozšíření (a minimální úroveň), která je třeba nejdřív naučit. Neaktivní položky nenabízí aktuální build serveru.
 <a id="cat-corporation-management"></a>
 
 ### Corporation Management (15)

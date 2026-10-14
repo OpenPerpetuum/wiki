@@ -8,7 +8,7 @@ description: "All ore types and their extraction yields; the per-zone node param
 
 # 광석
 
-Ore exists in the ground as **deposits (nodes)**. Each node holds a limited total amount; when a node is mined below its threshold it is removed and the zone regenerates new nodes up to its configured maximum. Every ore has its own page with its extraction facts, the zones it spawns in and what is made from it. How each column is used by the server, with the node-generation formulas, is in [Ore fields](/ko/formats/ore-fields/).
+광물은 지면에 **광맥(노드)**으로 존재합니다. 각 노드는 제한된 총량을 가지며, 임계값 이하로 채굴되면 제거되고 지역은 설정된 최대치까지 새 노드를 재생성합니다. 각 광물은 채굴 사실, 출현 지역, 그로부터 만들어지는 것을 담은 자체 페이지가 있습니다. 서버가 각 열을 어떻게 사용하는지(노드 생성 공식 포함)는 [Ore fields](/ko/formats/ore-fields/)에 있습니다.
 
 ## 광석 종류
 
@@ -16,26 +16,26 @@ Ore exists in the ground as **deposits (nodes)**. Each node holds a limited tota
 
 <table>
 <tr><th>광석</th><th>채굴당 획득량</th><th>채굴 유형</th><th>필요 효과</th><th>지질 탐사 문서</th></tr>
-<tr><td><a href="/ko/content/ores/titan/">titan</a></td><td>1.5k</td><td>0</td><td>no</td><td>5382</td></tr>
-<tr><td><a href="/ko/content/ores/crude/">crude</a></td><td>1.5k</td><td>1</td><td>no</td><td>5383</td></tr>
-<tr><td><a href="/ko/content/ores/stermonit/">stermonit</a></td><td>975</td><td>0</td><td>no</td><td>5384</td></tr>
-<tr><td><a href="/ko/content/ores/imentium/">imentium</a></td><td>975</td><td>0</td><td>no</td><td>5385</td></tr>
-<tr><td><a href="/ko/content/ores/liquizit/">liquizit</a></td><td>450</td><td>1</td><td>no</td><td>5386</td></tr>
-<tr><td><a href="/ko/content/ores/epriton/">epriton</a></td><td>450</td><td>1</td><td>no</td><td>5387</td></tr>
-<tr><td><a href="/ko/content/ores/helioptris/">helioptris</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/ko/content/ores/triandlus/">triandlus</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/ko/content/ores/prismocitae/">prismocitae</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/ko/content/ores/gravel/">gravel</a></td><td>1</td><td>0</td><td>no</td><td>5388</td></tr>
-<tr><td><a href="/ko/content/ores/electrofruit/">electrofruit</a></td><td>300</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/ko/content/ores/silgium/">silgium</a></td><td>975</td><td>0</td><td>no</td><td>5389</td></tr>
+<tr><td><a href="/ko/content/ores/titan/">titan</a></td><td>1.5k</td><td>0</td><td>아니오</td><td>5382</td></tr>
+<tr><td><a href="/ko/content/ores/crude/">crude</a></td><td>1.5k</td><td>1</td><td>아니오</td><td>5383</td></tr>
+<tr><td><a href="/ko/content/ores/stermonit/">stermonit</a></td><td>975</td><td>0</td><td>아니오</td><td>5384</td></tr>
+<tr><td><a href="/ko/content/ores/imentium/">imentium</a></td><td>975</td><td>0</td><td>아니오</td><td>5385</td></tr>
+<tr><td><a href="/ko/content/ores/liquizit/">liquizit</a></td><td>450</td><td>1</td><td>아니오</td><td>5386</td></tr>
+<tr><td><a href="/ko/content/ores/epriton/">epriton</a></td><td>450</td><td>1</td><td>아니오</td><td>5387</td></tr>
+<tr><td><a href="/ko/content/ores/helioptris/">helioptris</a></td><td>450</td><td>0</td><td>아니오</td><td>–</td></tr>
+<tr><td><a href="/ko/content/ores/triandlus/">triandlus</a></td><td>450</td><td>0</td><td>아니오</td><td>–</td></tr>
+<tr><td><a href="/ko/content/ores/prismocitae/">prismocitae</a></td><td>450</td><td>0</td><td>아니오</td><td>–</td></tr>
+<tr><td><a href="/ko/content/ores/gravel/">gravel</a></td><td>1</td><td>0</td><td>아니오</td><td>5388</td></tr>
+<tr><td><a href="/ko/content/ores/electrofruit/">electrofruit</a></td><td>300</td><td>0</td><td>아니오</td><td>–</td></tr>
+<tr><td><a href="/ko/content/ores/silgium/">silgium</a></td><td>975</td><td>0</td><td>아니오</td><td>5389</td></tr>
 <tr><td><a href="/ko/content/ores/gammaterial/">gammaterial</a></td><td>150</td><td>0</td><td>필요</td><td>–</td></tr>
-<tr><td><a href="/ko/content/ores/plants/">plants</a></td><td>10</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/ko/content/ores/energymineral/">energymineral</a></td><td>100</td><td>1</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/ko/content/ores/fluxore/">fluxore</a></td><td>100</td><td>0</td><td>no</td><td>5842</td></tr>
-<tr><td><a href="/ko/content/ores/deeptanium/">deeptanium</a></td><td>1.5k</td><td>0</td><td>no</td><td>8671</td></tr>
-<tr><td><a href="/ko/content/ores/deepriton/">deepriton</a></td><td>450</td><td>1</td><td>no</td><td>8699</td></tr>
-<tr><td><a href="/ko/content/ores/dhdt/">dhdt</a></td><td>450</td><td>1</td><td>no</td><td>8706</td></tr>
+<tr><td><a href="/ko/content/ores/plants/">plants</a></td><td>10</td><td>0</td><td>아니오</td><td>–</td></tr>
+<tr><td><a href="/ko/content/ores/energymineral/">energymineral</a></td><td>100</td><td>1</td><td>아니오</td><td>–</td></tr>
+<tr><td><a href="/ko/content/ores/fluxore/">fluxore</a></td><td>100</td><td>0</td><td>아니오</td><td>5842</td></tr>
+<tr><td><a href="/ko/content/ores/deeptanium/">deeptanium</a></td><td>1.5k</td><td>0</td><td>아니오</td><td>8671</td></tr>
+<tr><td><a href="/ko/content/ores/deepriton/">deepriton</a></td><td>450</td><td>1</td><td>아니오</td><td>8699</td></tr>
+<tr><td><a href="/ko/content/ores/dhdt/">dhdt</a></td><td>450</td><td>1</td><td>아니오</td><td>8706</td></tr>
 </table>
 
-**Extraction type**: 0 = solid (tile-by-tile with a drill), 1 = liquid (continuous pump). **Enabler effect** — when *required*, the robot needs the matching enabler effect active to extract that ore at all. How many nodes of each ore a zone maintains, and how large each node is, is on each ore's own page (the *Zone parameters* table there).
+**채굴 유형**: 0 = 고체(드릴로 타일별로 채굴), 1 = 액체(연속 펌핑). **인에이블러 효과** — *required*(필요)인 경우, 로봇은 해당 광물을 채굴하려면 일치하는 인에이블러 효과가 활성화되어 있어야 합니다. 각 광물의 노드를 지역이 몇 개 유지하고 각 노드가 얼마나 큰지는 각 광물 자체 페이지(거기 있는 *지역 매개변수* 표)에 있습니다.
 

@@ -8,12 +8,12 @@ description: "What the item stats mean and how big each value is: units, catalog
 
 # Informacje o statystykach
 
-Every item page lists raw stat values. This page puts them in scale: the unit of each stat, the smallest/largest values in the whole catalog, and real items to compare against. Ranges are computed over all enabled items (prototypes and test objects excluded).
+Każda strona przedmiotu wymienia surowe wartości statów. Ta strona daje im skalę: jednostka każdego staty, najmniejsze/największe wartości w całym katalogu i prawdziwe przedmioty do porównania. Zakresy są liczone dla wszystkich włączonych przedmiotów (prototypy i obiekty testowe wykluczone).
 
 
-## Powergrid and CPU in context
+## Powergrid i CPU w kontekście
 
-A module's **powergrid_usage** is only meaningful against the robot that carries it: the chassis defines the total RP (**powergrid_max**), energy (**core_max**) and CPU (**cpu_max**) its modules may use. **Powergrid upgrades** modules add a fixed amount of RP. A usage value is a percentage of the available capacity — for example a module with powergrid_usage 214 uses 214% of an Ikarus chassis (100 RP, nothing fits beyond the frame) but only ~3% of an Onyx chassis (6.6k RP).
+**powergrid_usage** modułu ma znaczenie tylko względem robota, który go niesie: kadłub definiuje całkowite RP (**powergrid_max**), energię (**core_max**) i CPU (**cpu_max**), których jego moduły mogą używać. Moduły **ulepszeń powergridu** dodają stałą ilość RP. Wartość użycia to procent dostępnej pojemności — na przykład moduł z powergrid_usage 214 używa 214% kadłuba Ikarus (100 RP, nic nie mieści się poza ramą), ale tylko ~3% kadłuba Onyx (6,6k RP).
 
 | Chassis (frame) | Powergrid (RP) | Core (RP) | CPU |
 |---|---|---|---|
@@ -89,7 +89,7 @@ A module's **powergrid_usage** is only meaningful against the robot that carries
 
 ## Stat scale
 
-For each documented stat: how many items have it, its unit, and the smallest / median / largest value in the catalog with an item you can open at each end.
+Dla każdego udokumentowanego staty: ile przedmiotów go ma, jego jednostka i najmniejsza / mediana / największa wartość w katalogu z przedmiotem, który możesz otworzyć na każdym końcu.
 
 | Stat | Unit | Items | Smallest | Median | Largest | Small example | Large example |
 |---|---|---|---|---|---|---|---|
@@ -135,4 +135,4 @@ For each documented stat: how many items have it, its unit, and the smallest / m
 | `stealth_strength` | — | 525 | 1 | 100 | 100M | [Asintec terminal](/content/items/public-docking-base-thelodica/) | [Relic Sap](/content/items/relic-sap/) |
 
 
-Stats not listed here are either **modifier** stats (they change another stat instead of setting one) or internal values without a player-facing unit — the developer field reference in [Formats](/pl/formats/) lists every field.
+Staty niewymienione tutaj to staty **modyfikatora** (zmieniają inną stat zamiast ustawiać jedną) lub wartości wewnętrzne bez jednostki dla gracza — referencja pól dla developerów w [Formats](/pl/formats/) wymienia każde pole.

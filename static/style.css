@@ -192,7 +192,8 @@ pre code { background: none; padding: 0; }
     z-index: 30; padding: 0.4rem;
 }
 .search-results a { display: block; padding: 0.45rem 0.7rem; border-radius: 6px; color: var(--chrome-fg); }
-.search-results a:hover { background: var(--neon-faint); color: var(--neon); text-decoration: none; }
+.search-results a:hover, .search-results a.sel { background: var(--neon-faint); color: var(--neon); text-decoration: none; }
+.search-results a.sel { outline: 1px solid var(--neon-dim); outline-offset: -1px; }
 .search-results a .result-desc { color: var(--chrome-muted); font-size: 0.85em; }
 .search-results .no-results, .search-results .result-count { padding: 0.6rem 0.7rem; color: var(--chrome-muted); }
 .search-results .result-count { font-size: 0.8rem; border-bottom: 1px solid var(--neon-faint); border-radius: 6px 6px 0 0; padding-bottom: 0.4rem; }

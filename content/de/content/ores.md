@@ -8,7 +8,7 @@ description: "All ore types and their extraction yields; the per-zone node param
 
 # Erze
 
-Ore exists in the ground as **deposits (nodes)**. Each node holds a limited total amount; when a node is mined below its threshold it is removed and the zone regenerates new nodes up to its configured maximum. Every ore has its own page with its extraction facts, the zones it spawns in and what is made from it. How each column is used by the server, with the node-generation formulas, is in [Ore fields](/de/formats/ore-fields/).
+Erz liegt im Boden als **Vorkommen (Knoten)** vor. Jeder Knoten hält eine begrenzte Gesamtmenge; wenn ein Knoten unter seinen Schwellwert abgebaut wird, wird er entfernt und die Zone regeneriert neue Knoten bis zum konfigurierten Maximum. Jedes Erz hat seine eigene Seite mit seinen Abbau-Fakten, den Zonen, in denen es vorkommt, und dem, was daraus hergestellt wird. Wie der Server jede Spalte verwendet, inkl. der Knotengenerierungsformeln, steht in [Ore fields](/de/formats/ore-fields/).
 
 ## Erzarten
 
@@ -16,26 +16,26 @@ Ore exists in the ground as **deposits (nodes)**. Each node holds a limited tota
 
 <table>
 <tr><th>Erz</th><th>Menge / Förderung</th><th>Förderungsart</th><th>Aktivierungseffekt</th><th>Geo-Scan-Dokument</th></tr>
-<tr><td><a href="/de/content/ores/titan/">titan</a></td><td>1.5k</td><td>0</td><td>no</td><td>5382</td></tr>
-<tr><td><a href="/de/content/ores/crude/">crude</a></td><td>1.5k</td><td>1</td><td>no</td><td>5383</td></tr>
-<tr><td><a href="/de/content/ores/stermonit/">stermonit</a></td><td>975</td><td>0</td><td>no</td><td>5384</td></tr>
-<tr><td><a href="/de/content/ores/imentium/">imentium</a></td><td>975</td><td>0</td><td>no</td><td>5385</td></tr>
-<tr><td><a href="/de/content/ores/liquizit/">liquizit</a></td><td>450</td><td>1</td><td>no</td><td>5386</td></tr>
-<tr><td><a href="/de/content/ores/epriton/">epriton</a></td><td>450</td><td>1</td><td>no</td><td>5387</td></tr>
-<tr><td><a href="/de/content/ores/helioptris/">helioptris</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/de/content/ores/triandlus/">triandlus</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/de/content/ores/prismocitae/">prismocitae</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/de/content/ores/gravel/">gravel</a></td><td>1</td><td>0</td><td>no</td><td>5388</td></tr>
-<tr><td><a href="/de/content/ores/electrofruit/">electrofruit</a></td><td>300</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/de/content/ores/silgium/">silgium</a></td><td>975</td><td>0</td><td>no</td><td>5389</td></tr>
+<tr><td><a href="/de/content/ores/titan/">titan</a></td><td>1.5k</td><td>0</td><td>Nein</td><td>5382</td></tr>
+<tr><td><a href="/de/content/ores/crude/">crude</a></td><td>1.5k</td><td>1</td><td>Nein</td><td>5383</td></tr>
+<tr><td><a href="/de/content/ores/stermonit/">stermonit</a></td><td>975</td><td>0</td><td>Nein</td><td>5384</td></tr>
+<tr><td><a href="/de/content/ores/imentium/">imentium</a></td><td>975</td><td>0</td><td>Nein</td><td>5385</td></tr>
+<tr><td><a href="/de/content/ores/liquizit/">liquizit</a></td><td>450</td><td>1</td><td>Nein</td><td>5386</td></tr>
+<tr><td><a href="/de/content/ores/epriton/">epriton</a></td><td>450</td><td>1</td><td>Nein</td><td>5387</td></tr>
+<tr><td><a href="/de/content/ores/helioptris/">helioptris</a></td><td>450</td><td>0</td><td>Nein</td><td>–</td></tr>
+<tr><td><a href="/de/content/ores/triandlus/">triandlus</a></td><td>450</td><td>0</td><td>Nein</td><td>–</td></tr>
+<tr><td><a href="/de/content/ores/prismocitae/">prismocitae</a></td><td>450</td><td>0</td><td>Nein</td><td>–</td></tr>
+<tr><td><a href="/de/content/ores/gravel/">gravel</a></td><td>1</td><td>0</td><td>Nein</td><td>5388</td></tr>
+<tr><td><a href="/de/content/ores/electrofruit/">electrofruit</a></td><td>300</td><td>0</td><td>Nein</td><td>–</td></tr>
+<tr><td><a href="/de/content/ores/silgium/">silgium</a></td><td>975</td><td>0</td><td>Nein</td><td>5389</td></tr>
 <tr><td><a href="/de/content/ores/gammaterial/">gammaterial</a></td><td>150</td><td>0</td><td>erforderlich</td><td>–</td></tr>
-<tr><td><a href="/de/content/ores/plants/">plants</a></td><td>10</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/de/content/ores/energymineral/">energymineral</a></td><td>100</td><td>1</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/de/content/ores/fluxore/">fluxore</a></td><td>100</td><td>0</td><td>no</td><td>5842</td></tr>
-<tr><td><a href="/de/content/ores/deeptanium/">deeptanium</a></td><td>1.5k</td><td>0</td><td>no</td><td>8671</td></tr>
-<tr><td><a href="/de/content/ores/deepriton/">deepriton</a></td><td>450</td><td>1</td><td>no</td><td>8699</td></tr>
-<tr><td><a href="/de/content/ores/dhdt/">dhdt</a></td><td>450</td><td>1</td><td>no</td><td>8706</td></tr>
+<tr><td><a href="/de/content/ores/plants/">plants</a></td><td>10</td><td>0</td><td>Nein</td><td>–</td></tr>
+<tr><td><a href="/de/content/ores/energymineral/">energymineral</a></td><td>100</td><td>1</td><td>Nein</td><td>–</td></tr>
+<tr><td><a href="/de/content/ores/fluxore/">fluxore</a></td><td>100</td><td>0</td><td>Nein</td><td>5842</td></tr>
+<tr><td><a href="/de/content/ores/deeptanium/">deeptanium</a></td><td>1.5k</td><td>0</td><td>Nein</td><td>8671</td></tr>
+<tr><td><a href="/de/content/ores/deepriton/">deepriton</a></td><td>450</td><td>1</td><td>Nein</td><td>8699</td></tr>
+<tr><td><a href="/de/content/ores/dhdt/">dhdt</a></td><td>450</td><td>1</td><td>Nein</td><td>8706</td></tr>
 </table>
 
-**Extraction type**: 0 = solid (tile-by-tile with a drill), 1 = liquid (continuous pump). **Enabler effect** — when *required*, the robot needs the matching enabler effect active to extract that ore at all. How many nodes of each ore a zone maintains, and how large each node is, is on each ore's own page (the *Zone parameters* table there).
+**Abbautyp**: 0 = fest (Kachel für Kachel mit Bohrer), 1 = flüssig (durchgehend gepumpt). **Enabler-Effekt** — wenn *erforderlich*, braucht der Roboter einen aktiven passenden Enabler-Effekt, um dieses Erz überhaupt abzubauen. Wie viele Knoten jedes Erz eine Zone hält und wie groß jeder Knoten ist, steht auf der eigenen Seite jedes Erzes (dort die Tabelle *Zonenparameter*).
 

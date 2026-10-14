@@ -9,13 +9,13 @@ extra:
      Do not edit by hand; regenerate instead. -->
 # Gamma
 
-The frontier belt, split by the server-recorded tier (zones.note): the six tc transit zones (T0) and the tier islands T1–T4 — open PvP and terraformable, see [Níveis de proteção](/pt/zones/protection/).
+O cinturão de fronteira, dividido pelo tier registrado no servidor (zones.note): as seis zonas de trânsito tc (T0) e as ilhas de tier T1–T4 — PvP aberto e terraformável, veja [Níveis de proteção](/pt/zones/protection/).
 
 <a id="t0"></a>
 
 ## Gamma T0 — tc transit
 
-The six small (256-tile) transit zones of the frontier belt. No ore configuration — pure travel nodes between the main galaxies and the belt.
+As seis pequenas zonas de trânsito (256 tiles) do cinturão de fronteira. Sem configuração de minérios — nós de viagem puros entre as galáxias principais e o cinturão.
 
 <div class="zone-cards">
 <a class="zone-card" href="/pt/zones/zone-gamma-tc-z100/">
@@ -54,7 +54,7 @@ The six small (256-tile) transit zones of the frontier belt. No ore configuratio
 
 ## Gamma T1
 
-Frontier belt islands with the server-recorded tier **T1** (zones.note). Open PvP and terraformable — see [Níveis de proteção](/pt/zones/protection/). Each island's page has its ore configuration and TP connections.
+Ilhas do cinturão de fronteira com o tier **T1** registrado no servidor (zones.note). PvP aberto e terraformável — veja [Níveis de proteção](/pt/zones/protection/). A página de cada ilha tem sua configuração de minérios e conexões TP.
 
 <div class="zone-cards">
 <a class="zone-card" href="/pt/zones/zone-gamma-z106/">
@@ -108,7 +108,7 @@ Frontier belt islands with the server-recorded tier **T1** (zones.note). Open Pv
 
 ## Gamma T2
 
-Frontier belt islands with the server-recorded tier **T2** (zones.note). Open PvP and terraformable — see [Níveis de proteção](/pt/zones/protection/). Each island's page has its ore configuration and TP connections.
+Ilhas do cinturão de fronteira com o tier **T2** registrado no servidor (zones.note). PvP aberto e terraformável — veja [Níveis de proteção](/pt/zones/protection/). A página de cada ilha tem sua configuração de minérios e conexões TP.
 
 <div class="zone-cards">
 <a class="zone-card" href="/pt/zones/zone-gamma-z115/">
@@ -162,7 +162,7 @@ Frontier belt islands with the server-recorded tier **T2** (zones.note). Open Pv
 
 ## Gamma T3
 
-Frontier belt islands with the server-recorded tier **T3** (zones.note). Open PvP and terraformable — see [Níveis de proteção](/pt/zones/protection/). Each island's page has its ore configuration and TP connections.
+Ilhas do cinturão de fronteira com o tier **T3** registrado no servidor (zones.note). PvP aberto e terraformável — veja [Níveis de proteção](/pt/zones/protection/). A página de cada ilha tem sua configuração de minérios e conexões TP.
 
 <div class="zone-cards">
 <a class="zone-card" href="/pt/zones/zone-gamma-z124/">
@@ -216,7 +216,7 @@ Frontier belt islands with the server-recorded tier **T3** (zones.note). Open Pv
 
 ## Gamma T4
 
-Frontier belt islands with the server-recorded tier **T4** (zones.note). Open PvP and terraformable — see [Níveis de proteção](/pt/zones/protection/). Each island's page has its ore configuration and TP connections.
+Ilhas do cinturão de fronteira com o tier **T4** registrado no servidor (zones.note). PvP aberto e terraformável — veja [Níveis de proteção](/pt/zones/protection/). A página de cada ilha tem sua configuração de minérios e conexões TP.
 
 <div class="zone-cards">
 <a class="zone-card" href="/pt/zones/zone-gamma-z133/">

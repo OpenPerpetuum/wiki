@@ -17,4 +17,4 @@ description: "Containers: Field container capsule"
 | Massa | 0.2 |
 
 
-[All deployables](/nl/content/deployables/) · [Deployable fields](/nl/formats/deployable-fields/)
+[Alle plaatsbare objecten](/nl/content/deployables/) · [Velden van plaatsbare objecten](/nl/formats/deployable-fields/)

@@ -8,13 +8,13 @@ description: "具有通往其他區域傳送連接的所有區域，按家族分
 
 # 區域索引
 
-All 59 zones that have at least one teleport point to ANOTHER zone, grouped by family (the same grouping as the [world map](/zh-TW/zones/map/)) — the card links to the zone's page. Zones without any inter-zone teleport point (the strongholds, the PvP arena, dead-end gate islands) are left off; they are still reachable from the world map's gate lines. The per-family pages — [Alpha](/zh-TW/zones/alpha/) · [Beta](/zh-TW/zones/beta/) · [Gamma](/zh-TW/zones/gamma/) — list every zone of the family regardless of TPs.
+所有至少有一個到其他區域的傳送點的59個區域,按家族分組(與[world map](/zh-TW/zones/map/)相同的分組)——卡片連結到區域頁面。沒有任何區域間傳送點的區域(據點、PvP 競技場、死胡同城門島)被省略;它們仍可透過世界地圖的門線到達。按家族的頁面——[Alpha](/zh-TW/zones/alpha/) · [Beta](/zh-TW/zones/beta/) · [Gamma](/zh-TW/zones/gamma/)——列出家族中的每個區域,不論 TP。
 
 <a id="training"></a>
 
 ## Training
 
-The virtual [training island](/zh-TW/zones/zone-training/) — where new characters start and learn the basics before entering the main galaxies.
+虛擬的[training island](/zh-TW/zones/zone-training/)——新角色進入主星系之前開始並學習基礎的地方。
 
 <div class="zone-cards">
 <a class="zone-card" href="/zh-TW/zones/zone-training/">
@@ -28,7 +28,7 @@ The virtual [training island](/zh-TW/zones/zone-training/) — where new charact
 
 ## Alpha
 
-The main protected islands and their second-wave PvE companions — the safe starter economy (see [保護級別](/zh-TW/zones/protection/)).
+主要保護島嶼及其第二波 PvE 同伴——安全的起步經濟(見[保護級別](/zh-TW/zones/protection/))。
 
 <div class="zone-cards">
 <a class="zone-card" href="/zh-TW/zones/zone-asi-pve/">
@@ -62,7 +62,7 @@ The main protected islands and their second-wave PvE companions — the safe sta
 
 ## Beta
 
-The open-PvP islands: the three main islands' PvP twins (the "_real" names), the eight gate islands of each galaxy, and the special zones (the [PvP arena](/zh-TW/zones/zone-pvp-arena/) and the strongholds — protected instances, listed here for completeness).
+開放 PvP 島嶼:三個主島嶼的 PvP 孿生體("_real" 名稱)、每個星系的八個門島,以及特殊區域([PvP arena](/zh-TW/zones/zone-pvp-arena/)與據點——受保護的實例,為完整性列出)。
 
 <div class="zone-cards">
 <a class="zone-card" href="/zh-TW/zones/zone-asi-a-real/">

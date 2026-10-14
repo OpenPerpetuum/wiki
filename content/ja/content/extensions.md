@@ -8,14 +8,14 @@ description: "Every extension (character skill): the clickable category overview
 
 # エクステンション
 
-Extensions are the per-character skill tree — learned with credits (level 1) and EP (later levels), gated by prerequisites. See [Character](/ja/features/character/) for the character window this tree lives in. The spark extensions (the passive specialization lines) have their own diagram on the [Sparks](/ja/features/sparks/) page.
+拡張はキャラクターごとのスキルツリーです — クレジット(レベル1)とEP(以降のレベル)で習得し、前提条件で制御されます。このツリーが収まっているキャラクターウィンドウは[Character](/ja/features/character/)を参照。スパーク拡張(パッシブ特化ライン)は[Sparks](/ja/features/sparks/)ページに独自の図があります。
 
 <!-- categories:generated -->
 <a id="categories"></a>
 
 ## Main categories
 
-The 15 categories at a glance: one box per category (extension count, entry points without prerequisites, rank range), left to right by starting rank, and an arrow for every cross-category prerequisite (hover an arrow for the exact requirements) — which categories open up which. **Click a box to jump to that category's cards below.** The spark extensions sit outside this diagram (no prerequisites of their own) — their bundle diagram is on the [Sparks](/ja/features/sparks/) page. **Scroll over the diagram to zoom**, drag to pan, and use the ⟲ button to reset.
+15個のカテゴリを一目で: カテゴリごとに1ボックス(拡張数、前提なしのエントリポイント、ランク範囲)、左から右へ開始ランク順、カテゴリ間の各前提条件に1矢印(矢印にホバーで正確な要求を確認) — どのカテゴリがどのカテゴリを開くか。**ボックスをクリックすると、下のそのカテゴリのカードに飛びます。** スパーク拡張はこの図の外にあります(独自の前提なし) — そのバンドル図は[Sparks](/ja/features/sparks/)ページに。**図上でスクロールしてズーム**、ドラッグでパン、⟲ボタンでリセット。
 
 <div class="map-zoom-wrap extcats-wrap">
 <button type="button" class="zoommap-reset" title="Reset the zoom">⟲</button>
@@ -66,7 +66,7 @@ The 15 categories at a glance: one box per category (extension count, entry poin
 
 ## Extensions by category
 
-One section per category, one card per extension. **Price** is the level-1 credit cost (later levels cost EP only). **Prerequisites** are the extensions (and minimum level) to learn first. Inactive entries are not offered by the current server build.
+カテゴリごとに1セクション、拡張ごとに1カード。**価格**はレベル1のクレジットコスト(以降のレベルはEPのみ)。**前提条件**は最初に習得する必要がある拡張(および最小レベル)。無効エントリは現在のサーバービルドでは提供されていません。
 <a id="cat-corporation-management"></a>
 
 ### Corporation Management (15)

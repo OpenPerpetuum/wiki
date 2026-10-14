@@ -8,7 +8,7 @@ description: "All ore types and their extraction yields; the per-zone node param
 
 # Minérios
 
-Ore exists in the ground as **deposits (nodes)**. Each node holds a limited total amount; when a node is mined below its threshold it is removed and the zone regenerates new nodes up to its configured maximum. Every ore has its own page with its extraction facts, the zones it spawns in and what is made from it. How each column is used by the server, with the node-generation formulas, is in [Ore fields](/pt/formats/ore-fields/).
+O minério existe no solo como **depósitos (nós)**. Cada nó contém um montante total limitado; quando um nó é minerado abaixo do seu limiar, ele é removido e a zona regenera novos nós até seu máximo configurado. Cada minério tem sua própria página com os fatos de extração, as zonas em que aparece e o que é feito dele. Como o servidor usa cada coluna, com as fórmulas de geração de nós, está em [Ore fields](/pt/formats/ore-fields/).
 
 ## Tipos de minério
 
@@ -16,26 +16,26 @@ Ore exists in the ground as **deposits (nodes)**. Each node holds a limited tota
 
 <table>
 <tr><th>Minério</th><th>Quantidade / extração</th><th>Tipo de extração</th><th>Efeito habilitador</th><th>Doc. geo-varredura</th></tr>
-<tr><td><a href="/pt/content/ores/titan/">titan</a></td><td>1.5k</td><td>0</td><td>no</td><td>5382</td></tr>
-<tr><td><a href="/pt/content/ores/crude/">crude</a></td><td>1.5k</td><td>1</td><td>no</td><td>5383</td></tr>
-<tr><td><a href="/pt/content/ores/stermonit/">stermonit</a></td><td>975</td><td>0</td><td>no</td><td>5384</td></tr>
-<tr><td><a href="/pt/content/ores/imentium/">imentium</a></td><td>975</td><td>0</td><td>no</td><td>5385</td></tr>
-<tr><td><a href="/pt/content/ores/liquizit/">liquizit</a></td><td>450</td><td>1</td><td>no</td><td>5386</td></tr>
-<tr><td><a href="/pt/content/ores/epriton/">epriton</a></td><td>450</td><td>1</td><td>no</td><td>5387</td></tr>
-<tr><td><a href="/pt/content/ores/helioptris/">helioptris</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/pt/content/ores/triandlus/">triandlus</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/pt/content/ores/prismocitae/">prismocitae</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/pt/content/ores/gravel/">gravel</a></td><td>1</td><td>0</td><td>no</td><td>5388</td></tr>
-<tr><td><a href="/pt/content/ores/electrofruit/">electrofruit</a></td><td>300</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/pt/content/ores/silgium/">silgium</a></td><td>975</td><td>0</td><td>no</td><td>5389</td></tr>
+<tr><td><a href="/pt/content/ores/titan/">titan</a></td><td>1.5k</td><td>0</td><td>Não</td><td>5382</td></tr>
+<tr><td><a href="/pt/content/ores/crude/">crude</a></td><td>1.5k</td><td>1</td><td>Não</td><td>5383</td></tr>
+<tr><td><a href="/pt/content/ores/stermonit/">stermonit</a></td><td>975</td><td>0</td><td>Não</td><td>5384</td></tr>
+<tr><td><a href="/pt/content/ores/imentium/">imentium</a></td><td>975</td><td>0</td><td>Não</td><td>5385</td></tr>
+<tr><td><a href="/pt/content/ores/liquizit/">liquizit</a></td><td>450</td><td>1</td><td>Não</td><td>5386</td></tr>
+<tr><td><a href="/pt/content/ores/epriton/">epriton</a></td><td>450</td><td>1</td><td>Não</td><td>5387</td></tr>
+<tr><td><a href="/pt/content/ores/helioptris/">helioptris</a></td><td>450</td><td>0</td><td>Não</td><td>–</td></tr>
+<tr><td><a href="/pt/content/ores/triandlus/">triandlus</a></td><td>450</td><td>0</td><td>Não</td><td>–</td></tr>
+<tr><td><a href="/pt/content/ores/prismocitae/">prismocitae</a></td><td>450</td><td>0</td><td>Não</td><td>–</td></tr>
+<tr><td><a href="/pt/content/ores/gravel/">gravel</a></td><td>1</td><td>0</td><td>Não</td><td>5388</td></tr>
+<tr><td><a href="/pt/content/ores/electrofruit/">electrofruit</a></td><td>300</td><td>0</td><td>Não</td><td>–</td></tr>
+<tr><td><a href="/pt/content/ores/silgium/">silgium</a></td><td>975</td><td>0</td><td>Não</td><td>5389</td></tr>
 <tr><td><a href="/pt/content/ores/gammaterial/">gammaterial</a></td><td>150</td><td>0</td><td>necessário</td><td>–</td></tr>
-<tr><td><a href="/pt/content/ores/plants/">plants</a></td><td>10</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/pt/content/ores/energymineral/">energymineral</a></td><td>100</td><td>1</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/pt/content/ores/fluxore/">fluxore</a></td><td>100</td><td>0</td><td>no</td><td>5842</td></tr>
-<tr><td><a href="/pt/content/ores/deeptanium/">deeptanium</a></td><td>1.5k</td><td>0</td><td>no</td><td>8671</td></tr>
-<tr><td><a href="/pt/content/ores/deepriton/">deepriton</a></td><td>450</td><td>1</td><td>no</td><td>8699</td></tr>
-<tr><td><a href="/pt/content/ores/dhdt/">dhdt</a></td><td>450</td><td>1</td><td>no</td><td>8706</td></tr>
+<tr><td><a href="/pt/content/ores/plants/">plants</a></td><td>10</td><td>0</td><td>Não</td><td>–</td></tr>
+<tr><td><a href="/pt/content/ores/energymineral/">energymineral</a></td><td>100</td><td>1</td><td>Não</td><td>–</td></tr>
+<tr><td><a href="/pt/content/ores/fluxore/">fluxore</a></td><td>100</td><td>0</td><td>Não</td><td>5842</td></tr>
+<tr><td><a href="/pt/content/ores/deeptanium/">deeptanium</a></td><td>1.5k</td><td>0</td><td>Não</td><td>8671</td></tr>
+<tr><td><a href="/pt/content/ores/deepriton/">deepriton</a></td><td>450</td><td>1</td><td>Não</td><td>8699</td></tr>
+<tr><td><a href="/pt/content/ores/dhdt/">dhdt</a></td><td>450</td><td>1</td><td>Não</td><td>8706</td></tr>
 </table>
 
-**Extraction type**: 0 = solid (tile-by-tile with a drill), 1 = liquid (continuous pump). **Enabler effect** — when *required*, the robot needs the matching enabler effect active to extract that ore at all. How many nodes of each ore a zone maintains, and how large each node is, is on each ore's own page (the *Zone parameters* table there).
+**Tipo de extração**: 0 = sólido (tela a tela com broca), 1 = líquido (bombeamento contínuo). **Efeito habilitador** — quando *obrigatório*, o robô precisa do efeito habilitador correspondente ativo para extrair esse minério. Quantos nós de cada minério uma zona mantém, e o tamanho de cada nó, está na página própria de cada minério (a tabela *Parâmetros de zona* lá).
 

@@ -5,7 +5,7 @@ description: "Generated stat tables for every content entity: ores, plants, depl
 
 # Contenido
 
-Stat tables for every content entity, generated from the live database.
+Tablas de stats de cada entidad de contenido, generadas desde la base de datos en vivo.
 
 | Page | Contents |
 |---|---|
@@ -19,4 +19,4 @@ Stat tables for every content entity, generated from the live database.
 | [Item shop](/es/content/shop/) | Vendor catalog per shop location and item category, with the price in every currency |
 | [Recipes](/es/content/recipes/) | Every craftable item and its components, research level |
 
-Field meanings (what a stat column actually does) live in [Formats](/es/formats/).
+El significado de los campos (qué hace realmente una columna de stat) está en [Formats](/es/formats/).

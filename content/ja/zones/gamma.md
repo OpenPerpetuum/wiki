@@ -9,13 +9,13 @@ extra:
      Do not edit by hand; regenerate instead. -->
 # Gamma
 
-The frontier belt, split by the server-recorded tier (zones.note): the six tc transit zones (T0) and the tier islands T1–T4 — open PvP and terraformable, see [保護レベル](/ja/zones/protection/).
+フロンティアベルトはサーバー記録のティア(zones.note)で分割: tcトランジットゾーン6つ(T0)とティア島T1–T4 — オープンPvPでテラフォーミング可能、[保護レベル](/ja/zones/protection/)参照。
 
 <a id="t0"></a>
 
 ## Gamma T0 — tc transit
 
-The six small (256-tile) transit zones of the frontier belt. No ore configuration — pure travel nodes between the main galaxies and the belt.
+フロンティアベルトの6つの小型（256タイル）トランジットゾーン。鉱石構成なし — 主要銀河とベルト間の純粋な移動ノード。
 
 <div class="zone-cards">
 <a class="zone-card" href="/ja/zones/zone-gamma-tc-z100/">
@@ -54,7 +54,7 @@ The six small (256-tile) transit zones of the frontier belt. No ore configuratio
 
 ## Gamma T1
 
-Frontier belt islands with the server-recorded tier **T1** (zones.note). Open PvP and terraformable — see [保護レベル](/ja/zones/protection/). Each island's page has its ore configuration and TP connections.
+サーバー記録ティア**T1**のフロンティアベルト島(zones.note)。オープンPvPでテラフォーミング可能 — [保護レベル](/ja/zones/protection/)参照。各島のページに鉱石構成とTP接続があります。
 
 <div class="zone-cards">
 <a class="zone-card" href="/ja/zones/zone-gamma-z106/">
@@ -108,7 +108,7 @@ Frontier belt islands with the server-recorded tier **T1** (zones.note). Open Pv
 
 ## Gamma T2
 
-Frontier belt islands with the server-recorded tier **T2** (zones.note). Open PvP and terraformable — see [保護レベル](/ja/zones/protection/). Each island's page has its ore configuration and TP connections.
+サーバー記録ティア**T2**のフロンティアベルト島(zones.note)。オープンPvPでテラフォーミング可能 — [保護レベル](/ja/zones/protection/)参照。各島のページに鉱石構成とTP接続があります。
 
 <div class="zone-cards">
 <a class="zone-card" href="/ja/zones/zone-gamma-z115/">
@@ -162,7 +162,7 @@ Frontier belt islands with the server-recorded tier **T2** (zones.note). Open Pv
 
 ## Gamma T3
 
-Frontier belt islands with the server-recorded tier **T3** (zones.note). Open PvP and terraformable — see [保護レベル](/ja/zones/protection/). Each island's page has its ore configuration and TP connections.
+サーバー記録ティア**T3**のフロンティアベルト島(zones.note)。オープンPvPでテラフォーミング可能 — [保護レベル](/ja/zones/protection/)参照。各島のページに鉱石構成とTP接続があります。
 
 <div class="zone-cards">
 <a class="zone-card" href="/ja/zones/zone-gamma-z124/">
@@ -216,7 +216,7 @@ Frontier belt islands with the server-recorded tier **T3** (zones.note). Open Pv
 
 ## Gamma T4
 
-Frontier belt islands with the server-recorded tier **T4** (zones.note). Open PvP and terraformable — see [保護レベル](/ja/zones/protection/). Each island's page has its ore configuration and TP connections.
+サーバー記録ティア**T4**のフロンティアベルト島(zones.note)。オープンPvPでテラフォーミング可能 — [保護レベル](/ja/zones/protection/)参照。各島のページに鉱石構成とTP接続があります。
 
 <div class="zone-cards">
 <a class="zone-card" href="/ja/zones/zone-gamma-z133/">

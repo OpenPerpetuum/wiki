@@ -8,14 +8,14 @@ description: "Every extension (character skill): the clickable category overview
 
 # 확장 스킬
 
-Extensions are the per-character skill tree — learned with credits (level 1) and EP (later levels), gated by prerequisites. See [Character](/ko/features/character/) for the character window this tree lives in. The spark extensions (the passive specialization lines) have their own diagram on the [Sparks](/ko/features/sparks/) page.
+확장은 캐릭터별 스킬 트리입니다 — 크레딧(1단계)과 EP(이후 단계)로 배우며, 선행 조건으로 게이트됩니다. 이 트리가 들어 있는 캐릭터 창은 [Character](/ko/features/character/) 참조. 스파크 확장(패시브 전문화 라인)은 [Sparks](/ko/features/sparks/) 페이지에 자체 다이어그램이 있습니다.
 
 <!-- categories:generated -->
 <a id="categories"></a>
 
 ## Main categories
 
-The 15 categories at a glance: one box per category (extension count, entry points without prerequisites, rank range), left to right by starting rank, and an arrow for every cross-category prerequisite (hover an arrow for the exact requirements) — which categories open up which. **Click a box to jump to that category's cards below.** The spark extensions sit outside this diagram (no prerequisites of their own) — their bundle diagram is on the [Sparks](/ko/features/sparks/) page. **Scroll over the diagram to zoom**, drag to pan, and use the ⟲ button to reset.
+15개 범위를 한눈에: 범위별 상자 하나(확장 수, 선행 없이 진입할 수 있는 점, 랭크 범위), 시작 랭크순으로 왼쪽에서 오른쪽, 범위를 넘는 각 선행 조건에 화살표 하나(화살표에 호버하면 정확한 요구 사항) — 어떤 범위가 어떤 범위를 여는지. **상자를 클릭하면 아래 해당 범위의 카드로 이동합니다.** 스파크 확장은 이 다이어그램 밖에 있습니다(자신만의 선행 조건 없음) — 번들 다이어그램은 [Sparks](/ko/features/sparks/) 페이지에. **다이어그램 위를 스크롤하여 줌**, 드래그로 이동, ⟲ 버튼으로 초기화.
 
 <div class="map-zoom-wrap extcats-wrap">
 <button type="button" class="zoommap-reset" title="Reset the zoom">⟲</button>
@@ -66,7 +66,7 @@ The 15 categories at a glance: one box per category (extension count, entry poin
 
 ## Extensions by category
 
-One section per category, one card per extension. **Price** is the level-1 credit cost (later levels cost EP only). **Prerequisites** are the extensions (and minimum level) to learn first. Inactive entries are not offered by the current server build.
+범위별 섹션 하나, 확장별 카드 하나. **가격**은 1단계 크레딧 비용(이후 단계는 EP만 소모). **선행 조건**은 먼저 배워야 하는 확장(과 최소 단계). 비활성 항목은 현재 서버 빌드에서 제공되지 않습니다.
 <a id="cat-corporation-management"></a>
 
 ### Corporation Management (15)

@@ -10,7 +10,7 @@ description: "Every craftable item, grouped by category, with its components and
 
 <!-- recipes:generated -->
 
-Component requirements for every item that is assembled from other items, grouped by category (see [Production](/es/features/production/) in the features section). **Research level** is the maximum research level the item has — higher levels change yield/calibration, not the component list. Each item has its own page with its stats, the items it is a component of, and the vendors that sell it.
+Requisitos de componentes para cada artículo que se ensambla a partir de otros artículos, agrupado por categoría (ver [Production](/es/features/production/) en la sección de características). **Nivel de investigación** es el nivel máximo que el artículo tiene — los niveles superiores cambian rendimiento/calibración, no la lista de componentes. Cada artículo tiene su propia página con sus stats, los artículos de los que es componente, y los vendedores que lo venden.
 
 <div class="mission-index">
 <a href="#modules"><span class="mission-type-chip">Modules</span></a>&ensp; <a href="#ammo"><span class="mission-type-chip">Ammo</span></a>&ensp; <a href="#robot-parts"><span class="mission-type-chip">Robot parts</span></a>&ensp; <a href="#materials"><span class="mission-type-chip">Materials</span></a>&ensp; <a href="#mission-items"><span class="mission-type-chip">Mission items</span></a>&ensp; <a href="#artifacts"><span class="mission-type-chip">Artifacts</span></a>&ensp; <a href="#special-other"><span class="mission-type-chip">Special &amp; other</span></a>&ensp; <a href="#other"><span class="mission-type-chip">Other</span></a>&ensp;

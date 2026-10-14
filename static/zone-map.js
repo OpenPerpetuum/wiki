@@ -151,14 +151,14 @@
 
             var wrap = document.createElement('div');
             wrap.className = 'zonemap-wrap zonetp-wrap';
+            var ui = window.WIKI_UI || {};
             var btn = document.createElement('button');
             btn.type = 'button';
             btn.className = 'zonemap-reset';
-            btn.title = 'Reset the zoom';
+            btn.title = ui.zonemapResetZoom || 'Reset the zoom';
             btn.textContent = '⟲';
             wrap.appendChild(btn);
 
-            var ui = window.WIKI_UI || {};
             var lmToggle = document.createElement('button');
             lmToggle.type = 'button';
             lmToggle.className = 'zonemap-landmarks-toggle';

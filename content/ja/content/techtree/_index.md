@@ -8,11 +8,11 @@ description: "The research tree: every category, and every node with the item it
 
 # 技術ツリー
 
-Tech tree nodes unlock items by spending **research points** (earned from kernels — see [Research](/ja/features/research/) in the features section). A node can only be unlocked when its **parent** node is unlocked and the **enabler extension** is learned. Point types: common, hitech, industrial, newtech, nuimqol, pelistal, thelodica.
+技術ツリーのノードは**研究ポイント**(カーネルから獲得 — featuresセクションの[Research](/ja/features/research/)参照)を消費してアイテムを解放します。ノードは**親**ノードが解放され、**エンブラー拡張**が習得されてのみ解放可能です。ポイント種別: common, hitech, industrial, newtech, nuimqol, pelistal, thelodica。
 
 ## カテゴリー
 
-Each category is its own page with the full tree and one page per node.
+各カテゴリは完全なツリーを収めた独立したページを持ち、ノードごとに1ページです。
 
 | Category | Nodes | Root lines | What it unlocks |
 |---|---|---|---|

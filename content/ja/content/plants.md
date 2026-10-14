@@ -8,177 +8,177 @@ description: "Every plant species rule (growth, fertility, spreading, fruit) and
 
 # 植物
 
-Plants grow over time through a sequence of stages; a plant produces (is harvestable) only once it reaches its fruiting stage. The zone maintains plant populations toward a **fertility target** per area; `spreading` biases new growth toward existing clusters of the same type. The full field reference — types, defaults, the growth state machine, and the rule-file format — is in [Plant fields](/ja/formats/plant-fields/).
+植物は時間の経過とともに段階的な成長を辿り、果実段階に達した時点で初めて生産(収穫可能)になります。ゾーンは面積あたりの**肥沃度目標**に向かって植物の個体群を維持し、`spreading`は同じタイプ既存の密集地へ新たな成長を偏向します。完全なフィールド参照(種別、デフォルト、成長状態機械、ルールファイル形式)は[Plant fields](/ja/formats/plant-fields/)にあります。
 
-Field meanings: **growRate** = growth cycles a plant sits in each stage before advancing (higher = slower); **fertility** = how strongly the zone tries to keep this species present; **spreading** = preference for growing in groups; **killDistance** = minimum spacing between two plants of the same type (−1 = none);
+フィールドの意味: **growRate** = 各段階で次に進むまで植物が過ごす成長サイクル数(大きいほど遅い)。**fertility** = ゾーンがその種を維持しようとする強さ。**spreading** = 集団で成長する傾向。**killDistance** = 同じタイプの2つの植物の最小間隔(−1 = なし);
 
 
 ```mermaid
 flowchart LR
-    S["Sprout (stage 1)"] --> G["Grow: growRate cycles per stage"]
+    S["発芽(段階1)"] --> G["成長: 段階ごとにgrowRateサイクル"]
     G --> S
-    G --> F["Fruiting stage reached"]
-    F --> H["Harvestable: fruit x fruitAmount"]
-    F --> K["Killed / damaged"]
-    K --> R["Zone respawns toward the\nfertility target (weighted by species fertility)"]
+    G --> F["結果段階に到達"]
+    F --> H["収穫可能: 果実 x fruitAmount"]
+    F --> K["殺害/損傷"]
+    K --> R["ゾーンはfertility目標に向かって再生する\n(種のfertilityで重み付け)"]
 ```
-## Harvestable plants
+## 収穫可能な植物
 
-Species with a fruiting stage — the fruit is the harvestable yield (× = fruitAmount per fruiting stage).
+結果期のある種 — 果実が収穫可能な収量です（× = 結果期ごとの fruitAmount）。
 
-| Plant | Grow rate | Fertility | Spreading | Kill distance | Max slope | Altitude band | Water band | Fruit (yield) | Max amount | Health (stages) | Player seeded |
+| 植物 | 成長率 | 肥沃度 | 拡散 | 伐採距離 | 最大傾斜 | 標高帯 | 水帯 | 果実（収量） | 最大量 | 耐久（段階） | プレイヤー播種 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| electroplant | 0 | 3 | 2 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×125) | 630 | 10,50,125,255,255,255 | yes |
-| electroplant | 0 | 3 | 2 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×175) | 630 | 10,50,125,255,255,255 | yes |
-| electroplant | 3 | 1 | 0 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×125) | 630 | 10,50,125,255,255,255 | no |
-| electroplant | 3 | 1 | 0 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×200) | 630 | 10,50,125,255,255,255 | no |
-| electroplant | 0 | 3 | 2 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×100) | 630 | 10,50,125,255,255,255 | yes |
-| electroplant | 0 | 3 | 2 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×100) | 630 | 10,50,125,255,255,255 | yes |
-| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×75) | 20 | 50,125,255,255 | no |
-| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×150) | 20 | 50,125,255,255 | no |
-| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×75) | 20 | 50,125,255,255 | yes |
-| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×50) | 20 | 50,125,255,255 | yes |
-| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×50) | 20 | 50,125,255,255 | yes |
-| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×200) | 20 | 50,125,255,255 | no |
-| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×150) | 20 | 50,125,255,255 | no |
-| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×125) | 20 | 50,125,255,255 | no |
-| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×100) | 20 | 50,125,255,255 | no |
-| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×50) | 30 | 50,125,255,255 | no |
-| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×100) | 30 | 50,125,255,255 | no |
-| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×200) | 30 | 50,125,255,255 | no |
-| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×150) | 30 | 50,125,255,255 | no |
-| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×125) | 30 | 50,125,255,255 | no |
-| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×100) | 30 | 50,125,255,255 | no |
-| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×75) | 30 | 50,125,255,255 | yes |
-| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×50) | 30 | 50,125,255,255 | yes |
-| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×50) | 30 | 50,125,255,255 | yes |
-| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×50) | 30 | 50,125,255,255 | no |
-| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×100) | 30 | 50,125,255,255 | no |
-| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×200) | 30 | 50,125,255,255 | no |
-| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×150) | 30 | 50,125,255,255 | no |
-| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×125) | 30 | 50,125,255,255 | no |
-| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×100) | 30 | 50,125,255,255 | no |
-| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×75) | 30 | 50,125,255,255 | yes |
-| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×50) | 30 | 50,125,255,255 | yes |
-| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×50) | 30 | 50,125,255,255 | yes |
+| electroplant | 0 | 3 | 2 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×125) | 630 | 10,50,125,255,255,255 | はい |
+| electroplant | 0 | 3 | 2 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×175) | 630 | 10,50,125,255,255,255 | はい |
+| electroplant | 3 | 1 | 0 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×125) | 630 | 10,50,125,255,255,255 | いいえ |
+| electroplant | 3 | 1 | 0 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×200) | 630 | 10,50,125,255,255,255 | いいえ |
+| electroplant | 0 | 3 | 2 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×100) | 630 | 10,50,125,255,255,255 | はい |
+| electroplant | 0 | 3 | 2 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×100) | 630 | 10,50,125,255,255,255 | はい |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×75) | 20 | 50,125,255,255 | いいえ |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×150) | 20 | 50,125,255,255 | いいえ |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×75) | 20 | 50,125,255,255 | はい |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×50) | 20 | 50,125,255,255 | はい |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×50) | 20 | 50,125,255,255 | はい |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×200) | 20 | 50,125,255,255 | いいえ |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×150) | 20 | 50,125,255,255 | いいえ |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×125) | 20 | 50,125,255,255 | いいえ |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×100) | 20 | 50,125,255,255 | いいえ |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×50) | 30 | 50,125,255,255 | いいえ |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×100) | 30 | 50,125,255,255 | いいえ |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×200) | 30 | 50,125,255,255 | いいえ |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×150) | 30 | 50,125,255,255 | いいえ |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×125) | 30 | 50,125,255,255 | いいえ |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×100) | 30 | 50,125,255,255 | いいえ |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×75) | 30 | 50,125,255,255 | はい |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×50) | 30 | 50,125,255,255 | はい |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×50) | 30 | 50,125,255,255 | はい |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×50) | 30 | 50,125,255,255 | いいえ |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×100) | 30 | 50,125,255,255 | いいえ |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×200) | 30 | 50,125,255,255 | いいえ |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×150) | 30 | 50,125,255,255 | いいえ |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×125) | 30 | 50,125,255,255 | いいえ |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×100) | 30 | 50,125,255,255 | いいえ |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×75) | 30 | 50,125,255,255 | はい |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×50) | 30 | 50,125,255,255 | はい |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×50) | 30 | 50,125,255,255 | はい |
 
-## Scenery plants (not harvestable)
+## 景観植物（収穫不可）
 
-Species with no fruiting stage — zone scenery only (cover, landmarks, blocking).
+結果期のない種 — ゾーンの景観のみ（掩体、ランドマーク、遮蔽）。
 
-| Plant | Grow rate | Fertility | Spreading | Kill distance | Max slope | Altitude band | Water band | Max amount | Health (stages) | Player seeded |
+| 植物 | 成長率 | 肥沃度 | 拡散 | 伐採距離 | 最大傾斜 | 標高帯 | 水帯 | 最大量 | 耐久（段階） | プレイヤー播種 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| bonsai | 2 | 1 | 4 | -1 | 18 | 0–8480 | 7–8048 | 15 | 50,125,255,255 | no |
-| bush_a | 1 | 1 | 2 | -1 | 7 | 28–8480 | 8–8048 | 190 | 5,5,5,5 | no |
-| bush_b | 1 | 1 | 2 | -1 | 7 | 27–8480 | 7–8048 | 190 | 5,5,5,5 | no |
-| coppertree | 2 | 1 | 5 | -1 | 6 | 0–8480 | 8–8048 | 15 | 50,125,255,255 | no |
-| devrinol | 5 | 3 | 0 | 0 | 40 | 0–8076 | -6–8076 | 14630 | 250,250,250,250 | yes |
-| grass_a | 1 | 1 | 2 | -1 | 6 | 15–8480 | 6–8048 | 190 | 5,5,5,5 | no |
-| grass_b | 1 | 1 | 2 | -1 | 6 | 14–8480 | 7–2048 | 190 | 5,5,5,5 | no |
-| nanowheat | 1 | 2 | 3 | -1 | 9 | 12–8480 | 8–8048 | -1 | 5,5,5,5 | no |
-| pinetree | 3 | 3 | 3 | -1 | 9 | 0–8048 | 20–8048 | 18 | 50,125,255,255 | no |
-| poffeteg | 2 | 1 | 4 | -1 | 16 | 0–8480 | 5–8048 | 15 | 50,125,255,255 | no |
-| quag | 3 | 3 | 4 | 5 | 19 | 0–76 | 6–76 | 50 | 50,125,255,255 | no |
-| rango | 8 | 6 | 2 | 7 | 19 | 55–8480 | 10–8048 | 14 | 50,125,255,255 | no |
-| rango | 8 | 6 | 2 | 7 | 19 | 15–8480 | 10–8048 | 14 | 50,125,255,255 | no |
-| reed | 1 | 1 | 1 | -1 | 21 | 0–170 | -1–7 | 60 | 5,5,5,5 | no |
-| titanplant | 2 | 1 | 5 | -1 | 19 | 0–8480 | 20–8048 | 15 | 50,125,255,255 | no |
-| wall | 1 | 1 | 5 | -1 | 68 | 0–58000 | -5–58000 | 15 | 20,60,80,120,160,200,230,230,230,255,255,255 | yes |
+| bonsai | 2 | 1 | 4 | -1 | 18 | 0–8480 | 7–8048 | 15 | 50,125,255,255 | いいえ |
+| bush_a | 1 | 1 | 2 | -1 | 7 | 28–8480 | 8–8048 | 190 | 5,5,5,5 | いいえ |
+| bush_b | 1 | 1 | 2 | -1 | 7 | 27–8480 | 7–8048 | 190 | 5,5,5,5 | いいえ |
+| coppertree | 2 | 1 | 5 | -1 | 6 | 0–8480 | 8–8048 | 15 | 50,125,255,255 | いいえ |
+| devrinol | 5 | 3 | 0 | 0 | 40 | 0–8076 | -6–8076 | 14630 | 250,250,250,250 | はい |
+| grass_a | 1 | 1 | 2 | -1 | 6 | 15–8480 | 6–8048 | 190 | 5,5,5,5 | いいえ |
+| grass_b | 1 | 1 | 2 | -1 | 6 | 14–8480 | 7–2048 | 190 | 5,5,5,5 | いいえ |
+| nanowheat | 1 | 2 | 3 | -1 | 9 | 12–8480 | 8–8048 | -1 | 5,5,5,5 | いいえ |
+| pinetree | 3 | 3 | 3 | -1 | 9 | 0–8048 | 20–8048 | 18 | 50,125,255,255 | いいえ |
+| poffeteg | 2 | 1 | 4 | -1 | 16 | 0–8480 | 5–8048 | 15 | 50,125,255,255 | いいえ |
+| quag | 3 | 3 | 4 | 5 | 19 | 0–76 | 6–76 | 50 | 50,125,255,255 | いいえ |
+| rango | 8 | 6 | 2 | 7 | 19 | 55–8480 | 10–8048 | 14 | 50,125,255,255 | いいえ |
+| rango | 8 | 6 | 2 | 7 | 19 | 15–8480 | 10–8048 | 14 | 50,125,255,255 | いいえ |
+| reed | 1 | 1 | 1 | -1 | 21 | 0–170 | -1–7 | 60 | 5,5,5,5 | いいえ |
+| titanplant | 2 | 1 | 5 | -1 | 19 | 0–8480 | 20–8048 | 15 | 50,125,255,255 | いいえ |
+| wall | 1 | 1 | 5 | -1 | 68 | 0–58000 | -5–58000 | 15 | 20,60,80,120,160,200,230,230,230,255,255,255 | はい |
 
-## Zones
+## ゾーン
 
-Per-zone fertility (how full the ground is kept with plants), the plant ruleset the zone uses, and altitude scaling.
+ゾーンごとの肥沃度(地面を植物でどれほど覆うか)、ゾーンが使う植物ルールセット、高度スケール。
 
-| Zone | Type | Protected | Fertility | Plant ruleset | Altitude scale | Enabled |
+| ゾーン | タイプ | 保護 | 肥沃度 | 植物ルールセット | 標高スケール | 有効 |
 |---|---|---|---|---|---|---|
-| New Virginia | 1 | yes | 20 | 0 | 1 | yes |
-| Attalica | 1 | yes | 20 | 1 | 1 | yes |
-| Daoden | 2 | no | 20 | 2 | 1 | yes |
-| Domhalarn | 2 | no | 20 | 3 | 1 | yes |
-| Hokkogaros | 2 | no | 20 | 4 | 1 | yes |
-| Norhoop | 2 | no | 20 | 5 | 1 | yes |
-| Tellesis | 1 | yes | 20 | 6 | 1 | yes |
-| Shinjalar | 1 | yes | 20 | 7 | 1 | yes |
-| Hershfield | 1 | yes | 20 | 0 | 1 | yes |
-| Kentagura | 2 | no | 20 | 4 | 1 | yes |
-| Alsbale | 2 | no | 20 | 5 | 1 | yes |
-| Novastrov | 2 | no | 20 | 3 | 1 | yes |
-| Omega | 4 | yes | 20 | 70 | 1 | yes |
-| Davis Barrier | 2 | no | 20 | 5 | 1 | no |
-| Gravehills | 2 | no | 20 | 5 | 1 | no |
-| Emperth | 2 | no | 20 | 5 | 1 | no |
-| Guthraw | 2 | no | 20 | 5 | 1 | no |
-| Landers Bridge | 2 | no | 20 | 5 | 1 | no |
-| Solarfield | 2 | no | 20 | 5 | 0.3 | no |
-| Blackpoint | 2 | no | 20 | 5 | 1 | no |
-| Greensward | 2 | no | 20 | 5 | 1 | no |
-| Novaya Trava | 2 | no | 20 | 3 | 1 | no |
-| Neuhorn | 2 | no | 20 | 3 | 1 | no |
-| Kraslovsk | 2 | no | 20 | 3 | 0.3 | no |
-| Langruhm | 2 | no | 20 | 3 | 1 | no |
-| Berger's Island | 2 | no | 20 | 3 | 1 | no |
-| Clandrais | 2 | no | 20 | 3 | 1 | no |
-| Bleumon | 2 | no | 20 | 3 | 1 | no |
-| Chalydor | 2 | no | 20 | 3 | 1 | no |
-| Rhaoshan | 2 | no | 20 | 4 | 0.3 | no |
-| Changowa | 2 | no | 20 | 4 | 1 | no |
-| Mhenosha | 2 | no | 20 | 4 | 1 | no |
-| Xiantor | 2 | no | 20 | 4 | 1 | no |
-| Nirayon | 2 | no | 20 | 4 | 1 | no |
-| Shuzhon | 2 | no | 20 | 4 | 1 | no |
-| Imidero | 2 | no | 20 | 4 | 1 | no |
-| Yuraion Ro | 2 | no | 20 | 4 | 1 | no |
-| Virtual Training Grounds | 3 | yes | 20 | 0 | 1 | yes |
-| New Virginia | 3 | yes | 20 | 0 | 1 | yes |
-| New Virginia | 3 | yes | 20 | 0 | 1 | yes |
-| zone_strghld_70 | 4 | yes | 20 | 70 | 1 | yes |
-| zone_strghld_71 | 4 | yes | 20 | 71 | 1 | yes |
-| zone_strghld_72 | 4 | yes | 20 | 72 | 1 | yes |
-| zone_gamma_tc_z100 | 2 | no | 15 | 14 | 1 | yes |
-| zone_gamma_tc_z101 | 2 | no | 15 | 14 | 1 | yes |
-| zone_gamma_tc_z102 | 2 | no | 15 | 34 | 1 | yes |
-| zone_gamma_tc_z103 | 2 | no | 15 | 34 | 1 | yes |
-| zone_gamma_tc_z104 | 2 | no | 15 | 24 | 1 | yes |
-| zone_gamma_tc_z105 | 2 | no | 15 | 24 | 1 | yes |
-| zone_gamma_z106 | 2 | no | 15 | 22 | 1 | yes |
-| zone_gamma_z107 | 2 | no | 15 | 33 | 1 | yes |
-| zone_gamma_z108 | 2 | no | 15 | 32 | 1 | yes |
-| zone_gamma_z109 | 2 | no | 15 | 31 | 1 | yes |
-| zone_gamma_z110 | 2 | no | 15 | 20 | 1 | yes |
-| zone_gamma_z111 | 2 | no | 15 | 21 | 1 | yes |
-| zone_gamma_z112 | 2 | no | 15 | 21 | 1 | yes |
-| zone_gamma_z113 | 2 | no | 15 | 11 | 1 | yes |
-| zone_gamma_z114 | 2 | no | 15 | 10 | 1 | yes |
-| zone_gamma_z115 | 2 | no | 15 | 11 | 1 | yes |
-| zone_gamma_z116 | 2 | no | 15 | 31 | 1 | yes |
-| zone_gamma_z117 | 2 | no | 15 | 31 | 1 | yes |
-| zone_gamma_z118 | 2 | no | 15 | 32 | 1 | yes |
-| zone_gamma_z119 | 2 | no | 15 | 30 | 1 | yes |
-| zone_gamma_z120 | 2 | no | 15 | 31 | 1 | yes |
-| zone_gamma_z121 | 2 | no | 15 | 12 | 1 | yes |
-| zone_gamma_z122 | 2 | no | 15 | 13 | 1 | yes |
-| zone_gamma_z123 | 2 | no | 15 | 12 | 1 | yes |
-| zone_gamma_z124 | 2 | no | 15 | 12 | 1 | yes |
-| zone_gamma_z125 | 2 | no | 15 | 11 | 1 | yes |
-| zone_gamma_z126 | 2 | no | 15 | 12 | 1 | yes |
-| zone_gamma_z127 | 2 | no | 15 | 12 | 1 | yes |
-| zone_gamma_z128 | 2 | no | 15 | 23 | 1 | yes |
-| zone_gamma_z129 | 2 | no | 15 | 22 | 1 | yes |
-| zone_gamma_z130 | 2 | no | 15 | 21 | 1 | yes |
-| zone_gamma_z131 | 2 | no | 15 | 20 | 1 | yes |
-| zone_gamma_z132 | 2 | no | 15 | 21 | 1 | yes |
-| zone_gamma_z133 | 2 | no | 15 | 22 | 1 | yes |
-| zone_gamma_z134 | 2 | no | 15 | 23 | 1 | yes |
-| zone_gamma_z135 | 2 | no | 15 | 22 | 1 | yes |
-| zone_gamma_z136 | 2 | no | 15 | 22 | 1 | yes |
-| zone_gamma_z137 | 2 | no | 15 | 31 | 1 | yes |
-| zone_gamma_z138 | 2 | no | 15 | 32 | 1 | yes |
-| zone_gamma_z139 | 2 | no | 15 | 32 | 1 | yes |
-| zone_gamma_z140 | 2 | no | 15 | 33 | 1 | yes |
+| New Virginia | 1 | はい | 20 | 0 | 1 | はい |
+| Attalica | 1 | はい | 20 | 1 | 1 | はい |
+| Daoden | 2 | いいえ | 20 | 2 | 1 | はい |
+| Domhalarn | 2 | いいえ | 20 | 3 | 1 | はい |
+| Hokkogaros | 2 | いいえ | 20 | 4 | 1 | はい |
+| Norhoop | 2 | いいえ | 20 | 5 | 1 | はい |
+| Tellesis | 1 | はい | 20 | 6 | 1 | はい |
+| Shinjalar | 1 | はい | 20 | 7 | 1 | はい |
+| Hershfield | 1 | はい | 20 | 0 | 1 | はい |
+| Kentagura | 2 | いいえ | 20 | 4 | 1 | はい |
+| Alsbale | 2 | いいえ | 20 | 5 | 1 | はい |
+| Novastrov | 2 | いいえ | 20 | 3 | 1 | はい |
+| Omega | 4 | はい | 20 | 70 | 1 | はい |
+| Davis Barrier | 2 | いいえ | 20 | 5 | 1 | いいえ |
+| Gravehills | 2 | いいえ | 20 | 5 | 1 | いいえ |
+| Emperth | 2 | いいえ | 20 | 5 | 1 | いいえ |
+| Guthraw | 2 | いいえ | 20 | 5 | 1 | いいえ |
+| Landers Bridge | 2 | いいえ | 20 | 5 | 1 | いいえ |
+| Solarfield | 2 | いいえ | 20 | 5 | 0.3 | いいえ |
+| Blackpoint | 2 | いいえ | 20 | 5 | 1 | いいえ |
+| Greensward | 2 | いいえ | 20 | 5 | 1 | いいえ |
+| Novaya Trava | 2 | いいえ | 20 | 3 | 1 | いいえ |
+| Neuhorn | 2 | いいえ | 20 | 3 | 1 | いいえ |
+| Kraslovsk | 2 | いいえ | 20 | 3 | 0.3 | いいえ |
+| Langruhm | 2 | いいえ | 20 | 3 | 1 | いいえ |
+| Berger's Island | 2 | いいえ | 20 | 3 | 1 | いいえ |
+| Clandrais | 2 | いいえ | 20 | 3 | 1 | いいえ |
+| Bleumon | 2 | いいえ | 20 | 3 | 1 | いいえ |
+| Chalydor | 2 | いいえ | 20 | 3 | 1 | いいえ |
+| Rhaoshan | 2 | いいえ | 20 | 4 | 0.3 | いいえ |
+| Changowa | 2 | いいえ | 20 | 4 | 1 | いいえ |
+| Mhenosha | 2 | いいえ | 20 | 4 | 1 | いいえ |
+| Xiantor | 2 | いいえ | 20 | 4 | 1 | いいえ |
+| Nirayon | 2 | いいえ | 20 | 4 | 1 | いいえ |
+| Shuzhon | 2 | いいえ | 20 | 4 | 1 | いいえ |
+| Imidero | 2 | いいえ | 20 | 4 | 1 | いいえ |
+| Yuraion Ro | 2 | いいえ | 20 | 4 | 1 | いいえ |
+| Virtual Training Grounds | 3 | はい | 20 | 0 | 1 | はい |
+| New Virginia | 3 | はい | 20 | 0 | 1 | はい |
+| New Virginia | 3 | はい | 20 | 0 | 1 | はい |
+| zone_strghld_70 | 4 | はい | 20 | 70 | 1 | はい |
+| zone_strghld_71 | 4 | はい | 20 | 71 | 1 | はい |
+| zone_strghld_72 | 4 | はい | 20 | 72 | 1 | はい |
+| zone_gamma_tc_z100 | 2 | いいえ | 15 | 14 | 1 | はい |
+| zone_gamma_tc_z101 | 2 | いいえ | 15 | 14 | 1 | はい |
+| zone_gamma_tc_z102 | 2 | いいえ | 15 | 34 | 1 | はい |
+| zone_gamma_tc_z103 | 2 | いいえ | 15 | 34 | 1 | はい |
+| zone_gamma_tc_z104 | 2 | いいえ | 15 | 24 | 1 | はい |
+| zone_gamma_tc_z105 | 2 | いいえ | 15 | 24 | 1 | はい |
+| zone_gamma_z106 | 2 | いいえ | 15 | 22 | 1 | はい |
+| zone_gamma_z107 | 2 | いいえ | 15 | 33 | 1 | はい |
+| zone_gamma_z108 | 2 | いいえ | 15 | 32 | 1 | はい |
+| zone_gamma_z109 | 2 | いいえ | 15 | 31 | 1 | はい |
+| zone_gamma_z110 | 2 | いいえ | 15 | 20 | 1 | はい |
+| zone_gamma_z111 | 2 | いいえ | 15 | 21 | 1 | はい |
+| zone_gamma_z112 | 2 | いいえ | 15 | 21 | 1 | はい |
+| zone_gamma_z113 | 2 | いいえ | 15 | 11 | 1 | はい |
+| zone_gamma_z114 | 2 | いいえ | 15 | 10 | 1 | はい |
+| zone_gamma_z115 | 2 | いいえ | 15 | 11 | 1 | はい |
+| zone_gamma_z116 | 2 | いいえ | 15 | 31 | 1 | はい |
+| zone_gamma_z117 | 2 | いいえ | 15 | 31 | 1 | はい |
+| zone_gamma_z118 | 2 | いいえ | 15 | 32 | 1 | はい |
+| zone_gamma_z119 | 2 | いいえ | 15 | 30 | 1 | はい |
+| zone_gamma_z120 | 2 | いいえ | 15 | 31 | 1 | はい |
+| zone_gamma_z121 | 2 | いいえ | 15 | 12 | 1 | はい |
+| zone_gamma_z122 | 2 | いいえ | 15 | 13 | 1 | はい |
+| zone_gamma_z123 | 2 | いいえ | 15 | 12 | 1 | はい |
+| zone_gamma_z124 | 2 | いいえ | 15 | 12 | 1 | はい |
+| zone_gamma_z125 | 2 | いいえ | 15 | 11 | 1 | はい |
+| zone_gamma_z126 | 2 | いいえ | 15 | 12 | 1 | はい |
+| zone_gamma_z127 | 2 | いいえ | 15 | 12 | 1 | はい |
+| zone_gamma_z128 | 2 | いいえ | 15 | 23 | 1 | はい |
+| zone_gamma_z129 | 2 | いいえ | 15 | 22 | 1 | はい |
+| zone_gamma_z130 | 2 | いいえ | 15 | 21 | 1 | はい |
+| zone_gamma_z131 | 2 | いいえ | 15 | 20 | 1 | はい |
+| zone_gamma_z132 | 2 | いいえ | 15 | 21 | 1 | はい |
+| zone_gamma_z133 | 2 | いいえ | 15 | 22 | 1 | はい |
+| zone_gamma_z134 | 2 | いいえ | 15 | 23 | 1 | はい |
+| zone_gamma_z135 | 2 | いいえ | 15 | 22 | 1 | はい |
+| zone_gamma_z136 | 2 | いいえ | 15 | 22 | 1 | はい |
+| zone_gamma_z137 | 2 | いいえ | 15 | 31 | 1 | はい |
+| zone_gamma_z138 | 2 | いいえ | 15 | 32 | 1 | はい |
+| zone_gamma_z139 | 2 | いいえ | 15 | 32 | 1 | はい |
+| zone_gamma_z140 | 2 | いいえ | 15 | 33 | 1 | はい |
 
-## Ruleset → species
+## ルールセット → 種
 
-| Ruleset | Zones | Species |
+| ルールセット | ゾーン | 種 |
 |---|---|---|
 | 0 | New Virginia, Hershfield, Virtual Training Grounds | grass_a, grass_b, pinetree, bush_a, bush_b, rango, coppertree, reed, nanowheat, rustbush_lo, slimeroot_lo, quag, electroplant_lo, bonsai, irontree_lo |
 | 1 | Attalica | bonsai, bush_a, bush_b, coppertree, grass_a, grass_b, nanowheat, pinetree, quag, rango, reed, devrinol, electroplant_hi, rustbush_hi, slimeroot_hi |

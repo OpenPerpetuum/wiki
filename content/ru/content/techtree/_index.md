@@ -8,11 +8,11 @@ description: "The research tree: every category, and every node with the item it
 
 # Дерево технологий
 
-Tech tree nodes unlock items by spending **research points** (earned from kernels — see [Research](/ru/features/research/) in the features section). A node can only be unlocked when its **parent** node is unlocked and the **enabler extension** is learned. Point types: common, hitech, industrial, newtech, nuimqol, pelistal, thelodica.
+Узлы технологического дерева разблокируют предметы, тратя **очки исследования** (получаемые из ядер — см. [Research](/ru/features/research/) в разделе функций). Узел можно разблокировать только когда его **родитель** разблокирован и изучено **расширение-включатель**. Типы очков: common, hitech, industrial, newtech, nuimqol, pelistal, thelodica.
 
 ## Категории
 
-Each category is its own page with the full tree and one page per node.
+У каждой категории своя страница с полным деревом и одной страницей на узел.
 
 | Category | Nodes | Root lines | What it unlocks |
 |---|---|---|---|

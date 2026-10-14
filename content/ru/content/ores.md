@@ -8,7 +8,7 @@ description: "All ore types and their extraction yields; the per-zone node param
 
 # Руды
 
-Ore exists in the ground as **deposits (nodes)**. Each node holds a limited total amount; when a node is mined below its threshold it is removed and the zone regenerates new nodes up to its configured maximum. Every ore has its own page with its extraction facts, the zones it spawns in and what is made from it. How each column is used by the server, with the node-generation formulas, is in [Ore fields](/ru/formats/ore-fields/).
+Руда существует в земле в виде **залежей (узлов)**. Каждый узел содержит ограниченное общее количество; когда узел добыт ниже своего порога, он удаляется, и зона восстанавливает новые узлы до настроенного максимума. У каждой руды есть собственная страница с фактами о добыче, зонами, где она появляется, и тем, что из неё производится. Как сервер использует каждую колонку, включая формулы генерации узлов, — в [Ore fields](/ru/formats/ore-fields/).
 
 ## Типы руд
 
@@ -16,26 +16,26 @@ Ore exists in the ground as **deposits (nodes)**. Each node holds a limited tota
 
 <table>
 <tr><th>Руда</th><th>Количество за цикл</th><th>Тип добычи</th><th>Требуемый эффект</th><th>Документ геосканирования</th></tr>
-<tr><td><a href="/ru/content/ores/titan/">titan</a></td><td>1.5k</td><td>0</td><td>no</td><td>5382</td></tr>
-<tr><td><a href="/ru/content/ores/crude/">crude</a></td><td>1.5k</td><td>1</td><td>no</td><td>5383</td></tr>
-<tr><td><a href="/ru/content/ores/stermonit/">stermonit</a></td><td>975</td><td>0</td><td>no</td><td>5384</td></tr>
-<tr><td><a href="/ru/content/ores/imentium/">imentium</a></td><td>975</td><td>0</td><td>no</td><td>5385</td></tr>
-<tr><td><a href="/ru/content/ores/liquizit/">liquizit</a></td><td>450</td><td>1</td><td>no</td><td>5386</td></tr>
-<tr><td><a href="/ru/content/ores/epriton/">epriton</a></td><td>450</td><td>1</td><td>no</td><td>5387</td></tr>
-<tr><td><a href="/ru/content/ores/helioptris/">helioptris</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/ru/content/ores/triandlus/">triandlus</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/ru/content/ores/prismocitae/">prismocitae</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/ru/content/ores/gravel/">gravel</a></td><td>1</td><td>0</td><td>no</td><td>5388</td></tr>
-<tr><td><a href="/ru/content/ores/electrofruit/">electrofruit</a></td><td>300</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/ru/content/ores/silgium/">silgium</a></td><td>975</td><td>0</td><td>no</td><td>5389</td></tr>
+<tr><td><a href="/ru/content/ores/titan/">titan</a></td><td>1.5k</td><td>0</td><td>Нет</td><td>5382</td></tr>
+<tr><td><a href="/ru/content/ores/crude/">crude</a></td><td>1.5k</td><td>1</td><td>Нет</td><td>5383</td></tr>
+<tr><td><a href="/ru/content/ores/stermonit/">stermonit</a></td><td>975</td><td>0</td><td>Нет</td><td>5384</td></tr>
+<tr><td><a href="/ru/content/ores/imentium/">imentium</a></td><td>975</td><td>0</td><td>Нет</td><td>5385</td></tr>
+<tr><td><a href="/ru/content/ores/liquizit/">liquizit</a></td><td>450</td><td>1</td><td>Нет</td><td>5386</td></tr>
+<tr><td><a href="/ru/content/ores/epriton/">epriton</a></td><td>450</td><td>1</td><td>Нет</td><td>5387</td></tr>
+<tr><td><a href="/ru/content/ores/helioptris/">helioptris</a></td><td>450</td><td>0</td><td>Нет</td><td>–</td></tr>
+<tr><td><a href="/ru/content/ores/triandlus/">triandlus</a></td><td>450</td><td>0</td><td>Нет</td><td>–</td></tr>
+<tr><td><a href="/ru/content/ores/prismocitae/">prismocitae</a></td><td>450</td><td>0</td><td>Нет</td><td>–</td></tr>
+<tr><td><a href="/ru/content/ores/gravel/">gravel</a></td><td>1</td><td>0</td><td>Нет</td><td>5388</td></tr>
+<tr><td><a href="/ru/content/ores/electrofruit/">electrofruit</a></td><td>300</td><td>0</td><td>Нет</td><td>–</td></tr>
+<tr><td><a href="/ru/content/ores/silgium/">silgium</a></td><td>975</td><td>0</td><td>Нет</td><td>5389</td></tr>
 <tr><td><a href="/ru/content/ores/gammaterial/">gammaterial</a></td><td>150</td><td>0</td><td>требуется</td><td>–</td></tr>
-<tr><td><a href="/ru/content/ores/plants/">plants</a></td><td>10</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/ru/content/ores/energymineral/">energymineral</a></td><td>100</td><td>1</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/ru/content/ores/fluxore/">fluxore</a></td><td>100</td><td>0</td><td>no</td><td>5842</td></tr>
-<tr><td><a href="/ru/content/ores/deeptanium/">deeptanium</a></td><td>1.5k</td><td>0</td><td>no</td><td>8671</td></tr>
-<tr><td><a href="/ru/content/ores/deepriton/">deepriton</a></td><td>450</td><td>1</td><td>no</td><td>8699</td></tr>
-<tr><td><a href="/ru/content/ores/dhdt/">dhdt</a></td><td>450</td><td>1</td><td>no</td><td>8706</td></tr>
+<tr><td><a href="/ru/content/ores/plants/">plants</a></td><td>10</td><td>0</td><td>Нет</td><td>–</td></tr>
+<tr><td><a href="/ru/content/ores/energymineral/">energymineral</a></td><td>100</td><td>1</td><td>Нет</td><td>–</td></tr>
+<tr><td><a href="/ru/content/ores/fluxore/">fluxore</a></td><td>100</td><td>0</td><td>Нет</td><td>5842</td></tr>
+<tr><td><a href="/ru/content/ores/deeptanium/">deeptanium</a></td><td>1.5k</td><td>0</td><td>Нет</td><td>8671</td></tr>
+<tr><td><a href="/ru/content/ores/deepriton/">deepriton</a></td><td>450</td><td>1</td><td>Нет</td><td>8699</td></tr>
+<tr><td><a href="/ru/content/ores/dhdt/">dhdt</a></td><td>450</td><td>1</td><td>Нет</td><td>8706</td></tr>
 </table>
 
-**Extraction type**: 0 = solid (tile-by-tile with a drill), 1 = liquid (continuous pump). **Enabler effect** — when *required*, the robot needs the matching enabler effect active to extract that ore at all. How many nodes of each ore a zone maintains, and how large each node is, is on each ore's own page (the *Zone parameters* table there).
+**Тип добычи**: 0 = твёрдая (сверление тайл за тайлом), 1 = жидкая (непрерывное откачивание). **Эффект-включатель** — когда *требуется*, роботу для добычи этой руды нужен активный соответствующий эффект-включатель. Сколько узлов каждой руды поддерживает зона и каков размер каждого узла — на собственной странице каждой руды (там таблица *Параметры зоны*).
 

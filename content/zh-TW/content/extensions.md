@@ -8,14 +8,14 @@ description: "Every extension (character skill): the clickable category overview
 
 # 擴充技能
 
-Extensions are the per-character skill tree — learned with credits (level 1) and EP (later levels), gated by prerequisites. See [Character](/zh-TW/features/character/) for the character window this tree lives in. The spark extensions (the passive specialization lines) have their own diagram on the [Sparks](/zh-TW/features/sparks/) page.
+擴展是每個角色的技能樹——用信用點(1 級)與 EP(之後的等級)學習,受前置條件限制。見[Character](/zh-TW/features/character/)了解該樹所在的字元視窗。火花擴展(被動專精線)在[Sparks](/zh-TW/features/sparks/)頁面有各自的圖表。
 
 <!-- categories:generated -->
 <a id="categories"></a>
 
 ## Main categories
 
-The 15 categories at a glance: one box per category (extension count, entry points without prerequisites, rank range), left to right by starting rank, and an arrow for every cross-category prerequisite (hover an arrow for the exact requirements) — which categories open up which. **Click a box to jump to that category's cards below.** The spark extensions sit outside this diagram (no prerequisites of their own) — their bundle diagram is on the [Sparks](/zh-TW/features/sparks/) page. **Scroll over the diagram to zoom**, drag to pan, and use the ⟲ button to reset.
+15 個類別一覽:每個類別一個框(擴展數、無前置的入口點、等級範圍),按起始等級從左到右,每個跨類別前置條件一條箭頭(懸停箭頭查看確切要求)——哪些類別解鎖哪些。**點擊框跳到下方該類別的卡片。** 火花擴展在此圖表之外(無自身前置)——其集合圖表在[Sparks](/zh-TW/features/sparks/)頁面。**在圖表上滾動以縮放**,拖動以平移,使用 ⟲ 按鈕以重置。
 
 <div class="map-zoom-wrap extcats-wrap">
 <button type="button" class="zoommap-reset" title="Reset the zoom">⟲</button>
@@ -66,7 +66,7 @@ The 15 categories at a glance: one box per category (extension count, entry poin
 
 ## Extensions by category
 
-One section per category, one card per extension. **Price** is the level-1 credit cost (later levels cost EP only). **Prerequisites** are the extensions (and minimum level) to learn first. Inactive entries are not offered by the current server build.
+每個類別一個章節,每個擴展一張卡片。**價格**是 1 級的信用點費用(之後的等級只花 EP)。**前置條件**是需要先學習的擴展(及最低等級)。未啟用條目不被目前伺服器版本提供。
 <a id="cat-corporation-management"></a>
 
 ### Corporation Management (15)

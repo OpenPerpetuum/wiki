@@ -1,0 +1,16 @@
+# Coverage for the Python generator tools (make test-py).
+#
+# parallel=true + COVERAGE_PROCESS_START (set by the Makefile) means the
+# generator scripts run in subprocesses by the integration tests are
+# measured too; `coverage combine` merges the per-process files.
+[run]
+source = tools
+parallel = true
+
+[report]
+show_missing = true
+omit =
+    tools/__pycache__/*
+exclude_lines =
+    if __name__ == .__main__.:
+    pragma: no cover

@@ -115,6 +115,18 @@ search_pages_found_many = "{n} pages found"
 update_available = "A new update is available, click here to refresh."
 zonemap_mode_height = "Height"
 zonemap_mode_color = "Color"
+# Zone-map landmarks panel (built at runtime by static/zone-map.js; the
+# per-language values come from translations/*.json via i18n.js — these are
+# the pre-JS defaults).
+zonemap_landmarks = "Landmarks"
+zonemap_toggle_all = "Toggle all"
+zonemap_lm_teleports = "Teleports & Gates"
+zonemap_lm_outposts = "Outposts"
+zonemap_lm_terminals = "Field terminals"
+zonemap_lm_roads = "Roads"
+zonemap_lm_labels = "Labels"
+zonemap_mode_base = "Base"
+zonemap_reset_zoom = "Reset the zoom"
 aria_menu_toggle = "Open the menu"
 aria_theme_toggle = "Toggle light/dark mode"
 aria_mode_toggle = "Toggle Play / Dev mode"

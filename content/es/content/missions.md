@@ -8,7 +8,7 @@ description: "Every mission by type and tier: reward fee, duration, and the rewa
 
 # Misiones
 
-One section per **mission type**; each tier is a card. **Reward fee** is the credit payout (a range when a tier has several zone variants); **rewards** are the item drops (quantity range and drop probability, 100 = guaranteed). See [Missions](/es/features/missions/) in the features section for how missions work.
+Una sección por **tipo de misión**; cada tier es una tarjeta. **Recompensa en créditos** es el pago en créditos (un rango cuando un tier tiene varias variantes de zona); **recompensas** son los artículos que caen (rango de cantidad y probabilidad, 100 = garantizado). Cómo funcionan las misiones, ver [Missions](/es/features/missions/) en la sección de características.
 
 <div class="mission-index">
 <a href="#defend-and-mine"><span class="mission-type-chip">Defend and mine</span></a>&ensp;

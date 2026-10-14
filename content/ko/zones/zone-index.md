@@ -8,13 +8,13 @@ description: "다른 존으로 연결되는 텔레포트가 있는 모든 존, �
 
 # 존 색인
 
-All 59 zones that have at least one teleport point to ANOTHER zone, grouped by family (the same grouping as the [world map](/ko/zones/map/)) — the card links to the zone's page. Zones without any inter-zone teleport point (the strongholds, the PvP arena, dead-end gate islands) are left off; they are still reachable from the world map's gate lines. The per-family pages — [Alpha](/ko/zones/alpha/) · [Beta](/ko/zones/beta/) · [Gamma](/ko/zones/gamma/) — list every zone of the family regardless of TPs.
+다른 지역으로의 텔레포트 지점이 하나 이상인 59개 지역 모두, 패밀리별 그룹화([world map](/ko/zones/map/)와 같은 그룹화) — 카드는 지역 페이지로 링크. 지역 간 텔레포트 지점이 전혀 없는 지역(요새, PvP 아레나, 막다른 게이트 섬)은 제외됩니다; 여전히 세계 지도의 게이트 라인에서 도달 가능합니다. 패밀리별 페이지 — [Alpha](/ko/zones/alpha/) · [Beta](/ko/zones/beta/) · [Gamma](/ko/zones/gamma/) — 는 TP와 무관하게 패밀리의 모든 지역을 나열합니다.
 
 <a id="training"></a>
 
 ## Training
 
-The virtual [training island](/ko/zones/zone-training/) — where new characters start and learn the basics before entering the main galaxies.
+가상의 [training island](/ko/zones/zone-training/) — 새 캐릭터가 메인 은하로 들어가기 전에 기초를 배우는 곳.
 
 <div class="zone-cards">
 <a class="zone-card" href="/ko/zones/zone-training/">
@@ -28,7 +28,7 @@ The virtual [training island](/ko/zones/zone-training/) — where new characters
 
 ## Alpha
 
-The main protected islands and their second-wave PvE companions — the safe starter economy (see [보호 레벨](/ko/zones/protection/)).
+주요 보호 섬과 그 두 번째 물결 PvE 동반자 — 안전한 시작 경제([보호 레벨](/ko/zones/protection/) 참조).
 
 <div class="zone-cards">
 <a class="zone-card" href="/ko/zones/zone-asi-pve/">
@@ -62,7 +62,7 @@ The main protected islands and their second-wave PvE companions — the safe sta
 
 ## Beta
 
-The open-PvP islands: the three main islands' PvP twins (the "_real" names), the eight gate islands of each galaxy, and the special zones (the [PvP arena](/ko/zones/zone-pvp-arena/) and the strongholds — protected instances, listed here for completeness).
+오픈 PvP 섬: 세 주요 섬의 PvP 쌍둥이("_real" 이름), 각 은하의 여덟 게이트 섬, 특수 지역([PvP arena](/ko/zones/zone-pvp-arena/)와 요새 — 보호된 인스턴스, 완전성을 위해 여기에 나열).
 
 <div class="zone-cards">
 <a class="zone-card" href="/ko/zones/zone-asi-a-real/">

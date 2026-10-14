@@ -8,7 +8,7 @@ description: "All ore types and their extraction yields; the per-zone node param
 
 # Rudy
 
-Ore exists in the ground as **deposits (nodes)**. Each node holds a limited total amount; when a node is mined below its threshold it is removed and the zone regenerates new nodes up to its configured maximum. Every ore has its own page with its extraction facts, the zones it spawns in and what is made from it. How each column is used by the server, with the node-generation formulas, is in [Ore fields](/pl/formats/ore-fields/).
+Rudy istnieją w gruncie jako **złoża (węzły)**. Każdy węzeł zawiera ograniczoną całkowitą ilość; gdy węzeł zostanie wydobuty poniżej jego progu, jest usuwany, a strefa regeneruje nowe węzły do skonfigurowanego maksimum. Każda ruda ma własną stronę ze faktami o wydobyciu, strefami, w których się pojawia, i tym, co z niej powstaje. Jak serwer używa każdej kolumny, wraz z wzorami generowania węzłów, jest w [Ore fields](/pl/formats/ore-fields/).
 
 ## Typy rud
 
@@ -16,26 +16,26 @@ Ore exists in the ground as **deposits (nodes)**. Each node holds a limited tota
 
 <table>
 <tr><th>Ruda</th><th>Ilość / wydobycie</th><th>Typ wydobycia</th><th>Efekt aktywujący</th><th>Dokument geoskanowania</th></tr>
-<tr><td><a href="/pl/content/ores/titan/">titan</a></td><td>1.5k</td><td>0</td><td>no</td><td>5382</td></tr>
-<tr><td><a href="/pl/content/ores/crude/">crude</a></td><td>1.5k</td><td>1</td><td>no</td><td>5383</td></tr>
-<tr><td><a href="/pl/content/ores/stermonit/">stermonit</a></td><td>975</td><td>0</td><td>no</td><td>5384</td></tr>
-<tr><td><a href="/pl/content/ores/imentium/">imentium</a></td><td>975</td><td>0</td><td>no</td><td>5385</td></tr>
-<tr><td><a href="/pl/content/ores/liquizit/">liquizit</a></td><td>450</td><td>1</td><td>no</td><td>5386</td></tr>
-<tr><td><a href="/pl/content/ores/epriton/">epriton</a></td><td>450</td><td>1</td><td>no</td><td>5387</td></tr>
-<tr><td><a href="/pl/content/ores/helioptris/">helioptris</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/pl/content/ores/triandlus/">triandlus</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/pl/content/ores/prismocitae/">prismocitae</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/pl/content/ores/gravel/">gravel</a></td><td>1</td><td>0</td><td>no</td><td>5388</td></tr>
-<tr><td><a href="/pl/content/ores/electrofruit/">electrofruit</a></td><td>300</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/pl/content/ores/silgium/">silgium</a></td><td>975</td><td>0</td><td>no</td><td>5389</td></tr>
+<tr><td><a href="/pl/content/ores/titan/">titan</a></td><td>1.5k</td><td>0</td><td>Nie</td><td>5382</td></tr>
+<tr><td><a href="/pl/content/ores/crude/">crude</a></td><td>1.5k</td><td>1</td><td>Nie</td><td>5383</td></tr>
+<tr><td><a href="/pl/content/ores/stermonit/">stermonit</a></td><td>975</td><td>0</td><td>Nie</td><td>5384</td></tr>
+<tr><td><a href="/pl/content/ores/imentium/">imentium</a></td><td>975</td><td>0</td><td>Nie</td><td>5385</td></tr>
+<tr><td><a href="/pl/content/ores/liquizit/">liquizit</a></td><td>450</td><td>1</td><td>Nie</td><td>5386</td></tr>
+<tr><td><a href="/pl/content/ores/epriton/">epriton</a></td><td>450</td><td>1</td><td>Nie</td><td>5387</td></tr>
+<tr><td><a href="/pl/content/ores/helioptris/">helioptris</a></td><td>450</td><td>0</td><td>Nie</td><td>–</td></tr>
+<tr><td><a href="/pl/content/ores/triandlus/">triandlus</a></td><td>450</td><td>0</td><td>Nie</td><td>–</td></tr>
+<tr><td><a href="/pl/content/ores/prismocitae/">prismocitae</a></td><td>450</td><td>0</td><td>Nie</td><td>–</td></tr>
+<tr><td><a href="/pl/content/ores/gravel/">gravel</a></td><td>1</td><td>0</td><td>Nie</td><td>5388</td></tr>
+<tr><td><a href="/pl/content/ores/electrofruit/">electrofruit</a></td><td>300</td><td>0</td><td>Nie</td><td>–</td></tr>
+<tr><td><a href="/pl/content/ores/silgium/">silgium</a></td><td>975</td><td>0</td><td>Nie</td><td>5389</td></tr>
 <tr><td><a href="/pl/content/ores/gammaterial/">gammaterial</a></td><td>150</td><td>0</td><td>wymagany</td><td>–</td></tr>
-<tr><td><a href="/pl/content/ores/plants/">plants</a></td><td>10</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/pl/content/ores/energymineral/">energymineral</a></td><td>100</td><td>1</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/pl/content/ores/fluxore/">fluxore</a></td><td>100</td><td>0</td><td>no</td><td>5842</td></tr>
-<tr><td><a href="/pl/content/ores/deeptanium/">deeptanium</a></td><td>1.5k</td><td>0</td><td>no</td><td>8671</td></tr>
-<tr><td><a href="/pl/content/ores/deepriton/">deepriton</a></td><td>450</td><td>1</td><td>no</td><td>8699</td></tr>
-<tr><td><a href="/pl/content/ores/dhdt/">dhdt</a></td><td>450</td><td>1</td><td>no</td><td>8706</td></tr>
+<tr><td><a href="/pl/content/ores/plants/">plants</a></td><td>10</td><td>0</td><td>Nie</td><td>–</td></tr>
+<tr><td><a href="/pl/content/ores/energymineral/">energymineral</a></td><td>100</td><td>1</td><td>Nie</td><td>–</td></tr>
+<tr><td><a href="/pl/content/ores/fluxore/">fluxore</a></td><td>100</td><td>0</td><td>Nie</td><td>5842</td></tr>
+<tr><td><a href="/pl/content/ores/deeptanium/">deeptanium</a></td><td>1.5k</td><td>0</td><td>Nie</td><td>8671</td></tr>
+<tr><td><a href="/pl/content/ores/deepriton/">deepriton</a></td><td>450</td><td>1</td><td>Nie</td><td>8699</td></tr>
+<tr><td><a href="/pl/content/ores/dhdt/">dhdt</a></td><td>450</td><td>1</td><td>Nie</td><td>8706</td></tr>
 </table>
 
-**Extraction type**: 0 = solid (tile-by-tile with a drill), 1 = liquid (continuous pump). **Enabler effect** — when *required*, the robot needs the matching enabler effect active to extract that ore at all. How many nodes of each ore a zone maintains, and how large each node is, is on each ore's own page (the *Zone parameters* table there).
+**Typ wydobycia**: 0 = stała (wiertlica po kafelku), 1 = płynna (ciągłe pompowanie). **Efekt włącznika** — gdy *wymagany*, robot potrzebuje aktywnego odpowiadającego efektu włącznika, by w ogóle wydobywać tę rudę. Ile węzłów każdej rudy utrzymuje strefa i jak duży jest każdy węzeł, jest na własnej stronie każdej rudy (tabela *Parametry strefy* tam).
 

@@ -10,7 +10,7 @@ description: "Every craftable item, grouped by category, with its components and
 
 <!-- recipes:generated -->
 
-Component requirements for every item that is assembled from other items, grouped by category (see [Production](/zh-TW/features/production/) in the features section). **Research level** is the maximum research level the item has — higher levels change yield/calibration, not the component list. Each item has its own page with its stats, the items it is a component of, and the vendors that sell it.
+所有由其他物品組裝而成的物品的組件需求,按類別分組(見功能區的[Production](/zh-TW/features/production/))。**研究等級**是該物品擁有的最高研究等級——更高的等級改變產量/校準,而不改變組件列表。每個物品都有各自的頁面,包含其狀態、它作為組件的物品以及銷售它的供應商。
 
 <div class="mission-index">
 <a href="#modules"><span class="mission-type-chip">Modules</span></a>&ensp; <a href="#ammo"><span class="mission-type-chip">Ammo</span></a>&ensp; <a href="#robot-parts"><span class="mission-type-chip">Robot parts</span></a>&ensp; <a href="#materials"><span class="mission-type-chip">Materials</span></a>&ensp; <a href="#mission-items"><span class="mission-type-chip">Mission items</span></a>&ensp; <a href="#artifacts"><span class="mission-type-chip">Artifacts</span></a>&ensp; <a href="#special-other"><span class="mission-type-chip">Special &amp; other</span></a>&ensp; <a href="#other"><span class="mission-type-chip">Other</span></a>&ensp;

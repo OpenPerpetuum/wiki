@@ -8,9 +8,9 @@ description: "The fixed-price vendor catalog: what each vendor sells, at what pr
 
 # 아이템 상점
 
-Fixed-price vendor items, separate from the player-driven [market](/ko/features/market/). The same item can be sold at several vendors — the catalog below lists every item once, with the best price across all vendors; each item's own page lists every vendor that sells it (robots link to the [robot catalog](/ko/content/robots/)).
+고정 가격의 상인 아이템으로, 플레이어 주도의 [market](/ko/features/market/)와 구분됩니다. 같은 아이템을 여러 상인이 판매할 수 있으며 — 아래 카탈로그는 모든 상인 중 최상 가격으로 각 아이템을 한 번씩 나열하고, 각 아이템의 별도 페이지에는 그것을 판매하는 모든 상인을 나열합니다(로봇은 [robot catalog](/ko/content/robots/)로 링크).
 
-**Currencies** — **TM Coin / ICS Coin / ASI Coin**: the per-galaxy shop currency (each shop sells for all three coins where offered); **Credits**: the common currency; **UniCoin**: a premium currency. **Qty ∞** means the vendor has no stock limit.
+**통화** — **TM Coin / ICS Coin / ASI Coin**: 은하별 상점 통화(제안되는 경우 세 종류의 코인 모두로 판매); **Credits**: 공용 통화; **UniCoin**: 프리미엄 통화. **수량 ∞**는 상인에게 재고 제한이 없음을 의미합니다.
 
 ## 판매처
 
@@ -27,7 +27,7 @@ Fixed-price vendor items, separate from the player-driven [market](/ko/features/
 
 ## 카탈로그
 
-Each category is its own page; best price across all vendors, one row per item.
+각 범위는 자체 페이지를 가지며, 모든 상인 중 최상 가격, 아이템마다 한 줄입니다.
 
 | Category | Items | What it is |
 |---|---|---|

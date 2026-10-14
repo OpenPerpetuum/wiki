@@ -8,11 +8,11 @@ description: "Deployable structures and placeable items: one card per deployable
 
 # Deployables
 
-Deployables are items that can be **placed in the terrain** to act on the zone — effect suppliers, repairers, turrets, teleports, and similar. Placing one is a corporation/privilege-gated action. The 133 non-PBS deployables are listed below, one page each: **click a card to open it.** The PBS structures are documented on the [Power base stations](/de/features/pbs/) page. How deployables are identified, paired capsule↔object, and which stat fields drive them is in [Deployable fields](/de/formats/deployable-fields/).
+Deployables sind Artikel, die **in das Terrain platziert** werden können, um auf die Zone zu wirken — Effektgeber, Reparateure, Türme, Teleporter und ähnliche. Das Platzieren ist eine durch Korporation/Berechtigung geschützte Aktion. Die 133 nicht-PBS-Deployables sind unten aufgelistet, je eine Seite: **klicke auf eine Karte, um sie zu öffnen.** Die PBS-Strukturen sind auf der Seite [Power base stations](/de/features/pbs/) dokumentiert. Wie Deployables identifiziert werden, Kapsel↔Objekt gepairt sind und welche Statfelder sie steuern, steht in [Deployable fields](/de/formats/deployable-fields/).
 
-## Mobile teleports (12)
+## Mobile Teleporter (12)
 
-Deployable teleports a player places in the terrain (see [Teleporting](/de/features/movement/)).
+Teleporter, die ein Spieler ins Terrain platziert (siehe [Teleporting](/de/features/movement/)).
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-map"/></svg><a class="prod-card-name" href="/de/content/deployables/mobile-teleport-capsule-armored/">Armored teleport beacon</a></div><div class="prod-card-body">keine Stufe</div></div>
@@ -29,9 +29,9 @@ Deployable teleports a player places in the terrain (see [Teleporting](/de/featu
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-map"/></svg><a class="prod-card-name" href="/de/content/deployables/mobile-world-teleporter-basic/">Interzone teleport beacon</a></div><div class="prod-card-body">keine Stufe</div></div>
 </div>
 
-## Mobile fields (6)
+## Mobile Felder (6)
 
-Deployable effect fields: ECCM, maskers and the reactor stabilizer.
+Platzierbare Effektfelder: ECCM, Masker und Reaktor-Stabilisator.
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-radar"/></svg><a class="prod-card-name" href="/de/content/deployables/mobile-field-eccm/">Mobile Field Eccm</a></div><div class="prod-card-body">keine Stufe</div></div>
@@ -42,18 +42,18 @@ Deployable effect fields: ECCM, maskers and the reactor stabilizer.
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-radar"/></svg><a class="prod-card-name" href="/de/content/deployables/mobile-field-reactor-stabilizer-capsule/">Mobile Field Reactor Stabilizer Capsule</a></div><div class="prod-card-body">keine Stufe</div></div>
 </div>
 
-## Arena teleports (2)
+## Arena-Teleporter (2)
 
-Teleport devices that move combatants and audience between the arena and the outer zones.
+Teleportgeräte, die Kämpfer und Publikum zwischen Arena und äußeren Zonen bewegen.
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-map"/></svg><a class="prod-card-name" href="/de/content/deployables/mobile-arena-teleporter-warrior-object/">Arena warrior starter position teleport</a></div><div class="prod-card-body">keine Stufe</div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-map"/></svg><a class="prod-card-name" href="/de/content/deployables/mobile-arena-teleporter-warriorhome-object/">Warrior exit teleport</a></div><div class="prod-card-body">keine Stufe</div></div>
 </div>
 
-## Mines & bombs (7)
+## Minen & Bomben (7)
 
-Deployed explosives: the landmine sizes, wall bombs, the area bomb and plant bombs.
+Platzierte Sprengstoffe: die Minengrößen, Wandsprengkörper, den Bereichssprengkörper und Pflanzensprengkörper.
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-star"/></svg><a class="prod-card-name" href="/de/content/deployables/area-bomb-capsule/">Plasma bomb</a></div><div class="prod-card-body">keine Stufe</div></div>
@@ -65,9 +65,9 @@ Deployed explosives: the landmine sizes, wall bombs, the area bomb and plant bom
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-star"/></svg><a class="prod-card-name" href="/de/content/deployables/wall-bomb-b-capsule/">Wall Bomb B Capsule</a></div><div class="prod-card-body">T2</div></div>
 </div>
 
-## Wall repairers (3)
+## Mauerreparatoren (3)
 
-Deployed repairers that heal the wall structures.
+Platzierte Reparateure, die die Wallstrukturen heilen.
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-tree"/></svg><a class="prod-card-name" href="/de/content/deployables/wall-healer-large-capsule/">DWM-3 wall maintenance unit</a></div><div class="prod-card-body">keine Stufe</div></div>
@@ -75,9 +75,9 @@ Deployed repairers that heal the wall structures.
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-tree"/></svg><a class="prod-card-name" href="/de/content/deployables/wall-healer-small-capsule/">DWM-1 wall maintenance unit</a></div><div class="prod-card-body">keine Stufe</div></div>
 </div>
 
-## Plant seeds (13)
+## Pflanzensamen (13)
 
-Seeds that grow the matching plant species when planted (see [Plants](/de/content/plants/)).
+Samen, die beim Pflanzen die passende Pflanzensorte heranwachsen lassen (siehe [Plants](/de/content/plants/)).
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-tree"/></svg><a class="prod-card-name" href="/de/content/deployables/plant-seed-bonsai/">Uropsia incubator</a></div><div class="prod-card-body">keine Stufe</div></div>
@@ -95,9 +95,9 @@ Seeds that grow the matching plant species when planted (see [Plants](/de/conten
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-tree"/></svg><a class="prod-card-name" href="/de/content/deployables/plant-seed-wall/">Defensive Wall Unit</a></div><div class="prod-card-body">keine Stufe</div></div>
 </div>
 
-## NPC eggs (82)
+## NPC-Eier (82)
 
-Capsules that hatch an NPC unit when placed (bought in the [NPC egg shop](/de/content/shop/npc-eggs/)).
+Kapseln, die beim Platzieren eine NPC-Einheit ausbrüten (erhältlich im [NPC egg shop](/de/content/shop/npc-eggs/)).
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-robots"/></svg><a class="prod-card-name" href="/de/content/deployables/npc-egg-2ndyear-capsule/">Guardian Commander TAP</a></div><div class="prod-card-body">keine Stufe</div></div>
@@ -184,25 +184,25 @@ Capsules that hatch an NPC unit when placed (bought in the [NPC egg shop](/de/co
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-robots"/></svg><a class="prod-card-name" href="/de/content/deployables/npc-egg-thelodica-small-miniboss3-capsule/">Level 3 Light Mercenary TAP</a></div><div class="prod-card-body">T3</div></div>
 </div>
 
-## Gates (1)
+## Portale (1)
 
-The zone gate capsule.
+Die Zonentor-Kapsel.
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/deployables/gate-capsule/">Forcefield gate</a></div><div class="prod-card-body">keine Stufe</div></div>
 </div>
 
-## Containers (1)
+## Container (1)
 
-The deployable container capsule.
+Die Kapsel des platzierbaren Behälters.
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-home"/></svg><a class="prod-card-name" href="/de/content/deployables/container-capsule/">Field container capsule</a></div><div class="prod-card-body">keine Stufe</div></div>
 </div>
 
-## Miscellaneous (6)
+## Verschiedenes (6)
 
-Everything else that can be placed in the terrain: beacons, probes, buoys, and the test deployables.
+Alles andere, was in das Terrain platziert werden kann: Beacons, Proben, Bojen und die Test-Deployables.
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/deployables/deploy-punchbag/">Deploy Punchbag</a></div><div class="prod-card-body">keine Stufe</div></div>

@@ -8,7 +8,7 @@ description: "All ore types and their extraction yields; the per-zone node param
 
 # 礦石
 
-Ore exists in the ground as **deposits (nodes)**. Each node holds a limited total amount; when a node is mined below its threshold it is removed and the zone regenerates new nodes up to its configured maximum. Every ore has its own page with its extraction facts, the zones it spawns in and what is made from it. How each column is used by the server, with the node-generation formulas, is in [Ore fields](/zh-TW/formats/ore-fields/).
+礦石以**礦藏(節點)**的形式存在於地面中。每個節點持有有限的總量;當節點被開採到低於其閾值時,它會被移除,區域會再生新節點直到設定的最大值。每種礦石都有各自的頁面,包含其開採事實、出現的區域以及由此製造的東西。伺服器如何使用每一列(包括節點生成公式),參見[Ore fields](/zh-TW/formats/ore-fields/)。
 
 ## 礦石種類
 
@@ -16,26 +16,26 @@ Ore exists in the ground as **deposits (nodes)**. Each node holds a limited tota
 
 <table>
 <tr><th>礦石</th><th>單次開採量</th><th>開採方式</th><th>觸發效果</th><th>地質掃描文檔</th></tr>
-<tr><td><a href="/zh-TW/content/ores/titan/">titan</a></td><td>1.5k</td><td>0</td><td>no</td><td>5382</td></tr>
-<tr><td><a href="/zh-TW/content/ores/crude/">crude</a></td><td>1.5k</td><td>1</td><td>no</td><td>5383</td></tr>
-<tr><td><a href="/zh-TW/content/ores/stermonit/">stermonit</a></td><td>975</td><td>0</td><td>no</td><td>5384</td></tr>
-<tr><td><a href="/zh-TW/content/ores/imentium/">imentium</a></td><td>975</td><td>0</td><td>no</td><td>5385</td></tr>
-<tr><td><a href="/zh-TW/content/ores/liquizit/">liquizit</a></td><td>450</td><td>1</td><td>no</td><td>5386</td></tr>
-<tr><td><a href="/zh-TW/content/ores/epriton/">epriton</a></td><td>450</td><td>1</td><td>no</td><td>5387</td></tr>
-<tr><td><a href="/zh-TW/content/ores/helioptris/">helioptris</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/zh-TW/content/ores/triandlus/">triandlus</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/zh-TW/content/ores/prismocitae/">prismocitae</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/zh-TW/content/ores/gravel/">gravel</a></td><td>1</td><td>0</td><td>no</td><td>5388</td></tr>
-<tr><td><a href="/zh-TW/content/ores/electrofruit/">electrofruit</a></td><td>300</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/zh-TW/content/ores/silgium/">silgium</a></td><td>975</td><td>0</td><td>no</td><td>5389</td></tr>
+<tr><td><a href="/zh-TW/content/ores/titan/">titan</a></td><td>1.5k</td><td>0</td><td>否</td><td>5382</td></tr>
+<tr><td><a href="/zh-TW/content/ores/crude/">crude</a></td><td>1.5k</td><td>1</td><td>否</td><td>5383</td></tr>
+<tr><td><a href="/zh-TW/content/ores/stermonit/">stermonit</a></td><td>975</td><td>0</td><td>否</td><td>5384</td></tr>
+<tr><td><a href="/zh-TW/content/ores/imentium/">imentium</a></td><td>975</td><td>0</td><td>否</td><td>5385</td></tr>
+<tr><td><a href="/zh-TW/content/ores/liquizit/">liquizit</a></td><td>450</td><td>1</td><td>否</td><td>5386</td></tr>
+<tr><td><a href="/zh-TW/content/ores/epriton/">epriton</a></td><td>450</td><td>1</td><td>否</td><td>5387</td></tr>
+<tr><td><a href="/zh-TW/content/ores/helioptris/">helioptris</a></td><td>450</td><td>0</td><td>否</td><td>–</td></tr>
+<tr><td><a href="/zh-TW/content/ores/triandlus/">triandlus</a></td><td>450</td><td>0</td><td>否</td><td>–</td></tr>
+<tr><td><a href="/zh-TW/content/ores/prismocitae/">prismocitae</a></td><td>450</td><td>0</td><td>否</td><td>–</td></tr>
+<tr><td><a href="/zh-TW/content/ores/gravel/">gravel</a></td><td>1</td><td>0</td><td>否</td><td>5388</td></tr>
+<tr><td><a href="/zh-TW/content/ores/electrofruit/">electrofruit</a></td><td>300</td><td>0</td><td>否</td><td>–</td></tr>
+<tr><td><a href="/zh-TW/content/ores/silgium/">silgium</a></td><td>975</td><td>0</td><td>否</td><td>5389</td></tr>
 <tr><td><a href="/zh-TW/content/ores/gammaterial/">gammaterial</a></td><td>150</td><td>0</td><td>需要</td><td>–</td></tr>
-<tr><td><a href="/zh-TW/content/ores/plants/">plants</a></td><td>10</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/zh-TW/content/ores/energymineral/">energymineral</a></td><td>100</td><td>1</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/zh-TW/content/ores/fluxore/">fluxore</a></td><td>100</td><td>0</td><td>no</td><td>5842</td></tr>
-<tr><td><a href="/zh-TW/content/ores/deeptanium/">deeptanium</a></td><td>1.5k</td><td>0</td><td>no</td><td>8671</td></tr>
-<tr><td><a href="/zh-TW/content/ores/deepriton/">deepriton</a></td><td>450</td><td>1</td><td>no</td><td>8699</td></tr>
-<tr><td><a href="/zh-TW/content/ores/dhdt/">dhdt</a></td><td>450</td><td>1</td><td>no</td><td>8706</td></tr>
+<tr><td><a href="/zh-TW/content/ores/plants/">plants</a></td><td>10</td><td>0</td><td>否</td><td>–</td></tr>
+<tr><td><a href="/zh-TW/content/ores/energymineral/">energymineral</a></td><td>100</td><td>1</td><td>否</td><td>–</td></tr>
+<tr><td><a href="/zh-TW/content/ores/fluxore/">fluxore</a></td><td>100</td><td>0</td><td>否</td><td>5842</td></tr>
+<tr><td><a href="/zh-TW/content/ores/deeptanium/">deeptanium</a></td><td>1.5k</td><td>0</td><td>否</td><td>8671</td></tr>
+<tr><td><a href="/zh-TW/content/ores/deepriton/">deepriton</a></td><td>450</td><td>1</td><td>否</td><td>8699</td></tr>
+<tr><td><a href="/zh-TW/content/ores/dhdt/">dhdt</a></td><td>450</td><td>1</td><td>否</td><td>8706</td></tr>
 </table>
 
-**Extraction type**: 0 = solid (tile-by-tile with a drill), 1 = liquid (continuous pump). **Enabler effect** — when *required*, the robot needs the matching enabler effect active to extract that ore at all. How many nodes of each ore a zone maintains, and how large each node is, is on each ore's own page (the *Zone parameters* table there).
+**開採類型**:0 = 固體(用鑽機逐瓦開採),1 = 液體(連續泵吸)。**啟動效果**——當*需要*時,機器人需要對應的啟動效果處於啟動狀態才能開採該礦石。區域維持每種礦石多少節點、每個節點有多大,在每種礦石自己的頁面(其上的*區域參數*表)。
 

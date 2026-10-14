@@ -8,13 +8,13 @@ description: "Każda strefa z połączeniem teleportacyjnym do innej strefy, pog
 
 # Indeks stref
 
-All 59 zones that have at least one teleport point to ANOTHER zone, grouped by family (the same grouping as the [world map](/pl/zones/map/)) — the card links to the zone's page. Zones without any inter-zone teleport point (the strongholds, the PvP arena, dead-end gate islands) are left off; they are still reachable from the world map's gate lines. The per-family pages — [Alpha](/pl/zones/alpha/) · [Beta](/pl/zones/beta/) · [Gamma](/pl/zones/gamma/) — list every zone of the family regardless of TPs.
+Wszystkie 59 strefy, które mają co najmniej jeden punkt teleportu do INNEJ strefy, pogrupowane wg rodziny (to samo grupowanie co [world map](/pl/zones/map/)) — karta linkuje do strony strefy. Strefy bez żadnych punktów teleportu między strefami (fortece, arena PvP, wyspy bram ślepych) są pominięte; nadal są osiągalne z linii bram mapy świata. Strony wg rodziny — [Alpha](/pl/zones/alpha/) · [Beta](/pl/zones/beta/) · [Gamma](/pl/zones/gamma/) — wymieniają każdą strefę rodziny niezależnie od TP.
 
 <a id="training"></a>
 
 ## Training
 
-The virtual [training island](/pl/zones/zone-training/) — where new characters start and learn the basics before entering the main galaxies.
+Wirtualne [training island](/pl/zones/zone-training/) — gdzie nowe postacie zaczynają i uczą się podstaw przed wejściem do głównych galaktyk.
 
 <div class="zone-cards">
 <a class="zone-card" href="/pl/zones/zone-training/">
@@ -28,7 +28,7 @@ The virtual [training island](/pl/zones/zone-training/) — where new characters
 
 ## Alpha
 
-The main protected islands and their second-wave PvE companions — the safe starter economy (see [Poziomy ochrony](/pl/zones/protection/)).
+Główne chronione wyspy i ich towarzysze PvE drugiej fali — bezpieczna gospodarka startowa (zobacz [Poziomy ochrony](/pl/zones/protection/)).
 
 <div class="zone-cards">
 <a class="zone-card" href="/pl/zones/zone-asi-pve/">
@@ -62,7 +62,7 @@ The main protected islands and their second-wave PvE companions — the safe sta
 
 ## Beta
 
-The open-PvP islands: the three main islands' PvP twins (the "_real" names), the eight gate islands of each galaxy, and the special zones (the [PvP arena](/pl/zones/zone-pvp-arena/) and the strongholds — protected instances, listed here for completeness).
+Wyspy otwartego PvP: bliźniaki PvP trzech głównych wysp (nazwy "_real"), osiem wysp bram każdej galaktyki i strefy specjalne ([PvP arena](/pl/zones/zone-pvp-arena/) i fortece — chronione instancje, wymienione tutaj dla kompletności).
 
 <div class="zone-cards">
 <a class="zone-card" href="/pl/zones/zone-asi-a-real/">

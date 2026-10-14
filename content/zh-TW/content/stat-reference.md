@@ -8,12 +8,12 @@ description: "What the item stats mean and how big each value is: units, catalog
 
 # 屬性參考
 
-Every item page lists raw stat values. This page puts them in scale: the unit of each stat, the smallest/largest values in the whole catalog, and real items to compare against. Ranges are computed over all enabled items (prototypes and test objects excluded).
+每個物品頁面列出原始狀態數值。此頁面為其提供尺度:每個狀態的單位、整個目錄的最小/最大值,以及可比較的真品物品。範圍基於所有啟用的物品計算(排除原型與測試對象)。
 
 
-## Powergrid and CPU in context
+## 脈絡中的電力網與 CPU
 
-A module's **powergrid_usage** is only meaningful against the robot that carries it: the chassis defines the total RP (**powergrid_max**), energy (**core_max**) and CPU (**cpu_max**) its modules may use. **Powergrid upgrades** modules add a fixed amount of RP. A usage value is a percentage of the available capacity — for example a module with powergrid_usage 214 uses 214% of an Ikarus chassis (100 RP, nothing fits beyond the frame) but only ~3% of an Onyx chassis (6.6k RP).
+模組的**powergrid_usage**只對攜帶它的機器人有意義:船體定義其模組可使用的總 RP(**powergrid_max**)、能量(**core_max**)與 CPU(**cpu_max**)。**電力網升級**模組增加固定數量的 RP。使用值是可用量容量的百分比——例如 powergrid_usage 為 214 的模組使用 Ikarus 船體(100 RP,超出框架什麼都放不下)的 214%,但只使用 Onyx 船體(6.6k RP)的約 3%。
 
 | Chassis (frame) | Powergrid (RP) | Core (RP) | CPU |
 |---|---|---|---|
@@ -89,7 +89,7 @@ A module's **powergrid_usage** is only meaningful against the robot that carries
 
 ## Stat scale
 
-For each documented stat: how many items have it, its unit, and the smallest / median / largest value in the catalog with an item you can open at each end.
+每個已記錄的狀態:擁有它的物品數、其單位,以及目錄中的最小/中位/最大值,加上可以在兩端開啟的物品。
 
 | Stat | Unit | Items | Smallest | Median | Largest | Small example | Large example |
 |---|---|---|---|---|---|---|---|
@@ -135,4 +135,4 @@ For each documented stat: how many items have it, its unit, and the smallest / m
 | `stealth_strength` | — | 525 | 1 | 100 | 100M | [Asintec terminal](/content/items/public-docking-base-thelodica/) | [Relic Sap](/content/items/relic-sap/) |
 
 
-Stats not listed here are either **modifier** stats (they change another stat instead of setting one) or internal values without a player-facing unit — the developer field reference in [Formats](/zh-TW/formats/) lists every field.
+此處未列出的狀態要嘛是**修飾**狀態(它改變另一個狀態而不是設置一個),要嘛是沒有玩家可見單位的內部值——[Formats](/zh-TW/formats/)中的開發者欄位參考列出了每個欄位。

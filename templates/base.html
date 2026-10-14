@@ -65,6 +65,15 @@
     data-update-available="{{ config.extra.ui.update_available }}"
     data-zonemap-mode-height="{{ config.extra.ui.zonemap_mode_height }}"
     data-zonemap-mode-color="{{ config.extra.ui.zonemap_mode_color }}"
+    data-zonemap-landmarks="{{ config.extra.ui.zonemap_landmarks }}"
+    data-zonemap-toggle-all="{{ config.extra.ui.zonemap_toggle_all }}"
+    data-zonemap-lm-teleports="{{ config.extra.ui.zonemap_lm_teleports }}"
+    data-zonemap-lm-outposts="{{ config.extra.ui.zonemap_lm_outposts }}"
+    data-zonemap-lm-terminals="{{ config.extra.ui.zonemap_lm_terminals }}"
+    data-zonemap-lm-roads="{{ config.extra.ui.zonemap_lm_roads }}"
+    data-zonemap-lm-labels="{{ config.extra.ui.zonemap_lm_labels }}"
+    data-zonemap-mode-base="{{ config.extra.ui.zonemap_mode_base }}"
+    data-zonemap-reset-zoom="{{ config.extra.ui.zonemap_reset_zoom }}"
 ></div>
 <header class="topbar">
     <!-- Row 1: the wiki title (left) and the chrome icons (right).
@@ -105,10 +114,11 @@
     </div>
     <!-- Row 2: the search bar (wide, centered). -->
     <div class="topbar-search">
-        <input type="search" id="wiki-search" data-i18n-ph="search_placeholder" placeholder="{{ config.extra.ui.search_placeholder}}" autocomplete="off" spellcheck="false">
+        <input type="search" id="wiki-search" data-i18n-ph="search_placeholder" placeholder="{{ config.extra.ui.search_placeholder}}" autocomplete="off" spellcheck="false"
+               role="combobox" aria-controls="search-results" aria-autocomplete="list" aria-expanded="false"
     </div>
 </header>
-<div id="search-results" class="search-results" hidden></div>
+<div id="search-results" class="search-results" role="listbox" aria-label="Search results" hidden></div>
 <div class="layout">
 <!-- Sidenav: the Home quick link on top, then the main items — Start,
      World, Play, Systems (+ Dev, only visible in dev mode, see the top-bar
@@ -530,14 +540,25 @@
             if (e.key === "Escape") setOpen(false);
         });
     })();
-    // Keyboard: Ctrl+F / Cmd+F focuses the wiki search; Esc unfocuses it.
+    // Keyboard: "/", Ctrl+F or Cmd+F focuses the wiki search; Esc unfocuses it.
     (function () {
         var input = document.getElementById("wiki-search");
         var box = document.getElementById("search-results");
         if (!input) return;
+        function isTyping(el) {
+            if (!el) return false;
+            var tag = (el.tagName || "").toUpperCase();
+            return tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || el.isContentEditable;
+        }
         document.addEventListener("keydown", function (e) {
             if ((e.ctrlKey || e.metaKey) && !e.shiftKey && !e.altKey &&
                 (e.key === "f" || e.key === "F")) {
+                e.preventDefault();
+                input.focus();
+                input.select();
+            } else if (e.key === "/" && !e.ctrlKey && !e.metaKey && !e.altKey && !isTyping(document.activeElement)) {
+                // bare "/" outside a text field (same convention as the
+                // in-game client and most wiki search bars)
                 e.preventDefault();
                 input.focus();
                 input.select();

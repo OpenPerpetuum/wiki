@@ -8,11 +8,11 @@ description: "The research tree: every category, and every node with the item it
 
 # 기술 트리
 
-Tech tree nodes unlock items by spending **research points** (earned from kernels — see [Research](/ko/features/research/) in the features section). A node can only be unlocked when its **parent** node is unlocked and the **enabler extension** is learned. Point types: common, hitech, industrial, newtech, nuimqol, pelistal, thelodica.
+기술 트리 노드는 **연구 포인트**(커널에서 획득 — features 섹션의 [Research](/ko/features/research/) 참조)를 소비하여 아이템을 잠금 해제합니다. 노드는 **부모** 노드가 잠금 해제되고 **인에이블러 확장**이 배워진 경우에만 잠금 해제할 수 있습니다. 포인트 유형: common, hitech, industrial, newtech, nuimqol, pelistal, thelodica.
 
 ## 카테고리
 
-Each category is its own page with the full tree and one page per node.
+각 범위는 완전한 트리와 노드별 페이지를 담은 자체 페이지를 가집니다.
 
 | Category | Nodes | Root lines | What it unlocks |
 |---|---|---|---|

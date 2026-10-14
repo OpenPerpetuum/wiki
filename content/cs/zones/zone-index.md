@@ -8,13 +8,13 @@ description: "Každá zóna se spojením teleportu do jiné zóny, seskupená po
 
 # Index zón
 
-All 59 zones that have at least one teleport point to ANOTHER zone, grouped by family (the same grouping as the [world map](/cs/zones/map/)) — the card links to the zone's page. Zones without any inter-zone teleport point (the strongholds, the PvP arena, dead-end gate islands) are left off; they are still reachable from the world map's gate lines. The per-family pages — [Alpha](/cs/zones/alpha/) · [Beta](/cs/zones/beta/) · [Gamma](/cs/zones/gamma/) — list every zone of the family regardless of TPs.
+Všechny 59 zóny, které mají alespoň jeden teleportní bod do JINÉ zóny, seskupené podle rodiny (stejné seskupení jako [world map](/cs/zones/map/)) — karta odkazuje na stránku zóny. Zóny bez jakéhokoli mezi-zónového teleportního bodu (strongholdy, PvP aréna, slepé gate ostrovy) jsou vynechány; stále jsou dosažitelné z gate linií světové mapy. Stránky podle rodiny — [Alpha](/cs/zones/alpha/) · [Beta](/cs/zones/beta/) · [Gamma](/cs/zones/gamma/) — uvádějí každou zónu rodiny bez ohledu na TP.
 
 <a id="training"></a>
 
 ## Training
 
-The virtual [training island](/cs/zones/zone-training/) — where new characters start and learn the basics before entering the main galaxies.
+Virtuální [training island](/cs/zones/zone-training/) — kde nové postavy začínají a učí se základy před vstupem do hlavních galaxií.
 
 <div class="zone-cards">
 <a class="zone-card" href="/cs/zones/zone-training/">
@@ -28,7 +28,7 @@ The virtual [training island](/cs/zones/zone-training/) — where new characters
 
 ## Alpha
 
-The main protected islands and their second-wave PvE companions — the safe starter economy (see [Úrovně ochrany](/cs/zones/protection/)).
+Hlavní chráněné ostrovy a jejich PvE druží druhé vlny — bezpečná startovní ekonomika (viz [Úrovně ochrany](/cs/zones/protection/)).
 
 <div class="zone-cards">
 <a class="zone-card" href="/cs/zones/zone-asi-pve/">
@@ -62,7 +62,7 @@ The main protected islands and their second-wave PvE companions — the safe sta
 
 ## Beta
 
-The open-PvP islands: the three main islands' PvP twins (the "_real" names), the eight gate islands of each galaxy, and the special zones (the [PvP arena](/cs/zones/zone-pvp-arena/) and the strongholds — protected instances, listed here for completeness).
+Ostrovy otevřeného PvP: PvP dvojčata tří hlavních ostrovů (názvy "_real"), osm gate ostrovů každé galaxie a speciální zóny ([PvP arena](/cs/zones/zone-pvp-arena/) a strongholdy — chráněné instance, uvedeny zde pro úplnost).
 
 <div class="zone-cards">
 <a class="zone-card" href="/cs/zones/zone-asi-a-real/">

@@ -150,11 +150,20 @@
             search_no_results: "No pages match",
             search_pages_found_many: "{n} pages found",
             search_pages_found_one: "1 page found",
-            search_placeholder: "Search the wiki…  (Ctrl+F)",
+            search_placeholder: "Search the wiki…  (/ or Ctrl+F or Cmd+F)",
             search_unavailable: "Search is unavailable",
             update_available: "A new update is available, click here to refresh.",
+            zonemap_landmarks: "Landmarks",
+            zonemap_lm_labels: "Labels",
+            zonemap_lm_outposts: "Outposts",
+            zonemap_lm_roads: "Roads",
+            zonemap_lm_teleports: "Teleports & Gates",
+            zonemap_lm_terminals: "Field terminals",
+            zonemap_mode_base: "Base",
             zonemap_mode_color: "Color",
-            zonemap_mode_height: "Height"
+            zonemap_mode_height: "Height",
+            zonemap_reset_zoom: "Reset the zoom",
+            zonemap_toggle_all: "Toggle all"
         },
         cs: {
             aria_language: "Vybrat jazyk",
@@ -318,12 +327,21 @@
             search_no_results: "Žádné odpovídající stránky",
             search_pages_found_many: "Nalezeno {n} stránek",
             search_pages_found_one: "Nalezena 1 stránka",
-            search_placeholder: "Hledat ve wiki…  (Ctrl+F)",
+            search_placeholder: "Hledat ve wiki…  (/ or Ctrl+F or Cmd+F)",
             search_results: "Výsledky",
             search_unavailable: "Vyhledávání není dostupné",
             update_available: "Je k dispozici nová aktualizace, klikněte zde pro obnovení.",
+            zonemap_landmarks: "Výrazné body",
+            zonemap_lm_labels: "Označení",
+            zonemap_lm_outposts: "Postranní stanice",
+            zonemap_lm_roads: "Cesty",
+            zonemap_lm_teleports: "Teleporty a brány",
+            zonemap_lm_terminals: "Terénní terminály",
+            zonemap_mode_base: "Základ",
             zonemap_mode_color: "Barva",
-            zonemap_mode_height: "Výška"
+            zonemap_mode_height: "Výška",
+            zonemap_reset_zoom: "Obnovit zoom",
+            zonemap_toggle_all: "Přepnout vše"
         },
         de: {
             aria_language: "Sprache wählen",
@@ -487,12 +505,21 @@
             search_no_results: "Keine passenden Seiten",
             search_pages_found_many: "{n} Seiten gefunden",
             search_pages_found_one: "1 Seite gefunden",
-            search_placeholder: "Wiki durchsuchen…  (Strg+F)",
+            search_placeholder: "Wiki durchsuchen…  (/ or Ctrl+F or Cmd+F)",
             search_results: "Ergebnisse",
             search_unavailable: "Suche nicht verfügbar",
             update_available: "Ein neues Update ist verfügbar, hier klicken zum Aktualisieren.",
+            zonemap_landmarks: "Landmarken",
+            zonemap_lm_labels: "Beschriftungen",
+            zonemap_lm_outposts: "Vorposten",
+            zonemap_lm_roads: "Straßen",
+            zonemap_lm_teleports: "Teleporte und Tore",
+            zonemap_lm_terminals: "Feldterminals",
+            zonemap_mode_base: "Basis",
             zonemap_mode_color: "Farbe",
-            zonemap_mode_height: "Höhe"
+            zonemap_mode_height: "Höhe",
+            zonemap_reset_zoom: "Zoom zurücksetzen",
+            zonemap_toggle_all: "Alle umschalten"
         },
         es: {
             aria_language: "Elegir idioma",
@@ -656,12 +683,21 @@
             search_no_results: "No hay páginas coincidentes",
             search_pages_found_many: "{n} páginas encontradas",
             search_pages_found_one: "1 página encontrada",
-            search_placeholder: "Buscar en la wiki…  (Ctrl+F)",
+            search_placeholder: "Buscar en la wiki…  (/ or Ctrl+F or Cmd+F)",
             search_results: "Resultados",
             search_unavailable: "Búsqueda no disponible",
             update_available: "Hay una nueva actualización disponible, haz clic aquí para actualizar.",
+            zonemap_landmarks: "Puntos de referencia",
+            zonemap_lm_labels: "Etiquetas",
+            zonemap_lm_outposts: "Avanzadas",
+            zonemap_lm_roads: "Caminos",
+            zonemap_lm_teleports: "Teletransportes y puertas",
+            zonemap_lm_terminals: "Terminales de campo",
+            zonemap_mode_base: "Base",
             zonemap_mode_color: "Color",
-            zonemap_mode_height: "Altitud"
+            zonemap_mode_height: "Altitud",
+            zonemap_reset_zoom: "Restablecer zoom",
+            zonemap_toggle_all: "Conmutar todo"
         },
         fr: {
             aria_language: "Choisir la langue",
@@ -792,11 +828,20 @@
             search_no_results: "Aucune page correspondante",
             search_pages_found_many: "{n} pages trouvées",
             search_pages_found_one: "1 page trouvée",
-            search_placeholder: "Rechercher dans le wiki…  (Ctrl+F)",
+            search_placeholder: "Rechercher dans le wiki…  (/ or Ctrl+F or Cmd+F)",
             search_unavailable: "La recherche est indisponible",
             update_available: "Une nouvelle mise à jour est disponible, cliquez ici pour actualiser.",
+            zonemap_landmarks: "Repères",
+            zonemap_lm_labels: "Libellés",
+            zonemap_lm_outposts: "Avant-postes",
+            zonemap_lm_roads: "Routes",
+            zonemap_lm_teleports: "Téléports et portes",
+            zonemap_lm_terminals: "Terminals de terrain",
+            zonemap_mode_base: "Base",
             zonemap_mode_color: "Couleur",
-            zonemap_mode_height: "Altitude"
+            zonemap_mode_height: "Altitude",
+            zonemap_reset_zoom: "Réinitialiser le zoom",
+            zonemap_toggle_all: "Tout basculer"
         },
         it: {
             aria_language: "Scegli lingua",
@@ -960,12 +1005,21 @@
             search_no_results: "Nessuna pagina corrispondente",
             search_pages_found_many: "{n} pagine trovate",
             search_pages_found_one: "1 pagina trovata",
-            search_placeholder: "Cerca nella wiki…  (Ctrl+F)",
+            search_placeholder: "Cerca nella wiki…  (/ or Ctrl+F or Cmd+F)",
             search_results: "Risultati",
             search_unavailable: "Ricerca non disponibile",
             update_available: "È disponibile un nuovo aggiornamento, clicca qui per ricaricare.",
+            zonemap_landmarks: "Punti di riferimento",
+            zonemap_lm_labels: "Etichette",
+            zonemap_lm_outposts: "Avamposti",
+            zonemap_lm_roads: "Strade",
+            zonemap_lm_teleports: "Teletrasporti e porte",
+            zonemap_lm_terminals: "Terminali di campo",
+            zonemap_mode_base: "Base",
             zonemap_mode_color: "Colore",
-            zonemap_mode_height: "Altitudine"
+            zonemap_mode_height: "Altitudine",
+            zonemap_reset_zoom: "Reimposta lo zoom",
+            zonemap_toggle_all: "Attiva/disattiva tutti"
         },
         ja: {
             aria_language: "言語を選択",
@@ -1129,12 +1183,21 @@
             search_no_results: "一致するページがありません",
             search_pages_found_many: "{n}件見つかりました",
             search_pages_found_one: "1件見つかりました",
-            search_placeholder: "Wikiを検索…  (Ctrl+F)",
+            search_placeholder: "Wikiを検索…  (/ or Ctrl+F or Cmd+F)",
             search_results: "検索結果",
             search_unavailable: "検索を利用できません",
             update_available: "新しい更新があります。クリックして再読み込みしてください。",
+            zonemap_landmarks: "ランドマーク",
+            zonemap_lm_labels: "ラベル",
+            zonemap_lm_outposts: "前哨基地",
+            zonemap_lm_roads: "道路",
+            zonemap_lm_teleports: "テレポートとゲート",
+            zonemap_lm_terminals: "フィールド端末",
+            zonemap_mode_base: "ベース",
             zonemap_mode_color: "カラー",
-            zonemap_mode_height: "高度"
+            zonemap_mode_height: "高度",
+            zonemap_reset_zoom: "ズームをリセット",
+            zonemap_toggle_all: "すべて切替"
         },
         ko: {
             aria_language: "언어 선택",
@@ -1298,12 +1361,21 @@
             search_no_results: "일치하는 페이지가 없습니다",
             search_pages_found_many: "{n}개 페이지 발견",
             search_pages_found_one: "1개 페이지 발견",
-            search_placeholder: "위키 검색…  (Ctrl+F)",
+            search_placeholder: "위키 검색…  (/ or Ctrl+F or Cmd+F)",
             search_results: "검색 결과",
             search_unavailable: "검색을 사용할 수 없습니다",
             update_available: "새 업데이트가 있습니다. 새로고침하려면 여기를 클릭하세요.",
+            zonemap_landmarks: "랜드마크",
+            zonemap_lm_labels: "라벨",
+            zonemap_lm_outposts: "전진기지",
+            zonemap_lm_roads: "도로",
+            zonemap_lm_teleports: "텔레포트 및 게이트",
+            zonemap_lm_terminals: "필드 터미널",
+            zonemap_mode_base: "기본",
             zonemap_mode_color: "색상",
-            zonemap_mode_height: "고도"
+            zonemap_mode_height: "고도",
+            zonemap_reset_zoom: "줌 리셋",
+            zonemap_toggle_all: "모두 전환"
         },
         nl: {
             aria_language: "Kies taal",
@@ -1467,12 +1539,21 @@
             search_no_results: "Geen overeenkomende pagina's",
             search_pages_found_many: "{n} pagina's gevonden",
             search_pages_found_one: "1 pagina gevonden",
-            search_placeholder: "Doorzoek de wiki…  (Ctrl+F)",
+            search_placeholder: "Doorzoek de wiki…  (/ or Ctrl+F or Cmd+F)",
             search_results: "Resultaten",
             search_unavailable: "Zoeken niet beschikbaar",
             update_available: "Er is een nieuwe update beschikbaar, klik hier om te vernieuwen.",
+            zonemap_landmarks: "Landmerken",
+            zonemap_lm_labels: "Labels",
+            zonemap_lm_outposts: "Voorposten",
+            zonemap_lm_roads: "Wegen",
+            zonemap_lm_teleports: "Teleports & poorten",
+            zonemap_lm_terminals: "Veldterminals",
+            zonemap_mode_base: "Basis",
             zonemap_mode_color: "Kleur",
-            zonemap_mode_height: "Hoogte"
+            zonemap_mode_height: "Hoogte",
+            zonemap_reset_zoom: "Zoom opnieuw instellen",
+            zonemap_toggle_all: "Alles omschakelen"
         },
         pl: {
             aria_language: "Wybierz język",
@@ -1636,12 +1717,21 @@
             search_no_results: "Brak pasujących stron",
             search_pages_found_many: "Znaleziono {n} stron",
             search_pages_found_one: "Znaleziono 1 stronę",
-            search_placeholder: "Szukaj w wiki…  (Ctrl+F)",
+            search_placeholder: "Szukaj w wiki…  (/ or Ctrl+F or Cmd+F)",
             search_results: "Wyniki",
             search_unavailable: "Wyszukiwanie niedostępne",
             update_available: "Dostępna jest nowa aktualizacja, kliknij tutaj, aby odświeżyć.",
+            zonemap_landmarks: "Znaki orientacyjne",
+            zonemap_lm_labels: "Etykiety",
+            zonemap_lm_outposts: "Bazy wypadowe",
+            zonemap_lm_roads: "Drogi",
+            zonemap_lm_teleports: "Teleporty i bramy",
+            zonemap_lm_terminals: "Terminale polowe",
+            zonemap_mode_base: "Baza",
             zonemap_mode_color: "Kolor",
-            zonemap_mode_height: "Wysokość"
+            zonemap_mode_height: "Wysokość",
+            zonemap_reset_zoom: "Przywróć zoom",
+            zonemap_toggle_all: "Przełącz wszystkie"
         },
         pt: {
             aria_language: "Escolher idioma",
@@ -1805,12 +1895,21 @@
             search_no_results: "Nenhuma página correspondente",
             search_pages_found_many: "{n} páginas encontradas",
             search_pages_found_one: "1 página encontrada",
-            search_placeholder: "Pesquisar na wiki…  (Ctrl+F)",
+            search_placeholder: "Pesquisar na wiki…  (/ or Ctrl+F or Cmd+F)",
             search_results: "Resultados",
             search_unavailable: "Pesquisa indisponível",
             update_available: "Uma nova atualização está disponível, clique aqui para atualizar.",
+            zonemap_landmarks: "Pontos de referência",
+            zonemap_lm_labels: "Rótulos",
+            zonemap_lm_outposts: "Pontos avançados",
+            zonemap_lm_roads: "Estradas",
+            zonemap_lm_teleports: "Teleportes e portas",
+            zonemap_lm_terminals: "Terminais de campo",
+            zonemap_mode_base: "Base",
             zonemap_mode_color: "Cor",
-            zonemap_mode_height: "Altitude"
+            zonemap_mode_height: "Altitude",
+            zonemap_reset_zoom: "Redefinir zoom",
+            zonemap_toggle_all: "Alternar tudo"
         },
         ru: {
             aria_language: "Выбрать язык",
@@ -1974,12 +2073,21 @@
             search_no_results: "Нет подходящих страниц",
             search_pages_found_many: "Найдено страниц: {n}",
             search_pages_found_one: "Найдена 1 страница",
-            search_placeholder: "Поиск по вики…  (Ctrl+F)",
+            search_placeholder: "Поиск по вики…  (/ or Ctrl+F or Cmd+F)",
             search_results: "Результаты",
             search_unavailable: "Поиск недоступен",
             update_available: "Доступно обновление, нажмите здесь для перезагрузки.",
+            zonemap_landmarks: "Знаковые объекты",
+            zonemap_lm_labels: "Надписи",
+            zonemap_lm_outposts: "Передовые базы",
+            zonemap_lm_roads: "Дороги",
+            zonemap_lm_teleports: "Телепорты и врата",
+            zonemap_lm_terminals: "Полевые терминалы",
+            zonemap_mode_base: "База",
             zonemap_mode_color: "Цвет",
-            zonemap_mode_height: "Высота"
+            zonemap_mode_height: "Высота",
+            zonemap_reset_zoom: "Сбросить масштаб",
+            zonemap_toggle_all: "Переключить всё"
         },
         "zh-CN": {
             aria_language: "选择语言",
@@ -2143,12 +2251,21 @@
             search_no_results: "没有匹配的页面",
             search_pages_found_many: "找到 {n} 个页面",
             search_pages_found_one: "找到 1 个页面",
-            search_placeholder: "搜索 Wiki…  (Ctrl+F)",
+            search_placeholder: "搜索 Wiki…  (/ or Ctrl+F or Cmd+F)",
             search_results: "搜索结果",
             search_unavailable: "搜索不可用",
             update_available: "有新更新可用，点击此处刷新。",
+            zonemap_landmarks: "地标",
+            zonemap_lm_labels: "标签",
+            zonemap_lm_outposts: "前哨基地",
+            zonemap_lm_roads: "道路",
+            zonemap_lm_teleports: "传送点与传送门",
+            zonemap_lm_terminals: "野外终端",
+            zonemap_mode_base: "基础",
             zonemap_mode_color: "颜色",
-            zonemap_mode_height: "高度"
+            zonemap_mode_height: "高度",
+            zonemap_reset_zoom: "重置缩放",
+            zonemap_toggle_all: "切换全部"
         },
         "zh-TW": {
             aria_language: "選擇語言",
@@ -2312,12 +2429,21 @@
             search_no_results: "沒有相符的頁面",
             search_pages_found_many: "找到 {n} 個頁面",
             search_pages_found_one: "找到 1 個頁面",
-            search_placeholder: "搜尋 Wiki…  (Ctrl+F)",
+            search_placeholder: "搜尋 Wiki…  (/ or Ctrl+F or Cmd+F)",
             search_results: "搜尋結果",
             search_unavailable: "搜尋不可用",
             update_available: "有新更新可用，點擊此處重新整理。",
+            zonemap_landmarks: "地標",
+            zonemap_lm_labels: "標籤",
+            zonemap_lm_outposts: "前哨基地",
+            zonemap_lm_roads: "道路",
+            zonemap_lm_teleports: "傳送點與傳送門",
+            zonemap_lm_terminals: "野外終端",
+            zonemap_mode_base: "基礎",
             zonemap_mode_color: "顏色",
-            zonemap_mode_height: "高度"
+            zonemap_mode_height: "高度",
+            zonemap_reset_zoom: "重設縮放",
+            zonemap_toggle_all: "切換全部"
         }
     };
 
@@ -2519,6 +2645,17 @@
             window.WIKI_UI.updateAvailable = s.update_available || '';
             window.WIKI_UI.zonemapModeHeight = s.zonemap_mode_height || '';
             window.WIKI_UI.zonemapModeColor = s.zonemap_mode_color || '';
+            // Zone-map landmarks panel + reset (zone-map.js builds it at
+            // runtime, so it reads these WIKI_UI keys instead of data-* tags)
+            window.WIKI_UI.zonemapLandmarks = s.zonemap_landmarks || '';
+            window.WIKI_UI.zonemapToggleAll = s.zonemap_toggle_all || '';
+            window.WIKI_UI.zonemapLmTeleports = s.zonemap_lm_teleports || '';
+            window.WIKI_UI.zonemapLmOutposts = s.zonemap_lm_outposts || '';
+            window.WIKI_UI.zonemapLmTerminals = s.zonemap_lm_terminals || '';
+            window.WIKI_UI.zonemapLmRoads = s.zonemap_lm_roads || '';
+            window.WIKI_UI.zonemapLmLabels = s.zonemap_lm_labels || '';
+            window.WIKI_UI.zonemapModeBase = s.zonemap_mode_base || '';
+            window.WIKI_UI.zonemapResetZoom = s.zonemap_reset_zoom || '';
         }
         // Lang menu active state
         var btns = document.querySelectorAll('#lang-menu button[data-lang]');

@@ -8,7 +8,7 @@ description: "Every mission by type and tier: reward fee, duration, and the rewa
 
 # 미션
 
-One section per **mission type**; each tier is a card. **Reward fee** is the credit payout (a range when a tier has several zone variants); **rewards** are the item drops (quantity range and drop probability, 100 = guaranteed). See [Missions](/ko/features/missions/) in the features section for how missions work.
+**미션 유형**별 섹션 하나씩; 각 티어가 카드입니다. **보상 수수료**는 크레딧 지불액(티어가 여러 지역 변형이 있으면 범위); **보상**은 드롭 아이템(수량 범위와 드롭 확률, 100 = 보장). 미션의 작동 방식은 features 섹션의 [Missions](/ko/features/missions/) 참조.
 
 <div class="mission-index">
 <a href="#defend-and-mine"><span class="mission-type-chip">Defend and mine</span></a>&ensp;

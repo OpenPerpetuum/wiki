@@ -21,10 +21,25 @@ All commands run from this directory; the Zola build runs in a Docker container
 (pinned `ghcr.io/getzola/zola:v0.23.6`), so no local Zola install is required.
 
 ```bash
-make build   # build the static site into public/
+make build   # build the static site into public/ (runs make i18n + i18n-check first)
 make serve   # live-reload server on http://localhost:8085 (WIKI_PORT=NNNN to override)
 make clean   # remove public/
 ```
+
+## Testing
+
+```bash
+make test    # Playwright suite (tests/) against the built site.
+             # One-time setup: npm install && npx playwright install chromium
+make test-py # Python generator tests (tests_py/) with coverage
+             # (pytest + coverage; the in-place idempotency tests need the
+             #  working tree in a generated state — plain `make build` is enough)
+make i18n-check  # translation-file CI gate (key parity, placeholders, empty values)
+```
+
+The i18n machinery (translation files, generators, conventions, and the
+Python/browser test suites) is documented in
+[TRANSLATIONS.md](TRANSLATIONS.md).
 
 ## Regenerating the content pages
 

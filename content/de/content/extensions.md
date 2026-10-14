@@ -8,14 +8,14 @@ description: "Every extension (character skill): the clickable category overview
 
 # Erweiterungen
 
-Extensions are the per-character skill tree — learned with credits (level 1) and EP (later levels), gated by prerequisites. See [Character](/de/features/character/) for the character window this tree lives in. The spark extensions (the passive specialization lines) have their own diagram on the [Sparks](/de/features/sparks/) page.
+Extensions sind der Charakter-Fähigkeitsbaum — erlernt mit Credits (Stufe 1) und EP (spätere Stufen), durch Voraussetzungen geregelt. Siehe [Character](/de/features/character/) für das Charakterfenster, in dem dieser Baum lebt. Die Spark-Extensions (die passiven Spezialisierungsreihen) haben ihre eigene Abbildung auf der Seite [Sparks](/de/features/sparks/).
 
 <!-- categories:generated -->
 <a id="categories"></a>
 
 ## Main categories
 
-The 15 categories at a glance: one box per category (extension count, entry points without prerequisites, rank range), left to right by starting rank, and an arrow for every cross-category prerequisite (hover an arrow for the exact requirements) — which categories open up which. **Click a box to jump to that category's cards below.** The spark extensions sit outside this diagram (no prerequisites of their own) — their bundle diagram is on the [Sparks](/de/features/sparks/) page. **Scroll over the diagram to zoom**, drag to pan, and use the ⟲ button to reset.
+Die 15 Kategorien im Überblick: eine Box pro Kategorie (Anzahl der Extensions, Einstiegspunkte ohne Voraussetzungen, Rangbereich), von links nach rechts nach Start-Rang, und ein Pfeil für jede übergreifende Voraussetzung (Pfeil antippen für die genauen Anforderungen) — welche Kategorien welche öffnen. **Klicke auf eine Box, um zu den Karten der Kategorie unten zu springen.** Die Spark-Extensions liegen außerhalb dieser Abbildung (keine eigenen Voraussetzungen) — ihre Bündel-Abbildung ist auf der Seite [Sparks](/de/features/sparks/). **Über die Abbildung rollen zum Zoomen**, ziehen zum Verschieben, und die ⟲-Taste zum Zurücksetzen.
 
 <div class="map-zoom-wrap extcats-wrap">
 <button type="button" class="zoommap-reset" title="Reset the zoom">⟲</button>
@@ -66,7 +66,7 @@ The 15 categories at a glance: one box per category (extension count, entry poin
 
 ## Extensions by category
 
-One section per category, one card per extension. **Price** is the level-1 credit cost (later levels cost EP only). **Prerequisites** are the extensions (and minimum level) to learn first. Inactive entries are not offered by the current server build.
+Eine Sektion pro Kategorie, eine Karte pro Extension. **Preis** ist der Credit-Kosten der Stufe 1 (spätere Stufen kosten nur EP). **Voraussetzungen** sind die Extensions (und Mindeststufe), die zuerst erlernt werden müssen. Inaktive Einträge werden vom aktuellen Server-Build nicht angeboten.
 <a id="cat-corporation-management"></a>
 
 ### Corporation Management (15)

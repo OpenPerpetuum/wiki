@@ -8,9 +8,9 @@ description: "The fixed-price vendor catalog: what each vendor sells, at what pr
 
 # アイテムショップ
 
-Fixed-price vendor items, separate from the player-driven [market](/ja/features/market/). The same item can be sold at several vendors — the catalog below lists every item once, with the best price across all vendors; each item's own page lists every vendor that sells it (robots link to the [robot catalog](/ja/content/robots/)).
+固定価格のベンダー商品。プレイヤー主導の[market](/ja/features/market/)とは別物です。同じアイテムを複数のベンダーが販売することもあり — 以下のカタログは全ベンダー中最良価格で各アイテムを1回ずつ列挙します。各アイテムの個別ページでは、それを販売する全ベンダーを列挙します(ロボットは[robot catalog](/ja/content/robots/)へリンク)。
 
-**Currencies** — **TM Coin / ICS Coin / ASI Coin**: the per-galaxy shop currency (each shop sells for all three coins where offered); **Credits**: the common currency; **UniCoin**: a premium currency. **Qty ∞** means the vendor has no stock limit.
+**通貨** — **TM Coin / ICS Coin / ASI Coin**: 各銀河の店舗用通貨(提供されている場合は3通貨すべてで販売)。**Credits**: 共通通貨。**UniCoin**: プレミアム通貨。**数量 ∞** はベンダーに在庫制限がないことを意味します。
 
 ## ベンダー
 
@@ -27,7 +27,7 @@ Fixed-price vendor items, separate from the player-driven [market](/ja/features/
 
 ## カタログ
 
-Each category is its own page; best price across all vendors, one row per item.
+各カテゴリは独立したページを持ち、全ベンダー中最良価格、アイテムごとに1行表示します。
 
 | Category | Items | What it is |
 |---|---|---|

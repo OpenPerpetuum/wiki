@@ -9,13 +9,13 @@ extra:
      Do not edit by hand; regenerate instead. -->
 # Gamma
 
-The frontier belt, split by the server-recorded tier (zones.note): the six tc transit zones (T0) and the tier islands T1–T4 — open PvP and terraformable, see [보호 레벨](/ko/zones/protection/).
+서버가 기록한 티어(zones.note)로 나뉜 전방 벨트: tc 중계 지역 6개(T0)와 티어 섬 T1–T4 — 오픈 PvP와 테라포밍 가능, [보호 레벨](/ko/zones/protection/) 참조.
 
 <a id="t0"></a>
 
 ## Gamma T0 — tc transit
 
-The six small (256-tile) transit zones of the frontier belt. No ore configuration — pure travel nodes between the main galaxies and the belt.
+프론티어 벨트의 6개 소형(256타일) 트랜зит 지역. 광물 구성 없음 — 주요 은하와 벨트 사이의 순수 이동 노드.
 
 <div class="zone-cards">
 <a class="zone-card" href="/ko/zones/zone-gamma-tc-z100/">
@@ -54,7 +54,7 @@ The six small (256-tile) transit zones of the frontier belt. No ore configuratio
 
 ## Gamma T1
 
-Frontier belt islands with the server-recorded tier **T1** (zones.note). Open PvP and terraformable — see [보호 레벨](/ko/zones/protection/). Each island's page has its ore configuration and TP connections.
+서버가 기록한 티어 **T1**의 전방 벨트 섬(zones.note). 오픈 PvP와 테라포밍 가능 — [보호 레벨](/ko/zones/protection/) 참조. 각 섬의 페이지에 광물 구성과 TP 연결이 있습니다.
 
 <div class="zone-cards">
 <a class="zone-card" href="/ko/zones/zone-gamma-z106/">
@@ -108,7 +108,7 @@ Frontier belt islands with the server-recorded tier **T1** (zones.note). Open Pv
 
 ## Gamma T2
 
-Frontier belt islands with the server-recorded tier **T2** (zones.note). Open PvP and terraformable — see [보호 레벨](/ko/zones/protection/). Each island's page has its ore configuration and TP connections.
+서버가 기록한 티어 **T2**의 전방 벨트 섬(zones.note). 오픈 PvP와 테라포밍 가능 — [보호 레벨](/ko/zones/protection/) 참조. 각 섬의 페이지에 광물 구성과 TP 연결이 있습니다.
 
 <div class="zone-cards">
 <a class="zone-card" href="/ko/zones/zone-gamma-z115/">
@@ -162,7 +162,7 @@ Frontier belt islands with the server-recorded tier **T2** (zones.note). Open Pv
 
 ## Gamma T3
 
-Frontier belt islands with the server-recorded tier **T3** (zones.note). Open PvP and terraformable — see [보호 레벨](/ko/zones/protection/). Each island's page has its ore configuration and TP connections.
+서버가 기록한 티어 **T3**의 전방 벨트 섬(zones.note). 오픈 PvP와 테라포밍 가능 — [보호 레벨](/ko/zones/protection/) 참조. 각 섬의 페이지에 광물 구성과 TP 연결이 있습니다.
 
 <div class="zone-cards">
 <a class="zone-card" href="/ko/zones/zone-gamma-z124/">
@@ -216,7 +216,7 @@ Frontier belt islands with the server-recorded tier **T3** (zones.note). Open Pv
 
 ## Gamma T4
 
-Frontier belt islands with the server-recorded tier **T4** (zones.note). Open PvP and terraformable — see [보호 레벨](/ko/zones/protection/). Each island's page has its ore configuration and TP connections.
+서버가 기록한 티어 **T4**의 전방 벨트 섬(zones.note). 오픈 PvP와 테라포밍 가능 — [보호 레벨](/ko/zones/protection/) 참조. 각 섬의 페이지에 광물 구성과 TP 연결이 있습니다.
 
 <div class="zone-cards">
 <a class="zone-card" href="/ko/zones/zone-gamma-z133/">

@@ -8,11 +8,11 @@ description: "The research tree: every category, and every node with the item it
 
 # Technologieboom
 
-Tech tree nodes unlock items by spending **research points** (earned from kernels — see [Research](/nl/features/research/) in the features section). A node can only be unlocked when its **parent** node is unlocked and the **enabler extension** is learned. Point types: common, hitech, industrial, newtech, nuimqol, pelistal, thelodica.
+Techtree-knooppunten ontgrendelen items door **onderzoekspunten** te besteden (verdiend uit kernen — zie [Research](/nl/features/research/) in de functies-sectie). Een knooppunt kan alleen worden ontgrendeld wanneer de **ouder**-knooppunt is ontgrendeld en de **enabler-extensie** is geleerd. Punttypen: common, hitech, industrial, newtech, nuimqol, pelistal, thelodica.
 
 ## Categorieën
 
-Each category is its own page with the full tree and one page per node.
+Elke categorie heeft zijn eigen pagina met de volledige boom en één pagina per knooppunt.
 
 | Category | Nodes | Root lines | What it unlocks |
 |---|---|---|---|

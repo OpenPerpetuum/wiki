@@ -8,9 +8,9 @@ description: "The fixed-price vendor catalog: what each vendor sells, at what pr
 
 # 物品商店
 
-Fixed-price vendor items, separate from the player-driven [market](/zh-TW/features/market/). The same item can be sold at several vendors — the catalog below lists every item once, with the best price across all vendors; each item's own page lists every vendor that sells it (robots link to the [robot catalog](/zh-TW/content/robots/)).
+固定價格的供應商物品,獨立於玩家驅動的[market](/zh-TW/features/market/)。同一物品可以由多個供應商銷售——下方目錄列出每個物品一次,為所有供應商中的最佳價格;每個物品的頁面列出銷售它的所有供應商(機器人連結至[robot catalog](/zh-TW/content/robots/))。
 
-**Currencies** — **TM Coin / ICS Coin / ASI Coin**: the per-galaxy shop currency (each shop sells for all three coins where offered); **Credits**: the common currency; **UniCoin**: a premium currency. **Qty ∞** means the vendor has no stock limit.
+**貨幣** — **TM Coin / ICS Coin / ASI Coin**:各星系的商店貨幣(在有提供的情况下以全部三種貨幣銷售);**Credits**:通用貨幣;**UniCoin**:高級貨幣。**數量 ∞** 表示該供應商沒有庫存限制。
 
 ## 商人
 
@@ -27,7 +27,7 @@ Fixed-price vendor items, separate from the player-driven [market](/zh-TW/featur
 
 ## 目錄
 
-Each category is its own page; best price across all vendors, one row per item.
+每個類別有其自己的頁面;所有供應商中的最佳價格,每個物品一行。
 
 | Category | Items | What it is |
 |---|---|---|

@@ -8,9 +8,9 @@ description: "The fixed-price vendor catalog: what each vendor sells, at what pr
 
 # Itemwinkel
 
-Fixed-price vendor items, separate from the player-driven [market](/nl/features/market/). The same item can be sold at several vendors — the catalog below lists every item once, with the best price across all vendors; each item's own page lists every vendor that sells it (robots link to the [robot catalog](/nl/content/robots/)).
+Vastprijs-artikelen van verkopers, apart van de speler gedreven [market](/nl/features/market/). Hetzelfde artikel kan door meerdere verkopers worden verkocht — de catalogus hieronder noemt elk artikel één keer, met de beste prijs over alle verkopers; de eigen pagina van elk artikel noemt alle verkopers die het verkopen (robots linken naar [robot catalog](/nl/content/robots/)).
 
-**Currencies** — **TM Coin / ICS Coin / ASI Coin**: the per-galaxy shop currency (each shop sells for all three coins where offered); **Credits**: the common currency; **UniCoin**: a premium currency. **Qty ∞** means the vendor has no stock limit.
+**Valuta's** — **TM Coin / ICS Coin / ASI Coin**: de handelsvaluta van elk sterrenstelsel (elke winkel verkoopt in alle drie de munten waar aangeboden); **Credits**: de gemeenschappelijke valuta; **UniCoin**: een premiumvaluta. **Aantal ∞** betekent dat de verkoper geen voorraadlimiet heeft.
 
 ## Verkopers
 
@@ -27,7 +27,7 @@ Fixed-price vendor items, separate from the player-driven [market](/nl/features/
 
 ## Catalogus
 
-Each category is its own page; best price across all vendors, one row per item.
+Elke categorie heeft zijn eigen pagina; beste prijs over alle verkopers, één rij per artikel.
 
 | Category | Items | What it is |
 |---|---|---|

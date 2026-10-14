@@ -6,6 +6,9 @@ memory.md
 generator/**/bin/
 generator/**/obj/
 tools/__pycache__/
+.coverage
+.coverage.*
+.pytest_cache/
 static/zonemaps/*/
 .assets/
 .test-build/

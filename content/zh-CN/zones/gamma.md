@@ -9,13 +9,13 @@ extra:
      Do not edit by hand; regenerate instead. -->
 # Gamma
 
-The frontier belt, split by the server-recorded tier (zones.note): the six tc transit zones (T0) and the tier islands T1–T4 — open PvP and terraformable, see [保护级别](/zh-CN/zones/protection/).
+前线带,按服务器记录的层级(zones.note)划分:六个 tc 过境区域(T0)与 T1–T4 层级岛屿——开放 PvP 且可改造,见[保护级别](/zh-CN/zones/protection/)。
 
 <a id="t0"></a>
 
 ## Gamma T0 — tc transit
 
-The six small (256-tile) transit zones of the frontier belt. No ore configuration — pure travel nodes between the main galaxies and the belt.
+边境地带的六个小型（256 地块）中转区域。无矿石配置 — 主星系与地带之间的纯旅行节点。
 
 <div class="zone-cards">
 <a class="zone-card" href="/zh-CN/zones/zone-gamma-tc-z100/">
@@ -54,7 +54,7 @@ The six small (256-tile) transit zones of the frontier belt. No ore configuratio
 
 ## Gamma T1
 
-Frontier belt islands with the server-recorded tier **T1** (zones.note). Open PvP and terraformable — see [保护级别](/zh-CN/zones/protection/). Each island's page has its ore configuration and TP connections.
+具有服务器记录层级**T1**的前线带岛屿(zones.note)。开放 PvP 且可改造——见[保护级别](/zh-CN/zones/protection/)。每个岛屿的页面有其矿石配置与 TP 连接。
 
 <div class="zone-cards">
 <a class="zone-card" href="/zh-CN/zones/zone-gamma-z106/">
@@ -108,7 +108,7 @@ Frontier belt islands with the server-recorded tier **T1** (zones.note). Open Pv
 
 ## Gamma T2
 
-Frontier belt islands with the server-recorded tier **T2** (zones.note). Open PvP and terraformable — see [保护级别](/zh-CN/zones/protection/). Each island's page has its ore configuration and TP connections.
+具有服务器记录层级**T2**的前线带岛屿(zones.note)。开放 PvP 且可改造——见[保护级别](/zh-CN/zones/protection/)。每个岛屿的页面有其矿石配置与 TP 连接。
 
 <div class="zone-cards">
 <a class="zone-card" href="/zh-CN/zones/zone-gamma-z115/">
@@ -162,7 +162,7 @@ Frontier belt islands with the server-recorded tier **T2** (zones.note). Open Pv
 
 ## Gamma T3
 
-Frontier belt islands with the server-recorded tier **T3** (zones.note). Open PvP and terraformable — see [保护级别](/zh-CN/zones/protection/). Each island's page has its ore configuration and TP connections.
+具有服务器记录层级**T3**的前线带岛屿(zones.note)。开放 PvP 且可改造——见[保护级别](/zh-CN/zones/protection/)。每个岛屿的页面有其矿石配置与 TP 连接。
 
 <div class="zone-cards">
 <a class="zone-card" href="/zh-CN/zones/zone-gamma-z124/">
@@ -216,7 +216,7 @@ Frontier belt islands with the server-recorded tier **T3** (zones.note). Open Pv
 
 ## Gamma T4
 
-Frontier belt islands with the server-recorded tier **T4** (zones.note). Open PvP and terraformable — see [保护级别](/zh-CN/zones/protection/). Each island's page has its ore configuration and TP connections.
+具有服务器记录层级**T4**的前线带岛屿(zones.note)。开放 PvP 且可改造——见[保护级别](/zh-CN/zones/protection/)。每个岛屿的页面有其矿石配置与 TP 连接。
 
 <div class="zone-cards">
 <a class="zone-card" href="/zh-CN/zones/zone-gamma-z133/">

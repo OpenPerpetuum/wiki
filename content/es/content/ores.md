@@ -8,7 +8,7 @@ description: "All ore types and their extraction yields; the per-zone node param
 
 # Minerales
 
-Ore exists in the ground as **deposits (nodes)**. Each node holds a limited total amount; when a node is mined below its threshold it is removed and the zone regenerates new nodes up to its configured maximum. Every ore has its own page with its extraction facts, the zones it spawns in and what is made from it. How each column is used by the server, with the node-generation formulas, is in [Ore fields](/es/formats/ore-fields/).
+El mineral existe en el suelo como **yacimientos (nodos)**. Cada nodo mantiene una cantidad total limitada; cuando un nodo se extrae por debajo de su umbral, se elimina y la zona regenera nuevos nodos hasta su máximo configurado. Cada mineral tiene su propia página con sus datos de extracción, las zonas donde aparece y qué se fabrica con él. Cómo usa el servidor cada columna, con las fórmulas de generación de nodos, está en [Ore fields](/es/formats/ore-fields/).
 
 ## Tipos de mineral
 
@@ -16,26 +16,26 @@ Ore exists in the ground as **deposits (nodes)**. Each node holds a limited tota
 
 <table>
 <tr><th>Mineral</th><th>Cantidad / extracción</th><th>Tipo de extracción</th><th>Efecto activador</th><th>Doc. geo-escaneo</th></tr>
-<tr><td><a href="/es/content/ores/titan/">titan</a></td><td>1.5k</td><td>0</td><td>no</td><td>5382</td></tr>
-<tr><td><a href="/es/content/ores/crude/">crude</a></td><td>1.5k</td><td>1</td><td>no</td><td>5383</td></tr>
-<tr><td><a href="/es/content/ores/stermonit/">stermonit</a></td><td>975</td><td>0</td><td>no</td><td>5384</td></tr>
-<tr><td><a href="/es/content/ores/imentium/">imentium</a></td><td>975</td><td>0</td><td>no</td><td>5385</td></tr>
-<tr><td><a href="/es/content/ores/liquizit/">liquizit</a></td><td>450</td><td>1</td><td>no</td><td>5386</td></tr>
-<tr><td><a href="/es/content/ores/epriton/">epriton</a></td><td>450</td><td>1</td><td>no</td><td>5387</td></tr>
-<tr><td><a href="/es/content/ores/helioptris/">helioptris</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/es/content/ores/triandlus/">triandlus</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/es/content/ores/prismocitae/">prismocitae</a></td><td>450</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/es/content/ores/gravel/">gravel</a></td><td>1</td><td>0</td><td>no</td><td>5388</td></tr>
-<tr><td><a href="/es/content/ores/electrofruit/">electrofruit</a></td><td>300</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/es/content/ores/silgium/">silgium</a></td><td>975</td><td>0</td><td>no</td><td>5389</td></tr>
+<tr><td><a href="/es/content/ores/titan/">titan</a></td><td>1.5k</td><td>0</td><td>No</td><td>5382</td></tr>
+<tr><td><a href="/es/content/ores/crude/">crude</a></td><td>1.5k</td><td>1</td><td>No</td><td>5383</td></tr>
+<tr><td><a href="/es/content/ores/stermonit/">stermonit</a></td><td>975</td><td>0</td><td>No</td><td>5384</td></tr>
+<tr><td><a href="/es/content/ores/imentium/">imentium</a></td><td>975</td><td>0</td><td>No</td><td>5385</td></tr>
+<tr><td><a href="/es/content/ores/liquizit/">liquizit</a></td><td>450</td><td>1</td><td>No</td><td>5386</td></tr>
+<tr><td><a href="/es/content/ores/epriton/">epriton</a></td><td>450</td><td>1</td><td>No</td><td>5387</td></tr>
+<tr><td><a href="/es/content/ores/helioptris/">helioptris</a></td><td>450</td><td>0</td><td>No</td><td>–</td></tr>
+<tr><td><a href="/es/content/ores/triandlus/">triandlus</a></td><td>450</td><td>0</td><td>No</td><td>–</td></tr>
+<tr><td><a href="/es/content/ores/prismocitae/">prismocitae</a></td><td>450</td><td>0</td><td>No</td><td>–</td></tr>
+<tr><td><a href="/es/content/ores/gravel/">gravel</a></td><td>1</td><td>0</td><td>No</td><td>5388</td></tr>
+<tr><td><a href="/es/content/ores/electrofruit/">electrofruit</a></td><td>300</td><td>0</td><td>No</td><td>–</td></tr>
+<tr><td><a href="/es/content/ores/silgium/">silgium</a></td><td>975</td><td>0</td><td>No</td><td>5389</td></tr>
 <tr><td><a href="/es/content/ores/gammaterial/">gammaterial</a></td><td>150</td><td>0</td><td>requerido</td><td>–</td></tr>
-<tr><td><a href="/es/content/ores/plants/">plants</a></td><td>10</td><td>0</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/es/content/ores/energymineral/">energymineral</a></td><td>100</td><td>1</td><td>no</td><td>–</td></tr>
-<tr><td><a href="/es/content/ores/fluxore/">fluxore</a></td><td>100</td><td>0</td><td>no</td><td>5842</td></tr>
-<tr><td><a href="/es/content/ores/deeptanium/">deeptanium</a></td><td>1.5k</td><td>0</td><td>no</td><td>8671</td></tr>
-<tr><td><a href="/es/content/ores/deepriton/">deepriton</a></td><td>450</td><td>1</td><td>no</td><td>8699</td></tr>
-<tr><td><a href="/es/content/ores/dhdt/">dhdt</a></td><td>450</td><td>1</td><td>no</td><td>8706</td></tr>
+<tr><td><a href="/es/content/ores/plants/">plants</a></td><td>10</td><td>0</td><td>No</td><td>–</td></tr>
+<tr><td><a href="/es/content/ores/energymineral/">energymineral</a></td><td>100</td><td>1</td><td>No</td><td>–</td></tr>
+<tr><td><a href="/es/content/ores/fluxore/">fluxore</a></td><td>100</td><td>0</td><td>No</td><td>5842</td></tr>
+<tr><td><a href="/es/content/ores/deeptanium/">deeptanium</a></td><td>1.5k</td><td>0</td><td>No</td><td>8671</td></tr>
+<tr><td><a href="/es/content/ores/deepriton/">deepriton</a></td><td>450</td><td>1</td><td>No</td><td>8699</td></tr>
+<tr><td><a href="/es/content/ores/dhdt/">dhdt</a></td><td>450</td><td>1</td><td>No</td><td>8706</td></tr>
 </table>
 
-**Extraction type**: 0 = solid (tile-by-tile with a drill), 1 = liquid (continuous pump). **Enabler effect** — when *required*, the robot needs the matching enabler effect active to extract that ore at all. How many nodes of each ore a zone maintains, and how large each node is, is on each ore's own page (the *Zone parameters* table there).
+**Tipo de extracción**: 0 = sólido (tile por tile con perforadora), 1 = líquido (bombeo continuo). **Efecto habilitador** — cuando es *requerido*, el robot necesita el efecto habilitador correspondiente activo para extraer ese mineral. Cuántos nodos de cada mineral mantiene una zona y qué tamaño tiene cada nodo está en la propia página de cada mineral (la tabla *Parámetros de zona* allí).
 

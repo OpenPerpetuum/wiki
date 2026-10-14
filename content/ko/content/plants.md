@@ -8,177 +8,177 @@ description: "Every plant species rule (growth, fertility, spreading, fruit) and
 
 # 식물
 
-Plants grow over time through a sequence of stages; a plant produces (is harvestable) only once it reaches its fruiting stage. The zone maintains plant populations toward a **fertility target** per area; `spreading` biases new growth toward existing clusters of the same type. The full field reference — types, defaults, the growth state machine, and the rule-file format — is in [Plant fields](/ko/formats/plant-fields/).
+식물은 시간이 지나며 단계의 시퀀스를 거쳐 자라며, 결과 단계에 도달해야만 생산(수확 가능)됩니다. 지역은 면적별 **비옥도 목표**로 식물 개체군을 유지하며, `spreading`은 같은 유형의 기존 뭉치로 새 성장을 향하게 합니다. 완전한 필드 참조(유형, 기본값, 성장 상태 머신, 규칙 파일 형식)는 [Plant fields](/ko/formats/plant-fields/)에 있습니다.
 
-Field meanings: **growRate** = growth cycles a plant sits in each stage before advancing (higher = slower); **fertility** = how strongly the zone tries to keep this species present; **spreading** = preference for growing in groups; **killDistance** = minimum spacing between two plants of the same type (−1 = none);
+필드 의미: **growRate** = 식물이 각 단계에서 진행하기 전에 머무는 성장 사이클(높을수록 느림); **fertility** = 지역이 이 종을 존재하게 유지하려는 강도; **spreading** = 그룹으로 자라는 선호; **killDistance** = 같은 유형의 두 식물 사이 최소 간격(−1 = 없음);
 
 
 ```mermaid
 flowchart LR
-    S["Sprout (stage 1)"] --> G["Grow: growRate cycles per stage"]
+    S["싹(단계 1)"] --> G["성장: 단계당 growRate 사이클"]
     G --> S
-    G --> F["Fruiting stage reached"]
-    F --> H["Harvestable: fruit x fruitAmount"]
-    F --> K["Killed / damaged"]
-    K --> R["Zone respawns toward the\nfertility target (weighted by species fertility)"]
+    G --> F["착과 단계 도달"]
+    F --> H["수확 가능: 과일 x fruitAmount"]
+    F --> K["살해/손상"]
+    K --> R["존은 fertility 목표 방향으로 재생성됩니다\n(종의 fertility 가중)"]
 ```
-## Harvestable plants
+## 수확 가능한 식물
 
-Species with a fruiting stage — the fruit is the harvestable yield (× = fruitAmount per fruiting stage).
+결과 단계가 있는 종 — 과실이 수확 가능한 수확물입니다 (× = 결과 단계당 fruitAmount).
 
-| Plant | Grow rate | Fertility | Spreading | Kill distance | Max slope | Altitude band | Water band | Fruit (yield) | Max amount | Health (stages) | Player seeded |
+| 식물 | 성장률 | 비옥도 | 확산 | 채취 거리 | 최대 경사 | 고도대 | 수대 | 과실 (수확량) | 최대량 | 내구 (단계) | 플레이어 식재 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| electroplant | 0 | 3 | 2 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×125) | 630 | 10,50,125,255,255,255 | yes |
-| electroplant | 0 | 3 | 2 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×175) | 630 | 10,50,125,255,255,255 | yes |
-| electroplant | 3 | 1 | 0 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×125) | 630 | 10,50,125,255,255,255 | no |
-| electroplant | 3 | 1 | 0 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×200) | 630 | 10,50,125,255,255,255 | no |
-| electroplant | 0 | 3 | 2 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×100) | 630 | 10,50,125,255,255,255 | yes |
-| electroplant | 0 | 3 | 2 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×100) | 630 | 10,50,125,255,255,255 | yes |
-| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×75) | 20 | 50,125,255,255 | no |
-| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×150) | 20 | 50,125,255,255 | no |
-| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×75) | 20 | 50,125,255,255 | yes |
-| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×50) | 20 | 50,125,255,255 | yes |
-| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×50) | 20 | 50,125,255,255 | yes |
-| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×200) | 20 | 50,125,255,255 | no |
-| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×150) | 20 | 50,125,255,255 | no |
-| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×125) | 20 | 50,125,255,255 | no |
-| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×100) | 20 | 50,125,255,255 | no |
-| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×50) | 30 | 50,125,255,255 | no |
-| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×100) | 30 | 50,125,255,255 | no |
-| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×200) | 30 | 50,125,255,255 | no |
-| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×150) | 30 | 50,125,255,255 | no |
-| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×125) | 30 | 50,125,255,255 | no |
-| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×100) | 30 | 50,125,255,255 | no |
-| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×75) | 30 | 50,125,255,255 | yes |
-| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×50) | 30 | 50,125,255,255 | yes |
-| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×50) | 30 | 50,125,255,255 | yes |
-| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×50) | 30 | 50,125,255,255 | no |
-| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×100) | 30 | 50,125,255,255 | no |
-| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×200) | 30 | 50,125,255,255 | no |
-| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×150) | 30 | 50,125,255,255 | no |
-| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×125) | 30 | 50,125,255,255 | no |
-| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×100) | 30 | 50,125,255,255 | no |
-| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×75) | 30 | 50,125,255,255 | yes |
-| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×50) | 30 | 50,125,255,255 | yes |
-| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×50) | 30 | 50,125,255,255 | yes |
+| electroplant | 0 | 3 | 2 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×125) | 630 | 10,50,125,255,255,255 | 예 |
+| electroplant | 0 | 3 | 2 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×175) | 630 | 10,50,125,255,255,255 | 예 |
+| electroplant | 3 | 1 | 0 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×125) | 630 | 10,50,125,255,255,255 | 아니오 |
+| electroplant | 3 | 1 | 0 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×200) | 630 | 10,50,125,255,255,255 | 아니오 |
+| electroplant | 0 | 3 | 2 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×100) | 630 | 10,50,125,255,255,255 | 예 |
+| electroplant | 0 | 3 | 2 | -1 | 10 | 0–8076 | -6–8076 | Noralgis (×100) | 630 | 10,50,125,255,255,255 | 예 |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×75) | 20 | 50,125,255,255 | 아니오 |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×150) | 20 | 50,125,255,255 | 아니오 |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×75) | 20 | 50,125,255,255 | 예 |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×50) | 20 | 50,125,255,255 | 예 |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×50) | 20 | 50,125,255,255 | 예 |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×200) | 20 | 50,125,255,255 | 아니오 |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×150) | 20 | 50,125,255,255 | 아니오 |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×125) | 20 | 50,125,255,255 | 아니오 |
+| irontree | 1 | 4 | 2 | -1 | 14 | 0–8480 | 15–8048 | Prismocitae (×100) | 20 | 50,125,255,255 | 아니오 |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×50) | 30 | 50,125,255,255 | 아니오 |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×100) | 30 | 50,125,255,255 | 아니오 |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×200) | 30 | 50,125,255,255 | 아니오 |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×150) | 30 | 50,125,255,255 | 아니오 |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×125) | 30 | 50,125,255,255 | 아니오 |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×100) | 30 | 50,125,255,255 | 아니오 |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×75) | 30 | 50,125,255,255 | 예 |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×50) | 30 | 50,125,255,255 | 예 |
+| rustbush | 3 | 4 | 3 | -1 | 7 | 12–8420 | 20–8048 | Helioptris (×50) | 30 | 50,125,255,255 | 예 |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×50) | 30 | 50,125,255,255 | 아니오 |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×100) | 30 | 50,125,255,255 | 아니오 |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×200) | 30 | 50,125,255,255 | 아니오 |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×150) | 30 | 50,125,255,255 | 아니오 |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×125) | 30 | 50,125,255,255 | 아니오 |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×100) | 30 | 50,125,255,255 | 아니오 |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×75) | 30 | 50,125,255,255 | 예 |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×50) | 30 | 50,125,255,255 | 예 |
+| slimeroot | 3 | 4 | 3 | -1 | 12 | 15–8480 | 20–8048 | Triandlus (×50) | 30 | 50,125,255,255 | 예 |
 
-## Scenery plants (not harvestable)
+## 경관 식물 (수확 불가)
 
-Species with no fruiting stage — zone scenery only (cover, landmarks, blocking).
+결과 단계가 없는 종 — 지역 경관용만 (掩체, 랜드마크, 차단).
 
-| Plant | Grow rate | Fertility | Spreading | Kill distance | Max slope | Altitude band | Water band | Max amount | Health (stages) | Player seeded |
+| 식물 | 성장률 | 비옥도 | 확산 | 채취 거리 | 최대 경사 | 고도대 | 수대 | 최대량 | 내구 (단계) | 플레이어 식재 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| bonsai | 2 | 1 | 4 | -1 | 18 | 0–8480 | 7–8048 | 15 | 50,125,255,255 | no |
-| bush_a | 1 | 1 | 2 | -1 | 7 | 28–8480 | 8–8048 | 190 | 5,5,5,5 | no |
-| bush_b | 1 | 1 | 2 | -1 | 7 | 27–8480 | 7–8048 | 190 | 5,5,5,5 | no |
-| coppertree | 2 | 1 | 5 | -1 | 6 | 0–8480 | 8–8048 | 15 | 50,125,255,255 | no |
-| devrinol | 5 | 3 | 0 | 0 | 40 | 0–8076 | -6–8076 | 14630 | 250,250,250,250 | yes |
-| grass_a | 1 | 1 | 2 | -1 | 6 | 15–8480 | 6–8048 | 190 | 5,5,5,5 | no |
-| grass_b | 1 | 1 | 2 | -1 | 6 | 14–8480 | 7–2048 | 190 | 5,5,5,5 | no |
-| nanowheat | 1 | 2 | 3 | -1 | 9 | 12–8480 | 8–8048 | -1 | 5,5,5,5 | no |
-| pinetree | 3 | 3 | 3 | -1 | 9 | 0–8048 | 20–8048 | 18 | 50,125,255,255 | no |
-| poffeteg | 2 | 1 | 4 | -1 | 16 | 0–8480 | 5–8048 | 15 | 50,125,255,255 | no |
-| quag | 3 | 3 | 4 | 5 | 19 | 0–76 | 6–76 | 50 | 50,125,255,255 | no |
-| rango | 8 | 6 | 2 | 7 | 19 | 55–8480 | 10–8048 | 14 | 50,125,255,255 | no |
-| rango | 8 | 6 | 2 | 7 | 19 | 15–8480 | 10–8048 | 14 | 50,125,255,255 | no |
-| reed | 1 | 1 | 1 | -1 | 21 | 0–170 | -1–7 | 60 | 5,5,5,5 | no |
-| titanplant | 2 | 1 | 5 | -1 | 19 | 0–8480 | 20–8048 | 15 | 50,125,255,255 | no |
-| wall | 1 | 1 | 5 | -1 | 68 | 0–58000 | -5–58000 | 15 | 20,60,80,120,160,200,230,230,230,255,255,255 | yes |
+| bonsai | 2 | 1 | 4 | -1 | 18 | 0–8480 | 7–8048 | 15 | 50,125,255,255 | 아니오 |
+| bush_a | 1 | 1 | 2 | -1 | 7 | 28–8480 | 8–8048 | 190 | 5,5,5,5 | 아니오 |
+| bush_b | 1 | 1 | 2 | -1 | 7 | 27–8480 | 7–8048 | 190 | 5,5,5,5 | 아니오 |
+| coppertree | 2 | 1 | 5 | -1 | 6 | 0–8480 | 8–8048 | 15 | 50,125,255,255 | 아니오 |
+| devrinol | 5 | 3 | 0 | 0 | 40 | 0–8076 | -6–8076 | 14630 | 250,250,250,250 | 예 |
+| grass_a | 1 | 1 | 2 | -1 | 6 | 15–8480 | 6–8048 | 190 | 5,5,5,5 | 아니오 |
+| grass_b | 1 | 1 | 2 | -1 | 6 | 14–8480 | 7–2048 | 190 | 5,5,5,5 | 아니오 |
+| nanowheat | 1 | 2 | 3 | -1 | 9 | 12–8480 | 8–8048 | -1 | 5,5,5,5 | 아니오 |
+| pinetree | 3 | 3 | 3 | -1 | 9 | 0–8048 | 20–8048 | 18 | 50,125,255,255 | 아니오 |
+| poffeteg | 2 | 1 | 4 | -1 | 16 | 0–8480 | 5–8048 | 15 | 50,125,255,255 | 아니오 |
+| quag | 3 | 3 | 4 | 5 | 19 | 0–76 | 6–76 | 50 | 50,125,255,255 | 아니오 |
+| rango | 8 | 6 | 2 | 7 | 19 | 55–8480 | 10–8048 | 14 | 50,125,255,255 | 아니오 |
+| rango | 8 | 6 | 2 | 7 | 19 | 15–8480 | 10–8048 | 14 | 50,125,255,255 | 아니오 |
+| reed | 1 | 1 | 1 | -1 | 21 | 0–170 | -1–7 | 60 | 5,5,5,5 | 아니오 |
+| titanplant | 2 | 1 | 5 | -1 | 19 | 0–8480 | 20–8048 | 15 | 50,125,255,255 | 아니오 |
+| wall | 1 | 1 | 5 | -1 | 68 | 0–58000 | -5–58000 | 15 | 20,60,80,120,160,200,230,230,230,255,255,255 | 예 |
 
-## Zones
+## 지역
 
-Per-zone fertility (how full the ground is kept with plants), the plant ruleset the zone uses, and altitude scaling.
+지역별 비옥도(지면이 식물로 얼마나 채워지는지), 지역이 사용하는 식물 규칙 세트, 고도 스케일.
 
-| Zone | Type | Protected | Fertility | Plant ruleset | Altitude scale | Enabled |
+| 지역 | 유형 | 보호 | 비옥도 | 식물 규칙 세트 | 고도 스케일 | 활성 |
 |---|---|---|---|---|---|---|
-| New Virginia | 1 | yes | 20 | 0 | 1 | yes |
-| Attalica | 1 | yes | 20 | 1 | 1 | yes |
-| Daoden | 2 | no | 20 | 2 | 1 | yes |
-| Domhalarn | 2 | no | 20 | 3 | 1 | yes |
-| Hokkogaros | 2 | no | 20 | 4 | 1 | yes |
-| Norhoop | 2 | no | 20 | 5 | 1 | yes |
-| Tellesis | 1 | yes | 20 | 6 | 1 | yes |
-| Shinjalar | 1 | yes | 20 | 7 | 1 | yes |
-| Hershfield | 1 | yes | 20 | 0 | 1 | yes |
-| Kentagura | 2 | no | 20 | 4 | 1 | yes |
-| Alsbale | 2 | no | 20 | 5 | 1 | yes |
-| Novastrov | 2 | no | 20 | 3 | 1 | yes |
-| Omega | 4 | yes | 20 | 70 | 1 | yes |
-| Davis Barrier | 2 | no | 20 | 5 | 1 | no |
-| Gravehills | 2 | no | 20 | 5 | 1 | no |
-| Emperth | 2 | no | 20 | 5 | 1 | no |
-| Guthraw | 2 | no | 20 | 5 | 1 | no |
-| Landers Bridge | 2 | no | 20 | 5 | 1 | no |
-| Solarfield | 2 | no | 20 | 5 | 0.3 | no |
-| Blackpoint | 2 | no | 20 | 5 | 1 | no |
-| Greensward | 2 | no | 20 | 5 | 1 | no |
-| Novaya Trava | 2 | no | 20 | 3 | 1 | no |
-| Neuhorn | 2 | no | 20 | 3 | 1 | no |
-| Kraslovsk | 2 | no | 20 | 3 | 0.3 | no |
-| Langruhm | 2 | no | 20 | 3 | 1 | no |
-| Berger's Island | 2 | no | 20 | 3 | 1 | no |
-| Clandrais | 2 | no | 20 | 3 | 1 | no |
-| Bleumon | 2 | no | 20 | 3 | 1 | no |
-| Chalydor | 2 | no | 20 | 3 | 1 | no |
-| Rhaoshan | 2 | no | 20 | 4 | 0.3 | no |
-| Changowa | 2 | no | 20 | 4 | 1 | no |
-| Mhenosha | 2 | no | 20 | 4 | 1 | no |
-| Xiantor | 2 | no | 20 | 4 | 1 | no |
-| Nirayon | 2 | no | 20 | 4 | 1 | no |
-| Shuzhon | 2 | no | 20 | 4 | 1 | no |
-| Imidero | 2 | no | 20 | 4 | 1 | no |
-| Yuraion Ro | 2 | no | 20 | 4 | 1 | no |
-| Virtual Training Grounds | 3 | yes | 20 | 0 | 1 | yes |
-| New Virginia | 3 | yes | 20 | 0 | 1 | yes |
-| New Virginia | 3 | yes | 20 | 0 | 1 | yes |
-| zone_strghld_70 | 4 | yes | 20 | 70 | 1 | yes |
-| zone_strghld_71 | 4 | yes | 20 | 71 | 1 | yes |
-| zone_strghld_72 | 4 | yes | 20 | 72 | 1 | yes |
-| zone_gamma_tc_z100 | 2 | no | 15 | 14 | 1 | yes |
-| zone_gamma_tc_z101 | 2 | no | 15 | 14 | 1 | yes |
-| zone_gamma_tc_z102 | 2 | no | 15 | 34 | 1 | yes |
-| zone_gamma_tc_z103 | 2 | no | 15 | 34 | 1 | yes |
-| zone_gamma_tc_z104 | 2 | no | 15 | 24 | 1 | yes |
-| zone_gamma_tc_z105 | 2 | no | 15 | 24 | 1 | yes |
-| zone_gamma_z106 | 2 | no | 15 | 22 | 1 | yes |
-| zone_gamma_z107 | 2 | no | 15 | 33 | 1 | yes |
-| zone_gamma_z108 | 2 | no | 15 | 32 | 1 | yes |
-| zone_gamma_z109 | 2 | no | 15 | 31 | 1 | yes |
-| zone_gamma_z110 | 2 | no | 15 | 20 | 1 | yes |
-| zone_gamma_z111 | 2 | no | 15 | 21 | 1 | yes |
-| zone_gamma_z112 | 2 | no | 15 | 21 | 1 | yes |
-| zone_gamma_z113 | 2 | no | 15 | 11 | 1 | yes |
-| zone_gamma_z114 | 2 | no | 15 | 10 | 1 | yes |
-| zone_gamma_z115 | 2 | no | 15 | 11 | 1 | yes |
-| zone_gamma_z116 | 2 | no | 15 | 31 | 1 | yes |
-| zone_gamma_z117 | 2 | no | 15 | 31 | 1 | yes |
-| zone_gamma_z118 | 2 | no | 15 | 32 | 1 | yes |
-| zone_gamma_z119 | 2 | no | 15 | 30 | 1 | yes |
-| zone_gamma_z120 | 2 | no | 15 | 31 | 1 | yes |
-| zone_gamma_z121 | 2 | no | 15 | 12 | 1 | yes |
-| zone_gamma_z122 | 2 | no | 15 | 13 | 1 | yes |
-| zone_gamma_z123 | 2 | no | 15 | 12 | 1 | yes |
-| zone_gamma_z124 | 2 | no | 15 | 12 | 1 | yes |
-| zone_gamma_z125 | 2 | no | 15 | 11 | 1 | yes |
-| zone_gamma_z126 | 2 | no | 15 | 12 | 1 | yes |
-| zone_gamma_z127 | 2 | no | 15 | 12 | 1 | yes |
-| zone_gamma_z128 | 2 | no | 15 | 23 | 1 | yes |
-| zone_gamma_z129 | 2 | no | 15 | 22 | 1 | yes |
-| zone_gamma_z130 | 2 | no | 15 | 21 | 1 | yes |
-| zone_gamma_z131 | 2 | no | 15 | 20 | 1 | yes |
-| zone_gamma_z132 | 2 | no | 15 | 21 | 1 | yes |
-| zone_gamma_z133 | 2 | no | 15 | 22 | 1 | yes |
-| zone_gamma_z134 | 2 | no | 15 | 23 | 1 | yes |
-| zone_gamma_z135 | 2 | no | 15 | 22 | 1 | yes |
-| zone_gamma_z136 | 2 | no | 15 | 22 | 1 | yes |
-| zone_gamma_z137 | 2 | no | 15 | 31 | 1 | yes |
-| zone_gamma_z138 | 2 | no | 15 | 32 | 1 | yes |
-| zone_gamma_z139 | 2 | no | 15 | 32 | 1 | yes |
-| zone_gamma_z140 | 2 | no | 15 | 33 | 1 | yes |
+| New Virginia | 1 | 예 | 20 | 0 | 1 | 예 |
+| Attalica | 1 | 예 | 20 | 1 | 1 | 예 |
+| Daoden | 2 | 아니오 | 20 | 2 | 1 | 예 |
+| Domhalarn | 2 | 아니오 | 20 | 3 | 1 | 예 |
+| Hokkogaros | 2 | 아니오 | 20 | 4 | 1 | 예 |
+| Norhoop | 2 | 아니오 | 20 | 5 | 1 | 예 |
+| Tellesis | 1 | 예 | 20 | 6 | 1 | 예 |
+| Shinjalar | 1 | 예 | 20 | 7 | 1 | 예 |
+| Hershfield | 1 | 예 | 20 | 0 | 1 | 예 |
+| Kentagura | 2 | 아니오 | 20 | 4 | 1 | 예 |
+| Alsbale | 2 | 아니오 | 20 | 5 | 1 | 예 |
+| Novastrov | 2 | 아니오 | 20 | 3 | 1 | 예 |
+| Omega | 4 | 예 | 20 | 70 | 1 | 예 |
+| Davis Barrier | 2 | 아니오 | 20 | 5 | 1 | 아니오 |
+| Gravehills | 2 | 아니오 | 20 | 5 | 1 | 아니오 |
+| Emperth | 2 | 아니오 | 20 | 5 | 1 | 아니오 |
+| Guthraw | 2 | 아니오 | 20 | 5 | 1 | 아니오 |
+| Landers Bridge | 2 | 아니오 | 20 | 5 | 1 | 아니오 |
+| Solarfield | 2 | 아니오 | 20 | 5 | 0.3 | 아니오 |
+| Blackpoint | 2 | 아니오 | 20 | 5 | 1 | 아니오 |
+| Greensward | 2 | 아니오 | 20 | 5 | 1 | 아니오 |
+| Novaya Trava | 2 | 아니오 | 20 | 3 | 1 | 아니오 |
+| Neuhorn | 2 | 아니오 | 20 | 3 | 1 | 아니오 |
+| Kraslovsk | 2 | 아니오 | 20 | 3 | 0.3 | 아니오 |
+| Langruhm | 2 | 아니오 | 20 | 3 | 1 | 아니오 |
+| Berger's Island | 2 | 아니오 | 20 | 3 | 1 | 아니오 |
+| Clandrais | 2 | 아니오 | 20 | 3 | 1 | 아니오 |
+| Bleumon | 2 | 아니오 | 20 | 3 | 1 | 아니오 |
+| Chalydor | 2 | 아니오 | 20 | 3 | 1 | 아니오 |
+| Rhaoshan | 2 | 아니오 | 20 | 4 | 0.3 | 아니오 |
+| Changowa | 2 | 아니오 | 20 | 4 | 1 | 아니오 |
+| Mhenosha | 2 | 아니오 | 20 | 4 | 1 | 아니오 |
+| Xiantor | 2 | 아니오 | 20 | 4 | 1 | 아니오 |
+| Nirayon | 2 | 아니오 | 20 | 4 | 1 | 아니오 |
+| Shuzhon | 2 | 아니오 | 20 | 4 | 1 | 아니오 |
+| Imidero | 2 | 아니오 | 20 | 4 | 1 | 아니오 |
+| Yuraion Ro | 2 | 아니오 | 20 | 4 | 1 | 아니오 |
+| Virtual Training Grounds | 3 | 예 | 20 | 0 | 1 | 예 |
+| New Virginia | 3 | 예 | 20 | 0 | 1 | 예 |
+| New Virginia | 3 | 예 | 20 | 0 | 1 | 예 |
+| zone_strghld_70 | 4 | 예 | 20 | 70 | 1 | 예 |
+| zone_strghld_71 | 4 | 예 | 20 | 71 | 1 | 예 |
+| zone_strghld_72 | 4 | 예 | 20 | 72 | 1 | 예 |
+| zone_gamma_tc_z100 | 2 | 아니오 | 15 | 14 | 1 | 예 |
+| zone_gamma_tc_z101 | 2 | 아니오 | 15 | 14 | 1 | 예 |
+| zone_gamma_tc_z102 | 2 | 아니오 | 15 | 34 | 1 | 예 |
+| zone_gamma_tc_z103 | 2 | 아니오 | 15 | 34 | 1 | 예 |
+| zone_gamma_tc_z104 | 2 | 아니오 | 15 | 24 | 1 | 예 |
+| zone_gamma_tc_z105 | 2 | 아니오 | 15 | 24 | 1 | 예 |
+| zone_gamma_z106 | 2 | 아니오 | 15 | 22 | 1 | 예 |
+| zone_gamma_z107 | 2 | 아니오 | 15 | 33 | 1 | 예 |
+| zone_gamma_z108 | 2 | 아니오 | 15 | 32 | 1 | 예 |
+| zone_gamma_z109 | 2 | 아니오 | 15 | 31 | 1 | 예 |
+| zone_gamma_z110 | 2 | 아니오 | 15 | 20 | 1 | 예 |
+| zone_gamma_z111 | 2 | 아니오 | 15 | 21 | 1 | 예 |
+| zone_gamma_z112 | 2 | 아니오 | 15 | 21 | 1 | 예 |
+| zone_gamma_z113 | 2 | 아니오 | 15 | 11 | 1 | 예 |
+| zone_gamma_z114 | 2 | 아니오 | 15 | 10 | 1 | 예 |
+| zone_gamma_z115 | 2 | 아니오 | 15 | 11 | 1 | 예 |
+| zone_gamma_z116 | 2 | 아니오 | 15 | 31 | 1 | 예 |
+| zone_gamma_z117 | 2 | 아니오 | 15 | 31 | 1 | 예 |
+| zone_gamma_z118 | 2 | 아니오 | 15 | 32 | 1 | 예 |
+| zone_gamma_z119 | 2 | 아니오 | 15 | 30 | 1 | 예 |
+| zone_gamma_z120 | 2 | 아니오 | 15 | 31 | 1 | 예 |
+| zone_gamma_z121 | 2 | 아니오 | 15 | 12 | 1 | 예 |
+| zone_gamma_z122 | 2 | 아니오 | 15 | 13 | 1 | 예 |
+| zone_gamma_z123 | 2 | 아니오 | 15 | 12 | 1 | 예 |
+| zone_gamma_z124 | 2 | 아니오 | 15 | 12 | 1 | 예 |
+| zone_gamma_z125 | 2 | 아니오 | 15 | 11 | 1 | 예 |
+| zone_gamma_z126 | 2 | 아니오 | 15 | 12 | 1 | 예 |
+| zone_gamma_z127 | 2 | 아니오 | 15 | 12 | 1 | 예 |
+| zone_gamma_z128 | 2 | 아니오 | 15 | 23 | 1 | 예 |
+| zone_gamma_z129 | 2 | 아니오 | 15 | 22 | 1 | 예 |
+| zone_gamma_z130 | 2 | 아니오 | 15 | 21 | 1 | 예 |
+| zone_gamma_z131 | 2 | 아니오 | 15 | 20 | 1 | 예 |
+| zone_gamma_z132 | 2 | 아니오 | 15 | 21 | 1 | 예 |
+| zone_gamma_z133 | 2 | 아니오 | 15 | 22 | 1 | 예 |
+| zone_gamma_z134 | 2 | 아니오 | 15 | 23 | 1 | 예 |
+| zone_gamma_z135 | 2 | 아니오 | 15 | 22 | 1 | 예 |
+| zone_gamma_z136 | 2 | 아니오 | 15 | 22 | 1 | 예 |
+| zone_gamma_z137 | 2 | 아니오 | 15 | 31 | 1 | 예 |
+| zone_gamma_z138 | 2 | 아니오 | 15 | 32 | 1 | 예 |
+| zone_gamma_z139 | 2 | 아니오 | 15 | 32 | 1 | 예 |
+| zone_gamma_z140 | 2 | 아니오 | 15 | 33 | 1 | 예 |
 
-## Ruleset → species
+## 규칙 세트 → 종
 
-| Ruleset | Zones | Species |
+| 규칙 세트 | 지역 | 종 |
 |---|---|---|
 | 0 | New Virginia, Hershfield, Virtual Training Grounds | grass_a, grass_b, pinetree, bush_a, bush_b, rango, coppertree, reed, nanowheat, rustbush_lo, slimeroot_lo, quag, electroplant_lo, bonsai, irontree_lo |
 | 1 | Attalica | bonsai, bush_a, bush_b, coppertree, grass_a, grass_b, nanowheat, pinetree, quag, rango, reed, devrinol, electroplant_hi, rustbush_hi, slimeroot_hi |

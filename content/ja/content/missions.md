@@ -8,7 +8,7 @@ description: "Every mission by type and tier: reward fee, duration, and the rewa
 
 # ミッション
 
-One section per **mission type**; each tier is a card. **Reward fee** is the credit payout (a range when a tier has several zone variants); **rewards** are the item drops (quantity range and drop probability, 100 = guaranteed). See [Missions](/ja/features/missions/) in the features section for how missions work.
+**ミッション種別**ごとに1セクション、各ティアがカードです。**報酬手数料**はクレジットの支払い額(ティアに複数のゾーンバリアントがある場合は範囲)。**報酬**はドロップアイテム(数量範囲とドロップ率、100 = 確定)。ミッションの仕組みはfeaturesセクションの[Missions](/ja/features/missions/)を参照。
 
 <div class="mission-index">
 <a href="#defend-and-mine"><span class="mission-type-chip">Defend and mine</span></a>&ensp;

@@ -9,13 +9,13 @@ extra:
      Do not edit by hand; regenerate instead. -->
 # Gamma
 
-The frontier belt, split by the server-recorded tier (zones.note): the six tc transit zones (T0) and the tier islands T1–T4 — open PvP and terraformable, see [Beschermingsniveaus](/nl/zones/protection/).
+De grensstrook, verdeeld door de server-gerегистриerte tier (zones.note): de zes tc-transitzones (T0) en de tier-eilanden T1–T4 — open PvP en terraformbaar, zie [Beschermingsniveaus](/nl/zones/protection/).
 
 <a id="t0"></a>
 
 ## Gamma T0 — tc transit
 
-The six small (256-tile) transit zones of the frontier belt. No ore configuration — pure travel nodes between the main galaxies and the belt.
+De zes kleine transitzones (256 tegels) van de grensstrook. Geen ertskonfiguratie — pure reisknooppunten tussen de hoofdgalaxissen en de strook.
 
 <div class="zone-cards">
 <a class="zone-card" href="/nl/zones/zone-gamma-tc-z100/">
@@ -54,7 +54,7 @@ The six small (256-tile) transit zones of the frontier belt. No ore configuratio
 
 ## Gamma T1
 
-Frontier belt islands with the server-recorded tier **T1** (zones.note). Open PvP and terraformable — see [Beschermingsniveaus](/nl/zones/protection/). Each island's page has its ore configuration and TP connections.
+Grensstrook-eilanden met de server-gerегистриerte tier **T1** (zones.note). Open PvP en terraformbaar — zie [Beschermingsniveaus](/nl/zones/protection/). De pagina van elk eiland heeft zijn ertssconfiguratie en TP-verbindingen.
 
 <div class="zone-cards">
 <a class="zone-card" href="/nl/zones/zone-gamma-z106/">
@@ -108,7 +108,7 @@ Frontier belt islands with the server-recorded tier **T1** (zones.note). Open Pv
 
 ## Gamma T2
 
-Frontier belt islands with the server-recorded tier **T2** (zones.note). Open PvP and terraformable — see [Beschermingsniveaus](/nl/zones/protection/). Each island's page has its ore configuration and TP connections.
+Grensstrook-eilanden met de server-gerегистриerte tier **T2** (zones.note). Open PvP en terraformbaar — zie [Beschermingsniveaus](/nl/zones/protection/). De pagina van elk eiland heeft zijn ertssconfiguratie en TP-verbindingen.
 
 <div class="zone-cards">
 <a class="zone-card" href="/nl/zones/zone-gamma-z115/">
@@ -162,7 +162,7 @@ Frontier belt islands with the server-recorded tier **T2** (zones.note). Open Pv
 
 ## Gamma T3
 
-Frontier belt islands with the server-recorded tier **T3** (zones.note). Open PvP and terraformable — see [Beschermingsniveaus](/nl/zones/protection/). Each island's page has its ore configuration and TP connections.
+Grensstrook-eilanden met de server-gerегистриerte tier **T3** (zones.note). Open PvP en terraformbaar — zie [Beschermingsniveaus](/nl/zones/protection/). De pagina van elk eiland heeft zijn ertssconfiguratie en TP-verbindingen.
 
 <div class="zone-cards">
 <a class="zone-card" href="/nl/zones/zone-gamma-z124/">
@@ -216,7 +216,7 @@ Frontier belt islands with the server-recorded tier **T3** (zones.note). Open Pv
 
 ## Gamma T4
 
-Frontier belt islands with the server-recorded tier **T4** (zones.note). Open PvP and terraformable — see [Beschermingsniveaus](/nl/zones/protection/). Each island's page has its ore configuration and TP connections.
+Grensstrook-eilanden met de server-gerегистриerte tier **T4** (zones.note). Open PvP en terraformbaar — zie [Beschermingsniveaus](/nl/zones/protection/). De pagina van elk eiland heeft zijn ertssconfiguratie en TP-verbindingen.
 
 <div class="zone-cards">
 <a class="zone-card" href="/nl/zones/zone-gamma-z133/">

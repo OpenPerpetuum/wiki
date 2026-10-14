@@ -9,6 +9,11 @@
 #   make zonemaps  regenerate the zone teleport maps: real terrain from the
 #                  game's layer data (fetched when no local checkout exists)
 #                  + clickable teleports (pure-stdlib Python, no database)
+#   make i18n-check  validate translations/*.json: key parity vs en, {placeholder}
+#                    consistency, no empty values (CI gate; pure-stdlib Python)
+#   make test-py     run the Python generator tests with coverage (pytest +
+#                    coverage, both preinstalled; unit + fixture + in-place
+#                    idempotency layers)
 #   make generate  regenerate the generated content pages from the database
 #   make clean     remove the build output
 #
@@ -33,7 +38,7 @@ endif
 DOTNET          ?= $(shell command -v dotnet 2>/dev/null || echo $(HOME)/.dotnet/dotnet)
 TTY_FLAG        := $(shell [ -t 0 ] && echo -it || echo -i)
 
-.PHONY: all build i18n serve test zonemaps generate clean
+.PHONY: all build i18n serve test test-py zonemaps generate clean i18n-check
 
 all: build
 
@@ -57,19 +62,36 @@ zonemaps:
 test: build
 	npm test
 
+# Python generator tests (tests_py/) with coverage. The integration tests run
+# the generators in subprocesses; COVERAGE_PROCESS_START + parallel=true make
+# coverage measure those too (see .coveragerc). Idempotency tests re-run the
+# generators in place, so the working tree must be in a generated state.
+test-py:
+	COVERAGE_PROCESS_START=$(CURDIR)/.coveragerc coverage run -m pytest tests_py -q
+	coverage combine
+	coverage report --include='tools/*.py' -m
+
 # Build the static site with the pinned official Zola container (no local
 # install). The container runs as root (the image has no alpine coreutils),
 # so if a build is ever interrupted and leaves root-owned files in public/,
 # `make clean` removes them via a container.
 # Generate the i18n runtime from translations/*.json + the language pages
-# manifest. Run before build so the generated files are picked up by Zola.
+# manifest + the menu tree (sidenav links for the search index). Run before
+# build so the generated files are picked up by Zola.
 i18n:
 	python3 tools/gen_content_translations.py
 	python3 tools/gen_zone_translations.py
 	python3 tools/gen_lang_pages.py
 	python3 tools/gen_i18n.py
+	python3 tools/gen_menu_tree.py
 
-build: i18n
+# Translation-file integrity gate (see tools/i18n_check.py header). Fails the
+# build when a language is missing a key, a value is empty, or a {placeholder}
+# set diverges from en.json.
+i18n-check:
+	python3 tools/i18n_check.py
+
+build: i18n i18n-check
 	rm -rf public/*
 	docker run --rm --user "$$(id -u):$$(id -g)" \
 		-v "$$PWD:/src" \

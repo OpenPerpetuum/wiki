@@ -8,13 +8,13 @@ description: "Все зоны с телепортационной связью �
 
 # Индекс зон
 
-All 59 zones that have at least one teleport point to ANOTHER zone, grouped by family (the same grouping as the [world map](/ru/zones/map/)) — the card links to the zone's page. Zones without any inter-zone teleport point (the strongholds, the PvP arena, dead-end gate islands) are left off; they are still reachable from the world map's gate lines. The per-family pages — [Alpha](/ru/zones/alpha/) · [Beta](/ru/zones/beta/) · [Gamma](/ru/zones/gamma/) — list every zone of the family regardless of TPs.
+Все 59 зон, у которых есть хотя бы одна телепорт-точка в ДРУГУЮ зону, сгруппированные по семье (та же группировка, что у [world map](/ru/zones/map/)) — карточка ведёт на страницу зоны. Зоны без межзонных телепорт-точек (крепости, PvP-арена, тупиковые gate-острова) опущены; они всё ещё достижимы по gate-линиям мировой карты. Страницы по семьям — [Alpha](/ru/zones/alpha/) · [Beta](/ru/zones/beta/) · [Gamma](/ru/zones/gamma/) — перечисляют каждую зону семьи независимо от TP.
 
 <a id="training"></a>
 
 ## Training
 
-The virtual [training island](/ru/zones/zone-training/) — where new characters start and learn the basics before entering the main galaxies.
+Виртуальный [training island](/ru/zones/zone-training/) — где новые персонажи начинают и учат основы перед входом в главные галактики.
 
 <div class="zone-cards">
 <a class="zone-card" href="/ru/zones/zone-training/">
@@ -28,7 +28,7 @@ The virtual [training island](/ru/zones/zone-training/) — where new characters
 
 ## Alpha
 
-The main protected islands and their second-wave PvE companions — the safe starter economy (see [Уровни защиты](/ru/zones/protection/)).
+Главные защищённые острова и их PvE-спутники второй волны — безопасная стартовая экономика (см. [Уровни защиты](/ru/zones/protection/)).
 
 <div class="zone-cards">
 <a class="zone-card" href="/ru/zones/zone-asi-pve/">
@@ -62,7 +62,7 @@ The main protected islands and their second-wave PvE companions — the safe sta
 
 ## Beta
 
-The open-PvP islands: the three main islands' PvP twins (the "_real" names), the eight gate islands of each galaxy, and the special zones (the [PvP arena](/ru/zones/zone-pvp-arena/) and the strongholds — protected instances, listed here for completeness).
+Острова открытого PvP: PvP-близнецы трёх главных островов (имена "_real"), восемь gate-островов каждой галактики и специальные зоны ([PvP arena](/ru/zones/zone-pvp-arena/) и крепости — защищённые инстансы, перечислены здесь для полноты).
 
 <div class="zone-cards">
 <a class="zone-card" href="/ru/zones/zone-asi-a-real/">

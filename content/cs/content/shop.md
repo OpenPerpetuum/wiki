@@ -8,9 +8,9 @@ description: "The fixed-price vendor catalog: what each vendor sells, at what pr
 
 # Obchod s předměty
 
-Fixed-price vendor items, separate from the player-driven [market](/cs/features/market/). The same item can be sold at several vendors — the catalog below lists every item once, with the best price across all vendors; each item's own page lists every vendor that sells it (robots link to the [robot catalog](/cs/content/robots/)).
+Položky s pevnou cenou od dealerů, oddělené od hráčského [market](/cs/features/market/). Stejnou položku může prodávat více dealerů — katalog níže uvádí každou položku jednou, s nejlepší cenou ze všech dealerů; vlastní stránka každé položky uvádí všechny dealery, kteří ji prodávají (roboti odkazují na [robot catalog](/cs/content/robots/)).
 
-**Currencies** — **TM Coin / ICS Coin / ASI Coin**: the per-galaxy shop currency (each shop sells for all three coins where offered); **Credits**: the common currency; **UniCoin**: a premium currency. **Qty ∞** means the vendor has no stock limit.
+**Měny** — **TM Coin / ICS Coin / ASI Coin**: obchodní měna jednotlivých galaxií (každý obchod prodává za všechny tři mince, pokud je nabízí); **Credits**: společná měna; **UniCoin**: prémiová měna. **Množ. ∞** znamená, že prodejce nemá omezení skladu.
 
 ## Prodejci
 
@@ -27,7 +27,7 @@ Fixed-price vendor items, separate from the player-driven [market](/cs/features/
 
 ## Katalog
 
-Each category is its own page; best price across all vendors, one row per item.
+Každá kategorie má vlastní stránku; nejlepší cena ze všech dealerů, jeden řádek na položku.
 
 | Category | Items | What it is |
 |---|---|---|

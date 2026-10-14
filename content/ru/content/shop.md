@@ -8,9 +8,9 @@ description: "The fixed-price vendor catalog: what each vendor sells, at what pr
 
 # Магазин предметов
 
-Fixed-price vendor items, separate from the player-driven [market](/ru/features/market/). The same item can be sold at several vendors — the catalog below lists every item once, with the best price across all vendors; each item's own page lists every vendor that sells it (robots link to the [robot catalog](/ru/content/robots/)).
+Предметы с фиксированной ценой у продавцов, отдельно от [market](/ru/features/market/), которым управляют игроки. Один и тот же предмет могут продавать несколько продавцов — каталог ниже перечисляет каждый предмет один раз, по лучшей цене среди всех продавцов; на собственной странице каждого предмета перечислены все продавцы, которые его продают (роботы ведут на [robot catalog](/ru/content/robots/)).
 
-**Currencies** — **TM Coin / ICS Coin / ASI Coin**: the per-galaxy shop currency (each shop sells for all three coins where offered); **Credits**: the common currency; **UniCoin**: a premium currency. **Qty ∞** means the vendor has no stock limit.
+**Валюты** — **TM Coin / ICS Coin / ASI Coin**: торговая валюта каждой галактики (каждый продавец продаёт за все три монеты, где они предлагаются); **Credits**: общая валюта; **UniCoin**: премиум-валюта. **Кол-во ∞** означает, что у продавца нет лимита запасов.
 
 ## Продавцы
 
@@ -27,7 +27,7 @@ Fixed-price vendor items, separate from the player-driven [market](/ru/features/
 
 ## Каталог
 
-Each category is its own page; best price across all vendors, one row per item.
+У каждой категории своя страница; лучшая цена среди всех продавцов, одна строка на предмет.
 
 | Category | Items | What it is |
 |---|---|---|

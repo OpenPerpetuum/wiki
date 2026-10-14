@@ -5,7 +5,7 @@ description: "Generated stat tables for every content entity: ores, plants, depl
 
 # 內容
 
-Stat tables for every content entity, generated from the live database.
+所有內容實體的狀態表,由即時資料庫生成。
 
 | Page | Contents |
 |---|---|
@@ -19,4 +19,4 @@ Stat tables for every content entity, generated from the live database.
 | [Item shop](/zh-TW/content/shop/) | Vendor catalog per shop location and item category, with the price in every currency |
 | [Recipes](/zh-TW/content/recipes/) | Every craftable item and its components, research level |
 
-Field meanings (what a stat column actually does) live in [Formats](/zh-TW/formats/).
+欄位含義(狀態欄實際做什麼)在[Formats](/zh-TW/formats/)中。

@@ -8,14 +8,14 @@ description: "Every extension (character skill): the clickable category overview
 
 # Extensies
 
-Extensions are the per-character skill tree — learned with credits (level 1) and EP (later levels), gated by prerequisites. See [Character](/nl/features/character/) for the character window this tree lives in. The spark extensions (the passive specialization lines) have their own diagram on the [Sparks](/nl/features/sparks/) page.
+Extensions zijn de per-personage vaardighedsboom — geleerd met credits (niveau 1) en EP (latere niveaus), geblokkeerd door vereisten. Zie [Character](/nl/features/character/) voor het personagevenster waarin deze boom woont. De spark-extensions (de passieve specialisatielijnen) hebben hun eigen diagram op de pagina [Sparks](/nl/features/sparks/).
 
 <!-- categories:generated -->
 <a id="categories"></a>
 
 ## Main categories
 
-The 15 categories at a glance: one box per category (extension count, entry points without prerequisites, rank range), left to right by starting rank, and an arrow for every cross-category prerequisite (hover an arrow for the exact requirements) — which categories open up which. **Click a box to jump to that category's cards below.** The spark extensions sit outside this diagram (no prerequisites of their own) — their bundle diagram is on the [Sparks](/nl/features/sparks/) page. **Scroll over the diagram to zoom**, drag to pan, and use the ⟲ button to reset.
+De 15 categorieën in één oogopslag: een vakje per categorie (aantal extensions, inlaatpunten zonder vereisten, rangbereik), van links naar rechts per start-rang, en een pijl voor elke cross-categorie vereiste (beweeg over een pijl voor de exacte vereisten) — welke categorieën welke openen. **Klik op een vakje om naar de kaarten van die categorie hieronder te springen.** De spark-extensions zitten buiten dit diagram (geen eigen vereisten) — hun bundeldiagram staat op de pagina [Sparks](/nl/features/sparks/). **Scroll over het diagram om te zoomen**, sleep om te pannen, en gebruik de ⟲-knop om te resetten.
 
 <div class="map-zoom-wrap extcats-wrap">
 <button type="button" class="zoommap-reset" title="Reset the zoom">⟲</button>
@@ -66,7 +66,7 @@ The 15 categories at a glance: one box per category (extension count, entry poin
 
 ## Extensions by category
 
-One section per category, one card per extension. **Price** is the level-1 credit cost (later levels cost EP only). **Prerequisites** are the extensions (and minimum level) to learn first. Inactive entries are not offered by the current server build.
+Eén sectie per categorie, één kaart per extensie. **Prijs** is de credit-kost van niveau 1 (latere niveaus kosten alleen EP). **Vereisten** zijn de extensions (en minimaal niveau) die eerst geleerd moeten worden. Inactieve items worden niet aangeboden door de huidige serverbuild.
 <a id="cat-corporation-management"></a>
 
 ### Corporation Management (15)

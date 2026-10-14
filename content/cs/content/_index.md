@@ -5,7 +5,7 @@ description: "Generated stat tables for every content entity: ores, plants, depl
 
 # Obsah
 
-Stat tables for every content entity, generated from the live database.
+Tabulky statistik pro každou obsahovou entitu, generované z živé databáze.
 
 | Page | Contents |
 |---|---|
@@ -19,4 +19,4 @@ Stat tables for every content entity, generated from the live database.
 | [Item shop](/cs/content/shop/) | Vendor catalog per shop location and item category, with the price in every currency |
 | [Recipes](/cs/content/recipes/) | Every craftable item and its components, research level |
 
-Field meanings (what a stat column actually does) live in [Formats](/cs/formats/).
+Významy polí (co sloupec statistiky ve skutečnosti dělá) jsou v [Formats](/cs/formats/).

@@ -316,3 +316,28 @@ test('TP selector destinations navigate only to safe zone slugs (js/xss-through-
   // the display name and zone name differ; verify the path is at least safe
   expect(m[1]).toMatch(/^[a-z0-9-]+$/);
 });
+
+test('landmarks panel labels follow the page language', async ({ page, baseURL }) => {
+  // RU zone page: the runtime-built panel (zone-map.js) must use the
+  // translated WIKI_UI strings, not the English fallbacks.
+  await page.goto(`${baseURL}/ru/zones/zone-asi-pve/`, { waitUntil: 'networkidle' });
+  const wrap = page.locator('.zonetp-wrap');
+  await wrap.waitFor({ state: 'visible', timeout: 10000 });
+  const toggle = wrap.locator('.zonemap-landmarks-toggle');
+  await expect(toggle).toHaveText('Знаковые объекты');
+  await expect(wrap.locator('.zonemap-reset')).toHaveAttribute('title', 'Сбросить масштаб');
+  await toggle.click();
+  expect(await wrap.locator('.zonemap-landmark-item span:last-child').allTextContents()).toEqual([
+    'Телепорты и врата', 'Передовые базы', 'Полевые терминалы', 'Дороги', 'Надписи',
+  ]);
+  await expect(wrap.locator('.zonemap-landmarks-all-btn')).toHaveText('Переключить всё');
+
+  // EN page: the same panel stays English.
+  await page.goto(`${baseURL}/zones/zone-asi-pve/`, { waitUntil: 'networkidle' });
+  const wrap2 = page.locator('.zonetp-wrap');
+  await wrap2.waitFor({ state: 'visible', timeout: 10000 });
+  await expect(wrap2.locator('.zonemap-landmarks-toggle')).toHaveText('Landmarks');
+  expect(await wrap2.locator('.zonemap-landmark-item span:last-child').allTextContents()).toEqual([
+    'Teleports & Gates', 'Outposts', 'Field terminals', 'Roads', 'Labels',
+  ]);
+});

@@ -8,12 +8,12 @@ description: "What the item stats mean and how big each value is: units, catalog
 
 # Справочник параметров
 
-Every item page lists raw stat values. This page puts them in scale: the unit of each stat, the smallest/largest values in the whole catalog, and real items to compare against. Ranges are computed over all enabled items (prototypes and test objects excluded).
+На каждой странице предмета перечислены сырые значения статов. Эта страница даёт им масштаб: единица каждого стата, наименьшие/наибольшие значения всего каталога и реальные предметы для сравнения. Диапазоны вычисляются по всем активным предметам (прототипы и тестовые объекты исключены).
 
 
-## Powergrid and CPU in context
+## Powergrid и CPU в контексте
 
-A module's **powergrid_usage** is only meaningful against the robot that carries it: the chassis defines the total RP (**powergrid_max**), energy (**core_max**) and CPU (**cpu_max**) its modules may use. **Powergrid upgrades** modules add a fixed amount of RP. A usage value is a percentage of the available capacity — for example a module with powergrid_usage 214 uses 214% of an Ikarus chassis (100 RP, nothing fits beyond the frame) but only ~3% of an Onyx chassis (6.6k RP).
+**powergrid_usage** модуля имеет смысл только относительно робота, который его несёт: шасси определяет общее RP (**powergrid_max**), энергию (**core_max**) и CPU (**cpu_max**), которые могут использовать его модули. Модули **улучшения powergrid** добавляют фиксированное количество RP. Значение использования — процент от доступной ёмкости — например, модуль с powergrid_usage 214 использует 214% шасси Ikarus (100 RP, ничего не помещается за кадром), но только ~3% шасси Onyx (6,6k RP).
 
 | Chassis (frame) | Powergrid (RP) | Core (RP) | CPU |
 |---|---|---|---|
@@ -89,7 +89,7 @@ A module's **powergrid_usage** is only meaningful against the robot that carries
 
 ## Stat scale
 
-For each documented stat: how many items have it, its unit, and the smallest / median / largest value in the catalog with an item you can open at each end.
+Для каждого задокументированного стата: сколько предметов его имеют, его единица, и наименьшее / медианное / наибольшее значение каталога с предметом, который можно открыть на каждом конце.
 
 | Stat | Unit | Items | Smallest | Median | Largest | Small example | Large example |
 |---|---|---|---|---|---|---|---|
@@ -135,4 +135,4 @@ For each documented stat: how many items have it, its unit, and the smallest / m
 | `stealth_strength` | — | 525 | 1 | 100 | 100M | [Asintec terminal](/content/items/public-docking-base-thelodica/) | [Relic Sap](/content/items/relic-sap/) |
 
 
-Stats not listed here are either **modifier** stats (they change another stat instead of setting one) or internal values without a player-facing unit — the developer field reference in [Formats](/ru/formats/) lists every field.
+Статы, не перечисленные здесь, — это статы **модификатора** (они изменяют другой стат вместо установки) или внутренние значения без единицы для игрока — справочник полей разработчика в [Formats](/ru/formats/) перечисляет каждое поле.

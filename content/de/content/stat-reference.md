@@ -8,12 +8,12 @@ description: "What the item stats mean and how big each value is: units, catalog
 
 # Werte-Referenz
 
-Every item page lists raw stat values. This page puts them in scale: the unit of each stat, the smallest/largest values in the whole catalog, and real items to compare against. Ranges are computed over all enabled items (prototypes and test objects excluded).
+Jede Artikel-Seite listet Rohstatwerte. Diese Seite setzt sie in Relation: die Einheit jeder Stats, die kleinsten/größten Werte im ganzen Katalog und echte Artikel zum Vergleichen. Bereiche werden über alle aktiven Artikel berechnet (Prototypen und Testobjekte ausgenommen).
 
 
-## Powergrid and CPU in context
+## Powergrid und CPU im Kontext
 
-A module's **powergrid_usage** is only meaningful against the robot that carries it: the chassis defines the total RP (**powergrid_max**), energy (**core_max**) and CPU (**cpu_max**) its modules may use. **Powergrid upgrades** modules add a fixed amount of RP. A usage value is a percentage of the available capacity — for example a module with powergrid_usage 214 uses 214% of an Ikarus chassis (100 RP, nothing fits beyond the frame) but only ~3% of an Onyx chassis (6.6k RP).
+Die **powergrid_usage** eines Moduls ist nur im Bezug auf den Roboter, der es trägt, sinnvoll: das Chassis definiert das gesamte RP (**powergrid_max**), die Energie (**core_max**) und die CPU (**cpu_max**), die seine Module nutzen dürfen. **Powergrid-Upgrade**-Module fügen einen festen RP-Betrag hinzu. Ein Nutzungs-Wert ist ein Prozentwert der verfügbaren Kapazität — zum Beispiel nutzt ein Modul mit powergrid_usage 214 214 % eines Ikarus-Chassis (100 RP, nichts passt über den Rahmen hinaus), aber nur ~3 % eines Onyx-Chassis (6,6k RP).
 
 | Chassis (frame) | Powergrid (RP) | Core (RP) | CPU |
 |---|---|---|---|
@@ -89,7 +89,7 @@ A module's **powergrid_usage** is only meaningful against the robot that carries
 
 ## Stat scale
 
-For each documented stat: how many items have it, its unit, and the smallest / median / largest value in the catalog with an item you can open at each end.
+Für jede dokumentierte Stat: wie viele Artikel sie haben, ihre Einheit und der kleinste / mediane / größte Wert im Katalog samt einem Artikel, den man an jedem Ende öffnen kann.
 
 | Stat | Unit | Items | Smallest | Median | Largest | Small example | Large example |
 |---|---|---|---|---|---|---|---|
@@ -135,4 +135,4 @@ For each documented stat: how many items have it, its unit, and the smallest / m
 | `stealth_strength` | — | 525 | 1 | 100 | 100M | [Asintec terminal](/content/items/public-docking-base-thelodica/) | [Relic Sap](/content/items/relic-sap/) |
 
 
-Stats not listed here are either **modifier** stats (they change another stat instead of setting one) or internal values without a player-facing unit — the developer field reference in [Formats](/de/formats/) lists every field.
+Stats, die hier nicht aufgeführt sind, sind entweder **Modifikator**-Stats (sie ändern eine andere Stat, statt eine einzustellen) oder interne Werte ohne eine für Spieler sichtbare Einheit — die Entwickler-Feldreferenz in [Formats](/de/formats/) listet jedes Feld.

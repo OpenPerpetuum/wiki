@@ -8,7 +8,7 @@ description: "Every mission by type and tier: reward fee, duration, and the rewa
 
 # 任務
 
-One section per **mission type**; each tier is a card. **Reward fee** is the credit payout (a range when a tier has several zone variants); **rewards** are the item drops (quantity range and drop probability, 100 = guaranteed). See [Missions](/zh-TW/features/missions/) in the features section for how missions work.
+每種**任務類型**一個章節;每個層級是一張卡片。**獎勵費用**是以信用點支付(當層級有多個區域變體時是一個範圍);**獎勵**是掉落物品(數量範圍與掉落機率,100 = 保證)。任務如何運作,見功能區的[Missions](/zh-TW/features/missions/)。
 
 <div class="mission-index">
 <a href="#defend-and-mine"><span class="mission-type-chip">Defend and mine</span></a>&ensp;

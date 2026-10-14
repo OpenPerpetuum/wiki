@@ -8,13 +8,13 @@ description: "別ゾーンへのテレポート接続を持つ全ゾーン、フ
 
 # ゾーン一覧
 
-All 59 zones that have at least one teleport point to ANOTHER zone, grouped by family (the same grouping as the [world map](/ja/zones/map/)) — the card links to the zone's page. Zones without any inter-zone teleport point (the strongholds, the PvP arena, dead-end gate islands) are left off; they are still reachable from the world map's gate lines. The per-family pages — [Alpha](/ja/zones/alpha/) · [Beta](/ja/zones/beta/) · [Gamma](/ja/zones/gamma/) — list every zone of the family regardless of TPs.
+他のゾーンへのワープポイントを持つ全59ゾーン、ファミリー別にグループ化([world map](/ja/zones/map/)と同じグループ化) — カードはゾーンページへリンク。ゾーン間ワープポイントを全く持たないゾーン(要塞、PvPアリーナ、行き止まりのゲート島)は省かれます。世界地図のゲートラインからは到達可能です。ファミリー別のページ — [Alpha](/ja/zones/alpha/) · [Beta](/ja/zones/beta/) · [Gamma](/ja/zones/gamma/) — はTPの有無に関わらずファミリーの全ゾーンを列挙します。
 
 <a id="training"></a>
 
 ## Training
 
-The virtual [training island](/ja/zones/zone-training/) — where new characters start and learn the basics before entering the main galaxies.
+仮想の[training island](/ja/zones/zone-training/) — 新キャラクターが主要銀河に入る前に基礎を学ぶ場所。
 
 <div class="zone-cards">
 <a class="zone-card" href="/ja/zones/zone-training/">
@@ -28,7 +28,7 @@ The virtual [training island](/ja/zones/zone-training/) — where new characters
 
 ## Alpha
 
-The main protected islands and their second-wave PvE companions — the safe starter economy (see [保護レベル](/ja/zones/protection/)).
+主な保護島とその第二波PvE仲間 — 安全なスタート経済([保護レベル](/ja/zones/protection/)参照)。
 
 <div class="zone-cards">
 <a class="zone-card" href="/ja/zones/zone-asi-pve/">
@@ -62,7 +62,7 @@ The main protected islands and their second-wave PvE companions — the safe sta
 
 ## Beta
 
-The open-PvP islands: the three main islands' PvP twins (the "_real" names), the eight gate islands of each galaxy, and the special zones (the [PvP arena](/ja/zones/zone-pvp-arena/) and the strongholds — protected instances, listed here for completeness).
+オープンPvP島: 3つの主要島のPvP双子("_real"名)、各銀河の8つのゲート島、特殊ゾーン([PvP arena](/ja/zones/zone-pvp-arena/)と要塞 — 保護されたインスタンス、完全性のためここに列挙)。
 
 <div class="zone-cards">
 <a class="zone-card" href="/ja/zones/zone-asi-a-real/">

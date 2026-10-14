@@ -14,829 +14,24 @@ Generates:
 - content/<lang>/content/stat-reference.md
 - content/<lang>/content/shop.md + content/<lang>/content/shop/*.md (11 files)
 
+All translatable strings come from translations/<lang>.json (single source of
+truth, see tools/i18n_common.py); missing keys fall back to English.
+
 All internal markdown/HTML links are rewritten to their /{lang}/ routes,
 except /content/items/ and /zones/ which remain global.
 """
-import os
 import re
 import sys
 import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-try:
-    from zones_i18n_data import PROTECTION_DATA, ZONES_INDEX_DATA
-except ImportError:
-    from tools.zones_i18n_data import PROTECTION_DATA, ZONES_INDEX_DATA
+from i18n_common import t, rewrite_links
 
 LANGUAGES = [
     "cs", "de", "es", "fr", "it", "ja", "ko",
     "nl", "pl", "pt", "ru", "zh-CN", "zh-TW"
 ]
-
-I18N = {
-    # Robot card stats
-    "Combat": {
-        "cs": "Boj", "de": "Kampf", "es": "Combate", "fr": "Combat", "it": "Combattimento",
-        "ja": "戦闘", "ko": "전투", "nl": "Gevecht", "pl": "Walka", "pt": "Combate",
-        "ru": "Бой", "zh-CN": "战斗", "zh-TW": "戰鬥"
-    },
-    "Speed": {
-        "cs": "Rychlost", "de": "Geschwindigkeit", "es": "Velocidad", "fr": "Vitesse", "it": "Velocità",
-        "ja": "速度", "ko": "속도", "nl": "Snelheid", "pl": "Prędkość", "pt": "Velocidade",
-        "ru": "Скорость", "zh-CN": "速度", "zh-TW": "速度"
-    },
-    "Armor": {
-        "cs": "Pancíř", "de": "Panzerung", "es": "Blindaje", "fr": "Blindage", "it": "Corazza",
-        "ja": "装甲", "ko": "장갑", "nl": "Pantser", "pl": "Pancerz", "pt": "Blindagem",
-        "ru": "Броня", "zh-CN": "装甲", "zh-TW": "裝甲"
-    },
-    "Storage": {
-        "cs": "Úložiště", "de": "Frachtraum", "es": "Almacenamiento", "fr": "Stockage", "it": "Stiva",
-        "ja": "積載量", "ko": "적재량", "nl": "Opslag", "pl": "Ładownia", "pt": "Armazenamento",
-        "ru": "Груз", "zh-CN": "货舱", "zh-TW": "貨艙"
-    },
-    "Cost": {
-        "cs": "Cena", "de": "Kosten", "es": "Coste", "fr": "Coût", "it": "Costo",
-        "ja": "コスト", "ko": "비용", "nl": "Kosten", "pl": "Koszt", "pt": "Custo",
-        "ru": "Стоимость", "zh-CN": "成本", "zh-TW": "成本"
-    },
-    # Common table labels
-    "Class": {
-        "cs": "Třída", "de": "Klasse", "es": "Clase", "fr": "Classe", "it": "Classe",
-        "ja": "クラス", "ko": "클래스", "nl": "Klasse", "pl": "Klasa", "pt": "Classe",
-        "ru": "Класс", "zh-CN": "级别", "zh-TW": "級別"
-    },
-    "Size": {
-        "cs": "Velikost", "de": "Größe", "es": "Tamaño", "fr": "Taille", "it": "Dimensioni",
-        "ja": "サイズ", "ko": "크기", "nl": "Grootte", "pl": "Rozmiar", "pt": "Tamanho",
-        "ru": "Размер", "zh-CN": "尺寸", "zh-TW": "尺寸"
-    },
-    "Mass": {
-        "cs": "Hmotnost", "de": "Masse", "es": "Masa", "fr": "Masse", "it": "Massa",
-        "ja": "質量", "ko": "질량", "nl": "Massa", "pl": "Masa", "pt": "Massa",
-        "ru": "Масса", "zh-CN": "质量", "zh-TW": "質量"
-    },
-    "Health": {
-        "cs": "Zdraví", "de": "Struktur", "es": "Salud", "fr": "Santé", "it": "Integrità",
-        "ja": "耐久値", "ko": "내구도", "nl": "Gezondheid", "pl": "Wytrzymałość", "pt": "Integridade",
-        "ru": "Прочность", "zh-CN": "耐久度", "zh-TW": "耐久度"
-    },
-    "Purchasable": {
-        "cs": "Lze koupit", "de": "Kaufbar", "es": "Comprable", "fr": "Achetable", "it": "Acquistabile",
-        "ja": "購入可能", "ko": "구매 가능", "nl": "Koopbaar", "pl": "Kupny", "pt": "Comprável",
-        "ru": "Доступен к покупке", "zh-CN": "可购买", "zh-TW": "可購買"
-    },
-    "Yes": {
-        "cs": "Ano", "de": "Ja", "es": "Sí", "fr": "Oui", "it": "Sì",
-        "ja": "はい", "ko": "예", "nl": "Ja", "pl": "Tak", "pt": "Sim",
-        "ru": "Да", "zh-CN": "是", "zh-TW": "是"
-    },
-    "No": {
-        "cs": "Ne", "de": "Nein", "es": "No", "fr": "Non", "it": "No",
-        "ja": "いいえ", "ko": "아니오", "nl": "Nee", "pl": "Nie", "pt": "Não",
-        "ru": "Нет", "zh-CN": "否", "zh-TW": "否"
-    },
-    "Category": {
-        "cs": "Kategorie", "de": "Kategorie", "es": "Categoría", "fr": "Catégorie", "it": "Categoria",
-        "ja": "カテゴリー", "ko": "카테고리", "nl": "Categorie", "pl": "Kategoria", "pt": "Categoria",
-        "ru": "Категория", "zh-CN": "类别", "zh-TW": "類別"
-    },
-    "Tier": {
-        "cs": "Úroveň", "de": "Stufe", "es": "Nivel", "fr": "Palier", "it": "Livello",
-        "ja": "ティア", "ko": "티어", "nl": "Niveau", "pl": "Poziom", "pt": "Nível",
-        "ru": "Тир", "zh-CN": "等级", "zh-TW": "等級"
-    },
-    "Volume": {
-        "cs": "Objem", "de": "Volumen", "es": "Volumen", "fr": "Volume", "it": "Volume",
-        "ja": "体積", "ko": "부피", "nl": "Volume", "pl": "Objętość", "pt": "Volume",
-        "ru": "Объём", "zh-CN": "体积", "zh-TW": "體積"
-    },
-    "Definition": {
-        "cs": "Definice", "de": "Definition", "es": "Definición", "fr": "Définition", "it": "Definizione",
-        "ja": "定義", "ko": "정의", "nl": "Definitie", "pl": "Definicja", "pt": "Definição",
-        "ru": "Определение", "zh-CN": "定义", "zh-TW": "定義"
-    },
-    "Field": {
-        "cs": "Pole", "de": "Feld", "es": "Campo", "fr": "Champ", "it": "Campo",
-        "ja": "フィールド", "ko": "필드", "nl": "Veld", "pl": "Pole", "pt": "Campo",
-        "ru": "Поле", "zh-CN": "字段", "zh-TW": "欄位"
-    },
-    "Value": {
-        "cs": "Hodnota", "de": "Wert", "es": "Valor", "fr": "Valeur", "it": "Valore",
-        "ja": "値", "ko": "값", "nl": "Waarde", "pl": "Wartość", "pt": "Valor",
-        "ru": "Значение", "zh-CN": "数值", "zh-TW": "數值"
-    },
-    "Stats": {
-        "cs": "Statistiky", "de": "Werte", "es": "Estadísticas", "fr": "Statistiques", "it": "Statistiche",
-        "ja": "性能パラメータ", "ko": "능력치", "nl": "Statistieken", "pl": "Statystyki", "pt": "Atributos",
-        "ru": "Параметры", "zh-CN": "属性参数", "zh-TW": "屬性參數"
-    },
-    # Robot sections
-    "Variants": {
-        "cs": "Varianty", "de": "Varianten", "es": "Variantes", "fr": "Variantes", "it": "Varianti",
-        "ja": "バリアント", "ko": "파생형", "nl": "Varianten", "pl": "Warianty", "pt": "Variantes",
-        "ru": "Модификации", "zh-CN": "变体", "zh-TW": "變體"
-    },
-    "Variant": {
-        "cs": "Varianta", "de": "Variante", "es": "Variante", "fr": "Variante", "it": "Variante",
-        "ja": "バリアント", "ko": "파생형", "nl": "Variant", "pl": "Wariant", "pt": "Variante",
-        "ru": "Модификация", "zh-CN": "变体", "zh-TW": "變體"
-    },
-    "Link": {
-        "cs": "Odkaz", "de": "Link", "es": "Enlace", "fr": "Lien", "it": "Collegamento",
-        "ja": "リンク", "ko": "링크", "nl": "Link", "pl": "Link", "pt": "Link",
-        "ru": "Ссылка", "zh-CN": "链接", "zh-TW": "連結"
-    },
-    "Production": {
-        "cs": "Výroba", "de": "Produktion", "es": "Producción", "fr": "Production", "it": "Produzione",
-        "ja": "製造", "ko": "생산", "nl": "Productie", "pl": "Produkcja", "pt": "Produção",
-        "ru": "Производство", "zh-CN": "制造", "zh-TW": "製造"
-    },
-    "Components required to build this robot:": {
-        "cs": "Komponenty potřebné k sestavení tohoto robota:",
-        "de": "Für den Bau dieses Roboters erforderliche Komponenten:",
-        "es": "Componentes necesarios para construir este robot:",
-        "fr": "Composants requis pour construire ce robot :",
-        "it": "Componenti necessari per costruire questo robot:",
-        "ja": "このロボットの製造に必要な部品:",
-        "ko": "이 로봇을 제작하는 데 필요한 부품:",
-        "nl": "Benodigde componenten om deze robot te bouwen:",
-        "pl": "Komponenty wymagane do zbudowania tego robota:",
-        "pt": "Componentes necessários para construir este robô:",
-        "ru": "Компоненты, необходимые для сборки этого робота:",
-        "zh-CN": "制造此机器人所需的组件：",
-        "zh-TW": "製造此機器人所需的組件："
-    },
-    "Component": {
-        "cs": "Komponenta", "de": "Komponente", "es": "Componente", "fr": "Composant", "it": "Componente",
-        "ja": "部品", "ko": "부품", "nl": "Component", "pl": "Komponent", "pt": "Componente",
-        "ru": "Компонент", "zh-CN": "组件", "zh-TW": "組件"
-    },
-    "Amount": {
-        "cs": "Množství", "de": "Menge", "es": "Cantidad", "fr": "Quantité", "it": "Quantità",
-        "ja": "数量", "ko": "수량", "nl": "Aantal", "pl": "Ilość", "pt": "Quantidade",
-        "ru": "Количество", "zh-CN": "数量", "zh-TW": "數量"
-    },
-    "NPC Vendor": {
-        "cs": "NPC Prodejce", "de": "NPC-Händler", "es": "Vendedor PNJ", "fr": "Vendeur PNJ", "it": "Venditore PNG",
-        "ja": "NPCベンダー", "ko": "NPC 상인", "nl": "NPC-verkoper", "pl": "Sprzedawca NPC", "pt": "Vendedor NPC",
-        "ru": "NPC-торговец", "zh-CN": "NPC 商人", "zh-TW": "NPC 商人"
-    },
-    "Available from the NPC vendor:": {
-        "cs": "K dispozici u NPC prodejce:",
-        "de": "Erhältlich beim NPC-Händler:",
-        "es": "Disponible en el vendedor PNJ:",
-        "fr": "Disponible auprès du vendeur PNJ :",
-        "it": "Disponibile dal venditore PNG:",
-        "ja": "NPCベンダーから購入可能:",
-        "ko": "NPC 상인에게서 구매 가능:",
-        "nl": "Verkrijgbaar bij de NPC-verkoper:",
-        "pl": "Dostępne u sprzedawcy NPC:",
-        "pt": "Disponível no vendedor NPC:",
-        "ru": "Доступно у NPC-торговца:",
-        "zh-CN": "可从 NPC 商人处购买：",
-        "zh-TW": "可從 NPC 商人處購買："
-    },
-    "Price:": {
-        "cs": "Cena:", "de": "Preis:", "es": "Precio:", "fr": "Prix :", "it": "Prezzo:",
-        "ja": "価格:", "ko": "가격:", "nl": "Prijs:", "pl": "Cena:", "pt": "Preço:",
-        "ru": "Цена:", "zh-CN": "售价：", "zh-TW": "售價："
-    },
-    # Recipe & Mission card strings
-    "Research level": {
-        "cs": "Úroveň výzkumu", "de": "Forschungsstufe", "es": "Nivel de investigación",
-        "fr": "Niveau de recherche", "it": "Livello di ricerca", "ja": "研究レベル",
-        "ko": "연구 레벨", "nl": "Onderzoeksniveau", "pl": "Poziom badań",
-        "pt": "Nível de pesquisa", "ru": "Уровень исследования", "zh-CN": "研发等级", "zh-TW": "研發等級"
-    },
-    "Level": {
-        "cs": "Úroveň", "de": "Stufe", "es": "Nivel", "fr": "Niveau", "it": "Livello",
-        "ja": "レベル", "ko": "레벨", "nl": "Niveau", "pl": "Poziom", "pt": "Nível",
-        "ru": "Уровень", "zh-CN": "等级", "zh-TW": "等級"
-    },
-    "Reward fee": {
-        "cs": "Odměna", "de": "Belohnung", "es": "Recompensa", "fr": "Récompense", "it": "Ricompensa",
-        "ja": "報酬", "ko": "보상금", "nl": "Beloning", "pl": "Nagroda", "pt": "Recompensa",
-        "ru": "Вознаграждение", "zh-CN": "报酬", "zh-TW": "報酬"
-    },
-    "Duration": {
-        "cs": "Doba trvání", "de": "Dauer", "es": "Duración", "fr": "Durée", "it": "Durata",
-        "ja": "制限時間", "ko": "소요 시간", "nl": "Duur", "pl": "Czas trwania", "pt": "Duração",
-        "ru": "Время выполнения", "zh-CN": "持续时间", "zh-TW": "持續時間"
-    },
-    "min": {
-        "cs": "min", "de": "Min.", "es": "min", "fr": "min", "it": "min",
-        "ja": "分", "ko": "분", "nl": "min", "pl": "min", "pt": "min",
-        "ru": "мин", "zh-CN": "分钟", "zh-TW": "分鐘"
-    },
-    "chance": {
-        "cs": "šance", "de": "Chance", "es": "probabilidad", "fr": "chance", "it": "probabilità",
-        "ja": "確率", "ko": "확률", "nl": "kans", "pl": "szansa", "pt": "chance",
-        "ru": "шанс", "zh-CN": "概率", "zh-TW": "機率"
-    },
-    # Deployable badges
-    "no tier": {
-        "cs": "bez úrovně", "de": "keine Stufe", "es": "sin nivel", "fr": "sans palier", "it": "senza livello",
-        "ja": "ティアなし", "ko": "티어 없음", "nl": "geen niveau", "pl": "brak poziomu", "pt": "sem nível",
-        "ru": "без тира", "zh-CN": "无等级", "zh-TW": "無等級"
-    },
-    # Extensions card labels
-    "rank": {
-        "cs": "úroveň", "de": "Rang", "es": "rango", "fr": "rang", "it": "rango",
-        "ja": "ランク", "ko": "랭크", "nl": "rang", "pl": "ranga", "pt": "posto",
-        "ru": "ранг", "zh-CN": "等级", "zh-TW": "等級"
-    },
-    "bonus": {
-        "cs": "bonus", "de": "Bonus", "es": "bonificación", "fr": "bonus", "it": "bonus",
-        "ja": "ボーナス", "ko": "보너스", "nl": "bonus", "pl": "bonus", "pt": "bônus",
-        "ru": "бонус", "zh-CN": "加成", "zh-TW": "加成"
-    },
-    "inactive": {
-        "cs": "neaktivní", "de": "inaktiv", "es": "inactivo", "fr": "inactif", "it": "inattivo",
-        "ja": "非アクティブ", "ko": "비활성", "nl": "inactief", "pl": "nieaktywny", "pt": "inativo",
-        "ru": "неактивно", "zh-CN": "未启用", "zh-TW": "未啟用"
-    },
-    "no prerequisites": {
-        "cs": "bez prerekvizit", "de": "keine Voraussetzungen", "es": "sin requisitos previos",
-        "fr": "sans prérequis", "it": "nessun prerequisito", "ja": "前提条件なし", "ko": "선행 조건 없음",
-        "nl": "geen vereisten", "pl": "brak wymagań wstępnych", "pt": "sem pré-requisitos",
-        "ru": "без предварительных требований", "zh-CN": "无前置要求", "zh-TW": "無前置要求"
-    },
-    # Shop table headers
-    "Item": {
-        "cs": "Předmět", "de": "Gegenstand", "es": "Objeto", "fr": "Objet", "it": "Oggetto",
-        "ja": "アイテム", "ko": "아이템", "nl": "Item", "pl": "Przedmiot", "pt": "Item",
-        "ru": "Предмет", "zh-CN": "物品", "zh-TW": "物品"
-    },
-    "Qty": {
-        "cs": "Množství", "de": "Menge", "es": "Cant.", "fr": "Qté", "it": "Q.tà",
-        "ja": "数量", "ko": "수량", "nl": "Aantal", "pl": "Ilość", "pt": "Qtd",
-        "ru": "Кол-во", "zh-CN": "数量", "zh-TW": "數量"
-    },
-    "Vendors": {
-        "cs": "Prodejci", "de": "Händler", "es": "Vendedores", "fr": "Vendeurs", "it": "Venditori",
-        "ja": "ベンダー", "ko": "판매처", "nl": "Verkopers", "pl": "Sprzedawcy", "pt": "Vendedores",
-        "ru": "Продавцы", "zh-CN": "商人", "zh-TW": "商人"
-    },
-    # Ore extraction table
-    "Amount / extraction": {
-        "cs": "Množství na těžbu", "de": "Menge / Förderung", "es": "Cantidad / extracción",
-        "fr": "Quantité / extraction", "it": "Quantità / estrazione", "ja": "1回あたりの採掘量",
-        "ko": "채굴당 획득량", "nl": "Aantal / extractie", "pl": "Ilość / wydobycie",
-        "pt": "Quantidade / extração", "ru": "Количество за цикл", "zh-CN": "单次开采量", "zh-TW": "單次開採量"
-    },
-    "Extraction type": {
-        "cs": "Typ těžby", "de": "Förderungsart", "es": "Tipo de extracción", "fr": "Type d'extraction",
-        "it": "Tipo di estrazione", "ja": "採掘タイプ", "ko": "채굴 유형", "nl": "Extractietype",
-        "pl": "Typ wydobycia", "pt": "Tipo de extração", "ru": "Тип добычи", "zh-CN": "开采方式", "zh-TW": "開採方式"
-    },
-    "Enabler effect": {
-        "cs": "Aktivační efekt", "de": "Aktivierungseffekt", "es": "Efecto activador",
-        "fr": "Effet d'activation", "it": "Effetto attivatore", "ja": "必須エフェクト",
-        "ko": "필요 효과", "nl": "Inschakeleffect", "pl": "Efekt aktywujący",
-        "pt": "Efeito habilitador", "ru": "Требуемый эффект", "zh-CN": "触发效果", "zh-TW": "觸發效果"
-    },
-    "Geo-scan doc": {
-        "cs": "Geologický skenovací dokument", "de": "Geo-Scan-Dokument", "es": "Doc. geo-escaneo",
-        "fr": "Doc géo-scan", "it": "Doc. geo-scansione", "ja": "地質スキャン文書",
-        "ko": "지질 탐사 문서", "nl": "Geoscan-document", "pl": "Dokument geoskanowania",
-        "pt": "Doc. geo-varredura", "ru": "Документ геосканирования", "zh-CN": "地质扫描文档", "zh-TW": "地質掃描文檔"
-    },
-    "Geo-scan document": {
-        "cs": "Geologický skenovací dokument", "de": "Geo-Scan-Dokument", "es": "Documento de geo-escaneo",
-        "fr": "Document de géo-scan", "it": "Documento di geo-scansione", "ja": "地質スキャン文書",
-        "ko": "지질 탐사 문서", "nl": "Geoscan-document", "pl": "Dokument geoskanowania",
-        "pt": "Documento de geo-varredura", "ru": "Документ геосканирования", "zh-CN": "地质扫描文档", "zh-TW": "地質掃描文檔"
-    },
-    "Extraction": {
-        "cs": "Těžba", "de": "Förderung", "es": "Extracción", "fr": "Extraction", "it": "Estrazione",
-        "ja": "採掘", "ko": "채굴", "nl": "Extractie", "pl": "Wydobycie", "pt": "Extração",
-        "ru": "Добыча", "zh-CN": "开采", "zh-TW": "開採"
-    },
-    "Where it spawns": {
-        "cs": "Kde se vyskytuje", "de": "Fundorte", "es": "Dónde aparece", "fr": "Où le trouver",
-        "it": "Dove compare", "ja": "出現場所", "ko": "출현 지역", "nl": "Waar het verschijnt",
-        "pl": "Występowanie", "pt": "Onde surge", "ru": "Месторождения", "zh-CN": "生成区域", "zh-TW": "生成區域"
-    },
-    "Made from it": {
-        "cs": "Vyrábí se z něj", "de": "Daraus hergestellt", "es": "Fabricado con esto",
-        "fr": "Fabriqué à partir de", "it": "Fabbricato da questo", "ja": "加工物・製品",
-        "ko": "가공품", "nl": "Gemaakt hiervan", "pl": "Wytwarzane z tego",
-        "pt": "Fabricado a partir disso", "ru": "Производится из этого", "zh-CN": "制造产物", "zh-TW": "製造產物"
-    },
-    "not required": {
-        "cs": "není vyžadován", "de": "nicht erforderlich", "es": "no requerido", "fr": "non requis",
-        "it": "non richiesto", "ja": "不要", "ko": "불필요", "nl": "niet vereist",
-        "pl": "niewymagany", "pt": "não necessário", "ru": "не требуется", "zh-CN": "不需要", "zh-TW": "不需要"
-    },
-    "required": {
-        "cs": "vyžadován", "de": "erforderlich", "es": "requerido", "fr": "requis",
-        "it": "richiesto", "ja": "必須", "ko": "필요", "nl": "vereist",
-        "pl": "wymagany", "pt": "necessário", "ru": "требуется", "zh-CN": "需要", "zh-TW": "需要"
-    },
-    "liquid (pumped continuously)": {
-        "cs": "kapalná (kontinuální čerpání)", "de": "flüssig (kontinuierlich gepumpt)",
-        "es": "líquido (bombeo continuo)", "fr": "liquide (pompage continu)",
-        "it": "liquido (pompaggio continuo)", "ja": "液体 (ポンプによる継続吸引)",
-        "ko": "액체 (펌프로 연속 추출)", "nl": "vloeibaar (continu gepompt)",
-        "pl": "płynny (ciągłe pompowanie)", "pt": "líquido (bombeamento contínuo)",
-        "ru": "жидкая (непрерывная откачка)", "zh-CN": "液态 (连续泵取)", "zh-TW": "液態 (連續泵取)"
-    },
-    "solid (tile-by-tile drill)": {
-        "cs": "pevná (vrtání po polích)", "de": "fest (Feld für Feld mit Bohrer)",
-        "es": "sólido (taladro casilla por casilla)", "fr": "solide (forage case par case)",
-        "it": "solido (trivella casella per casella)", "ja": "固体 (ドリルによるタイル採掘)",
-        "ko": "고체 (드릴로 타일별 채굴)", "nl": "vast (tegel voor tegel met boor)",
-        "pl": "stały (wiercenie pole po polu)", "pt": "sólido (perfuração casa a casa)",
-        "ru": "твёрдая (бурение по клеткам)", "zh-CN": "固态 (单格钻探开采)", "zh-TW": "固態 (單格鑽探開採)"
-    },
-    # Tech tree nodes labels
-    "Parent node": {
-        "cs": "Rodičovský uzel", "de": "Übergeordneter Knoten", "es": "Nodo padre",
-        "fr": "Nœud parent", "it": "Nodo genitore", "ja": "親ノード", "ko": "상위 노드",
-        "nl": "Bovenliggend knooppunt", "pl": "Węzeł nadrzędny", "pt": "Nó pai",
-        "ru": "Родительский узел", "zh-CN": "父节点", "zh-TW": "父節點"
-    },
-    "Unlocks": {
-        "cs": "Odemkne", "de": "Schaltet frei", "es": "Desbloquea", "fr": "Déverrouille",
-        "it": "Sblocca", "ja": "解放項目", "ko": "잠금 해제", "nl": "Ontgrendelt",
-        "pl": "Odblokowuje", "pt": "Desbloqueia", "ru": "Открывает", "zh-CN": "解锁", "zh-TW": "解鎖"
-    },
-    "Unlocks next": {
-        "cs": "Odemkne dále", "de": "Schaltet als Nächstes frei", "es": "Desbloquea a continuación",
-        "fr": "Déverrouille ensuite", "it": "Sblocca successivamente", "ja": "次期解放項目",
-        "ko": "다음 잠금 해제", "nl": "Ontgrendelt vervolgens", "pl": "Odblokowuje dalej",
-        "pt": "Desbloqueia a seguir", "ru": "Следующие открытия", "zh-CN": "后续解锁", "zh-TW": "後續解鎖"
-    },
-    "Enabler extension": {
-        "cs": "Aktivační rozšíření", "de": "Freischalter-Erweiterung", "es": "Extensión habilitadora",
-        "fr": "Extension requise", "it": "Estensione abilitante", "ja": "必須拡張機能",
-        "ko": "필요 익스텐션", "nl": "Inschakelende extensie", "pl": "Rozszerzenie aktywujące",
-        "pt": "Extensão habilitadora", "ru": "Требуемое расширение", "zh-CN": "前置技能", "zh-TW": "前置技能"
-    },
-    "Point prices": {
-        "cs": "Bodové ceny", "de": "Punktkosten", "es": "Precios en puntos", "fr": "Coûts en points",
-        "it": "Costo in punti", "ja": "必要ポイント", "ko": "포인트 가격", "nl": "Puntkosten",
-        "pl": "Koszt w punktach", "pt": "Preço em pontos", "ru": "Стоимость в очках",
-        "zh-CN": "点数消耗", "zh-TW": "點數消耗"
-    },
-    "All tech tree nodes": {
-        "cs": "Všechny uzly technologického stromu", "de": "Alle Technologiebaum-Knoten",
-        "es": "Todos los nodos del árbol tecnológico", "fr": "Tous les nœuds de l'arborescence tech",
-        "it": "Tutti i nodi dell'albero tecnologico", "ja": "すべての技術ツリーノード",
-        "ko": "모든 기술 트리 노드", "nl": "Alle technologieboom-knooppunten",
-        "pl": "Wszystkie węzły drzewa technologii", "pt": "Todos os nós da árvore tecnológica",
-        "ru": "Все узлы дерева технологий", "zh-CN": "所有科技树节点", "zh-TW": "所有科技樹節點"
-    },
-    "Ore": {
-        "cs": "Ruda", "de": "Erz", "es": "Mineral", "fr": "Minerai", "it": "Minerale",
-        "ja": "鉱石", "ko": "광석", "nl": "Erts", "pl": "Ruda", "pt": "Minério",
-        "ru": "Руда", "zh-CN": "矿石", "zh-TW": "礦石"
-    },
-    "Ore types": {
-        "cs": "Typy rud", "de": "Erzarten", "es": "Tipos de mineral", "fr": "Types de minerai",
-        "it": "Tipi di minerale", "ja": "鉱石の種類", "ko": "광석 종류", "nl": "Soorten erts",
-        "pl": "Typy rud", "pt": "Tipos de minério", "ru": "Типы руд", "zh-CN": "矿石种类", "zh-TW": "礦石種類"
-    },
-    "Categories": {
-        "cs": "Kategorie", "de": "Kategorien", "es": "Categorías", "fr": "Catégories",
-        "it": "Categorie", "ja": "カテゴリー", "ko": "카테고리", "nl": "Categorieën",
-        "pl": "Kategorie", "pt": "Categorias", "ru": "Категории", "zh-CN": "分类", "zh-TW": "分類"
-    },
-    "Catalog": {
-        "cs": "Katalog", "de": "Katalog", "es": "Catálogo", "fr": "Catalogue",
-        "it": "Catalogo", "ja": "カタログ", "ko": "카탈로그", "nl": "Catalogus",
-        "pl": "Katalog", "pt": "Catálogo", "ru": "Каталог", "zh-CN": "目录", "zh-TW": "目錄"
-    },
-    "Robot classes": {
-        "cs": "Třídy robotů", "de": "Roboterklassen", "es": "Clases de robots", "fr": "Classes de robots",
-        "it": "Classi di robot", "ja": "ロボットクラス", "ko": "로봇 클래스", "nl": "Robotklassen",
-        "pl": "Klasy robotów", "pt": "Classes de robôs", "ru": "Классы роботов", "zh-CN": "机器人级别", "zh-TW": "機器人級別"
-    },
-    "Player robots": {
-        "cs": "Roboti hráčů", "de": "Spieler-Roboter", "es": "Robots de jugador", "fr": "Robots de joueur",
-        "it": "Robot del giocatore", "ja": "プレイヤーロボット", "ko": "플레이어 로봇", "nl": "Spelerrobots",
-        "pl": "Roboty graczy", "pt": "Robôs de jogador", "ru": "Роботы игроков", "zh-CN": "玩家机器人", "zh-TW": "玩家機器人"
-    },
-    "Hybrid robots": {
-        "cs": "Hybridní roboti", "de": "Hybrid-Roboter", "es": "Robots híbridos", "fr": "Robots hybrides",
-        "it": "Robot ibridi", "ja": "ハイブリッドロボット", "ko": "하이브리드 로봇", "nl": "Hybride robots",
-        "pl": "Roboty hybrydowe", "pt": "Robôs híbridos", "ru": "Гибридные роботы", "zh-CN": "混合型机器人", "zh-TW": "混合型機器人"
-    },
-    "NPC robots": {
-        "cs": "NPC roboti", "de": "NPC-Roboter", "es": "Robots PNJ", "fr": "Robots PNJ",
-        "it": "Robot PNG", "ja": "NPCロボット", "ko": "NPC 로봇", "nl": "NPC-robots",
-        "pl": "Roboty NPC", "pt": "Robôs NPC", "ru": "NPC-роботы", "zh-CN": "NPC 机器人", "zh-TW": "NPC 機器人"
-    },
-    "{Robot} — robot stats, production and availability.": {
-        "cs": "{Robot} — statistiky robota, výroba a dostupnost.",
-        "de": "{Robot} – Roboterwerte, Produktion und Verfügbarkeit.",
-        "es": "{Robot}: estadísticas del robot, producción y disponibilidad.",
-        "fr": "{Robot} — statistiques du robot, production et disponibilité.",
-        "it": "{Robot}: statistiche del robot, produzione e disponibilità.",
-        "ja": "{Robot} — ロボットの性能、製造および入手方法。",
-        "ko": "{Robot} — 로봇 능력치, 생산 및 획득 방법.",
-        "nl": "{Robot} — robotstatistieken, productie en beschikbaarheid.",
-        "pl": "{Robot} — statystyki robota, produkcja i dostępność.",
-        "pt": "{Robot} — atributos do robô, produção e disponibilidade.",
-        "ru": "{Robot} — параметры робота, производство и доступность.",
-        "zh-CN": "{Robot} — 机器人属性、制造与获取途径。",
-        "zh-TW": "{Robot} — 機器人屬性、製造與獲取途徑。"
-    },
-    "How a robot is built, the robot classes, and every robot: player, hybrid and NPC.": {
-        "cs": "Jak se robot staví, třídy robotů a všichni roboti: hráčští, hybridní a NPC.",
-        "de": "Wie ein Roboter aufgebaut ist, die Roboterklassen und alle Roboter: Spieler-, Hybrid- und NPC-Einheiten.",
-        "es": "Cómo se construye un robot, las clases de robots y todos los robots: de jugador, híbridos y PNJ.",
-        "fr": "Comment un robot est construit, les classes de robots et tous les robots : joueur, hybride et PNJ.",
-        "it": "Come è costruito un robot, le classi di robot e tutti i robot: giocatore, ibridi e PNG.",
-        "ja": "ロボットの構造、ロボットクラス、そして全ロボット一覧：プレイヤー、ハイブリッド、NPC。",
-        "ko": "로봇 구성 방식, 로봇 클래스 및 모든 로봇 목록: 플레이어, 하이브리드, NPC.",
-        "nl": "Hoe een robot is gebouwd, de robotklassen en alle robots: speler, hybride en NPC.",
-        "pl": "Budowa robotów, klasy robotów i wszystkie roboty: gracza, hybrydowe oraz NPC.",
-        "pt": "Como um robô é construído, as classes de robôs e todos os robôs: jogador, híbrido e NPC.",
-        "ru": "Конструкция роботов, классы роботов и все роботы: игрока, гибридные и NPC.",
-        "zh-CN": "机器人的构造、机器人级别以及所有机器人：玩家、混合型和NPC。",
-        "zh-TW": "機器人的構造、機器人級別以及所有機器人：玩家、混合型和NPC。"
-    },
-    "Fitting, slots and in-game play are covered in the [Robot](/features/robots/) feature page; this page is the data reference.": {
-        "cs": "Vybavení, sloty a hraní ve hře jsou popsány na stránce funkce [Robot](/{lang}/features/robots/); tato stránka slouží jako datový přehled.",
-        "de": "Fitting, Slots und Gameplay werden auf der Feature-Seite [Roboter](/{lang}/features/robots/) behandelt; diese Seite dient als Datenreferenz.",
-        "es": "El ensamblaje, las ranuras y la mecánica del juego se describen en la página de características de [Robot](/{lang}/features/robots/); esta página es la referencia de datos.",
-        "fr": "L'équipement, les emplacements et le jeu en jeu sont traités sur la page de fonctionnalité [Robot](/{lang}/features/robots/) ; cette page est la référence de données.",
-        "it": "Equipaggiamento, slot e meccaniche di gioco sono trattati nella pagina della funzionalità [Robot](/{lang}/features/robots/); questa pagina è il riferimento dei dati.",
-        "ja": "艤装、スロット、ゲーム内での操作については機能ページ[ロボット](/{lang}/features/robots/)で解説しています。このページはデータ一覧です。",
-        "ko": "피팅, 슬롯 및 게임 내 플레이는 [로봇](/{lang}/features/robots/) 기능 페이지에서 다루며, 이 페이지는 데이터 참조용입니다。",
-        "nl": "Fitting, slots en gameplay worden behandeld op de featurepagina [Robot](/{lang}/features/robots/); deze pagina is de gegevensreferentie.",
-        "pl": "Dopasowanie, sloty i rozgrywka są opisane na stronie funkcji [Robot](/{lang}/features/robots/); ta strona stanowi zestawienie danych.",
-        "pt": "Ajuste, slots e jogabilidade são abordados na página de recursos [Robô](/{lang}/features/robots/); esta página é a referência de dados.",
-        "ru": "Оснащение, слоты и игровой процесс описаны на странице механики [Робот](/{lang}/features/robots/); эта страница представляет собой справочник данных.",
-        "zh-CN": "装配、槽位与游戏内玩法已在 [机器人](/{lang}/features/robots/) 功能页面中介绍；本页面为数据参考。",
-        "zh-TW": "裝配、槽位與遊戲內玩法已在 [機器人](/{lang}/features/robots/) 功能頁面中介紹；本頁面為數據參考。"
-    },
-    "A robot's class comes from its parts. Ratings are 1–5 (more icons = higher).": {
-        "cs": "Třída robota vychází z jeho částí. Hodnocení je 1–5 (více ikon = vyšší).",
-        "de": "Die Klasse eines Roboters ergibt sich aus seinen Teilen. Bewertungen reichen von 1 bis 5 (mehr Symbole = höher).",
-        "es": "La clase de un robot proviene de sus piezas. Las calificaciones son de 1 a 5 (más iconos = mayor).",
-        "fr": "La classe d'un robot provient de ses pièces. Les évaluations vont de 1 à 5 (plus d'icônes = plus élevé).",
-        "it": "La classe di un robot deriva dai suoi componenti. Le valutazioni vanno da 1 a 5 (più icone = più alto).",
-        "ja": "ロボットのクラスはパーツ構成によって決まります。評価は1〜5（アイコンが多いほど高評価）です。",
-        "ko": "로봇의 클래스는 부품에 의해 결정됩니다. 등급은 1~5점입니다(아이콘이 많을수록 높음).",
-        "nl": "De klasse van een robot komt voort uit zijn onderdelen. Beoordelingen zijn 1–5 (meer pictogrammen = hoger).",
-        "pl": "Klasa robota wynika z jego części. Oceny wynoszą 1–5 (więcej ikon = wyższa wartość).",
-        "pt": "A classe de um robô vem de suas peças. As classificações vão de 1 a 5 (mais ícones = maior).",
-        "ru": "Класс робота определяется его деталями. Рейтинг от 1 до 5 (больше значков = выше показатель).",
-        "zh-CN": "机器人的级别由其部件决定。评级为 1–5（图标越多表示数值越高）。",
-        "zh-TW": "機器人的級別由其部件決定。評級為 1–5（圖標越多表示數值越高）。"
-    },
-    "Robots you can acquire and control yourself (80 models), grouped by class.": {
-        "cs": "Roboti, které můžete získat a sami ovládat (80 modelů), seskupení podle třídy.",
-        "de": "Roboter, die Sie selbst erwerben und steuern können (80 Modelle), gruppiert nach Klasse.",
-        "es": "Robots que puedes adquirir y controlar tú mismo (80 modelos), agrupados por clase.",
-        "fr": "Robots que vous pouvez acquérir et piloter vous-même (80 modèles), regroupés par classe.",
-        "it": "Robot che puoi acquisire e controllare personalmente (80 modelli), raggruppati per classe.",
-        "ja": "プレイヤー自身が入手・操縦できるロボット（80モデル）、クラス別に分類。",
-        "ko": "직접 획득하고 조종할 수 있는 로봇(80종 모델), 클래스별 분류.",
-        "nl": "Robots die je zelf kunt verwerven en besturen (80 modellen), gegroepeerd per klasse.",
-        "pl": "Roboty, które możesz zdobyć i kontrolować osobiście (80 modeli), pogrupowane według klas.",
-        "pt": "Robôs que você pode adquirir e controlar pessoalmente (80 modelos), agrupados por classe.",
-        "ru": "Роботы, которых вы можете приобрести и пилотировать самостоятельно (80 моделей), сгруппированные по классам.",
-        "zh-CN": "您可以自行获取并控制的机器人（80 种型号），按级别分组。",
-        "zh-TW": "您可以自行獲取並控制的機器人（80 種型號），按級別分組。"
-    },
-    "Runners": {
-        "cs": "Běžci", "de": "Läufer", "es": "Corredores", "fr": "Coureurs", "it": "Corridori",
-        "ja": "ランナー", "ko": "러너", "nl": "Runners", "pl": "Biegacze", "pt": "Corredores",
-        "ru": "Бегуны", "zh-CN": "跑者", "zh-TW": "跑者"
-    },
-    "Crawlers": {
-        "cs": "Lezci", "de": "Kriecher", "es": "Rastreros", "fr": "Rampants", "it": "Striscianti",
-        "ja": "クローラー", "ko": "크롤러", "nl": "Crawlers", "pl": "Pełzacze", "pt": "Rastejadores",
-        "ru": "Ползуны", "zh-CN": "爬行者", "zh-TW": "爬行者"
-    },
-    "Mechs": {
-        "cs": "Mechové", "de": "Mechs", "es": "Mechs", "fr": "Mechs", "it": "Mech",
-        "ja": "メック", "ko": "메카", "nl": "Mechs", "pl": "Mechy", "pt": "Mechs",
-        "ru": "Мехи", "zh-CN": "机甲", "zh-TW": "機甲"
-    },
-    "Heavy mechs": {
-        "cs": "Těžcí mechové", "de": "Schwere Mechs", "es": "Mechs pesados", "fr": "Mechs lourds", "it": "Mech pesanti",
-        "ja": "ヘビーメック", "ko": "헤비 메카", "nl": "Zware mechs", "pl": "Ciężkie mechy", "pt": "Mechs pesados",
-        "ru": "Тяжёлые мехи", "zh-CN": "重型机甲", "zh-TW": "重型機甲"
-    },
-    "Walkers": {
-        "cs": "Kráčející", "de": "Walker", "es": "Caminantes", "fr": "Marcheurs", "it": "Camminatori",
-        "ja": "ウォーカー", "ko": "워커", "nl": "Walkers", "pl": "Kroczące", "pt": "Andadores",
-        "ru": "Шагоходы", "zh-CN": "步行机", "zh-TW": "步行機"
-    },
-    "Starter & special": {
-        "cs": "Startovní a speciální", "de": "Starter & Spezial", "es": "Iniciales y especiales", "fr": "Initiaux et spéciaux", "it": "Iniziali e speciali",
-        "ja": "スターター＆特殊", "ko": "스타터 및 특수", "nl": "Starter & speciaal", "pl": "Początkowe i specjalne", "pt": "Iniciais e especiais",
-        "ru": "Стартовые и специальные", "zh-CN": "初始与特殊", "zh-TW": "初始與特殊"
-    },
-    "Named fits": {
-        "cs": "Pojmenované konfigurace", "de": "Benannte Fits", "es": "Equipamientos específicos", "fr": "Configurations nommées", "it": "Configurazioni nominate",
-        "ja": "特製フィット", "ko": "네임드 핏", "nl": "Benoemde fits", "pl": "Dedykowane konfiguracje", "pt": "Ajustes nomeados",
-        "ru": "Именные сборки", "zh-CN": "特定配置", "zh-TW": "特定配置"
-    },
-    "Hybrid builds": {
-        "cs": "Hybridní stavby", "de": "Hybrid-Builds", "es": "Construcciones híbridas", "fr": "Châssis hybrides", "it": "Configurazioni ibride",
-        "ja": "ハイブリッド機体", "ko": "하이브리드 빌드", "nl": "Hybride builds", "pl": "Zestawy hybrydowe", "pt": "Montagens híbridas",
-        "ru": "Гибридные сборки", "zh-CN": "混合型配装", "zh-TW": "混合型配裝"
-    },
-    "NPC units": {
-        "cs": "Jednotky NPC", "de": "NPC-Einheiten", "es": "Unidades PNJ", "fr": "Unités PNJ", "it": "Unità PNG",
-        "ja": "NPCユニット", "ko": "NPC 유닛", "nl": "NPC-eenheden", "pl": "Jednostki NPC", "pt": "Unidades NPC",
-        "ru": "Боевые единицы NPC", "zh-CN": "NPC 单位", "zh-TW": "NPC 單位"
-    },
-    "The fast, light class — the cheapest robots to build and pilot.": {
-        "cs": "Rychlá, lehká třída — nejlevnější roboti na výrobu a pilotáž.",
-        "de": "Die schnelle, leichte Klasse – die am günstigsten zu bauenden und zu fliegenden Roboter.",
-        "es": "La clase rápida y ligera: los robots más baratos de construir y pilotar.",
-        "fr": "La classe rapide et légère — les robots les moins chers à construire et à piloter.",
-        "it": "La classe rapida e leggera: i robot più economici da costruire e pilotare.",
-        "ja": "高速かつ軽量なクラス。最も安価に製造・操縦できます。",
-        "ko": "빠르고 가벼운 클래스 — 제작과 조종 비용이 가장 저렴합니다.",
-        "nl": "De snelle, lichte klasse — de goedkoopste robots om te bouwen en te besturen.",
-        "pl": "Szybka, lekka klasa — najtańsze roboty w budowie i pilotowaniu.",
-        "pt": "A classe rápida e leve — os robôs mais baratos de construir e pilotar.",
-        "ru": "Быстрый и лёгкий класс — самые дешёвые в постройке и пилотировании роботы.",
-        "zh-CN": "轻快型级别 — 制造和驾驶成本最低的机器人。",
-        "zh-TW": "輕快型級別 — 製造和駕駛成本最低的機器人。"
-    },
-    "The mid-size workhorse class.": {
-        "cs": "Středně velká pracovní třída.", "de": "Die mittelgroße Arbeitstier-Klasse.",
-        "es": "La clase de trabajo de tamaño mediano.", "fr": "La classe polyvalente de taille moyenne.",
-        "it": "La classe instancabile di taglia media.", "ja": "中型の主力実用クラス。",
-        "ko": "중형 실용 중심 클래스.", "nl": "De middelgrote werkpaardklasse.",
-        "pl": "Średniej wielkości klasa robocza.", "pt": "A classe trabalhadora de tamanho médio.",
-        "ru": "Средний класс рабочих лошадок.", "zh-CN": "中型主力多用途级别。", "zh-TW": "中型主力多用途級別。"
-    },
-    "The main combat class.": {
-        "cs": "Hlavní bojová třída.", "de": "Die Hauptkampfklasse.",
-        "es": "La clase de combate principal.", "fr": "La classe de combat principale.",
-        "it": "La classe principale da combattimento.", "ja": "主力戦闘クラス。",
-        "ko": "주력 전투 클래스.", "nl": "De belangrijkste gevechtsklasse.",
-        "pl": "Główna klasa bojowa.", "pt": "A principal classe de combate.",
-        "ru": "Основной боевой класс.", "zh-CN": "主要战斗级别。", "zh-TW": "主要戰鬥級別。"
-    },
-    "The top-tier combat class.": {
-        "cs": "Špičková bojová třída.", "de": "Die Spitzen-Kampfklasse.",
-        "es": "La clase de combate de primer nivel.", "fr": "La classe de combat de premier ordre.",
-        "it": "La classe da combattimento di alto级别.", "ja": "最高峰の戦闘クラス。",
-        "ko": "최고 등급 전투 클래스.", "nl": "De topklasse gevechtsklasse.",
-        "pl": "Najwyższa klasa bojowa.", "pt": "A classe de combate de alto nível.",
-        "ru": "Боевой класс высшего уровня.", "zh-CN": "顶级战斗级别。", "zh-TW": "頂級戰鬥級別。"
-    },
-    "A rare heavy platform class.": {
-        "cs": "Vzácná těžká platformová třída.", "de": "Eine seltene schwere Plattformklasse.",
-        "es": "Una rara clase de plataforma pesada.", "fr": "Une rare classe de plateforme lourde.",
-        "it": "Una rara classe di piattaforma pesante.", "ja": "希少な重装プラットフォームクラス。",
-        "ko": "희귀한 중형 플랫폼 클래스.", "nl": "Een zeldzame zware platformklasse.",
-        "pl": "Rzadka klasa ciężkich platform.", "pt": "Uma classe rara de plataforma pesada.",
-        "ru": "Редкий класс тяжёлых платформ.", "zh-CN": "罕见的重型平台级别。", "zh-TW": "罕見的重型平台級別。"
-    },
-    "The starter bot, the flagship and limited/event models.": {
-        "cs": "Startovní robot, vlajková loď a limitované/událostní modely.",
-        "de": "Der Starter-Bot, das Flaggschiff und limitierte/Event-Modelle.",
-        "es": "El robot inicial, el buque insignia y los modelos limitados o de evento.",
-        "fr": "Le robot de départ, le vaisseau amiral et les modèles limités ou d'événement.",
-        "it": "Il bot iniziale, l'ammiraglia e i modelli limitati o di eventi.",
-        "ja": "初期ボット、旗艦、および限定/イベントモデル。",
-        "ko": "스타터 봇, 기함 및 한정/이벤트 모델.",
-        "nl": "De starterbot, het vlaggenschip en gelimiteerde/evenementmodellen.",
-        "pl": "Początkowy robot, okręt flagowy oraz modele limitowane i eventowe.",
-        "pt": "O robô inicial, a nau-capitânia e os modelos limitados/de eventos.",
-        "ru": "Стартовый бот, флагман и ограниченные/событийные модели.",
-        "zh-CN": "初始机器人、旗舰以及限定/活动型号。",
-        "zh-TW": "初始機器人、旗艦以及限定/活動型號。"
-    },
-    "Complete cult-designed loadouts unlocked through research — a finished fit rather than a standalone chassis (size comes from the parts it is built from).": {
-        "cs": "Kompletní konfigurace navržené kulty odemčené výzkumem — hotová výbava spíše než samostatný podvozek (velikost vychází z použitých dílů).",
-        "de": "Komplette, von Kulten entworfene Ausrüstungen, die durch Forschung freigeschaltet werden – ein fertiger Fit statt eines einzelnen Chassis (die Größe ergibt sich aus den verwendeten Teilen).",
-        "es": "Equipamientos completos diseñados por cultos y desbloqueados mediante investigación: una configuración lista en lugar de un chasis independiente (el tamaño proviene de las piezas utilizadas).",
-        "fr": "Équipements complets conçus par les cultes débloqués par la recherche — une configuration prête à l'emploi plutôt qu'un châssis autonome (la taille dépend des pièces choisies).",
-        "it": "Dotazioni complete progettate dai culti sbloccate tramite ricerca: una configurazione pronta anziché un telaio autonomo (le dimensioni dipendono dalle parti con cui è costruita).",
-        "ja": "研究によって解放されるカルト設計の完全装備 — 単体のシャーシではなく完成された艤装（サイズは構成パーツによって決まります）。",
-        "ko": "연구를 통해 해금되는 컬트 설계의 완성형 구성 — 독립 섀시가 아닌 사전 완성형 핏(크기는 조립 부품에 따름).",
-        "nl": "Complete door sekten ontworpen uitrustingen ontgrendeld via onderzoek — een kant-en-klare fit in plaats van een los chassis (grootte komt voort uit de gebruikte onderdelen).",
-        "pl": "Kompletne zestawy zaprojektowane przez kulty odblokowywane badaniami — gotowa konfiguracja zamiast samodzielnego kadłuba (rozmiar wynika z zamontowanych części).",
-        "pt": "Equipamentos completos projetados por seitas desbloqueados por pesquisa — um ajuste pronto em vez de um chassi avulso (o tamanho vem das peças que o compõem).",
-        "ru": "Полные сборки культов, открываемые через исследования — готовая сборка, а не отдельное шасси (размер определяется используемыми деталями).",
-        "zh-CN": "通过研究解锁的邪教设计完整装备 — 预设好的成品配置而非单独底盘（尺寸由构成部件决定）。",
-        "zh-TW": "透過研究解鎖的邪教設計完整裝備 — 預設好的成品配置而非單獨底盤（尺寸由構成部件決定）。"
-    },
-    "*Strengths:* a ready-made combat build with its role in the name (main combat / main support).": {
-        "cs": "*Přednosti:* hotová bojová sestava s rolí přímo v názvu (hlavní boj / hlavní podpora).",
-        "de": "*Stärken:* ein vorgefertigter Kampf-Build mit seiner Rolle direkt im Namen (Hauptkampf / Hauptunterstützung).",
-        "es": "*Puntos fuertes:* una configuración de combate prediseñada con su función en el nombre (combate principal / apoyo principal).",
-        "fr": "*Points forts :* une configuration de combat prête à l'emploi avec son rôle dans le nom (combat principal / soutien principal).",
-        "it": "*Punti di forza:* una configurazione da combattimento pronta all'uso con il suo ruolo nel nome (combattimento principale / supporto principale).",
-        "ja": "*長所：* 名前に役割（主力戦闘 / 主力支援）が明記された完成済みの戦闘ビルド。",
-        "ko": "*장점:* 이름에 역할(주력 전투 / 주력 지원)이 명시된 완성형 전투 빌드.",
-        "nl": "*Sterke punten:* een kant-en-klare gevechtsbuild met zijn rol direct in de naam (hoofdgevecht / hoofdondersteuning).",
-        "pl": "*Mocne strony:* gotowa konfiguracja bojowa z rolą określoną w nazwie (walka główna / wsparcie główne).",
-        "pt": "*Pontos fortes:* uma montagem de combate pronta com sua função no nome (combate principal / suporte principal).",
-        "ru": "*Преимущества:* готовая боевая сборка с указанием роли в названии (основной бой / основная поддержка).",
-        "zh-CN": "*优势：* 预设好的现成战斗配置，其定位直接体现在名称中（主力战斗 / 主力支援）。",
-        "zh-TW": "*優勢：* 預設好的現成戰鬥配置，其定位直接體現在名稱中（主力戰鬥 / 主力支援）。"
-    },
-    "*Weaknesses:* fixed by the design — you take the fit as it comes.": {
-        "cs": "*Slabiny:* dané konstrukcí — konfiguraci musíte přijmout takovou, jaká je.",
-        "de": "*Schwächen:* durch das Design festgelegt – Sie müssen die Ausrüstung so übernehmen, wie sie ist.",
-        "es": "*Debilidades:* fijadas por el diseño: debes aceptar el equipamiento tal como viene.",
-        "fr": "*Points faibles :* fixes de par leur conception — vous devez utiliser la configuration telle qu'elle est.",
-        "it": "*Punti deboli:* vincolati dal design: la configurazione va utilizzata così com'è.",
-        "ja": "*短所：* 設計が固定されており、変更できずそのまま使用する必要があります。",
-        "ko": "*단점:* 설계 고정 — 사전 정의된 구성 그대로 사용해야 합니다.",
-        "nl": "*Zwakke punten:* vastgelegd door het ontwerp — je neemt de fit zoals hij is.",
-        "pl": "*Słabe strony:* ustalone konstrukcyjnie — konfiguracja musi być używana bez zmian.",
-        "pt": "*Pontos fracos:* fixados pelo projeto — você precisa usar a montagem exatamente como vem.",
-        "ru": "*Недостатки:* фиксированная конструкция — сборка используется строго в исходном виде.",
-        "zh-CN": "*劣势：* 设计固定 — 必须按原样接受其配置。",
-        "zh-TW": "*劣勢：* 設計固定 — 必須按原樣接受其配置。"
-    },
-    "Mixed-class builds assembled from parts of different robot classes rather than one pure class. They are built from parts, not sold as a finished robot; the finished size comes from the parts chosen.": {
-        "cs": "Smíšené sestavy složené z dílů různých tříd robotů namísto jedné čisté třídy. Staví se z dílů, neprodávají se jako hotoví roboti; konečná velikost vychází ze zvolených dílů.",
-        "de": "Gemischte Klassen-Builds, die aus Teilen verschiedener Roboterklassen zusammengesetzt sind, anstatt aus einer reinen Klasse. Sie werden aus Teilen gebaut und nicht als fertiger Roboter verkauft; die endgültige Größe ergibt sich aus den gewählten Teilen.",
-        "es": "Construcciones de clases mixtas ensambladas a partir de piezas de diferentes clases de robots en lugar de una clase pura. Se construyen a partir de piezas, no se venden como un robot terminado; el tamaño final proviene de las piezas elegidas.",
-        "fr": "Châssis mixtes assemblés à partir de pièces de différentes classes de robots plutôt que d'une seule classe pure. Ils sont construits à partir de pièces et ne sont pas vendus comme robots finis ; la taille finale dépend des pièces choisies.",
-        "it": "Configurazioni a classi miste assemblate con componenti di diverse classi di robot anziché di una sola pura. Vengono costruite a partire dai pezzi e non vendute come robot completi; le dimensioni finali dipendono dalle parti scelte.",
-        "ja": "単一の純粋なクラスではなく、異なるロボットクラスのパーツを組み合わせて作られた混合クラスの機体。完成品としては販売されずパーツから組み立てられ、サイズは選択したパーツによって決まります。",
-        "ko": "단일 순수 클래스가 아닌 여러 로봇 클래스의 부품을 조합하여 조립한 복합 클래스 빌드입니다. 완성형 로봇으로 판매되지 않고 부품으로 조립하며, 완성 크기는 선택한 부품에 따릅니다.",
-        "nl": "Gemengde klasse-builds samengesteld uit onderdelen van verschillende robotklassen in plaats van één pure klasse. Ze worden gebouwd uit onderdelen, niet verkocht als een voltooide robot; de uiteindelijke grootte hangt af van de gekozen onderdelen.",
-        "pl": "Zestawy mieszane składane z części różnych klas robotów zamiast jednej czystej klasy. Są budowane z części i niesprzedawane jako gotowy robot; ostateczny rozmiar wynika z wybranych elementów.",
-        "pt": "Montagens de classes mistas montadas a partir de peças de diferentes classes de robôs em vez de uma classe pura. Elas são construídas a partir de peças, não vendidas como um robô pronto; o tamanho final vem das peças escolhidas.",
-        "ru": "Сборки смешанных классов, собранные из компонентов разных классов роботов, а не одного чистого класса. Они собираются из деталей, а не продаются готовыми; итоговый размер определяется выбранными компонентами.",
-        "zh-CN": "由不同机器人级别的部件组合而成的混合级别机型，而非单一纯级别。它们由零部件组装而成，不作为成品机器人销售；最终尺寸由所选部件决定。",
-        "zh-TW": "由不同機器人級別的部件組合而成的混合級別機型，而非單一純級別。它們由零部件組裝而成，不作為成品機器人銷售；最終尺寸由所選部件決定。"
-    },
-    "*Strengths:* mix the advantages of several classes in one build.": {
-        "cs": "*Přednosti:* kombinace výhod několika tříd v jedné sestavě.",
-        "de": "*Stärken:* vereinen die Vorteile mehrerer Klassen in einem Build.",
-        "es": "*Puntos fuertes:* combina las ventajas de varias clases en una sola configuración.",
-        "fr": "*Points forts :* combinent les avantages de plusieurs classes en un seul châssis.",
-        "it": "*Punti di forza:* combinano i vantaggi di più classi in una sola configurazione.",
-        "ja": "*長所：* 複数のクラスの長所を1つのビルドに融合。",
-        "ko": "*장점:* 여러 클래스의 장점을 하나의 빌드에 조합.",
-        "nl": "*Sterke punten:* combineer de voordelen van verschillende klassen in één build.",
-        "pl": "*Mocne strony:* łączenie zalet kilku klas w jednej konstrukcji.",
-        "pt": "*Pontos fortes:* combina as vantagens de várias classes em uma única montagem.",
-        "ru": "*Преимущества:* сочетание достоинств нескольких классов в одной сборке.",
-        "zh-CN": "*优势：* 在单次配装中融合多个级别的优势。",
-        "zh-TW": "*優勢：* 在單次配裝中融合多個級別的優勢。"
-    },
-    "*Weaknesses:* you must assemble the parts yourself — no single finished product to buy.": {
-        "cs": "*Slabiny:* díly musíte sestavit sami — nelze koupit jako jeden hotový výrobek.",
-        "de": "*Schwächen:* Sie müssen die Teile selbst zusammenbauen – kein einzelnes fertiges Produkt zum Kauf.",
-        "es": "*Debilidades:* debes ensamblar las piezas tú mismo: no hay un producto terminado único para comprar.",
-        "fr": "*Points faibles :* vous devez assembler les pièces vous-même — aucun produit fini unique à acheter.",
-        "it": "*Punti deboli:* devi assemblare i componenti da solo: nessun prodotto finito acquistabile direttamente.",
-        "ja": "*短所：* パーツを自身で組み立てる必要があり、単一の完成品を購入することはできません。",
-        "ko": "*단점:* 부품을 직접 조립해야 함 — 단일 완제품으로 구매 불가.",
-        "nl": "*Zwakke punten:* je moet de onderdelen zelf in elkaar zetten — geen enkel afgewerkt product te koop.",
-        "pl": "*Słabe strony:* części musisz złożyć samodzielnie — brak gotowego pojedynczego produktu do kupienia.",
-        "pt": "*Pontos fracos:* você mesmo deve montar as peças — nenhum produto acabado avulso para compra.",
-        "ru": "*Недостатки:* компоненты необходимо собирать самостоятельно — готовое изделие купить нельзя.",
-        "zh-CN": "*劣势：* 必须自行组装部件 — 没有可直接购买的单一成品。",
-        "zh-TW": "*劣勢：* 必須自行組裝部件 — 沒有可直接購買的單一成品。"
-    },
-    "Combat units fielded by the NPC factions (not acquirable by players).": {
-        "cs": "Bojové jednotky nasazené frakcemi NPC (hráči je nemohou získat).",
-        "de": "Kampfeinheiten der NPC-Fraktionen (nicht von Spielern erwerbbar).",
-        "es": "Unidades de combate desplegadas por las facciones PNJ (no adquiribles por los jugadores).",
-        "fr": "Unités de combat déployées par les factions PNJ (non acquérables par les joueurs).",
-        "it": "Unità da combattimento schierate dalle fazioni PNG (non acquisibili dai giocatori).",
-        "ja": "NPC勢力が展開する戦闘ユニット（プレイヤーは入手不可）。",
-        "ko": "NPC 세력이 배치한 전투 유닛(플레이어 획득 불가).",
-        "nl": "Gevechtseenheden ingezet door de NPC-facties (niet verkrijgbaar door spelers).",
-        "pl": "Jednostki bojowe wystawiane przez frakcje NPC (niedostępne dla graczy).",
-        "pt": "Unidades de combate empregadas pelas facções NPC (não adquiríveis por jogadores).",
-        "ru": "Боевые единицы фракций NPC (недоступны для игроков).",
-        "zh-CN": "NPC 势力部署的战斗单位（玩家不可获取）。",
-        "zh-TW": "NPC 勢力部署的戰鬥單位（玩家不可獲取）。"
-    },
-    "Stats vary by parts": {
-        "cs": "Statistiky se liší podle dílů", "de": "Werte variieren je nach Teilen", "es": "Las estadísticas varían según las piezas", "fr": "Les statistiques varient selon les pièces", "it": "Le statistiche variano in base ai componenti",
-        "ja": "パーツにより性能が変化", "ko": "부품에 따라 능력치 변동", "nl": "Statistieken variëren per onderdeel", "pl": "Statystyki zależą od części", "pt": "Os atributos variam conforme as peças",
-        "ru": "Параметры зависят от деталей", "zh-CN": "属性因部件而异", "zh-TW": "屬性因部件而異"
-    },
-    "NPC unit — not player-acquirable": {
-        "cs": "Jednotka NPC — hráč ji nemůže získat", "de": "NPC-Einheit – nicht von Spielern erwerbbar", "es": "Unidad PNJ: no adquirible por jugadores", "fr": "Unité PNJ — non acquérable par les joueurs", "it": "Unità PNG — non acquisibile dai giocatori",
-        "ja": "NPCユニット — プレイヤー入手不可", "ko": "NPC 유닛 — 플레이어 획득 불가", "nl": "NPC-eenheid — niet verkrijgbaar door spelers", "pl": "Jednostka NPC — niedostępna dla graczy", "pt": "Unidade NPC — não adquirível por jogadores",
-        "ru": "Единица NPC — недоступна для игроков", "zh-CN": "NPC 单位 — 玩家不可获取", "zh-TW": "NPC 單位 — 玩家不可獲取"
-    },
-    "Robot": {
-        "cs": "Robot", "de": "Roboter", "es": "Robot", "fr": "Robot", "it": "Robot",
-        "ja": "ロボット", "ko": "로봇", "nl": "Robot", "pl": "Robot", "pt": "Robô",
-        "ru": "Робот", "zh-CN": "机器人", "zh-TW": "機器人"
-    },
-}
-
-UI_STRINGS = {}
-translations_dir = Path("translations")
-if translations_dir.exists():
-    import json
-    for tf in translations_dir.glob("*.json"):
-        try:
-            with open(tf, "r", encoding="utf-8") as fh:
-                d = json.load(fh)
-                if "lang" in d and "ui" in d:
-                    UI_STRINGS[d["lang"]] = d["ui"]
-        except Exception:
-            pass
-
-
-def get_ui(lang, key, default=None):
-    return UI_STRINGS.get(lang, {}).get(key, default or key)
-
-
-TRANSLATED_CONTENT_SECTIONS = [
-    "ores", "plants", "missions", "deployables", "robots",
-    "recipes", "techtree", "extensions", "stat-reference", "shop"
-]
-
-
-def tr(key, lang, default=None):
-    if key in I18N and lang in I18N[key]:
-        return I18N[key][lang]
-    return default if default is not None else key
-
-
-def rewrite_links(text, lang):
-    """Rewrite absolute links to include the language prefix for translated sections."""
-    # Pattern for markdown links: [text](/path/)
-    # and HTML links: href="/path/"
-
-    def repl_href(m):
-        prefix = m.group(1)  # 'href="' or ']('
-        path = m.group(2)
-        suffix = m.group(3)  # '"' or ')'
-
-        # Exclude anchor-only or full URLs
-        if path.startswith("http://") or path.startswith("https://") or path.startswith("#"):
-            return m.group(0)
-
-        # Localized zones routes
-        if path in ("/zones/", "/zones/protection/", "/zones/protection"):
-            return f"{prefix}/{lang}{path}{suffix}"
-
-        # Exclude unlocalized global paths
-        if path.startswith("/content/items/") or path.startswith("/zones/"):
-            return m.group(0)
-
-        # Features, formats, menu routes
-        for sec in ("features", "formats", "menu"):
-            if path == f"/{sec}/" or path.startswith(f"/{sec}/"):
-                return f"{prefix}/{lang}{path}{suffix}"
-
-        # Root content index
-        if path == "/content/":
-            return f"{prefix}/{lang}/content/{suffix}"
-
-        # Subsections in content
-        for sec in TRANSLATED_CONTENT_SECTIONS:
-            if path == f"/content/{sec}/" or path.startswith(f"/content/{sec}/"):
-                return f"{prefix}/{lang}{path}{suffix}"
-
-        # Root or other pages
-        if path == "/":
-            return f"{prefix}/{lang}/{suffix}"
-
-        return m.group(0)
-
-    # Replace href="..."
-    text = re.sub(r'(href=["\'])(/[^"\']*)(["\'])', repl_href, text)
-    # Replace markdown links: ](/path/)
-    text = re.sub(r'(\]\()(/[^)\s]+)(\))', repl_href, text)
-    return text
-
-
-def translate_frontmatter(text, lang, title_prefix=None):
-    """Translate YAML frontmatter title and description."""
-    lines = text.splitlines()
-    if not lines or lines[0].strip() != "---":
-        return text
-
-    new_lines = []
-    in_fm = False
-    for i, line in enumerate(lines):
-        if line.strip() == "---":
-            if not in_fm and i == 0:
-                in_fm = True
-                new_lines.append(line)
-                continue
-            elif in_fm:
-                in_fm = False
-                new_lines.append(line)
-                continue
-
-        if in_fm:
-            # We preserve frontmatter or adjust specific known fields
-            new_lines.append(line)
-        else:
-            new_lines.append(line)
-    return "\n".join(new_lines)
 
 
 def process_robot_file(content, lang):
@@ -844,82 +39,161 @@ def process_robot_file(content, lang):
     c = rewrite_links(content, lang)
 
     # Translate card stats
-    for stat in ["Combat", "Speed", "Armor", "Storage", "Cost"]:
-        stat_tr = tr(stat, lang)
-        c = re.sub(rf'<span>{stat}</span>', f'<span>{stat_tr}</span>', c)
+    for stat in ["combat", "speed", "armor", "storage", "cost"]:
+        stat_tr = t(lang, "labels", stat)
+        c = re.sub(rf'<span>{stat.capitalize()}</span>', f'<span>{stat_tr}</span>', c)
 
     # Translate properties table
-    for prop in ["Class", "Size", "Mass", "Health", "Purchasable"]:
-        prop_tr = tr(prop, lang)
-        c = re.sub(rf'<td>{prop}</td>', f'<td>{prop_tr}</td>', c)
+    for prop in ["class", "size", "mass", "health", "purchasable"]:
+        prop_tr = t(lang, "labels", prop)
+        c = re.sub(rf'<td>{prop.capitalize()}</td>', f'<td>{prop_tr}</td>', c)
 
-    yes_tr = tr("Yes", lang)
-    no_tr = tr("No", lang)
+    yes_tr = t(lang, "labels", "yes")
+    no_tr = t(lang, "labels", "no")
     c = re.sub(r'<td>Yes</td>', f'<td>{yes_tr}</td>', c)
     c = re.sub(r'<td>No</td>', f'<td>{no_tr}</td>', c)
 
     # Translate section headers & production
-    c = c.replace("## Variants", f"## {tr('Variants', lang)}")
-    c = c.replace("| Variant | Link |", f"| {tr('Variant', lang)} | {tr('Link', lang)} |")
-    c = c.replace("## Production", f"## {tr('Production', lang)}")
-    c = c.replace("Components required to build this robot:", tr("Components required to build this robot:", lang))
-    c = c.replace("| Component | Amount |", f"| {tr('Component', lang)} | {tr('Amount', lang)} |")
+    c = c.replace("## Variants", f"## {t(lang, 'robots', 'variants')}")
+    c = c.replace("| Variant | Link |", f"| {t(lang, 'robots', 'variant')} | {t(lang, 'robots', 'link')} |")
+    c = c.replace("## Production", f"## {t(lang, 'robots', 'production')}")
+    c = c.replace("Components required to build this robot:", t(lang, "robots", "components_required"))
+    c = c.replace("| Component | Amount |", f"| {t(lang, 'robots', 'component')} | {t(lang, 'labels', 'amount')} |")
 
-    c = c.replace("## NPC Vendor", f"## {tr('NPC Vendor', lang)}")
-    c = c.replace("Available from the NPC vendor:", tr("Available from the NPC vendor:", lang))
-    c = c.replace("**Price:**", f"**{tr('Price:', lang)}**")
+    c = c.replace("## NPC Vendor", f"## {t(lang, 'robots', 'npc_vendor')}")
+    c = c.replace("Available from the NPC vendor:", t(lang, "robots", "available_from_npc"))
+    c = c.replace("**Price:**", f"**{t(lang, 'robots', 'price')}**")
 
     # Frontmatter description: "{Name} — robot stats, production and availability."
     m = re.search(r'title:\s*"([^"]+)"', c)
     if m:
         bot_name = m.group(1)
-        desc_tr = tr("{Robot} — robot stats, production and availability.", lang).replace("{Robot}", bot_name).replace("{name}", bot_name)
+        desc_tr = t(lang, "robots", "frontmatter_desc").replace("{Robot}", bot_name).replace("{name}", bot_name)
         c = re.sub(r'description:\s*"[^"]*"', f'description: "{desc_tr}"', c)
 
     return c
+
+
+# Full intro paragraph of an individual ore page (matched before the generic
+# extraction-type replacements, which only handle the table cell).
+ORE_INTRO_RE = re.compile(
+    r'\*\*([^*]+)\*\* is a (liquid \(pumped continuously\)|solid \(drilled tile by tile\)) ore\. '
+    r'Each extraction yields \*\*([^*]+)\*\* units, and the zone holds it in finite '
+    r'\*\*deposits \(nodes\)\*\* — when a node is mined below its threshold it is removed '
+    r'and the zone regenerates nodes up to its configured maximum\. '
+    r'How the node-generation columns below are used by the server is in \[Ore fields\]\(([^)]+)\)\.'
+)
 
 
 def process_ore_file(content, lang):
     """Translate an individual ore page."""
     c = rewrite_links(content, lang)
 
-    c = c.replace("## Extraction", f"## {tr('Extraction', lang)}")
-    c = c.replace("| Property | Value |", f"| {tr('Property', lang)} | {tr('Value', lang)} |")
-    c = c.replace("| Amount / extraction |", f"| {tr('Amount / extraction', lang)} |")
-    c = c.replace("| Extraction type |", f"| {tr('Extraction type', lang)} |")
-    c = c.replace("| Enabler effect |", f"| {tr('Enabler effect', lang)} |")
-    c = c.replace("| Geo-scan document |", f"| {tr('Geo-scan document', lang)} |")
+    # Frontmatter description: "{Name}: extraction yield, the zones it spawns in, and what is made from it."
+    m = re.search(r'title:\s*"([^"]+)"', c)
+    if m:
+        ore_name = m.group(1)
+        fm = t(lang, "ores", "frontmatter_desc").replace("{name}", ore_name)
+        c = re.sub(r'description:\s*"[^"]*"', f'description: "{fm}"', c)
 
-    c = c.replace("liquid (pumped continuously)", tr("liquid (pumped continuously)", lang))
-    c = c.replace("solid (tile-by-tile drill)", tr("solid (tile-by-tile drill)", lang))
-    c = c.replace("not required", tr("not required", lang))
-    c = c.replace("| required |", f"| {tr('required', lang)} |")
+    # Intro paragraph (template with name/type/amount; the Ore-fields link is rebuilt
+    # with its already-rewritten href)
+    def _repl_intro(m):
+        name, etype, amount, href = m.groups()
+        type_tr = t(lang, "ores", "liquid") if etype.startswith("liquid") else t(lang, "ores", "solid")
+        out = (t(lang, "ores", "intro")
+               .replace("{name}", name)
+               .replace("{type}", type_tr)
+               .replace("{amount}", amount))
+        out = out.replace("[Ore fields](/formats/ore-fields/)",
+                          f"[{t(lang, 'ores', 'ore_fields_link')}]({href})")
+        return out
 
-    c = c.replace("## Where it spawns", f"## {tr('Where it spawns', lang)}")
+    c = ORE_INTRO_RE.sub(_repl_intro, c)
+
+    c = c.replace("## Extraction", f"## {t(lang, 'ores', 'extraction')}")
+    c = c.replace("| Property | Value |", f"| {t(lang, 'labels', 'property')} | {t(lang, 'labels', 'value')} |")
+    c = c.replace("| Amount / extraction |", f"| {t(lang, 'ores', 'amount_extraction')} |")
+    c = c.replace("| Extraction type |", f"| {t(lang, 'ores', 'extraction_type')} |")
+    c = c.replace("| Enabler effect |", f"| {t(lang, 'ores', 'enabler_effect')} |")
+    c = c.replace("| Geo-scan document |", f"| {t(lang, 'ores', 'geo_scan_document')} |")
+
+    c = c.replace("liquid (pumped continuously)", t(lang, "ores", "liquid"))
+    c = c.replace("solid (drilled tile by tile)", t(lang, "ores", "solid"))
+    c = c.replace("not required", t(lang, "ores", "not_required"))
+    c = c.replace("| required |", f"| {t(lang, 'ores', 'required')} |")
+
+    c = c.replace("## Where it spawns", f"## {t(lang, 'ores', 'where_it_spawns')}")
+    c = c.replace(
+        "Zones that regenerate this ore, with their node configuration. Zones without an entry do not hold this ore.",
+        t(lang, "ores", "spawns_intro")
+    )
+    c = c.replace(
+        "This ore has no zone node configuration — it is not regenerated in any zone (it exists as a material for production and missions).",
+        t(lang, "ores", "no_spawn")
+    )
     c = c.replace(
         "| Zone | Max nodes | Max tiles / node | Total amount / node | Min threshold |",
-        f"| {tr('Zone', lang, 'Zone')} | {tr('Max nodes', lang, 'Max nodes')} | {tr('Max tiles / node', lang, 'Max tiles / node')} | {tr('Total amount / node', lang, 'Total amount / node')} | {tr('Min threshold', lang, 'Min threshold')} |"
+        f"| {t(lang, 'ores', 'col_zone')} | {t(lang, 'ores', 'col_max_nodes')} | "
+        f"{t(lang, 'ores', 'col_max_tiles_per_node')} | {t(lang, 'ores', 'col_total_per_node')} | "
+        f"{t(lang, 'ores', 'col_min_threshold')} |"
     )
 
-    c = c.replace("## Made from it", f"## {tr('Made from it', lang)}")
-    c = c.replace("| Item | Amount |", f"| {tr('Item', lang)} | {tr('Amount', lang)} |")
+    c = c.replace("## Made from it", f"## {t(lang, 'ores', 'made_from_it')}")
+    c = c.replace(
+        "Items that take this ore as a recipe component (amount per single production). Full component lists are on each item's page.",
+        t(lang, "ores", "made_from_p")
+    )
+
+    def _repl_made_header(m):
+        ore = m.group(1)
+        return (f"| {t(lang, 'shop', 'item')} | "
+                f"{t(lang, 'ores', 'amount_of').replace('{name}', ore)} | "
+                f"{t(lang, 'missions', 'research_level')} |")
+
+    c = re.sub(r'\| Item \| Amount of ([^|]+) \| Research level \|', _repl_made_header, c)
+    c = c.replace("| Item | Amount |", f"| {t(lang, 'shop', 'item')} | {t(lang, 'labels', 'amount')} |")
 
     return c
+
+
+DEPLOYABLE_CATS = {
+    "Power base stations": "cat_pbs",
+    "Mines & bombs": "cat_mines",
+    "Mobile fields": "cat_mobile_fields",
+    "Mobile teleports": "cat_mobile_tps",
+    "Arena teleports": "cat_arena_tps",
+    "Miscellaneous": "cat_misc",
+    "Plant seeds": "cat_seeds",
+    "NPC eggs": "cat_eggs",
+    "Gates": "cat_gates",
+    "Containers": "cat_containers",
+    "Wall repairers": "cat_wall",
+}
 
 
 def process_deployable_file(content, lang):
     """Translate an individual deployable page."""
     c = rewrite_links(content, lang)
 
-    for field in ["Definition", "Category", "Tier", "Health", "Volume", "Mass"]:
-        f_tr = tr(field, lang)
-        c = re.sub(rf'\|\s*{field}\s*\|', f'| {f_tr} |', c)
+    # Frontmatter description: "{Category}: {Name}"
+    m = re.search(r'description:\s*"([^":]+): ([^"]+)"', c)
+    if m:
+        cat, name = m.group(1), m.group(2)
+        key = DEPLOYABLE_CATS.get(cat)
+        cat_tr = t(lang, "deployables", key) if key else cat
+        desc_tr = t(lang, "deployables", "desc").replace("{category}", cat_tr).replace("{name}", name)
+        c = re.sub(r'description:\s*"[^"]*"', f'description: "{desc_tr}"', c)
 
-    c = c.replace("## Stats", f"## {tr('Stats', lang)}")
-    c = c.replace("| Field | Value |", f"| {tr('Field', lang)} | {tr('Value', lang)} |")
+    for field in ["definition", "category", "tier", "health", "volume", "mass"]:
+        f_tr = t(lang, "labels", field)
+        c = re.sub(rf'\|\s*{field.capitalize()}\s*\|', f'| {f_tr} |', c)
 
-    all_dep = tr("All deployables", lang, "All deployables")
-    dep_f = tr("Deployable fields", lang, "Deployable fields")
+    c = c.replace("## Stats", f"## {t(lang, 'labels', 'stats')}")
+    c = c.replace("| Field | Value |", f"| {t(lang, 'labels', 'field')} | {t(lang, 'labels', 'value')} |")
+
+    all_dep = t(lang, "labels", "all_deployables")
+    dep_f = t(lang, "labels", "deployable_fields")
     c = re.sub(r'\[All deployables\]\([^)]+\)', f'[{all_dep}](/{lang}/content/deployables/)', c)
     c = re.sub(r'\[Deployable fields\]\([^)]+\)', f'[{dep_f}](/{lang}/formats/deployable-fields/)', c)
 
@@ -930,34 +204,109 @@ def process_shop_file(content, lang):
     """Translate an individual shop category page."""
     c = rewrite_links(content, lang)
 
-    # Table header
+    # Frontmatter title/description (the category is the H1 text; category names are
+    # in-game vendor taxonomy and stay in English)
+    m = re.search(r'^#\s*(.+)$', c, flags=re.MULTILINE)
+    if m:
+        category = m.group(1).strip()
+        c = re.sub(r'title:\s*"[^"]*"',
+                   f'title: "{t(lang, "shop", "title").replace("{category}", category)}"', c)
+        c = re.sub(r'description:\s*"[^"]*"',
+                   f'description: "{t(lang, "shop", "desc").replace("{category}", category)}"', c)
+
+    # Table header (any currency-column variant): translate the common cells, keep the
+    # currency names (in-game terms)
+    def _repl_header(m):
+        line = m.group(0)
+        line = line.replace("| Item |", f"| {t(lang, 'shop', 'item')} |")
+        line = line.replace("| Qty |", f"| {t(lang, 'shop', 'qty')} |")
+        line = line.replace("| Vendors |", f"| {t(lang, 'shop', 'vendors')} |")
+        return line
+
+    c = re.sub(r'^\| Item \|.*\|$', _repl_header, c, flags=re.MULTILINE)
+
+    # Currencies legend (category-page variant)
     c = c.replace(
-        "| Item | Qty | TM Coin | ICS Coin | ASI Coin | Credits | UniCoin | Vendors |",
-        f"| {tr('Item', lang)} | {tr('Qty', lang)} | TM Coin | ICS Coin | ASI Coin | Credits | UniCoin | {tr('Vendors', lang)} |"
+        "**Currencies** — **TM Coin / ICS Coin / ASI Coin**: the per-galaxy shop currency; **Credits**: the common currency; **UniCoin**: a premium currency. Each row shows the best terms across all vendors that sell the item. **Qty ∞** means the vendor has no stock limit.",
+        t(lang, "shop", "currency_legend")
     )
 
+    # Vendor locations: the place names are in-game terms, the zone/outpost words translate
+    c = c.replace("TM zone", t(lang, "shop", "vendor_tm"))
+    c = c.replace("ICS zone", t(lang, "shop", "vendor_ics"))
+    c = c.replace("ASI zone", t(lang, "shop", "vendor_asi"))
+    c = c.replace("Daoden outpost", t(lang, "shop", "vendor_daoden"))
+    c = c.replace("Attalica outpost", t(lang, "shop", "vendor_attalica"))
+
     # Breadcrumb
-    item_shop = tr("Item shop", lang, "Item shop")
+    item_shop = t(lang, "labels", "item_shop")
     c = re.sub(r'\[Item shop\]\([^)]+\)', f'[{item_shop}](/{lang}/content/shop/)', c)
 
     return c
+
+
+TECHTREE_GROUP_INTROS = [
+    ("The first set of standard (non-faction) modules available to every player.", "intros_common1"),
+    ("The second set of standard modules, including the named energy-transfer lines.", "intros_common2"),
+    ("Industrial research: reactor boosters and the modules that keep production lines moving.", "intros_indy"),
+    ("Research for the Nuimqol rebel faction: its named weapons and the modules that fight alongside them.", "intros_nuimqol"),
+    ("Power base station capsules and construction modules — the buildings of open-world corporate play.", "intros_pbs"),
+    ("Research for the Pelistal domain faction: its named weapons and the modules that fight alongside them.", "intros_pelistal"),
+    ("Research for the Thelodica Clan faction: its named weapons and the modules that fight alongside them.", "intros_thelodica"),
+]
 
 
 def process_techtree_group_file(content, lang):
     """Translate a techtree group page."""
     c = rewrite_links(content, lang)
 
-    tt = tr("Tech tree", lang, "Tech tree")
+    # Frontmatter title/description (the category is the H1 text; category names are
+    # in-game taxonomy and stay in English)
+    m = re.search(r'^#\s*(.+)$', c, flags=re.MULTILINE)
+    if m:
+        category = m.group(1).strip()
+        c = re.sub(r'title:\s*"[^"]*"',
+                   f'title: "{t(lang, "techtree", "cat_title").replace("{category}", category)}"', c)
+        mm = re.search(r'description:\s*"[^\"]*?(\d+) nodes\."', c)
+        count = mm.group(1) if mm else "?"
+        c = re.sub(r'description:\s*"[^"]*"',
+                   f'description: "{t(lang, "techtree", "cat_desc").replace("{category}", category).replace("{count}", count)}"', c)
+
+    # Category intro paragraph (one per group)
+    for intro, key in TECHTREE_GROUP_INTROS:
+        c = c.replace(intro, t(lang, "techtree", key))
+
+    # "{Tech tree} → {Category}. The category is split into its **research lines** — ..."
+    def _repl_intro_line(m):
+        href, category = m.group(1), m.group(2)
+        link = f"[{t(lang, 'labels', 'tech_tree')}]({href})"
+        return (t(lang, "techtree", "cat_intro_line")
+                .replace("{techtree_link}", link)
+                .replace("{category}", category))
+
+    c = re.sub(
+        r'\[Tech tree\]\(([^)]+)\) → (.+?)\. The category is split into its \*\*research lines\*\* — '
+        r"one per top-level item \(the chips above jump to each line's graph\)\. "
+        r'Every node in a graph links to its detail page \(prerequisites, what it unlocks next, point prices\)\.',
+        _repl_intro_line, c
+    )
+
+    tt = t(lang, "labels", "tech_tree")
     c = re.sub(r'\[Tech tree\]\([^)]+\)', f'[{tt}](/{lang}/content/techtree/)', c)
 
-    # Line descriptions: "**16 nodes** — everything that descends from"
+    # Line descriptions: "**16 nodes** — everything that descends from [X](url)."
     def repl_nodes(m):
-        count = m.group(1)
-        nodes_tr = tr("nodes", lang, "nodes")
-        from_tr = tr("everything that descends from", lang, "everything that descends from")
-        return f"**{count} {nodes_tr}** — {from_tr}"
+        count, link = m.group(1), m.group(2)
+        return t(lang, "techtree", "nodes_desc").replace("{count}", count).replace("{link}", link)
 
-    c = re.sub(r'\*\*(\d+)\s+nodes\*\*\s*—\s*everything that descends from', repl_nodes, c)
+    c = re.sub(r'\*\*(\d+)\s+nodes\*\*\s*—\s*everything that descends from (\[[^\]]+\]\([^)]+\))\.', repl_nodes, c)
+
+    # Singular line description: "**1 node** — everything that descends from [X](url)."
+    def repl_node_sing(m):
+        count, link = m.group(1), m.group(2)
+        return t(lang, "techtree", "node_desc").replace("{count}", count).replace("{link}", link)
+
+    c = re.sub(r'\*\*(\d+)\s+node\*\*\s*—\s*everything that descends from (\[[^\]]+\]\([^)]+\))\.', repl_node_sing, c)
 
     return c
 
@@ -966,11 +315,58 @@ def process_techtree_node_file(content, lang):
     """Translate an individual tech tree node page."""
     c = rewrite_links(content, lang)
 
-    for field in ["Category", "Unlocks", "Parent node", "Unlocks next", "Enabler extension", "Point prices"]:
-        f_tr = tr(field, lang)
+    # Frontmatter title: "{Name} — tech tree node"
+    m = re.search(r'title:\s*"(.+?) — tech tree node"', c)
+    if m:
+        node_name = m.group(1)
+        new_title = t(lang, "techtree", "node_title").replace("{name}", node_name)
+        # lambda: avoid re.sub backslash-unescape of the replacement text
+        c = re.sub(r'title:\s*"[^"]*"', lambda m: f'title: "{new_title}"', c)
+
+    # Frontmatter description: "Research node that unlocks {Name} ({Category} category)."
+    m2 = re.search(r'description:\s*"Research node that unlocks (.+?) \((.+?) category\)\."', c)
+    if m2:
+        name, cat = m2.group(1), m2.group(2)
+        new_desc = t(lang, "techtree", "node_desc_fm").replace("{name}", name).replace("{category}", cat)
+        c = re.sub(r'description:\s*"[^"]*"', lambda m: f'description: "{new_desc}"', c)
+
+    # H1: "# {Name} (research node)"
+    def _repl_h1(m):
+        return "# " + t(lang, "techtree", "node_h1").replace("{name}", m.group(1))
+
+    c = re.sub(r'^#\s*(.+?) \(research node\)$', _repl_h1, c, flags=re.MULTILINE)
+
+    # Intro: "This node of the [Category](url) research tree unlocks [Item](url)."
+    def _repl_intro(m):
+        cat_link, item_link = m.group(1), m.group(2)
+        return (t(lang, "techtree", "node_intro")
+                .replace("{category_link}", cat_link)
+                .replace("{item_link}", item_link))
+
+    c = re.sub(r'This node of the (\[[^\]]+\]\([^)]+\)) research tree unlocks (\[[^\]]+\]\([^)]+\))\.', _repl_intro, c)
+
+    # Plain-text item variant (items not in the catalog, e.g. node foundations)
+    def _repl_intro_plain(m):
+        cat_link, name = m.group(1), m.group(2)
+        return (t(lang, "techtree", "node_intro_plain")
+                .replace("{category_link}", cat_link)
+                .replace("{name}", name))
+
+    c = re.sub(
+        r'This node of the (\[[^\]]+\]\([^)]+\)) research tree unlocks ([^.]+?)\.', _repl_intro_plain, c)
+
+    # "– (end of line)" table values
+    c = c.replace("– (end of line)", t(lang, "techtree", "node_end_of_line"))
+
+    for field, key in [
+        ("Category", "labels.category"), ("Unlocks", "techtree.unlocks"),
+        ("Parent node", "techtree.parent_node"), ("Unlocks next", "techtree.unlocks_next"),
+        ("Enabler extension", "techtree.enabler_extension"), ("Point prices", "techtree.point_prices"),
+    ]:
+        f_tr = t(lang, *key.split("."))
         c = re.sub(rf'\|\s*{field}\s*\|', f'| {f_tr} |', c)
 
-    all_nodes = tr("All tech tree nodes", lang)
+    all_nodes = t(lang, "techtree", "all_nodes")
     c = re.sub(r'\[All tech tree nodes\]\([^)]+\)', f'[{all_nodes}](/{lang}/content/techtree/)', c)
 
     return c
@@ -979,13 +375,19 @@ def process_techtree_node_file(content, lang):
 def process_recipes_file(content, lang):
     """Translate recipes.md (2.9 MB)."""
     c = rewrite_links(content, lang)
-    recipes_tr = get_ui(lang, "nav_content_recipes", "Recipes")
+    recipes_tr = t(lang, "ui", "nav_content_recipes")
     c = re.sub(r'title:\s*"Recipes"', f'title: "{recipes_tr}"', c)
     c = re.sub(r'^#\s*Recipes', f'# {recipes_tr}', c, flags=re.MULTILINE)
 
-    res_lvl = tr("Research level", lang)
+    res_lvl = t(lang, "missions", "research_level")
     c = re.sub(r'<div class="mission-card-sub">Research level\s+(\d+)</div>',
                rf'<div class="mission-card-sub">{res_lvl} \1</div>', c)
+
+    # Intro paragraph
+    c = re.sub(
+        r'Component requirements for every item that is assembled from other items, grouped by category \(see (\[Production\]\([^)]+\)) in the features section\)\. \*\*Research level\*\* is the maximum research level the item has — higher levels change yield/calibration, not the component list\. Each item has its own page with its stats, the items it is a component of, and the vendors that sell it\.',
+        lambda m: t(lang, "recipes", "intro").replace("{production_link}", m.group(1)), c
+    )
 
     return c
 
@@ -993,22 +395,28 @@ def process_recipes_file(content, lang):
 def process_missions_file(content, lang):
     """Translate missions.md."""
     c = rewrite_links(content, lang)
-    missions_tr = get_ui(lang, "nav_content_missions", "Missions")
+    missions_tr = t(lang, "ui", "nav_content_missions")
     c = re.sub(r'title:\s*"Missions"', f'title: "{missions_tr}"', c)
     c = re.sub(r'^#\s*Missions', f'# {missions_tr}', c, flags=re.MULTILINE)
 
-    lvl_tr = tr("Level", lang)
+    lvl_tr = t(lang, "missions", "level")
     c = re.sub(r'<div class="mission-card-title">Level\s+(\d+)</div>',
                rf'<div class="mission-card-title">{lvl_tr} \1</div>', c)
 
-    fee_tr = tr("Reward fee", lang)
+    fee_tr = t(lang, "missions", "reward_fee")
     c = re.sub(r'<div class="mission-card-sub">Reward fee\s+([^<]+)</div>',
                rf'<div class="mission-card-sub">{fee_tr} \1</div>', c)
 
-    dur_tr = tr("Duration", lang)
-    min_tr = tr("min", lang)
+    dur_tr = t(lang, "missions", "duration")
+    min_tr = t(lang, "missions", "min")
     c = re.sub(r'<div class="mission-card-sub">Duration\s+(\d+)\s+min</div>',
                rf'<div class="mission-card-sub">{dur_tr} \1 {min_tr}</div>', c)
+
+    # Intro paragraph
+    c = re.sub(
+        r'One section per \*\*mission type\*\*; each tier is a card\. \*\*Reward fee\*\* is the credit payout \(a range when a tier has several zone variants\); \*\*rewards\*\* are the item drops \(quantity range and drop probability, 100 = guaranteed\)\. See (\[Missions\]\([^)]+\)) in the features section for how missions work\.',
+        lambda m: t(lang, "missions", "intro").replace("{missions_link}", m.group(1)), c
+    )
 
     return c
 
@@ -1016,24 +424,42 @@ def process_missions_file(content, lang):
 def process_extensions_file(content, lang):
     """Translate extensions.md."""
     c = rewrite_links(content, lang)
-    ext_tr = get_ui(lang, "nav_extensions", "Extensions")
+    ext_tr = t(lang, "ui", "nav_extensions")
     c = re.sub(r'title:\s*"Extensions"', f'title: "{ext_tr}"', c)
     c = re.sub(r'^#\s*Extensions', f'# {ext_tr}', c, flags=re.MULTILINE)
 
-    rank_tr = tr("rank", lang)
+    rank_tr = t(lang, "extensions", "rank")
     c = re.sub(r'<span class="ext-val-rank">rank\s+(\d+)</span>',
                rf'<span class="ext-val-rank">{rank_tr} \1</span>', c)
 
-    bonus_tr = tr("bonus", lang)
+    bonus_tr = t(lang, "extensions", "bonus")
     c = re.sub(r'<span class="ext-val-bonus">bonus\s+([^<]+)</span>',
                rf'<span class="ext-val-bonus">{bonus_tr} \1</span>', c)
 
-    inact_tr = tr("inactive", lang)
+    inact_tr = t(lang, "extensions", "inactive")
     c = re.sub(r'·\s*inactive', f'· {inact_tr}', c)
 
-    nopreq_tr = tr("no prerequisites", lang)
+    nopreq_tr = t(lang, "extensions", "no_prerequisites")
     c = re.sub(r'<div class="ext-card-prereq">no prerequisites</div>',
                rf'<div class="ext-card-prereq">{nopreq_tr}</div>', c)
+
+    # Intro paragraph
+    c = re.sub(
+        r'Extensions are the per-character skill tree — learned with credits \(level 1\) and EP \(later levels\), gated by prerequisites\. See (\[Character\]\([^)]+\)) for the character window this tree lives in\. The spark extensions \(the passive specialization lines\) have their own diagram on the (\[Sparks\]\([^)]+\)) page\.',
+        lambda m: t(lang, "extensions", "intro").replace("{character_link}", m.group(1)).replace("{sparks_link}", m.group(2)), c
+    )
+
+    # Overview paragraph (count + Sparks link captured)
+    c = re.sub(
+        r'The (\d+) categories at a glance: one box per category \(extension count, entry points without prerequisites, rank range\), left to right by starting rank, and an arrow for every cross-category prerequisite \(hover an arrow for the exact requirements\) — which categories open up which\. \*\*Click a box to jump to that category.s cards below\.\*\* The spark extensions sit outside this diagram \(no prerequisites of their own\) — their bundle diagram is on the (\[Sparks\]\([^)]+\)) page\. \*\*Scroll over the diagram to zoom\*\*, drag to pan, and use the ⟲ button to reset\.',
+        lambda m: t(lang, "extensions", "overview").replace("{count}", m.group(1)).replace("{sparks_link}", m.group(2)), c
+    )
+
+    # Legend paragraph
+    c = c.replace(
+        "One section per category, one card per extension. **Price** is the level-1 credit cost (later levels cost EP only). **Prerequisites** are the extensions (and minimum level) to learn first. Inactive entries are not offered by the current server build.",
+        t(lang, "extensions", "legend")
+    )
 
     return c
 
@@ -1041,129 +467,291 @@ def process_extensions_file(content, lang):
 def process_content_overview(content, lang):
     """Translate content/_index.md."""
     c = rewrite_links(content, lang)
-    content_tr = get_ui(lang, "foot_content", "Content")
+    content_tr = t(lang, "ui", "foot_content")
     c = re.sub(r'title:\s*"Content"', f'title: "{content_tr}"', c)
     c = re.sub(r'^#\s*Content', f'# {content_tr}', c, flags=re.MULTILINE)
+
+    c = c.replace(
+        "Stat tables for every content entity, generated from the live database.",
+        t(lang, "content_index", "stat_tables")
+    )
+    # Field-meanings line (Formats link captured)
+    c = re.sub(
+        r'Field meanings \(what a stat column actually does\) live in (\[Formats\]\([^)]+\))\.',
+        lambda m: t(lang, "content_index", "field_meanings").replace("{formats_link}", m.group(1)), c
+    )
     return c
 
 
 def process_ores_overview(content, lang):
     """Translate content/ores.md."""
     c = rewrite_links(content, lang)
-    ores_tr = get_ui(lang, "nav_content_ores", "Ores")
+    ores_tr = t(lang, "ui", "nav_content_ores")
     c = re.sub(r'title:\s*"Ores"', f'title: "{ores_tr}"', c)
     c = re.sub(r'^#\s*Ores', f'# {ores_tr}', c, flags=re.MULTILINE)
 
-    ore_types_tr = tr("Ore types", lang, "Ore types")
+    ore_types_tr = t(lang, "ores", "ore_types")
     c = c.replace("## Ore types", f"## {ore_types_tr}")
 
-    c = c.replace("<th>Ore</th>", f"<th>{tr('Ore', lang, 'Ore')}</th>")
-    c = c.replace("<th>Amount / extraction</th>", f"<th>{tr('Amount / extraction', lang)}</th>")
-    c = c.replace("<th>Extraction type</th>", f"<th>{tr('Extraction type', lang)}</th>")
-    c = c.replace("<th>Enabler effect</th>", f"<th>{tr('Enabler effect', lang)}</th>")
-    c = c.replace("<th>Geo-scan doc</th>", f"<th>{tr('Geo-scan doc', lang)}</th>")
+    c = c.replace("<th>Ore</th>", f"<th>{t(lang, 'ores', 'ore')}</th>")
+    c = c.replace("<th>Amount / extraction</th>", f"<th>{t(lang, 'ores', 'amount_extraction')}</th>")
+    c = c.replace("<th>Extraction type</th>", f"<th>{t(lang, 'ores', 'extraction_type')}</th>")
+    c = c.replace("<th>Enabler effect</th>", f"<th>{t(lang, 'ores', 'enabler_effect')}</th>")
+    c = c.replace("<th>Geo-scan doc</th>", f"<th>{t(lang, 'ores', 'geo_scan_doc')}</th>")
 
-    no_tr = tr("no", lang, "no")
-    req_tr = tr("required", lang, "required")
-    c = c.replace("<td>no</td>", f"<td>{no_tr}</td>")
-    c = c.replace("<td>required</td>", f"<td>{req_tr}</td>")
+    c = c.replace("<td>no</td>", f"<td>{t(lang, 'labels', 'no')}</td>")
+    c = c.replace("<td>required</td>", f"<td>{t(lang, 'ores', 'required')}</td>")
+
+    # Intro paragraph (Ore-fields link captured)
+    c = re.sub(
+        r'Ore exists in the ground as \*\*deposits \(nodes\)\*\*\. Each node holds a limited total amount; when a node is mined below its threshold it is removed and the zone regenerates new nodes up to its configured maximum\. Every ore has its own page with its extraction facts, the zones it spawns in and what is made from it\. How each column is used by the server, with the node-generation formulas, is in (\[Ore fields\]\([^)]+\))\.',
+        lambda m: t(lang, "ores", "intro").replace("{ore_fields_link}", m.group(1)), c
+    )
+
+    # Extraction-type legend paragraph
+    c = c.replace(
+        "**Extraction type**: 0 = solid (tile-by-tile with a drill), 1 = liquid (continuous pump). **Enabler effect** — when *required*, the robot needs the matching enabler effect active to extract that ore at all. How many nodes of each ore a zone maintains, and how large each node is, is on each ore's own page (the *Zone parameters* table there).",
+        t(lang, "ores", "legend")
+    )
     return c
 
 
 def process_plants_overview(content, lang):
     """Translate content/plants.md."""
     c = rewrite_links(content, lang)
-    plants_tr = get_ui(lang, "nav_content_plants", "Plants")
+    plants_tr = t(lang, "ui", "nav_content_plants")
     c = re.sub(r'title:\s*"Plants"', f'title: "{plants_tr}"', c)
     c = re.sub(r'^#\s*Plants', f'# {plants_tr}', c, flags=re.MULTILINE)
+
+    P = lambda key: t(lang, "plants", key)
+
+    # Growth-cycle diagram (mermaid): translate node labels only; the flow
+    # structure (node ids, edges) stays identical. The respawn label keeps its
+    # literal two-character \n, which mermaid renders as a line break.
+    for en_label, key in [
+        ("Sprout (stage 1)", "diagram_sprout"),
+        ("Grow: growRate cycles per stage", "diagram_grow"),
+        ("Fruiting stage reached", "diagram_fruiting"),
+        ("Harvestable: fruit x fruitAmount", "diagram_harvestable"),
+        ("Killed / damaged", "diagram_killed"),
+        ("Zone respawns toward the\\nfertility target (weighted by species fertility)", "diagram_respawn"),
+    ]:
+        c = c.replace(f'["{en_label}"]', f'["{P(key)}"]')
+
+    c = c.replace("## Harvestable plants", f"## {P('harvestable')}")
+    c = c.replace(
+        "Species with a fruiting stage — the fruit is the harvestable yield (× = fruitAmount per fruiting stage).",
+        P("harvestable_intro")
+    )
+    c = c.replace(
+        "| Plant | Grow rate | Fertility | Spreading | Kill distance | Max slope | Altitude band | Water band | Fruit (yield) | Max amount | Health (stages) | Player seeded |",
+        f"| {P('col_plant')} | {P('col_grow_rate')} | {P('col_fertility')} | {P('col_spreading')} | "
+        f"{P('col_kill_distance')} | {P('col_max_slope')} | {P('col_altitude_band')} | {P('col_water_band')} | "
+        f"{P('col_fruit_yield')} | {P('col_max_amount')} | {P('col_health_stages')} | {P('col_player_seeded')} |"
+    )
+
+    c = c.replace("## Scenery plants (not harvestable)", f"## {P('scenery')}")
+    c = c.replace(
+        "Species with no fruiting stage — zone scenery only (cover, landmarks, blocking).",
+        P("scenery_intro")
+    )
+    c = c.replace(
+        "| Plant | Grow rate | Fertility | Spreading | Kill distance | Max slope | Altitude band | Water band | Max amount | Health (stages) | Player seeded |",
+        f"| {P('col_plant')} | {P('col_grow_rate')} | {P('col_fertility')} | {P('col_spreading')} | "
+        f"{P('col_kill_distance')} | {P('col_max_slope')} | {P('col_altitude_band')} | {P('col_water_band')} | "
+        f"{P('col_max_amount')} | {P('col_health_stages')} | {P('col_player_seeded')} |"
+    )
+
+    c = c.replace("## Zones", f"## {P('zones_heading')}")
+    c = c.replace(
+        "| Zone | Type | Protected | Fertility | Plant ruleset | Altitude scale | Enabled |",
+        f"| {t(lang, 'ores', 'col_zone')} | {P('col_type')} | {P('col_protected')} | {P('col_fertility')} | "
+        f"{P('col_plant_ruleset')} | {P('col_altitude_scale')} | {P('col_enabled')} |"
+    )
+
+    c = c.replace("## Ruleset → species", f"## {P('ruleset_heading')}")
+    c = c.replace(
+        "| Ruleset | Zones | Species |",
+        f"| {P('col_ruleset')} | {P('col_zones')} | {P('col_species')} |"
+    )
+
+    yes_tr = t(lang, "labels", "yes")
+    no_tr = t(lang, "labels", "no")
+    c = re.sub(r'\| yes \|', f'| {yes_tr} |', c)
+    c = re.sub(r'\| no \|', f'| {no_tr} |', c)
+
+    # Intro paragraph (Plant-fields link captured)
+    c = re.sub(
+        r'Plants grow over time through a sequence of stages; a plant produces \(is harvestable\) only once it reaches its fruiting stage\. The zone maintains plant populations toward a \*\*fertility target\*\* per area; `spreading` biases new growth toward existing clusters of the same type\. The full field reference — types, defaults, the growth state machine, and the rule-file format — is in (\[Plant fields\]\([^)]+\))\.',
+        lambda m: t(lang, "plants", "intro").replace("{plant_fields_link}", m.group(1)), c
+    )
+
+    # Field-meanings legend (plain line, ends with ";")
+    c = c.replace(
+        "Field meanings: **growRate** = growth cycles a plant sits in each stage before advancing (higher = slower); **fertility** = how strongly the zone tries to keep this species present; **spreading** = preference for growing in groups; **killDistance** = minimum spacing between two plants of the same type (−1 = none);",
+        t(lang, "plants", "fields_legend")
+    )
+
+    # Zones-section legend
+    c = c.replace(
+        "Per-zone fertility (how full the ground is kept with plants), the plant ruleset the zone uses, and altitude scaling.",
+        t(lang, "plants", "zones_legend")
+    )
+
     return c
+
+
+# (heading name, category key, description key) for the deployables.md sections
+DEPLOYABLE_SECTIONS = [
+    ("Mobile teleports", "cat_mobile_tps", "desc_mobile_tps"),
+    ("Mobile fields", "cat_mobile_fields", "desc_mobile_fields"),
+    ("Arena teleports", "cat_arena_tps", "desc_arena_tps"),
+    ("Mines & bombs", "cat_mines", "desc_mines"),
+    ("Wall repairers", "cat_wall", "desc_wall"),
+    ("Plant seeds", "cat_seeds", "desc_seeds"),
+    ("NPC eggs", "cat_eggs", "desc_eggs"),
+    ("Gates", "cat_gates", "desc_gates"),
+    ("Containers", "cat_containers", "desc_containers"),
+    ("Miscellaneous", "cat_misc", "desc_misc"),
+]
 
 
 def process_deployables_overview(content, lang):
     """Translate content/deployables.md."""
     c = rewrite_links(content, lang)
-    dep_tr = get_ui(lang, "nav_content_deployables", "Deployables")
+    dep_tr = t(lang, "ui", "nav_content_deployables")
     c = re.sub(r'title:\s*"Deployables"', f'title: "{dep_tr}"', c)
     c = re.sub(r'^#\s*Deployables', f'# {dep_tr}', c, flags=re.MULTILINE)
 
-    no_tier_tr = tr("no tier", lang)
+    no_tier_tr = t(lang, "labels", "no_tier")
     c = re.sub(r'<div class="prod-card-body">no tier</div>',
                rf'<div class="prod-card-body">{no_tier_tr}</div>', c)
+
+    # Intro paragraph (count + PBS and Deployable-fields links captured)
+    c = re.sub(
+        r'Deployables are items that can be \*\*placed in the terrain\*\* to act on the zone — effect suppliers, repairers, turrets, teleports, and similar\. Placing one is a corporation/privilege-gated action\. The (\d+) non-PBS deployables are listed below, one page each: \*\*click a card to open it\.\*\* The PBS structures are documented on the (\[Power base stations\]\([^)]+\)) page\. How deployables are identified, paired capsule↔object, and which stat fields drive them is in (\[Deployable fields\]\([^)]+\))\.',
+        lambda m: (t(lang, "deployables", "intro")
+                   .replace("{count}", m.group(1))
+                   .replace("{pbs_link}", m.group(2))
+                   .replace("{dep_fields_link}", m.group(3))), c
+    )
+
+    # Category headings "## Name (N)" and their description paragraphs
+    for name, cat_key, desc_key in DEPLOYABLE_SECTIONS:
+        head_tr = t(lang, "deployables", "cat_heading").replace("{category}", t(lang, "deployables", cat_key))
+        c = re.sub(rf'^## {re.escape(name)} \((\d+)\)$',
+                   lambda m, h=head_tr: "## " + h.replace("{count}", m.group(1)),
+                   c, flags=re.MULTILINE)
+        desc_tr = t(lang, "deployables", desc_key)
+        if "{teleporting_link}" in desc_tr:
+            c = re.sub(r'Deployable teleports a player places in the terrain \(see (\[Teleporting\]\([^)]+\))\)\.',
+                       lambda m, d=desc_tr: d.replace("{teleporting_link}", m.group(1)), c)
+        elif "{plants_link}" in desc_tr:
+            c = re.sub(r'Seeds that grow the matching plant species when planted \(see (\[Plants\]\([^)]+\))\)\.',
+                       lambda m, d=desc_tr: d.replace("{plants_link}", m.group(1)), c)
+        elif "{egg_shop_link}" in desc_tr:
+            c = re.sub(r'Capsules that hatch an NPC unit when placed \(bought in the (\[NPC egg shop\]\([^)]+\))\)\.',
+                       lambda m, d=desc_tr: d.replace("{egg_shop_link}", m.group(1)), c)
+        else:
+            # plain description: match the exact English sentence for this section
+            en_desc = {
+                "desc_mobile_fields": "Deployable effect fields: ECCM, maskers and the reactor stabilizer.",
+                "desc_arena_tps": "Teleport devices that move combatants and audience between the arena and the outer zones.",
+                "desc_mines": "Deployed explosives: the landmine sizes, wall bombs, the area bomb and plant bombs.",
+                "desc_wall": "Deployed repairers that heal the wall structures.",
+                "desc_gates": "The zone gate capsule.",
+                "desc_containers": "The deployable container capsule.",
+                "desc_misc": "Everything else that can be placed in the terrain: beacons, probes, buoys, and the test deployables.",
+            }.get(desc_key)
+            if en_desc:
+                c = c.replace(en_desc, desc_tr)
+
     return c
+
+
+ROBOT_CLASSES = [
+    ("Runners", "runners"),
+    ("Crawlers", "crawlers"),
+    ("Mechs", "mechs"),
+    ("Heavy mechs", "heavy_mechs"),
+    ("Walkers", "walkers"),
+]
+
+ROBOT_SUBSECTION_DESCRIPTIONS = [
+    ("The fast, light class — the cheapest robots to build and pilot.", "runners_desc"),
+    ("The mid-size workhorse class.", "crawlers_desc"),
+    ("The main combat class.", "mechs_desc"),
+    ("The top-tier combat class.", "heavy_mechs_desc"),
+    ("A rare heavy platform class.", "walkers_desc"),
+    ("The starter bot, the flagship and limited/event models.", "starter_special_desc"),
+    ("Complete cult-designed loadouts unlocked through research — a finished fit rather than a standalone chassis (size comes from the parts it is built from).", "named_fits_desc"),
+    ("*Strengths:* a ready-made combat build with its role in the name (main combat / main support).", "named_fits_strengths"),
+    ("*Weaknesses:* fixed by the design — you take the fit as it comes.", "named_fits_weaknesses"),
+    ("Mixed-class builds assembled from parts of different robot classes rather than one pure class. They are built from parts, not sold as a finished robot; the finished size comes from the parts chosen.", "hybrid_builds_desc"),
+    ("*Strengths:* mix the advantages of several classes in one build.", "hybrid_builds_strengths"),
+    ("*Weaknesses:* you must assemble the parts yourself — no single finished product to buy.", "hybrid_builds_weaknesses"),
+    ("Combat units fielded by the NPC factions (not acquirable by players).", "npc_units_desc"),
+]
 
 
 def process_robots_overview(content, lang):
     """Translate content/robots.md."""
     c = rewrite_links(content, lang)
-    robots_tr = get_ui(lang, "home_robots", "Robots")
+    robots_tr = t(lang, "ui", "home_robots")
     c = re.sub(r'title:\s*"Robots"', f'title: "{robots_tr}"', c)
     c = re.sub(r'^#\s*Robots', f'# {robots_tr}', c, flags=re.MULTILINE)
 
-    desc_tr = tr("How a robot is built, the robot classes, and every robot: player, hybrid and NPC.", lang)
+    desc_tr = t(lang, "robots", "index_desc")
     c = re.sub(r'description:\s*"[^"]*"', f'description: "{desc_tr}"', c)
 
-    intro_tr = tr("Fitting, slots and in-game play are covered in the [Robot](/features/robots/) feature page; this page is the data reference.", lang)
+    intro_tr = t(lang, "robots", "index_intro")
     intro_tr = intro_tr.replace("{lang}", lang)
     c = re.sub(r'Fitting, slots and in-game play are covered in the \[Robot\]\([^)]+\) feature page; this page is the data reference\.', intro_tr, c)
 
-    c = c.replace("## Robot classes", f"## {tr('Robot classes', lang, 'Robot classes')}")
+    c = c.replace("## Robot classes", f"## {t(lang, 'robots', 'robot_classes')}")
     c = c.replace(
         "A robot's class comes from its parts. Ratings are 1–5 (more icons = higher).",
-        tr("A robot's class comes from its parts. Ratings are 1–5 (more icons = higher).", lang)
+        t(lang, "robots", "class_intro")
     )
 
     # Class ratings table
-    c = c.replace("<th>Class</th>", f"<th>{tr('Class', lang)}</th>")
-    for stat in ["Combat", "Speed", "Armor", "Storage", "Cost"]:
-        stat_tr = tr(stat, lang)
-        c = re.sub(rf'<th>{stat}</th>', f'<th>{stat_tr}</th>', c)
-        c = re.sub(rf'<span>{stat}</span>', f'<span>{stat_tr}</span>', c)
+    c = c.replace("<th>Class</th>", f"<th>{t(lang, 'labels', 'class')}</th>")
+    for stat in ["combat", "speed", "armor", "storage", "cost"]:
+        stat_tr = t(lang, "labels", stat)
+        c = re.sub(rf'<th>{stat.capitalize()}</th>', f'<th>{stat_tr}</th>', c)
+        c = re.sub(rf'<span>{stat.capitalize()}</span>', f'<span>{stat_tr}</span>', c)
 
     # Table rows class names
-    for cls in ["Runners", "Crawlers", "Mechs", "Heavy mechs", "Walkers"]:
-        c = c.replace(f"<b>{cls}</b>", f"<b>{tr(cls, lang)}</b>")
+    for cls, key in ROBOT_CLASSES:
+        c = c.replace(f"<b>{cls}</b>", f"<b>{t(lang, 'robots', key)}</b>")
 
-    c = c.replace("## Player robots", f"## {tr('Player robots', lang, 'Player robots')}")
+    c = c.replace("## Player robots", f"## {t(lang, 'robots', 'player_robots')}")
     c = c.replace(
         "Robots you can acquire and control yourself (80 models), grouped by class.",
-        tr("Robots you can acquire and control yourself (80 models), grouped by class.", lang)
+        t(lang, "robots", "player_robots_intro")
     )
 
     # Subsection headings
-    c = c.replace("### Runners (20)", f"### {tr('Runners', lang)} (20)")
-    c = c.replace("### Crawlers (11)", f"### {tr('Crawlers', lang)} (11)")
-    c = c.replace("### Mechs (19)", f"### {tr('Mechs', lang)} (19)")
-    c = c.replace("### Heavy mechs (18)", f"### {tr('Heavy mechs', lang)} (18)")
-    c = c.replace("### Walkers (2)", f"### {tr('Walkers', lang)} (2)")
-    c = c.replace("### Starter & special (10)", f"### {tr('Starter & special', lang)} (10)")
-    c = c.replace("### Named fits (3)", f"### {tr('Named fits', lang)} (3)")
-    c = c.replace("## Hybrid builds (27)", f"## {tr('Hybrid builds', lang)} (27)")
-    c = c.replace("## NPC units (1)", f"## {tr('NPC units', lang)} (1)")
+    c = c.replace("### Runners (20)", f"### {t(lang, 'robots', 'runners')} (20)")
+    c = c.replace("### Crawlers (11)", f"### {t(lang, 'robots', 'crawlers')} (11)")
+    c = c.replace("### Mechs (19)", f"### {t(lang, 'robots', 'mechs')} (19)")
+    c = c.replace("### Heavy mechs (18)", f"### {t(lang, 'robots', 'heavy_mechs')} (18)")
+    c = c.replace("### Walkers (2)", f"### {t(lang, 'robots', 'walkers')} (2)")
+    c = c.replace("### Starter & special (10)", f"### {t(lang, 'robots', 'starter_special')} (10)")
+    c = c.replace("### Named fits (3)", f"### {t(lang, 'robots', 'named_fits')} (3)")
+    c = c.replace("## Hybrid builds (27)", f"## {t(lang, 'robots', 'hybrid_builds')} (27)")
+    c = c.replace("## NPC units (1)", f"## {t(lang, 'robots', 'npc_units')} (1)")
 
     # Subsection descriptions
-    for desc in [
-        "The fast, light class — the cheapest robots to build and pilot.",
-        "The mid-size workhorse class.",
-        "The main combat class.",
-        "The top-tier combat class.",
-        "A rare heavy platform class.",
-        "The starter bot, the flagship and limited/event models.",
-        "Complete cult-designed loadouts unlocked through research — a finished fit rather than a standalone chassis (size comes from the parts it is built from).",
-        "*Strengths:* a ready-made combat build with its role in the name (main combat / main support).",
-        "*Weaknesses:* fixed by the design — you take the fit as it comes.",
-        "Mixed-class builds assembled from parts of different robot classes rather than one pure class. They are built from parts, not sold as a finished robot; the finished size comes from the parts chosen.",
-        "*Strengths:* mix the advantages of several classes in one build.",
-        "*Weaknesses:* you must assemble the parts yourself — no single finished product to buy.",
-        "Combat units fielded by the NPC factions (not acquirable by players).",
-    ]:
-        c = c.replace(desc, tr(desc, lang))
+    for desc, key in ROBOT_SUBSECTION_DESCRIPTIONS:
+        c = c.replace(desc, t(lang, "robots", key))
 
     # Named fits table header
-    c = c.replace("| Robot | Class |", f"| {tr('Robot', lang)} | {tr('Class', lang)} |")
+    c = c.replace("| Robot | Class |", f"| {t(lang, 'labels', 'robot')} | {t(lang, 'labels', 'class')} |")
 
     # Card status labels
-    c = c.replace("<span>Stats vary by parts</span>", f"<span>{tr('Stats vary by parts', lang)}</span>")
-    c = c.replace("<span>NPC unit — not player-acquirable</span>", f"<span>{tr('NPC unit — not player-acquirable', lang)}</span>")
+    c = c.replace("<span>Stats vary by parts</span>", f"<span>{t(lang, 'robots', 'stats_vary')}</span>")
+    c = c.replace("<span>NPC unit — not player-acquirable</span>", f"<span>{t(lang, 'robots', 'npc_not_acquirable')}</span>")
 
     return c
 
@@ -1171,41 +759,83 @@ def process_robots_overview(content, lang):
 def process_techtree_overview(content, lang):
     """Translate content/techtree/_index.md."""
     c = rewrite_links(content, lang)
-    tt_tr = get_ui(lang, "nav_content_techtree", "Tech tree")
+    tt_tr = t(lang, "ui", "nav_content_techtree")
     c = re.sub(r'title:\s*"Tech tree"', f'title: "{tt_tr}"', c)
     c = re.sub(r'^#\s*Tech tree', f'# {tt_tr}', c, flags=re.MULTILINE)
-    c = c.replace("## Categories", f"## {tr('Categories', lang, 'Categories')}")
+
+    # Intro paragraph (Research link captured)
+    c = re.sub(
+        r'Tech tree nodes unlock items by spending \*\*research points\*\* \(earned from kernels — see (\[Research\]\([^)]+\)) in the features section\)\. A node can only be unlocked when its \*\*parent\*\* node is unlocked and the \*\*enabler extension\*\* is learned\. Point types: common, hitech, industrial, newtech, nuimqol, pelistal, thelodica\.',
+        lambda m: t(lang, "techtree", "index_intro").replace("{research_link}", m.group(1)), c
+    )
+
+    c = c.replace(
+        "Each category is its own page with the full tree and one page per node.",
+        t(lang, "techtree", "index_cats_line")
+    )
+
+    c = c.replace("## Categories", f"## {t(lang, 'techtree', 'categories')}")
     return c
 
 
 def process_shop_overview(content, lang):
     """Translate content/shop.md."""
     c = rewrite_links(content, lang)
-    shop_tr = get_ui(lang, "nav_shop", "Item shop")
+    shop_tr = t(lang, "ui", "nav_shop")
     c = re.sub(r'title:\s*"Item shop"', f'title: "{shop_tr}"', c)
     c = re.sub(r'^#\s*Item shop', f'# {shop_tr}', c, flags=re.MULTILINE)
-    c = c.replace("## Vendors", f"## {tr('Vendors', lang, 'Vendors')}")
-    c = c.replace("## Catalog", f"## {tr('Catalog', lang, 'Catalog')}")
+
+    # Intro paragraph (market + robot-catalog links captured)
+    c = re.sub(
+        r'Fixed-price vendor items, separate from the player-driven (\[market\]\([^)]+\))\. The same item can be sold at several vendors — the catalog below lists every item once, with the best price across all vendors; each item.s own page lists every vendor that sells it \(robots link to the (\[robot catalog\]\([^)]+\))\)\.',
+        lambda m: t(lang, "shop", "intro").replace("{market_link}", m.group(1)).replace("{robots_link}", m.group(2)), c
+    )
+
+    # Currencies legend (overview variant)
+    c = c.replace(
+        "**Currencies** — **TM Coin / ICS Coin / ASI Coin**: the per-galaxy shop currency (each shop sells for all three coins where offered); **Credits**: the common currency; **UniCoin**: a premium currency. **Qty ∞** means the vendor has no stock limit.",
+        t(lang, "shop", "currency_legend_overview")
+    )
+
+    c = c.replace(
+        "Each category is its own page; best price across all vendors, one row per item.",
+        t(lang, "shop", "cats_line")
+    )
+
+    c = c.replace("## Vendors", f"## {t(lang, 'shop', 'vendors')}")
+    c = c.replace("## Catalog", f"## {t(lang, 'shop', 'catalog')}")
     return c
 
 
 def process_stat_reference_file(content, lang):
     """Translate content/stat-reference.md."""
     c = rewrite_links(content, lang)
-    stat_tr = get_ui(lang, "nav_content_statref", "Stat reference")
+    stat_tr = t(lang, "ui", "nav_content_statref")
     c = re.sub(r'title:\s*"Stat reference"', f'title: "{stat_tr}"', c)
     c = re.sub(r'^#\s*Stat reference', f'# {stat_tr}', c, flags=re.MULTILINE)
-    return c
 
+    c = c.replace(
+        "Every item page lists raw stat values. This page puts them in scale: the unit of each stat, the smallest/largest values in the whole catalog, and real items to compare against. Ranges are computed over all enabled items (prototypes and test objects excluded).",
+        t(lang, "stat_reference", "intro")
+    )
 
-def process_generic_file(content, lang):
-    """Fallback translation processor with link rewriting and common badges."""
-    c = rewrite_links(content, lang)
+    c = c.replace("## Powergrid and CPU in context", f"## {t(lang, 'stat_reference', 'heading_pg_cpu')}")
 
-    no_tier_tr = tr("no tier", lang)
-    c = re.sub(r'<div class="prod-card-body">no tier</div>',
-               rf'<div class="prod-card-body">{no_tier_tr}</div>', c)
+    c = c.replace(
+        "A module's **powergrid_usage** is only meaningful against the robot that carries it: the chassis defines the total RP (**powergrid_max**), energy (**core_max**) and CPU (**cpu_max**) its modules may use. **Powergrid upgrades** modules add a fixed amount of RP. A usage value is a percentage of the available capacity — for example a module with powergrid_usage 214 uses 214% of an Ikarus chassis (100 RP, nothing fits beyond the frame) but only ~3% of an Onyx chassis (6.6k RP).",
+        t(lang, "stat_reference", "pg_context")
+    )
 
+    c = c.replace(
+        "For each documented stat: how many items have it, its unit, and the smallest / median / largest value in the catalog with an item you can open at each end.",
+        t(lang, "stat_reference", "per_stat")
+    )
+
+    # "not listed" paragraph (Formats link captured)
+    c = re.sub(
+        r'Stats not listed here are either \*\*modifier\*\* stats \(they change another stat instead of setting one\) or internal values without a player-facing unit — the developer field reference in (\[Formats\]\([^)]+\)) lists every field\.',
+        lambda m: t(lang, "stat_reference", "not_listed").replace("{formats_link}", m.group(1)), c
+    )
     return c
 
 
@@ -1244,7 +874,7 @@ def main():
             dest_ores_dir.mkdir(exist_ok=True)
             for f in src_ores_dir.glob("*.md"):
                 content = process_ore_file(f.read_text(encoding="utf-8"), lang)
-                (dest_ores_dir / f.name).write_text(content, encoding="utf-8")
+                (dest_dir / "ores" / f.name).write_text(content, encoding="utf-8")
                 total_written += 1
 
         # 3. Plants
@@ -1356,24 +986,6 @@ def main():
                 content = process_shop_file(f.read_text(encoding="utf-8"), lang)
                 (dest_shop_dir / f.name).write_text(content, encoding="utf-8")
                 total_written += 1
-
-        # 12. Zones: protection levels & zones index
-        dest_zones_dir = Path("content") / lang / "zones"
-        dest_zones_dir.mkdir(parents=True, exist_ok=True)
-
-        if lang in PROTECTION_DATA:
-            title, desc, body = PROTECTION_DATA[lang]
-            md = f"---\ntitle: \"{title}\"\ndescription: \"{desc}\"\nweight: 20\n---\n\n{body}\n"
-            md = rewrite_links(md, lang)
-            (dest_zones_dir / "protection.md").write_text(md, encoding="utf-8")
-            total_written += 1
-
-        if lang in ZONES_INDEX_DATA:
-            title, desc, body = ZONES_INDEX_DATA[lang]
-            md = f"---\ntitle: \"{title}\"\ndescription: \"{desc}\"\nweight: 50\n---\n\n{body}\n"
-            md = rewrite_links(md, lang)
-            (dest_zones_dir / "_index.md").write_text(md, encoding="utf-8")
-            total_written += 1
 
     elapsed = time.time() - t0
     print(f"gen_content_translations: wrote {total_written} localized files across {len(LANGUAGES)} languages in {elapsed:.2f}s")

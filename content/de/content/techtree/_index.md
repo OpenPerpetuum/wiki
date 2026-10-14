@@ -8,11 +8,11 @@ description: "The research tree: every category, and every node with the item it
 
 # Technologiebaum
 
-Tech tree nodes unlock items by spending **research points** (earned from kernels — see [Research](/de/features/research/) in the features section). A node can only be unlocked when its **parent** node is unlocked and the **enabler extension** is learned. Point types: common, hitech, industrial, newtech, nuimqol, pelistal, thelodica.
+Techtree-Knoten schalten Artikel frei, indem **Forschungspunkte** ausgegeben werden (aus Kernen verdient — siehe [Research](/de/features/research/) im Features-Bereich). Ein Knoten kann nur freigeschaltet werden, wenn sein **Eltern**-Knoten freigeschaltet und die **Enabler-Extension** erlernt ist. Punkttypen: common, hitech, industrial, newtech, nuimqol, pelistal, thelodica.
 
 ## Kategorien
 
-Each category is its own page with the full tree and one page per node.
+Jede Kategorie hat eine eigene Seite mit dem vollständigen Baum und einer Seite pro Knoten.
 
 | Category | Nodes | Root lines | What it unlocks |
 |---|---|---|---|

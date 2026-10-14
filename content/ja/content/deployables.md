@@ -8,11 +8,11 @@ description: "Deployable structures and placeable items: one card per deployable
 
 # 設置物
 
-Deployables are items that can be **placed in the terrain** to act on the zone — effect suppliers, repairers, turrets, teleports, and similar. Placing one is a corporation/privilege-gated action. The 133 non-PBS deployables are listed below, one page each: **click a card to open it.** The PBS structures are documented on the [Power base stations](/ja/features/pbs/) page. How deployables are identified, paired capsule↔object, and which stat fields drive them is in [Deployable fields](/ja/formats/deployable-fields/).
+デプロヤブルは**地形に配置**してゾーンに作用させるためのアイテムです — 効果供給、修理、砲台、ワープなど。配置は企業/特権で制限されたアクションです。以下にPBS以外の133個のデプロヤブルを1ページずつ列挙します: **カードをクリックして開きます。** PBS構造は[Power base stations](/ja/features/pbs/)ページに文書化されています。デプロヤブルの識別方法、カプセル↔オブジェクトのペアリング、どのステータスフィールドが駆動するかは[Deployable fields](/ja/formats/deployable-fields/)にあります。
 
-## Mobile teleports (12)
+## モバイルテレポート(12)
 
-Deployable teleports a player places in the terrain (see [Teleporting](/ja/features/movement/)).
+プレイヤーが地形に配置するワープ装置(参照: [Teleporting](/ja/features/movement/))。
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-map"/></svg><a class="prod-card-name" href="/ja/content/deployables/mobile-teleport-capsule-armored/">Armored teleport beacon</a></div><div class="prod-card-body">ティアなし</div></div>
@@ -29,9 +29,9 @@ Deployable teleports a player places in the terrain (see [Teleporting](/ja/featu
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-map"/></svg><a class="prod-card-name" href="/ja/content/deployables/mobile-world-teleporter-basic/">Interzone teleport beacon</a></div><div class="prod-card-body">ティアなし</div></div>
 </div>
 
-## Mobile fields (6)
+## モバイルフィールド(6)
 
-Deployable effect fields: ECCM, maskers and the reactor stabilizer.
+配置可能な効果フィールド: ECCM、マスカ、リアクター安定化装置。
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-radar"/></svg><a class="prod-card-name" href="/ja/content/deployables/mobile-field-eccm/">Mobile Field Eccm</a></div><div class="prod-card-body">ティアなし</div></div>
@@ -42,18 +42,18 @@ Deployable effect fields: ECCM, maskers and the reactor stabilizer.
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-radar"/></svg><a class="prod-card-name" href="/ja/content/deployables/mobile-field-reactor-stabilizer-capsule/">Mobile Field Reactor Stabilizer Capsule</a></div><div class="prod-card-body">ティアなし</div></div>
 </div>
 
-## Arena teleports (2)
+## アリーナテレポート(2)
 
-Teleport devices that move combatants and audience between the arena and the outer zones.
+アリーナと外部ゾーンの間で戦闘員と観客を移動させるワープ装置。
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-map"/></svg><a class="prod-card-name" href="/ja/content/deployables/mobile-arena-teleporter-warrior-object/">Arena warrior starter position teleport</a></div><div class="prod-card-body">ティアなし</div></div>
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-map"/></svg><a class="prod-card-name" href="/ja/content/deployables/mobile-arena-teleporter-warriorhome-object/">Warrior exit teleport</a></div><div class="prod-card-body">ティアなし</div></div>
 </div>
 
-## Mines & bombs (7)
+## 地雷と爆弾(7)
 
-Deployed explosives: the landmine sizes, wall bombs, the area bomb and plant bombs.
+配置可能な爆発物: 各サイズの地雷、壁爆弾、区域爆弾、植物爆弾。
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-star"/></svg><a class="prod-card-name" href="/ja/content/deployables/area-bomb-capsule/">Plasma bomb</a></div><div class="prod-card-body">ティアなし</div></div>
@@ -65,9 +65,9 @@ Deployed explosives: the landmine sizes, wall bombs, the area bomb and plant bom
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-star"/></svg><a class="prod-card-name" href="/ja/content/deployables/wall-bomb-b-capsule/">Wall Bomb B Capsule</a></div><div class="prod-card-body">T2</div></div>
 </div>
 
-## Wall repairers (3)
+## 壁修復装置(3)
 
-Deployed repairers that heal the wall structures.
+壁構造を回復する配置可能な修理装置。
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-tree"/></svg><a class="prod-card-name" href="/ja/content/deployables/wall-healer-large-capsule/">DWM-3 wall maintenance unit</a></div><div class="prod-card-body">ティアなし</div></div>
@@ -75,9 +75,9 @@ Deployed repairers that heal the wall structures.
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-tree"/></svg><a class="prod-card-name" href="/ja/content/deployables/wall-healer-small-capsule/">DWM-1 wall maintenance unit</a></div><div class="prod-card-body">ティアなし</div></div>
 </div>
 
-## Plant seeds (13)
+## 植物の種(13)
 
-Seeds that grow the matching plant species when planted (see [Plants](/ja/content/plants/)).
+植えると対応する植物種に成長する種(参照: [Plants](/ja/content/plants/))。
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-tree"/></svg><a class="prod-card-name" href="/ja/content/deployables/plant-seed-bonsai/">Uropsia incubator</a></div><div class="prod-card-body">ティアなし</div></div>
@@ -95,9 +95,9 @@ Seeds that grow the matching plant species when planted (see [Plants](/ja/conten
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-tree"/></svg><a class="prod-card-name" href="/ja/content/deployables/plant-seed-wall/">Defensive Wall Unit</a></div><div class="prod-card-body">ティアなし</div></div>
 </div>
 
-## NPC eggs (82)
+## NPCエッグ(82)
 
-Capsules that hatch an NPC unit when placed (bought in the [NPC egg shop](/ja/content/shop/npc-eggs/)).
+配置するとNPCユニットが孵化するカプセル([NPC egg shop](/ja/content/shop/npc-eggs/)で購入)。
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-robots"/></svg><a class="prod-card-name" href="/ja/content/deployables/npc-egg-2ndyear-capsule/">Guardian Commander TAP</a></div><div class="prod-card-body">ティアなし</div></div>
@@ -184,25 +184,25 @@ Capsules that hatch an NPC unit when placed (bought in the [NPC egg shop](/ja/co
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-robots"/></svg><a class="prod-card-name" href="/ja/content/deployables/npc-egg-thelodica-small-miniboss3-capsule/">Level 3 Light Mercenary TAP</a></div><div class="prod-card-body">T3</div></div>
 </div>
 
-## Gates (1)
+## ゲート(1)
 
-The zone gate capsule.
+ゾーンゲートカプセル。
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/deployables/gate-capsule/">Forcefield gate</a></div><div class="prod-card-body">ティアなし</div></div>
 </div>
 
-## Containers (1)
+## コンテナ(1)
 
-The deployable container capsule.
+デプロヤブル容器カプセル。
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-home"/></svg><a class="prod-card-name" href="/ja/content/deployables/container-capsule/">Field container capsule</a></div><div class="prod-card-body">ティアなし</div></div>
 </div>
 
-## Miscellaneous (6)
+## その他(6)
 
-Everything else that can be placed in the terrain: beacons, probes, buoys, and the test deployables.
+地形に配置できるその他のすべて: ビーコン、プローブ、ブイ、テスト用デプロヤブル。
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/deployables/deploy-punchbag/">Deploy Punchbag</a></div><div class="prod-card-body">ティアなし</div></div>

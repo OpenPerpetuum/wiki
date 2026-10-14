@@ -8,12 +8,12 @@ description: "What the item stats mean and how big each value is: units, catalog
 
 # ステータス解説
 
-Every item page lists raw stat values. This page puts them in scale: the unit of each stat, the smallest/largest values in the whole catalog, and real items to compare against. Ranges are computed over all enabled items (prototypes and test objects excluded).
+各アイテムページは生のステータス値を列挙します。このページはそれらをスケール化します: 各ステータスの単位、カタログ全体の最小/最大値、比較用の実際のアイテム。範囲は有効な全アイテムで計算(プロトタイプとテストオブジェクトは除外)。
 
 
-## Powergrid and CPU in context
+## 文脈における電力網とCPU
 
-A module's **powergrid_usage** is only meaningful against the robot that carries it: the chassis defines the total RP (**powergrid_max**), energy (**core_max**) and CPU (**cpu_max**) its modules may use. **Powergrid upgrades** modules add a fixed amount of RP. A usage value is a percentage of the available capacity — for example a module with powergrid_usage 214 uses 214% of an Ikarus chassis (100 RP, nothing fits beyond the frame) but only ~3% of an Onyx chassis (6.6k RP).
+モジュールの**powergrid_usage**はそれを搭載するロボットに対してのみ意味を持ちます: チャンシスはモジュールが使用できるRP総量(**powergrid_max**)、エネルギー(**core_max**)、CPU(**cpu_max**)を定義します。**Powergridアップグレード**モジュールは固定量のRPを追加します。使用値は使用可能キャパシティのパーセンテージです — 例えばpowergrid_usage 214のモジュールはIkarusチャンシス(100 RP、フレームを超えてはなにも載らない)の214%を使用しますが、Onyxチャンシス(6.6k RP)では約3%だけです。
 
 | Chassis (frame) | Powergrid (RP) | Core (RP) | CPU |
 |---|---|---|---|
@@ -89,7 +89,7 @@ A module's **powergrid_usage** is only meaningful against the robot that carries
 
 ## Stat scale
 
-For each documented stat: how many items have it, its unit, and the smallest / median / largest value in the catalog with an item you can open at each end.
+文書化された各ステータスについて: それを持つアイテム数、単位、カタログ内の最小値/中央値/最大値、各端を開けるアイテムを1つずつ。
 
 | Stat | Unit | Items | Smallest | Median | Largest | Small example | Large example |
 |---|---|---|---|---|---|---|---|
@@ -135,4 +135,4 @@ For each documented stat: how many items have it, its unit, and the smallest / m
 | `stealth_strength` | — | 525 | 1 | 100 | 100M | [Asintec terminal](/content/items/public-docking-base-thelodica/) | [Relic Sap](/content/items/relic-sap/) |
 
 
-Stats not listed here are either **modifier** stats (they change another stat instead of setting one) or internal values without a player-facing unit — the developer field reference in [Formats](/ja/formats/) lists every field.
+ここに列挙されていないステータスは、**モディファイア**ステータス(他のステータスを変更するだけ)か、プレイヤー向けの単位を持たない内部値です — [Formats](/ja/formats/)の開発者フィールド参照に全フィールドが列挙されています。

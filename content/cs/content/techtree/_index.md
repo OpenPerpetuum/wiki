@@ -8,11 +8,11 @@ description: "The research tree: every category, and every node with the item it
 
 # Technologický strom
 
-Tech tree nodes unlock items by spending **research points** (earned from kernels — see [Research](/cs/features/research/) in the features section). A node can only be unlocked when its **parent** node is unlocked and the **enabler extension** is learned. Point types: common, hitech, industrial, newtech, nuimqol, pelistal, thelodica.
+Uzly technologického stromu odemykají položky výdajem **výzkumných bodů** (získávaných z jader — viz [Research](/cs/features/research/) v sekci features). Uzel lze odemknout jen tehdy, když je odemčen jeho **rodič** a je naučeno **enabler rozšíření**. Typy bodů: common, hitech, industrial, newtech, nuimqol, pelistal, thelodica.
 
 ## Kategorie
 
-Each category is its own page with the full tree and one page per node.
+Každá kategorie má vlastní stránku s celým stromem a jednou stránkou na uzel.
 
 | Category | Nodes | Root lines | What it unlocks |
 |---|---|---|---|
