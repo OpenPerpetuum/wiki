@@ -1111,6 +1111,9 @@ def main():
         os.makedirs(d, exist_ok=True)
         world, thumb = fbm_world_thumb(slug.rstrip("/"))
         open(os.path.join(d, "world.png"), "wb").write(world)
+        # the world map references <slug>/thumb.svg (the per-zone SVGs use
+        # both names for the same procedural placeholder)
+        open(os.path.join(d, "thumb.svg"), "wb").write(thumb)
         open(os.path.join(d, "thumb.png"), "wb").write(thumb)
     workers = max(1, min(len(files), os.cpu_count() or 1))
     with Pool(workers) as pool:  # one process per core, one zone each
