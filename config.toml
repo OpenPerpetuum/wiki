@@ -28,8 +28,10 @@ smart_punctuation = false
 # into Zola [translations]); the chrome reads `config.extra.ui`, and the
 # inline JS receives it via window.WIKI_UI.
 [extra.ui]
-# The topbar brand (short; the full site name stays the page <title>).
-brand = "OP Wiki"
+# The topbar brand: the full name when the row fits (desktop), the short
+# form below the 801px breakpoint (see .brand-long/.brand-short in style.css).
+brand = "Open Perpetuum Wiki"
+brand_short = "OP Wiki"
 # Top-level sidenav links (always visible) and main-menu group names (high
 # level; each group expands in the sidenav and has an overview page under
 # /menu/).
@@ -132,6 +134,15 @@ aria_theme_toggle = "Toggle light/dark mode"
 aria_mode_toggle = "Toggle Play / Dev mode"
 aria_palette = "Choose accent color"
 aria_language = "Choose language"
+aria_close = "Close"
+# Shortcuts window (? key): title + one label per shortcut row.
+shortcuts_title = "Shortcuts"
+sc_search = "Focus the search"
+sc_close = "Close the window / clear the search"
+sc_move = "Move the search selection"
+sc_jump = "Jump to the first / last result"
+sc_open = "Open the selected result"
+sc_toggle = "Toggle this window"
 menu_palette_group = "Accent"
 menu_cb_group = "Colorblind"
 cb_default = "Default"

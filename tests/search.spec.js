@@ -53,6 +53,22 @@ test.describe('search: menu tree + keyboard result navigation', () => {
     await expect(page.locator('#search-results a').first()).toBeVisible();
   }
 
+  test('the World map page title is translated in results (fr: Monde)', async ({ page, baseURL }) => {
+    // The search index holds the English title "World"; the menu label
+    // nav_zone_map ("World"/"Monde") is its translation, so the result row
+    // shows the translated form on the French page.
+    await page.goto(`${baseURL}/`);
+    await page.evaluate(() => localStorage.setItem('wiki-lang', 'fr'));
+    await page.goto(`${baseURL}/`);
+    await page.locator('#wiki-search').fill('monde');
+    await expect(page.locator('#search-results')).toBeVisible();
+    const link = page.locator('#search-results a[href="/zones/map/"]');
+    await expect(link).toBeVisible();
+    await expect(link).toContainText('Monde');
+    // the English title must not appear on the French page
+    await expect(link).not.toContainText('World');
+  });
+
   test('menu labels find their pages (label differs from the page title)', async ({ page, baseURL }) => {
     // Sidenav label "Robot stat tables" (nav_content_robots) vs page title "Robots":
     // typing the menu label must still surface /content/robots/.

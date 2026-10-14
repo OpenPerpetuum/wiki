@@ -2,7 +2,7 @@
   "lang": "en",
   "name": "English",
   "ui": {
-    "brand": "OP Wiki",
+    "brand": "Open Perpetuum Wiki",
     "nav_home": "Home",
     "nav_start": "Start",
     "nav_play": "Play",
@@ -98,6 +98,7 @@
     "aria_theme_toggle": "Toggle light/dark mode",
     "aria_mode_toggle": "Toggle Play / Dev mode",
     "aria_palette": "Choose accent color",
+    "aria_palette_dev": "Accent color — disabled in Dev mode (click Home)",
     "aria_language": "Choose language",
     "menu_palette_group": "Accent",
     "menu_cb_group": "Colorblind",
@@ -143,7 +144,16 @@
     "home_market": "Market",
     "home_market_desc": "Buy, sell and trade with other players",
     "home_sparks": "Sparks",
-    "home_sparks_desc": "Your agent's nanobot and its ability bonuses"
+    "home_sparks_desc": "Your agent's nanobot and its ability bonuses",
+    "brand_short": "OP Wiki",
+    "aria_close": "Close",
+    "shortcuts_title": "Shortcuts",
+    "sc_search": "Focus the search",
+    "sc_close": "Close the window / clear the search",
+    "sc_move": "Move the search selection",
+    "sc_jump": "Jump to the first / last result",
+    "sc_open": "Open the selected result",
+    "sc_toggle": "Toggle this window"
   },
   "names": {},
   "labels": {

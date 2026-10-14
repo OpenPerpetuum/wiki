@@ -14,7 +14,7 @@ test.describe('i18n language switcher', () => {
     await page.goto(`${baseURL}/`);
     await clearLang(page);
     await page.reload();
-    await expect(page.locator('.nav-quick a')).toContainText('Home');
+    await expect(page.locator('.mode-tab[data-mode-tab="home"]')).toContainText('Home');
     await expect(page.locator('.nav-group-link[href="/menu/start/"]')).toContainText('Start');
     await expect(page.locator('.nav-group-link[href="/zones/map/"]')).toContainText('World');
     await expect(page.locator('#wiki-search')).toHaveAttribute('placeholder', /Search the wiki/);
@@ -30,7 +30,7 @@ test.describe('i18n language switcher', () => {
     // Navigated to /fr/ (the French home page exists)
     await page.waitForURL('**/fr/');
     // French chrome is active
-    await expect(page.locator('.nav-quick a')).toContainText('Accueil');
+    await expect(page.locator('.mode-tab[data-mode-tab="home"]')).toContainText('Accueil');
     await expect(page.locator('#wiki-search')).toHaveAttribute('placeholder', /Rechercher/);
     await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
   });
@@ -46,7 +46,7 @@ test.describe('i18n language switcher', () => {
     await page.waitForTimeout(300);
     expect(page.url()).not.toMatch(/\/fr\//);
     // But the chrome is French
-    await expect(page.locator('.nav-quick a')).toContainText('Accueil');
+    await expect(page.locator('.mode-tab[data-mode-tab="home"]')).toContainText('Accueil');
     await expect(page.locator('.nav-group-link[href*="/zones/map/"]')).toContainText('Monde');
     await expect(page.locator('#wiki-search')).toHaveAttribute('placeholder', /Rechercher/);
     await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
@@ -59,13 +59,13 @@ test.describe('i18n language switcher', () => {
     await page.goto(`${baseURL}/fr/`);
     await page.evaluate(() => localStorage.setItem('wiki-lang', 'fr'));
     await page.reload();
-    await expect(page.locator('.nav-quick a')).toContainText('Accueil');
+    await expect(page.locator('.mode-tab[data-mode-tab="home"]')).toContainText('Accueil');
     // Switch back to English (navigates to /)
     const navPromise = page.waitForNavigation({ waitUntil: 'domcontentloaded' });
     await page.locator('#lang-toggle').click();
     await page.locator('#lang-menu button[data-lang="en"]').click();
     await navPromise;
-    await expect(page.locator('.nav-quick a')).toContainText('Home');
+    await expect(page.locator('.mode-tab[data-mode-tab="home"]')).toContainText('Home');
     await expect(page.locator('#wiki-search')).toHaveAttribute('placeholder', /Search the wiki/);
   });
 
@@ -80,7 +80,7 @@ test.describe('i18n language switcher', () => {
     // Navigate to another page (no French equivalent)
     await page.goto(`${baseURL}/features/faq/`);
     // French chrome is still active
-    await expect(page.locator('.nav-quick a')).toContainText('Accueil');
+    await expect(page.locator('.mode-tab[data-mode-tab="home"]')).toContainText('Accueil');
     await expect(page.locator('#wiki-search')).toHaveAttribute('placeholder', /Rechercher/);
   });
 
@@ -143,7 +143,7 @@ test.describe('i18n language switcher', () => {
     await page.waitForTimeout(500);
 
     // Home link should point to /fr/
-    const homeLink = page.locator('.nav-quick a');
+    const homeLink = page.locator('.mode-tab[data-mode-tab="home"]');
     await expect(homeLink).toHaveAttribute('href', '/fr/');
 
     // Translated nav links should have the /fr/ prefix
@@ -180,7 +180,7 @@ test.describe('i18n language switcher', () => {
     expect(lang).toBe('fr');
 
     // Chrome text should be in French (not English)
-    const homeLabel = await page.locator('.nav-quick a span[data-i18n="nav_home"]').textContent();
+    const homeLabel = await page.locator('.mode-tab[data-mode-tab="home"] span[data-i18n="nav_home"]').textContent();
     expect(homeLabel).not.toBe('Home');
   });
 
@@ -233,7 +233,7 @@ test.describe('i18n language switcher', () => {
     await expect(page.locator('#lang-toggle')).toHaveAttribute('aria-label', /Выбрать язык/);
     await expect(page.locator('#palette-toggle')).toHaveAttribute('aria-label', /Выбрать цвет акцента/);
     await expect(page.locator('#theme-toggle')).toHaveAttribute('aria-label', /Переключить светлую/);
-    await expect(page.locator('.mode-opt[data-mode-opt="play"]')).toHaveText('Играть');
+    await expect(page.locator('.mode-tab[data-mode-tab="dev"]')).toHaveText('Dev');
 
     // Footer elements
     const footHome = page.locator('.footnav a[data-i18n="foot_home"]');
@@ -259,7 +259,7 @@ test.describe('i18n language switcher', () => {
     await expect(page.locator('#wiki-search')).toHaveAttribute('placeholder', /Wiki durchsuchen/);
     await expect(page.locator('#lang-toggle')).toHaveAttribute('aria-label', /Sprache wählen/);
     await expect(page.locator('#palette-toggle')).toHaveAttribute('aria-label', /Akzentfarbe wählen/);
-    await expect(page.locator('.mode-opt[data-mode-opt="play"]')).toHaveText('Spielen');
+    await expect(page.locator('.mode-tab[data-mode-tab="dev"]')).toHaveText('Dev');
 
     // Footer elements
     const footHome = page.locator('.footnav a[data-i18n="foot_home"]');

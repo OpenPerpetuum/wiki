@@ -18,7 +18,7 @@ const SUBS = '.sidenav li li.nav-has-sub'; // 2nd level: World(2) + Play(7, incl
 
 test('home: groups open, 2nd-level sub-lists closed', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/`);
-  expect(await page.locator('.nav-quick a').getAttribute('href')).toBe('/');
+  expect(await page.locator('.mode-tab[data-mode-tab="home"]').getAttribute('href')).toBe('/');
   expect(await page.evaluate(COLLAPSED, GROUPS)).toEqual([false, false, false, false, false]);
   expect(await page.evaluate(COLLAPSED, SUBS)).toEqual(Array(16).fill(true));
   // Home + Start(1 header + 4) + World(1 + 6) + Play(1 + 6 sub-heads)
@@ -245,33 +245,46 @@ test('tech tree page: Research sub-list auto-opens, Tech tree highlighted', asyn
 
 // --- Play / Dev mode toggle ---
 
-test('dev mode: knob switches to the matrix theme, reveals the Dev group, persists', async ({ page, baseURL }) => {
+test('dev mode: the Dev tab switches to the matrix theme, reveals the Dev group, persists', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/`);
-  // play mode (default): the Dev group is hidden
+  // play mode (default): the Dev group is hidden, the menu tree is shown
   expect(await page.locator('.nav-dev').isVisible()).toBe(false);
-  await page.click('#mode-toggle');
+  // palette selector: enabled in play mode
+  expect(await page.locator('#palette-toggle').isDisabled()).toBe(false);
+  const playTop = await page.locator('.sidenav > ul > li:visible').evaluateAll((lis) => lis.map((li) => li.className));
+  expect(playTop.filter((c) => c.startsWith('nav-group'))).toEqual(
+      Array(4).fill('nav-group')); // Start, World, Play, Systems
+  expect(playTop).toContain('nav-modes');
+  // the Dev tab: matrix theme + the Dev group — and the menu tree STAYS visible
+  await page.click('.mode-tab[data-mode-tab="dev"]');
   expect(await page.locator('html').getAttribute('data-mode')).toBe('dev');
   expect(await page.locator('.nav-dev').isVisible()).toBe(true);
-  // dev mode hides every other menu entry: only the Dev group remains
-  const visibleTop = await page.locator('.sidenav > ul > li:visible').evaluateAll((lis) => lis.map((li) => li.className));
-  expect(visibleTop).toEqual(['nav-group nav-dev']);
+  const devTop = await page.locator('.sidenav > ul > li:visible').evaluateAll((lis) => lis.map((li) => li.className));
+  expect(devTop.filter((c) => c.startsWith('nav-group')).length).toBe(5); // tree + Dev
   const devLinks = await page.locator('.nav-dev a').evaluateAll((as) => as.map((a) => a.getAttribute('href')));
   expect(devLinks).toEqual(['/features/architecture/', '/features/architecture/', '/features/server/', '/formats/']);
   // the matrix theme: bright green neon on near-black
   const neon = await page.evaluate(() => getComputedStyle(document.documentElement).getPropertyValue('--neon').trim());
   expect(neon.toLowerCase()).toBe('#00ff41');
+  // the palette selector is locked in dev mode (the matrix theme owns the
+  // accent); the tooltip points at the Home tab
+  const pal = page.locator('#palette-toggle');
+  expect(await pal.isDisabled()).toBe(true);
+  expect(await pal.getAttribute('title')).toMatch(/Home/);
   await page.reload(); // the choice survives a reload (localStorage)
   expect(await page.locator('html').getAttribute('data-mode')).toBe('dev');
   expect(await page.locator('.nav-dev').isVisible()).toBe(true);
-  // back to play
-  await page.click('#mode-toggle');
+  expect(await pal.isDisabled()).toBe(true); // still locked after reload
+  // the Home tab exits dev mode (and links to the home page)
+  await page.click('.mode-tab[data-mode-tab="home"]');
   expect(await page.locator('html').getAttribute('data-mode')).toBe(null);
   expect(await page.locator('.nav-dev').isVisible()).toBe(false);
+  expect(await pal.isDisabled()).toBe(false); // palette unlocked again
 });
 
 test('dev mode: developer home page highlights its entry', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/`);
-  await page.click('#mode-toggle');
+  await page.click('.mode-tab[data-mode-tab="dev"]');
   await page.goto(`${baseURL}/features/architecture/`);
   // the Dev group header links to the developer home: it is the active entry
   expect(await page.locator('.sidenav a.active').textContent()).toBe('Dev');
@@ -323,13 +336,13 @@ test('home page: Home quick link is marked active in sidenav', async ({ page, ba
   const active = page.locator('.sidenav a.active');
   expect(await active.count()).toBe(1);
   expect(await active.getAttribute('href')).toBe('/');
-  expect(await page.locator('.nav-quick a.active').count()).toBe(1);
+  expect(await page.locator('.mode-tab[data-mode-tab="home"].active').count()).toBe(1);
 });
 
 test('translated pages: active link is highlighted in the menu in translated languages', async ({ page, baseURL }) => {
   // Russian Home
   await page.goto(`${baseURL}/ru/`);
-  expect(await page.locator('.nav-quick a.active').count()).toBe(1);
+  expect(await page.locator('.mode-tab[data-mode-tab="home"].active').count()).toBe(1);
 
   // Russian Getting Started
   await page.goto(`${baseURL}/ru/features/getting-started/`);

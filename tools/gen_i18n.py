@@ -187,6 +187,7 @@ def main():
         if (LANG_PAGES) rewriteNavLinks(l);
         if (window.WIKI_syncLists) window.WIKI_syncLists();
         if (window.WIKI_selectActive) window.WIKI_selectActive();
+        if (window.WIKI_paletteDevLock) window.WIKI_paletteDevLock();
         // If a translated version of this page exists, navigate to it
         var url = translatedUrl(l);
         if (url && url !== window.location.pathname) {

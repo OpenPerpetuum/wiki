@@ -30,15 +30,23 @@ const CARD_W = 1160, CARD_H = 252; // card aspect ~4.6:1 (1050x230 at 1x)
     const wrap = document.querySelector('.zonemap-wrap');
     // A short, wide map box = the card's shape.
     wrap.style.height = '252px';
-    // No zone names in the thumbnail — just the islands.
-    svg.querySelectorAll('text').forEach(t => { t.style.display = 'none'; });
+    // Map only: the chrome (mode bar, zoom slider, legend, reset) is all
+    // direct children of the wrap next to the SVG — hide them. The zone
+    // labels stay (the card's purpose is to show the named starter zones).
+    Array.from(wrap.children).forEach(function (el) {
+      if (el !== svg) el.style.display = 'none';
+    });
     await new Promise(r => setTimeout(r, 80));
 
-    // Bounding box of the alpha (starter) islands, viewBox units.
+    // Bounding box of the alpha (starter) islands, viewBox units. The
+    // strongholds / PvP arena / training zones are also "protected (alpha)"
+    // but sit far outside the starter cluster — exclude them so the box
+    // (and the framing) stays on the ASI/TM/ICS islands.
     let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
     svg.querySelectorAll('a > g').forEach(g => {
       const t = g.querySelector('title'); if (!t) return;
-      if (!/\(alpha\)/.test(t.textContent)) return;
+      const txt = t.textContent;
+      if (!/\(alpha\)/.test(txt) || /Stronghold|Training/.test(txt)) return;
       const el = g.querySelector('rect, circle'); if (!el) return;
       const bb = el.getBBox();
       minX = Math.min(minX, bb.x); minY = Math.min(minY, bb.y);
@@ -57,8 +65,22 @@ const CARD_W = 1160, CARD_H = 252; // card aspect ~4.6:1 (1050x230 at 1x)
     svg.style.transform = prev;
 
     const wr = wrap.getBoundingClientRect();
-    const u = (r0.height - 32) / 1477; // px per viewBox unit at s = 1
-    const s = 1.15 * (r0.width - 32) / ((maxX - minX) * u);
+    const u = m0.a; // px per viewBox unit at s = 1 (live, from the CTM)
+    // Fit the cluster into the frame, but never smaller than MIN_PX_PER_UNIT
+    // — below that the zone labels (0.9–7 viewBox units) become unreadable
+    // at card size; the frame then shows a region of the map, like the
+    // classic thumbnail.
+    const MIN_PX_PER_UNIT = 3.0;
+    const sFit = Math.min(wr.width / ((maxX - minX) * u), wr.height / ((maxY - minY) * u));
+    const s = Math.max(sFit, MIN_PX_PER_UNIT / u);
+    // Chromium applies the CSS zoom to non-scaling strokes (the TP lines are
+    // 0.8px + vector-effect: non-scaling-stroke and would render as 0.8*s
+    // px bars at s = 20+). Override the width and dash length for the shot
+    // so the lines stay thin like at rest.
+    svg.querySelectorAll('.zonemap-tp').forEach(function (l) {
+      l.style.strokeWidth = (1.0 / s).toFixed(4);
+      l.style.strokeDasharray = (4 / s).toFixed(4) + ' ' + (3 / s).toFixed(4);
+    });
     const tx = (wr.left + wr.width / 2) - rcx - s * (pxc - rcx);
     const ty = (wr.top + wr.height * 0.62) - rcy - s * (pyc - rcy); // alpha slightly low -> beta shows on top
     svg.style.transform = 'translate(' + tx + 'px,' + ty + 'px) scale(' + s + ')';

@@ -2,7 +2,7 @@
   "lang": "fr",
   "name": "Français",
   "ui": {
-    "brand": "OP Wiki",
+    "brand": "Open Perpetuum Wiki",
     "nav_home": "Accueil",
     "nav_start": "Démarrer",
     "nav_play": "Jouer",
@@ -98,6 +98,7 @@
     "aria_theme_toggle": "Basculer le mode clair/sombre",
     "aria_mode_toggle": "Basculer le mode Jouer / Dev",
     "aria_palette": "Choisir la couleur d'accent",
+    "aria_palette_dev": "Couleur d'accent — désactivée en mode Dev (cliquez sur Accueil)",
     "aria_language": "Choisir la langue",
     "menu_palette_group": "Accent",
     "menu_cb_group": "Daltonisme",
@@ -143,7 +144,16 @@
     "home_sparks": "Étincelles",
     "home_sparks_desc": "Le nanobot de votre agent et ses bonus",
     "home_title": "Open Perpetuum",
-    "home_desc": "Un MMO à univers persistant : pilotez des robots à travers une galaxie de zones, collectez des ressources, construisez et défendez des stations de base (PBS), contestez des sites d'intrusion, commercez et progressez d'un robot de départ à une machine de guerre entièrement équipée."
+    "home_desc": "Un MMO à univers persistant : pilotez des robots à travers une galaxie de zones, collectez des ressources, construisez et défendez des stations de base (PBS), contestez des sites d'intrusion, commercez et progressez d'un robot de départ à une machine de guerre entièrement équipée.",
+    "brand_short": "OP Wiki",
+    "aria_close": "Fermer",
+    "shortcuts_title": "Raccourcis",
+    "sc_search": "Aller à la recherche",
+    "sc_close": "Fermer la fenêtre / effacer la recherche",
+    "sc_move": "Déplacer la sélection des résultats",
+    "sc_jump": "Aller au premier / dernier résultat",
+    "sc_open": "Ouvrir le résultat sélectionné",
+    "sc_toggle": "Afficher / masquer cette fenêtre"
   },
   "names": {
     "alligior": "Alligior",

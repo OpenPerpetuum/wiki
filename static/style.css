@@ -102,6 +102,14 @@ pre code { background: none; padding: 0; }
     letter-spacing: 0.14em; text-transform: uppercase;
     text-shadow: 0 0 10px var(--neon-dim);
 }
+/* The full brand name is shown when the topbar row fits it (desktop);
+   below the 801px breakpoint the short form takes its place. */
+.brand-long { display: none; }
+.brand-short { display: inline; }
+@media (min-width: 801px) {
+    .brand-long { display: inline; }
+    .brand-short { display: none; }
+}
 .brand:hover { text-decoration: none; color: var(--neon); }
 .brand-logo {
     width: 26px; height: 26px;
@@ -120,6 +128,9 @@ pre code { background: none; padding: 0; }
     padding: 0;
 }
 .palette-toggle:hover { border-color: var(--neon); box-shadow: 0 0 8px var(--neon-faint); }
+/* locked in dev mode (the matrix theme owns the accent): dimmed, no hover */
+.palette-toggle[disabled] { opacity: 0.4; cursor: not-allowed; }
+.palette-toggle[disabled]:hover { border-color: var(--neon-dim); box-shadow: none; }
 /* the swatch: a ring through all four accent colors */
 .palette-swatch {
     width: 16px; height: 16px; border-radius: 50%;
@@ -198,6 +209,60 @@ pre code { background: none; padding: 0; }
 .search-results .no-results, .search-results .result-count { padding: 0.6rem 0.7rem; color: var(--chrome-muted); }
 .search-results .result-count { font-size: 0.8rem; border-bottom: 1px solid var(--neon-faint); border-radius: 6px 6px 0 0; padding-bottom: 0.4rem; }
 
+/* ============ chrome: shortcuts window (? key) ============ */
+/* A small dialog positioned inside the content area by the inline JS
+   (templates/base.html). The backdrop catches outside clicks. */
+#shortcuts-backdrop {
+    position: fixed; inset: 0; z-index: 60;
+    background: rgba(0, 0, 0, 0.45);
+}
+.shortcuts-panel {
+    position: fixed; z-index: 61;
+    width: min(620px, calc(100vw - 4rem));
+    max-height: calc(100vh - 3rem);
+    overflow-y: auto;
+    background: linear-gradient(180deg, var(--chrome-bg2), var(--chrome-bg));
+    border: 1px solid var(--neon-dim);
+    border-radius: 10px;
+    box-shadow: 0 0 18px var(--neon-faint), 0 12px 40px rgba(0, 0, 0, 0.6);
+    padding: 0.9rem 1.1rem 1rem;
+}
+.shortcuts-head { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.7rem; }
+.shortcuts-head h2 {
+    margin: 0; flex: 1;
+    font-size: 0.8rem; font-weight: 700;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--neon); opacity: 0.9;
+}
+.shortcuts-close {
+    flex: none; width: 1.7rem; height: 1.7rem; padding: 0;
+    border: 1px solid var(--neon-dim); border-radius: 5px;
+    background: transparent; color: var(--chrome-muted);
+    font-size: 0.75rem; line-height: 1; cursor: pointer;
+}
+.shortcuts-close:hover { color: var(--neon); background: var(--neon-faint); }
+/* Two-column grid when the panel is wide enough, one column when it is not */
+.shortcuts-grid {
+    list-style: none; margin: 0; padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 0.5rem 1.4rem;
+}
+.shortcuts-grid li { display: flex; align-items: baseline; gap: 0.7rem; min-width: 0; }
+.shortcuts-grid .sc-keys { flex: none; white-space: nowrap; }
+.shortcuts-grid li span:last-child { color: var(--chrome-muted); font-size: 0.88rem; }
+.shortcuts-grid kbd {
+    display: inline-block;
+    padding: 0.1rem 0.4rem;
+    border: 1px solid var(--neon-dim);
+    border-bottom-width: 2px;
+    border-radius: 5px;
+    background: var(--neon-faint);
+    color: var(--chrome-fg);
+    font: 600 0.78rem/1.4 ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+.shortcuts-grid .sc-or { color: var(--chrome-muted); font-size: 0.8em; padding: 0 0.1rem; }
+
 /* ============ chrome: side menu ============ */
 .layout {
     display: flex; align-items: stretch; gap: 1.2rem;
@@ -217,7 +282,70 @@ pre code { background: none; padding: 0; }
 .sidenav ul { list-style: none; padding: 0; margin: 0; }
 /* top-level groups: header row (overview link + collapse caret) above the items */
 .sidenav .nav-group { margin-top: 0.9rem; }
-.sidenav .nav-quick { margin-top: 0; }
+.sidenav .nav-modes { margin-top: 0; }
+/* Home / Dev mode tabs: two halves split by a DIAGONAL divider, each half
+   a different color (home = accent, dev = matrix green). The container is
+   skewed so the straight divider between the halves reads diagonal; the
+   labels counter-skew back. The active half glows (html[data-mode] in the
+   CSS below). */
+.mode-tabs {
+    display: flex;
+    margin: 0 0.45rem 0.4rem;
+    transform: skewX(-14deg);
+    border: 1px solid var(--neon-dim);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px var(--neon-faint);
+}
+.mode-tab {
+    flex: 1 1 0;
+    display: block;
+    transform: skewX(14deg);
+    margin: 0;
+    padding: 0.4rem 0.3rem;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    font-size: 0.82rem; font-weight: 700; letter-spacing: 0.1em;
+    text-transform: uppercase; text-decoration: none;
+    cursor: pointer;
+    background: transparent;
+    color: var(--chrome-muted);
+    transition: background 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+.mode-tab + .mode-tab { border-left: 1px solid var(--neon-dim); }
+/* the two resting colors: home = accent tint, dev = matrix-green tint */
+.sidenav .mode-tab[data-mode-tab="home"] { background: var(--neon-faint); color: var(--neon); }
+.sidenav .mode-tab[data-mode-tab="dev"] { background: rgba(0, 255, 65, 0.10); color: #59d97f; }
+/* the active half glows (home glows in play mode, dev glows in dev mode) */
+html:not([data-mode="dev"]) .sidenav .mode-tab[data-mode-tab="home"] {
+    box-shadow: inset 0 0 14px var(--neon-faint);
+}
+html[data-mode="dev"] .sidenav .mode-tab[data-mode-tab="home"] {
+    color: var(--chrome-muted);
+}
+html[data-mode="dev"] .sidenav .mode-tab[data-mode-tab="dev"] {
+    background: rgba(0, 255, 65, 0.22);
+    color: #00ff41;
+    box-shadow: inset 0 0 16px rgba(0, 255, 65, 0.30);
+}
+/* hover (higher specificity than the generic .sidenav a:hover rules) */
+.sidenav .mode-tab[data-mode-tab="home"]:hover,
+.sidenav .mode-tab[data-mode-tab="dev"]:hover {
+    border-left-color: var(--neon-dim);
+}
+.sidenav .mode-tab[data-mode-tab="dev"]:hover { color: #00ff41; background: rgba(0, 255, 65, 0.16); }
+.sidenav .mode-tab[data-mode-tab="home"]:hover { color: var(--neon); }
+/* current-page highlight (home page): keep the glow, drop the box outline */
+.sidenav .mode-tab.active {
+    outline: none;
+    border-radius: 0;
+    text-shadow: none;
+}
+html[data-mode="dev"] .sidenav .mode-tab.active {
+    background: rgba(0, 255, 65, 0.22);
+    color: #00ff41;
+}
 .sidenav .nav-group-head { display: flex; align-items: center; gap: 0.5rem; }
 /* collapse caret button on a group header */
 .sidenav .nav-caret {
@@ -236,13 +364,6 @@ pre code { background: none; padding: 0; }
 .sidenav .nav-has-sub.collapsed > ul { display: none; }
 .sidenav .nav-group.collapsed > .nav-group-head .nav-caret,
 .sidenav .nav-has-sub.collapsed > .nav-sub-head .nav-caret { transform: rotate(-90deg); }
-/* Home quick link */
-.sidenav .nav-quick a {
-    margin-bottom: 0.2rem;
-    border: 1px solid var(--neon-dim);
-    background: var(--neon-faint);
-    font-weight: 600;
-}
 /* a regular item that carries an icon (World, Extension tree) */
 .sidenav a.nav-item-icon { display: flex; align-items: center; gap: 0.5rem; }
 .sidenav a.nav-item-icon .navicon { width: 20px; height: 20px; }
@@ -1075,7 +1196,15 @@ html[data-theme="light"][data-cb="achro"] {
    visible — one row on desktop, two rows on mobile */
 main [id] { scroll-margin-top: 4.2rem; }
 @media (max-width: 800px) { main [id] { scroll-margin-top: 7rem; } }
-.zonemap-label { fill: var(--fg); opacity: 0.85; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.zonemap-label {
+    fill: var(--fg); opacity: 0.85;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    /* Black outline (painted under the fill) so the names stay readable
+       over the bright terrain islands. User-unit width: the outline keeps
+       its ratio to the (per-label) font size at every zoom level. */
+    paint-order: stroke fill;
+    stroke: #000; stroke-width: 0.4; stroke-linejoin: round;
+}
 .zonemap circle:not(.zonemap-node-tm):not(.zonemap-node-ics):not(.zonemap-node-asi):not(.zonemap-node-gamma):not(.zonemap-node-special),
 .zonemap rect:not(.zonemap-node-tm):not(.zonemap-node-ics):not(.zonemap-node-asi):not(.zonemap-node-gamma):not(.zonemap-node-special) { stroke: rgba(0, 0, 0, 0.35); stroke-width: 1; }
 
@@ -1544,31 +1673,13 @@ a.prod-card-name:hover { color: var(--neon, #41d3ff); }
 }
 
 /* ------------------------------------------------------------------ */
-/* Play / Dev mode toggle (top bar) + dev-mode visibility              */
+/* Home / Dev mode tabs (top of the sidenav) + dev-mode visibility     */
 /* ------------------------------------------------------------------ */
-.mode-toggle {
-    display: inline-flex; align-items: center; gap: 1px;
-    padding: 2px;
-    border: 1px solid var(--neon-dim); border-radius: 999px;
-    background: var(--chrome-bg2); color: var(--chrome-muted);
-    font: 600 0.7rem/1.3 system-ui, sans-serif; letter-spacing: 0.04em;
-    cursor: pointer;
-    transition: border-color 0.15s ease;
-}
-.mode-toggle:hover, .mode-toggle:focus-visible { border-color: var(--neon); outline: none; }
-.mode-opt { padding: 2px 8px; border-radius: 999px; opacity: 0.55; transition: opacity 0.15s ease; }
-html:not([data-mode="dev"]) .mode-opt[data-mode-opt="play"],
-html[data-mode="dev"] .mode-opt[data-mode-opt="dev"] {
-    opacity: 1; color: var(--neon);
-    background: var(--neon-faint);
-    box-shadow: 0 0 8px var(--neon-faint);
-}
-/* the Dev sidenav group is hidden outside dev mode */
+/* the Dev sidenav group is hidden outside dev mode; the menu tree stays
+   visible in both modes (dev mode adds the group, it no longer replaces
+   the tree) */
 .nav-dev { display: none; }
 html[data-mode="dev"] .nav-dev { display: block; }
-/* dev mode: the menu shows ONLY the Dev group — the Home quick link and
-   every play-mode group are hidden */
-html[data-mode="dev"] .sidenav > ul > li:not(.nav-dev) { display: none; }
 
 /* ------------------------------------------------------------------ */
 /* Dev mode: "the matrix" — near-black, everything glows bright green */

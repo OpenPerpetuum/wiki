@@ -540,7 +540,12 @@ public static class ZonesMapPage
             // Label ABOVE the island, centered, scaled down so it never
             // overhangs the island's own width (the map stays readable at
             // rest; zoom in for the small islands).
-            var displayName = DisplayName(z.Name);
+            // Client display name when the client named the zone (same
+            // source as the zone pages and the home cards); otherwise the
+            // derived slug form.
+            var displayName = Md.ClientStrings.TryGetValue(z.Name, out var clientName) && clientName != z.Name
+                ? clientName
+                : DisplayName(z.Name);
             var fontSize = Math.Min(7, size / (0.62 * displayName.Length));
             if (fontSize < 0.9) fontSize = 0.9;
             var text = $"<text x=\"{x1:0.#}\" y=\"{y1 - size / 2 - 1.2:0.#}\" text-anchor=\"middle\" font-size=\"{fontSize:0.##}\" class=\"zonemap-label\">{displayName}</text>";
@@ -618,11 +623,12 @@ public static class ZonesMapPage
 
     private static string Escape(string s) => s.Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt>");
 
-    /// <summary>Human form of a zone definition name for the map labels —
-    /// the DB carries no client display names, so derive one: tokens are
+    /// <summary>Human form of a zone definition name for the map labels,
+    /// used when the client never named the zone (ClientStrings has no
+    /// entry): tokens are
     /// space-joined, short tokens uppercased (tc, pve, z, g), the rest
     /// title-cased, existing acronyms kept (ASI, TM). zone_gamma_tc_z106
-    /// -> "Gamma TC Z106"; zone_asi_a_real -> "ASI A Real".</summary>
+    /// -> "Gamma TC Z106"; zone_strghld_70 -> "Strghld 70".</summary>
     private static string DisplayName(string name)
     {
         var n = name.StartsWith("zone_", StringComparison.Ordinal) ? name[5..] : name;

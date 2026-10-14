@@ -36,7 +36,7 @@ That's it. The build pipeline:
     "nav_home": "Startseite",
     "nav_start": "Starten",
     "search_placeholder": "Wiki durchsuchen…  (Strg+F)",
-    "...": "all 142 UI keys (see translations/en.json for the full list)"
+    "...": "all 152 UI keys (see translations/en.json for the full list)"
   },
   "names": {
     "crude": "Rohöl",
@@ -95,14 +95,25 @@ translations are fine.
 
 ### `ui` keys
 
-See `translations/en.json` for the full list (142 keys). The main groups:
+See `translations/en.json` for the full list (152 keys). The main groups:
 
 - `nav_*` — sidenav labels (groups, items, sub-items); these double as the
-  searchable labels of `static/menu_tree.json`
+  searchable labels of `static/menu_tree.json`. `nav_home` + `nav_mode_dev`
+  label the Home / Dev mode tabs (the diagonal two-color tab control at the
+  top of the sidenav that switches the matrix theme + Dev group)
+- `brand` / `brand_short` — topbar brand: full name on desktop, short form
+  below the 801px breakpoint (both are proper nouns, identical in all
+  languages)
 - `search_*` — search box placeholder (ends with the shortcut hint
   `(/ or Ctrl+F or Cmd+F)` — keep the hint verbatim; the handlers live in
   `templates/base.html`), results count
-- `aria_*` — accessibility labels
+- `shortcuts_title` + `sc_*` — the shortcuts window that `?` opens inside
+  the content area (title + one description per shortcut row; the key caps
+  themselves — `/`, `Esc`, `↑`… — stay literal)
+- `aria_*` — accessibility labels (`aria_palette_dev`: the palette
+  selector's tooltip while Dev mode is active — the selector is locked
+  then, because the matrix theme owns the accent; the tooltip points at
+  the Home tab)
 - `palette_*`, `cb_*` — accent color + colorblind mode menus
 - `zonemap_*` — zone-map display-mode buttons + the landmarks panel that
   `static/zone-map.js` builds at runtime on zone pages (toggle, toggle-all,
@@ -238,8 +249,9 @@ make test-py  # Python (tests_py/): unit + fixture + in-place idempotency
 The Python suite's integration layer re-runs the generators in place and
 asserts the output is byte-identical — so the working tree must be in a
 generated state (a plain `make build` is enough). The browser suite includes
-the search keyboard-navigation and landmarks-panel i18n specs
-(`tests/search.spec.js`, `tests/zone-map.spec.js`).
+the search keyboard-navigation, landmarks-panel i18n, and shortcuts-window
+(`?` key) specs (`tests/search.spec.js`, `tests/zone-map.spec.js`,
+`tests/shortcuts.spec.js`).
 
 ## Extracting game names for a new language
 

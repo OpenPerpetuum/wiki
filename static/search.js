@@ -101,6 +101,21 @@ function wikiSearchInit() {
                 if (target && (m.u || '') === site) {
                     target.tl += ' ' + label.toLowerCase();
                     target.dl += ' ' + label.toLowerCase() + ' ' + crumb.toLowerCase();
+                    // Page title: the index holds the English title, but when
+                    // the menu label is a translatable (nav_*) key whose
+                    // ENGLISH form IS the page's English title, the label is
+                    // a translation of that title (not a different label) —
+                    // show the translated form, e.g. /zones/map/ "World"
+                    // -> "Monde" (fr) / "Welt" (de). Pages whose nav label
+                    // differs from the title ("Groups" vs "With others")
+                    // keep the index title.
+                    if (typeof m.l === 'string' && m.l.indexOf('nav_') === 0) {
+                        var enUi = (i18n.en || {})[m.l];
+                        if (enUi && enUi === target.t) {
+                            target.t = label;
+                            target.tl = (label + ' ' + label).toLowerCase();
+                        }
+                    }
                 } else {
                     var u2 = m.u || '/';
                     if (rootPath && rootPath !== '/' && u2.indexOf(rootPath + '/') !== 0)
