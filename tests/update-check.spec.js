@@ -6,13 +6,18 @@ const { test, expect } = require('@playwright/test');
 
 const PAGE = '/features/items/';
 
-// make the server pretend the deployed page changed: same response for
-// navigations (sec-fetch-dest: document), modified <main> for the
-// no-store re-fetch the checker does (sec-fetch-dest: empty)
+// make the server pretend the deployed page changed: the initial navigation
+// passes through untouched, every later fetch (the checker's no-store
+// re-fetch) gets a modified <main>. The route is installed BEFORE navigation:
+// the checker's first re-fetch fires ~2 s after the script parses (before
+// 'load'), so installing it afterwards would race the page load on slow
+// runners — a clean first check then throttles the next one ~60 s out, past
+// the test's timeout. (sec-fetch-dest cannot be used to tell the requests
+// apart: it is not populated on Playwright-intercepted requests.)
 async function pretendRedeploy(page, baseURL) {
+  let first = true;
   await page.route(`${baseURL}${PAGE}`, async (route) => {
-    const isNavigation = route.request().headers()['sec-fetch-dest'] === 'document';
-    if (isNavigation) return route.continue();
+    if (first) { first = false; return route.continue(); }
     const response = await route.fetch();
     const html = (await response.text()).replace('</main>', '<p data-deployed="newer">x</p></main>');
     return route.fulfill({ response, body: html });
@@ -27,8 +32,8 @@ test('no toast when the deployed page is unchanged', async ({ page, baseURL }) =
 });
 
 test('toast appears when the deployed page changed, and clicking it refreshes', async ({ page, baseURL, context }) => {
-  await page.goto(`${baseURL}${PAGE}`, { waitUntil: 'load' });
   await pretendRedeploy(page, baseURL);
+  await page.goto(`${baseURL}${PAGE}`, { waitUntil: 'load' });
 
   const toast = page.locator('.update-toast');
   await toast.waitFor({ state: 'visible', timeout: 15000 });
