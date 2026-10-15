@@ -112,12 +112,27 @@
     // links and image hrefs (written by the generator; fetched as plain
     // files, so nothing rewrites them) — prefix with the base's PATH part
     // for subpath deploys (no-op when the base is "/").
-    var ROOT = (document.body && document.body.getAttribute('data-root')) || '/';
-    var ROOT_PATH = ROOT.replace(/^https?:\/\/[^/]+/, '').replace(/\/+$/, ''); // "" | "/Wiki"
+    //
+    // Read LAZILY: this script loads in <head>, so document.body does not
+    // exist yet at parse time (an eager read made ROOT_PATH "" forever).
+    var ROOT_PATH = null;
+    function rootPath() {
+        if (ROOT_PATH === null && document.body) {
+            var root = document.body.getAttribute('data-root') || '/';
+            // Whitelist path characters so a tampered data-root can never
+            // yield a scheme switch or non-path text (js/xss-through-dom).
+            ROOT_PATH = root
+                .replace(/^https?:\/\/[^/]+/, '')
+                .replace(/\/+$/, '')
+                .replace(/[^A-Za-z0-9/._-]/g, '');
+        }
+        return ROOT_PATH || '';
+    }
     function withRoot(h) {
         if (!h || h.charAt(0) !== '/') return h;
-        if (ROOT_PATH && h.indexOf(ROOT_PATH + '/') === 0) return h;
-        return ROOT_PATH + h;
+        var rp = rootPath();
+        if (rp && h.indexOf(rp + '/') === 0) return h;
+        return rp + h;
     }
 
     function upgrade(img) {
