@@ -30,7 +30,12 @@
     function rootPath() {
         if (ROOT_PATH === null && document.body) {
             var root = document.body.getAttribute('data-root') || '/';
-            ROOT_PATH = root.replace(/^https?:\/\/[^/]+/, '').replace(/\/+$/, '');
+            // Whitelist path characters so a tampered data-root can never
+            // yield a scheme switch or non-path text (js/xss-through-dom).
+            ROOT_PATH = root
+                .replace(/^https?:\/\/[^/]+/, '')
+                .replace(/\/+$/, '')
+                .replace(/[^A-Za-z0-9/._-]/g, '');
         }
         return ROOT_PATH || '';
     }
