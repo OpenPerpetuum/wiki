@@ -18,8 +18,14 @@
                 if (localStorage.getItem("wiki-mode") === "dev")
                     document.documentElement.setAttribute("data-mode", "dev");
                 var lang = localStorage.getItem("wiki-lang");
-                // Detect language from URL path (takes priority over localStorage)
-                var m = /^\/([a-z]{2,3}(?:-[A-Z]{2})?)\//.exec(window.location.pathname);
+                // Detect language from URL path (takes priority over
+                // localStorage). Runs against the SITE-ABSOLUTE path: on a
+                // subpath deploy (GitHub Pages project site) the pathname
+                // starts with the base path from config.base_url.
+                var wikiRoot = "{{ config.base_url }}".replace(/^https?:\/\/[^/]+/, "").replace(/\/+$/, "");
+                var wikiPath = window.location.pathname;
+                if (wikiRoot && wikiPath.indexOf(wikiRoot) === 0) wikiPath = wikiPath.slice(wikiRoot.length) || "/";
+                var m = /^\/([a-z]{2,3}(?:-[A-Z]{2})?)\//.exec(wikiPath);
                 if (m) lang = m[1];
                 if (lang && lang !== "en") {
                     document.documentElement.setAttribute("lang", lang);
@@ -745,8 +751,21 @@
             return h && h.indexOf(o) === 0 ? (h.slice(o.length) || "/") : h;
         }
 
+        // Strip a LEADING language prefix, but only for a known language code
+        // (window.WIKI_LANGS from i18n.js): a bare 2–3-char match would eat
+        // short content segments that happen to look like a code.
         function stripLang(p) {
-            return p ? p.replace(/^\/([a-z]{2,3}(?:-[A-Z]{2})?)(\/|$)/, "/") : "/";
+            if (!p) return "/";
+            var m = /^\/([a-z]{2,3}(?:-[A-Z]{2})?)(\/|$)/.exec(p);
+            if (!m) return p;
+            if (window.WIKI_LANGS) {
+                var known = false;
+                for (var i = 0; i < window.WIKI_LANGS.length; i++) {
+                    if (window.WIKI_LANGS[i].code === m[1]) { known = true; break; }
+                }
+                if (!known) return p;
+            }
+            return p.slice(m[1].length + 1) || "/";
         }
 
         function norm(p) { return p.length > 1 && p[p.length - 1] === "/" ? p : p + "/"; }

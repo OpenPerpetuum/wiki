@@ -2636,8 +2636,22 @@
     };
 
 
+    function rootPath() {
+        var root = (document.body && document.body.getAttribute('data-root')) || '';
+        return root.replace(/^https?:\/\/[^/]+/, '').replace(/\/+$/, '');
+    }
+
+    // Site-absolute form of a path: strip the deploy base path if present,
+    // ensure a leading slash. No-op when the site lives at the domain root.
+    function sitePath(p) {
+        var rp = rootPath();
+        if (rp && p.indexOf(rp) === 0) p = p.slice(rp.length) || '/';
+        if (!p.startsWith('/')) p = '/' + p;
+        return p;
+    }
+
     function getLangFromUrl() {
-        var m = /^\/([a-z]{2,3}(?:-[A-Z]{2})?)(\/|$)/.exec(window.location.pathname);
+        var m = /^\/([a-z]{2,3}(?:-[A-Z]{2})?)(\/|$)/.exec(sitePath(window.location.pathname));
         if (m) {
             var code = m[1];
             for (var i = 0; i < LANGS.length; i++) {
@@ -2678,7 +2692,8 @@
     var DEFAULT_LANG = LANGS.length > 0 ? LANGS[0].code : 'en';
 
     function translatedUrl(l) {
-        var path = window.location.pathname;
+        var rp = rootPath();
+        var path = sitePath(window.location.pathname);
         // Strip the current language prefix if present (region-aware:
         // /zh-CN/... must match "zh-CN", not "zh")
         var currentPrefix = '';
@@ -2691,17 +2706,18 @@
 
         if (l === DEFAULT_LANG) {
             // Default language: the target is just the base path (no prefix)
-            if (currentPrefix && basePath !== path) return basePath;
+            if (currentPrefix && basePath !== path) return rp + basePath;
             return null; // already on the default language
         }
 
-        // Non-default language: check the manifest
+        // Non-default language: check the manifest (site-absolute paths),
+        // re-add the deploy base to the navigation URL.
         if (!LANG_PAGES || !LANG_PAGES[l]) return null;
         var target = '/' + l + basePath;
         target = target.replace(/\/\//g, '/');
         var pages = LANG_PAGES[l];
         for (var i = 0; i < pages.length; i++) {
-            if (pages[i] === target || pages[i] + '/' === target) return target;
+            if (pages[i] === target || pages[i] + '/' === target) return rp + target;
         }
         return null;
     }
@@ -2810,6 +2826,7 @@
     
     function rewriteNavLinks(l) {
         if (!LANG_PAGES || l === DEFAULT_LANG) return;
+        var rp = rootPath();
         // Sidenav (including .nav-group-link like Start/Play/Systems)
         // + home cards + footer + topbar brand + in-page content.
         var links = document.querySelectorAll('.sidenav a, .home-card, .footnav a, .brand, article a, main a');
@@ -2818,12 +2835,17 @@
             var href = a.getAttribute('href');
             if (!href || href.startsWith('http') || href.startsWith('#')) continue;
             
+            // Work site-absolute: on a subpath deploy the DOM hrefs already
+            // carry the base path ("/wiki/..."); strip it for the language
+            // math and re-add it to the result (no double prefix).
+            var siteHref = sitePath(href);
+            
             var currentPrefix = '';
-            var m = /^\/([a-z]{2,3}(?:-[A-Z]{2})?)(\/|$)/.exec(href);
+            var m = /^\/([a-z]{2,3}(?:-[A-Z]{2})?)(\/|$)/.exec(siteHref);
             if (m && m[1] !== DEFAULT_LANG && LANG_PAGES[m[1]]) {
                 currentPrefix = '/' + m[1];
             }
-            var basePath = currentPrefix ? (href.slice(currentPrefix.length) || '/') : href;
+            var basePath = currentPrefix ? (siteHref.slice(currentPrefix.length) || '/') : siteHref;
             if (!basePath.startsWith('/')) basePath = '/' + basePath;
             
             var target = '/' + l + basePath;
@@ -2845,7 +2867,7 @@
             }
             
             if (hasTranslation) {
-                a.setAttribute('href', targetWithSlash + anchor);
+                a.setAttribute('href', rp + targetWithSlash + anchor);
             }
         }
         if (window.WIKI_syncLists) window.WIKI_syncLists();

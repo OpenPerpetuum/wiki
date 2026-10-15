@@ -1,10 +1,12 @@
 // Minimal static file server for the tests: serves a directory over HTTP on
 // 127.0.0.1 (no external dependencies).
 //
-//   node tests/serve.js <root-dir> [port]
+//   node tests/serve.js <root-dir> [port] [subpath-dir]
 //
 // Prints the bound port (useful with port 0 = ephemeral) and exits 1 if the
-// root directory does not exist.
+// root directory does not exist. With a subpath-dir, requests under /wiki/
+// are served from that directory (the subpath deploy fixture, see
+// tests/setup-subpath.js).
 
 'use strict';
 
@@ -12,11 +14,18 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
+const SUBPATH = '/wiki';
+
 const root = path.resolve(process.argv[2] || 'public');
 const port = parseInt(process.argv[3] || '0', 10);
+const subpathRoot = process.argv[4] ? path.resolve(process.argv[4]) : null;
 
 if (!fs.statSync(root, { throwIfNoEntry: false })) {
   console.error(`serve.js: root directory not found: ${root} (run 'make build' first)`);
+  process.exit(1);
+}
+if (subpathRoot && !fs.statSync(subpathRoot, { throwIfNoEntry: false })) {
+  console.error(`serve.js: subpath directory not found: ${subpathRoot} (run tests/setup-subpath.js first)`);
   process.exit(1);
 }
 
@@ -41,13 +50,18 @@ const TYPES = {
 const server = http.createServer((req, res) => {
   let pathname;
   try {
-    pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);
+    pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname).replace(/\/{2,}/g, '/');
   } catch {
     res.writeHead(400); res.end('bad request'); return;
   }
   if (pathname.endsWith('/')) pathname += 'index.html';
-  const file = path.normalize(path.join(root, pathname));
-  if (!file.startsWith(root + path.sep) && file !== root) {
+  let dir = root;
+  if (subpathRoot && (pathname === SUBPATH || pathname.startsWith(SUBPATH + '/'))) {
+    dir = subpathRoot;
+    pathname = pathname.slice(SUBPATH.length) || '/';
+  }
+  const file = path.normalize(path.join(dir, pathname));
+  if (!file.startsWith(dir + path.sep) && file !== dir) {
     res.writeHead(403); res.end('forbidden'); return;
   }
   fs.readFile(file, (err, data) => {
