@@ -13,3 +13,4 @@ static/zonemaps/*/
 .assets/
 .test-build/
 .serve-public/
+.subpath-public/

@@ -26,11 +26,20 @@ module.exports = defineConfig({
     launchOptions: process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {},
   },
   projects: [
-    { name: 'desktop', use: { viewport: { width: 1280, height: 720 } } },
+    // The subpath project runs ONLY i18n-subpath.spec.js; the other projects
+    // skip it (the rest of the suite is base-path-agnostic — it already
+    // passes against the root build).
+    { name: 'desktop', testMatch: '**/*.spec.js', testIgnore: 'i18n-subpath.spec.js', use: { viewport: { width: 1280, height: 720 } } },
+    // Simulates the GitHub Pages project site: the same build served under
+    // /wiki/ with deploy-style link rewrites + data-root (see
+    // tests/setup-subpath.js).
+    { name: 'subpath', testMatch: 'i18n-subpath.spec.js', use: { viewport: { width: 1280, height: 720 }, baseURL: `http://127.0.0.1:${port}/wiki` } },
     // phone-sized; isMobile/hasTouch emulate a real handset (viewport meta,
     // touch events). Mobile-only tests skip on the desktop project.
     {
       name: 'mobile',
+      testMatch: '**/*.spec.js',
+      testIgnore: 'i18n-subpath.spec.js',
       use: {
         viewport: { width: 390, height: 844 },
         deviceScaleFactor: 2,
@@ -40,9 +49,13 @@ module.exports = defineConfig({
     },
   ],
   webServer: {
-    command: `node tests/serve.js public ${port}`,
+    // Build the /wiki subpath deploy fixture first (webServer starts before
+    // globalSetup, so this must be part of the command chain).
+    command: `node tests/setup-subpath.js && node tests/serve.js public ${port} .subpath-public`,
     url: `http://127.0.0.1:${port}/`,
     reuseExistingServer: true,
-    timeout: 15 * 1000,
+    // Generous: the command first builds the subpath fixture (~35s for the
+    // ~21k-file public/ copy + rewrites) before the server binds.
+    timeout: 120 * 1000,
   },
 });
