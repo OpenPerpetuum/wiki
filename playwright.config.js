@@ -26,20 +26,20 @@ module.exports = defineConfig({
     launchOptions: process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {},
   },
   projects: [
-    // The subpath project runs ONLY i18n-subpath.spec.js; the other projects
-    // skip it (the rest of the suite is base-path-agnostic — it already
+    // The subpath project runs ONLY the subpath specs; the other projects
+    // skip them (the rest of the suite is base-path-agnostic — it already
     // passes against the root build).
-    { name: 'desktop', testMatch: '**/*.spec.js', testIgnore: 'i18n-subpath.spec.js', use: { viewport: { width: 1280, height: 720 } } },
+    { name: 'desktop', testMatch: '**/*.spec.js', testIgnore: ['i18n-subpath.spec.js', 'subpath.spec.js'], use: { viewport: { width: 1280, height: 720 } } },
     // Simulates the GitHub Pages project site: the same build served under
     // /wiki/ with deploy-style link rewrites + data-root (see
     // tests/setup-subpath.js).
-    { name: 'subpath', testMatch: 'i18n-subpath.spec.js', use: { viewport: { width: 1280, height: 720 }, baseURL: `http://127.0.0.1:${port}/wiki` } },
+    { name: 'subpath', testMatch: ['i18n-subpath.spec.js', 'subpath.spec.js'], use: { viewport: { width: 1280, height: 720 }, baseURL: `http://127.0.0.1:${port}/wiki` } },
     // phone-sized; isMobile/hasTouch emulate a real handset (viewport meta,
     // touch events). Mobile-only tests skip on the desktop project.
     {
       name: 'mobile',
       testMatch: '**/*.spec.js',
-      testIgnore: 'i18n-subpath.spec.js',
+      testIgnore: ['i18n-subpath.spec.js', 'subpath.spec.js'],
       use: {
         viewport: { width: 390, height: 844 },
         deviceScaleFactor: 2,

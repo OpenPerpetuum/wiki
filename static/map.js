@@ -17,16 +17,28 @@
     var MIN = 1, MAX = 48, INITIAL_MAX = 3, MIN_VISIBLE = 0.25;
 
     // Deploy base (body[data-root] = config.base_url): "/" locally, the full
-    // GitHub Pages URL on the project site (subpath /Wiki/). The static
+    // GitHub Pages URL on the project site (subpath /wiki). The static
     // builder (plus the CI rewrite pass) prefixes HTML links with the path
     // part, but JS-built URLs and fetched-SVG links keep the site-absolute
     // form — withRoot() prefixes them the same way.
-    var ROOT = (document.body && document.body.getAttribute('data-root')) || '/';
-    var ROOT_PATH = ROOT.replace(/^https?:\/\/[^/]+/, '').replace(/\/+$/, ''); // "" | "/Wiki"
+    //
+    // Read LAZILY: this script loads in <head>, so document.body does not
+    // exist yet at parse time. Eagerly reading it made ROOT_PATH "" forever
+    // and withRoot() a no-op — on the deployed subpath the JS-built
+    // multi-destination teleport links pointed at "/zones/..." and 404'd.
+    var ROOT_PATH = null;
+    function rootPath() {
+        if (ROOT_PATH === null && document.body) {
+            var root = document.body.getAttribute('data-root') || '/';
+            ROOT_PATH = root.replace(/^https?:\/\/[^/]+/, '').replace(/\/+$/, '');
+        }
+        return ROOT_PATH || '';
+    }
     function withRoot(h) {
         if (!h || h.charAt(0) !== '/') return h;          // not site-absolute
-        if (ROOT_PATH && h.indexOf(ROOT_PATH + '/') === 0) return h; // already
-        return ROOT_PATH + h;
+        var rp = rootPath();
+        if (rp && h.indexOf(rp + '/') === 0) return h;    // already prefixed
+        return rp + h;
     }
 
     function limit(v, lo, hi) { return Math.min(hi, Math.max(lo, v)); }

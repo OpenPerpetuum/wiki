@@ -35,6 +35,29 @@ test('every mermaid diagram in content/ parses', async ({ page, baseURL }) => {
   ).toEqual([]);
 });
 
+// Click targets: the generators write them site-absolute (click b
+// "/content/items/...") and the page script prefixes them only when the
+// site is served under a subpath (see subpath.spec.js). At the root the
+// URLs must stay untouched and still navigate.
+test('mermaid click target is site-absolute at the root and navigates', async ({ page, baseURL }) => {
+  const target = `${baseURL}/content/items/named2-thermal-kers/`;
+  let hit = 0;
+  await page.route(target, (route) => {
+    hit += 1;
+    return route.abort();
+  });
+  await page.goto(`${baseURL}/content/items/named1-thermal-kers/`, { waitUntil: 'load' });
+  const src = await page.evaluate(() => {
+    const div = document.querySelector('.mermaid[data-src]');
+    return div ? div.getAttribute('data-src') : null;
+  });
+  expect(src).toContain('click b "/content/items/named2-thermal-kers/"');
+  await page.locator('.mermaid svg').first().waitFor({ timeout: 20000 });
+  await page.locator('.mermaid g#flowchart-b-1').click();
+  await page.waitForTimeout(200);
+  expect(hit).toBe(1);
+});
+
 // Content-page diagrams are deliberately NOT interactive (pointer-events:
 // none in style.css, since the layout rework): the wheel keeps scrolling the
 // page, there is no pan, and the reset button is hidden. Zone/world maps and

@@ -1016,11 +1016,28 @@
     document.addEventListener("DOMContentLoaded", function () {
         var blocks = document.querySelectorAll("pre code[data-lang=mermaid]");
         if (!blocks.length) return;
+        // Mermaid `click` statements embed site-absolute URLs (click b
+        // "/content/items/..." "..."), which Zola does not rewrite (they are
+        // code-fence text, not href/src attributes). Under the deploy subpath
+        // they would 404, so prefix them with the base path part ("" locally),
+        // same data-root pattern as search.js / zone-map.js. Applied here so
+        // both data-src and textContent carry the fixed source (refreshMermaid
+        // re-renders from data-src on theme change).
+        var mroot = (document.body.getAttribute("data-root") || "")
+            .replace(/^https?:\/\/[^/]+/, "").replace(/\/+$/, "");
+        var fixMermaidClicks = function (src) {
+            if (!mroot) return src;
+            return src.replace(/(click\s+\S+\s+)"(\/(?!\/)[^"]*)"/g, function (m, pre, url) {
+                if (url.indexOf(mroot + "/") === 0) return m; // already prefixed
+                return pre + '"' + mroot + url + '"';
+            });
+        };
         blocks.forEach(function (el) {
             var div = document.createElement("div");
             div.className = "mermaid";
-            div.setAttribute("data-src", el.textContent);
-            div.textContent = el.textContent;
+            var src = fixMermaidClicks(el.textContent);
+            div.setAttribute("data-src", src);
+            div.textContent = src;
             el.closest("pre").replaceWith(div);
         });
         if (window.mermaid) {
