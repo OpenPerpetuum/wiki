@@ -674,6 +674,81 @@ html[data-palette="dark"] {
     --chrome-fg: #c0ccd8;
     --chrome-muted: #4a5568;
 }
+
+/* ─── Colorblind modes ───────────────────────────────────────────────
+   Override accent/map CSS variables and apply CSS filters to SVG map
+   containers (hardcoded SVG colors can only be adjusted via filter).
+   The filters approximate the color deficiency so that shapes remain
+   distinguishable by lightness and hue shift. */
+
+/* Deuteranopia (green-blind, ~5% of males): shift greens → yellow-blue */
+html[data-cb="deutan"] {
+    --neon: #60a5fa;
+    --neon-dim: rgba(96, 165, 250, 0.38);
+    --neon-faint: rgba(96, 165, 250, 0.12);
+    --accent: #93c5fd;
+    --map-tm: #60a5fa;
+    --map-ics: #fbbf24;
+    --map-asi: #c084fc;
+    --map-gamma: #f97316;
+    --map-special: #94a3b8;
+}
+html[data-cb="deutan"] .zonemap,
+html[data-cb="deutan"] .map-zoom-wrap svg {
+    filter: sepia(0.15) hue-rotate(-15deg) saturate(0.65) brightness(1.08);
+}
+
+/* Protanopia (red-blind, ~1% of males): shift reds → blue-green */
+html[data-cb="protan"] {
+    --neon: #34d399;
+    --neon-dim: rgba(52, 211, 153, 0.38);
+    --neon-faint: rgba(52, 211, 153, 0.12);
+    --accent: #6ee7b7;
+    --map-tm: #34d399;
+    --map-ics: #fbbf24;
+    --map-asi: #60a5fa;
+    --map-gamma: #c084fc;
+    --map-special: #94a3b8;
+}
+html[data-cb="protan"] .zonemap,
+html[data-cb="protan"] .map-zoom-wrap svg {
+    filter: sepia(0.15) hue-rotate(15deg) saturate(0.6) brightness(1.08);
+}
+
+/* Tritanopia (blue-blind, rare): shift blues → yellow-pink */
+html[data-cb="tritan"] {
+    --neon: #fbbf24;
+    --neon-dim: rgba(251, 191, 36, 0.38);
+    --neon-faint: rgba(251, 191, 36, 0.12);
+    --accent: #fcd34d;
+    --map-tm: #fbbf24;
+    --map-ics: #6ee7a0;
+    --map-asi: #f472b6;
+    --map-gamma: #a78bfa;
+    --map-special: #94a3b8;
+}
+html[data-cb="tritan"] .zonemap,
+html[data-cb="tritan"] .map-zoom-wrap svg {
+    filter: sepia(0.2) hue-rotate(40deg) saturate(0.55) brightness(1.05);
+}
+
+/* Achromatopsia (no color vision): full grayscale */
+html[data-cb="achro"] {
+    --neon: #a0aec0;
+    --neon-dim: rgba(160, 174, 192, 0.38);
+    --neon-faint: rgba(160, 174, 192, 0.12);
+    --accent: #cbd5e0;
+    --map-tm: #e2e8f0;
+    --map-ics: #94a3b8;
+    --map-asi: #64748b;
+    --map-gamma: #475569;
+    --map-special: #334155;
+}
+html[data-cb="achro"] .zonemap,
+html[data-cb="achro"] .map-zoom-wrap svg {
+    filter: grayscale(1);
+}
+
 /* interactive SVG wrappers (world map + extension tree) */
 .map-zoom-wrap {
     position: relative;
