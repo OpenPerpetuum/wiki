@@ -60,7 +60,7 @@ jobs:
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # ratchet:actions/checkout@v4
 
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@9f759ee644a3e7c15c1390abf49868036c00067b # ratchet:github/codeql-action/init@v3
+        uses: github/codeql-action/init@ce5e7eeac396d720fe2d802714996c8ce561e311 # ratchet:github/codeql-action/init@v3
         with:
           languages: csharp
           build-mode: manual
@@ -70,7 +70,7 @@ jobs:
         run: dotnet build generator/Perpetuum.WikiGenerate/Perpetuum.WikiGenerate.csproj -c Release
 
       - name: Analyze
-        uses: github/codeql-action/analyze@9f759ee644a3e7c15c1390abf49868036c00067b # ratchet:github/codeql-action/analyze@v3
+        uses: github/codeql-action/analyze@ce5e7eeac396d720fe2d802714996c8ce561e311 # ratchet:github/codeql-action/analyze@v3
 
   sast-js:
     name: SAST (CodeQL, JS)
@@ -80,13 +80,13 @@ jobs:
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # ratchet:actions/checkout@v4
 
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@9f759ee644a3e7c15c1390abf49868036c00067b # ratchet:github/codeql-action/init@v3
+        uses: github/codeql-action/init@ce5e7eeac396d720fe2d802714996c8ce561e311 # ratchet:github/codeql-action/init@v3
         with:
           languages: javascript-typescript
           config-file: ./codeql-config.yml
 
       - name: Analyze
-        uses: github/codeql-action/analyze@9f759ee644a3e7c15c1390abf49868036c00067b # ratchet:github/codeql-action/analyze@v3
+        uses: github/codeql-action/analyze@ce5e7eeac396d720fe2d802714996c8ce561e311 # ratchet:github/codeql-action/analyze@v3
 
   test:
     name: Tests (Playwright)
