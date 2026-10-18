@@ -942,11 +942,17 @@ def rebuild(path, name2slug, slug2id, slug2size):
         open(os.path.join(d, "thumb.png"), "wb").write(thumb_bytes)
     elif have_fallback:
         # no layer data here: keep the committed derived PNGs (copied into
-        # place so the SVG's /zonemaps/<slug>/ URLs resolve)
+        # place so the SVG's /zonemaps/<slug>/ URLs resolve). Also write
+        # SVG wrappers so the world map's <image href="...svg"> references
+        # resolve even for fallback-only zones.
         d = os.path.join(ZONEMAPS, slug)
         os.makedirs(d, exist_ok=True)
         for name in ("height.png", "color.png"):
             open(os.path.join(d, name), "wb").write(open(os.path.join(fb, name), "rb").read())
+        # SVG wrappers embedding the PNG (the world map references .svg)
+        for name in ("height", "color"):
+            svg_wrap = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><image href="/{name}.png" width="256" height="256"/></svg>'
+            open(os.path.join(d, f"{name}.svg"), "w").write(svg_wrap)
         world, thumb = fallback_world_thumb(open(os.path.join(fb, "color.png"), "rb").read(), zone)
         open(os.path.join(d, "world.png"), "wb").write(world)
         open(os.path.join(d, "thumb.svg"), "wb").write(thumb)

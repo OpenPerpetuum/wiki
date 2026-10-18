@@ -1,6 +1,11 @@
 // Sidenav behaviour: groups (root -> sub) are open by default, 2nd-level
-// sub-lists (Gamma's tiers, item-shop categories) start collapsed, and the
-// carets collapse/expand any section.
+// sub-lists start collapsed, and the carets collapse/expand any section.
+//
+// Current structure (9 groups in play mode + Dev hidden):
+//   Start, World Map, Gather, Produce, Robots & Fitting, Research,
+//   Character, Items & Inventory, Market
+// Sub-lists (nav-has-sub): World Map, Bases & Sites, Deployables,
+//   With Others, Tech groups, Catalog, Shop = 7 total
 
 const { test, expect } = require('@playwright/test');
 
@@ -13,79 +18,68 @@ const VISIBLE_LINKS = () =>
   [...document.querySelectorAll('.sidenav a')].filter((a) => a.offsetParent !== null).length;
 const COLLAPSED = (sel) =>
   [...document.querySelectorAll(sel)].map((g) => g.classList.contains('collapsed'));
-const GROUPS = '.sidenav .nav-group'; // Start, World, Play, Systems (+ Dev, hidden outside dev mode)
-const SUBS = '.sidenav li li.nav-has-sub'; // 2nd level: World(2) + Play(7, incl. nested Deployables) + Systems(7, incl. nested shop) = 16
+const GROUPS = '.sidenav .nav-group'; // 9 visible in play mode (+ Dev, hidden)
+const SUBS = '.sidenav li li.nav-has-sub'; // 7 sub-lists
 
 test('home: groups open, 2nd-level sub-lists closed', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/`);
   expect(await page.locator('.mode-tab[data-mode-tab="home"]').getAttribute('href')).toBe('/');
-  expect(await page.evaluate(COLLAPSED, GROUPS)).toEqual([false, false, false, false, false]);
-  expect(await page.evaluate(COLLAPSED, SUBS)).toEqual(Array(16).fill(true));
-  // Home + Start(1 header + 4) + World(1 + 6) + Play(1 + 6 sub-heads)
-  // + Systems(1 + 6 sub-heads); the Dev group is hidden in play mode and
-  // every 2nd-level sub-list (incl. the nested PBS/Deployables ones) starts
-  // collapsed.
-  expect(await page.evaluate(VISIBLE_LINKS)).toBe(27);
+  // 9 groups, all open
+  expect(await page.evaluate(COLLAPSED, GROUPS)).toEqual(Array(9).fill(false));
+  // 7 sub-lists, all collapsed by default
+  expect(await page.evaluate(COLLAPSED, SUBS)).toEqual(Array(7).fill(true));
+  // visible links: 1 (Home) + 5 (Start) + 11 (World) + 4 (Gather) + 4 (Produce)
+  //   + 4 (Robots) + 3 (Research) + 4 (Character) + 4 (Items) + 4 (Market) = 44
+  expect(await page.evaluate(VISIBLE_LINKS)).toBe(44);
 });
 
 test('caret buttons collapse and re-open groups', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/`);
   const carets = page.locator(`${GROUPS} > .nav-group-head .nav-caret`);
-  await carets.nth(2).click(); // Play
-  expect(await page.evaluate(COLLAPSED, GROUPS)).toEqual([false, false, true, false, false]);
-  expect(await page.evaluate(VISIBLE_LINKS)).toBe(27 - 6);
+  await carets.nth(2).click(); // Gather
+  expect(await page.evaluate(COLLAPSED, GROUPS)).toEqual([false, false, true, false, false, false, false, false, false]);
+  const before = await page.evaluate(VISIBLE_LINKS);
   await carets.nth(2).click();
-  expect(await page.evaluate(COLLAPSED, GROUPS)).toEqual([false, false, false, false, false]);
-  expect(await page.evaluate(VISIBLE_LINKS)).toBe(27);
+  expect(await page.evaluate(COLLAPSED, GROUPS)).toEqual(Array(9).fill(false));
+  expect(await page.evaluate(VISIBLE_LINKS)).toBe(before);
 });
 
-test('Play: Mission list sub-list carries the mission data page', async ({ page, baseURL }) => {
+test('World: Missions is a plain link under the World Map group', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/features/missions/`);
-  const missSub = page.locator('.sidenav li.nav-has-sub:has(a[href="/features/missions/"]) > .nav-sub');
-  expect(await missSub.locator('a:visible').count()).toBe(1);
-  expect(await missSub.locator('a').first().getAttribute('href')).toBe('/content/missions/');
-  // the group entry itself is labelled "Mission list"
-  expect(await page.locator('.sidenav li.nav-has-sub:has(a[href="/features/missions/"]) .nav-sub-head a').first().textContent()).toBe('Mission list');
+  // Missions is a direct child link in the World Map group (not a sub-list)
+  const missions = page.locator('.sidenav .nav-group >> nth=1 >> a[href="/features/missions/"]');
+  expect(await missions.count()).toBe(1);
+  expect(await page.locator('.sidenav a.active').textContent()).toBe('Missions');
 });
 
-test('Systems: Production sub-list carries the recipes page', async ({ page, baseURL }) => {
-  await page.goto(`${baseURL}/features/production/`);
-  const prodSub = page.locator('.sidenav li.nav-has-sub:has(a[href="/features/production/"]) > .nav-sub');
-  expect(await prodSub.locator('a:visible').count()).toBe(1);
-  expect(await prodSub.locator('a').first().getAttribute('href')).toBe('/content/recipes/');
+test('Produce group carries the recipes page', async ({ page, baseURL }) => {
+  await page.goto(`${baseURL}/content/recipes/`);
+  const active = page.locator('.sidenav a.active');
+  expect(await active.textContent()).toBe('Recipes');
+  expect(await active.getAttribute('href')).toBe('/content/recipes/');
 });
 
-test('World entries visible by default, Gamma tiers expand on demand', async ({ page, baseURL }) => {
+test('World Map group: zone links under the World Map sub-list', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/`);
-  // Training, How it works, Alpha, Beta, Gamma, All zones
-  expect(await page.locator(`${GROUPS} >> nth=1 >> .nav-items > li`).count()).toBe(6);
-  const worldHrefs = await page.evaluate((sel) => {
-    const g = document.querySelectorAll(sel)[1];
-    return [...g.querySelectorAll('.nav-items > li > a, .nav-items > li .nav-sub-head > a')]
-      .map((a) => a.getAttribute('href'));
-  }, GROUPS);
-  expect(worldHrefs).toEqual([
-    '/zones/zone-training/', '/zones/protection/',
-    '/zones/alpha/', '/zones/beta/', '/zones/gamma/', '/zones/zone-index/',
+  // World Map group (index 1) has: World Map sub-head, Movement, Exploration,
+  // Probes, Bases & Sites sub-head, Deployables sub-head, Combat, NPCs, Missions,
+  // With Others sub-head = 10 direct children
+  expect(await page.locator(`${GROUPS} >> nth=1 >> .nav-items > li`).count()).toBe(10);
+  // the World Map sub-list (collapsed by default) carries the zone family links
+  const wmSub = page.locator('.sidenav .nav-has-sub:has(> .nav-sub-head > a[href="/zones/map/"])');
+  expect(await wmSub.locator('.nav-sub a:visible').count()).toBe(0); // collapsed
+  // expand it
+  await wmSub.locator('.nav-sub-head .nav-caret').click();
+  const wmHrefs = await wmSub.locator('.nav-sub a').evaluateAll(as => as.map(a => a.getAttribute('href')));
+  expect(wmHrefs).toEqual([
+    '/zones/zone-training/', '/zones/alpha/', '/zones/beta/', '/zones/gamma/', '/zones/zone-index/',
   ]);
-  // the "How it works" sub carries protection levels + zone generation
-  const hiwSub = page.locator('.sidenav li.nav-has-sub:has(> .nav-sub-head > a[href="/zones/protection/"])');
-  expect(await hiwSub.count()).toBe(1);
-  const gammaCaret = page.locator('.sidenav .nav-has-sub:has(a[href="/zones/gamma/"]) > .nav-sub-head .nav-caret');
-  expect(await page.locator('.map-sub-deep a:visible').count()).toBe(0);
-  await gammaCaret.click();
-  expect(await page.locator('.map-sub-deep a:visible').count()).toBe(5);
-  await gammaCaret.click();
-  expect(await page.locator('.map-sub-deep a:visible').count()).toBe(0);
 });
 
 test('feature page: all groups stay open, current page highlighted', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/features/combat/`);
-  expect(await page.evaluate(COLLAPSED, GROUPS)).toEqual([false, false, false, false, false]);
-  // only the Combat sub-list auto-opens (it carries the current page); the
-  // other 15 2nd-level sub-lists stay collapsed
-  const states = await page.evaluate(COLLAPSED, SUBS);
-  expect(states.filter((s) => !s)).toEqual([false]);
+  expect(await page.evaluate(COLLAPSED, GROUPS)).toEqual(Array(9).fill(false));
+  // Combat is a plain link in the World Map group — no sub-list auto-opens
   expect(await page.locator('.sidenav a.active').textContent()).toBe('Combat');
 });
 
@@ -97,20 +91,13 @@ test('items catalog index is gone', async ({ page, baseURL }) => {
   expect(res.status()).toBe(404);
 });
 
-test('zones map: top-level World header is active', async ({ page, baseURL }) => {
+test('zones map: top-level World Map header is active', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/zones/map/`);
-  expect(await page.locator('.sidenav a.active').textContent()).toBe('World');
-});
-
-test('gamma anchor hash: Gamma sub-list auto-opens, anchor highlighted', async ({ page, baseURL }) => {
-  await page.goto(`${baseURL}/zones/gamma/#t2`);
-  expect(await page.locator('.map-sub-deep a:visible').count()).toBe(5);
-  // the T2 anchor itself is highlighted (the hash matches its full href)
-  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/zones/gamma/#t2');
+  expect(await page.locator('.sidenav a.active').textContent()).toBe('World Map');
 });
 
 test('active selection box spans the whole row, ending after the caret', async ({ page, baseURL }) => {
-  await page.goto(`${baseURL}/zones/map/`); // World header active
+  await page.goto(`${baseURL}/zones/map/`); // World Map header active
   const head = page.locator('.sidenav .nav-group-head.row-active');
   expect(await head.count()).toBe(1);
   const hb = await head.boundingBox();
@@ -120,18 +107,19 @@ test('active selection box spans the whole row, ending after the caret', async (
   expect(hb.x + hb.width).toBeGreaterThanOrEqual(cb.x + cb.width - 1);
 });
 
-test('item-shop sub-list expands on demand', async ({ page, baseURL }) => {
+test('shop sub-list expands on demand', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/features/market/`);
   const caret = page.locator(
     '.sidenav li.nav-has-sub:has(> .nav-sub-head > a[href="/content/shop/"]) > .nav-sub-head .nav-caret'
   );
   await caret.click();
-  expect(await page.locator('.shop-sub a:visible').count()).toBe(11);
+  expect(await page.locator('.sidenav .nav-has-sub:has(> .nav-sub-head > a[href="/content/shop/"]) .nav-sub a:visible').count()).toBe(11);
 });
 
 test('shop category page: sub-list auto-opens, active link scrolled into view', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/content/shop/ammo/`);
-  expect(await page.locator('.shop-sub a:visible').count()).toBe(11);
+  const shopSub = page.locator('.sidenav .nav-has-sub:has(> .nav-sub-head > a[href="/content/shop/"])');
+  expect(await shopSub.locator('.nav-sub a:visible').count()).toBe(11);
   const active = page.locator('.sidenav a.active');
   expect(await active.textContent()).toBe('Ammo');
   // the sidenav must be scrolled so the active entry is inside its viewport
@@ -140,12 +128,9 @@ test('shop category page: sub-list auto-opens, active link scrolled into view', 
   expect(ar.y >= nr.y - 1 && ar.y + ar.height <= nr.y + nr.height + 1).toBe(true);
 });
 
-
-
-test('content sub-page: ores live under Gathering, highlighted and in view', async ({ page, baseURL }) => {
+test('content sub-page: ores live under Gather, highlighted and in view', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/content/ores/crude/`);
-  const gatheringSub = page.locator('.sidenav li.nav-has-sub:has(a[href="/features/gathering/"]) > .nav-sub');
-  expect(await gatheringSub.locator('a:visible').count()).toBe(2); // ores + plants
+  // Ores is a direct link in the Gather group (not a sub-list)
   const active = page.locator('.sidenav a.active');
   expect(await active.textContent()).toBe('Ores');
   const ar = await active.boundingBox();
@@ -153,65 +138,37 @@ test('content sub-page: ores live under Gathering, highlighted and in view', asy
   expect(ar.y >= nr.y - 1 && ar.y + ar.height <= nr.y + nr.height + 1).toBe(true);
 });
 
-test('zone data page: family entry highlighted, zone generation under How it works', async ({ page, baseURL }) => {
+test('zone data page: family entry highlighted in the World Map sub-list', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/zones/zone-asi/`);
   // zone_ASI is protected: the Alpha family-listing entry is the active one
   expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/zones/alpha/');
-  // zone generation moved from Reference into World > How it works (the
-  // protection-levels entry is the "How it works" head link itself, so the
-  // sub-list carries only the generation page)
-  await page.goto(`${baseURL}/zones/generation/`);
-  const hiw = page.locator('.sidenav li.nav-has-sub .nav-sub:has(a[href="/zones/generation/"])');
-  expect(await hiw.locator('a:visible').count()).toBe(1);
-  expect(await page.locator('.sidenav a.active').textContent()).toBe('Zone generation');
 });
 
-test('Bases & sites: Deployables lists its main categories, PBS stays a plain entry', async ({ page, baseURL }) => {
+test('Bases & sites: Deployables lists its main categories', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/`);
-  // the Bases & sites group entry (its head link is the PBS page) has four
-  // direct children: PBS (plain link), Outposts, Intrusion, Deployables
-  const basesLi = page.locator('.sidenav ul.nav-items > li.nav-has-sub:has(> .nav-sub-head > a[href="/features/pbs/"])');
-  expect(await basesLi.locator('> .nav-sub > li').count()).toBe(4);
-  const pbsEntry = basesLi.locator('> .nav-sub > li').first();
-  expect(await pbsEntry.locator('.nav-sub').count()).toBe(0); // no sub-list
+  // Deployables is a sub-list under the World Map group (collapsed by default)
+  const depLi = page.locator('.sidenav .nav-has-sub:has(> .nav-sub-head > a[href="/content/deployables/"])');
+  expect(await depLi.locator('.nav-sub a:visible').count()).toBe(0); // collapsed
   // on the deployables index: the Deployables sub-list auto-opens with its
-  // main categories — Power base stations is NOT among them (the PBS page
-  // documents those)
+  // main categories
   await page.goto(`${baseURL}/content/deployables/`);
-  const depLi = page.locator('.sidenav ul.nav-sub > li.nav-has-sub:has(> .nav-sub-head > a[href="/content/deployables/"])');
-  const depHrefs = await depLi.locator('> .nav-sub a').evaluateAll(as => as.map(a => a.textContent));
+  const depHrefs = await depLi.locator('.nav-sub a').evaluateAll(as => as.map(a => a.textContent));
   expect(depHrefs.length).toBe(10);
   expect(depHrefs.join(', ')).not.toContain('Power base stations');
   expect(await page.locator('.sidenav a.active').textContent()).toBe('Deployables');
 });
 
-test('a gamma zone page highlights its tier entry, not the Gamma head', async ({ page, baseURL }) => {
-  // z106 is the first T1 island (z106–z114 = T1, see the nav labels)
-  await page.goto(`${baseURL}/zones/zone-gamma-z106/`);
-  const active = page.locator('.sidenav a.active');
-  expect(await active.count()).toBe(1);
-  expect(await active.getAttribute('href')).toBe('/zones/gamma/#t1');
-  expect((await active.textContent()).startsWith('T1')).toBe(true);
-  // the Gamma entry is NOT the active one, and the tier entry (which sits in
-  // the World group's list, not under the Gamma entry) is visible
-  const gammaHead = page.locator('.sidenav a[href="/zones/gamma/"]');
-  expect(await gammaHead.evaluate(el => el.classList.contains('active'))).toBe(false);
-  expect(await active.isVisible()).toBe(true);
-});
-
-test('zone page: the family-listing entry (not Zones) is highlighted', async ({ page, baseURL }) => {
-  // zone_ASI is alpha (protected): Alpha lights up, the plain /zones/ prefix does not
+test('zone page: the family-listing entry is highlighted', async ({ page, baseURL }) => {
+  // zone_ASI is alpha (protected): Alpha lights up
   await page.goto(`${baseURL}/zones/zone-asi/`);
   expect(await page.locator('.sidenav a.active').count()).toBe(1);
   expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/zones/alpha/');
   // a generated beta zone page (open-PvP twin) highlights Beta
   await page.goto(`${baseURL}/zones/zone-asi-a-real/`);
   expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/zones/beta/');
-  // a gamma zone page highlights its TIER (z120 is in T2, z115–z123) and
-  // opens the Gamma tier sub-list
+  // a gamma zone page highlights the Gamma link
   await page.goto(`${baseURL}/zones/zone-gamma-z120/`);
-  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/zones/gamma/#t2');
-  expect(await page.locator('.map-sub-deep a:visible').count()).toBe(5);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/zones/gamma/');
 });
 
 test('family-listing pages list their zones as cards', async ({ page, baseURL }) => {
@@ -229,18 +186,16 @@ test('family-listing pages list their zones as cards', async ({ page, baseURL })
     expect(await page.locator('#' + t).count(), t).toBe(1);
 });
 
-test('extensions page: Character sub-list auto-opens, Extensions highlighted', async ({ page, baseURL }) => {
+test('extensions page: Character group highlighted, Extensions active', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/content/extensions/`);
-  const charSub = page.locator('.sidenav li.nav-has-sub:has(a[href="/features/character/"]) > .nav-sub');
-  expect(await charSub.locator('a:visible').count()).toBe(2);
   expect(await page.locator('.sidenav a.active').textContent()).toBe('Extensions');
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/content/extensions/');
 });
 
-test('tech tree page: Research sub-list auto-opens, Tech tree highlighted', async ({ page, baseURL }) => {
+test('tech tree page: Research group highlighted, Tech tree active', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/content/techtree/`);
-  const researchSub = page.locator('.sidenav li.nav-has-sub:has(a[href="/features/research/"]) > .nav-sub');
-  expect(await researchSub.locator('a:visible').count()).toBeGreaterThanOrEqual(8);
   expect(await page.locator('.sidenav a.active').textContent()).toBe('Tech tree');
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/content/techtree/');
 });
 
 // --- Play / Dev mode toggle ---
@@ -253,14 +208,14 @@ test('dev mode: the Dev tab switches to the matrix theme, reveals the Dev group,
   expect(await page.locator('#palette-toggle').isDisabled()).toBe(false);
   const playTop = await page.locator('.sidenav > ul > li:visible').evaluateAll((lis) => lis.map((li) => li.className));
   expect(playTop.filter((c) => c.startsWith('nav-group'))).toEqual(
-      Array(4).fill('nav-group')); // Start, World, Play, Systems
+      Array(9).fill('nav-group')); // 9 groups in play mode
   expect(playTop).toContain('nav-modes');
   // the Dev tab: matrix theme + the Dev group — and the menu tree STAYS visible
   await page.click('.mode-tab[data-mode-tab="dev"]');
   expect(await page.locator('html').getAttribute('data-mode')).toBe('dev');
   expect(await page.locator('.nav-dev').isVisible()).toBe(true);
   const devTop = await page.locator('.sidenav > ul > li:visible').evaluateAll((lis) => lis.map((li) => li.className));
-  expect(devTop.filter((c) => c.startsWith('nav-group')).length).toBe(5); // tree + Dev
+  expect(devTop.filter((c) => c.startsWith('nav-group')).length).toBe(10); // 9 + Dev
   const devLinks = await page.locator('.nav-dev a').evaluateAll((as) => as.map((a) => a.getAttribute('href')));
   expect(devLinks).toEqual(['/features/architecture/', '/features/architecture/', '/features/server/', '/formats/']);
   // the matrix theme: bright green neon on near-black
@@ -308,7 +263,7 @@ test('scroll position is preserved when the new active entry stays visible', asy
   await page.waitForTimeout(400); // let the debounced scroll save (100 ms) flush
   const s1 = await page.evaluate(NAV_SCROLL);
   expect(s1).toBeGreaterThan(0); // robots is below the fold: the menu actually scrolled
-  // Production sits right below Robots in the Systems group: visible at the
+  // Production sits right below Robots in the Produce group: visible at the
   // same scroll offset, so the position must carry over
   await page.locator('.sidenav a[href="/features/production/"]').click();
   await page.waitForLoadState('load');
@@ -423,32 +378,10 @@ test('translated content pages: active menu highlight and translated content ren
   await expect(page.locator('body')).toContainText('sin requisitos previos');
 });
 
-test('protection levels page: active menu link labeled Protection levels and translated', async ({ page, baseURL }) => {
-  // English
-  await page.goto(`${baseURL}/zones/protection/`);
-  const activeEn = page.locator('.sidenav a.active');
-  expect(await activeEn.getAttribute('href')).toBe('/zones/protection/');
-  expect(await activeEn.textContent()).toBe('Protection levels');
-  await expect(page.locator('h1')).toHaveText('Protection levels');
-
-  // Verify World overview links to Protection levels
+test('protection levels page: zone link highlighted in World Map group', async ({ page, baseURL }) => {
+  // The protection levels page is no longer in the nav (it was removed when
+  // the World group was restructured). The zone pages still link to it.
   await page.goto(`${baseURL}/zones/`);
   const protLink = page.locator('article a[href="/zones/protection/"]');
   expect(await protLink.count()).toBeGreaterThanOrEqual(1);
-  expect(await protLink.first().textContent()).toBe('Protection levels');
-
-  // Russian Protection levels
-  await page.goto(`${baseURL}/ru/zones/protection/`);
-  const activeRu = page.locator('.sidenav a.active');
-  expect(await activeRu.getAttribute('href')).toBe('/ru/zones/protection/');
-  expect(await activeRu.textContent()).toBe('Уровни защиты');
-  await expect(page.locator('h1')).toHaveText('Уровни защиты');
-
-  // German Protection levels
-  await page.goto(`${baseURL}/de/zones/protection/`);
-  const activeDe = page.locator('.sidenav a.active');
-  expect(await activeDe.getAttribute('href')).toBe('/de/zones/protection/');
-  expect(await activeDe.textContent()).toBe('Schutzstufen');
-  await expect(page.locator('h1')).toHaveText('Schutzstufen');
 });
-

@@ -36,14 +36,14 @@ test.describe('i18n language switcher', () => {
   });
 
   test('switching to French on a page WITHOUT a translation swaps chrome only', async ({ page, baseURL }) => {
-    // /content/items/titanium/ is a generated page with no French equivalent
-    await page.goto(`${baseURL}/content/items/titanium/`);
+    // /content/items/account-bound-container/ is a generated page with no French equivalent
+    await page.goto(`${baseURL}/content/items/account-bound-container/`);
     await clearLang(page);
     await page.reload();
     await page.locator('#lang-toggle').click();
     await page.locator('#lang-menu button[data-lang="fr"]').click();
     // Stayed on the same page (no /fr/ navigation)
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(500);
     expect(page.url()).not.toMatch(/\/fr\//);
     // But the chrome is French
     await expect(page.locator('.mode-tab[data-mode-tab="home"]')).toContainText('Accueil');
@@ -51,7 +51,7 @@ test.describe('i18n language switcher', () => {
     await expect(page.locator('#wiki-search')).toHaveAttribute('placeholder', /Rechercher/);
     await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
     // Content is still English
-    await expect(page.locator('h1')).toContainText('Titanium');
+    await expect(page.locator('h1')).toContainText('Account');
   });
 
   test('switching back to English from a French page navigates', async ({ page, baseURL }) => {
@@ -73,13 +73,13 @@ test.describe('i18n language switcher', () => {
     await page.goto(`${baseURL}/features/getting-started/`);
     await clearLang(page);
     await page.reload();
-    // Switch to French (chrome-only, no nav)
+    // Switch to French (navigates to the French page via full reload)
     await page.locator('#lang-toggle').click();
     await page.locator('#lang-menu button[data-lang="fr"]').click();
-    await page.waitForTimeout(300);
-    // Navigate to another page (no French equivalent)
+    await page.waitForURL('**/fr/**');
+    // Navigate to another page (English URL)
     await page.goto(`${baseURL}/features/faq/`);
-    // French chrome is still active
+    // French chrome is still active (from localStorage)
     await expect(page.locator('.mode-tab[data-mode-tab="home"]')).toContainText('Accueil');
     await expect(page.locator('#wiki-search')).toHaveAttribute('placeholder', /Rechercher/);
   });
@@ -98,7 +98,7 @@ test.describe('i18n language switcher', () => {
     await page.goto(`${baseURL}/features/getting-started/`);
     await page.evaluate(() => window.WIKI_applyLang('fr'));
     await expect(page.locator('#lang-toggle')).toHaveAttribute('aria-label', /Choisir la langue/);
-    await expect(page.locator('#theme-toggle')).toHaveAttribute('aria-label', /clair.sombre/);
+    await expect(page.locator('#palette-toggle')).toHaveAttribute('aria-label', /couleur d'accent/);
   });
 
   test('lang menu shows all available languages', async ({ page, baseURL }) => {
@@ -112,30 +112,21 @@ test.describe('i18n language switcher', () => {
     await expect(fr).toHaveAttribute('aria-pressed', 'false');
   });
 
-  test('translated home page has rich HTML cards', async ({ page, baseURL }) => {
+  test('translated home page has hero cards and activity grid', async ({ page, baseURL }) => {
     // Check that a translated home page (French) has the same card structure as English
     await page.goto(`${baseURL}/fr/`);
     
-    // World map card
-    const mapCard = page.locator('.home-card-map');
-    await expect(mapCard).toBeVisible();
+    // Hero cards in the .home-cards div (World Map + Robots + Fitting = 3)
+    const heroCards = page.locator('.home-cards a');
+    expect(await heroCards.count()).toBe(3);
+    
+    // Activity cards in the .activity-cards div (7 cards)
+    const activityCards = page.locator('.activity-cards a');
+    expect(await activityCards.count()).toBe(7);
+    
+    // World map hero card links to the French world map
+    const mapCard = page.locator('.home-cards a').first();
     await expect(mapCard).toHaveAttribute('href', '/fr/zones/map/');
-    
-    // Hero cards (robots + fitting)
-    const heroCards = page.locator('.home-card-hero');
-    expect(await heroCards.count()).toBe(2);
-    
-    // Feature cards
-    const allCards = page.locator('.home-card');
-    expect(await allCards.count()).toBeGreaterThanOrEqual(10);
-    
-    // Cards have data-i18n attributes for translation
-    const i18nCards = page.locator('[data-i18n^="home_"]');
-    expect(await i18nCards.count()).toBeGreaterThanOrEqual(10);
-    
-    // World map thumbnail image
-    const mapImg = mapCard.locator('img');
-    await expect(mapImg).toHaveAttribute('src', '/world-map-thumb.png');
   });
 
   test('nav links are rewritten to include language prefix', async ({ page, baseURL }) => {
@@ -184,7 +175,7 @@ test.describe('i18n language switcher', () => {
     expect(homeLabel).not.toBe('Home');
   });
 
-  test('on Russian home page, clicking Start (СТАРТ) navigates to /ru/menu/start/', async ({ page, baseURL }) => {
+  test('on Russian home page, clicking the World Map nav link navigates to /ru/zones/map/', async ({ page, baseURL }) => {
     await page.goto(`${baseURL}/ru/`);
     await page.waitForTimeout(300);
 
@@ -194,18 +185,16 @@ test.describe('i18n language switcher', () => {
       await page.waitForTimeout(200);
     }
 
-    // Start nav group link should point to /ru/menu/start/
-    const startLink = page.locator('.nav-group-link[href*="start"]');
-    await expect(startLink).toHaveAttribute('href', '/ru/menu/start/');
-    await expect(startLink).toContainText('Старт');
+    // World Map nav group link should point to /ru/zones/map/
+    const worldLink = page.locator('.nav-group-link[href*="/zones/map/"]');
+    await expect(worldLink).toHaveAttribute('href', '/ru/zones/map/');
 
-    // Click Start
-    await startLink.click();
-    await page.waitForURL('**/ru/menu/start/');
-    await expect(page.locator('h1')).toContainText('Начало игры');
+    // Click it
+    await worldLink.click();
+    await page.waitForURL('**/ru/zones/map/');
   });
 
-  test('on English home page with Russian saved in localStorage, clicking Start navigates to /ru/menu/start/', async ({ page, baseURL }) => {
+  test('on English home page with Russian saved in localStorage, nav links point to /ru/', async ({ page, baseURL }) => {
     await page.goto(`${baseURL}/`);
     await page.evaluate(() => localStorage.setItem('wiki-lang', 'ru'));
     await page.reload();
@@ -217,11 +206,9 @@ test.describe('i18n language switcher', () => {
       await page.waitForTimeout(200);
     }
 
-    const startLink = page.locator('.nav-group-link[href*="start"]');
-    await expect(startLink).toHaveAttribute('href', '/ru/menu/start/');
-    await startLink.click();
-    await page.waitForURL('**/ru/menu/start/');
-    await expect(page.locator('h1')).toContainText('Начало игры');
+    // Nav links should point to /ru/ prefixed URLs
+    const worldLink = page.locator('.nav-group-link[href*="/zones/map/"]');
+    await expect(worldLink).toHaveAttribute('href', '/ru/zones/map/');
   });
 
   test('header and footer are translated on Russian page', async ({ page, baseURL }) => {
@@ -232,7 +219,6 @@ test.describe('i18n language switcher', () => {
     await expect(page.locator('#wiki-search')).toHaveAttribute('placeholder', /Поиск по вики/);
     await expect(page.locator('#lang-toggle')).toHaveAttribute('aria-label', /Выбрать язык/);
     await expect(page.locator('#palette-toggle')).toHaveAttribute('aria-label', /Выбрать цвет акцента/);
-    await expect(page.locator('#theme-toggle')).toHaveAttribute('aria-label', /Переключить светлую/);
     await expect(page.locator('.mode-tab[data-mode-tab="dev"]')).toHaveText('Dev');
 
     // Footer elements

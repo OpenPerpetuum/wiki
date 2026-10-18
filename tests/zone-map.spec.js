@@ -328,7 +328,7 @@ test('landmarks panel labels follow the page language', async ({ page, baseURL }
   await expect(wrap.locator('.zonemap-reset')).toHaveAttribute('title', 'Сбросить масштаб');
   await toggle.click();
   expect(await wrap.locator('.zonemap-landmark-item span:last-child').allTextContents()).toEqual([
-    'Телепорты и врата', 'Передовые базы', 'Полевые терминалы', 'Дороги', 'Надписи',
+    'Телепорты и врата', 'Передовые базы', 'Полевые терминалы', 'Дороги', 'Непроходимые зоны', 'Надписи',
   ]);
   await expect(wrap.locator('.zonemap-landmarks-all-btn')).toHaveText('Переключить всё');
 
@@ -338,6 +338,6 @@ test('landmarks panel labels follow the page language', async ({ page, baseURL }
   await wrap2.waitFor({ state: 'visible', timeout: 10000 });
   await expect(wrap2.locator('.zonemap-landmarks-toggle')).toHaveText('Landmarks');
   expect(await wrap2.locator('.zonemap-landmark-item span:last-child').allTextContents()).toEqual([
-    'Teleports & Gates', 'Outposts', 'Field terminals', 'Roads', 'Labels',
+    'Teleports & Gates', 'Outposts', 'Field terminals', 'Roads', 'Non-passable areas', 'Labels',
   ]);
 });
