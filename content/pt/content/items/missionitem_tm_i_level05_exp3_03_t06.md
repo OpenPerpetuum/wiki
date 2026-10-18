@@ -25,7 +25,7 @@ _Sem estatísticas — este item não carrega valores agregados._
 **Produzido a partir de 2 componentes, nível de pesquisa 1** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [Mobile fusion reactor [Horus - III] CT](/pt/content/items/missionitem-tm-i-level05-exp3-03-t06-cprg/)
+**Plano:** [Mobile fusion reactor [Horus - III] CT](/content/items/missionitem-tm-i-level05-exp3-03-t06-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/missionitem-tm-i-level05-exp3-03-t04/">Fusion cells [Horus - III]</a></div><div class="prod-card-body">necessário: <b>1</b></div></div>

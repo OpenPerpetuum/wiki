@@ -34,7 +34,7 @@ description: "Modules / Repair, tier T4"
 **Производится из 9 компонентах, уровень исследований 7** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [CRC40 medium armor repairer CT](/ru/content/items/named3-medium-armor-repairer-cprg/)
+**Чертёж:** [CRC40 medium armor repairer CT](/content/items/named3-medium-armor-repairer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/alligior/">Alligior</a></div><div class="prod-card-body">нужно: <b>400</b></div></div>

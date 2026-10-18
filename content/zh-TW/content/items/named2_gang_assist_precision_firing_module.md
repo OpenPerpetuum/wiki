@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T3"
 **由組件 10個生產 ，研究等級 6** — 組裝組件來製造它（完整列表見[配方](/zh-TW/content/recipes/)）:
 
 
-**藍圖:** [E-scope critical hit NEXUS module CT](/zh-TW/content/items/named2-gang-assist-precision-firing-module-cprg/)
+**藍圖:** [E-scope critical hit NEXUS module CT](/content/items/named2-gang-assist-precision-firing-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-TW/content/items/espitium/">Espitium</a></div><div class="prod-card-body">需要: <b>250</b></div></div>

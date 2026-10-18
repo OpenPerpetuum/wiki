@@ -33,7 +33,7 @@ description: "Modules / Shield, tier T4"
 **Geproduceerd uit 12 componentën, onderzoekslevel 6** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Guardian shield hardener CT](/nl/content/items/named3-shield-hardener-cprg/)
+**Bouwtekening:** [Guardian shield hardener CT](/content/items/named3-shield-hardener-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">vereist: <b>300</b></div></div>

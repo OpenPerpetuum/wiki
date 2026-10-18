@@ -35,7 +35,7 @@ description: "Special & other / Miscellaneous, tier T2"
 **Geproduceerd uit 13 componentën** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Advanced main terminal foundation CT](/nl/content/items/pbs-docking-base-medium-capsule-cprg/)
+**Bouwtekening:** [Advanced main terminal foundation CT](/content/items/pbs-docking-base-medium-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">vereist: <b>7.5k</b></div></div>

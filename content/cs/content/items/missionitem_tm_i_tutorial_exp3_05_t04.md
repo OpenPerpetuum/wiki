@@ -25,7 +25,7 @@ _Žádné statistiky — tento předmět nenese žádné agregované hodnoty._
 **Vyráběn z 2 komponentách, výzkumná úroveň 1** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Compressor [T-M Industry V] CT](/cs/content/items/missionitem-tm-i-tutorial-exp3-05-t04-cprg/)
+**Výkres:** [Compressor [T-M Industry V] CT](/content/items/missionitem-tm-i-tutorial-exp3-05-t04-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/missionitem-tm-i-tutorial-exp3-05-t02/">Compressor valve [T-M Industry V]</a></div><div class="prod-card-body">potřebné: <b>1</b></div></div>

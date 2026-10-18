@@ -33,7 +33,7 @@ description: "Modules / Repair, tier T4"
 **Geproduceerd uit 12 componentën, onderzoekslevel 6** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Apogenion armor repairer tuning CT](/nl/content/items/named3-armor-repairer-upgrade-cprg/)
+**Bouwtekening:** [Apogenion armor repairer tuning CT](/content/items/named3-armor-repairer-upgrade-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">vereist: <b>300</b></div></div>

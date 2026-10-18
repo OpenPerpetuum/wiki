@@ -2209,7 +2209,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/ammo-medium-projectile-t-CT-capsule/">Ammo Medium Projectile T (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-medium-projectile-t-ct-capsule/">Ammo Medium Projectile T (CT capsule)</a></div>
 <div class="mission-card-sub">Ammo / Projectiles</div>
 </div>
 </div>
@@ -2313,7 +2313,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/ammo-small-projectile-t-CT-capsule/">Ammo Small Projectile T (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-small-projectile-t-ct-capsule/">Ammo Small Projectile T (CT capsule)</a></div>
 <div class="mission-card-sub">Ammo / Projectiles</div>
 </div>
 </div>

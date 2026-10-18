@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T3"
 **Vyráběn z 4 komponentách, výzkumná úroveň 3** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Senner Carbine light autocannon CT](/cs/content/items/named2-small-autocannon-cprg/)
+**Výkres:** [Senner Carbine light autocannon CT](/content/items/named2-small-autocannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">potřebné: <b>50</b></div></div>

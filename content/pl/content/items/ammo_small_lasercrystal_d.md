@@ -30,7 +30,7 @@ description: "Ammo / Beam & laser"
 **Produkcja z 2 komponentów, poziom badań 1** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Small thermic energy cell CT](/pl/content/items/ammo-small-lasercrystal-d-cprg/)
+**Nakładka:** [Small thermic energy cell CT](/content/items/ammo-small-lasercrystal-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/polynucleit/">Polynucleit</a></div><div class="prod-card-body">wymagane: <b>100</b></div></div>

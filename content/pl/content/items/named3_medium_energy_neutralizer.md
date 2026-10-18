@@ -37,7 +37,7 @@ description: "Modules / Shield, tier T4"
 **Produkcja z 12 komponentów, poziom badań 7** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Sicado I. medium energy neutralizer CT](/pl/content/items/named3-medium-energy-neutralizer-cprg/)
+**Nakładka:** [Sicado I. medium energy neutralizer CT](/content/items/named3-medium-energy-neutralizer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/espitium/">Espitium</a></div><div class="prod-card-body">wymagane: <b>400</b></div></div>

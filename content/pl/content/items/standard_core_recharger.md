@@ -32,7 +32,7 @@ description: "Modules / Power, tier T1"
 **Produkcja z 2 komponentów, poziom badań 3** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Standard accumulator recharger CT](/pl/content/items/standard-core-recharger-cprg/)
+**Nakładka:** [Standard accumulator recharger CT](/content/items/standard-core-recharger-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>250</b></div></div>

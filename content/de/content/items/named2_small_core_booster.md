@@ -33,7 +33,7 @@ description: "Modules / Enhancements, tier T3"
 **Hergestellt aus 6 Komponenten, Forschungsebene 4** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Joffret-Refiller small energy injector CT](/de/content/items/named2-small-core-booster-cprg/)
+**Bauplan:** [Joffret-Refiller small energy injector CT](/content/items/named2-small-core-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">benötigt: <b>50</b></div></div>

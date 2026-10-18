@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T4"
 **Geproduceerd uit 5 componentën, onderzoekslevel 4** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Astoc M45 light autocannon CT](/nl/content/items/named3-small-autocannon-cprg/)
+**Bouwtekening:** [Astoc M45 light autocannon CT](/content/items/named3-small-autocannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">vereist: <b>100</b></div></div>

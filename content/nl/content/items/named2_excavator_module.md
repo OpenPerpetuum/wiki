@@ -36,7 +36,7 @@ description: "Modules / Harvesting, tier T3"
 **Geproduceerd uit 6 componentën** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [T3 Excavator Module Cprg](/nl/content/items/named2-excavator-module-cprg/)
+**Bouwtekening:** [T3 Excavator Module Cprg](/content/items/named2-excavator-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">vereist: <b>400</b></div></div>

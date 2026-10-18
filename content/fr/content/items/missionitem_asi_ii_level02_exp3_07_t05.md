@@ -25,7 +25,7 @@ _Aucune statistique — cet article ne porte aucune valeur agrégée._
 **Produit à partir de 2 composants, niveau de recherche 1** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [Transformator [Caucasus VII] CT](/fr/content/items/missionitem-asi-ii-level02-exp3-07-t05-cprg/)
+**Plan :** [Transformator [Caucasus VII] CT](/content/items/missionitem-asi-ii-level02-exp3-07-t05-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/missionitem-asi-ii-level02-exp3-07-t03/">Transformator casing [Caucasus VII/1]</a></div><div class="prod-card-body">requis : <b>1</b></div></div>

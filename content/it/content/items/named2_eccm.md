@@ -32,7 +32,7 @@ description: "Modules / Enhancements, tier T3"
 **Prodotto da 8 componenti, livello di ricerca 4** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Deshrud-QW ECCM CT](/it/content/items/named2-eccm-cprg/)
+**Piano:** [Deshrud-QW ECCM CT](/content/items/named2-eccm-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/alligior/">Alligior</a></div><div class="prod-card-body">richiesto: <b>25</b></div></div>

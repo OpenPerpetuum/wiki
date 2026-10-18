@@ -35,7 +35,7 @@ description: "Modules / Shield, tier T2"
 **由组件 7个生产 ，研究等级 5** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [Parsvaal-IIX medium shield generator CT](/zh-CN/content/items/named1-medium-shield-generator-cprg/)
+**蓝图:** [Parsvaal-IIX medium shield generator CT](/content/items/named1-medium-shield-generator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">需要: <b>200</b></div></div>

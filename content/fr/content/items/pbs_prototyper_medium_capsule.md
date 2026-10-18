@@ -36,7 +36,7 @@ description: "Special & other / Miscellaneous, tier T2"
 **Produit à partir de 13 composants** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [Advanced prototype facility foundation CT](/fr/content/items/pbs-prototyper-medium-capsule-cprg/)
+**Plan :** [Advanced prototype facility foundation CT](/content/items/pbs-prototyper-medium-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/alligior/">Alligior</a></div><div class="prod-card-body">requis : <b>2.5k</b></div></div>

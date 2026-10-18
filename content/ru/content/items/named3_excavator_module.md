@@ -36,7 +36,7 @@ description: "Modules / Harvesting, tier T4"
 **Производится из 8 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [T4 Excavator Module Cprg](/ru/content/items/named3-excavator-module-cprg/)
+**Чертёж:** [T4 Excavator Module Cprg](/content/items/named3-excavator-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">нужно: <b>800</b></div></div>

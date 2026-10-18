@@ -44,7 +44,7 @@ description: "Special & other / Miscellaneous"
 **Produit à partir de 7 composants, niveau de recherche 5** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [Sentry Turret Unit Cprg](/fr/content/items/sentry-turret-unit-cprg/)
+**Plan :** [Sentry Turret Unit Cprg](/content/items/sentry-turret-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">requis : <b>1.0k</b></div></div>

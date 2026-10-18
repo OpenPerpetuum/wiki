@@ -36,7 +36,7 @@ description: "Special & other / Miscellaneous, tier T2"
 **Hergestellt aus 13 Komponenten** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Advanced calibration lab foundation CT](/de/content/items/pbs-calibration-forge-medium-capsule-cprg/)
+**Bauplan:** [Advanced calibration lab foundation CT](/content/items/pbs-calibration-forge-medium-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/alligior/">Alligior</a></div><div class="prod-card-body">benötigt: <b>2.5k</b></div></div>

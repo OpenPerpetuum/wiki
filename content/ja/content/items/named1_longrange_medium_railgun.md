@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T2"
 **コンポーネント8個から製造 、研究レベル 5** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Condor-SPP medium EM-gun CT](/ja/content/items/named1-longrange-medium-railgun-cprg/)
+**設計図:** [Condor-SPP medium EM-gun CT](/content/items/named1-longrange-medium-railgun-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">必要: <b>50</b></div></div>

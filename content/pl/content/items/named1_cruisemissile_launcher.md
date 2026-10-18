@@ -35,7 +35,7 @@ description: "Modules / Weapons, tier T2"
 **Produkcja z 7 komponentów** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [T2 Cruisemissile Launcher Cprg](/pl/content/items/named1-cruisemissile-launcher-cprg/)
+**Nakładka:** [T2 Cruisemissile Launcher Cprg](/content/items/named1-cruisemissile-launcher-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">wymagane: <b>150</b></div></div>

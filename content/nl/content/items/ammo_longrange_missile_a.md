@@ -33,7 +33,7 @@ description: "Ammo / Missiles"
 **Geproduceerd uit 3 componentën, onderzoekslevel 3** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Medium armor-piercing ballistic missile CT](/nl/content/items/ammo-longrange-missile-a-cprg/)
+**Bouwtekening:** [Medium armor-piercing ballistic missile CT](/content/items/ammo-longrange-missile-a-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">vereist: <b>100</b></div></div>

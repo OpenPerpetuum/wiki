@@ -35,7 +35,7 @@ description: "Modules / Sensors & scanning, tier T1"
 **Producido desde 2 componentes, nivel de investigación 3** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Standard sensor amplifier CT](/es/content/items/standard-sensor-booster-cprg/)
+**Planos:** [Standard sensor amplifier CT](/content/items/standard-sensor-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">requerido: <b>400</b></div></div>

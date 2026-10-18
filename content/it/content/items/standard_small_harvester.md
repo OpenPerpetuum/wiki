@@ -34,7 +34,7 @@ description: "Modules / Harvesting, tier T1"
 **Prodotto da 2 componenti, livello di ricerca 1** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Standard small harvester CT](/it/content/items/standard-small-harvester-cprg/)
+**Piano:** [Standard small harvester CT](/content/items/standard-small-harvester-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">richiesto: <b>50</b></div></div>

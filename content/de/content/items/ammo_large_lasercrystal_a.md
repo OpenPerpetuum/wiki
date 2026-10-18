@@ -31,7 +31,7 @@ description: "Ammo / Beam & laser"
 **Hergestellt aus 4 Komponenten** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Ammo Large Lasercrystal A Cprg](/de/content/items/ammo-large-lasercrystal-a-cprg/)
+**Bauplan:** [Ammo Large Lasercrystal A Cprg](/content/items/ammo-large-lasercrystal-a-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">benötigt: <b>150</b></div></div>

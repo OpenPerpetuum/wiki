@@ -25,7 +25,7 @@ _Нет статистики — этот предмет не имеет агр�
 **Производится из 2 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Ammo Mining Deep Stermonit Cprg](/ru/content/items/ammo-mining-deep-stermonit-cprg/)
+**Чертёж:** [Ammo Mining Deep Stermonit Cprg](/content/items/ammo-mining-deep-stermonit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/polynucleit/">Polynucleit</a></div><div class="prod-card-body">нужно: <b>180</b></div></div>

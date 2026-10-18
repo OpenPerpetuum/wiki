@@ -32,7 +32,7 @@ description: "Modules / Power, tier T2"
 **Vyráběn z 4 komponentách, výzkumná úroveň 5** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Ovostec-gpc7000 medium auxiliary accumulator CT](/cs/content/items/named1-medium-core-battery-cprg/)
+**Výkres:** [Ovostec-gpc7000 medium auxiliary accumulator CT](/content/items/named1-medium-core-battery-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">potřebné: <b>400</b></div></div>

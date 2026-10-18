@@ -25,7 +25,7 @@ _Nessuna statistica — questo oggetto non porta valori aggregati._
 **Prodotto da 2 componenti, livello di ricerca 1** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Mobile synthesizer [Helicon VI] CT](/it/content/items/missionitem-ics-ii-level03-exp3-06-t06-cprg/)
+**Piano:** [Mobile synthesizer [Helicon VI] CT](/content/items/missionitem-ics-ii-level03-exp3-06-t06-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/missionitem-ics-ii-level03-exp3-06-t04/">Mobile synthesizer casing [Helicon VI]</a></div><div class="prod-card-body">richiesto: <b>1</b></div></div>

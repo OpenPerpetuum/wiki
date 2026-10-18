@@ -56,7 +56,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/de/content/shop/) 
 **Hergestellt aus 2 Komponenten** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Elitet2 71 Mining Probe Module Cprg](/de/content/items/elitet2-71-mining-probe-module-cprg/)
+**Bauplan:** [Elitet2 71 Mining Probe Module Cprg](/content/items/elitet2-71-mining-probe-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/material-boss-z71/">Material Boss Z71</a></div><div class="prod-card-body">benötigt: <b>300</b></div></div>

@@ -37,7 +37,7 @@ description: "Modules / Weapons, tier T1"
 **Vyráběn z 5 komponentách** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Standard Hell Cannon Cprg](/cs/content/items/standard-hell-cannon-cprg/)
+**Výkres:** [Standard Hell Cannon Cprg](/content/items/standard-hell-cannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/alligior/">Alligior</a></div><div class="prod-card-body">potřebné: <b>100</b></div></div>

@@ -37,7 +37,7 @@ description: "Special & other / Miscellaneous, tier T2"
 **Производится из 10 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Advanced energy well foundation CT](/ru/content/items/pbs-energywell-medium-capsule-cprg/)
+**Чертёж:** [Advanced energy well foundation CT](/content/items/pbs-energywell-medium-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/alligior/">Alligior</a></div><div class="prod-card-body">нужно: <b>1.2k</b></div></div>

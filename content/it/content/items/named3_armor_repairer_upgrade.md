@@ -33,7 +33,7 @@ description: "Modules / Repair, tier T4"
 **Prodotto da 12 componenti, livello di ricerca 6** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Apogenion armor repairer tuning CT](/it/content/items/named3-armor-repairer-upgrade-cprg/)
+**Piano:** [Apogenion armor repairer tuning CT](/content/items/named3-armor-repairer-upgrade-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/alligior/">Alligior</a></div><div class="prod-card-body">richiesto: <b>300</b></div></div>

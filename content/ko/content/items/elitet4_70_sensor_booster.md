@@ -57,7 +57,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/ko/content/shop/) 
 **구성 요소 2개로 생산** — 구성 요소를 조립하여 제작합니다 (전체 목록은 [레시피](/ko/content/recipes/) 참조):
 
 
-**제작도:** [Elitet4 70 Sensor Booster Cprg](/ko/content/items/elitet4-70-sensor-booster-cprg/)
+**제작도:** [Elitet4 70 Sensor Booster Cprg](/content/items/elitet4-70-sensor-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ko/content/items/material-boss-z70/">Material Boss Z70</a></div><div class="prod-card-body">필요: <b>400</b></div></div>

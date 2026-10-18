@@ -36,7 +36,7 @@ description: "Modules / Repair, tier T3"
 **Hergestellt aus 8 Komponenten, Forschungsebene 6** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Basio medium remote armor repairer CT](/de/content/items/named2-medium-remote-armor-repairer-cprg/)
+**Bauplan:** [Basio medium remote armor repairer CT](/content/items/named2-medium-remote-armor-repairer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/alligior/">Alligior</a></div><div class="prod-card-body">benötigt: <b>250</b></div></div>

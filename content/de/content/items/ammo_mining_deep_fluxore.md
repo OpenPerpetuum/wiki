@@ -25,7 +25,7 @@ _Keine Statistiken — dieses Element trägt keine aggregierten Werte._
 **Hergestellt aus 4 Komponenten** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Ammo Mining Deep Fluxore Cprg](/de/content/items/ammo-mining-deep-fluxore-cprg/)
+**Bauplan:** [Ammo Mining Deep Fluxore Cprg](/content/items/ammo-mining-deep-fluxore-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/isopropentol/">Isopropentol</a></div><div class="prod-card-body">benötigt: <b>90</b></div></div>

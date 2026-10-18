@@ -33,7 +33,7 @@ description: "Special & other / Miscellaneous, tier T3"
 **Производится из 3 компонентах, уровень исследований 4** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [T3 Mining Turret Unit Cprg](/ru/content/items/named2-mining-turret-unit-cprg/)
+**Чертёж:** [T3 Mining Turret Unit Cprg](/content/items/named2-mining-turret-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">нужно: <b>750</b></div></div>

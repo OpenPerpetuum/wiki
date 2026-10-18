@@ -33,7 +33,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-chm-armor-hardener-cprg/">Delloy s2s chemical armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-chm-armor-hardener-cprg/">Delloy s2s chemical armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T2</div>
 </div>
 </div>
@@ -57,7 +57,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-exp-armor-hardener-cprg/">Ballistris I. seismic armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-exp-armor-hardener-cprg/">Ballistris I. seismic armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T2</div>
 </div>
 </div>
@@ -81,7 +81,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-kin-armor-hardener-cprg/">Counterpress I-230 kinetic armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-kin-armor-hardener-cprg/">Counterpress I-230 kinetic armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T2</div>
 </div>
 </div>
@@ -105,7 +105,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-large-armor-plate-cprg/">T2 Large Armor Plate Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-large-armor-plate-cprg/">T2 Large Armor Plate Cprg</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T2</div>
 </div>
 </div>
@@ -129,7 +129,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-armor-plate-cprg/">Azilo-Protec Duoforge medium armor plate CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-armor-plate-cprg/">Azilo-Protec Duoforge medium armor plate CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T2</div>
 </div>
 </div>
@@ -153,7 +153,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-armor-plate-cprg/">Wobost-Titangrip light armor plate CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-armor-plate-cprg/">Wobost-Titangrip light armor plate CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T2</div>
 </div>
 </div>
@@ -177,7 +177,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-thrm-armor-hardener-cprg/">Lava-3T thermal armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-thrm-armor-hardener-cprg/">Lava-3T thermal armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T2</div>
 </div>
 </div>
@@ -201,7 +201,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-chm-armor-hardener-cprg/">RePro I. chemical armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-chm-armor-hardener-cprg/">RePro I. chemical armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T3</div>
 </div>
 </div>
@@ -225,7 +225,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-exp-armor-hardener-cprg/">Formantel-DVU seismic armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-exp-armor-hardener-cprg/">Formantel-DVU seismic armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T3</div>
 </div>
 </div>
@@ -249,7 +249,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-kin-armor-hardener-cprg/">Apparod Defragger kinetic armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-kin-armor-hardener-cprg/">Apparod Defragger kinetic armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T3</div>
 </div>
 </div>
@@ -273,7 +273,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-large-armor-plate-cprg/">T3 Large Armor Plate Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-large-armor-plate-cprg/">T3 Large Armor Plate Cprg</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T3</div>
 </div>
 </div>
@@ -297,7 +297,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-armor-plate-cprg/">Invigor II. medium armor plate CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-armor-plate-cprg/">Invigor II. medium armor plate CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T3</div>
 </div>
 </div>
@@ -321,7 +321,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-armor-plate-cprg/">Invigor I. light armor plate CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-armor-plate-cprg/">Invigor I. light armor plate CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T3</div>
 </div>
 </div>
@@ -345,7 +345,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-thrm-armor-hardener-cprg/">Thermoflake thermal armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-thrm-armor-hardener-cprg/">Thermoflake thermal armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T3</div>
 </div>
 </div>
@@ -369,7 +369,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-chm-armor-hardener-cprg/">Impetar chemical armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-chm-armor-hardener-cprg/">Impetar chemical armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T4</div>
 </div>
 </div>
@@ -393,7 +393,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-exp-armor-hardener-cprg/">Sheltor seismic armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-exp-armor-hardener-cprg/">Sheltor seismic armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T4</div>
 </div>
 </div>
@@ -417,7 +417,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-kin-armor-hardener-cprg/">Grampier-VK kinetic armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-kin-armor-hardener-cprg/">Grampier-VK kinetic armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T4</div>
 </div>
 </div>
@@ -441,7 +441,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-large-armor-plate-cprg/">T4 Large Armor Plate Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-large-armor-plate-cprg/">T4 Large Armor Plate Cprg</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T4</div>
 </div>
 </div>
@@ -465,7 +465,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-armor-plate-cprg/">THL-Testudo medium armor plate CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-armor-plate-cprg/">THL-Testudo medium armor plate CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T4</div>
 </div>
 </div>
@@ -489,7 +489,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-armor-plate-cprg/">Karapas light armor plate CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-armor-plate-cprg/">Karapas light armor plate CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T4</div>
 </div>
 </div>
@@ -513,7 +513,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-thrm-armor-hardener-cprg/">Hephaistos-TSS thermal armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-thrm-armor-hardener-cprg/">Hephaistos-TSS thermal armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T4</div>
 </div>
 </div>
@@ -537,7 +537,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-chm-armor-hardener-cprg/">Standard chemical armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-chm-armor-hardener-cprg/">Standard chemical armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T1</div>
 </div>
 </div>
@@ -553,7 +553,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-exp-armor-hardener-cprg/">Standard seismic armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-exp-armor-hardener-cprg/">Standard seismic armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T1</div>
 </div>
 </div>
@@ -569,7 +569,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-kin-armor-hardener-cprg/">Standard kinetic armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-kin-armor-hardener-cprg/">Standard kinetic armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T1</div>
 </div>
 </div>
@@ -585,7 +585,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-large-armor-plate-cprg/">Standard Large Armor Plate Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-large-armor-plate-cprg/">Standard Large Armor Plate Cprg</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T1</div>
 </div>
 </div>
@@ -609,7 +609,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-armor-plate-cprg/">Standard medium armor plate CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-armor-plate-cprg/">Standard medium armor plate CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T1</div>
 </div>
 </div>
@@ -625,7 +625,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-armor-plate-cprg/">Standard light armor plate CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-armor-plate-cprg/">Standard light armor plate CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T1</div>
 </div>
 </div>
@@ -641,7 +641,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-thrm-armor-hardener-cprg/">Standard thermal armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-thrm-armor-hardener-cprg/">Standard thermal armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T1</div>
 </div>
 </div>
@@ -654,7 +654,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/noob-small-armor-plate/">Syn-tec light armor plate</a></div>
+<div><div class="mission-card-title"><a href="/content/items/noob-small-armor-plate/">Syn-tec light armor plate</a></div>
 <div class="mission-card-sub">Modules / Armor, tier special</div>
 </div>
 </div>
@@ -667,7 +667,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/archer-named4-damage-mod-missile/">Archer T5 Damage Mod Missile</a></div>
+<div><div class="mission-card-title"><a href="/content/items/archer-named4-damage-mod-missile/">Archer T5 Damage Mod Missile</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T5</div>
 </div>
 </div>
@@ -675,7 +675,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/archer-named4-tracking-upgrade/">Archer T5 Tracking Upgrade</a></div>
+<div><div class="mission-card-title"><a href="/content/items/archer-named4-tracking-upgrade/">Archer T5 Tracking Upgrade</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T5</div>
 </div>
 </div>
@@ -683,7 +683,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/buoy-charger-module/">Terraformer beacon charger module</a></div>
+<div><div class="mission-card-title"><a href="/content/items/buoy-charger-module/">Terraformer beacon charger module</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -691,7 +691,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elite2-cultist-nox-teleport-negator/">Elite2 Cultist Nox Teleport Negator</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elite2-cultist-nox-teleport-negator/">Elite2 Cultist Nox Teleport Negator</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -699,7 +699,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elite2-cultist-scorcher/">Elite2 Cultist Scorcher</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elite2-cultist-scorcher/">Elite2 Cultist Scorcher</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -715,7 +715,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-eccm-CT-capsule/">Elitet2 70 Eccm (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-eccm-ct-capsule/">Elitet2 70 Eccm (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -723,7 +723,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-eccm-cprg/">Elitet2 70 Eccm Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-eccm-cprg/">Elitet2 70 Eccm Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -739,7 +739,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-medium-core-booster-CT-capsule/">Elitet2 70 Medium Core Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-core-booster-ct-capsule/">Elitet2 70 Medium Core Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -747,7 +747,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-medium-core-booster-cprg/">Elitet2 70 Medium Core Booster Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-core-booster-cprg/">Elitet2 70 Medium Core Booster Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -763,7 +763,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-small-core-booster-CT-capsule/">Elitet2 70 Small Core Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-core-booster-ct-capsule/">Elitet2 70 Small Core Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -771,7 +771,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-small-core-booster-cprg/">Elitet2 70 Small Core Booster Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-core-booster-cprg/">Elitet2 70 Small Core Booster Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -787,7 +787,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-tracking-upgrade-CT-capsule/">Elitet2 70 Tracking Upgrade (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-tracking-upgrade-ct-capsule/">Elitet2 70 Tracking Upgrade (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -795,7 +795,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-tracking-upgrade-cprg/">Elitet2 70 Tracking Upgrade Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-tracking-upgrade-cprg/">Elitet2 70 Tracking Upgrade Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -811,7 +811,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-webber-CT-capsule/">Elitet2 70 Webber (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-webber-ct-capsule/">Elitet2 70 Webber (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -819,7 +819,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-webber-cprg/">Elitet2 70 Webber Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-webber-cprg/">Elitet2 70 Webber Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -835,7 +835,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-71-maneuvering-upgrade-CT-capsule/">Elitet2 71 Maneuvering Upgrade (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-maneuvering-upgrade-ct-capsule/">Elitet2 71 Maneuvering Upgrade (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -843,7 +843,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-71-maneuvering-upgrade-cprg/">Elitet2 71 Maneuvering Upgrade Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-maneuvering-upgrade-cprg/">Elitet2 71 Maneuvering Upgrade Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -859,7 +859,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-71-mining-probe-module-CT-capsule/">Elitet2 71 Mining Probe Module (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-mining-probe-module-ct-capsule/">Elitet2 71 Mining Probe Module (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -867,7 +867,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-71-mining-probe-module-cprg/">Elitet2 71 Mining Probe Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-mining-probe-module-cprg/">Elitet2 71 Mining Probe Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -883,7 +883,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-72-damage-mod-projectile-CT-capsule/">Elitet2 72 Damage Mod Projectile (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-damage-mod-projectile-ct-capsule/">Elitet2 72 Damage Mod Projectile (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -891,7 +891,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-72-damage-mod-projectile-cprg/">Elitet2 72 Damage Mod Projectile Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-damage-mod-projectile-cprg/">Elitet2 72 Damage Mod Projectile Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -907,7 +907,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-72-mass-reductor-CT-capsule/">Elitet2 72 Mass Reductor (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-mass-reductor-ct-capsule/">Elitet2 72 Mass Reductor (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -915,7 +915,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-72-mass-reductor-cprg/">Elitet2 72 Mass Reductor Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-mass-reductor-cprg/">Elitet2 72 Mass Reductor Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -931,7 +931,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-eccm-CT-capsule/">Elitet4 70 Eccm (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-eccm-ct-capsule/">Elitet4 70 Eccm (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -939,7 +939,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-eccm-cprg/">Elitet4 70 Eccm Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-eccm-cprg/">Elitet4 70 Eccm Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -955,7 +955,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-medium-core-booster-CT-capsule/">Elitet4 70 Medium Core Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-core-booster-ct-capsule/">Elitet4 70 Medium Core Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -963,7 +963,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-medium-core-booster-cprg/">Elitet4 70 Medium Core Booster Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-core-booster-cprg/">Elitet4 70 Medium Core Booster Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -979,7 +979,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-small-core-booster-CT-capsule/">Elitet4 70 Small Core Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-core-booster-ct-capsule/">Elitet4 70 Small Core Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -987,7 +987,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-small-core-booster-cprg/">Elitet4 70 Small Core Booster Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-core-booster-cprg/">Elitet4 70 Small Core Booster Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1003,7 +1003,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-tracking-upgrade-CT-capsule/">Elitet4 70 Tracking Upgrade (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-tracking-upgrade-ct-capsule/">Elitet4 70 Tracking Upgrade (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1011,7 +1011,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-tracking-upgrade-cprg/">Elitet4 70 Tracking Upgrade Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-tracking-upgrade-cprg/">Elitet4 70 Tracking Upgrade Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1027,7 +1027,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-webber-CT-capsule/">Elitet4 70 Webber (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-webber-ct-capsule/">Elitet4 70 Webber (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1035,7 +1035,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-webber-cprg/">Elitet4 70 Webber Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-webber-cprg/">Elitet4 70 Webber Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1051,7 +1051,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-71-maneuvering-upgrade-CT-capsule/">Elitet4 71 Maneuvering Upgrade (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-maneuvering-upgrade-ct-capsule/">Elitet4 71 Maneuvering Upgrade (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1059,7 +1059,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-71-maneuvering-upgrade-cprg/">Elitet4 71 Maneuvering Upgrade Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-maneuvering-upgrade-cprg/">Elitet4 71 Maneuvering Upgrade Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1075,7 +1075,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-71-mining-probe-module-CT-capsule/">Elitet4 71 Mining Probe Module (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-mining-probe-module-ct-capsule/">Elitet4 71 Mining Probe Module (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1083,7 +1083,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-71-mining-probe-module-cprg/">Elitet4 71 Mining Probe Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-mining-probe-module-cprg/">Elitet4 71 Mining Probe Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1099,7 +1099,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-72-damage-mod-projectile-CT-capsule/">Elitet4 72 Damage Mod Projectile (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-damage-mod-projectile-ct-capsule/">Elitet4 72 Damage Mod Projectile (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1107,7 +1107,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-72-damage-mod-projectile-cprg/">Elitet4 72 Damage Mod Projectile Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-damage-mod-projectile-cprg/">Elitet4 72 Damage Mod Projectile Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1123,7 +1123,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-72-mass-reductor-CT-capsule/">Elitet4 72 Mass Reductor (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-mass-reductor-ct-capsule/">Elitet4 72 Mass Reductor (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1131,7 +1131,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-72-mass-reductor-cprg/">Elitet4 72 Mass Reductor Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-mass-reductor-cprg/">Elitet4 72 Mass Reductor Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1147,7 +1147,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-medium-driller-CT-capsule/">Elitet4 Gamma Medium Driller (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-driller-ct-capsule/">Elitet4 Gamma Medium Driller (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1155,7 +1155,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-medium-driller-cprg/">Elitet4 Gamma Medium Driller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-driller-cprg/">Elitet4 Gamma Medium Driller Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1171,7 +1171,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-small-driller-CT-capsule/">Elitet4 Gamma Small Driller (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-driller-ct-capsule/">Elitet4 Gamma Small Driller (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1179,7 +1179,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-small-driller-cprg/">Elitet4 Gamma Small Driller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-driller-cprg/">Elitet4 Gamma Small Driller Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1195,7 +1195,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-adaptive-alloy-cprg/">T2 Adaptive Alloy Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-adaptive-alloy-cprg/">T2 Adaptive Alloy Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1219,7 +1219,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-blob-emission-modulator-cprg/">Bandoler IU-250 interference module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-blob-emission-modulator-cprg/">Bandoler IU-250 interference module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1243,7 +1243,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-cpu-upgrade-cprg/">Parallelyt-C300 coprocessor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-cpu-upgrade-cprg/">Parallelyt-C300 coprocessor CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1267,7 +1267,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-damage-mod-missile-cprg/">AIT-Dipris Propellant missile launcher tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-damage-mod-missile-cprg/">AIT-Dipris Propellant missile launcher tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1291,7 +1291,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-damage-mod-projectile-cprg/">Diathel-Subperis firearm tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-damage-mod-projectile-cprg/">Diathel-Subperis firearm tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1315,7 +1315,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-detection-modul-cprg/">Techodo signal detector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-detection-modul-cprg/">Techodo signal detector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1339,7 +1339,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-dreadnought-module-cprg/">T2 Dreadnought Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-dreadnought-module-cprg/">T2 Dreadnought Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1363,7 +1363,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-eccm-cprg/">Wallex ECCM CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-eccm-cprg/">Wallex ECCM CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1387,7 +1387,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-ecm-booster-cprg/">Distortio ECM tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-ecm-booster-cprg/">Distortio ECM tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1411,7 +1411,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-energy-warfare-upgrade-cprg/">Blister EnWar upgrade CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-energy-warfare-upgrade-cprg/">Blister EnWar upgrade CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1435,7 +1435,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-explosive-kers-cprg/">SER-250 'Eruptico' seismic ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-explosive-kers-cprg/">SER-250 'Eruptico' seismic ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1459,7 +1459,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-coordinated-maneuvering-module-cprg/">Oshbo evasive NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-coordinated-maneuvering-module-cprg/">Oshbo evasive NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1483,7 +1483,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-core-management-module-cprg/">Columcyl recharger NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-core-management-module-cprg/">Columcyl recharger NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1507,7 +1507,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-defense-module-cprg/">Starodix armor NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-defense-module-cprg/">Starodix armor NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1531,7 +1531,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-devastating-module-cprg/">T2 Gang Assist Devastating Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-devastating-module-cprg/">T2 Gang Assist Devastating Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1555,7 +1555,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-ewar-range-module-cprg/">Yzla-1500 EW NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-ewar-range-module-cprg/">Yzla-1500 EW NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1579,7 +1579,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-fast-extraction-module-cprg/">AE-D250 fast extractor NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-fast-extraction-module-cprg/">AE-D250 fast extractor NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1603,7 +1603,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-industry-module-cprg/">Thobys industrial NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-industry-module-cprg/">Thobys industrial NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1627,7 +1627,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-information-module-cprg/">Gecko D-1500 farlock NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-information-module-cprg/">Gecko D-1500 farlock NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1651,7 +1651,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-maintance-module-cprg/">Diogan repairer NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-maintance-module-cprg/">Diogan repairer NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1675,7 +1675,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-precision-firing-module-cprg/">Qandellay critical hit NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-precision-firing-module-cprg/">Qandellay critical hit NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1699,7 +1699,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-resilience-module-cprg/">T2 Gang Assist Resilience Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-resilience-module-cprg/">T2 Gang Assist Resilience Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1723,7 +1723,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-shared-dataprocessing-module-cprg/">JPS-Redeye lock booster NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-shared-dataprocessing-module-cprg/">JPS-Redeye lock booster NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1747,7 +1747,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-siege-module-cprg/">Myrmidon assault NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-siege-module-cprg/">Myrmidon assault NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1771,7 +1771,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-speed-module-cprg/">Jubatus velocity NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-speed-module-cprg/">Jubatus velocity NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1795,7 +1795,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-kinetic-kers-cprg/">Hegatex-1000 kinetic ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-kinetic-kers-cprg/">Hegatex-1000 kinetic ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1819,7 +1819,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-landmine-detector-cprg/">T2 Landmine Detector Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-landmine-detector-cprg/">T2 Landmine Detector Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1843,7 +1843,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-large-core-booster-cprg/">T2 Large Core Booster Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-large-core-booster-cprg/">T2 Large Core Booster Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1867,7 +1867,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-large-driller-cprg/">T2 Large Driller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-large-driller-cprg/">T2 Large Driller Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1891,7 +1891,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-longrange-webber-cprg/">Venom L-demobilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-longrange-webber-cprg/">Venom L-demobilizer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1915,7 +1915,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-maneuvering-upgrade-cprg/">R4S-S evasive module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-maneuvering-upgrade-cprg/">R4S-S evasive module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1939,7 +1939,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-mass-reductor-cprg/">MR1000-Boogey lightweight frame CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-mass-reductor-cprg/">MR1000-Boogey lightweight frame CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1963,7 +1963,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-core-booster-cprg/">Shoxit Parter I. medium energy injector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-core-booster-cprg/">Shoxit Parter I. medium energy injector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -1987,7 +1987,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-driller-cprg/">MMA v12-'Alkhemir' medium miner module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-driller-cprg/">MMA v12-'Alkhemir' medium miner module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -2011,7 +2011,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-energy-transfer-cprg/">CDC-Yamp medium energy transferer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-energy-transfer-cprg/">CDC-Yamp medium energy transferer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -2035,7 +2035,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-mining-probe-module-cprg/">Ovostec-Chisomel geoscanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-mining-probe-module-cprg/">Ovostec-Chisomel geoscanner CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -2059,7 +2059,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-mining-upgrade-cprg/">Piog Forgekit AI industrial tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-mining-upgrade-cprg/">Piog Forgekit AI industrial tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -2083,7 +2083,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-reactor-sealing-cprg/">Tortoise reactor sealing CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-reactor-sealing-cprg/">Tortoise reactor sealing CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -2107,7 +2107,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-resistant-plating-cprg/">Diverter universal armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-resistant-plating-cprg/">Diverter universal armor CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -2131,7 +2131,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-self-destruct-module-cprg/">T2 Self Destruct Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-self-destruct-module-cprg/">T2 Self Destruct Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -2155,7 +2155,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-core-booster-cprg/">CC25-Veo small energy injector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-core-booster-cprg/">CC25-Veo small energy injector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -2179,7 +2179,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-driller-cprg/">Biroter 5050 small miner module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-driller-cprg/">Biroter 5050 small miner module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -2203,7 +2203,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-energy-transfer-cprg/">Uysta small energy transferer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-energy-transfer-cprg/">Uysta small energy transferer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -2227,7 +2227,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-stealth-modul-cprg/">Mimique signal masker CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-stealth-modul-cprg/">Mimique signal masker CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -2251,7 +2251,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-target-painter-cprg/">Pois-D22 target marker CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-target-painter-cprg/">Pois-D22 target marker CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -2275,7 +2275,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-thermal-kers-cprg/">Pyropaster thermal ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-thermal-kers-cprg/">Pyropaster thermal ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -2299,7 +2299,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-tracking-upgrade-cprg/">Opaletrak range extender CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-tracking-upgrade-cprg/">Opaletrak range extender CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -2323,7 +2323,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-webber-cprg/">Arachnid-type S-demobilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-webber-cprg/">Arachnid-type S-demobilizer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -2347,7 +2347,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-adaptive-alloy-cprg/">T3 Adaptive Alloy Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-adaptive-alloy-cprg/">T3 Adaptive Alloy Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2371,7 +2371,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-blob-emission-modulator-cprg/">Bandoler IV-500 interference module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-blob-emission-modulator-cprg/">Bandoler IV-500 interference module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2395,7 +2395,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-cpu-upgrade-cprg/">Cerebellum-1000 coprocessor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-cpu-upgrade-cprg/">Cerebellum-1000 coprocessor CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2419,7 +2419,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-damage-mod-missile-cprg/">Pelistec-FBP-II. missile launcher tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-damage-mod-missile-cprg/">Pelistec-FBP-II. missile launcher tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2443,7 +2443,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-damage-mod-projectile-cprg/">Plasmidwad-9000 firearm tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-damage-mod-projectile-cprg/">Plasmidwad-9000 firearm tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2467,7 +2467,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-detection-modul-cprg/">MX-1 Dogon signal detector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-detection-modul-cprg/">MX-1 Dogon signal detector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2491,7 +2491,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-dreadnought-module-cprg/">T3 Dreadnought Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-dreadnought-module-cprg/">T3 Dreadnought Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2515,7 +2515,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-eccm-cprg/">Deshrud-QW ECCM CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-eccm-cprg/">Deshrud-QW ECCM CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2539,7 +2539,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-ecm-booster-cprg/">Hodge ECM tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-ecm-booster-cprg/">Hodge ECM tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2563,7 +2563,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-energy-warfare-upgrade-cprg/">OM-Shock EnWar upgrade CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-energy-warfare-upgrade-cprg/">OM-Shock EnWar upgrade CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2587,7 +2587,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-explosive-kers-cprg/">SER-300 'Devactico' seismic ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-explosive-kers-cprg/">SER-300 'Devactico' seismic ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2611,7 +2611,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-coordinated-maneuvering-module-cprg/">Pareduit evasive NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-coordinated-maneuvering-module-cprg/">Pareduit evasive NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2635,7 +2635,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-core-management-module-cprg/">ARMS E300 recharger NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-core-management-module-cprg/">ARMS E300 recharger NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2659,7 +2659,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-defense-module-cprg/">Paternis armor NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-defense-module-cprg/">Paternis armor NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2683,7 +2683,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-devastating-module-cprg/">T3 Gang Assist Devastating Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-devastating-module-cprg/">T3 Gang Assist Devastating Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2707,7 +2707,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-ewar-range-module-cprg/">Hidmuns EW NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-ewar-range-module-cprg/">Hidmuns EW NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2731,7 +2731,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-fast-extraction-module-cprg/">Matriot-II fast extractor NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-fast-extraction-module-cprg/">Matriot-II fast extractor NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2755,7 +2755,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-industry-module-cprg/">EE-D220 industrial NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-industry-module-cprg/">EE-D220 industrial NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2779,7 +2779,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-information-module-cprg/">Martimal farlock NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-information-module-cprg/">Martimal farlock NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2803,7 +2803,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-maintance-module-cprg/">Pawish repairer NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-maintance-module-cprg/">Pawish repairer NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2827,7 +2827,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-precision-firing-module-cprg/">E-scope critical hit NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-precision-firing-module-cprg/">E-scope critical hit NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2851,7 +2851,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-resilience-module-cprg/">T3 Gang Assist Resilience Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-resilience-module-cprg/">T3 Gang Assist Resilience Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2875,7 +2875,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-shared-dataprocessing-module-cprg/">Tersung lock booster NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-shared-dataprocessing-module-cprg/">Tersung lock booster NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2899,7 +2899,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-siege-module-cprg/">Mobba assault NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-siege-module-cprg/">Mobba assault NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2923,7 +2923,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-speed-module-cprg/">Iopis-II velocity NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-speed-module-cprg/">Iopis-II velocity NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2947,7 +2947,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-kinetic-kers-cprg/">Solitex-990 kinetic ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-kinetic-kers-cprg/">Solitex-990 kinetic ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2971,7 +2971,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-landmine-detector-cprg/">T3 Landmine Detector Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-landmine-detector-cprg/">T3 Landmine Detector Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -2995,7 +2995,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-large-core-booster-cprg/">T3 Large Core Booster Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-large-core-booster-cprg/">T3 Large Core Booster Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3019,7 +3019,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-large-driller-cprg/">T3 Large Driller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-large-driller-cprg/">T3 Large Driller Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3043,7 +3043,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-longrange-webber-cprg/">GLOO L-demobilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-longrange-webber-cprg/">GLOO L-demobilizer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3067,7 +3067,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-maneuvering-upgrade-cprg/">Deflectik evasive module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-maneuvering-upgrade-cprg/">Deflectik evasive module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3091,7 +3091,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-mass-reductor-cprg/">Eizbiogh-dfg20 lightweight frame CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-mass-reductor-cprg/">Eizbiogh-dfg20 lightweight frame CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3115,7 +3115,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-core-booster-cprg/">Follypsos medium energy injector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-core-booster-cprg/">Follypsos medium energy injector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3139,7 +3139,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-driller-cprg/">Sublimator Mid-D medium miner module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-driller-cprg/">Sublimator Mid-D medium miner module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3163,7 +3163,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-energy-transfer-cprg/">Avit-Microfloss medium energy transferer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-energy-transfer-cprg/">Avit-Microfloss medium energy transferer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3187,7 +3187,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-mining-probe-module-cprg/">Syverz geoscanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-mining-probe-module-cprg/">Syverz geoscanner CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3211,7 +3211,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-mining-upgrade-cprg/">Fraktura SCV industrial tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-mining-upgrade-cprg/">Fraktura SCV industrial tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3235,7 +3235,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-reactor-sealing-cprg/">GRIP-250 reactor sealing CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-reactor-sealing-cprg/">GRIP-250 reactor sealing CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3259,7 +3259,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-resistant-plating-cprg/">UNI300pls universal armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-resistant-plating-cprg/">UNI300pls universal armor CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3283,7 +3283,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-self-destruct-module-cprg/">T3 Self Destruct Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-self-destruct-module-cprg/">T3 Self Destruct Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3307,7 +3307,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-core-booster-cprg/">Joffret-Refiller small energy injector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-core-booster-cprg/">Joffret-Refiller small energy injector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3331,7 +3331,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-driller-cprg/">Sublimator Low-D small miner module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-driller-cprg/">Sublimator Low-D small miner module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3355,7 +3355,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-energy-transfer-cprg/">Bithom small energy transferer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-energy-transfer-cprg/">Bithom small energy transferer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3379,7 +3379,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-stealth-modul-cprg/">MSMD signal masker CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-stealth-modul-cprg/">MSMD signal masker CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3403,7 +3403,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-target-painter-cprg/">Colqual target marker CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-target-painter-cprg/">Colqual target marker CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3427,7 +3427,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-thermal-kers-cprg/">DE-melt thermal ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-thermal-kers-cprg/">DE-melt thermal ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3451,7 +3451,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-tracking-upgrade-cprg/">Unotron 60s-'Crack shot' range extender CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-tracking-upgrade-cprg/">Unotron 60s-'Crack shot' range extender CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3475,7 +3475,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-webber-cprg/">NNt. IX S-demobilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-webber-cprg/">NNt. IX S-demobilizer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -3499,7 +3499,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-adaptive-alloy-cprg/">T4 Adaptive Alloy Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-adaptive-alloy-cprg/">T4 Adaptive Alloy Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -3523,7 +3523,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-blob-emission-modulator-cprg/">Omini interference module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-blob-emission-modulator-cprg/">Omini interference module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -3547,7 +3547,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-cpu-upgrade-cprg/">Processyt-C1000 coprocessor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-cpu-upgrade-cprg/">Processyt-C1000 coprocessor CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -3571,7 +3571,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-damage-mod-missile-cprg/">Dozer-IMT missile launcher tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-damage-mod-missile-cprg/">Dozer-IMT missile launcher tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -3595,7 +3595,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-damage-mod-projectile-cprg/">DVT-800g firearm tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-damage-mod-projectile-cprg/">DVT-800g firearm tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -3619,7 +3619,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-detection-modul-cprg/">'Rogue' signal detector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-detection-modul-cprg/">'Rogue' signal detector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -3643,7 +3643,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-dreadnought-module-cprg/">T4 Dreadnought Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-dreadnought-module-cprg/">T4 Dreadnought Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -3667,7 +3667,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-eccm-cprg/">Braviar ECCM CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-eccm-cprg/">Braviar ECCM CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -3691,7 +3691,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-ecm-booster-cprg/">Sludge ECM tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-ecm-booster-cprg/">Sludge ECM tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -3715,7 +3715,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-energy-warfare-upgrade-cprg/">XT-Shock EnWar upgrade CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-energy-warfare-upgrade-cprg/">XT-Shock EnWar upgrade CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -3739,7 +3739,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-explosive-kers-cprg/">365p-CSD seismic ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-explosive-kers-cprg/">365p-CSD seismic ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -3763,7 +3763,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-coordinated-maneuvering-module-cprg/">R4S-A evasive NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-coordinated-maneuvering-module-cprg/">R4S-A evasive NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -3787,7 +3787,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-core-management-module-cprg/">ARMS X500 recharger NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-core-management-module-cprg/">ARMS X500 recharger NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -3811,7 +3811,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-defense-module-cprg/">TSP-Hindoo armor NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-defense-module-cprg/">TSP-Hindoo armor NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -3835,7 +3835,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-devastating-module-cprg/">T4 Gang Assist Devastating Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-devastating-module-cprg/">T4 Gang Assist Devastating Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -3859,7 +3859,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-ewar-range-module-cprg/">Yzla-2500 EW NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-ewar-range-module-cprg/">Yzla-2500 EW NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -3883,7 +3883,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-fast-extraction-module-cprg/">Matriot-IV fast extractor NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-fast-extraction-module-cprg/">Matriot-IV fast extractor NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -3907,7 +3907,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-industry-module-cprg/">Rypoa industrial NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-industry-module-cprg/">Rypoa industrial NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -3931,7 +3931,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-information-module-cprg/">Gecko M-2000 farlock NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-information-module-cprg/">Gecko M-2000 farlock NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -3955,7 +3955,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-maintance-module-cprg/">ACF-9900 repairer NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-maintance-module-cprg/">ACF-9900 repairer NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -3979,7 +3979,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-precision-firing-module-cprg/">ZTW critical hit NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-precision-firing-module-cprg/">ZTW critical hit NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4003,7 +4003,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-resilience-module-cprg/">T4 Gang Assist Resilience Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-resilience-module-cprg/">T4 Gang Assist Resilience Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4027,7 +4027,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-shared-dataprocessing-module-cprg/">JPS-Greeneye lock booster NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-shared-dataprocessing-module-cprg/">JPS-Greeneye lock booster NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4051,7 +4051,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-siege-module-cprg/">'Scorch' assault NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-siege-module-cprg/">'Scorch' assault NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4075,7 +4075,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-speed-module-cprg/">Contra velocity NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-speed-module-cprg/">Contra velocity NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4099,7 +4099,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-kinetic-kers-cprg/">Emerolyte kinetic ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-kinetic-kers-cprg/">Emerolyte kinetic ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4123,7 +4123,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-landmine-detector-cprg/">T4 Landmine Detector Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-landmine-detector-cprg/">T4 Landmine Detector Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4147,7 +4147,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-large-core-booster-cprg/">T4 Large Core Booster Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-large-core-booster-cprg/">T4 Large Core Booster Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4171,7 +4171,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-large-driller-cprg/">T4 Large Driller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-large-driller-cprg/">T4 Large Driller Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4195,7 +4195,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-longrange-webber-cprg/">TDR25 L-demobilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-longrange-webber-cprg/">TDR25 L-demobilizer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4219,7 +4219,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-maneuvering-upgrade-cprg/">Yridan RCD evasive module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-maneuvering-upgrade-cprg/">Yridan RCD evasive module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4243,7 +4243,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-mass-reductor-cprg/">MRE 3000 lightweight frame CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-mass-reductor-cprg/">MRE 3000 lightweight frame CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4267,7 +4267,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-core-booster-cprg/">Cerepter II. medium energy injector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-core-booster-cprg/">Cerepter II. medium energy injector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4291,7 +4291,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-driller-cprg/">Ovostec-Edger medium miner module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-driller-cprg/">Ovostec-Edger medium miner module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4315,7 +4315,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-energy-transfer-cprg/">Livostid PT-VI medium energy transferer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-energy-transfer-cprg/">Livostid PT-VI medium energy transferer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4339,7 +4339,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-mining-probe-module-cprg/">Eksplor-q3000 geoscanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-mining-probe-module-cprg/">Eksplor-q3000 geoscanner CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4363,7 +4363,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-mining-upgrade-cprg/">Piog Forgekit BW1 industrial tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-mining-upgrade-cprg/">Piog Forgekit BW1 industrial tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4387,7 +4387,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-reactor-sealing-cprg/">GRIP-500p reactor sealing CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-reactor-sealing-cprg/">GRIP-500p reactor sealing CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4411,7 +4411,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-resistant-plating-cprg/">Aegis UAP-10XL universal armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-resistant-plating-cprg/">Aegis UAP-10XL universal armor CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4435,7 +4435,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-self-destruct-module-cprg/">T4 Self Destruct Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-self-destruct-module-cprg/">T4 Self Destruct Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4459,7 +4459,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-core-booster-cprg/">Cerepter I. small energy injector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-core-booster-cprg/">Cerepter I. small energy injector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4483,7 +4483,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-driller-cprg/">Scraper-990 small miner module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-driller-cprg/">Scraper-990 small miner module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4507,7 +4507,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-energy-transfer-cprg/">Livostid PT3 small energy transferer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-energy-transfer-cprg/">Livostid PT3 small energy transferer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4531,7 +4531,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-stealth-modul-cprg/">Longlag signal masker CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-stealth-modul-cprg/">Longlag signal masker CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4555,7 +4555,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-target-painter-cprg/">Pulsus target marker CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-target-painter-cprg/">Pulsus target marker CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4579,7 +4579,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-thermal-kers-cprg/">Dyoriva thermal ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-thermal-kers-cprg/">Dyoriva thermal ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4603,7 +4603,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-tracking-upgrade-cprg/">ATCS-gh50 range extender CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-tracking-upgrade-cprg/">ATCS-gh50 range extender CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4627,7 +4627,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-webber-cprg/">NNt. IY S-demobilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-webber-cprg/">NNt. IY S-demobilizer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -4643,7 +4643,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/pbs-construction-module/">Standard construction module</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-construction-module/">Standard construction module</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4651,7 +4651,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/purgatory-mass-reductor-reward/">\"Perpetuum 500\" lightweight frame</a></div>
+<div><div class="mission-card-title"><a href="/content/items/purgatory-mass-reductor-reward/">\"Perpetuum 500\" lightweight frame</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -4659,7 +4659,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/siege-hack-module/">SAP hacking module</a></div>
+<div><div class="mission-card-title"><a href="/content/items/siege-hack-module/">SAP hacking module</a></div>
 <div class="mission-card-sub">Modules / Enhancements</div>
 </div>
 </div>
@@ -4667,7 +4667,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/specimen-sap-item-CT-capsule/">Specimen Sap Item (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/specimen-sap-item-ct-capsule/">Specimen Sap Item (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4683,7 +4683,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-adaptive-alloy-cprg/">Standard Adaptive Alloy Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-adaptive-alloy-cprg/">Standard Adaptive Alloy Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4691,7 +4691,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-aggrorange-decreaser-cprg/">Standard camouflage module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-aggrorange-decreaser-cprg/">Standard camouflage module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4699,7 +4699,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-battle-stance-modul-cprg/">Standard Battle Stance Modul Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-battle-stance-modul-cprg/">Standard Battle Stance Modul Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4707,7 +4707,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-blinder/">Standard Blinder</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-blinder/">Standard Blinder</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4723,7 +4723,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-blob-emission-modulator-cprg/">Standard interference module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-blob-emission-modulator-cprg/">Standard interference module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4739,7 +4739,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-cpu-upgrade-cprg/">Standard coprocessor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-cpu-upgrade-cprg/">Standard coprocessor CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4755,7 +4755,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-damage-mod-missile-cprg/">Standard missile launcher tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-damage-mod-missile-cprg/">Standard missile launcher tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4771,7 +4771,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-damage-mod-projectile-cprg/">Standard firearm tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-damage-mod-projectile-cprg/">Standard firearm tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4787,7 +4787,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-detection-modul-cprg/">Standard signal detector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-detection-modul-cprg/">Standard signal detector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4803,7 +4803,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-dreadnought-module-cprg/">Standard Dreadnought Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-dreadnought-module-cprg/">Standard Dreadnought Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4819,7 +4819,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-eccm-cprg/">Standard ECCM CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-eccm-cprg/">Standard ECCM CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4835,7 +4835,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-ecm-booster-cprg/">Standard ECM tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-ecm-booster-cprg/">Standard ECM tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4851,7 +4851,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-energy-warfare-upgrade-cprg/">Standard EnWar upgrade CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-energy-warfare-upgrade-cprg/">Standard EnWar upgrade CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4867,7 +4867,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-explosive-kers-cprg/">Standard seismic ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-explosive-kers-cprg/">Standard seismic ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4883,7 +4883,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-coordinated-maneuvering-module-cprg/">Standard evasive NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-coordinated-maneuvering-module-cprg/">Standard evasive NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4899,7 +4899,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-core-management-module-cprg/">Standard recharger NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-core-management-module-cprg/">Standard recharger NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4915,7 +4915,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-defense-module-cprg/">Standard armor NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-defense-module-cprg/">Standard armor NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4931,7 +4931,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-devastating-module-cprg/">Standard Gang Assist Devastating Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-devastating-module-cprg/">Standard Gang Assist Devastating Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4947,7 +4947,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-ewar-range-module-cprg/">Standard EW NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-ewar-range-module-cprg/">Standard EW NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4963,7 +4963,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-fast-extraction-module-cprg/">Standard fast extractor NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-fast-extraction-module-cprg/">Standard fast extractor NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4979,7 +4979,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-industry-module-cprg/">Standard industrial NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-industry-module-cprg/">Standard industrial NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -4995,7 +4995,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-information-module-cprg/">Standard farlock NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-information-module-cprg/">Standard farlock NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5011,7 +5011,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-maintance-module-cprg/">Standard repairer NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-maintance-module-cprg/">Standard repairer NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5027,7 +5027,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-precision-firing-module-cprg/">Standard critical hit NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-precision-firing-module-cprg/">Standard critical hit NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5043,7 +5043,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-resilience-module-cprg/">Standard Gang Assist Resilience Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-resilience-module-cprg/">Standard Gang Assist Resilience Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5059,7 +5059,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-shared-dataprocessing-module-cprg/">Standard lock booster NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-shared-dataprocessing-module-cprg/">Standard lock booster NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5075,7 +5075,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-siege-module-cprg/">Standard assault NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-siege-module-cprg/">Standard assault NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5091,7 +5091,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-speed-module-cprg/">Standard velocity NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-speed-module-cprg/">Standard velocity NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5107,7 +5107,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-kinetic-kers-cprg/">Standard kinetic ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-kinetic-kers-cprg/">Standard kinetic ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5123,7 +5123,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-large-core-booster-cprg/">Standard Large Core Booster Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-large-core-booster-cprg/">Standard Large Core Booster Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5147,7 +5147,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-large-driller-cprg/">Standard Large Driller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-large-driller-cprg/">Standard Large Driller Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5163,7 +5163,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-longrange-webber-cprg/">Standard L-demobilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-longrange-webber-cprg/">Standard L-demobilizer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5179,7 +5179,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-maneuvering-upgrade-cprg/">Standard evasive module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-maneuvering-upgrade-cprg/">Standard evasive module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5195,7 +5195,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-mass-reductor-cprg/">Standard lightweight frame CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-mass-reductor-cprg/">Standard lightweight frame CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5211,7 +5211,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-core-booster-cprg/">Standard medium energy injector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-core-booster-cprg/">Standard medium energy injector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5227,7 +5227,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-driller-cprg/">Standard medium miner module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-driller-cprg/">Standard medium miner module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5243,7 +5243,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-energy-transfer-cprg/">Standard medium energy transferer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-energy-transfer-cprg/">Standard medium energy transferer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5259,7 +5259,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-mining-probe-module-cprg/">Standard geoscanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-mining-probe-module-cprg/">Standard geoscanner CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5275,7 +5275,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-mining-upgrade-cprg/">Standard industrial tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-mining-upgrade-cprg/">Standard industrial tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5283,7 +5283,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-neuralyzer/">Standard Neuralyzer</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-neuralyzer/">Standard Neuralyzer</a></div>
 <div class="mission-card-sub">Modules / Enhancements</div>
 </div>
 </div>
@@ -5299,7 +5299,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-reactor-sealing-cprg/">Standard reactor sealing CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-reactor-sealing-cprg/">Standard reactor sealing CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5315,7 +5315,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-resistant-plating-cprg/">Standard universal armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-resistant-plating-cprg/">Standard universal armor CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5331,7 +5331,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-self-destruct-module-cprg/">Standard Self Destruct Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-self-destruct-module-cprg/">Standard Self Destruct Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5347,7 +5347,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-core-booster-cprg/">Standard small energy injector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-core-booster-cprg/">Standard small energy injector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5363,7 +5363,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-driller-cprg/">Standard small miner module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-driller-cprg/">Standard small miner module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5379,7 +5379,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-energy-transfer-cprg/">Standard small energy transferer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-energy-transfer-cprg/">Standard small energy transferer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5387,7 +5387,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-industrial-aoe-tile-cprg/">Standard small PSG launcher CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-industrial-aoe-tile-cprg/">Standard small PSG launcher CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5403,7 +5403,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-stealth-modul-cprg/">Standard signal masker CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-stealth-modul-cprg/">Standard signal masker CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5419,7 +5419,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-target-painter-cprg/">Standard target marker CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-target-painter-cprg/">Standard target marker CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5427,7 +5427,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-terraformer-cprg/">Standard terraformer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-terraformer-cprg/">Standard terraformer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5443,7 +5443,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-thermal-kers-cprg/">Standard thermal ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-thermal-kers-cprg/">Standard thermal ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5459,7 +5459,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-tracking-upgrade-cprg/">Standard range extender CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-tracking-upgrade-cprg/">Standard range extender CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5467,7 +5467,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-wall-builder/">Standard wall compiler module</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-wall-builder/">Standard wall compiler module</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5483,7 +5483,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-webber-cprg/">Standard S-demobilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-webber-cprg/">Standard S-demobilizer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5499,7 +5499,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standart-landmine-detector-cprg/">Standart Landmine Detector Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standart-landmine-detector-cprg/">Standart Landmine Detector Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5507,7 +5507,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/terraform-multi-module/">Terraformer module</a></div>
+<div><div class="mission-card-title"><a href="/content/items/terraform-multi-module/">Terraformer module</a></div>
 <div class="mission-card-sub">Modules / Enhancements</div>
 </div>
 </div>
@@ -5515,7 +5515,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/weasel-named4-adaptive-alloy/">Weasel T5 Adaptive Alloy</a></div>
+<div><div class="mission-card-title"><a href="/content/items/weasel-named4-adaptive-alloy/">Weasel T5 Adaptive Alloy</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T5</div>
 </div>
 </div>
@@ -5523,7 +5523,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/weasel-named4-eccm/">Weasel T5 Eccm</a></div>
+<div><div class="mission-card-title"><a href="/content/items/weasel-named4-eccm/">Weasel T5 Eccm</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T5</div>
 </div>
 </div>
@@ -5531,7 +5531,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/weasel-named4-mass-reductor/">Weasel T5 Mass Reductor</a></div>
+<div><div class="mission-card-title"><a href="/content/items/weasel-named4-mass-reductor/">Weasel T5 Mass Reductor</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T5</div>
 </div>
 </div>
@@ -5539,7 +5539,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/weasel-named4-stealth-modul/">Weasel T5 Stealth Modul</a></div>
+<div><div class="mission-card-title"><a href="/content/items/weasel-named4-stealth-modul/">Weasel T5 Stealth Modul</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T5</div>
 </div>
 </div>
@@ -5547,7 +5547,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/zmall-railg00n/">The Eraser</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zmall-railg00n/">The Eraser</a></div>
 <div class="mission-card-sub">Modules / Enhancements</div>
 </div>
 </div>
@@ -5555,7 +5555,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/zupalight/">super light something</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zupalight/">super light something</a></div>
 <div class="mission-card-sub">Modules / Enhancements</div>
 </div>
 </div>
@@ -5568,7 +5568,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/noob-mining-probe-module/">Syn-tec geoscanner</a></div>
+<div><div class="mission-card-title"><a href="/content/items/noob-mining-probe-module/">Syn-tec geoscanner</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier special</div>
 </div>
 </div>
@@ -5576,7 +5576,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/noob-small-driller/">Syn-tec small miner module</a></div>
+<div><div class="mission-card-title"><a href="/content/items/noob-small-driller/">Syn-tec small miner module</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier special</div>
 </div>
 </div>
@@ -5597,7 +5597,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-medium-harvester-CT-capsule/">Elitet4 Gamma Medium Harvester (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-harvester-ct-capsule/">Elitet4 Gamma Medium Harvester (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T4 (special)</div>
 </div>
 </div>
@@ -5605,7 +5605,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-medium-harvester-cprg/">Elitet4 Gamma Medium Harvester Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-harvester-cprg/">Elitet4 Gamma Medium Harvester Cprg</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T4 (special)</div>
 </div>
 </div>
@@ -5621,7 +5621,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-small-harvester-CT-capsule/">Elitet4 Gamma Small Harvester (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-harvester-ct-capsule/">Elitet4 Gamma Small Harvester (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T4 (special)</div>
 </div>
 </div>
@@ -5629,7 +5629,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-small-harvester-cprg/">Elitet4 Gamma Small Harvester Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-harvester-cprg/">Elitet4 Gamma Small Harvester Cprg</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T4 (special)</div>
 </div>
 </div>
@@ -5645,7 +5645,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-excavator-module-cprg/">T2 Excavator Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-excavator-module-cprg/">T2 Excavator Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T2</div>
 </div>
 </div>
@@ -5669,7 +5669,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-large-harvester-cprg/">T2 Large Harvester Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-large-harvester-cprg/">T2 Large Harvester Cprg</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T2</div>
 </div>
 </div>
@@ -5693,7 +5693,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-harvester-cprg/">MHA 900-'Sap' medium harvester CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-harvester-cprg/">MHA 900-'Sap' medium harvester CT</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T2</div>
 </div>
 </div>
@@ -5717,7 +5717,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-harvester-cprg/">MHA 400-'Avalon' small harvester CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-harvester-cprg/">MHA 400-'Avalon' small harvester CT</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T2</div>
 </div>
 </div>
@@ -5741,7 +5741,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-excavator-module-cprg/">T3 Excavator Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-excavator-module-cprg/">T3 Excavator Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T3</div>
 </div>
 </div>
@@ -5765,7 +5765,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-large-harvester-cprg/">T3 Large Harvester Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-large-harvester-cprg/">T3 Large Harvester Cprg</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T3</div>
 </div>
 </div>
@@ -5789,7 +5789,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-harvester-cprg/">Cultivator-XM medium harvester CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-harvester-cprg/">Cultivator-XM medium harvester CT</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T3</div>
 </div>
 </div>
@@ -5813,7 +5813,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-harvester-cprg/">Agraar-I small harvester CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-harvester-cprg/">Agraar-I small harvester CT</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T3</div>
 </div>
 </div>
@@ -5837,7 +5837,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-excavator-module-cprg/">T4 Excavator Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-excavator-module-cprg/">T4 Excavator Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T4</div>
 </div>
 </div>
@@ -5861,7 +5861,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-large-harvester-cprg/">T4 Large Harvester Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-large-harvester-cprg/">T4 Large Harvester Cprg</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T4</div>
 </div>
 </div>
@@ -5885,7 +5885,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-harvester-cprg/">Protrim V-II medium harvester CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-harvester-cprg/">Protrim V-II medium harvester CT</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T4</div>
 </div>
 </div>
@@ -5909,7 +5909,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-harvester-cprg/">Protrim FDV-30 small harvester CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-harvester-cprg/">Protrim FDV-30 small harvester CT</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T4</div>
 </div>
 </div>
@@ -5933,7 +5933,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-excavator-module-cprg/">Standard Excavator Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-excavator-module-cprg/">Standard Excavator Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T1</div>
 </div>
 </div>
@@ -5949,7 +5949,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-large-harvester-cprg/">Standard Large Harvester Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-large-harvester-cprg/">Standard Large Harvester Cprg</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T1</div>
 </div>
 </div>
@@ -5965,7 +5965,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-harvester-cprg/">Standard medium harvester CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-harvester-cprg/">Standard medium harvester CT</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T1</div>
 </div>
 </div>
@@ -5981,7 +5981,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-harvester-cprg/">Standard small harvester CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-harvester-cprg/">Standard small harvester CT</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T1</div>
 </div>
 </div>
@@ -5994,7 +5994,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/noob-small-harvester/">Syn-tec small harvester</a></div>
+<div><div class="mission-card-title"><a href="/content/items/noob-small-harvester/">Syn-tec small harvester</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier special</div>
 </div>
 </div>
@@ -6007,7 +6007,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/archer-named4-core-recharger/">Archer T5 Core Recharger</a></div>
+<div><div class="mission-card-title"><a href="/content/items/archer-named4-core-recharger/">Archer T5 Core Recharger</a></div>
 <div class="mission-card-sub">Modules / Power, tier T5</div>
 </div>
 </div>
@@ -6015,7 +6015,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/archer-named4-medium-core-battery/">Archer T5 Medium Core Battery</a></div>
+<div><div class="mission-card-title"><a href="/content/items/archer-named4-medium-core-battery/">Archer T5 Medium Core Battery</a></div>
 <div class="mission-card-sub">Modules / Power, tier T5</div>
 </div>
 </div>
@@ -6031,7 +6031,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-core-recharger-cprg/">Basis Ionostator accumulator recharger CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-core-recharger-cprg/">Basis Ionostator accumulator recharger CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T2</div>
 </div>
 </div>
@@ -6055,7 +6055,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-large-core-battery-cprg/">T2 Large Core Battery Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-large-core-battery-cprg/">T2 Large Core Battery Cprg</a></div>
 <div class="mission-card-sub">Modules / Power, tier T2</div>
 </div>
 </div>
@@ -6079,7 +6079,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-core-battery-cprg/">Ovostec-gpc7000 medium auxiliary accumulator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-core-battery-cprg/">Ovostec-gpc7000 medium auxiliary accumulator CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T2</div>
 </div>
 </div>
@@ -6103,7 +6103,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-powergrid-upgrades-cprg/">Y-type 'Connector' coreactor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-powergrid-upgrades-cprg/">Y-type 'Connector' coreactor CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T2</div>
 </div>
 </div>
@@ -6127,7 +6127,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-core-battery-cprg/">Co-Fuse small auxiliary accumulator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-core-battery-cprg/">Co-Fuse small auxiliary accumulator CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T2</div>
 </div>
 </div>
@@ -6151,7 +6151,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-core-recharger-cprg/">Duobar 300xs-'Othys' accumulator recharger CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-core-recharger-cprg/">Duobar 300xs-'Othys' accumulator recharger CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T3</div>
 </div>
 </div>
@@ -6175,7 +6175,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-large-core-battery-cprg/">T3 Large Core Battery Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-large-core-battery-cprg/">T3 Large Core Battery Cprg</a></div>
 <div class="mission-card-sub">Modules / Power, tier T3</div>
 </div>
 </div>
@@ -6199,7 +6199,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-core-battery-cprg/">Sistolox medium auxiliary accumulator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-core-battery-cprg/">Sistolox medium auxiliary accumulator CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T3</div>
 </div>
 </div>
@@ -6223,7 +6223,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-powergrid-upgrades-cprg/">Palp coreactor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-powergrid-upgrades-cprg/">Palp coreactor CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T3</div>
 </div>
 </div>
@@ -6247,7 +6247,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-core-battery-cprg/">Ovostec-Ghioc small auxiliary accumulator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-core-battery-cprg/">Ovostec-Ghioc small auxiliary accumulator CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T3</div>
 </div>
 </div>
@@ -6271,7 +6271,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-core-recharger-cprg/">Nyhna Filler accumulator recharger CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-core-recharger-cprg/">Nyhna Filler accumulator recharger CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T4</div>
 </div>
 </div>
@@ -6295,7 +6295,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-large-core-battery-cprg/">T4 Large Core Battery Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-large-core-battery-cprg/">T4 Large Core Battery Cprg</a></div>
 <div class="mission-card-sub">Modules / Power, tier T4</div>
 </div>
 </div>
@@ -6319,7 +6319,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-core-battery-cprg/">Pheter Charge-M medium auxiliary accumulator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-core-battery-cprg/">Pheter Charge-M medium auxiliary accumulator CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T4</div>
 </div>
 </div>
@@ -6343,7 +6343,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-powergrid-upgrades-cprg/">E-set 15VaW coreactor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-powergrid-upgrades-cprg/">E-set 15VaW coreactor CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T4</div>
 </div>
 </div>
@@ -6367,7 +6367,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-core-battery-cprg/">Pheter Charge-S small auxiliary accumulator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-core-battery-cprg/">Pheter Charge-S small auxiliary accumulator CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T4</div>
 </div>
 </div>
@@ -6391,7 +6391,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-core-recharger-cprg/">Standard accumulator recharger CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-core-recharger-cprg/">Standard accumulator recharger CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T1</div>
 </div>
 </div>
@@ -6407,7 +6407,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-large-core-battery-cprg/">Standard Large Core Battery Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-large-core-battery-cprg/">Standard Large Core Battery Cprg</a></div>
 <div class="mission-card-sub">Modules / Power, tier T1</div>
 </div>
 </div>
@@ -6431,7 +6431,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-core-battery-cprg/">Standard medium auxiliary accumulator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-core-battery-cprg/">Standard medium auxiliary accumulator CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T1</div>
 </div>
 </div>
@@ -6447,7 +6447,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-powergrid-upgrades-cprg/">Standard coreactor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-powergrid-upgrades-cprg/">Standard coreactor CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T1</div>
 </div>
 </div>
@@ -6463,7 +6463,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-core-battery-cprg/">Standard small auxiliary accumulator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-core-battery-cprg/">Standard small auxiliary accumulator CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T1</div>
 </div>
 </div>
@@ -6471,7 +6471,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/weasel-named4-core-recharger/">Weasel T5 Core Recharger</a></div>
+<div><div class="mission-card-title"><a href="/content/items/weasel-named4-core-recharger/">Weasel T5 Core Recharger</a></div>
 <div class="mission-card-sub">Modules / Power, tier T5</div>
 </div>
 </div>
@@ -6492,7 +6492,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-assault-remote-controller-cprg/">T2 Assault Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-assault-remote-controller-cprg/">T2 Assault Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T2</div>
 </div>
 </div>
@@ -6516,7 +6516,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-engineering-remote-controller-cprg/">T2 Engineering Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-engineering-remote-controller-cprg/">T2 Engineering Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T2</div>
 </div>
 </div>
@@ -6540,7 +6540,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-hunter-remote-controller-cprg/">T2 Hunter Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-hunter-remote-controller-cprg/">T2 Hunter Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T2</div>
 </div>
 </div>
@@ -6564,7 +6564,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-industrial-remote-controller-cprg/">T2 Industrial Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-industrial-remote-controller-cprg/">T2 Industrial Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T2</div>
 </div>
 </div>
@@ -6588,7 +6588,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-remote-command-translator-cprg/">T2 Remote Command Translator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-remote-command-translator-cprg/">T2 Remote Command Translator Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T2</div>
 </div>
 </div>
@@ -6612,7 +6612,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-support-remote-controller-cprg/">T2 Support Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-support-remote-controller-cprg/">T2 Support Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T2</div>
 </div>
 </div>
@@ -6636,7 +6636,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-tactical-remote-controller-cprg/">T2 Tactical Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-tactical-remote-controller-cprg/">T2 Tactical Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T2</div>
 </div>
 </div>
@@ -6660,7 +6660,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-assault-remote-controller-cprg/">T3 Assault Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-assault-remote-controller-cprg/">T3 Assault Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T3</div>
 </div>
 </div>
@@ -6684,7 +6684,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-engineering-remote-controller-cprg/">T3 Engineering Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-engineering-remote-controller-cprg/">T3 Engineering Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T3</div>
 </div>
 </div>
@@ -6708,7 +6708,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-hunter-remote-controller-cprg/">T3 Hunter Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-hunter-remote-controller-cprg/">T3 Hunter Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T3</div>
 </div>
 </div>
@@ -6732,7 +6732,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-industrial-remote-controller-cprg/">T3 Industrial Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-industrial-remote-controller-cprg/">T3 Industrial Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T3</div>
 </div>
 </div>
@@ -6756,7 +6756,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-remote-command-translator-cprg/">T3 Remote Command Translator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-remote-command-translator-cprg/">T3 Remote Command Translator Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T3</div>
 </div>
 </div>
@@ -6780,7 +6780,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-support-remote-controller-cprg/">T3 Support Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-support-remote-controller-cprg/">T3 Support Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T3</div>
 </div>
 </div>
@@ -6804,7 +6804,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-tactical-remote-controller-cprg/">T3 Tactical Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-tactical-remote-controller-cprg/">T3 Tactical Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T3</div>
 </div>
 </div>
@@ -6828,7 +6828,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-assault-remote-controller-cprg/">T4 Assault Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-assault-remote-controller-cprg/">T4 Assault Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T4</div>
 </div>
 </div>
@@ -6852,7 +6852,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-engineering-remote-controller-cprg/">T4 Engineering Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-engineering-remote-controller-cprg/">T4 Engineering Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T4</div>
 </div>
 </div>
@@ -6876,7 +6876,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-hunter-remote-controller-cprg/">T4 Hunter Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-hunter-remote-controller-cprg/">T4 Hunter Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T4</div>
 </div>
 </div>
@@ -6900,7 +6900,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-industrial-remote-controller-cprg/">T4 Industrial Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-industrial-remote-controller-cprg/">T4 Industrial Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T4</div>
 </div>
 </div>
@@ -6924,7 +6924,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-remote-command-translator-cprg/">T4 Remote Command Translator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-remote-command-translator-cprg/">T4 Remote Command Translator Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T4</div>
 </div>
 </div>
@@ -6948,7 +6948,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-support-remote-controller-cprg/">T4 Support Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-support-remote-controller-cprg/">T4 Support Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T4</div>
 </div>
 </div>
@@ -6972,7 +6972,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-tactical-remote-controller-cprg/">T4 Tactical Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-tactical-remote-controller-cprg/">T4 Tactical Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T4</div>
 </div>
 </div>
@@ -6996,7 +6996,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-assault-remote-controller-cprg/">Standard Assault Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-assault-remote-controller-cprg/">Standard Assault Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T1</div>
 </div>
 </div>
@@ -7012,7 +7012,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-engineering-remote-controller-cprg/">Standard Engineering Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-engineering-remote-controller-cprg/">Standard Engineering Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T1</div>
 </div>
 </div>
@@ -7028,7 +7028,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-hunter-remote-controller-cprg/">Standard Hunter Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-hunter-remote-controller-cprg/">Standard Hunter Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T1</div>
 </div>
 </div>
@@ -7044,7 +7044,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-industrial-remote-controller-cprg/">Standard Industrial Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-industrial-remote-controller-cprg/">Standard Industrial Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T1</div>
 </div>
 </div>
@@ -7060,7 +7060,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-remote-command-translator-cprg/">Standard Remote Command Translator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-remote-command-translator-cprg/">Standard Remote Command Translator Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T1</div>
 </div>
 </div>
@@ -7076,7 +7076,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-support-remote-controller-cprg/">Standard Support Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-support-remote-controller-cprg/">Standard Support Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T1</div>
 </div>
 </div>
@@ -7092,7 +7092,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-tactical-remote-controller-cprg/">Standard Tactical Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-tactical-remote-controller-cprg/">Standard Tactical Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T1</div>
 </div>
 </div>
@@ -7105,7 +7105,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elite2-cultist-nox-repair-negator/">Elite2 Cultist Nox Repair Negator</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elite2-cultist-nox-repair-negator/">Elite2 Cultist Nox Repair Negator</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -7121,7 +7121,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-medium-armor-repairer-CT-capsule/">Elitet2 70 Medium Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-armor-repairer-ct-capsule/">Elitet2 70 Medium Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -7129,7 +7129,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-medium-armor-repairer-cprg/">Elitet2 70 Medium Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-armor-repairer-cprg/">Elitet2 70 Medium Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -7145,7 +7145,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-small-armor-repairer-CT-capsule/">Elitet2 70 Small Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-armor-repairer-ct-capsule/">Elitet2 70 Small Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -7153,7 +7153,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-small-armor-repairer-cprg/">Elitet2 70 Small Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-armor-repairer-cprg/">Elitet2 70 Small Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -7169,7 +7169,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-72-medium-armor-repairer-CT-capsule/">Elitet2 72 Medium Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-medium-armor-repairer-ct-capsule/">Elitet2 72 Medium Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -7177,7 +7177,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-72-medium-armor-repairer-cprg/">Elitet2 72 Medium Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-medium-armor-repairer-cprg/">Elitet2 72 Medium Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -7193,7 +7193,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-72-small-armor-repairer-CT-capsule/">Elitet2 72 Small Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-small-armor-repairer-ct-capsule/">Elitet2 72 Small Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -7201,7 +7201,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-72-small-armor-repairer-cprg/">Elitet2 72 Small Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-small-armor-repairer-cprg/">Elitet2 72 Small Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -7217,7 +7217,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-medium-armor-repairer-CT-capsule/">Elitet4 70 Medium Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-armor-repairer-ct-capsule/">Elitet4 70 Medium Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -7225,7 +7225,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-medium-armor-repairer-cprg/">Elitet4 70 Medium Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-armor-repairer-cprg/">Elitet4 70 Medium Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -7241,7 +7241,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-small-armor-repairer-CT-capsule/">Elitet4 70 Small Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-armor-repairer-ct-capsule/">Elitet4 70 Small Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -7249,7 +7249,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-small-armor-repairer-cprg/">Elitet4 70 Small Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-armor-repairer-cprg/">Elitet4 70 Small Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -7265,7 +7265,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-72-medium-armor-repairer-CT-capsule/">Elitet4 72 Medium Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-medium-armor-repairer-ct-capsule/">Elitet4 72 Medium Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -7273,7 +7273,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-72-medium-armor-repairer-cprg/">Elitet4 72 Medium Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-medium-armor-repairer-cprg/">Elitet4 72 Medium Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -7289,7 +7289,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-72-small-armor-repairer-CT-capsule/">Elitet4 72 Small Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-small-armor-repairer-ct-capsule/">Elitet4 72 Small Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -7297,7 +7297,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-72-small-armor-repairer-cprg/">Elitet4 72 Small Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-small-armor-repairer-cprg/">Elitet4 72 Small Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -7313,7 +7313,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-armor-repairer-upgrade-cprg/">Diaptes armor repairer tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-armor-repairer-upgrade-cprg/">Diaptes armor repairer tuning CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2</div>
 </div>
 </div>
@@ -7337,7 +7337,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-large-armor-repairer-cprg/">T2 Large Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-large-armor-repairer-cprg/">T2 Large Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2</div>
 </div>
 </div>
@@ -7361,7 +7361,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-armor-repairer-cprg/">Vautrell medium armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-armor-repairer-cprg/">Vautrell medium armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2</div>
 </div>
 </div>
@@ -7385,7 +7385,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-remote-armor-repairer-cprg/">Avaror GD-800 medium remote armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-remote-armor-repairer-cprg/">Avaror GD-800 medium remote armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2</div>
 </div>
 </div>
@@ -7409,7 +7409,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-armor-repairer-cprg/">A150 small armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-armor-repairer-cprg/">A150 small armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2</div>
 </div>
 </div>
@@ -7433,7 +7433,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-remote-armor-repairer-cprg/">Avaror GD-200 small remote armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-remote-armor-repairer-cprg/">Avaror GD-200 small remote armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2</div>
 </div>
 </div>
@@ -7457,7 +7457,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-armor-repairer-upgrade-cprg/">WPG3000 armor repairer tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-armor-repairer-upgrade-cprg/">WPG3000 armor repairer tuning CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T3</div>
 </div>
 </div>
@@ -7481,7 +7481,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-large-armor-repairer-cprg/">T3 Large Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-large-armor-repairer-cprg/">T3 Large Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T3</div>
 </div>
 </div>
@@ -7505,7 +7505,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-armor-repairer-cprg/">FO-150 'Reparator' medium armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-armor-repairer-cprg/">FO-150 'Reparator' medium armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T3</div>
 </div>
 </div>
@@ -7529,7 +7529,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-remote-armor-repairer-cprg/">Basio medium remote armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-remote-armor-repairer-cprg/">Basio medium remote armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T3</div>
 </div>
 </div>
@@ -7553,7 +7553,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-armor-repairer-cprg/">Quissot's small armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-armor-repairer-cprg/">Quissot's small armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T3</div>
 </div>
 </div>
@@ -7577,7 +7577,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-remote-armor-repairer-cprg/">Iuviar small remote armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-remote-armor-repairer-cprg/">Iuviar small remote armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T3</div>
 </div>
 </div>
@@ -7601,7 +7601,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-armor-repairer-upgrade-cprg/">Apogenion armor repairer tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-armor-repairer-upgrade-cprg/">Apogenion armor repairer tuning CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4</div>
 </div>
 </div>
@@ -7625,7 +7625,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-large-armor-repairer-cprg/">T4 Large Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-large-armor-repairer-cprg/">T4 Large Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4</div>
 </div>
 </div>
@@ -7649,7 +7649,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-armor-repairer-cprg/">CRC40 medium armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-armor-repairer-cprg/">CRC40 medium armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4</div>
 </div>
 </div>
@@ -7673,7 +7673,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-remote-armor-repairer-cprg/">ALS medium remote armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-remote-armor-repairer-cprg/">ALS medium remote armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4</div>
 </div>
 </div>
@@ -7697,7 +7697,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-armor-repairer-cprg/">Microforge Aestolar small armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-armor-repairer-cprg/">Microforge Aestolar small armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4</div>
 </div>
 </div>
@@ -7721,7 +7721,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-remote-armor-repairer-cprg/">PPDT-Apadisiator small remote armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-remote-armor-repairer-cprg/">PPDT-Apadisiator small remote armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4</div>
 </div>
 </div>
@@ -7745,7 +7745,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-armor-repairer-upgrade-cprg/">Standard armor repairer tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-armor-repairer-upgrade-cprg/">Standard armor repairer tuning CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T1</div>
 </div>
 </div>
@@ -7761,7 +7761,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-large-armor-repairer-cprg/">Standard Large Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-large-armor-repairer-cprg/">Standard Large Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T1</div>
 </div>
 </div>
@@ -7785,7 +7785,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-armor-repairer-cprg/">Standard medium armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-armor-repairer-cprg/">Standard medium armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T1</div>
 </div>
 </div>
@@ -7801,7 +7801,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-remote-armor-repairer-cprg/">Standard medium remote armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-remote-armor-repairer-cprg/">Standard medium remote armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T1</div>
 </div>
 </div>
@@ -7817,7 +7817,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-armor-repairer-cprg/">Standard small armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-armor-repairer-cprg/">Standard small armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T1</div>
 </div>
 </div>
@@ -7833,7 +7833,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-remote-armor-repairer-cprg/">Standard small remote armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-remote-armor-repairer-cprg/">Standard small remote armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T1</div>
 </div>
 </div>
@@ -7841,7 +7841,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/weasel-named4-small-armor-repairer/">Weasel T5 Small Armor Repairer</a></div>
+<div><div class="mission-card-title"><a href="/content/items/weasel-named4-small-armor-repairer/">Weasel T5 Small Armor Repairer</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T5</div>
 </div>
 </div>
@@ -7854,7 +7854,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/noob-small-armor-repairer/">Syn-tec small armor repairer</a></div>
+<div><div class="mission-card-title"><a href="/content/items/noob-small-armor-repairer/">Syn-tec small armor repairer</a></div>
 <div class="mission-card-sub">Modules / Repair, tier special</div>
 </div>
 </div>
@@ -7867,7 +7867,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/archer-named4-sensor-booster/">Archer T5 Sensor Booster</a></div>
+<div><div class="mission-card-title"><a href="/content/items/archer-named4-sensor-booster/">Archer T5 Sensor Booster</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T5</div>
 </div>
 </div>
@@ -7883,7 +7883,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-sensor-booster-CT-capsule/">Elitet2 70 Sensor Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-sensor-booster-ct-capsule/">Elitet2 70 Sensor Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T2 (special)</div>
 </div>
 </div>
@@ -7891,7 +7891,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-sensor-booster-cprg/">Elitet2 70 Sensor Booster Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-sensor-booster-cprg/">Elitet2 70 Sensor Booster Cprg</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T2 (special)</div>
 </div>
 </div>
@@ -7907,7 +7907,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-sensor-booster-CT-capsule/">Elitet4 70 Sensor Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-sensor-booster-ct-capsule/">Elitet4 70 Sensor Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T4 (special)</div>
 </div>
 </div>
@@ -7915,7 +7915,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-sensor-booster-cprg/">Elitet4 70 Sensor Booster Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-sensor-booster-cprg/">Elitet4 70 Sensor Booster Cprg</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T4 (special)</div>
 </div>
 </div>
@@ -7931,7 +7931,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-cargo-scanner-cprg/">Spurt-Singular cargo scanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-cargo-scanner-cprg/">Spurt-Singular cargo scanner CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T2</div>
 </div>
 </div>
@@ -7955,7 +7955,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-chassis-scanner-cprg/">Distalfrisk-MDO2 chassis scanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-chassis-scanner-cprg/">Distalfrisk-MDO2 chassis scanner CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T2</div>
 </div>
 </div>
@@ -7979,7 +7979,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-remote-sensor-booster-cprg/">Occul remote sensor amplifier CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-remote-sensor-booster-cprg/">Occul remote sensor amplifier CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T2</div>
 </div>
 </div>
@@ -8003,7 +8003,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-sensor-booster-cprg/">Bullz-I 6601 sensor amplifier CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-sensor-booster-cprg/">Bullz-I 6601 sensor amplifier CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T2</div>
 </div>
 </div>
@@ -8027,7 +8027,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-sensor-dampener-cprg/">Suboster I. sensor suppressor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-sensor-dampener-cprg/">Suboster I. sensor suppressor CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T2</div>
 </div>
 </div>
@@ -8051,7 +8051,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-sensor-jammer-cprg/">Occyt-OEW ECM CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-sensor-jammer-cprg/">Occyt-OEW ECM CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T2</div>
 </div>
 </div>
@@ -8075,7 +8075,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-sensor-supressor-booster-cprg/">DDX200-Veil sensor suppressor tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-sensor-supressor-booster-cprg/">DDX200-Veil sensor suppressor tuning CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T2</div>
 </div>
 </div>
@@ -8099,7 +8099,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-cargo-scanner-cprg/">Nomothetor cargo scanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-cargo-scanner-cprg/">Nomothetor cargo scanner CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T3</div>
 </div>
 </div>
@@ -8123,7 +8123,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-chassis-scanner-cprg/">Stalis CS3 chassis scanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-chassis-scanner-cprg/">Stalis CS3 chassis scanner CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T3</div>
 </div>
 </div>
@@ -8147,7 +8147,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-remote-sensor-booster-cprg/">Da Gama-PLS10 remote sensor amplifier CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-remote-sensor-booster-cprg/">Da Gama-PLS10 remote sensor amplifier CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T3</div>
 </div>
 </div>
@@ -8171,7 +8171,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-sensor-booster-cprg/">Desenspure sensor amplifier CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-sensor-booster-cprg/">Desenspure sensor amplifier CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T3</div>
 </div>
 </div>
@@ -8195,7 +8195,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-sensor-dampener-cprg/">MSD m\\2315 'Filch' sensor suppressor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-sensor-dampener-cprg/">MSD m\\2315 'Filch' sensor suppressor CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T3</div>
 </div>
 </div>
@@ -8219,7 +8219,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-sensor-jammer-cprg/">Wavoslur ECM CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-sensor-jammer-cprg/">Wavoslur ECM CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T3</div>
 </div>
 </div>
@@ -8243,7 +8243,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-sensor-supressor-booster-cprg/">Radiocor sensor suppressor tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-sensor-supressor-booster-cprg/">Radiocor sensor suppressor tuning CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T3</div>
 </div>
 </div>
@@ -8267,7 +8267,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-cargo-scanner-cprg/">Visioner cargo scanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-cargo-scanner-cprg/">Visioner cargo scanner CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T4</div>
 </div>
 </div>
@@ -8291,7 +8291,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-chassis-scanner-cprg/">sy-D-930 chassis scanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-chassis-scanner-cprg/">sy-D-930 chassis scanner CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T4</div>
 </div>
 </div>
@@ -8315,7 +8315,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-remote-sensor-booster-cprg/">Ambassador-RU2 remote sensor amplifier CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-remote-sensor-booster-cprg/">Ambassador-RU2 remote sensor amplifier CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T4</div>
 </div>
 </div>
@@ -8339,7 +8339,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-sensor-booster-cprg/">Ambassador SU-I sensor amplifier CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-sensor-booster-cprg/">Ambassador SU-I sensor amplifier CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T4</div>
 </div>
 </div>
@@ -8363,7 +8363,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-sensor-dampener-cprg/">Stellis sensor suppressor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-sensor-dampener-cprg/">Stellis sensor suppressor CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T4</div>
 </div>
 </div>
@@ -8387,7 +8387,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-sensor-jammer-cprg/">Tenion ECM CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-sensor-jammer-cprg/">Tenion ECM CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T4</div>
 </div>
 </div>
@@ -8411,7 +8411,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-sensor-supressor-booster-cprg/">DDX700-Mist sensor suppressor tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-sensor-supressor-booster-cprg/">DDX700-Mist sensor suppressor tuning CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T4</div>
 </div>
 </div>
@@ -8435,7 +8435,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-cargo-scanner-cprg/">Standard cargo scanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-cargo-scanner-cprg/">Standard cargo scanner CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T1</div>
 </div>
 </div>
@@ -8451,7 +8451,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-chassis-scanner-cprg/">Standard chassis scanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-chassis-scanner-cprg/">Standard chassis scanner CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T1</div>
 </div>
 </div>
@@ -8467,7 +8467,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-remote-sensor-booster-cprg/">Standard remote sensor amplifier CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-remote-sensor-booster-cprg/">Standard remote sensor amplifier CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T1</div>
 </div>
 </div>
@@ -8483,7 +8483,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-sensor-booster-cprg/">Standard sensor amplifier CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-sensor-booster-cprg/">Standard sensor amplifier CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T1</div>
 </div>
 </div>
@@ -8499,7 +8499,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-sensor-dampener-cprg/">Standard sensor suppressor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-sensor-dampener-cprg/">Standard sensor suppressor CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T1</div>
 </div>
 </div>
@@ -8515,7 +8515,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-sensor-jammer-cprg/">Standard ECM CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-sensor-jammer-cprg/">Standard ECM CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T1</div>
 </div>
 </div>
@@ -8531,7 +8531,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-sensor-supressor-booster-cprg/">Standard sensor suppressor tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-sensor-supressor-booster-cprg/">Standard sensor suppressor tuning CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T1</div>
 </div>
 </div>
@@ -8544,7 +8544,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/noob-chassis-scanner/">Syn-tec chassis scanner</a></div>
+<div><div class="mission-card-title"><a href="/content/items/noob-chassis-scanner/">Syn-tec chassis scanner</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier special</div>
 </div>
 </div>
@@ -8552,7 +8552,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/noob-sensor-booster/">Syn-tec sensor amplifier</a></div>
+<div><div class="mission-card-title"><a href="/content/items/noob-sensor-booster/">Syn-tec sensor amplifier</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier special</div>
 </div>
 </div>
@@ -8565,7 +8565,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/archer-named4-medium-shield-generator/">Archer T5 Medium Shield Generator</a></div>
+<div><div class="mission-card-title"><a href="/content/items/archer-named4-medium-shield-generator/">Archer T5 Medium Shield Generator</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T5</div>
 </div>
 </div>
@@ -8573,7 +8573,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elite2-cultist-nox-shield-negator/">Elite2 Cultist Nox Shield Negator</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elite2-cultist-nox-shield-negator/">Elite2 Cultist Nox Shield Negator</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -8589,7 +8589,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-medium-shield-generator-CT-capsule/">Elitet2 70 Medium Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-shield-generator-ct-capsule/">Elitet2 70 Medium Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -8597,7 +8597,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-medium-shield-generator-cprg/">Elitet2 70 Medium Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-shield-generator-cprg/">Elitet2 70 Medium Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -8613,7 +8613,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-small-shield-generator-CT-capsule/">Elitet2 70 Small Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-shield-generator-ct-capsule/">Elitet2 70 Small Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -8621,7 +8621,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-small-shield-generator-cprg/">Elitet2 70 Small Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-shield-generator-cprg/">Elitet2 70 Small Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -8637,7 +8637,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-71-medium-shield-generator-CT-capsule/">Elitet2 71 Medium Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-medium-shield-generator-ct-capsule/">Elitet2 71 Medium Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -8645,7 +8645,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-71-medium-shield-generator-cprg/">Elitet2 71 Medium Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-medium-shield-generator-cprg/">Elitet2 71 Medium Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -8661,7 +8661,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-71-small-shield-generator-CT-capsule/">Elitet2 71 Small Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-small-shield-generator-ct-capsule/">Elitet2 71 Small Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -8669,7 +8669,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-71-small-shield-generator-cprg/">Elitet2 71 Small Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-small-shield-generator-cprg/">Elitet2 71 Small Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -8685,7 +8685,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-medium-shield-generator-CT-capsule/">Elitet4 70 Medium Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-shield-generator-ct-capsule/">Elitet4 70 Medium Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -8693,7 +8693,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-medium-shield-generator-cprg/">Elitet4 70 Medium Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-shield-generator-cprg/">Elitet4 70 Medium Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -8709,7 +8709,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-small-shield-generator-CT-capsule/">Elitet4 70 Small Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-shield-generator-ct-capsule/">Elitet4 70 Small Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -8717,7 +8717,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-small-shield-generator-cprg/">Elitet4 70 Small Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-shield-generator-cprg/">Elitet4 70 Small Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -8733,7 +8733,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-71-medium-shield-generator-CT-capsule/">Elitet4 71 Medium Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-medium-shield-generator-ct-capsule/">Elitet4 71 Medium Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -8741,7 +8741,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-71-medium-shield-generator-cprg/">Elitet4 71 Medium Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-medium-shield-generator-cprg/">Elitet4 71 Medium Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -8757,7 +8757,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-71-small-shield-generator-CT-capsule/">Elitet4 71 Small Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-small-shield-generator-ct-capsule/">Elitet4 71 Small Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -8765,7 +8765,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-71-small-shield-generator-cprg/">Elitet4 71 Small Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-small-shield-generator-cprg/">Elitet4 71 Small Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -8781,7 +8781,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-shield-calculation-module-cprg/">Bomitar I. shield NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-shield-calculation-module-cprg/">Bomitar I. shield NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2</div>
 </div>
 </div>
@@ -8805,7 +8805,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-large-shield-generator-cprg/">T2 Large Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-large-shield-generator-cprg/">T2 Large Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2</div>
 </div>
 </div>
@@ -8829,7 +8829,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-energy-neutralizer-cprg/">Gox II. medium energy neutralizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-energy-neutralizer-cprg/">Gox II. medium energy neutralizer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2</div>
 </div>
 </div>
@@ -8853,7 +8853,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-energy-vampire-cprg/">Portio II. medium energy drainer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-energy-vampire-cprg/">Portio II. medium energy drainer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2</div>
 </div>
 </div>
@@ -8877,7 +8877,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-shield-generator-cprg/">Parsvaal-IIX medium shield generator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-shield-generator-cprg/">Parsvaal-IIX medium shield generator CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2</div>
 </div>
 </div>
@@ -8901,7 +8901,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-shield-hardener-cprg/">Bund shield hardener CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-shield-hardener-cprg/">Bund shield hardener CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2</div>
 </div>
 </div>
@@ -8925,7 +8925,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-energy-neutralizer-cprg/">Gox I. small energy neutralizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-energy-neutralizer-cprg/">Gox I. small energy neutralizer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2</div>
 </div>
 </div>
@@ -8949,7 +8949,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-energy-vampire-cprg/">Portio I. small energy drainer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-energy-vampire-cprg/">Portio I. small energy drainer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2</div>
 </div>
 </div>
@@ -8973,7 +8973,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-shield-generator-cprg/">Parsvaal-IP small shield generator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-shield-generator-cprg/">Parsvaal-IP small shield generator CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2</div>
 </div>
 </div>
@@ -8997,7 +8997,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-shield-calculation-module-cprg/">Stasis-Gen shield NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-shield-calculation-module-cprg/">Stasis-Gen shield NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T3</div>
 </div>
 </div>
@@ -9021,7 +9021,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-large-shield-generator-cprg/">T3 Large Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-large-shield-generator-cprg/">T3 Large Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T3</div>
 </div>
 </div>
@@ -9045,7 +9045,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-energy-neutralizer-cprg/">1300RFX-Spasm medium energy neutralizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-energy-neutralizer-cprg/">1300RFX-Spasm medium energy neutralizer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T3</div>
 </div>
 </div>
@@ -9069,7 +9069,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-energy-vampire-cprg/">V90-Quadres medium energy drainer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-energy-vampire-cprg/">V90-Quadres medium energy drainer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T3</div>
 </div>
 </div>
@@ -9093,7 +9093,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-shield-generator-cprg/">Ovostec-Yellowray II. medium shield generator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-shield-generator-cprg/">Ovostec-Yellowray II. medium shield generator CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T3</div>
 </div>
 </div>
@@ -9117,7 +9117,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-shield-hardener-cprg/">Patronus shield hardener CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-shield-hardener-cprg/">Patronus shield hardener CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T3</div>
 </div>
 </div>
@@ -9141,7 +9141,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-energy-neutralizer-cprg/">600GFX-Spasm small energy neutralizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-energy-neutralizer-cprg/">600GFX-Spasm small energy neutralizer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T3</div>
 </div>
 </div>
@@ -9165,7 +9165,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-energy-vampire-cprg/">Ekcept small energy drainer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-energy-vampire-cprg/">Ekcept small energy drainer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T3</div>
 </div>
 </div>
@@ -9189,7 +9189,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-shield-generator-cprg/">Ovostec-Yellowray small shield generator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-shield-generator-cprg/">Ovostec-Yellowray small shield generator CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T3</div>
 </div>
 </div>
@@ -9213,7 +9213,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-shield-calculation-module-cprg/">Bomitar II. shield NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-shield-calculation-module-cprg/">Bomitar II. shield NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4</div>
 </div>
 </div>
@@ -9237,7 +9237,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-large-shield-generator-cprg/">T4 Large Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-large-shield-generator-cprg/">T4 Large Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4</div>
 </div>
 </div>
@@ -9261,7 +9261,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-energy-neutralizer-cprg/">Sicado I. medium energy neutralizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-energy-neutralizer-cprg/">Sicado I. medium energy neutralizer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4</div>
 </div>
 </div>
@@ -9285,7 +9285,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-energy-vampire-cprg/">Filch-AM medium energy drainer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-energy-vampire-cprg/">Filch-AM medium energy drainer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4</div>
 </div>
 </div>
@@ -9309,7 +9309,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-shield-generator-cprg/">Penik medium shield generator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-shield-generator-cprg/">Penik medium shield generator CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4</div>
 </div>
 </div>
@@ -9333,7 +9333,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-shield-hardener-cprg/">Guardian shield hardener CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-shield-hardener-cprg/">Guardian shield hardener CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4</div>
 </div>
 </div>
@@ -9357,7 +9357,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-energy-neutralizer-cprg/">Cerba small energy neutralizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-energy-neutralizer-cprg/">Cerba small energy neutralizer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4</div>
 </div>
 </div>
@@ -9381,7 +9381,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-energy-vampire-cprg/">Io-trail SVU small energy drainer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-energy-vampire-cprg/">Io-trail SVU small energy drainer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4</div>
 </div>
 </div>
@@ -9405,7 +9405,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-shield-generator-cprg/">SBA-200 Forebrace small shield generator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-shield-generator-cprg/">SBA-200 Forebrace small shield generator CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4</div>
 </div>
 </div>
@@ -9429,7 +9429,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-shield-calculation-module-cprg/">Standard shield NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-shield-calculation-module-cprg/">Standard shield NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T1</div>
 </div>
 </div>
@@ -9445,7 +9445,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-large-shield-generator-cprg/">Standard Large Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-large-shield-generator-cprg/">Standard Large Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T1</div>
 </div>
 </div>
@@ -9469,7 +9469,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-energy-neutralizer-cprg/">Standard medium energy neutralizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-energy-neutralizer-cprg/">Standard medium energy neutralizer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T1</div>
 </div>
 </div>
@@ -9485,7 +9485,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-energy-vampire-cprg/">Standard medium energy drainer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-energy-vampire-cprg/">Standard medium energy drainer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T1</div>
 </div>
 </div>
@@ -9501,7 +9501,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-shield-generator-cprg/">Standard medium shield generator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-shield-generator-cprg/">Standard medium shield generator CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T1</div>
 </div>
 </div>
@@ -9517,7 +9517,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-shield-hardener-cprg/">Standard shield hardener CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-shield-hardener-cprg/">Standard shield hardener CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T1</div>
 </div>
 </div>
@@ -9533,7 +9533,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-energy-neutralizer-cprg/">Standard small energy neutralizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-energy-neutralizer-cprg/">Standard small energy neutralizer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T1</div>
 </div>
 </div>
@@ -9549,7 +9549,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-energy-vampire-cprg/">Standard small energy drainer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-energy-vampire-cprg/">Standard small energy drainer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T1</div>
 </div>
 </div>
@@ -9565,7 +9565,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-shield-generator-cprg/">Standard small shield generator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-shield-generator-cprg/">Standard small shield generator CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T1</div>
 </div>
 </div>
@@ -9573,7 +9573,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/tux-shield-hardener-reward/">\"The Wall\" shield hardener</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tux-shield-hardener-reward/">\"The Wall\" shield hardener</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -9586,7 +9586,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-industrial-turret-driller/">T2 Industrial Turret Driller</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-industrial-turret-driller/">T2 Industrial Turret Driller</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T2</div>
 </div>
 </div>
@@ -9594,7 +9594,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-industrial-turret-harvester/">T2 Industrial Turret Harvester</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-industrial-turret-harvester/">T2 Industrial Turret Harvester</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T2</div>
 </div>
 </div>
@@ -9602,7 +9602,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-industrial-turret-driller/">T3 Industrial Turret Driller</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-industrial-turret-driller/">T3 Industrial Turret Driller</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T3</div>
 </div>
 </div>
@@ -9610,7 +9610,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-industrial-turret-harvester/">T3 Industrial Turret Harvester</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-industrial-turret-harvester/">T3 Industrial Turret Harvester</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T3</div>
 </div>
 </div>
@@ -9618,7 +9618,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-industrial-turret-driller/">T4 Industrial Turret Driller</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-industrial-turret-driller/">T4 Industrial Turret Driller</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T4</div>
 </div>
 </div>
@@ -9626,7 +9626,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-industrial-turret-harvester/">T4 Industrial Turret Harvester</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-industrial-turret-harvester/">T4 Industrial Turret Harvester</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T4</div>
 </div>
 </div>
@@ -9634,7 +9634,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standart-industrial-turret-driller/">Standart Industrial Turret Driller</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standart-industrial-turret-driller/">Standart Industrial Turret Driller</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T1</div>
 </div>
 </div>
@@ -9642,7 +9642,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standart-industrial-turret-harvester/">Standart Industrial Turret Harvester</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standart-industrial-turret-harvester/">Standart Industrial Turret Harvester</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T1</div>
 </div>
 </div>
@@ -9650,7 +9650,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/turret-energy-neutralizer/">Turret-mounted energy neutralizer</a></div>
+<div><div class="mission-card-title"><a href="/content/items/turret-energy-neutralizer/">Turret-mounted energy neutralizer</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T1</div>
 </div>
 </div>
@@ -9658,7 +9658,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/turret-laser/">Turret-mounted laser</a></div>
+<div><div class="mission-card-title"><a href="/content/items/turret-laser/">Turret-mounted laser</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T1</div>
 </div>
 </div>
@@ -9666,7 +9666,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/turret-missile-launcher/">Turret-mounted missile launcher</a></div>
+<div><div class="mission-card-title"><a href="/content/items/turret-missile-launcher/">Turret-mounted missile launcher</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T1</div>
 </div>
 </div>
@@ -9674,7 +9674,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/turret-railgun/">Turret-mounted EM-gun</a></div>
+<div><div class="mission-card-title"><a href="/content/items/turret-railgun/">Turret-mounted EM-gun</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T1</div>
 </div>
 </div>
@@ -9682,7 +9682,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/turret-sensor-dampener/">Turret-mounted sensor suppressor</a></div>
+<div><div class="mission-card-title"><a href="/content/items/turret-sensor-dampener/">Turret-mounted sensor suppressor</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T1</div>
 </div>
 </div>
@@ -9690,7 +9690,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/turret-sensor-jammer/">Turret-mounted ECM</a></div>
+<div><div class="mission-card-title"><a href="/content/items/turret-sensor-jammer/">Turret-mounted ECM</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T1</div>
 </div>
 </div>
@@ -9698,7 +9698,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/turret-webber/">Turret-mounted demobilizer</a></div>
+<div><div class="mission-card-title"><a href="/content/items/turret-webber/">Turret-mounted demobilizer</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T1</div>
 </div>
 </div>
@@ -9711,7 +9711,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/archer-named4-missile-launcher/">Archer T5 Missile Launcher</a></div>
+<div><div class="mission-card-title"><a href="/content/items/archer-named4-missile-launcher/">Archer T5 Missile Launcher</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T5</div>
 </div>
 </div>
@@ -9727,7 +9727,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-longrange-medium-autocannon-CT-capsule/">Elitet4 Gamma Longrange Medium Autocannon (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-autocannon-ct-capsule/">Elitet4 Gamma Longrange Medium Autocannon (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9735,7 +9735,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-longrange-medium-autocannon-cprg/">Elitet4 Gamma Longrange Medium Autocannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-autocannon-cprg/">Elitet4 Gamma Longrange Medium Autocannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9751,7 +9751,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-longrange-medium-laser-CT-capsule/">Elitet4 Gamma Longrange Medium Laser (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-laser-ct-capsule/">Elitet4 Gamma Longrange Medium Laser (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9759,7 +9759,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-longrange-medium-laser-cprg/">Elitet4 Gamma Longrange Medium Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-laser-cprg/">Elitet4 Gamma Longrange Medium Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9775,7 +9775,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-longrange-medium-railgun-CT-capsule/">Elitet4 Gamma Longrange Medium Railgun (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-railgun-ct-capsule/">Elitet4 Gamma Longrange Medium Railgun (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9783,7 +9783,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-longrange-medium-railgun-cprg/">Elitet4 Gamma Longrange Medium Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-railgun-cprg/">Elitet4 Gamma Longrange Medium Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9799,7 +9799,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-medium-autocannon-CT-capsule/">Elitet4 Gamma Medium Autocannon (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-autocannon-ct-capsule/">Elitet4 Gamma Medium Autocannon (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9807,7 +9807,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-medium-autocannon-cprg/">Elitet4 Gamma Medium Autocannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-autocannon-cprg/">Elitet4 Gamma Medium Autocannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9823,7 +9823,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-medium-laser-CT-capsule/">Elitet4 Gamma Medium Laser (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-laser-ct-capsule/">Elitet4 Gamma Medium Laser (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9831,7 +9831,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-medium-laser-cprg/">Elitet4 Gamma Medium Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-laser-cprg/">Elitet4 Gamma Medium Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9847,7 +9847,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-medium-railgun-CT-capsule/">Elitet4 Gamma Medium Railgun (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-railgun-ct-capsule/">Elitet4 Gamma Medium Railgun (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9855,7 +9855,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-medium-railgun-cprg/">Elitet4 Gamma Medium Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-railgun-cprg/">Elitet4 Gamma Medium Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9871,7 +9871,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-missile-launcher-CT-capsule/">Elitet4 Gamma Missile Launcher (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-missile-launcher-ct-capsule/">Elitet4 Gamma Missile Launcher (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9879,7 +9879,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-missile-launcher-cprg/">Elitet4 Gamma Missile Launcher Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-missile-launcher-cprg/">Elitet4 Gamma Missile Launcher Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9895,7 +9895,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-rocket-launcher-CT-capsule/">Elitet4 Gamma Rocket Launcher (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-rocket-launcher-ct-capsule/">Elitet4 Gamma Rocket Launcher (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9903,7 +9903,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-rocket-launcher-cprg/">Elitet4 Gamma Rocket Launcher Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-rocket-launcher-cprg/">Elitet4 Gamma Rocket Launcher Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9919,7 +9919,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-small-autocannon-CT-capsule/">Elitet4 Gamma Small Autocannon (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-autocannon-ct-capsule/">Elitet4 Gamma Small Autocannon (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9927,7 +9927,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-small-autocannon-cprg/">Elitet4 Gamma Small Autocannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-autocannon-cprg/">Elitet4 Gamma Small Autocannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9943,7 +9943,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-small-laser-CT-capsule/">Elitet4 Gamma Small Laser (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-laser-ct-capsule/">Elitet4 Gamma Small Laser (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9951,7 +9951,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-small-laser-cprg/">Elitet4 Gamma Small Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-laser-cprg/">Elitet4 Gamma Small Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9967,7 +9967,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-small-railgun-CT-capsule/">Elitet4 Gamma Small Railgun (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-railgun-ct-capsule/">Elitet4 Gamma Small Railgun (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9975,7 +9975,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-small-railgun-cprg/">Elitet4 Gamma Small Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-railgun-cprg/">Elitet4 Gamma Small Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9991,7 +9991,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/longrange-standard-large-laser-cprg/">Longrange Standard Large Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/longrange-standard-large-laser-cprg/">Longrange Standard Large Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -10015,7 +10015,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/longrange-standard-large-railgun-cprg/">Longrange Standard Large Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/longrange-standard-large-railgun-cprg/">Longrange Standard Large Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -10039,7 +10039,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/longrange-standard-medium-autocannon-cprg/">Standard medium autocannon CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/longrange-standard-medium-autocannon-cprg/">Standard medium autocannon CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -10055,7 +10055,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/longrange-standard-medium-laser-cprg/">Standard medium HCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/longrange-standard-medium-laser-cprg/">Standard medium HCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -10071,7 +10071,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/longrange-standard-medium-railgun-cprg/">Standard medium EM-gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/longrange-standard-medium-railgun-cprg/">Standard medium EM-gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -10087,7 +10087,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-cruisemissile-launcher-cprg/">T2 Cruisemissile Launcher Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-cruisemissile-launcher-cprg/">T2 Cruisemissile Launcher Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10111,7 +10111,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-damage-mod-laser-cprg/">Reflexis II. laser tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-damage-mod-laser-cprg/">Reflexis II. laser tuning CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10135,7 +10135,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-damage-mod-railgun-cprg/">Nuimtec-Spilster magnetic weapon tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-damage-mod-railgun-cprg/">Nuimtec-Spilster magnetic weapon tuning CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10159,7 +10159,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-hell-cannon-cprg/">T2 Hell Cannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-hell-cannon-cprg/">T2 Hell Cannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10183,7 +10183,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-large-laser-cprg/">T2 Large Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-large-laser-cprg/">T2 Large Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10207,7 +10207,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-large-railgun-cprg/">T2 Large Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-large-railgun-cprg/">T2 Large Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10231,7 +10231,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-longrange-large-laser-cprg/">T2 Longrange Large Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-longrange-large-laser-cprg/">T2 Longrange Large Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10255,7 +10255,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-longrange-large-railgun-cprg/">T2 Longrange Large Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-longrange-large-railgun-cprg/">T2 Longrange Large Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10279,7 +10279,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-longrange-medium-autocannon-cprg/">GTRB medium autocannon CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-longrange-medium-autocannon-cprg/">GTRB medium autocannon CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10303,7 +10303,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-longrange-medium-laser-cprg/">Tertzer medium HCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-longrange-medium-laser-cprg/">Tertzer medium HCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10327,7 +10327,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-longrange-medium-railgun-cprg/">Condor-SPP medium EM-gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-longrange-medium-railgun-cprg/">Condor-SPP medium EM-gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10351,7 +10351,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-autocannon-cprg/">Grenber 28d medium machine gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-autocannon-cprg/">Grenber 28d medium machine gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10375,7 +10375,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-laser-cprg/">Thelotec-Grazier medium LCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-laser-cprg/">Thelotec-Grazier medium LCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10399,7 +10399,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-railgun-cprg/">Iskio-Magnetor medium Gauss gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-railgun-cprg/">Iskio-Magnetor medium Gauss gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10423,7 +10423,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-missile-launcher-cprg/">ST-Dupot medium missile launcher CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-missile-launcher-cprg/">ST-Dupot medium missile launcher CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10447,7 +10447,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-raven-cannon-cprg/">T2 Raven Cannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-raven-cannon-cprg/">T2 Raven Cannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10471,7 +10471,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-rocket-launcher-cprg/">Pelistec-Horosol DBM light missile launcher CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-rocket-launcher-cprg/">Pelistec-Horosol DBM light missile launcher CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10495,7 +10495,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-autocannon-cprg/">Malleus light autocannon CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-autocannon-cprg/">Malleus light autocannon CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10519,7 +10519,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-laser-cprg/">Thelotec-Dabis light HCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-laser-cprg/">Thelotec-Dabis light HCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10543,7 +10543,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-railgun-cprg/">Nuimtec-ROWO light EM-gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-railgun-cprg/">Nuimtec-ROWO light EM-gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10567,7 +10567,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-weapon-stabilizer-cprg/">Kobel 450-TZ weapon stabilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-weapon-stabilizer-cprg/">Kobel 450-TZ weapon stabilizer CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -10591,7 +10591,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-cruisemissile-launcher-cprg/">T3 Cruisemissile Launcher Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-cruisemissile-launcher-cprg/">T3 Cruisemissile Launcher Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -10615,7 +10615,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-damage-mod-laser-cprg/">Kauska Optibrace laser tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-damage-mod-laser-cprg/">Kauska Optibrace laser tuning CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -10639,7 +10639,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-damage-mod-railgun-cprg/">RSU-Magnitcore magnetic weapon tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-damage-mod-railgun-cprg/">RSU-Magnitcore magnetic weapon tuning CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -10663,7 +10663,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-hell-cannon-cprg/">T3 Hell Cannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-hell-cannon-cprg/">T3 Hell Cannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -10687,7 +10687,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-large-laser-cprg/">T3 Large Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-large-laser-cprg/">T3 Large Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -10711,7 +10711,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-large-railgun-cprg/">T3 Large Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-large-railgun-cprg/">T3 Large Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -10735,7 +10735,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-longrange-large-laser-cprg/">T3 Longrange Large Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-longrange-large-laser-cprg/">T3 Longrange Large Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -10759,7 +10759,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-longrange-large-railgun-cprg/">T3 Longrange Large Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-longrange-large-railgun-cprg/">T3 Longrange Large Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -10783,7 +10783,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-longrange-medium-autocannon-cprg/">Astoc M75 medium autocannon CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-longrange-medium-autocannon-cprg/">Astoc M75 medium autocannon CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -10807,7 +10807,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-longrange-medium-laser-cprg/">Thelotec-Iocle I. medium HCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-longrange-medium-laser-cprg/">Thelotec-Iocle I. medium HCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -10831,7 +10831,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-longrange-medium-railgun-cprg/">Nuimtec-Accolon LRS medium EM-gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-longrange-medium-railgun-cprg/">Nuimtec-Accolon LRS medium EM-gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -10855,7 +10855,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-autocannon-cprg/">.5s Hastex medium machine gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-autocannon-cprg/">.5s Hastex medium machine gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -10879,7 +10879,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-laser-cprg/">Kauska Heatpin I. medium LCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-laser-cprg/">Kauska Heatpin I. medium LCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -10903,7 +10903,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-railgun-cprg/">Nuimtec-Midion AMS medium Gauss gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-railgun-cprg/">Nuimtec-Midion AMS medium Gauss gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -10927,7 +10927,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-missile-launcher-cprg/">Vollert medium missile launcher CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-missile-launcher-cprg/">Vollert medium missile launcher CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -10951,7 +10951,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-raven-cannon-cprg/">T3 Raven Cannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-raven-cannon-cprg/">T3 Raven Cannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -10975,7 +10975,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-rocket-launcher-cprg/">Morteq light missile launcher CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-rocket-launcher-cprg/">Morteq light missile launcher CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -10999,7 +10999,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-autocannon-cprg/">Senner Carbine light autocannon CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-autocannon-cprg/">Senner Carbine light autocannon CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -11023,7 +11023,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-laser-cprg/">Pikolo light HCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-laser-cprg/">Pikolo light HCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -11047,7 +11047,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-railgun-cprg/">Proto-Gard II. light EM-gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-railgun-cprg/">Proto-Gard II. light EM-gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -11071,7 +11071,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-weapon-stabilizer-cprg/">Sharpsy weapon stabilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-weapon-stabilizer-cprg/">Sharpsy weapon stabilizer CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -11095,7 +11095,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-cruisemissile-launcher-cprg/">T4 Cruisemissile Launcher Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-cruisemissile-launcher-cprg/">T4 Cruisemissile Launcher Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11119,7 +11119,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-damage-mod-laser-cprg/">Oqulus laser tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-damage-mod-laser-cprg/">Oqulus laser tuning CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11143,7 +11143,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-damage-mod-railgun-cprg/">Nuimtec-Magniscope XM80 magnetic weapon tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-damage-mod-railgun-cprg/">Nuimtec-Magniscope XM80 magnetic weapon tuning CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11167,7 +11167,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-hell-cannon-cprg/">T4 Hell Cannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-hell-cannon-cprg/">T4 Hell Cannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11191,7 +11191,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-large-laser-cprg/">T4 Large Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-large-laser-cprg/">T4 Large Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11215,7 +11215,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-large-railgun-cprg/">T4 Large Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-large-railgun-cprg/">T4 Large Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11239,7 +11239,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-longrange-large-laser-cprg/">T4 Longrange Large Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-longrange-large-laser-cprg/">T4 Longrange Large Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11263,7 +11263,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-longrange-large-railgun-cprg/">T4 Longrange Large Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-longrange-large-railgun-cprg/">T4 Longrange Large Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11287,7 +11287,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-longrange-medium-autocannon-cprg/">Znatvoy-Berjiar-IA medium autocannon CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-longrange-medium-autocannon-cprg/">Znatvoy-Berjiar-IA medium autocannon CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11311,7 +11311,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-longrange-medium-laser-cprg/">Phisker 30PW medium HCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-longrange-medium-laser-cprg/">Phisker 30PW medium HCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11335,7 +11335,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-longrange-medium-railgun-cprg/">5.5-Glipler medium EM-gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-longrange-medium-railgun-cprg/">5.5-Glipler medium EM-gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11359,7 +11359,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-autocannon-cprg/">Torrex-G17 medium machine gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-autocannon-cprg/">Torrex-G17 medium machine gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11383,7 +11383,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-laser-cprg/">Thermodissector medium LCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-laser-cprg/">Thermodissector medium LCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11407,7 +11407,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-railgun-cprg/">Prompt medium Gauss gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-railgun-cprg/">Prompt medium Gauss gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11431,7 +11431,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-missile-launcher-cprg/">Pelistec-TR250 medium missile launcher CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-missile-launcher-cprg/">Pelistec-TR250 medium missile launcher CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11455,7 +11455,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-raven-cannon-cprg/">T4 Raven Cannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-raven-cannon-cprg/">T4 Raven Cannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11479,7 +11479,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-rocket-launcher-cprg/">Pelistec-TR110 light missile launcher CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-rocket-launcher-cprg/">Pelistec-TR110 light missile launcher CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11503,7 +11503,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-autocannon-cprg/">Astoc M45 light autocannon CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-autocannon-cprg/">Astoc M45 light autocannon CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11527,7 +11527,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-laser-cprg/">Thelotec-Stroyar light HCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-laser-cprg/">Thelotec-Stroyar light HCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11551,7 +11551,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-railgun-cprg/">Nuimtec-Inkandesk light EM-gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-railgun-cprg/">Nuimtec-Inkandesk light EM-gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11575,7 +11575,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-weapon-stabilizer-cprg/">Kobel 300-XZ weapon stabilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-weapon-stabilizer-cprg/">Kobel 300-XZ weapon stabilizer CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -11599,7 +11599,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-cruisemissile-launcher-cprg/">Standard Cruisemissile Launcher Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-cruisemissile-launcher-cprg/">Standard Cruisemissile Launcher Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -11623,7 +11623,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-damage-mod-laser-cprg/">Standard laser tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-damage-mod-laser-cprg/">Standard laser tuning CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -11639,7 +11639,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-damage-mod-railgun-cprg/">Standard magnetic weapon tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-damage-mod-railgun-cprg/">Standard magnetic weapon tuning CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -11655,7 +11655,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-hell-cannon-cprg/">Standard Hell Cannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-hell-cannon-cprg/">Standard Hell Cannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -11679,7 +11679,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-large-laser-cprg/">Standard Large Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-large-laser-cprg/">Standard Large Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -11703,7 +11703,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-large-railgun-cprg/">Standard Large Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-large-railgun-cprg/">Standard Large Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -11727,7 +11727,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-autocannon-cprg/">Standard medium machine gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-autocannon-cprg/">Standard medium machine gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -11743,7 +11743,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-laser-cprg/">Standard medium LCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-laser-cprg/">Standard medium LCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -11759,7 +11759,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-railgun-cprg/">Standard medium Gauss gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-railgun-cprg/">Standard medium Gauss gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -11775,7 +11775,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-missile-launcher-cprg/">Standard medium missile launcher CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-missile-launcher-cprg/">Standard medium missile launcher CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -11791,7 +11791,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-raven-cannon-cprg/">Standard Raven Cannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-raven-cannon-cprg/">Standard Raven Cannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -11815,7 +11815,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-rocket-launcher-cprg/">Standard light missile launcher CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-rocket-launcher-cprg/">Standard light missile launcher CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -11831,7 +11831,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-autocannon-cprg/">Standard light autocannon CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-autocannon-cprg/">Standard light autocannon CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -11847,7 +11847,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-laser-cprg/">Standard light HCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-laser-cprg/">Standard light HCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -11863,7 +11863,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-railgun-cprg/">Standard light EM-gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-railgun-cprg/">Standard light EM-gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -11879,7 +11879,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-weapon-stabilizer-cprg/">Standard weapon stabilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-weapon-stabilizer-cprg/">Standard weapon stabilizer CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -11887,7 +11887,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/weasel-named4-small-railgun/">Weasel T5 Small Railgun</a></div>
+<div><div class="mission-card-title"><a href="/content/items/weasel-named4-small-railgun/">Weasel T5 Small Railgun</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T5</div>
 </div>
 </div>
@@ -11900,7 +11900,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/noob-small-autocannon/">Syn-tec light autocannon</a></div>
+<div><div class="mission-card-title"><a href="/content/items/noob-small-autocannon/">Syn-tec light autocannon</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier special</div>
 </div>
 </div>
@@ -11920,7 +11920,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/buoy-charger-module/">Terraformer beacon charger module</a></div>
+<div><div class="mission-card-title"><a href="/content/items/buoy-charger-module/">Terraformer beacon charger module</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -11936,7 +11936,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/longrange-standard-large-laser-cprg/">Longrange Standard Large Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/longrange-standard-large-laser-cprg/">Longrange Standard Large Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -11952,7 +11952,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/longrange-standard-large-railgun-cprg/">Longrange Standard Large Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/longrange-standard-large-railgun-cprg/">Longrange Standard Large Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -11968,7 +11968,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/longrange-standard-medium-autocannon-cprg/">Standard medium autocannon CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/longrange-standard-medium-autocannon-cprg/">Standard medium autocannon CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -11984,7 +11984,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/longrange-standard-medium-laser-cprg/">Standard medium HCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/longrange-standard-medium-laser-cprg/">Standard medium HCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -12000,7 +12000,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/longrange-standard-medium-railgun-cprg/">Standard medium EM-gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/longrange-standard-medium-railgun-cprg/">Standard medium EM-gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -12008,7 +12008,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/pbs-construction-module/">Standard construction module</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-construction-module/">Standard construction module</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12016,7 +12016,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/specimen-sap-item-CT-capsule/">Specimen Sap Item (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/specimen-sap-item-ct-capsule/">Specimen Sap Item (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12032,7 +12032,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-adaptive-alloy-cprg/">Standard Adaptive Alloy Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-adaptive-alloy-cprg/">Standard Adaptive Alloy Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12040,7 +12040,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-aggrorange-decreaser-cprg/">Standard camouflage module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-aggrorange-decreaser-cprg/">Standard camouflage module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12056,7 +12056,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-armor-repairer-upgrade-cprg/">Standard armor repairer tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-armor-repairer-upgrade-cprg/">Standard armor repairer tuning CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T1</div>
 </div>
 </div>
@@ -12072,7 +12072,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-assault-remote-controller-cprg/">Standard Assault Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-assault-remote-controller-cprg/">Standard Assault Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T1</div>
 </div>
 </div>
@@ -12080,7 +12080,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-battle-stance-modul-cprg/">Standard Battle Stance Modul Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-battle-stance-modul-cprg/">Standard Battle Stance Modul Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12088,7 +12088,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-blinder/">Standard Blinder</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-blinder/">Standard Blinder</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12104,7 +12104,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-blob-emission-modulator-cprg/">Standard interference module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-blob-emission-modulator-cprg/">Standard interference module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12120,7 +12120,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-cargo-scanner-cprg/">Standard cargo scanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-cargo-scanner-cprg/">Standard cargo scanner CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T1</div>
 </div>
 </div>
@@ -12136,7 +12136,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-chassis-scanner-cprg/">Standard chassis scanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-chassis-scanner-cprg/">Standard chassis scanner CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T1</div>
 </div>
 </div>
@@ -12152,7 +12152,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-chm-armor-hardener-cprg/">Standard chemical armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-chm-armor-hardener-cprg/">Standard chemical armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T1</div>
 </div>
 </div>
@@ -12168,7 +12168,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-core-recharger-cprg/">Standard accumulator recharger CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-core-recharger-cprg/">Standard accumulator recharger CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T1</div>
 </div>
 </div>
@@ -12184,7 +12184,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-cpu-upgrade-cprg/">Standard coprocessor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-cpu-upgrade-cprg/">Standard coprocessor CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12200,7 +12200,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-cruisemissile-launcher-cprg/">Standard Cruisemissile Launcher Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-cruisemissile-launcher-cprg/">Standard Cruisemissile Launcher Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -12216,7 +12216,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-damage-mod-laser-cprg/">Standard laser tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-damage-mod-laser-cprg/">Standard laser tuning CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -12232,7 +12232,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-damage-mod-missile-cprg/">Standard missile launcher tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-damage-mod-missile-cprg/">Standard missile launcher tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12248,7 +12248,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-damage-mod-projectile-cprg/">Standard firearm tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-damage-mod-projectile-cprg/">Standard firearm tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12264,7 +12264,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-damage-mod-railgun-cprg/">Standard magnetic weapon tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-damage-mod-railgun-cprg/">Standard magnetic weapon tuning CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -12280,7 +12280,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-detection-modul-cprg/">Standard signal detector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-detection-modul-cprg/">Standard signal detector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12296,7 +12296,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-dreadnought-module-cprg/">Standard Dreadnought Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-dreadnought-module-cprg/">Standard Dreadnought Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12312,7 +12312,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-eccm-cprg/">Standard ECCM CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-eccm-cprg/">Standard ECCM CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12328,7 +12328,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-ecm-booster-cprg/">Standard ECM tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-ecm-booster-cprg/">Standard ECM tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12344,7 +12344,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-energy-warfare-upgrade-cprg/">Standard EnWar upgrade CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-energy-warfare-upgrade-cprg/">Standard EnWar upgrade CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12360,7 +12360,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-engineering-remote-controller-cprg/">Standard Engineering Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-engineering-remote-controller-cprg/">Standard Engineering Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T1</div>
 </div>
 </div>
@@ -12376,7 +12376,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-excavator-module-cprg/">Standard Excavator Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-excavator-module-cprg/">Standard Excavator Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T1</div>
 </div>
 </div>
@@ -12392,7 +12392,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-exp-armor-hardener-cprg/">Standard seismic armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-exp-armor-hardener-cprg/">Standard seismic armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T1</div>
 </div>
 </div>
@@ -12408,7 +12408,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-explosive-kers-cprg/">Standard seismic ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-explosive-kers-cprg/">Standard seismic ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12424,7 +12424,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-coordinated-maneuvering-module-cprg/">Standard evasive NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-coordinated-maneuvering-module-cprg/">Standard evasive NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12440,7 +12440,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-core-management-module-cprg/">Standard recharger NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-core-management-module-cprg/">Standard recharger NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12456,7 +12456,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-defense-module-cprg/">Standard armor NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-defense-module-cprg/">Standard armor NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12472,7 +12472,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-devastating-module-cprg/">Standard Gang Assist Devastating Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-devastating-module-cprg/">Standard Gang Assist Devastating Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12488,7 +12488,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-ewar-range-module-cprg/">Standard EW NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-ewar-range-module-cprg/">Standard EW NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12504,7 +12504,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-fast-extraction-module-cprg/">Standard fast extractor NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-fast-extraction-module-cprg/">Standard fast extractor NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12520,7 +12520,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-industry-module-cprg/">Standard industrial NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-industry-module-cprg/">Standard industrial NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12536,7 +12536,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-information-module-cprg/">Standard farlock NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-information-module-cprg/">Standard farlock NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12552,7 +12552,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-maintance-module-cprg/">Standard repairer NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-maintance-module-cprg/">Standard repairer NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12568,7 +12568,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-precision-firing-module-cprg/">Standard critical hit NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-precision-firing-module-cprg/">Standard critical hit NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12584,7 +12584,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-resilience-module-cprg/">Standard Gang Assist Resilience Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-resilience-module-cprg/">Standard Gang Assist Resilience Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12600,7 +12600,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-shared-dataprocessing-module-cprg/">Standard lock booster NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-shared-dataprocessing-module-cprg/">Standard lock booster NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12616,7 +12616,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-shield-calculation-module-cprg/">Standard shield NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-shield-calculation-module-cprg/">Standard shield NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T1</div>
 </div>
 </div>
@@ -12632,7 +12632,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-siege-module-cprg/">Standard assault NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-siege-module-cprg/">Standard assault NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12648,7 +12648,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-gang-assist-speed-module-cprg/">Standard velocity NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-gang-assist-speed-module-cprg/">Standard velocity NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12664,7 +12664,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-hell-cannon-cprg/">Standard Hell Cannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-hell-cannon-cprg/">Standard Hell Cannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -12688,7 +12688,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-hunter-remote-controller-cprg/">Standard Hunter Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-hunter-remote-controller-cprg/">Standard Hunter Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T1</div>
 </div>
 </div>
@@ -12704,7 +12704,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-industrial-remote-controller-cprg/">Standard Industrial Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-industrial-remote-controller-cprg/">Standard Industrial Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T1</div>
 </div>
 </div>
@@ -12720,7 +12720,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-kin-armor-hardener-cprg/">Standard kinetic armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-kin-armor-hardener-cprg/">Standard kinetic armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T1</div>
 </div>
 </div>
@@ -12736,7 +12736,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-kinetic-kers-cprg/">Standard kinetic ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-kinetic-kers-cprg/">Standard kinetic ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12752,7 +12752,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-large-armor-plate-cprg/">Standard Large Armor Plate Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-large-armor-plate-cprg/">Standard Large Armor Plate Cprg</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T1</div>
 </div>
 </div>
@@ -12768,7 +12768,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-large-armor-repairer-cprg/">Standard Large Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-large-armor-repairer-cprg/">Standard Large Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T1</div>
 </div>
 </div>
@@ -12784,7 +12784,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-large-core-battery-cprg/">Standard Large Core Battery Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-large-core-battery-cprg/">Standard Large Core Battery Cprg</a></div>
 <div class="mission-card-sub">Modules / Power, tier T1</div>
 </div>
 </div>
@@ -12800,7 +12800,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-large-core-booster-cprg/">Standard Large Core Booster Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-large-core-booster-cprg/">Standard Large Core Booster Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12816,7 +12816,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-large-driller-cprg/">Standard Large Driller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-large-driller-cprg/">Standard Large Driller Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12832,7 +12832,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-large-harvester-cprg/">Standard Large Harvester Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-large-harvester-cprg/">Standard Large Harvester Cprg</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T1</div>
 </div>
 </div>
@@ -12848,7 +12848,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-large-laser-cprg/">Standard Large Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-large-laser-cprg/">Standard Large Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -12864,7 +12864,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-large-railgun-cprg/">Standard Large Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-large-railgun-cprg/">Standard Large Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -12880,7 +12880,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-large-shield-generator-cprg/">Standard Large Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-large-shield-generator-cprg/">Standard Large Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T1</div>
 </div>
 </div>
@@ -12896,7 +12896,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-longrange-webber-cprg/">Standard L-demobilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-longrange-webber-cprg/">Standard L-demobilizer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12912,7 +12912,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-maneuvering-upgrade-cprg/">Standard evasive module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-maneuvering-upgrade-cprg/">Standard evasive module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12928,7 +12928,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-mass-reductor-cprg/">Standard lightweight frame CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-mass-reductor-cprg/">Standard lightweight frame CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -12944,7 +12944,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-armor-plate-cprg/">Standard medium armor plate CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-armor-plate-cprg/">Standard medium armor plate CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T1</div>
 </div>
 </div>
@@ -12960,7 +12960,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-armor-repairer-cprg/">Standard medium armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-armor-repairer-cprg/">Standard medium armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T1</div>
 </div>
 </div>
@@ -12976,7 +12976,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-autocannon-cprg/">Standard medium machine gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-autocannon-cprg/">Standard medium machine gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -12992,7 +12992,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-core-battery-cprg/">Standard medium auxiliary accumulator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-core-battery-cprg/">Standard medium auxiliary accumulator CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T1</div>
 </div>
 </div>
@@ -13008,7 +13008,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-core-booster-cprg/">Standard medium energy injector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-core-booster-cprg/">Standard medium energy injector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13024,7 +13024,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-driller-cprg/">Standard medium miner module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-driller-cprg/">Standard medium miner module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13040,7 +13040,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-energy-neutralizer-cprg/">Standard medium energy neutralizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-energy-neutralizer-cprg/">Standard medium energy neutralizer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T1</div>
 </div>
 </div>
@@ -13056,7 +13056,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-energy-transfer-cprg/">Standard medium energy transferer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-energy-transfer-cprg/">Standard medium energy transferer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13072,7 +13072,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-energy-vampire-cprg/">Standard medium energy drainer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-energy-vampire-cprg/">Standard medium energy drainer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T1</div>
 </div>
 </div>
@@ -13088,7 +13088,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-harvester-cprg/">Standard medium harvester CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-harvester-cprg/">Standard medium harvester CT</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T1</div>
 </div>
 </div>
@@ -13104,7 +13104,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-laser-cprg/">Standard medium LCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-laser-cprg/">Standard medium LCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -13120,7 +13120,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-railgun-cprg/">Standard medium Gauss gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-railgun-cprg/">Standard medium Gauss gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -13136,7 +13136,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-remote-armor-repairer-cprg/">Standard medium remote armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-remote-armor-repairer-cprg/">Standard medium remote armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T1</div>
 </div>
 </div>
@@ -13152,7 +13152,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-medium-shield-generator-cprg/">Standard medium shield generator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-medium-shield-generator-cprg/">Standard medium shield generator CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T1</div>
 </div>
 </div>
@@ -13168,7 +13168,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-mining-probe-module-cprg/">Standard geoscanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-mining-probe-module-cprg/">Standard geoscanner CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13184,7 +13184,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-mining-upgrade-cprg/">Standard industrial tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-mining-upgrade-cprg/">Standard industrial tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13200,7 +13200,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-missile-launcher-cprg/">Standard medium missile launcher CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-missile-launcher-cprg/">Standard medium missile launcher CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -13216,7 +13216,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-powergrid-upgrades-cprg/">Standard coreactor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-powergrid-upgrades-cprg/">Standard coreactor CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T1</div>
 </div>
 </div>
@@ -13232,7 +13232,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-raven-cannon-cprg/">Standard Raven Cannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-raven-cannon-cprg/">Standard Raven Cannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -13256,7 +13256,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-reactor-sealing-cprg/">Standard reactor sealing CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-reactor-sealing-cprg/">Standard reactor sealing CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13272,7 +13272,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-remote-command-translator-cprg/">Standard Remote Command Translator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-remote-command-translator-cprg/">Standard Remote Command Translator Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T1</div>
 </div>
 </div>
@@ -13288,7 +13288,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-remote-sensor-booster-cprg/">Standard remote sensor amplifier CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-remote-sensor-booster-cprg/">Standard remote sensor amplifier CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T1</div>
 </div>
 </div>
@@ -13304,7 +13304,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-resistant-plating-cprg/">Standard universal armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-resistant-plating-cprg/">Standard universal armor CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13320,7 +13320,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-rocket-launcher-cprg/">Standard light missile launcher CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-rocket-launcher-cprg/">Standard light missile launcher CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -13336,7 +13336,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-self-destruct-module-cprg/">Standard Self Destruct Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-self-destruct-module-cprg/">Standard Self Destruct Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13352,7 +13352,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-sensor-booster-cprg/">Standard sensor amplifier CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-sensor-booster-cprg/">Standard sensor amplifier CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T1</div>
 </div>
 </div>
@@ -13368,7 +13368,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-sensor-dampener-cprg/">Standard sensor suppressor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-sensor-dampener-cprg/">Standard sensor suppressor CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T1</div>
 </div>
 </div>
@@ -13384,7 +13384,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-sensor-jammer-cprg/">Standard ECM CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-sensor-jammer-cprg/">Standard ECM CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T1</div>
 </div>
 </div>
@@ -13400,7 +13400,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-sensor-supressor-booster-cprg/">Standard sensor suppressor tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-sensor-supressor-booster-cprg/">Standard sensor suppressor tuning CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T1</div>
 </div>
 </div>
@@ -13416,7 +13416,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-shield-hardener-cprg/">Standard shield hardener CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-shield-hardener-cprg/">Standard shield hardener CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T1</div>
 </div>
 </div>
@@ -13432,7 +13432,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-armor-plate-cprg/">Standard light armor plate CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-armor-plate-cprg/">Standard light armor plate CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T1</div>
 </div>
 </div>
@@ -13448,7 +13448,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-armor-repairer-cprg/">Standard small armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-armor-repairer-cprg/">Standard small armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T1</div>
 </div>
 </div>
@@ -13464,7 +13464,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-autocannon-cprg/">Standard light autocannon CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-autocannon-cprg/">Standard light autocannon CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -13480,7 +13480,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-core-battery-cprg/">Standard small auxiliary accumulator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-core-battery-cprg/">Standard small auxiliary accumulator CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T1</div>
 </div>
 </div>
@@ -13496,7 +13496,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-core-booster-cprg/">Standard small energy injector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-core-booster-cprg/">Standard small energy injector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13512,7 +13512,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-driller-cprg/">Standard small miner module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-driller-cprg/">Standard small miner module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13528,7 +13528,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-energy-neutralizer-cprg/">Standard small energy neutralizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-energy-neutralizer-cprg/">Standard small energy neutralizer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T1</div>
 </div>
 </div>
@@ -13544,7 +13544,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-energy-transfer-cprg/">Standard small energy transferer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-energy-transfer-cprg/">Standard small energy transferer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13560,7 +13560,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-energy-vampire-cprg/">Standard small energy drainer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-energy-vampire-cprg/">Standard small energy drainer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T1</div>
 </div>
 </div>
@@ -13576,7 +13576,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-harvester-cprg/">Standard small harvester CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-harvester-cprg/">Standard small harvester CT</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T1</div>
 </div>
 </div>
@@ -13584,7 +13584,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-industrial-aoe-tile-cprg/">Standard small PSG launcher CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-industrial-aoe-tile-cprg/">Standard small PSG launcher CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13600,7 +13600,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-laser-cprg/">Standard light HCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-laser-cprg/">Standard light HCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -13616,7 +13616,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-railgun-cprg/">Standard light EM-gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-railgun-cprg/">Standard light EM-gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -13632,7 +13632,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-remote-armor-repairer-cprg/">Standard small remote armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-remote-armor-repairer-cprg/">Standard small remote armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T1</div>
 </div>
 </div>
@@ -13648,7 +13648,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-small-shield-generator-cprg/">Standard small shield generator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-shield-generator-cprg/">Standard small shield generator CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T1</div>
 </div>
 </div>
@@ -13664,7 +13664,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-stealth-modul-cprg/">Standard signal masker CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-stealth-modul-cprg/">Standard signal masker CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13680,7 +13680,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-support-remote-controller-cprg/">Standard Support Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-support-remote-controller-cprg/">Standard Support Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T1</div>
 </div>
 </div>
@@ -13696,7 +13696,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-tactical-remote-controller-cprg/">Standard Tactical Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-tactical-remote-controller-cprg/">Standard Tactical Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T1</div>
 </div>
 </div>
@@ -13712,7 +13712,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-target-painter-cprg/">Standard target marker CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-target-painter-cprg/">Standard target marker CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13720,7 +13720,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-terraformer-cprg/">Standard terraformer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-terraformer-cprg/">Standard terraformer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13736,7 +13736,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-thermal-kers-cprg/">Standard thermal ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-thermal-kers-cprg/">Standard thermal ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13752,7 +13752,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-thrm-armor-hardener-cprg/">Standard thermal armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-thrm-armor-hardener-cprg/">Standard thermal armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T1</div>
 </div>
 </div>
@@ -13768,7 +13768,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-tracking-upgrade-cprg/">Standard range extender CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-tracking-upgrade-cprg/">Standard range extender CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13776,7 +13776,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-wall-builder/">Standard wall compiler module</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-wall-builder/">Standard wall compiler module</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13792,7 +13792,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-weapon-stabilizer-cprg/">Standard weapon stabilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-weapon-stabilizer-cprg/">Standard weapon stabilizer CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T1</div>
 </div>
 </div>
@@ -13808,7 +13808,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-webber-cprg/">Standard S-demobilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-webber-cprg/">Standard S-demobilizer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13816,7 +13816,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standart-industrial-turret-driller/">Standart Industrial Turret Driller</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standart-industrial-turret-driller/">Standart Industrial Turret Driller</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T1</div>
 </div>
 </div>
@@ -13824,7 +13824,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standart-industrial-turret-harvester/">Standart Industrial Turret Harvester</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standart-industrial-turret-harvester/">Standart Industrial Turret Harvester</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T1</div>
 </div>
 </div>
@@ -13840,7 +13840,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standart-landmine-detector-cprg/">Standart Landmine Detector Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standart-landmine-detector-cprg/">Standart Landmine Detector Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13848,7 +13848,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/turret-energy-neutralizer/">Turret-mounted energy neutralizer</a></div>
+<div><div class="mission-card-title"><a href="/content/items/turret-energy-neutralizer/">Turret-mounted energy neutralizer</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T1</div>
 </div>
 </div>
@@ -13856,7 +13856,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/turret-laser/">Turret-mounted laser</a></div>
+<div><div class="mission-card-title"><a href="/content/items/turret-laser/">Turret-mounted laser</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T1</div>
 </div>
 </div>
@@ -13864,7 +13864,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/turret-missile-launcher/">Turret-mounted missile launcher</a></div>
+<div><div class="mission-card-title"><a href="/content/items/turret-missile-launcher/">Turret-mounted missile launcher</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T1</div>
 </div>
 </div>
@@ -13872,7 +13872,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/turret-railgun/">Turret-mounted EM-gun</a></div>
+<div><div class="mission-card-title"><a href="/content/items/turret-railgun/">Turret-mounted EM-gun</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T1</div>
 </div>
 </div>
@@ -13880,7 +13880,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/turret-sensor-dampener/">Turret-mounted sensor suppressor</a></div>
+<div><div class="mission-card-title"><a href="/content/items/turret-sensor-dampener/">Turret-mounted sensor suppressor</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T1</div>
 </div>
 </div>
@@ -13888,7 +13888,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/turret-sensor-jammer/">Turret-mounted ECM</a></div>
+<div><div class="mission-card-title"><a href="/content/items/turret-sensor-jammer/">Turret-mounted ECM</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T1</div>
 </div>
 </div>
@@ -13896,7 +13896,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/turret-webber/">Turret-mounted demobilizer</a></div>
+<div><div class="mission-card-title"><a href="/content/items/turret-webber/">Turret-mounted demobilizer</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T1</div>
 </div>
 </div>
@@ -13909,7 +13909,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elite2-cultist-nox-repair-negator/">Elite2 Cultist Nox Repair Negator</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elite2-cultist-nox-repair-negator/">Elite2 Cultist Nox Repair Negator</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -13917,7 +13917,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elite2-cultist-nox-shield-negator/">Elite2 Cultist Nox Shield Negator</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elite2-cultist-nox-shield-negator/">Elite2 Cultist Nox Shield Negator</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -13925,7 +13925,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elite2-cultist-nox-teleport-negator/">Elite2 Cultist Nox Teleport Negator</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elite2-cultist-nox-teleport-negator/">Elite2 Cultist Nox Teleport Negator</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -13933,7 +13933,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elite2-cultist-scorcher/">Elite2 Cultist Scorcher</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elite2-cultist-scorcher/">Elite2 Cultist Scorcher</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -13949,7 +13949,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-eccm-CT-capsule/">Elitet2 70 Eccm (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-eccm-ct-capsule/">Elitet2 70 Eccm (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -13957,7 +13957,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-eccm-cprg/">Elitet2 70 Eccm Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-eccm-cprg/">Elitet2 70 Eccm Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -13973,7 +13973,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-medium-armor-repairer-CT-capsule/">Elitet2 70 Medium Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-armor-repairer-ct-capsule/">Elitet2 70 Medium Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -13981,7 +13981,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-medium-armor-repairer-cprg/">Elitet2 70 Medium Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-armor-repairer-cprg/">Elitet2 70 Medium Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -13997,7 +13997,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-medium-core-booster-CT-capsule/">Elitet2 70 Medium Core Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-core-booster-ct-capsule/">Elitet2 70 Medium Core Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14005,7 +14005,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-medium-core-booster-cprg/">Elitet2 70 Medium Core Booster Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-core-booster-cprg/">Elitet2 70 Medium Core Booster Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14021,7 +14021,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-medium-shield-generator-CT-capsule/">Elitet2 70 Medium Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-shield-generator-ct-capsule/">Elitet2 70 Medium Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -14029,7 +14029,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-medium-shield-generator-cprg/">Elitet2 70 Medium Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-shield-generator-cprg/">Elitet2 70 Medium Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -14045,7 +14045,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-sensor-booster-CT-capsule/">Elitet2 70 Sensor Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-sensor-booster-ct-capsule/">Elitet2 70 Sensor Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T2 (special)</div>
 </div>
 </div>
@@ -14053,7 +14053,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-sensor-booster-cprg/">Elitet2 70 Sensor Booster Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-sensor-booster-cprg/">Elitet2 70 Sensor Booster Cprg</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T2 (special)</div>
 </div>
 </div>
@@ -14069,7 +14069,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-small-armor-repairer-CT-capsule/">Elitet2 70 Small Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-armor-repairer-ct-capsule/">Elitet2 70 Small Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -14077,7 +14077,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-small-armor-repairer-cprg/">Elitet2 70 Small Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-armor-repairer-cprg/">Elitet2 70 Small Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -14093,7 +14093,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-small-core-booster-CT-capsule/">Elitet2 70 Small Core Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-core-booster-ct-capsule/">Elitet2 70 Small Core Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14101,7 +14101,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-small-core-booster-cprg/">Elitet2 70 Small Core Booster Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-core-booster-cprg/">Elitet2 70 Small Core Booster Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14117,7 +14117,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-small-shield-generator-CT-capsule/">Elitet2 70 Small Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-shield-generator-ct-capsule/">Elitet2 70 Small Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -14125,7 +14125,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-small-shield-generator-cprg/">Elitet2 70 Small Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-shield-generator-cprg/">Elitet2 70 Small Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -14141,7 +14141,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-tracking-upgrade-CT-capsule/">Elitet2 70 Tracking Upgrade (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-tracking-upgrade-ct-capsule/">Elitet2 70 Tracking Upgrade (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14149,7 +14149,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-tracking-upgrade-cprg/">Elitet2 70 Tracking Upgrade Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-tracking-upgrade-cprg/">Elitet2 70 Tracking Upgrade Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14165,7 +14165,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-webber-CT-capsule/">Elitet2 70 Webber (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-webber-ct-capsule/">Elitet2 70 Webber (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14173,7 +14173,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-70-webber-cprg/">Elitet2 70 Webber Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-webber-cprg/">Elitet2 70 Webber Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14189,7 +14189,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-71-maneuvering-upgrade-CT-capsule/">Elitet2 71 Maneuvering Upgrade (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-maneuvering-upgrade-ct-capsule/">Elitet2 71 Maneuvering Upgrade (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14197,7 +14197,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-71-maneuvering-upgrade-cprg/">Elitet2 71 Maneuvering Upgrade Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-maneuvering-upgrade-cprg/">Elitet2 71 Maneuvering Upgrade Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14213,7 +14213,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-71-medium-shield-generator-CT-capsule/">Elitet2 71 Medium Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-medium-shield-generator-ct-capsule/">Elitet2 71 Medium Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -14221,7 +14221,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-71-medium-shield-generator-cprg/">Elitet2 71 Medium Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-medium-shield-generator-cprg/">Elitet2 71 Medium Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -14237,7 +14237,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-71-mining-probe-module-CT-capsule/">Elitet2 71 Mining Probe Module (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-mining-probe-module-ct-capsule/">Elitet2 71 Mining Probe Module (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14245,7 +14245,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-71-mining-probe-module-cprg/">Elitet2 71 Mining Probe Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-mining-probe-module-cprg/">Elitet2 71 Mining Probe Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14261,7 +14261,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-71-small-shield-generator-CT-capsule/">Elitet2 71 Small Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-small-shield-generator-ct-capsule/">Elitet2 71 Small Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -14269,7 +14269,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-71-small-shield-generator-cprg/">Elitet2 71 Small Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-small-shield-generator-cprg/">Elitet2 71 Small Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -14285,7 +14285,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-72-damage-mod-projectile-CT-capsule/">Elitet2 72 Damage Mod Projectile (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-damage-mod-projectile-ct-capsule/">Elitet2 72 Damage Mod Projectile (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14293,7 +14293,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-72-damage-mod-projectile-cprg/">Elitet2 72 Damage Mod Projectile Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-damage-mod-projectile-cprg/">Elitet2 72 Damage Mod Projectile Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14309,7 +14309,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-72-mass-reductor-CT-capsule/">Elitet2 72 Mass Reductor (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-mass-reductor-ct-capsule/">Elitet2 72 Mass Reductor (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14317,7 +14317,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-72-mass-reductor-cprg/">Elitet2 72 Mass Reductor Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-mass-reductor-cprg/">Elitet2 72 Mass Reductor Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14333,7 +14333,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-72-medium-armor-repairer-CT-capsule/">Elitet2 72 Medium Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-medium-armor-repairer-ct-capsule/">Elitet2 72 Medium Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -14341,7 +14341,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-72-medium-armor-repairer-cprg/">Elitet2 72 Medium Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-medium-armor-repairer-cprg/">Elitet2 72 Medium Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -14357,7 +14357,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-72-small-armor-repairer-CT-capsule/">Elitet2 72 Small Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-small-armor-repairer-ct-capsule/">Elitet2 72 Small Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -14365,7 +14365,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet2-72-small-armor-repairer-cprg/">Elitet2 72 Small Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-small-armor-repairer-cprg/">Elitet2 72 Small Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -14381,7 +14381,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-adaptive-alloy-cprg/">T2 Adaptive Alloy Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-adaptive-alloy-cprg/">T2 Adaptive Alloy Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -14405,7 +14405,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-armor-repairer-upgrade-cprg/">Diaptes armor repairer tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-armor-repairer-upgrade-cprg/">Diaptes armor repairer tuning CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2</div>
 </div>
 </div>
@@ -14429,7 +14429,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-assault-remote-controller-cprg/">T2 Assault Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-assault-remote-controller-cprg/">T2 Assault Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T2</div>
 </div>
 </div>
@@ -14453,7 +14453,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-blob-emission-modulator-cprg/">Bandoler IU-250 interference module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-blob-emission-modulator-cprg/">Bandoler IU-250 interference module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -14477,7 +14477,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-cargo-scanner-cprg/">Spurt-Singular cargo scanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-cargo-scanner-cprg/">Spurt-Singular cargo scanner CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T2</div>
 </div>
 </div>
@@ -14501,7 +14501,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-chassis-scanner-cprg/">Distalfrisk-MDO2 chassis scanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-chassis-scanner-cprg/">Distalfrisk-MDO2 chassis scanner CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T2</div>
 </div>
 </div>
@@ -14525,7 +14525,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-chm-armor-hardener-cprg/">Delloy s2s chemical armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-chm-armor-hardener-cprg/">Delloy s2s chemical armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T2</div>
 </div>
 </div>
@@ -14549,7 +14549,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-core-recharger-cprg/">Basis Ionostator accumulator recharger CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-core-recharger-cprg/">Basis Ionostator accumulator recharger CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T2</div>
 </div>
 </div>
@@ -14573,7 +14573,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-cpu-upgrade-cprg/">Parallelyt-C300 coprocessor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-cpu-upgrade-cprg/">Parallelyt-C300 coprocessor CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -14597,7 +14597,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-cruisemissile-launcher-cprg/">T2 Cruisemissile Launcher Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-cruisemissile-launcher-cprg/">T2 Cruisemissile Launcher Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -14621,7 +14621,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-damage-mod-laser-cprg/">Reflexis II. laser tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-damage-mod-laser-cprg/">Reflexis II. laser tuning CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -14645,7 +14645,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-damage-mod-missile-cprg/">AIT-Dipris Propellant missile launcher tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-damage-mod-missile-cprg/">AIT-Dipris Propellant missile launcher tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -14669,7 +14669,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-damage-mod-projectile-cprg/">Diathel-Subperis firearm tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-damage-mod-projectile-cprg/">Diathel-Subperis firearm tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -14693,7 +14693,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-damage-mod-railgun-cprg/">Nuimtec-Spilster magnetic weapon tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-damage-mod-railgun-cprg/">Nuimtec-Spilster magnetic weapon tuning CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -14717,7 +14717,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-detection-modul-cprg/">Techodo signal detector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-detection-modul-cprg/">Techodo signal detector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -14741,7 +14741,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-dreadnought-module-cprg/">T2 Dreadnought Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-dreadnought-module-cprg/">T2 Dreadnought Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -14765,7 +14765,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-eccm-cprg/">Wallex ECCM CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-eccm-cprg/">Wallex ECCM CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -14789,7 +14789,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-ecm-booster-cprg/">Distortio ECM tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-ecm-booster-cprg/">Distortio ECM tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -14813,7 +14813,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-energy-warfare-upgrade-cprg/">Blister EnWar upgrade CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-energy-warfare-upgrade-cprg/">Blister EnWar upgrade CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -14837,7 +14837,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-engineering-remote-controller-cprg/">T2 Engineering Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-engineering-remote-controller-cprg/">T2 Engineering Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T2</div>
 </div>
 </div>
@@ -14861,7 +14861,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-excavator-module-cprg/">T2 Excavator Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-excavator-module-cprg/">T2 Excavator Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T2</div>
 </div>
 </div>
@@ -14885,7 +14885,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-exp-armor-hardener-cprg/">Ballistris I. seismic armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-exp-armor-hardener-cprg/">Ballistris I. seismic armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T2</div>
 </div>
 </div>
@@ -14909,7 +14909,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-explosive-kers-cprg/">SER-250 'Eruptico' seismic ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-explosive-kers-cprg/">SER-250 'Eruptico' seismic ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -14933,7 +14933,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-coordinated-maneuvering-module-cprg/">Oshbo evasive NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-coordinated-maneuvering-module-cprg/">Oshbo evasive NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -14957,7 +14957,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-core-management-module-cprg/">Columcyl recharger NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-core-management-module-cprg/">Columcyl recharger NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -14981,7 +14981,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-defense-module-cprg/">Starodix armor NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-defense-module-cprg/">Starodix armor NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -15005,7 +15005,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-devastating-module-cprg/">T2 Gang Assist Devastating Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-devastating-module-cprg/">T2 Gang Assist Devastating Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -15029,7 +15029,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-ewar-range-module-cprg/">Yzla-1500 EW NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-ewar-range-module-cprg/">Yzla-1500 EW NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -15053,7 +15053,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-fast-extraction-module-cprg/">AE-D250 fast extractor NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-fast-extraction-module-cprg/">AE-D250 fast extractor NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -15077,7 +15077,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-industry-module-cprg/">Thobys industrial NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-industry-module-cprg/">Thobys industrial NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -15101,7 +15101,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-information-module-cprg/">Gecko D-1500 farlock NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-information-module-cprg/">Gecko D-1500 farlock NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -15125,7 +15125,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-maintance-module-cprg/">Diogan repairer NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-maintance-module-cprg/">Diogan repairer NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -15149,7 +15149,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-precision-firing-module-cprg/">Qandellay critical hit NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-precision-firing-module-cprg/">Qandellay critical hit NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -15173,7 +15173,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-resilience-module-cprg/">T2 Gang Assist Resilience Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-resilience-module-cprg/">T2 Gang Assist Resilience Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -15197,7 +15197,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-shared-dataprocessing-module-cprg/">JPS-Redeye lock booster NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-shared-dataprocessing-module-cprg/">JPS-Redeye lock booster NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -15221,7 +15221,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-shield-calculation-module-cprg/">Bomitar I. shield NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-shield-calculation-module-cprg/">Bomitar I. shield NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2</div>
 </div>
 </div>
@@ -15245,7 +15245,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-siege-module-cprg/">Myrmidon assault NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-siege-module-cprg/">Myrmidon assault NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -15269,7 +15269,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-gang-assist-speed-module-cprg/">Jubatus velocity NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-gang-assist-speed-module-cprg/">Jubatus velocity NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -15293,7 +15293,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-hell-cannon-cprg/">T2 Hell Cannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-hell-cannon-cprg/">T2 Hell Cannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -15317,7 +15317,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-hunter-remote-controller-cprg/">T2 Hunter Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-hunter-remote-controller-cprg/">T2 Hunter Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T2</div>
 </div>
 </div>
@@ -15341,7 +15341,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-industrial-remote-controller-cprg/">T2 Industrial Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-industrial-remote-controller-cprg/">T2 Industrial Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T2</div>
 </div>
 </div>
@@ -15357,7 +15357,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-industrial-turret-driller/">T2 Industrial Turret Driller</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-industrial-turret-driller/">T2 Industrial Turret Driller</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T2</div>
 </div>
 </div>
@@ -15365,7 +15365,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-industrial-turret-harvester/">T2 Industrial Turret Harvester</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-industrial-turret-harvester/">T2 Industrial Turret Harvester</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T2</div>
 </div>
 </div>
@@ -15381,7 +15381,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-kin-armor-hardener-cprg/">Counterpress I-230 kinetic armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-kin-armor-hardener-cprg/">Counterpress I-230 kinetic armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T2</div>
 </div>
 </div>
@@ -15405,7 +15405,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-kinetic-kers-cprg/">Hegatex-1000 kinetic ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-kinetic-kers-cprg/">Hegatex-1000 kinetic ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -15429,7 +15429,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-landmine-detector-cprg/">T2 Landmine Detector Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-landmine-detector-cprg/">T2 Landmine Detector Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -15453,7 +15453,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-large-armor-plate-cprg/">T2 Large Armor Plate Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-large-armor-plate-cprg/">T2 Large Armor Plate Cprg</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T2</div>
 </div>
 </div>
@@ -15477,7 +15477,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-large-armor-repairer-cprg/">T2 Large Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-large-armor-repairer-cprg/">T2 Large Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2</div>
 </div>
 </div>
@@ -15501,7 +15501,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-large-core-battery-cprg/">T2 Large Core Battery Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-large-core-battery-cprg/">T2 Large Core Battery Cprg</a></div>
 <div class="mission-card-sub">Modules / Power, tier T2</div>
 </div>
 </div>
@@ -15525,7 +15525,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-large-core-booster-cprg/">T2 Large Core Booster Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-large-core-booster-cprg/">T2 Large Core Booster Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -15549,7 +15549,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-large-driller-cprg/">T2 Large Driller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-large-driller-cprg/">T2 Large Driller Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -15573,7 +15573,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-large-harvester-cprg/">T2 Large Harvester Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-large-harvester-cprg/">T2 Large Harvester Cprg</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T2</div>
 </div>
 </div>
@@ -15597,7 +15597,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-large-laser-cprg/">T2 Large Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-large-laser-cprg/">T2 Large Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -15621,7 +15621,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-large-railgun-cprg/">T2 Large Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-large-railgun-cprg/">T2 Large Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -15645,7 +15645,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-large-shield-generator-cprg/">T2 Large Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-large-shield-generator-cprg/">T2 Large Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2</div>
 </div>
 </div>
@@ -15669,7 +15669,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-longrange-large-laser-cprg/">T2 Longrange Large Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-longrange-large-laser-cprg/">T2 Longrange Large Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -15693,7 +15693,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-longrange-large-railgun-cprg/">T2 Longrange Large Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-longrange-large-railgun-cprg/">T2 Longrange Large Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -15717,7 +15717,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-longrange-medium-autocannon-cprg/">GTRB medium autocannon CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-longrange-medium-autocannon-cprg/">GTRB medium autocannon CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -15741,7 +15741,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-longrange-medium-laser-cprg/">Tertzer medium HCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-longrange-medium-laser-cprg/">Tertzer medium HCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -15765,7 +15765,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-longrange-medium-railgun-cprg/">Condor-SPP medium EM-gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-longrange-medium-railgun-cprg/">Condor-SPP medium EM-gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -15789,7 +15789,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-longrange-webber-cprg/">Venom L-demobilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-longrange-webber-cprg/">Venom L-demobilizer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -15813,7 +15813,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-maneuvering-upgrade-cprg/">R4S-S evasive module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-maneuvering-upgrade-cprg/">R4S-S evasive module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -15837,7 +15837,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-mass-reductor-cprg/">MR1000-Boogey lightweight frame CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-mass-reductor-cprg/">MR1000-Boogey lightweight frame CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -15861,7 +15861,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-armor-plate-cprg/">Azilo-Protec Duoforge medium armor plate CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-armor-plate-cprg/">Azilo-Protec Duoforge medium armor plate CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T2</div>
 </div>
 </div>
@@ -15885,7 +15885,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-armor-repairer-cprg/">Vautrell medium armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-armor-repairer-cprg/">Vautrell medium armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2</div>
 </div>
 </div>
@@ -15909,7 +15909,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-autocannon-cprg/">Grenber 28d medium machine gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-autocannon-cprg/">Grenber 28d medium machine gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -15933,7 +15933,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-core-battery-cprg/">Ovostec-gpc7000 medium auxiliary accumulator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-core-battery-cprg/">Ovostec-gpc7000 medium auxiliary accumulator CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T2</div>
 </div>
 </div>
@@ -15957,7 +15957,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-core-booster-cprg/">Shoxit Parter I. medium energy injector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-core-booster-cprg/">Shoxit Parter I. medium energy injector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -15981,7 +15981,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-driller-cprg/">MMA v12-'Alkhemir' medium miner module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-driller-cprg/">MMA v12-'Alkhemir' medium miner module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -16005,7 +16005,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-energy-neutralizer-cprg/">Gox II. medium energy neutralizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-energy-neutralizer-cprg/">Gox II. medium energy neutralizer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2</div>
 </div>
 </div>
@@ -16029,7 +16029,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-energy-transfer-cprg/">CDC-Yamp medium energy transferer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-energy-transfer-cprg/">CDC-Yamp medium energy transferer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -16053,7 +16053,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-energy-vampire-cprg/">Portio II. medium energy drainer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-energy-vampire-cprg/">Portio II. medium energy drainer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2</div>
 </div>
 </div>
@@ -16077,7 +16077,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-harvester-cprg/">MHA 900-'Sap' medium harvester CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-harvester-cprg/">MHA 900-'Sap' medium harvester CT</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T2</div>
 </div>
 </div>
@@ -16101,7 +16101,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-laser-cprg/">Thelotec-Grazier medium LCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-laser-cprg/">Thelotec-Grazier medium LCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -16125,7 +16125,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-railgun-cprg/">Iskio-Magnetor medium Gauss gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-railgun-cprg/">Iskio-Magnetor medium Gauss gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -16149,7 +16149,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-remote-armor-repairer-cprg/">Avaror GD-800 medium remote armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-remote-armor-repairer-cprg/">Avaror GD-800 medium remote armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2</div>
 </div>
 </div>
@@ -16173,7 +16173,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-medium-shield-generator-cprg/">Parsvaal-IIX medium shield generator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-medium-shield-generator-cprg/">Parsvaal-IIX medium shield generator CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2</div>
 </div>
 </div>
@@ -16197,7 +16197,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-mining-probe-module-cprg/">Ovostec-Chisomel geoscanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-mining-probe-module-cprg/">Ovostec-Chisomel geoscanner CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -16221,7 +16221,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-mining-upgrade-cprg/">Piog Forgekit AI industrial tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-mining-upgrade-cprg/">Piog Forgekit AI industrial tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -16245,7 +16245,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-missile-launcher-cprg/">ST-Dupot medium missile launcher CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-missile-launcher-cprg/">ST-Dupot medium missile launcher CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -16269,7 +16269,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-powergrid-upgrades-cprg/">Y-type 'Connector' coreactor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-powergrid-upgrades-cprg/">Y-type 'Connector' coreactor CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T2</div>
 </div>
 </div>
@@ -16293,7 +16293,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-raven-cannon-cprg/">T2 Raven Cannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-raven-cannon-cprg/">T2 Raven Cannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -16317,7 +16317,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-reactor-sealing-cprg/">Tortoise reactor sealing CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-reactor-sealing-cprg/">Tortoise reactor sealing CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -16341,7 +16341,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-remote-command-translator-cprg/">T2 Remote Command Translator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-remote-command-translator-cprg/">T2 Remote Command Translator Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T2</div>
 </div>
 </div>
@@ -16365,7 +16365,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-remote-sensor-booster-cprg/">Occul remote sensor amplifier CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-remote-sensor-booster-cprg/">Occul remote sensor amplifier CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T2</div>
 </div>
 </div>
@@ -16389,7 +16389,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-resistant-plating-cprg/">Diverter universal armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-resistant-plating-cprg/">Diverter universal armor CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -16413,7 +16413,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-rocket-launcher-cprg/">Pelistec-Horosol DBM light missile launcher CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-rocket-launcher-cprg/">Pelistec-Horosol DBM light missile launcher CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -16437,7 +16437,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-self-destruct-module-cprg/">T2 Self Destruct Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-self-destruct-module-cprg/">T2 Self Destruct Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -16461,7 +16461,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-sensor-booster-cprg/">Bullz-I 6601 sensor amplifier CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-sensor-booster-cprg/">Bullz-I 6601 sensor amplifier CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T2</div>
 </div>
 </div>
@@ -16485,7 +16485,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-sensor-dampener-cprg/">Suboster I. sensor suppressor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-sensor-dampener-cprg/">Suboster I. sensor suppressor CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T2</div>
 </div>
 </div>
@@ -16509,7 +16509,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-sensor-jammer-cprg/">Occyt-OEW ECM CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-sensor-jammer-cprg/">Occyt-OEW ECM CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T2</div>
 </div>
 </div>
@@ -16533,7 +16533,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-sensor-supressor-booster-cprg/">DDX200-Veil sensor suppressor tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-sensor-supressor-booster-cprg/">DDX200-Veil sensor suppressor tuning CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T2</div>
 </div>
 </div>
@@ -16557,7 +16557,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-shield-hardener-cprg/">Bund shield hardener CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-shield-hardener-cprg/">Bund shield hardener CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2</div>
 </div>
 </div>
@@ -16581,7 +16581,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-armor-plate-cprg/">Wobost-Titangrip light armor plate CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-armor-plate-cprg/">Wobost-Titangrip light armor plate CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T2</div>
 </div>
 </div>
@@ -16605,7 +16605,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-armor-repairer-cprg/">A150 small armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-armor-repairer-cprg/">A150 small armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2</div>
 </div>
 </div>
@@ -16629,7 +16629,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-autocannon-cprg/">Malleus light autocannon CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-autocannon-cprg/">Malleus light autocannon CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -16653,7 +16653,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-core-battery-cprg/">Co-Fuse small auxiliary accumulator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-core-battery-cprg/">Co-Fuse small auxiliary accumulator CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T2</div>
 </div>
 </div>
@@ -16677,7 +16677,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-core-booster-cprg/">CC25-Veo small energy injector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-core-booster-cprg/">CC25-Veo small energy injector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -16701,7 +16701,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-driller-cprg/">Biroter 5050 small miner module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-driller-cprg/">Biroter 5050 small miner module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -16725,7 +16725,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-energy-neutralizer-cprg/">Gox I. small energy neutralizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-energy-neutralizer-cprg/">Gox I. small energy neutralizer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2</div>
 </div>
 </div>
@@ -16749,7 +16749,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-energy-transfer-cprg/">Uysta small energy transferer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-energy-transfer-cprg/">Uysta small energy transferer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -16773,7 +16773,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-energy-vampire-cprg/">Portio I. small energy drainer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-energy-vampire-cprg/">Portio I. small energy drainer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2</div>
 </div>
 </div>
@@ -16797,7 +16797,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-harvester-cprg/">MHA 400-'Avalon' small harvester CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-harvester-cprg/">MHA 400-'Avalon' small harvester CT</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T2</div>
 </div>
 </div>
@@ -16821,7 +16821,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-laser-cprg/">Thelotec-Dabis light HCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-laser-cprg/">Thelotec-Dabis light HCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -16845,7 +16845,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-railgun-cprg/">Nuimtec-ROWO light EM-gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-railgun-cprg/">Nuimtec-ROWO light EM-gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -16869,7 +16869,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-remote-armor-repairer-cprg/">Avaror GD-200 small remote armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-remote-armor-repairer-cprg/">Avaror GD-200 small remote armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2</div>
 </div>
 </div>
@@ -16893,7 +16893,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-small-shield-generator-cprg/">Parsvaal-IP small shield generator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-small-shield-generator-cprg/">Parsvaal-IP small shield generator CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2</div>
 </div>
 </div>
@@ -16917,7 +16917,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-stealth-modul-cprg/">Mimique signal masker CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-stealth-modul-cprg/">Mimique signal masker CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -16941,7 +16941,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-support-remote-controller-cprg/">T2 Support Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-support-remote-controller-cprg/">T2 Support Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T2</div>
 </div>
 </div>
@@ -16965,7 +16965,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-tactical-remote-controller-cprg/">T2 Tactical Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-tactical-remote-controller-cprg/">T2 Tactical Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T2</div>
 </div>
 </div>
@@ -16989,7 +16989,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-target-painter-cprg/">Pois-D22 target marker CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-target-painter-cprg/">Pois-D22 target marker CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -17013,7 +17013,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-thermal-kers-cprg/">Pyropaster thermal ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-thermal-kers-cprg/">Pyropaster thermal ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -17037,7 +17037,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-thrm-armor-hardener-cprg/">Lava-3T thermal armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-thrm-armor-hardener-cprg/">Lava-3T thermal armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T2</div>
 </div>
 </div>
@@ -17061,7 +17061,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-tracking-upgrade-cprg/">Opaletrak range extender CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-tracking-upgrade-cprg/">Opaletrak range extender CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -17085,7 +17085,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-weapon-stabilizer-cprg/">Kobel 450-TZ weapon stabilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-weapon-stabilizer-cprg/">Kobel 450-TZ weapon stabilizer CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T2</div>
 </div>
 </div>
@@ -17109,7 +17109,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named1-webber-cprg/">Arachnid-type S-demobilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-webber-cprg/">Arachnid-type S-demobilizer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2</div>
 </div>
 </div>
@@ -17138,7 +17138,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-adaptive-alloy-cprg/">T3 Adaptive Alloy Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-adaptive-alloy-cprg/">T3 Adaptive Alloy Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17162,7 +17162,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-armor-repairer-upgrade-cprg/">WPG3000 armor repairer tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-armor-repairer-upgrade-cprg/">WPG3000 armor repairer tuning CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T3</div>
 </div>
 </div>
@@ -17186,7 +17186,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-assault-remote-controller-cprg/">T3 Assault Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-assault-remote-controller-cprg/">T3 Assault Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T3</div>
 </div>
 </div>
@@ -17210,7 +17210,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-blob-emission-modulator-cprg/">Bandoler IV-500 interference module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-blob-emission-modulator-cprg/">Bandoler IV-500 interference module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17234,7 +17234,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-cargo-scanner-cprg/">Nomothetor cargo scanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-cargo-scanner-cprg/">Nomothetor cargo scanner CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T3</div>
 </div>
 </div>
@@ -17258,7 +17258,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-chassis-scanner-cprg/">Stalis CS3 chassis scanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-chassis-scanner-cprg/">Stalis CS3 chassis scanner CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T3</div>
 </div>
 </div>
@@ -17282,7 +17282,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-chm-armor-hardener-cprg/">RePro I. chemical armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-chm-armor-hardener-cprg/">RePro I. chemical armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T3</div>
 </div>
 </div>
@@ -17306,7 +17306,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-core-recharger-cprg/">Duobar 300xs-'Othys' accumulator recharger CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-core-recharger-cprg/">Duobar 300xs-'Othys' accumulator recharger CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T3</div>
 </div>
 </div>
@@ -17330,7 +17330,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-cpu-upgrade-cprg/">Cerebellum-1000 coprocessor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-cpu-upgrade-cprg/">Cerebellum-1000 coprocessor CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17354,7 +17354,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-cruisemissile-launcher-cprg/">T3 Cruisemissile Launcher Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-cruisemissile-launcher-cprg/">T3 Cruisemissile Launcher Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -17378,7 +17378,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-damage-mod-laser-cprg/">Kauska Optibrace laser tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-damage-mod-laser-cprg/">Kauska Optibrace laser tuning CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -17402,7 +17402,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-damage-mod-missile-cprg/">Pelistec-FBP-II. missile launcher tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-damage-mod-missile-cprg/">Pelistec-FBP-II. missile launcher tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17426,7 +17426,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-damage-mod-projectile-cprg/">Plasmidwad-9000 firearm tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-damage-mod-projectile-cprg/">Plasmidwad-9000 firearm tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17450,7 +17450,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-damage-mod-railgun-cprg/">RSU-Magnitcore magnetic weapon tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-damage-mod-railgun-cprg/">RSU-Magnitcore magnetic weapon tuning CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -17474,7 +17474,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-detection-modul-cprg/">MX-1 Dogon signal detector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-detection-modul-cprg/">MX-1 Dogon signal detector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17498,7 +17498,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-dreadnought-module-cprg/">T3 Dreadnought Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-dreadnought-module-cprg/">T3 Dreadnought Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17522,7 +17522,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-eccm-cprg/">Deshrud-QW ECCM CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-eccm-cprg/">Deshrud-QW ECCM CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17546,7 +17546,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-ecm-booster-cprg/">Hodge ECM tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-ecm-booster-cprg/">Hodge ECM tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17570,7 +17570,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-energy-warfare-upgrade-cprg/">OM-Shock EnWar upgrade CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-energy-warfare-upgrade-cprg/">OM-Shock EnWar upgrade CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17594,7 +17594,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-engineering-remote-controller-cprg/">T3 Engineering Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-engineering-remote-controller-cprg/">T3 Engineering Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T3</div>
 </div>
 </div>
@@ -17618,7 +17618,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-excavator-module-cprg/">T3 Excavator Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-excavator-module-cprg/">T3 Excavator Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T3</div>
 </div>
 </div>
@@ -17642,7 +17642,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-exp-armor-hardener-cprg/">Formantel-DVU seismic armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-exp-armor-hardener-cprg/">Formantel-DVU seismic armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T3</div>
 </div>
 </div>
@@ -17666,7 +17666,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-explosive-kers-cprg/">SER-300 'Devactico' seismic ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-explosive-kers-cprg/">SER-300 'Devactico' seismic ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17690,7 +17690,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-coordinated-maneuvering-module-cprg/">Pareduit evasive NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-coordinated-maneuvering-module-cprg/">Pareduit evasive NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17714,7 +17714,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-core-management-module-cprg/">ARMS E300 recharger NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-core-management-module-cprg/">ARMS E300 recharger NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17738,7 +17738,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-defense-module-cprg/">Paternis armor NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-defense-module-cprg/">Paternis armor NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17762,7 +17762,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-devastating-module-cprg/">T3 Gang Assist Devastating Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-devastating-module-cprg/">T3 Gang Assist Devastating Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17786,7 +17786,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-ewar-range-module-cprg/">Hidmuns EW NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-ewar-range-module-cprg/">Hidmuns EW NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17810,7 +17810,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-fast-extraction-module-cprg/">Matriot-II fast extractor NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-fast-extraction-module-cprg/">Matriot-II fast extractor NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17834,7 +17834,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-industry-module-cprg/">EE-D220 industrial NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-industry-module-cprg/">EE-D220 industrial NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17858,7 +17858,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-information-module-cprg/">Martimal farlock NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-information-module-cprg/">Martimal farlock NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17882,7 +17882,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-maintance-module-cprg/">Pawish repairer NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-maintance-module-cprg/">Pawish repairer NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17906,7 +17906,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-precision-firing-module-cprg/">E-scope critical hit NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-precision-firing-module-cprg/">E-scope critical hit NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17930,7 +17930,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-resilience-module-cprg/">T3 Gang Assist Resilience Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-resilience-module-cprg/">T3 Gang Assist Resilience Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17954,7 +17954,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-shared-dataprocessing-module-cprg/">Tersung lock booster NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-shared-dataprocessing-module-cprg/">Tersung lock booster NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -17978,7 +17978,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-shield-calculation-module-cprg/">Stasis-Gen shield NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-shield-calculation-module-cprg/">Stasis-Gen shield NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T3</div>
 </div>
 </div>
@@ -18002,7 +18002,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-siege-module-cprg/">Mobba assault NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-siege-module-cprg/">Mobba assault NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -18026,7 +18026,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-gang-assist-speed-module-cprg/">Iopis-II velocity NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-gang-assist-speed-module-cprg/">Iopis-II velocity NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -18050,7 +18050,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-hell-cannon-cprg/">T3 Hell Cannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-hell-cannon-cprg/">T3 Hell Cannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -18074,7 +18074,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-hunter-remote-controller-cprg/">T3 Hunter Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-hunter-remote-controller-cprg/">T3 Hunter Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T3</div>
 </div>
 </div>
@@ -18098,7 +18098,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-industrial-remote-controller-cprg/">T3 Industrial Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-industrial-remote-controller-cprg/">T3 Industrial Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T3</div>
 </div>
 </div>
@@ -18114,7 +18114,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-industrial-turret-driller/">T3 Industrial Turret Driller</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-industrial-turret-driller/">T3 Industrial Turret Driller</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T3</div>
 </div>
 </div>
@@ -18122,7 +18122,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-industrial-turret-harvester/">T3 Industrial Turret Harvester</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-industrial-turret-harvester/">T3 Industrial Turret Harvester</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T3</div>
 </div>
 </div>
@@ -18138,7 +18138,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-kin-armor-hardener-cprg/">Apparod Defragger kinetic armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-kin-armor-hardener-cprg/">Apparod Defragger kinetic armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T3</div>
 </div>
 </div>
@@ -18162,7 +18162,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-kinetic-kers-cprg/">Solitex-990 kinetic ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-kinetic-kers-cprg/">Solitex-990 kinetic ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -18186,7 +18186,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-landmine-detector-cprg/">T3 Landmine Detector Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-landmine-detector-cprg/">T3 Landmine Detector Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -18210,7 +18210,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-large-armor-plate-cprg/">T3 Large Armor Plate Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-large-armor-plate-cprg/">T3 Large Armor Plate Cprg</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T3</div>
 </div>
 </div>
@@ -18234,7 +18234,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-large-armor-repairer-cprg/">T3 Large Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-large-armor-repairer-cprg/">T3 Large Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T3</div>
 </div>
 </div>
@@ -18258,7 +18258,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-large-core-battery-cprg/">T3 Large Core Battery Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-large-core-battery-cprg/">T3 Large Core Battery Cprg</a></div>
 <div class="mission-card-sub">Modules / Power, tier T3</div>
 </div>
 </div>
@@ -18282,7 +18282,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-large-core-booster-cprg/">T3 Large Core Booster Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-large-core-booster-cprg/">T3 Large Core Booster Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -18306,7 +18306,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-large-driller-cprg/">T3 Large Driller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-large-driller-cprg/">T3 Large Driller Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -18330,7 +18330,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-large-harvester-cprg/">T3 Large Harvester Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-large-harvester-cprg/">T3 Large Harvester Cprg</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T3</div>
 </div>
 </div>
@@ -18354,7 +18354,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-large-laser-cprg/">T3 Large Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-large-laser-cprg/">T3 Large Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -18378,7 +18378,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-large-railgun-cprg/">T3 Large Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-large-railgun-cprg/">T3 Large Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -18402,7 +18402,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-large-shield-generator-cprg/">T3 Large Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-large-shield-generator-cprg/">T3 Large Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T3</div>
 </div>
 </div>
@@ -18426,7 +18426,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-longrange-large-laser-cprg/">T3 Longrange Large Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-longrange-large-laser-cprg/">T3 Longrange Large Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -18450,7 +18450,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-longrange-large-railgun-cprg/">T3 Longrange Large Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-longrange-large-railgun-cprg/">T3 Longrange Large Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -18474,7 +18474,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-longrange-medium-autocannon-cprg/">Astoc M75 medium autocannon CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-longrange-medium-autocannon-cprg/">Astoc M75 medium autocannon CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -18498,7 +18498,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-longrange-medium-laser-cprg/">Thelotec-Iocle I. medium HCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-longrange-medium-laser-cprg/">Thelotec-Iocle I. medium HCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -18522,7 +18522,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-longrange-medium-railgun-cprg/">Nuimtec-Accolon LRS medium EM-gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-longrange-medium-railgun-cprg/">Nuimtec-Accolon LRS medium EM-gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -18546,7 +18546,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-longrange-webber-cprg/">GLOO L-demobilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-longrange-webber-cprg/">GLOO L-demobilizer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -18570,7 +18570,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-maneuvering-upgrade-cprg/">Deflectik evasive module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-maneuvering-upgrade-cprg/">Deflectik evasive module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -18594,7 +18594,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-mass-reductor-cprg/">Eizbiogh-dfg20 lightweight frame CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-mass-reductor-cprg/">Eizbiogh-dfg20 lightweight frame CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -18618,7 +18618,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-armor-plate-cprg/">Invigor II. medium armor plate CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-armor-plate-cprg/">Invigor II. medium armor plate CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T3</div>
 </div>
 </div>
@@ -18642,7 +18642,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-armor-repairer-cprg/">FO-150 'Reparator' medium armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-armor-repairer-cprg/">FO-150 'Reparator' medium armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T3</div>
 </div>
 </div>
@@ -18666,7 +18666,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-autocannon-cprg/">.5s Hastex medium machine gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-autocannon-cprg/">.5s Hastex medium machine gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -18690,7 +18690,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-core-battery-cprg/">Sistolox medium auxiliary accumulator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-core-battery-cprg/">Sistolox medium auxiliary accumulator CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T3</div>
 </div>
 </div>
@@ -18714,7 +18714,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-core-booster-cprg/">Follypsos medium energy injector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-core-booster-cprg/">Follypsos medium energy injector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -18738,7 +18738,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-driller-cprg/">Sublimator Mid-D medium miner module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-driller-cprg/">Sublimator Mid-D medium miner module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -18762,7 +18762,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-energy-neutralizer-cprg/">1300RFX-Spasm medium energy neutralizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-energy-neutralizer-cprg/">1300RFX-Spasm medium energy neutralizer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T3</div>
 </div>
 </div>
@@ -18786,7 +18786,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-energy-transfer-cprg/">Avit-Microfloss medium energy transferer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-energy-transfer-cprg/">Avit-Microfloss medium energy transferer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -18810,7 +18810,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-energy-vampire-cprg/">V90-Quadres medium energy drainer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-energy-vampire-cprg/">V90-Quadres medium energy drainer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T3</div>
 </div>
 </div>
@@ -18834,7 +18834,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-harvester-cprg/">Cultivator-XM medium harvester CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-harvester-cprg/">Cultivator-XM medium harvester CT</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T3</div>
 </div>
 </div>
@@ -18858,7 +18858,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-laser-cprg/">Kauska Heatpin I. medium LCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-laser-cprg/">Kauska Heatpin I. medium LCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -18882,7 +18882,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-railgun-cprg/">Nuimtec-Midion AMS medium Gauss gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-railgun-cprg/">Nuimtec-Midion AMS medium Gauss gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -18906,7 +18906,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-remote-armor-repairer-cprg/">Basio medium remote armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-remote-armor-repairer-cprg/">Basio medium remote armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T3</div>
 </div>
 </div>
@@ -18930,7 +18930,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-medium-shield-generator-cprg/">Ovostec-Yellowray II. medium shield generator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-medium-shield-generator-cprg/">Ovostec-Yellowray II. medium shield generator CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T3</div>
 </div>
 </div>
@@ -18954,7 +18954,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-mining-probe-module-cprg/">Syverz geoscanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-mining-probe-module-cprg/">Syverz geoscanner CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -18978,7 +18978,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-mining-upgrade-cprg/">Fraktura SCV industrial tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-mining-upgrade-cprg/">Fraktura SCV industrial tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -19002,7 +19002,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-missile-launcher-cprg/">Vollert medium missile launcher CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-missile-launcher-cprg/">Vollert medium missile launcher CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -19026,7 +19026,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-powergrid-upgrades-cprg/">Palp coreactor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-powergrid-upgrades-cprg/">Palp coreactor CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T3</div>
 </div>
 </div>
@@ -19050,7 +19050,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-raven-cannon-cprg/">T3 Raven Cannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-raven-cannon-cprg/">T3 Raven Cannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -19074,7 +19074,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-reactor-sealing-cprg/">GRIP-250 reactor sealing CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-reactor-sealing-cprg/">GRIP-250 reactor sealing CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -19098,7 +19098,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-remote-command-translator-cprg/">T3 Remote Command Translator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-remote-command-translator-cprg/">T3 Remote Command Translator Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T3</div>
 </div>
 </div>
@@ -19122,7 +19122,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-remote-sensor-booster-cprg/">Da Gama-PLS10 remote sensor amplifier CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-remote-sensor-booster-cprg/">Da Gama-PLS10 remote sensor amplifier CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T3</div>
 </div>
 </div>
@@ -19146,7 +19146,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-resistant-plating-cprg/">UNI300pls universal armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-resistant-plating-cprg/">UNI300pls universal armor CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -19170,7 +19170,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-rocket-launcher-cprg/">Morteq light missile launcher CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-rocket-launcher-cprg/">Morteq light missile launcher CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -19194,7 +19194,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-self-destruct-module-cprg/">T3 Self Destruct Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-self-destruct-module-cprg/">T3 Self Destruct Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -19218,7 +19218,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-sensor-booster-cprg/">Desenspure sensor amplifier CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-sensor-booster-cprg/">Desenspure sensor amplifier CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T3</div>
 </div>
 </div>
@@ -19242,7 +19242,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-sensor-dampener-cprg/">MSD m\\2315 'Filch' sensor suppressor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-sensor-dampener-cprg/">MSD m\\2315 'Filch' sensor suppressor CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T3</div>
 </div>
 </div>
@@ -19266,7 +19266,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-sensor-jammer-cprg/">Wavoslur ECM CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-sensor-jammer-cprg/">Wavoslur ECM CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T3</div>
 </div>
 </div>
@@ -19290,7 +19290,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-sensor-supressor-booster-cprg/">Radiocor sensor suppressor tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-sensor-supressor-booster-cprg/">Radiocor sensor suppressor tuning CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T3</div>
 </div>
 </div>
@@ -19314,7 +19314,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-shield-hardener-cprg/">Patronus shield hardener CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-shield-hardener-cprg/">Patronus shield hardener CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T3</div>
 </div>
 </div>
@@ -19338,7 +19338,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-armor-plate-cprg/">Invigor I. light armor plate CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-armor-plate-cprg/">Invigor I. light armor plate CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T3</div>
 </div>
 </div>
@@ -19362,7 +19362,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-armor-repairer-cprg/">Quissot's small armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-armor-repairer-cprg/">Quissot's small armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T3</div>
 </div>
 </div>
@@ -19386,7 +19386,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-autocannon-cprg/">Senner Carbine light autocannon CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-autocannon-cprg/">Senner Carbine light autocannon CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -19410,7 +19410,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-core-battery-cprg/">Ovostec-Ghioc small auxiliary accumulator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-core-battery-cprg/">Ovostec-Ghioc small auxiliary accumulator CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T3</div>
 </div>
 </div>
@@ -19434,7 +19434,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-core-booster-cprg/">Joffret-Refiller small energy injector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-core-booster-cprg/">Joffret-Refiller small energy injector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -19458,7 +19458,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-driller-cprg/">Sublimator Low-D small miner module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-driller-cprg/">Sublimator Low-D small miner module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -19482,7 +19482,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-energy-neutralizer-cprg/">600GFX-Spasm small energy neutralizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-energy-neutralizer-cprg/">600GFX-Spasm small energy neutralizer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T3</div>
 </div>
 </div>
@@ -19506,7 +19506,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-energy-transfer-cprg/">Bithom small energy transferer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-energy-transfer-cprg/">Bithom small energy transferer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -19530,7 +19530,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-energy-vampire-cprg/">Ekcept small energy drainer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-energy-vampire-cprg/">Ekcept small energy drainer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T3</div>
 </div>
 </div>
@@ -19554,7 +19554,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-harvester-cprg/">Agraar-I small harvester CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-harvester-cprg/">Agraar-I small harvester CT</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T3</div>
 </div>
 </div>
@@ -19578,7 +19578,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-laser-cprg/">Pikolo light HCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-laser-cprg/">Pikolo light HCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -19602,7 +19602,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-railgun-cprg/">Proto-Gard II. light EM-gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-railgun-cprg/">Proto-Gard II. light EM-gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -19626,7 +19626,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-remote-armor-repairer-cprg/">Iuviar small remote armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-remote-armor-repairer-cprg/">Iuviar small remote armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T3</div>
 </div>
 </div>
@@ -19650,7 +19650,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-small-shield-generator-cprg/">Ovostec-Yellowray small shield generator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-small-shield-generator-cprg/">Ovostec-Yellowray small shield generator CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T3</div>
 </div>
 </div>
@@ -19674,7 +19674,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-stealth-modul-cprg/">MSMD signal masker CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-stealth-modul-cprg/">MSMD signal masker CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -19698,7 +19698,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-support-remote-controller-cprg/">T3 Support Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-support-remote-controller-cprg/">T3 Support Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T3</div>
 </div>
 </div>
@@ -19722,7 +19722,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-tactical-remote-controller-cprg/">T3 Tactical Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-tactical-remote-controller-cprg/">T3 Tactical Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T3</div>
 </div>
 </div>
@@ -19746,7 +19746,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-target-painter-cprg/">Colqual target marker CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-target-painter-cprg/">Colqual target marker CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -19770,7 +19770,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-thermal-kers-cprg/">DE-melt thermal ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-thermal-kers-cprg/">DE-melt thermal ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -19794,7 +19794,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-thrm-armor-hardener-cprg/">Thermoflake thermal armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-thrm-armor-hardener-cprg/">Thermoflake thermal armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T3</div>
 </div>
 </div>
@@ -19818,7 +19818,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-tracking-upgrade-cprg/">Unotron 60s-'Crack shot' range extender CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-tracking-upgrade-cprg/">Unotron 60s-'Crack shot' range extender CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -19842,7 +19842,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-weapon-stabilizer-cprg/">Sharpsy weapon stabilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-weapon-stabilizer-cprg/">Sharpsy weapon stabilizer CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T3</div>
 </div>
 </div>
@@ -19866,7 +19866,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named2-webber-cprg/">NNt. IX S-demobilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-webber-cprg/">NNt. IX S-demobilizer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T3</div>
 </div>
 </div>
@@ -19895,7 +19895,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-eccm-CT-capsule/">Elitet4 70 Eccm (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-eccm-ct-capsule/">Elitet4 70 Eccm (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -19903,7 +19903,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-eccm-cprg/">Elitet4 70 Eccm Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-eccm-cprg/">Elitet4 70 Eccm Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -19919,7 +19919,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-medium-armor-repairer-CT-capsule/">Elitet4 70 Medium Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-armor-repairer-ct-capsule/">Elitet4 70 Medium Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -19927,7 +19927,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-medium-armor-repairer-cprg/">Elitet4 70 Medium Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-armor-repairer-cprg/">Elitet4 70 Medium Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -19943,7 +19943,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-medium-core-booster-CT-capsule/">Elitet4 70 Medium Core Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-core-booster-ct-capsule/">Elitet4 70 Medium Core Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -19951,7 +19951,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-medium-core-booster-cprg/">Elitet4 70 Medium Core Booster Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-core-booster-cprg/">Elitet4 70 Medium Core Booster Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -19967,7 +19967,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-medium-shield-generator-CT-capsule/">Elitet4 70 Medium Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-shield-generator-ct-capsule/">Elitet4 70 Medium Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -19975,7 +19975,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-medium-shield-generator-cprg/">Elitet4 70 Medium Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-shield-generator-cprg/">Elitet4 70 Medium Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -19991,7 +19991,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-sensor-booster-CT-capsule/">Elitet4 70 Sensor Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-sensor-booster-ct-capsule/">Elitet4 70 Sensor Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T4 (special)</div>
 </div>
 </div>
@@ -19999,7 +19999,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-sensor-booster-cprg/">Elitet4 70 Sensor Booster Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-sensor-booster-cprg/">Elitet4 70 Sensor Booster Cprg</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T4 (special)</div>
 </div>
 </div>
@@ -20015,7 +20015,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-small-armor-repairer-CT-capsule/">Elitet4 70 Small Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-armor-repairer-ct-capsule/">Elitet4 70 Small Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -20023,7 +20023,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-small-armor-repairer-cprg/">Elitet4 70 Small Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-armor-repairer-cprg/">Elitet4 70 Small Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -20039,7 +20039,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-small-core-booster-CT-capsule/">Elitet4 70 Small Core Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-core-booster-ct-capsule/">Elitet4 70 Small Core Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20047,7 +20047,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-small-core-booster-cprg/">Elitet4 70 Small Core Booster Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-core-booster-cprg/">Elitet4 70 Small Core Booster Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20063,7 +20063,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-small-shield-generator-CT-capsule/">Elitet4 70 Small Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-shield-generator-ct-capsule/">Elitet4 70 Small Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -20071,7 +20071,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-small-shield-generator-cprg/">Elitet4 70 Small Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-shield-generator-cprg/">Elitet4 70 Small Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -20087,7 +20087,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-tracking-upgrade-CT-capsule/">Elitet4 70 Tracking Upgrade (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-tracking-upgrade-ct-capsule/">Elitet4 70 Tracking Upgrade (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20095,7 +20095,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-tracking-upgrade-cprg/">Elitet4 70 Tracking Upgrade Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-tracking-upgrade-cprg/">Elitet4 70 Tracking Upgrade Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20111,7 +20111,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-webber-CT-capsule/">Elitet4 70 Webber (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-webber-ct-capsule/">Elitet4 70 Webber (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20119,7 +20119,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-70-webber-cprg/">Elitet4 70 Webber Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-webber-cprg/">Elitet4 70 Webber Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20135,7 +20135,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-71-maneuvering-upgrade-CT-capsule/">Elitet4 71 Maneuvering Upgrade (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-maneuvering-upgrade-ct-capsule/">Elitet4 71 Maneuvering Upgrade (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20143,7 +20143,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-71-maneuvering-upgrade-cprg/">Elitet4 71 Maneuvering Upgrade Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-maneuvering-upgrade-cprg/">Elitet4 71 Maneuvering Upgrade Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20159,7 +20159,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-71-medium-shield-generator-CT-capsule/">Elitet4 71 Medium Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-medium-shield-generator-ct-capsule/">Elitet4 71 Medium Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -20167,7 +20167,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-71-medium-shield-generator-cprg/">Elitet4 71 Medium Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-medium-shield-generator-cprg/">Elitet4 71 Medium Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -20183,7 +20183,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-71-mining-probe-module-CT-capsule/">Elitet4 71 Mining Probe Module (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-mining-probe-module-ct-capsule/">Elitet4 71 Mining Probe Module (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20191,7 +20191,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-71-mining-probe-module-cprg/">Elitet4 71 Mining Probe Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-mining-probe-module-cprg/">Elitet4 71 Mining Probe Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20207,7 +20207,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-71-small-shield-generator-CT-capsule/">Elitet4 71 Small Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-small-shield-generator-ct-capsule/">Elitet4 71 Small Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -20215,7 +20215,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-71-small-shield-generator-cprg/">Elitet4 71 Small Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-small-shield-generator-cprg/">Elitet4 71 Small Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -20231,7 +20231,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-72-damage-mod-projectile-CT-capsule/">Elitet4 72 Damage Mod Projectile (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-damage-mod-projectile-ct-capsule/">Elitet4 72 Damage Mod Projectile (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20239,7 +20239,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-72-damage-mod-projectile-cprg/">Elitet4 72 Damage Mod Projectile Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-damage-mod-projectile-cprg/">Elitet4 72 Damage Mod Projectile Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20255,7 +20255,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-72-mass-reductor-CT-capsule/">Elitet4 72 Mass Reductor (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-mass-reductor-ct-capsule/">Elitet4 72 Mass Reductor (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20263,7 +20263,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-72-mass-reductor-cprg/">Elitet4 72 Mass Reductor Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-mass-reductor-cprg/">Elitet4 72 Mass Reductor Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20279,7 +20279,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-72-medium-armor-repairer-CT-capsule/">Elitet4 72 Medium Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-medium-armor-repairer-ct-capsule/">Elitet4 72 Medium Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -20287,7 +20287,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-72-medium-armor-repairer-cprg/">Elitet4 72 Medium Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-medium-armor-repairer-cprg/">Elitet4 72 Medium Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -20303,7 +20303,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-72-small-armor-repairer-CT-capsule/">Elitet4 72 Small Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-small-armor-repairer-ct-capsule/">Elitet4 72 Small Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -20311,7 +20311,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-72-small-armor-repairer-cprg/">Elitet4 72 Small Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-small-armor-repairer-cprg/">Elitet4 72 Small Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -20327,7 +20327,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-longrange-medium-autocannon-CT-capsule/">Elitet4 Gamma Longrange Medium Autocannon (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-autocannon-ct-capsule/">Elitet4 Gamma Longrange Medium Autocannon (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20335,7 +20335,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-longrange-medium-autocannon-cprg/">Elitet4 Gamma Longrange Medium Autocannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-autocannon-cprg/">Elitet4 Gamma Longrange Medium Autocannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20351,7 +20351,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-longrange-medium-laser-CT-capsule/">Elitet4 Gamma Longrange Medium Laser (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-laser-ct-capsule/">Elitet4 Gamma Longrange Medium Laser (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20359,7 +20359,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-longrange-medium-laser-cprg/">Elitet4 Gamma Longrange Medium Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-laser-cprg/">Elitet4 Gamma Longrange Medium Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20375,7 +20375,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-longrange-medium-railgun-CT-capsule/">Elitet4 Gamma Longrange Medium Railgun (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-railgun-ct-capsule/">Elitet4 Gamma Longrange Medium Railgun (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20383,7 +20383,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-longrange-medium-railgun-cprg/">Elitet4 Gamma Longrange Medium Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-railgun-cprg/">Elitet4 Gamma Longrange Medium Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20399,7 +20399,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-medium-autocannon-CT-capsule/">Elitet4 Gamma Medium Autocannon (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-autocannon-ct-capsule/">Elitet4 Gamma Medium Autocannon (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20407,7 +20407,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-medium-autocannon-cprg/">Elitet4 Gamma Medium Autocannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-autocannon-cprg/">Elitet4 Gamma Medium Autocannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20423,7 +20423,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-medium-driller-CT-capsule/">Elitet4 Gamma Medium Driller (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-driller-ct-capsule/">Elitet4 Gamma Medium Driller (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20431,7 +20431,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-medium-driller-cprg/">Elitet4 Gamma Medium Driller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-driller-cprg/">Elitet4 Gamma Medium Driller Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20447,7 +20447,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-medium-harvester-CT-capsule/">Elitet4 Gamma Medium Harvester (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-harvester-ct-capsule/">Elitet4 Gamma Medium Harvester (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T4 (special)</div>
 </div>
 </div>
@@ -20455,7 +20455,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-medium-harvester-cprg/">Elitet4 Gamma Medium Harvester Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-harvester-cprg/">Elitet4 Gamma Medium Harvester Cprg</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T4 (special)</div>
 </div>
 </div>
@@ -20471,7 +20471,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-medium-laser-CT-capsule/">Elitet4 Gamma Medium Laser (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-laser-ct-capsule/">Elitet4 Gamma Medium Laser (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20479,7 +20479,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-medium-laser-cprg/">Elitet4 Gamma Medium Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-laser-cprg/">Elitet4 Gamma Medium Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20495,7 +20495,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-medium-railgun-CT-capsule/">Elitet4 Gamma Medium Railgun (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-railgun-ct-capsule/">Elitet4 Gamma Medium Railgun (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20503,7 +20503,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-medium-railgun-cprg/">Elitet4 Gamma Medium Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-railgun-cprg/">Elitet4 Gamma Medium Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20519,7 +20519,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-missile-launcher-CT-capsule/">Elitet4 Gamma Missile Launcher (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-missile-launcher-ct-capsule/">Elitet4 Gamma Missile Launcher (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20527,7 +20527,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-missile-launcher-cprg/">Elitet4 Gamma Missile Launcher Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-missile-launcher-cprg/">Elitet4 Gamma Missile Launcher Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20543,7 +20543,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-rocket-launcher-CT-capsule/">Elitet4 Gamma Rocket Launcher (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-rocket-launcher-ct-capsule/">Elitet4 Gamma Rocket Launcher (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20551,7 +20551,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-rocket-launcher-cprg/">Elitet4 Gamma Rocket Launcher Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-rocket-launcher-cprg/">Elitet4 Gamma Rocket Launcher Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20567,7 +20567,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-small-autocannon-CT-capsule/">Elitet4 Gamma Small Autocannon (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-autocannon-ct-capsule/">Elitet4 Gamma Small Autocannon (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20575,7 +20575,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-small-autocannon-cprg/">Elitet4 Gamma Small Autocannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-autocannon-cprg/">Elitet4 Gamma Small Autocannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20591,7 +20591,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-small-driller-CT-capsule/">Elitet4 Gamma Small Driller (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-driller-ct-capsule/">Elitet4 Gamma Small Driller (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20599,7 +20599,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-small-driller-cprg/">Elitet4 Gamma Small Driller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-driller-cprg/">Elitet4 Gamma Small Driller Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20615,7 +20615,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-small-harvester-CT-capsule/">Elitet4 Gamma Small Harvester (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-harvester-ct-capsule/">Elitet4 Gamma Small Harvester (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T4 (special)</div>
 </div>
 </div>
@@ -20623,7 +20623,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-small-harvester-cprg/">Elitet4 Gamma Small Harvester Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-harvester-cprg/">Elitet4 Gamma Small Harvester Cprg</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T4 (special)</div>
 </div>
 </div>
@@ -20639,7 +20639,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-small-laser-CT-capsule/">Elitet4 Gamma Small Laser (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-laser-ct-capsule/">Elitet4 Gamma Small Laser (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20647,7 +20647,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-small-laser-cprg/">Elitet4 Gamma Small Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-laser-cprg/">Elitet4 Gamma Small Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20663,7 +20663,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-small-railgun-CT-capsule/">Elitet4 Gamma Small Railgun (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-railgun-ct-capsule/">Elitet4 Gamma Small Railgun (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20671,7 +20671,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/elitet4-gamma-small-railgun-cprg/">Elitet4 Gamma Small Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-railgun-cprg/">Elitet4 Gamma Small Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20687,7 +20687,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-adaptive-alloy-cprg/">T4 Adaptive Alloy Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-adaptive-alloy-cprg/">T4 Adaptive Alloy Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -20711,7 +20711,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-armor-repairer-upgrade-cprg/">Apogenion armor repairer tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-armor-repairer-upgrade-cprg/">Apogenion armor repairer tuning CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4</div>
 </div>
 </div>
@@ -20735,7 +20735,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-assault-remote-controller-cprg/">T4 Assault Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-assault-remote-controller-cprg/">T4 Assault Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T4</div>
 </div>
 </div>
@@ -20759,7 +20759,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-blob-emission-modulator-cprg/">Omini interference module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-blob-emission-modulator-cprg/">Omini interference module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -20783,7 +20783,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-cargo-scanner-cprg/">Visioner cargo scanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-cargo-scanner-cprg/">Visioner cargo scanner CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T4</div>
 </div>
 </div>
@@ -20807,7 +20807,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-chassis-scanner-cprg/">sy-D-930 chassis scanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-chassis-scanner-cprg/">sy-D-930 chassis scanner CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T4</div>
 </div>
 </div>
@@ -20831,7 +20831,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-chm-armor-hardener-cprg/">Impetar chemical armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-chm-armor-hardener-cprg/">Impetar chemical armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T4</div>
 </div>
 </div>
@@ -20855,7 +20855,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-core-recharger-cprg/">Nyhna Filler accumulator recharger CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-core-recharger-cprg/">Nyhna Filler accumulator recharger CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T4</div>
 </div>
 </div>
@@ -20879,7 +20879,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-cpu-upgrade-cprg/">Processyt-C1000 coprocessor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-cpu-upgrade-cprg/">Processyt-C1000 coprocessor CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -20903,7 +20903,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-cruisemissile-launcher-cprg/">T4 Cruisemissile Launcher Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-cruisemissile-launcher-cprg/">T4 Cruisemissile Launcher Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -20927,7 +20927,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-damage-mod-laser-cprg/">Oqulus laser tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-damage-mod-laser-cprg/">Oqulus laser tuning CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -20951,7 +20951,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-damage-mod-missile-cprg/">Dozer-IMT missile launcher tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-damage-mod-missile-cprg/">Dozer-IMT missile launcher tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -20975,7 +20975,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-damage-mod-projectile-cprg/">DVT-800g firearm tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-damage-mod-projectile-cprg/">DVT-800g firearm tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -20999,7 +20999,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-damage-mod-railgun-cprg/">Nuimtec-Magniscope XM80 magnetic weapon tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-damage-mod-railgun-cprg/">Nuimtec-Magniscope XM80 magnetic weapon tuning CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -21023,7 +21023,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-detection-modul-cprg/">'Rogue' signal detector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-detection-modul-cprg/">'Rogue' signal detector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21047,7 +21047,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-dreadnought-module-cprg/">T4 Dreadnought Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-dreadnought-module-cprg/">T4 Dreadnought Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21071,7 +21071,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-eccm-cprg/">Braviar ECCM CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-eccm-cprg/">Braviar ECCM CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21095,7 +21095,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-ecm-booster-cprg/">Sludge ECM tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-ecm-booster-cprg/">Sludge ECM tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21119,7 +21119,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-energy-warfare-upgrade-cprg/">XT-Shock EnWar upgrade CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-energy-warfare-upgrade-cprg/">XT-Shock EnWar upgrade CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21143,7 +21143,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-engineering-remote-controller-cprg/">T4 Engineering Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-engineering-remote-controller-cprg/">T4 Engineering Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T4</div>
 </div>
 </div>
@@ -21167,7 +21167,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-excavator-module-cprg/">T4 Excavator Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-excavator-module-cprg/">T4 Excavator Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T4</div>
 </div>
 </div>
@@ -21191,7 +21191,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-exp-armor-hardener-cprg/">Sheltor seismic armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-exp-armor-hardener-cprg/">Sheltor seismic armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T4</div>
 </div>
 </div>
@@ -21215,7 +21215,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-explosive-kers-cprg/">365p-CSD seismic ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-explosive-kers-cprg/">365p-CSD seismic ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21239,7 +21239,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-coordinated-maneuvering-module-cprg/">R4S-A evasive NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-coordinated-maneuvering-module-cprg/">R4S-A evasive NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21263,7 +21263,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-core-management-module-cprg/">ARMS X500 recharger NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-core-management-module-cprg/">ARMS X500 recharger NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21287,7 +21287,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-defense-module-cprg/">TSP-Hindoo armor NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-defense-module-cprg/">TSP-Hindoo armor NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21311,7 +21311,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-devastating-module-cprg/">T4 Gang Assist Devastating Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-devastating-module-cprg/">T4 Gang Assist Devastating Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21335,7 +21335,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-ewar-range-module-cprg/">Yzla-2500 EW NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-ewar-range-module-cprg/">Yzla-2500 EW NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21359,7 +21359,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-fast-extraction-module-cprg/">Matriot-IV fast extractor NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-fast-extraction-module-cprg/">Matriot-IV fast extractor NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21383,7 +21383,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-industry-module-cprg/">Rypoa industrial NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-industry-module-cprg/">Rypoa industrial NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21407,7 +21407,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-information-module-cprg/">Gecko M-2000 farlock NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-information-module-cprg/">Gecko M-2000 farlock NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21431,7 +21431,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-maintance-module-cprg/">ACF-9900 repairer NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-maintance-module-cprg/">ACF-9900 repairer NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21455,7 +21455,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-precision-firing-module-cprg/">ZTW critical hit NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-precision-firing-module-cprg/">ZTW critical hit NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21479,7 +21479,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-resilience-module-cprg/">T4 Gang Assist Resilience Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-resilience-module-cprg/">T4 Gang Assist Resilience Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21503,7 +21503,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-shared-dataprocessing-module-cprg/">JPS-Greeneye lock booster NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-shared-dataprocessing-module-cprg/">JPS-Greeneye lock booster NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21527,7 +21527,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-shield-calculation-module-cprg/">Bomitar II. shield NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-shield-calculation-module-cprg/">Bomitar II. shield NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4</div>
 </div>
 </div>
@@ -21551,7 +21551,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-siege-module-cprg/">'Scorch' assault NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-siege-module-cprg/">'Scorch' assault NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21575,7 +21575,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-gang-assist-speed-module-cprg/">Contra velocity NEXUS module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-gang-assist-speed-module-cprg/">Contra velocity NEXUS module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21599,7 +21599,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-hell-cannon-cprg/">T4 Hell Cannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-hell-cannon-cprg/">T4 Hell Cannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -21623,7 +21623,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-hunter-remote-controller-cprg/">T4 Hunter Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-hunter-remote-controller-cprg/">T4 Hunter Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T4</div>
 </div>
 </div>
@@ -21647,7 +21647,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-industrial-remote-controller-cprg/">T4 Industrial Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-industrial-remote-controller-cprg/">T4 Industrial Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T4</div>
 </div>
 </div>
@@ -21663,7 +21663,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-industrial-turret-driller/">T4 Industrial Turret Driller</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-industrial-turret-driller/">T4 Industrial Turret Driller</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T4</div>
 </div>
 </div>
@@ -21671,7 +21671,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-industrial-turret-harvester/">T4 Industrial Turret Harvester</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-industrial-turret-harvester/">T4 Industrial Turret Harvester</a></div>
 <div class="mission-card-sub">Modules / Turrets, tier T4</div>
 </div>
 </div>
@@ -21687,7 +21687,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-kin-armor-hardener-cprg/">Grampier-VK kinetic armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-kin-armor-hardener-cprg/">Grampier-VK kinetic armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T4</div>
 </div>
 </div>
@@ -21711,7 +21711,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-kinetic-kers-cprg/">Emerolyte kinetic ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-kinetic-kers-cprg/">Emerolyte kinetic ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21735,7 +21735,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-landmine-detector-cprg/">T4 Landmine Detector Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-landmine-detector-cprg/">T4 Landmine Detector Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21759,7 +21759,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-large-armor-plate-cprg/">T4 Large Armor Plate Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-large-armor-plate-cprg/">T4 Large Armor Plate Cprg</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T4</div>
 </div>
 </div>
@@ -21783,7 +21783,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-large-armor-repairer-cprg/">T4 Large Armor Repairer Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-large-armor-repairer-cprg/">T4 Large Armor Repairer Cprg</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4</div>
 </div>
 </div>
@@ -21807,7 +21807,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-large-core-battery-cprg/">T4 Large Core Battery Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-large-core-battery-cprg/">T4 Large Core Battery Cprg</a></div>
 <div class="mission-card-sub">Modules / Power, tier T4</div>
 </div>
 </div>
@@ -21831,7 +21831,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-large-core-booster-cprg/">T4 Large Core Booster Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-large-core-booster-cprg/">T4 Large Core Booster Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21855,7 +21855,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-large-driller-cprg/">T4 Large Driller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-large-driller-cprg/">T4 Large Driller Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -21879,7 +21879,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-large-harvester-cprg/">T4 Large Harvester Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-large-harvester-cprg/">T4 Large Harvester Cprg</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T4</div>
 </div>
 </div>
@@ -21903,7 +21903,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-large-laser-cprg/">T4 Large Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-large-laser-cprg/">T4 Large Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -21927,7 +21927,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-large-railgun-cprg/">T4 Large Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-large-railgun-cprg/">T4 Large Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -21951,7 +21951,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-large-shield-generator-cprg/">T4 Large Shield Generator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-large-shield-generator-cprg/">T4 Large Shield Generator Cprg</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4</div>
 </div>
 </div>
@@ -21975,7 +21975,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-longrange-large-laser-cprg/">T4 Longrange Large Laser Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-longrange-large-laser-cprg/">T4 Longrange Large Laser Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -21999,7 +21999,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-longrange-large-railgun-cprg/">T4 Longrange Large Railgun Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-longrange-large-railgun-cprg/">T4 Longrange Large Railgun Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -22023,7 +22023,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-longrange-medium-autocannon-cprg/">Znatvoy-Berjiar-IA medium autocannon CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-longrange-medium-autocannon-cprg/">Znatvoy-Berjiar-IA medium autocannon CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -22047,7 +22047,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-longrange-medium-laser-cprg/">Phisker 30PW medium HCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-longrange-medium-laser-cprg/">Phisker 30PW medium HCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -22071,7 +22071,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-longrange-medium-railgun-cprg/">5.5-Glipler medium EM-gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-longrange-medium-railgun-cprg/">5.5-Glipler medium EM-gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -22095,7 +22095,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-longrange-webber-cprg/">TDR25 L-demobilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-longrange-webber-cprg/">TDR25 L-demobilizer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -22119,7 +22119,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-maneuvering-upgrade-cprg/">Yridan RCD evasive module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-maneuvering-upgrade-cprg/">Yridan RCD evasive module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -22143,7 +22143,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-mass-reductor-cprg/">MRE 3000 lightweight frame CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-mass-reductor-cprg/">MRE 3000 lightweight frame CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -22167,7 +22167,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-armor-plate-cprg/">THL-Testudo medium armor plate CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-armor-plate-cprg/">THL-Testudo medium armor plate CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T4</div>
 </div>
 </div>
@@ -22191,7 +22191,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-armor-repairer-cprg/">CRC40 medium armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-armor-repairer-cprg/">CRC40 medium armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4</div>
 </div>
 </div>
@@ -22215,7 +22215,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-autocannon-cprg/">Torrex-G17 medium machine gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-autocannon-cprg/">Torrex-G17 medium machine gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -22239,7 +22239,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-core-battery-cprg/">Pheter Charge-M medium auxiliary accumulator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-core-battery-cprg/">Pheter Charge-M medium auxiliary accumulator CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T4</div>
 </div>
 </div>
@@ -22263,7 +22263,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-core-booster-cprg/">Cerepter II. medium energy injector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-core-booster-cprg/">Cerepter II. medium energy injector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -22287,7 +22287,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-driller-cprg/">Ovostec-Edger medium miner module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-driller-cprg/">Ovostec-Edger medium miner module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -22311,7 +22311,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-energy-neutralizer-cprg/">Sicado I. medium energy neutralizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-energy-neutralizer-cprg/">Sicado I. medium energy neutralizer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4</div>
 </div>
 </div>
@@ -22335,7 +22335,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-energy-transfer-cprg/">Livostid PT-VI medium energy transferer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-energy-transfer-cprg/">Livostid PT-VI medium energy transferer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -22359,7 +22359,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-energy-vampire-cprg/">Filch-AM medium energy drainer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-energy-vampire-cprg/">Filch-AM medium energy drainer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4</div>
 </div>
 </div>
@@ -22383,7 +22383,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-harvester-cprg/">Protrim V-II medium harvester CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-harvester-cprg/">Protrim V-II medium harvester CT</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T4</div>
 </div>
 </div>
@@ -22407,7 +22407,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-laser-cprg/">Thermodissector medium LCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-laser-cprg/">Thermodissector medium LCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -22431,7 +22431,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-railgun-cprg/">Prompt medium Gauss gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-railgun-cprg/">Prompt medium Gauss gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -22455,7 +22455,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-remote-armor-repairer-cprg/">ALS medium remote armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-remote-armor-repairer-cprg/">ALS medium remote armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4</div>
 </div>
 </div>
@@ -22479,7 +22479,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-medium-shield-generator-cprg/">Penik medium shield generator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-medium-shield-generator-cprg/">Penik medium shield generator CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4</div>
 </div>
 </div>
@@ -22503,7 +22503,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-mining-probe-module-cprg/">Eksplor-q3000 geoscanner CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-mining-probe-module-cprg/">Eksplor-q3000 geoscanner CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -22527,7 +22527,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-mining-upgrade-cprg/">Piog Forgekit BW1 industrial tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-mining-upgrade-cprg/">Piog Forgekit BW1 industrial tuning CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -22551,7 +22551,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-missile-launcher-cprg/">Pelistec-TR250 medium missile launcher CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-missile-launcher-cprg/">Pelistec-TR250 medium missile launcher CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -22575,7 +22575,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-powergrid-upgrades-cprg/">E-set 15VaW coreactor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-powergrid-upgrades-cprg/">E-set 15VaW coreactor CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T4</div>
 </div>
 </div>
@@ -22599,7 +22599,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-raven-cannon-cprg/">T4 Raven Cannon Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-raven-cannon-cprg/">T4 Raven Cannon Cprg</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -22623,7 +22623,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-reactor-sealing-cprg/">GRIP-500p reactor sealing CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-reactor-sealing-cprg/">GRIP-500p reactor sealing CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -22647,7 +22647,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-remote-command-translator-cprg/">T4 Remote Command Translator Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-remote-command-translator-cprg/">T4 Remote Command Translator Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T4</div>
 </div>
 </div>
@@ -22671,7 +22671,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-remote-sensor-booster-cprg/">Ambassador-RU2 remote sensor amplifier CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-remote-sensor-booster-cprg/">Ambassador-RU2 remote sensor amplifier CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T4</div>
 </div>
 </div>
@@ -22695,7 +22695,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-resistant-plating-cprg/">Aegis UAP-10XL universal armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-resistant-plating-cprg/">Aegis UAP-10XL universal armor CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -22719,7 +22719,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-rocket-launcher-cprg/">Pelistec-TR110 light missile launcher CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-rocket-launcher-cprg/">Pelistec-TR110 light missile launcher CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -22743,7 +22743,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-self-destruct-module-cprg/">T4 Self Destruct Module Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-self-destruct-module-cprg/">T4 Self Destruct Module Cprg</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -22767,7 +22767,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-sensor-booster-cprg/">Ambassador SU-I sensor amplifier CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-sensor-booster-cprg/">Ambassador SU-I sensor amplifier CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T4</div>
 </div>
 </div>
@@ -22791,7 +22791,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-sensor-dampener-cprg/">Stellis sensor suppressor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-sensor-dampener-cprg/">Stellis sensor suppressor CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T4</div>
 </div>
 </div>
@@ -22815,7 +22815,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-sensor-jammer-cprg/">Tenion ECM CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-sensor-jammer-cprg/">Tenion ECM CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T4</div>
 </div>
 </div>
@@ -22839,7 +22839,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-sensor-supressor-booster-cprg/">DDX700-Mist sensor suppressor tuning CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-sensor-supressor-booster-cprg/">DDX700-Mist sensor suppressor tuning CT</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T4</div>
 </div>
 </div>
@@ -22863,7 +22863,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-shield-hardener-cprg/">Guardian shield hardener CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-shield-hardener-cprg/">Guardian shield hardener CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4</div>
 </div>
 </div>
@@ -22887,7 +22887,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-armor-plate-cprg/">Karapas light armor plate CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-armor-plate-cprg/">Karapas light armor plate CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T4</div>
 </div>
 </div>
@@ -22911,7 +22911,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-armor-repairer-cprg/">Microforge Aestolar small armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-armor-repairer-cprg/">Microforge Aestolar small armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4</div>
 </div>
 </div>
@@ -22935,7 +22935,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-autocannon-cprg/">Astoc M45 light autocannon CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-autocannon-cprg/">Astoc M45 light autocannon CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -22959,7 +22959,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-core-battery-cprg/">Pheter Charge-S small auxiliary accumulator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-core-battery-cprg/">Pheter Charge-S small auxiliary accumulator CT</a></div>
 <div class="mission-card-sub">Modules / Power, tier T4</div>
 </div>
 </div>
@@ -22983,7 +22983,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-core-booster-cprg/">Cerepter I. small energy injector CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-core-booster-cprg/">Cerepter I. small energy injector CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -23007,7 +23007,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-driller-cprg/">Scraper-990 small miner module CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-driller-cprg/">Scraper-990 small miner module CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -23031,7 +23031,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-energy-neutralizer-cprg/">Cerba small energy neutralizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-energy-neutralizer-cprg/">Cerba small energy neutralizer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4</div>
 </div>
 </div>
@@ -23055,7 +23055,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-energy-transfer-cprg/">Livostid PT3 small energy transferer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-energy-transfer-cprg/">Livostid PT3 small energy transferer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -23079,7 +23079,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-energy-vampire-cprg/">Io-trail SVU small energy drainer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-energy-vampire-cprg/">Io-trail SVU small energy drainer CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4</div>
 </div>
 </div>
@@ -23103,7 +23103,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-harvester-cprg/">Protrim FDV-30 small harvester CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-harvester-cprg/">Protrim FDV-30 small harvester CT</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T4</div>
 </div>
 </div>
@@ -23127,7 +23127,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-laser-cprg/">Thelotec-Stroyar light HCL laser CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-laser-cprg/">Thelotec-Stroyar light HCL laser CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -23151,7 +23151,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-railgun-cprg/">Nuimtec-Inkandesk light EM-gun CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-railgun-cprg/">Nuimtec-Inkandesk light EM-gun CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -23175,7 +23175,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-remote-armor-repairer-cprg/">PPDT-Apadisiator small remote armor repairer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-remote-armor-repairer-cprg/">PPDT-Apadisiator small remote armor repairer CT</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4</div>
 </div>
 </div>
@@ -23199,7 +23199,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-small-shield-generator-cprg/">SBA-200 Forebrace small shield generator CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-small-shield-generator-cprg/">SBA-200 Forebrace small shield generator CT</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4</div>
 </div>
 </div>
@@ -23223,7 +23223,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-stealth-modul-cprg/">Longlag signal masker CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-stealth-modul-cprg/">Longlag signal masker CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -23247,7 +23247,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-support-remote-controller-cprg/">T4 Support Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-support-remote-controller-cprg/">T4 Support Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T4</div>
 </div>
 </div>
@@ -23271,7 +23271,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-tactical-remote-controller-cprg/">T4 Tactical Remote Controller Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-tactical-remote-controller-cprg/">T4 Tactical Remote Controller Cprg</a></div>
 <div class="mission-card-sub">Modules / Remote control, tier T4</div>
 </div>
 </div>
@@ -23295,7 +23295,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-target-painter-cprg/">Pulsus target marker CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-target-painter-cprg/">Pulsus target marker CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -23319,7 +23319,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-thermal-kers-cprg/">Dyoriva thermal ERP CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-thermal-kers-cprg/">Dyoriva thermal ERP CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -23343,7 +23343,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-thrm-armor-hardener-cprg/">Hephaistos-TSS thermal armor CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-thrm-armor-hardener-cprg/">Hephaistos-TSS thermal armor CT</a></div>
 <div class="mission-card-sub">Modules / Armor, tier T4</div>
 </div>
 </div>
@@ -23367,7 +23367,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-tracking-upgrade-cprg/">ATCS-gh50 range extender CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-tracking-upgrade-cprg/">ATCS-gh50 range extender CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -23391,7 +23391,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-weapon-stabilizer-cprg/">Kobel 300-XZ weapon stabilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-weapon-stabilizer-cprg/">Kobel 300-XZ weapon stabilizer CT</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4</div>
 </div>
 </div>
@@ -23415,7 +23415,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/named3-webber-cprg/">NNt. IY S-demobilizer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-webber-cprg/">NNt. IY S-demobilizer CT</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4</div>
 </div>
 </div>
@@ -23431,7 +23431,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/purgatory-mass-reductor-reward/">\"Perpetuum 500\" lightweight frame</a></div>
+<div><div class="mission-card-title"><a href="/content/items/purgatory-mass-reductor-reward/">\"Perpetuum 500\" lightweight frame</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -23439,7 +23439,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/tux-shield-hardener-reward/">\"The Wall\" shield hardener</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tux-shield-hardener-reward/">\"The Wall\" shield hardener</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -23452,7 +23452,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/archer-named4-core-recharger/">Archer T5 Core Recharger</a></div>
+<div><div class="mission-card-title"><a href="/content/items/archer-named4-core-recharger/">Archer T5 Core Recharger</a></div>
 <div class="mission-card-sub">Modules / Power, tier T5</div>
 </div>
 </div>
@@ -23460,7 +23460,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/archer-named4-damage-mod-missile/">Archer T5 Damage Mod Missile</a></div>
+<div><div class="mission-card-title"><a href="/content/items/archer-named4-damage-mod-missile/">Archer T5 Damage Mod Missile</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T5</div>
 </div>
 </div>
@@ -23468,7 +23468,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/archer-named4-medium-core-battery/">Archer T5 Medium Core Battery</a></div>
+<div><div class="mission-card-title"><a href="/content/items/archer-named4-medium-core-battery/">Archer T5 Medium Core Battery</a></div>
 <div class="mission-card-sub">Modules / Power, tier T5</div>
 </div>
 </div>
@@ -23476,7 +23476,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/archer-named4-medium-shield-generator/">Archer T5 Medium Shield Generator</a></div>
+<div><div class="mission-card-title"><a href="/content/items/archer-named4-medium-shield-generator/">Archer T5 Medium Shield Generator</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T5</div>
 </div>
 </div>
@@ -23484,7 +23484,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/archer-named4-missile-launcher/">Archer T5 Missile Launcher</a></div>
+<div><div class="mission-card-title"><a href="/content/items/archer-named4-missile-launcher/">Archer T5 Missile Launcher</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T5</div>
 </div>
 </div>
@@ -23492,7 +23492,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/archer-named4-sensor-booster/">Archer T5 Sensor Booster</a></div>
+<div><div class="mission-card-title"><a href="/content/items/archer-named4-sensor-booster/">Archer T5 Sensor Booster</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T5</div>
 </div>
 </div>
@@ -23500,7 +23500,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/archer-named4-tracking-upgrade/">Archer T5 Tracking Upgrade</a></div>
+<div><div class="mission-card-title"><a href="/content/items/archer-named4-tracking-upgrade/">Archer T5 Tracking Upgrade</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T5</div>
 </div>
 </div>
@@ -23508,7 +23508,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/weasel-named4-adaptive-alloy/">Weasel T5 Adaptive Alloy</a></div>
+<div><div class="mission-card-title"><a href="/content/items/weasel-named4-adaptive-alloy/">Weasel T5 Adaptive Alloy</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T5</div>
 </div>
 </div>
@@ -23516,7 +23516,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/weasel-named4-core-recharger/">Weasel T5 Core Recharger</a></div>
+<div><div class="mission-card-title"><a href="/content/items/weasel-named4-core-recharger/">Weasel T5 Core Recharger</a></div>
 <div class="mission-card-sub">Modules / Power, tier T5</div>
 </div>
 </div>
@@ -23524,7 +23524,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/weasel-named4-eccm/">Weasel T5 Eccm</a></div>
+<div><div class="mission-card-title"><a href="/content/items/weasel-named4-eccm/">Weasel T5 Eccm</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T5</div>
 </div>
 </div>
@@ -23532,7 +23532,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/weasel-named4-mass-reductor/">Weasel T5 Mass Reductor</a></div>
+<div><div class="mission-card-title"><a href="/content/items/weasel-named4-mass-reductor/">Weasel T5 Mass Reductor</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T5</div>
 </div>
 </div>
@@ -23540,7 +23540,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/weasel-named4-small-armor-repairer/">Weasel T5 Small Armor Repairer</a></div>
+<div><div class="mission-card-title"><a href="/content/items/weasel-named4-small-armor-repairer/">Weasel T5 Small Armor Repairer</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T5</div>
 </div>
 </div>
@@ -23548,7 +23548,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/weasel-named4-small-railgun/">Weasel T5 Small Railgun</a></div>
+<div><div class="mission-card-title"><a href="/content/items/weasel-named4-small-railgun/">Weasel T5 Small Railgun</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T5</div>
 </div>
 </div>
@@ -23556,7 +23556,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/weasel-named4-stealth-modul/">Weasel T5 Stealth Modul</a></div>
+<div><div class="mission-card-title"><a href="/content/items/weasel-named4-stealth-modul/">Weasel T5 Stealth Modul</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T5</div>
 </div>
 </div>
@@ -23569,7 +23569,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/noob-chassis-scanner/">Syn-tec chassis scanner</a></div>
+<div><div class="mission-card-title"><a href="/content/items/noob-chassis-scanner/">Syn-tec chassis scanner</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier special</div>
 </div>
 </div>
@@ -23577,7 +23577,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/noob-mining-probe-module/">Syn-tec geoscanner</a></div>
+<div><div class="mission-card-title"><a href="/content/items/noob-mining-probe-module/">Syn-tec geoscanner</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier special</div>
 </div>
 </div>
@@ -23585,7 +23585,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/noob-sensor-booster/">Syn-tec sensor amplifier</a></div>
+<div><div class="mission-card-title"><a href="/content/items/noob-sensor-booster/">Syn-tec sensor amplifier</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier special</div>
 </div>
 </div>
@@ -23593,7 +23593,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/noob-small-armor-plate/">Syn-tec light armor plate</a></div>
+<div><div class="mission-card-title"><a href="/content/items/noob-small-armor-plate/">Syn-tec light armor plate</a></div>
 <div class="mission-card-sub">Modules / Armor, tier special</div>
 </div>
 </div>
@@ -23601,7 +23601,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/noob-small-armor-repairer/">Syn-tec small armor repairer</a></div>
+<div><div class="mission-card-title"><a href="/content/items/noob-small-armor-repairer/">Syn-tec small armor repairer</a></div>
 <div class="mission-card-sub">Modules / Repair, tier special</div>
 </div>
 </div>
@@ -23609,7 +23609,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/noob-small-autocannon/">Syn-tec light autocannon</a></div>
+<div><div class="mission-card-title"><a href="/content/items/noob-small-autocannon/">Syn-tec light autocannon</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier special</div>
 </div>
 </div>
@@ -23617,7 +23617,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/noob-small-driller/">Syn-tec small miner module</a></div>
+<div><div class="mission-card-title"><a href="/content/items/noob-small-driller/">Syn-tec small miner module</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier special</div>
 </div>
 </div>
@@ -23625,7 +23625,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/noob-small-harvester/">Syn-tec small harvester</a></div>
+<div><div class="mission-card-title"><a href="/content/items/noob-small-harvester/">Syn-tec small harvester</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier special</div>
 </div>
 </div>
@@ -23654,7 +23654,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/siege-hack-module/">SAP hacking module</a></div>
+<div><div class="mission-card-title"><a href="/content/items/siege-hack-module/">SAP hacking module</a></div>
 <div class="mission-card-sub">Modules / Enhancements</div>
 </div>
 </div>
@@ -23726,7 +23726,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/standard-neuralyzer/">Standard Neuralyzer</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-neuralyzer/">Standard Neuralyzer</a></div>
 <div class="mission-card-sub">Modules / Enhancements</div>
 </div>
 </div>
@@ -23734,7 +23734,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/terraform-multi-module/">Terraformer module</a></div>
+<div><div class="mission-card-title"><a href="/content/items/terraform-multi-module/">Terraformer module</a></div>
 <div class="mission-card-sub">Modules / Enhancements</div>
 </div>
 </div>
@@ -23742,7 +23742,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/zmall-railg00n/">The Eraser</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zmall-railg00n/">The Eraser</a></div>
 <div class="mission-card-sub">Modules / Enhancements</div>
 </div>
 </div>
@@ -23750,7 +23750,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ja/content/items/zupalight/">super light something</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zupalight/">super light something</a></div>
 <div class="mission-card-sub">Modules / Enhancements</div>
 </div>
 </div>

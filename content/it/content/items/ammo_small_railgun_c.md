@@ -31,7 +31,7 @@ description: "Ammo / Cannon"
 **Prodotto da 3 componenti, livello di ricerca 1** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Small liquidcore slug CT](/it/content/items/ammo-small-railgun-c-cprg/)
+**Piano:** [Small liquidcore slug CT](/content/items/ammo-small-railgun-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">richiesto: <b>25</b></div></div>

@@ -36,7 +36,7 @@ description: "Special & other / Miscellaneous, tier T3"
 **Geproduceerd uit 9 componentën** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Hi-tech decoder lab foundation CT](/nl/content/items/pbs-research-kit-forge-large-capsule-cprg/)
+**Bouwtekening:** [Hi-tech decoder lab foundation CT](/content/items/pbs-research-kit-forge-large-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">vereist: <b>2.5k</b></div></div>

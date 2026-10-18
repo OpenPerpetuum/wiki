@@ -37,7 +37,7 @@ description: "Modules / Sensors & scanning, tier T4"
 **コンポーネント8個から製造 、研究レベル 6** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Ambassador-RU2 remote sensor amplifier CT](/ja/content/items/named3-remote-sensor-booster-cprg/)
+**設計図:** [Ambassador-RU2 remote sensor amplifier CT](/content/items/named3-remote-sensor-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">必要: <b>400</b></div></div>

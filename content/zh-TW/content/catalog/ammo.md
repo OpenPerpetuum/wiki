@@ -27,7 +27,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-large-lasercrystal-a-cprg/">Ammo Large Lasercrystal A Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-large-lasercrystal-a-cprg/">Ammo Large Lasercrystal A Cprg</a></div>
 <div class="mission-card-sub">Ammo / Beam & laser</div>
 </div>
 </div>
@@ -51,7 +51,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-large-lasercrystal-b-cprg/">Ammo Large Lasercrystal B Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-large-lasercrystal-b-cprg/">Ammo Large Lasercrystal B Cprg</a></div>
 <div class="mission-card-sub">Ammo / Beam & laser</div>
 </div>
 </div>
@@ -75,7 +75,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-large-lasercrystal-c-cprg/">Ammo Large Lasercrystal C Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-large-lasercrystal-c-cprg/">Ammo Large Lasercrystal C Cprg</a></div>
 <div class="mission-card-sub">Ammo / Beam & laser</div>
 </div>
 </div>
@@ -99,7 +99,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-large-lasercrystal-d-cprg/">Ammo Large Lasercrystal D Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-large-lasercrystal-d-cprg/">Ammo Large Lasercrystal D Cprg</a></div>
 <div class="mission-card-sub">Ammo / Beam & laser</div>
 </div>
 </div>
@@ -115,7 +115,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-large-lasercrystal-rewa/">Ammo Large Lasercrystal Rewa</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-large-lasercrystal-rewa/">Ammo Large Lasercrystal Rewa</a></div>
 <div class="mission-card-sub">Ammo / Beam & laser</div>
 </div>
 </div>
@@ -131,7 +131,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-medium-lasercrystal-a-cprg/">Medium chemoactive energy cell CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-medium-lasercrystal-a-cprg/">Medium chemoactive energy cell CT</a></div>
 <div class="mission-card-sub">Ammo / Beam & laser</div>
 </div>
 </div>
@@ -147,7 +147,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-medium-lasercrystal-b-cprg/">Medium sonic energy cell CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-medium-lasercrystal-b-cprg/">Medium sonic energy cell CT</a></div>
 <div class="mission-card-sub">Ammo / Beam & laser</div>
 </div>
 </div>
@@ -163,7 +163,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-medium-lasercrystal-c-cprg/">Medium photokinetic energy cell CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-medium-lasercrystal-c-cprg/">Medium photokinetic energy cell CT</a></div>
 <div class="mission-card-sub">Ammo / Beam & laser</div>
 </div>
 </div>
@@ -179,7 +179,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-medium-lasercrystal-d-cprg/">Medium thermic energy cell CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-medium-lasercrystal-d-cprg/">Medium thermic energy cell CT</a></div>
 <div class="mission-card-sub">Ammo / Beam & laser</div>
 </div>
 </div>
@@ -187,7 +187,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-medium-lasercrystal-pbs-turret/">Ammo Medium Lasercrystal Pbs Turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-medium-lasercrystal-pbs-turret/">Ammo Medium Lasercrystal Pbs Turret</a></div>
 <div class="mission-card-sub">Ammo / Beam & laser, tier T2</div>
 </div>
 </div>
@@ -219,7 +219,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-small-lasercrystal-a-cprg/">Small chemoactive energy cell CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-small-lasercrystal-a-cprg/">Small chemoactive energy cell CT</a></div>
 <div class="mission-card-sub">Ammo / Beam & laser</div>
 </div>
 </div>
@@ -235,7 +235,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-small-lasercrystal-b-cprg/">Small sonic energy cell CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-small-lasercrystal-b-cprg/">Small sonic energy cell CT</a></div>
 <div class="mission-card-sub">Ammo / Beam & laser</div>
 </div>
 </div>
@@ -251,7 +251,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-small-lasercrystal-c-cprg/">Small photokinetic energy cell CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-small-lasercrystal-c-cprg/">Small photokinetic energy cell CT</a></div>
 <div class="mission-card-sub">Ammo / Beam & laser</div>
 </div>
 </div>
@@ -267,7 +267,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-small-lasercrystal-d-cprg/">Small thermic energy cell CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-small-lasercrystal-d-cprg/">Small thermic energy cell CT</a></div>
 <div class="mission-card-sub">Ammo / Beam & laser</div>
 </div>
 </div>
@@ -304,7 +304,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-hell-cannon-a-cprg/">Ammo Hell Cannon A Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-hell-cannon-a-cprg/">Ammo Hell Cannon A Cprg</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -328,7 +328,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-hell-cannon-b-cprg/">Ammo Hell Cannon B Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-hell-cannon-b-cprg/">Ammo Hell Cannon B Cprg</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -352,7 +352,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-hell-cannon-c-cprg/">Ammo Hell Cannon C Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-hell-cannon-c-cprg/">Ammo Hell Cannon C Cprg</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -376,7 +376,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-hell-cannon-d-cprg/">Ammo Hell Cannon D Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-hell-cannon-d-cprg/">Ammo Hell Cannon D Cprg</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -400,7 +400,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-hell-cannon-t-cprg/">Ammo Hell Cannon T Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-hell-cannon-t-cprg/">Ammo Hell Cannon T Cprg</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -424,7 +424,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-large-railgun-a-cprg/">Ammo Large Railgun A Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-large-railgun-a-cprg/">Ammo Large Railgun A Cprg</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -448,7 +448,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-large-railgun-b-cprg/">Ammo Large Railgun B Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-large-railgun-b-cprg/">Ammo Large Railgun B Cprg</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -472,7 +472,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-large-railgun-c-cprg/">Ammo Large Railgun C Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-large-railgun-c-cprg/">Ammo Large Railgun C Cprg</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -496,7 +496,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-large-railgun-d-cprg/">Ammo Large Railgun D Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-large-railgun-d-cprg/">Ammo Large Railgun D Cprg</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -512,7 +512,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-large-railgun-rewa/">Ammo Large Railgun Rewa</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-large-railgun-rewa/">Ammo Large Railgun Rewa</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -528,7 +528,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-medium-railgun-a-cprg/">Medium incendiary slug CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-medium-railgun-a-cprg/">Medium incendiary slug CT</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -544,7 +544,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-medium-railgun-b-cprg/">Medium chemoactive slug CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-medium-railgun-b-cprg/">Medium chemoactive slug CT</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -560,7 +560,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-medium-railgun-c-cprg/">Medium liquidcore slug CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-medium-railgun-c-cprg/">Medium liquidcore slug CT</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -576,7 +576,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-medium-railgun-d-cprg/">Medium compositecore slug CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-medium-railgun-d-cprg/">Medium compositecore slug CT</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -584,7 +584,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-medium-railgun-pbs-turret/">Ammo Medium Railgun Pbs Turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-medium-railgun-pbs-turret/">Ammo Medium Railgun Pbs Turret</a></div>
 <div class="mission-card-sub">Ammo / Cannon, tier T2</div>
 </div>
 </div>
@@ -616,7 +616,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-raven-cannon-a-cprg/">Ammo Raven Cannon A Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-raven-cannon-a-cprg/">Ammo Raven Cannon A Cprg</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -640,7 +640,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-raven-cannon-b-cprg/">Ammo Raven Cannon B Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-raven-cannon-b-cprg/">Ammo Raven Cannon B Cprg</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -664,7 +664,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-raven-cannon-c-cprg/">Ammo Raven Cannon C Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-raven-cannon-c-cprg/">Ammo Raven Cannon C Cprg</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -688,7 +688,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-raven-cannon-d-cprg/">Ammo Raven Cannon D Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-raven-cannon-d-cprg/">Ammo Raven Cannon D Cprg</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -712,7 +712,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-raven-cannon-t-cprg/">Ammo Raven Cannon T Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-raven-cannon-t-cprg/">Ammo Raven Cannon T Cprg</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -736,7 +736,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-small-railgun-a-cprg/">Small incendiary slug CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-small-railgun-a-cprg/">Small incendiary slug CT</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -752,7 +752,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-small-railgun-b-cprg/">Small chemoactive slug CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-small-railgun-b-cprg/">Small chemoactive slug CT</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -768,7 +768,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-small-railgun-c-cprg/">Small liquidcore slug CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-small-railgun-c-cprg/">Small liquidcore slug CT</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -784,7 +784,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-small-railgun-d-cprg/">Small compositecore slug CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-small-railgun-d-cprg/">Small compositecore slug CT</a></div>
 <div class="mission-card-sub">Ammo / Cannon</div>
 </div>
 </div>
@@ -821,7 +821,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-harvesting-standard-cprg/">Universal harvester charge CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-harvesting-standard-cprg/">Universal harvester charge CT</a></div>
 <div class="mission-card-sub">Ammo / Harvesting</div>
 </div>
 </div>
@@ -837,7 +837,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mass-harvesting-standard-cprg/">Ammo Mass Harvesting Standard Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mass-harvesting-standard-cprg/">Ammo Mass Harvesting Standard Cprg</a></div>
 <div class="mission-card-sub">Ammo / Harvesting</div>
 </div>
 </div>
@@ -866,7 +866,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-crude-cprg/">Miner charge (HDT) CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-crude-cprg/">Miner charge (HDT) CT</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -882,7 +882,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-deep-crude-cprg/">Ammo Mining Deep Crude Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-deep-crude-cprg/">Ammo Mining Deep Crude Cprg</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -906,7 +906,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-deep-epriton-cprg/">Ammo Mining Deep Epriton Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-deep-epriton-cprg/">Ammo Mining Deep Epriton Cprg</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -930,7 +930,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-deep-fluxore-cprg/">Ammo Mining Deep Fluxore Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-deep-fluxore-cprg/">Ammo Mining Deep Fluxore Cprg</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -954,7 +954,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-deep-gammaterial-cprg/">Ammo Mining Deep Gammaterial Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-deep-gammaterial-cprg/">Ammo Mining Deep Gammaterial Cprg</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -978,7 +978,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-deep-imentium-cprg/">Ammo Mining Deep Imentium Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-deep-imentium-cprg/">Ammo Mining Deep Imentium Cprg</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1002,7 +1002,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-deep-liquizit-cprg/">Ammo Mining Deep Liquizit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-deep-liquizit-cprg/">Ammo Mining Deep Liquizit Cprg</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1026,7 +1026,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-deep-silgium-cprg/">Ammo Mining Deep Silgium Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-deep-silgium-cprg/">Ammo Mining Deep Silgium Cprg</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1050,7 +1050,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-deep-stermonit-cprg/">Ammo Mining Deep Stermonit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-deep-stermonit-cprg/">Ammo Mining Deep Stermonit Cprg</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1074,7 +1074,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-deep-titan-cprg/">Ammo Mining Deep Titan Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-deep-titan-cprg/">Ammo Mining Deep Titan Cprg</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1098,7 +1098,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-epriton-cprg/">Miner charge (epriton) CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-epriton-cprg/">Miner charge (epriton) CT</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1114,7 +1114,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-fluxore-cprg/">Ammo Mining Fluxore Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-fluxore-cprg/">Ammo Mining Fluxore Cprg</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1138,7 +1138,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-gammaterial-cprg/">Miner charge (colixum) CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-gammaterial-cprg/">Miner charge (colixum) CT</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1154,7 +1154,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-gravel/">Miner charge (solibdit)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-gravel/">Miner charge (solibdit)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1170,7 +1170,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-imentium-cprg/">Miner charge (imentium) CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-imentium-cprg/">Miner charge (imentium) CT</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1186,7 +1186,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-liquizit-cprg/">Miner charge (liquizit) CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-liquizit-cprg/">Miner charge (liquizit) CT</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1194,7 +1194,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-crude-area/">Area-based geoscanner charge (HDT)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-crude-area/">Area-based geoscanner charge (HDT)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1202,7 +1202,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-crude-direction/">Directional geoscanner charge (HDT)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-crude-direction/">Directional geoscanner charge (HDT)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1210,7 +1210,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-crude-tile/">Tile-based geoscanner charge (HDT)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-crude-tile/">Tile-based geoscanner charge (HDT)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1218,7 +1218,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-crude-tile-rewa/">Advanced tile-based geoscanner charge (HDT)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-crude-tile-rewa/">Advanced tile-based geoscanner charge (HDT)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1226,7 +1226,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-energymineral-direction/">Directional geoscanner charge (Energy field)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-energymineral-direction/">Directional geoscanner charge (Energy field)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1234,7 +1234,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-energymineral-tile/">Tile-based geoscanner charge (Energy field)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-energymineral-tile/">Tile-based geoscanner charge (Energy field)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1242,7 +1242,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-epriton-area/">Area-based geoscanner charge (epriton)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-epriton-area/">Area-based geoscanner charge (epriton)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1250,7 +1250,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-epriton-direction/">Directional geoscanner charge (Epriton)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-epriton-direction/">Directional geoscanner charge (Epriton)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1258,7 +1258,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-epriton-tile/">Tile-based geoscanner charge (epriton)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-epriton-tile/">Tile-based geoscanner charge (epriton)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1266,7 +1266,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-epriton-tile-rewa/">Advanced tile-based geoscanner charge (epriton)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-epriton-tile-rewa/">Advanced tile-based geoscanner charge (epriton)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1274,7 +1274,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-fluxore-direction/">Ammo Mining Probe Fluxore Direction</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-fluxore-direction/">Ammo Mining Probe Fluxore Direction</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1282,7 +1282,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-fluxore-tile/">Ammo Mining Probe Fluxore Tile</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-fluxore-tile/">Ammo Mining Probe Fluxore Tile</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1290,7 +1290,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-gammaterial-area/">Area-based geoscanner charge (colixum)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-gammaterial-area/">Area-based geoscanner charge (colixum)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1298,7 +1298,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-gammaterial-direction/">Directional geoscanner charge (Colixum)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-gammaterial-direction/">Directional geoscanner charge (Colixum)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1306,7 +1306,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-gammaterial-tile/">Tile-based geoscanner charge (colixum)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-gammaterial-tile/">Tile-based geoscanner charge (colixum)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1314,7 +1314,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-gammaterial-tile-rewa/">Advanced tile-based geoscanner charge (colixum)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-gammaterial-tile-rewa/">Advanced tile-based geoscanner charge (colixum)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1322,7 +1322,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-gravel-area/">Area-based geoscanner charge (solibdit)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-gravel-area/">Area-based geoscanner charge (solibdit)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1330,7 +1330,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-gravel-direction/">Directional geoscanner charge (Solibdit)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-gravel-direction/">Directional geoscanner charge (Solibdit)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1338,7 +1338,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-gravel-tile/">Tile-based geoscanner charge (solibdit)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-gravel-tile/">Tile-based geoscanner charge (solibdit)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1346,7 +1346,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-imentium-area/">Area-based geoscanner charge (imentium)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-imentium-area/">Area-based geoscanner charge (imentium)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1354,7 +1354,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-imentium-direction/">Directional geoscanner charge (Imentium)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-imentium-direction/">Directional geoscanner charge (Imentium)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1362,7 +1362,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-imentium-tile/">Tile-based geoscanner charge (imentium)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-imentium-tile/">Tile-based geoscanner charge (imentium)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1370,7 +1370,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-imentium-tile-rewa/">Advanced tile-based geoscanner charge (imentium)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-imentium-tile-rewa/">Advanced tile-based geoscanner charge (imentium)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1378,7 +1378,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-liquizit-area/">Area-based geoscanner charge (liquizit)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-liquizit-area/">Area-based geoscanner charge (liquizit)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1386,7 +1386,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-liquizit-direction/">Directional geoscanner charge (Liquizit)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-liquizit-direction/">Directional geoscanner charge (Liquizit)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1394,7 +1394,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-liquizit-tile/">Tile-based geoscanner charge (liquizit)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-liquizit-tile/">Tile-based geoscanner charge (liquizit)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1402,7 +1402,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-liquizit-tile-rewa/">Advanced tile-based geoscanner charge (liquizit)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-liquizit-tile-rewa/">Advanced tile-based geoscanner charge (liquizit)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1410,7 +1410,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-silgium-area/">Area-based geoscanner charge (silgium)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-silgium-area/">Area-based geoscanner charge (silgium)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1418,7 +1418,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-silgium-direction/">Directional geoscanner charge (Silgium)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-silgium-direction/">Directional geoscanner charge (Silgium)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1426,7 +1426,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-silgium-tile/">Tile-based geoscanner charge (silgium)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-silgium-tile/">Tile-based geoscanner charge (silgium)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1434,7 +1434,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-silgium-tile-rewa/">Advanced tile-based geoscanner charge (silgium)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-silgium-tile-rewa/">Advanced tile-based geoscanner charge (silgium)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1442,7 +1442,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-stermonit-area/">Area-based geoscanner charge (stermonit)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-stermonit-area/">Area-based geoscanner charge (stermonit)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1450,7 +1450,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-stermonit-direction/">Directional geoscanner charge (Stermonit)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-stermonit-direction/">Directional geoscanner charge (Stermonit)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1458,7 +1458,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-stermonit-tile/">Tile-based geoscanner charge (stermonit)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-stermonit-tile/">Tile-based geoscanner charge (stermonit)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1466,7 +1466,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-stermonit-tile-rewa/">Advanced tile-based geoscanner charge (stermonit)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-stermonit-tile-rewa/">Advanced tile-based geoscanner charge (stermonit)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1474,7 +1474,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-titan-area/">Area-based geoscanner charge (titan ore)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-titan-area/">Area-based geoscanner charge (titan ore)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1482,7 +1482,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-titan-direction/">Directional geoscanner charge (Titan ore)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-titan-direction/">Directional geoscanner charge (Titan ore)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1490,7 +1490,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-titan-tile/">Tile-based geoscanner charge (titan ore)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-titan-tile/">Tile-based geoscanner charge (titan ore)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1498,7 +1498,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-probe-titan-tile-rewa/">Advanced tile-based geoscanner charge (titan ore)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-probe-titan-tile-rewa/">Advanced tile-based geoscanner charge (titan ore)</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1514,7 +1514,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-silgium-cprg/">Miner charge (silgium) CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-silgium-cprg/">Miner charge (silgium) CT</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1530,7 +1530,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-stermonit-cprg/">Miner charge (stermonit) CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-stermonit-cprg/">Miner charge (stermonit) CT</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1546,7 +1546,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-mining-titan-cprg/">Miner charge (titan ore) CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-mining-titan-cprg/">Miner charge (titan ore) CT</a></div>
 <div class="mission-card-sub">Ammo / Mining</div>
 </div>
 </div>
@@ -1567,7 +1567,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-cruisemissile-a-cprg/">Ammo Cruisemissile A Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-cruisemissile-a-cprg/">Ammo Cruisemissile A Cprg</a></div>
 <div class="mission-card-sub">Ammo / Missiles</div>
 </div>
 </div>
@@ -1591,7 +1591,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-cruisemissile-b-cprg/">Ammo Cruisemissile B Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-cruisemissile-b-cprg/">Ammo Cruisemissile B Cprg</a></div>
 <div class="mission-card-sub">Ammo / Missiles</div>
 </div>
 </div>
@@ -1615,7 +1615,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-cruisemissile-c-cprg/">Ammo Cruisemissile C Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-cruisemissile-c-cprg/">Ammo Cruisemissile C Cprg</a></div>
 <div class="mission-card-sub">Ammo / Missiles</div>
 </div>
 </div>
@@ -1639,7 +1639,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-cruisemissile-d-cprg/">Ammo Cruisemissile D Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-cruisemissile-d-cprg/">Ammo Cruisemissile D Cprg</a></div>
 <div class="mission-card-sub">Ammo / Missiles</div>
 </div>
 </div>
@@ -1655,7 +1655,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-cruisemissile-rewa/">Ammo Cruisemissile Rewa</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-cruisemissile-rewa/">Ammo Cruisemissile Rewa</a></div>
 <div class="mission-card-sub">Ammo / Missiles</div>
 </div>
 </div>
@@ -1671,7 +1671,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-longrange-cruisemissile-a-cprg/">Ammo Longrange Cruisemissile A Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-longrange-cruisemissile-a-cprg/">Ammo Longrange Cruisemissile A Cprg</a></div>
 <div class="mission-card-sub">Ammo / Missiles</div>
 </div>
 </div>
@@ -1695,7 +1695,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-longrange-cruisemissile-b-cprg/">Ammo Longrange Cruisemissile B Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-longrange-cruisemissile-b-cprg/">Ammo Longrange Cruisemissile B Cprg</a></div>
 <div class="mission-card-sub">Ammo / Missiles</div>
 </div>
 </div>
@@ -1719,7 +1719,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-longrange-cruisemissile-c-cprg/">Ammo Longrange Cruisemissile C Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-longrange-cruisemissile-c-cprg/">Ammo Longrange Cruisemissile C Cprg</a></div>
 <div class="mission-card-sub">Ammo / Missiles</div>
 </div>
 </div>
@@ -1743,7 +1743,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-longrange-cruisemissile-d-cprg/">Ammo Longrange Cruisemissile D Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-longrange-cruisemissile-d-cprg/">Ammo Longrange Cruisemissile D Cprg</a></div>
 <div class="mission-card-sub">Ammo / Missiles</div>
 </div>
 </div>
@@ -1759,7 +1759,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-longrange-cruisemissile-rewa/">Ammo Longrange Cruisemissile Rewa</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-longrange-cruisemissile-rewa/">Ammo Longrange Cruisemissile Rewa</a></div>
 <div class="mission-card-sub">Ammo / Missiles</div>
 </div>
 </div>
@@ -1775,7 +1775,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-longrange-missile-a-cprg/">Medium armor-piercing ballistic missile CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-longrange-missile-a-cprg/">Medium armor-piercing ballistic missile CT</a></div>
 <div class="mission-card-sub">Ammo / Missiles</div>
 </div>
 </div>
@@ -1791,7 +1791,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-longrange-missile-b-cprg/">Medium chemoactive ballistic missile CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-longrange-missile-b-cprg/">Medium chemoactive ballistic missile CT</a></div>
 <div class="mission-card-sub">Ammo / Missiles</div>
 </div>
 </div>
@@ -1807,7 +1807,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-longrange-missile-c-cprg/">Medium doublecore ballistic missile CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-longrange-missile-c-cprg/">Medium doublecore ballistic missile CT</a></div>
 <div class="mission-card-sub">Ammo / Missiles</div>
 </div>
 </div>
@@ -1823,7 +1823,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-longrange-missile-d-cprg/">Medium sonic ballistic missile CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-longrange-missile-d-cprg/">Medium sonic ballistic missile CT</a></div>
 <div class="mission-card-sub">Ammo / Missiles</div>
 </div>
 </div>
@@ -1831,7 +1831,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-longrange-missile-pbs-turret/">Ammo Longrange Missile Pbs Turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-longrange-missile-pbs-turret/">Ammo Longrange Missile Pbs Turret</a></div>
 <div class="mission-card-sub">Ammo / Missiles</div>
 </div>
 </div>
@@ -1863,7 +1863,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-missile-a-cprg/">Medium armor-piercing compact missile CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-missile-a-cprg/">Medium armor-piercing compact missile CT</a></div>
 <div class="mission-card-sub">Ammo / Missiles</div>
 </div>
 </div>
@@ -1879,7 +1879,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-missile-b-cprg/">Medium chemoactive compact missile CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-missile-b-cprg/">Medium chemoactive compact missile CT</a></div>
 <div class="mission-card-sub">Ammo / Missiles</div>
 </div>
 </div>
@@ -1895,7 +1895,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-missile-c-cprg/">Medium doublecore compact missile CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-missile-c-cprg/">Medium doublecore compact missile CT</a></div>
 <div class="mission-card-sub">Ammo / Missiles</div>
 </div>
 </div>
@@ -1911,7 +1911,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-missile-d-cprg/">Medium sonic compact missile CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-missile-d-cprg/">Medium sonic compact missile CT</a></div>
 <div class="mission-card-sub">Ammo / Missiles</div>
 </div>
 </div>
@@ -1940,7 +1940,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-artifact-scan-a/">R-10 artifact scan charge</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-artifact-scan-a/">R-10 artifact scan charge</a></div>
 <div class="mission-card-sub">Ammo / Other ammo</div>
 </div>
 </div>
@@ -1948,7 +1948,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-artifact-scan-b/">R-30 artifact scan charge</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-artifact-scan-b/">R-30 artifact scan charge</a></div>
 <div class="mission-card-sub">Ammo / Other ammo</div>
 </div>
 </div>
@@ -1956,7 +1956,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-artifact-scan-c/">R-50 artifact scan charge</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-artifact-scan-c/">R-50 artifact scan charge</a></div>
 <div class="mission-card-sub">Ammo / Other ammo</div>
 </div>
 </div>
@@ -1964,7 +1964,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-artifact-scan-dev/">Ammo Artifact Scan Dev</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-artifact-scan-dev/">Ammo Artifact Scan Dev</a></div>
 <div class="mission-card-sub">Ammo / Other ammo</div>
 </div>
 </div>
@@ -1972,7 +1972,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-buoy-charger/">Terraformer beacon charge</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-buoy-charger/">Terraformer beacon charge</a></div>
 <div class="mission-card-sub">Ammo / Other ammo</div>
 </div>
 </div>
@@ -1980,7 +1980,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-intrusion-scan/">Intrusion scanner charge</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-intrusion-scan/">Intrusion scanner charge</a></div>
 <div class="mission-card-sub">Ammo / Other ammo</div>
 </div>
 </div>
@@ -1996,7 +1996,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-rocket-a-cprg/">Small armor-piercing ballistic missile CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-rocket-a-cprg/">Small armor-piercing ballistic missile CT</a></div>
 <div class="mission-card-sub">Ammo / Other ammo</div>
 </div>
 </div>
@@ -2012,7 +2012,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-rocket-b-cprg/">Small chemoactive ballistic missile CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-rocket-b-cprg/">Small chemoactive ballistic missile CT</a></div>
 <div class="mission-card-sub">Ammo / Other ammo</div>
 </div>
 </div>
@@ -2028,7 +2028,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-rocket-c-cprg/">Small doublecore ballistic missile CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-rocket-c-cprg/">Small doublecore ballistic missile CT</a></div>
 <div class="mission-card-sub">Ammo / Other ammo</div>
 </div>
 </div>
@@ -2044,7 +2044,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-rocket-d-cprg/">Small sonic ballistic missile CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-rocket-d-cprg/">Small sonic ballistic missile CT</a></div>
 <div class="mission-card-sub">Ammo / Other ammo</div>
 </div>
 </div>
@@ -2068,7 +2068,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-terraform/">Terraforming charge</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-terraform/">Terraforming charge</a></div>
 <div class="mission-card-sub">Ammo / Other ammo</div>
 </div>
 </div>
@@ -2076,7 +2076,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-terraform-multi-blur/">Smoother terraforming charge</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-terraform-multi-blur/">Smoother terraforming charge</a></div>
 <div class="mission-card-sub">Ammo / Other ammo</div>
 </div>
 </div>
@@ -2084,7 +2084,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-terraform-multi-blur-small/">Precision smoother terraforming charge</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-terraform-multi-blur-small/">Precision smoother terraforming charge</a></div>
 <div class="mission-card-sub">Ammo / Other ammo</div>
 </div>
 </div>
@@ -2092,7 +2092,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-terraform-multi-level/">Leveler terraforming charge</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-terraform-multi-level/">Leveler terraforming charge</a></div>
 <div class="mission-card-sub">Ammo / Other ammo</div>
 </div>
 </div>
@@ -2100,7 +2100,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-terraform-multi-level-small/">Precision leveler terraforming charge</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-terraform-multi-level-small/">Precision leveler terraforming charge</a></div>
 <div class="mission-card-sub">Ammo / Other ammo</div>
 </div>
 </div>
@@ -2108,7 +2108,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-terraform-multi-lower/">Lowerer terraforming charge</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-terraform-multi-lower/">Lowerer terraforming charge</a></div>
 <div class="mission-card-sub">Ammo / Other ammo</div>
 </div>
 </div>
@@ -2129,7 +2129,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-medium-projectile-a-cprg/">Medium armor-piercing bullet CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-medium-projectile-a-cprg/">Medium armor-piercing bullet CT</a></div>
 <div class="mission-card-sub">Ammo / Projectiles</div>
 </div>
 </div>
@@ -2145,7 +2145,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-medium-projectile-b-cprg/">Medium metal-ceramic bullet CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-medium-projectile-b-cprg/">Medium metal-ceramic bullet CT</a></div>
 <div class="mission-card-sub">Ammo / Projectiles</div>
 </div>
 </div>
@@ -2161,7 +2161,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-medium-projectile-c-cprg/">Medium composite bullet CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-medium-projectile-c-cprg/">Medium composite bullet CT</a></div>
 <div class="mission-card-sub">Ammo / Projectiles</div>
 </div>
 </div>
@@ -2177,7 +2177,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-medium-projectile-d-cprg/">Medium chemoactive bullet CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-medium-projectile-d-cprg/">Medium chemoactive bullet CT</a></div>
 <div class="mission-card-sub">Ammo / Projectiles</div>
 </div>
 </div>
@@ -2209,7 +2209,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-medium-projectile-t-CT-capsule/">Ammo Medium Projectile T (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-medium-projectile-t-ct-capsule/">Ammo Medium Projectile T (CT capsule)</a></div>
 <div class="mission-card-sub">Ammo / Projectiles</div>
 </div>
 </div>
@@ -2217,7 +2217,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-medium-projectile-t-cprg/">Ammo Medium Projectile T Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-medium-projectile-t-cprg/">Ammo Medium Projectile T Cprg</a></div>
 <div class="mission-card-sub">Ammo / Projectiles</div>
 </div>
 </div>
@@ -2233,7 +2233,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-small-projectile-a-cprg/">Small armor-piercing bullet CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-small-projectile-a-cprg/">Small armor-piercing bullet CT</a></div>
 <div class="mission-card-sub">Ammo / Projectiles</div>
 </div>
 </div>
@@ -2249,7 +2249,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-small-projectile-b-cprg/">Small metal-ceramic bullet CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-small-projectile-b-cprg/">Small metal-ceramic bullet CT</a></div>
 <div class="mission-card-sub">Ammo / Projectiles</div>
 </div>
 </div>
@@ -2265,7 +2265,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-small-projectile-c-cprg/">Small composite bullet CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-small-projectile-c-cprg/">Small composite bullet CT</a></div>
 <div class="mission-card-sub">Ammo / Projectiles</div>
 </div>
 </div>
@@ -2281,7 +2281,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-small-projectile-d-cprg/">Small chemoactive bullet CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-small-projectile-d-cprg/">Small chemoactive bullet CT</a></div>
 <div class="mission-card-sub">Ammo / Projectiles</div>
 </div>
 </div>
@@ -2313,7 +2313,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-small-projectile-t-CT-capsule/">Ammo Small Projectile T (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-small-projectile-t-ct-capsule/">Ammo Small Projectile T (CT capsule)</a></div>
 <div class="mission-card-sub">Ammo / Projectiles</div>
 </div>
 </div>
@@ -2321,7 +2321,7 @@ description: "Ammo catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/zh-TW/content/items/ammo-small-projectile-t-cprg/">Ammo Small Projectile T Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ammo-small-projectile-t-cprg/">Ammo Small Projectile T Cprg</a></div>
 <div class="mission-card-sub">Ammo / Projectiles</div>
 </div>
 </div>

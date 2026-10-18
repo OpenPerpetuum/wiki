@@ -1,5 +1,5 @@
 ---
-title: "World"
+title: "World Map"
 description: "Every zone drawn with its real terrain at its grid position, outlined by galaxy, with the teleport and gate connections from the database."
 ---
 

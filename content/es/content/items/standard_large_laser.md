@@ -37,7 +37,7 @@ description: "Modules / Weapons, tier T1"
 **Producido desde 4 componentes** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Standard Large Laser Cprg](/es/content/items/standard-large-laser-cprg/)
+**Planos:** [Standard Large Laser Cprg](/content/items/standard-large-laser-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">requerido: <b>150</b></div></div>

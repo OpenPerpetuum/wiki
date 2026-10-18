@@ -35,7 +35,7 @@ description: "Modules / Sensors & scanning, tier T2"
 **Produkcja z 4 komponentów, poziom badań 4** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Bullz-I 6601 sensor amplifier CT](/pl/content/items/named1-sensor-booster-cprg/)
+**Nakładka:** [Bullz-I 6601 sensor amplifier CT](/content/items/named1-sensor-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>400</b></div></div>

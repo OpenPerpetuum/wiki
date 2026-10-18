@@ -32,7 +32,7 @@ description: "Modules / Enhancements, tier T4"
 **Vyráběn z 10 komponentách, výzkumná úroveň 6** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [GRIP-500p reactor sealing CT](/cs/content/items/named3-reactor-sealing-cprg/)
+**Výkres:** [GRIP-500p reactor sealing CT](/content/items/named3-reactor-sealing-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/alligior/">Alligior</a></div><div class="prod-card-body">potřebné: <b>250</b></div></div>

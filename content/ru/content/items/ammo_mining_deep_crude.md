@@ -25,7 +25,7 @@ _Нет статистики — этот предмет не имеет агр�
 **Производится из 2 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Ammo Mining Deep Crude Cprg](/ru/content/items/ammo-mining-deep-crude-cprg/)
+**Чертёж:** [Ammo Mining Deep Crude Cprg](/content/items/ammo-mining-deep-crude-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">нужно: <b>225</b></div></div>

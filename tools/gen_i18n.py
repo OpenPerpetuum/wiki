@@ -340,6 +340,7 @@ def main():
             window.WIKI_UI.zonemapLmOutposts = s.zonemap_lm_outposts || '';
             window.WIKI_UI.zonemapLmTerminals = s.zonemap_lm_terminals || '';
             window.WIKI_UI.zonemapLmRoads = s.zonemap_lm_roads || '';
+            window.WIKI_UI.zonemapLmNonpassable = s.zonemap_lm_nonpassable || '';
             window.WIKI_UI.zonemapLmLabels = s.zonemap_lm_labels || '';
             window.WIKI_UI.zonemapModeBase = s.zonemap_mode_base || '';
             window.WIKI_UI.zonemapResetZoom = s.zonemap_reset_zoom || '';

@@ -40,7 +40,7 @@ description: "Special & other / Miscellaneous, tier T3"
 **コンポーネント3個から製造 、研究レベル 5** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [T3 Thelodica Combat Drone Unit Cprg](/ja/content/items/named2-thelodica-combat-drone-unit-cprg/)
+**設計図:** [T3 Thelodica Combat Drone Unit Cprg](/content/items/named2-thelodica-combat-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/espitium/">Espitium</a></div><div class="prod-card-body">必要: <b>10</b></div></div>

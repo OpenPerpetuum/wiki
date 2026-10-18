@@ -33,7 +33,7 @@ description: "Special & other / Miscellaneous"
 **Vyráběn z 4 komponentách, výzkumná úroveň 5** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Repair Support Drone Unit Cprg](/cs/content/items/repair-support-drone-unit-cprg/)
+**Výkres:** [Repair Support Drone Unit Cprg](/content/items/repair-support-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">potřebné: <b>1.0k</b></div></div>

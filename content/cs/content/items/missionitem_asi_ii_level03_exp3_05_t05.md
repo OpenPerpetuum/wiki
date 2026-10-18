@@ -25,7 +25,7 @@ _Žádné statistiky — tento předmět nenese žádné agregované hodnoty._
 **Vyráběn z 2 komponentách, výzkumná úroveň 1** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Infrared robotic eyes [Sahel V] CT](/cs/content/items/missionitem-asi-ii-level03-exp3-05-t05-cprg/)
+**Výkres:** [Infrared robotic eyes [Sahel V] CT](/content/items/missionitem-asi-ii-level03-exp3-05-t05-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/missionitem-asi-ii-level03-exp3-05-t02/">Eye sensors [Sahel V]</a></div><div class="prod-card-body">potřebné: <b>1</b></div></div>

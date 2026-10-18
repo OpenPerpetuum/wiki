@@ -32,7 +32,7 @@ description: "Ammo / Other ammo"
 **Produzido a partir de 3 componentes, nível de pesquisa 1** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [Small chemoactive ballistic missile CT](/pt/content/items/ammo-rocket-b-cprg/)
+**Plano:** [Small chemoactive ballistic missile CT](/content/items/ammo-rocket-b-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">necessário: <b>50</b></div></div>

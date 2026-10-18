@@ -34,7 +34,7 @@ description: "Modules / Enhancements, tier T1"
 **Produzido a partir de 2 componentes, nível de pesquisa 1** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [Standard small miner module CT](/pt/content/items/standard-small-driller-cprg/)
+**Plano:** [Standard small miner module CT](/content/items/standard-small-driller-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">necessário: <b>50</b></div></div>

@@ -35,7 +35,7 @@ description: "Modules / Enhancements, tier T3"
 **Produit à partir de 8 composants, niveau de recherche 8** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [MX-1 Dogon signal detector CT](/fr/content/items/named2-detection-modul-cprg/)
+**Plan :** [MX-1 Dogon signal detector CT](/content/items/named2-detection-modul-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/alligior/">Alligior</a></div><div class="prod-card-body">requis : <b>25</b></div></div>

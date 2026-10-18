@@ -36,7 +36,7 @@ description: "Special & other / Miscellaneous, tier T3"
 **Geproduceerd uit 5 componentën** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Hi-tech energy battery foundation CT](/nl/content/items/pbs-core-battery-large-capsule-cprg/)
+**Bouwtekening:** [Hi-tech energy battery foundation CT](/content/items/pbs-core-battery-large-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/espitium/">Espitium</a></div><div class="prod-card-body">vereist: <b>5.0k</b></div></div>

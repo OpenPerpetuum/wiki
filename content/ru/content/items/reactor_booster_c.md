@@ -26,7 +26,7 @@ _Нет статистики — этот предмет не имеет агр�
 **Производится из 9 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Reactor Booster C Cprg](/ru/content/items/reactor-booster-c-cprg/)
+**Чертёж:** [Reactor Booster C Cprg](/content/items/reactor-booster-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">нужно: <b>1.1k</b></div></div>

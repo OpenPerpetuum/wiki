@@ -55,7 +55,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/pt/content/shop/) 
 **Produzido a partir de 4 componentes** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [Elitet4 Gamma Medium Driller Cprg](/pt/content/items/elitet4-gamma-medium-driller-cprg/)
+**Plano:** [Elitet4 Gamma Medium Driller Cprg](/content/items/elitet4-gamma-medium-driller-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/material-boss-gamma-nuimqol/">Material Boss Gamma Nuimqol</a></div><div class="prod-card-body">necessário: <b>134</b></div></div>

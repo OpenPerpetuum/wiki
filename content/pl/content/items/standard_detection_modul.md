@@ -35,7 +35,7 @@ description: "Modules / Enhancements, tier T1"
 **Produkcja z 3 komponentów, poziom badań 6** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Standard signal detector CT](/pl/content/items/standard-detection-modul-cprg/)
+**Nakładka:** [Standard signal detector CT](/content/items/standard-detection-modul-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>450</b></div></div>

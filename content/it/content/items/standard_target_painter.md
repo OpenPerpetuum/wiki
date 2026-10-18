@@ -35,7 +35,7 @@ description: "Modules / Enhancements, tier T1"
 **Prodotto da 3 componenti, livello di ricerca 4** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Standard target marker CT](/it/content/items/standard-target-painter-cprg/)
+**Piano:** [Standard target marker CT](/content/items/standard-target-painter-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">richiesto: <b>450</b></div></div>

@@ -34,7 +34,7 @@ description: "Modules / Harvesting, tier T4"
 **コンポーネント8個から製造 、研究レベル 4** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Protrim FDV-30 small harvester CT](/ja/content/items/named3-small-harvester-cprg/)
+**設計図:** [Protrim FDV-30 small harvester CT](/content/items/named3-small-harvester-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">必要: <b>50</b></div></div>

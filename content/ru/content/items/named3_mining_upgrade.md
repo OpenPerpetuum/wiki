@@ -33,7 +33,7 @@ description: "Modules / Enhancements, tier T4"
 **Производится из 8 компонентах, уровень исследований 6** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Piog Forgekit BW1 industrial tuning CT](/ru/content/items/named3-mining-upgrade-cprg/)
+**Чертёж:** [Piog Forgekit BW1 industrial tuning CT](/content/items/named3-mining-upgrade-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">нужно: <b>200</b></div></div>

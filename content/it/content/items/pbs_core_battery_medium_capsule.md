@@ -36,7 +36,7 @@ description: "Special & other / Miscellaneous, tier T2"
 **Prodotto da 7 componenti** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Advanced energy battery foundation CT](/it/content/items/pbs-core-battery-medium-capsule-cprg/)
+**Piano:** [Advanced energy battery foundation CT](/content/items/pbs-core-battery-medium-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">richiesto: <b>2.5k</b></div></div>

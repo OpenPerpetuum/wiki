@@ -40,7 +40,7 @@ description: "Special & other / Miscellaneous"
 **Geproduceerd uit 4 componentën, onderzoekslevel 5** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Nuimqol Assault Drone Unit Cprg](/nl/content/items/nuimqol-assault-drone-unit-cprg/)
+**Bouwtekening:** [Nuimqol Assault Drone Unit Cprg](/content/items/nuimqol-assault-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/espitium/">Espitium</a></div><div class="prod-card-body">vereist: <b>200</b></div></div>

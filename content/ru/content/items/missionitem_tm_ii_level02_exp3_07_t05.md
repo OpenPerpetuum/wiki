@@ -25,7 +25,7 @@ _Нет статистики — этот предмет не имеет агр�
 **Производится из 2 компонентах, уровень исследований 1** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Transformator [Techolique VII] CT](/ru/content/items/missionitem-tm-ii-level02-exp3-07-t05-cprg/)
+**Чертёж:** [Transformator [Techolique VII] CT](/content/items/missionitem-tm-ii-level02-exp3-07-t05-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/missionitem-tm-ii-level02-exp3-07-t03/">Transformator casing [Techolique VII/1]</a></div><div class="prod-card-body">нужно: <b>1</b></div></div>

@@ -31,7 +31,7 @@ description: "Ammo / Beam & laser"
 **Producido desde 3 componentes, nivel de investigación 1** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Small sonic energy cell CT](/es/content/items/ammo-small-lasercrystal-b-cprg/)
+**Planos:** [Small sonic energy cell CT](/content/items/ammo-small-lasercrystal-b-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">requerido: <b>25</b></div></div>

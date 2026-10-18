@@ -40,7 +40,7 @@ description: "Special & other / Miscellaneous, tier T2"
 **Produzido a partir de 2 componentes, nível de pesquisa 4** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [T2 Nuimqol Combat Drone Unit Cprg](/pt/content/items/named1-nuimqol-combat-drone-unit-cprg/)
+**Plano:** [T2 Nuimqol Combat Drone Unit Cprg](/content/items/named1-nuimqol-combat-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/polynitrocol/">Polynitrocol</a></div><div class="prod-card-body">necessário: <b>3.0k</b></div></div>

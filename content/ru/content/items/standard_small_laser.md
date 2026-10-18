@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T1"
 **Производится из 3 компонентах, уровень исследований 2** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Standard light HCL laser CT](/ru/content/items/standard-small-laser-cprg/)
+**Чертёж:** [Standard light HCL laser CT](/content/items/standard-small-laser-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">нужно: <b>50</b></div></div>

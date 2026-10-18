@@ -715,7 +715,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-70-eccm-CT-capsule/">Elitet2 70 Eccm (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-eccm-ct-capsule/">Elitet2 70 Eccm (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -739,7 +739,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-core-booster-CT-capsule/">Elitet2 70 Medium Core Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-core-booster-ct-capsule/">Elitet2 70 Medium Core Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -763,7 +763,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-core-booster-CT-capsule/">Elitet2 70 Small Core Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-core-booster-ct-capsule/">Elitet2 70 Small Core Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -787,7 +787,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-70-tracking-upgrade-CT-capsule/">Elitet2 70 Tracking Upgrade (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-tracking-upgrade-ct-capsule/">Elitet2 70 Tracking Upgrade (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -811,7 +811,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-70-webber-CT-capsule/">Elitet2 70 Webber (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-webber-ct-capsule/">Elitet2 70 Webber (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -835,7 +835,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-71-maneuvering-upgrade-CT-capsule/">Elitet2 71 Maneuvering Upgrade (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-maneuvering-upgrade-ct-capsule/">Elitet2 71 Maneuvering Upgrade (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -859,7 +859,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-71-mining-probe-module-CT-capsule/">Elitet2 71 Mining Probe Module (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-mining-probe-module-ct-capsule/">Elitet2 71 Mining Probe Module (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -883,7 +883,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-72-damage-mod-projectile-CT-capsule/">Elitet2 72 Damage Mod Projectile (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-damage-mod-projectile-ct-capsule/">Elitet2 72 Damage Mod Projectile (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -907,7 +907,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-72-mass-reductor-CT-capsule/">Elitet2 72 Mass Reductor (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-mass-reductor-ct-capsule/">Elitet2 72 Mass Reductor (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -931,7 +931,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-70-eccm-CT-capsule/">Elitet4 70 Eccm (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-eccm-ct-capsule/">Elitet4 70 Eccm (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -955,7 +955,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-core-booster-CT-capsule/">Elitet4 70 Medium Core Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-core-booster-ct-capsule/">Elitet4 70 Medium Core Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -979,7 +979,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-core-booster-CT-capsule/">Elitet4 70 Small Core Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-core-booster-ct-capsule/">Elitet4 70 Small Core Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1003,7 +1003,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-70-tracking-upgrade-CT-capsule/">Elitet4 70 Tracking Upgrade (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-tracking-upgrade-ct-capsule/">Elitet4 70 Tracking Upgrade (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1027,7 +1027,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-70-webber-CT-capsule/">Elitet4 70 Webber (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-webber-ct-capsule/">Elitet4 70 Webber (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1051,7 +1051,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-71-maneuvering-upgrade-CT-capsule/">Elitet4 71 Maneuvering Upgrade (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-maneuvering-upgrade-ct-capsule/">Elitet4 71 Maneuvering Upgrade (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1075,7 +1075,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-71-mining-probe-module-CT-capsule/">Elitet4 71 Mining Probe Module (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-mining-probe-module-ct-capsule/">Elitet4 71 Mining Probe Module (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1099,7 +1099,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-72-damage-mod-projectile-CT-capsule/">Elitet4 72 Damage Mod Projectile (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-damage-mod-projectile-ct-capsule/">Elitet4 72 Damage Mod Projectile (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1123,7 +1123,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-72-mass-reductor-CT-capsule/">Elitet4 72 Mass Reductor (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-mass-reductor-ct-capsule/">Elitet4 72 Mass Reductor (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1147,7 +1147,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-driller-CT-capsule/">Elitet4 Gamma Medium Driller (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-driller-ct-capsule/">Elitet4 Gamma Medium Driller (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -1171,7 +1171,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-driller-CT-capsule/">Elitet4 Gamma Small Driller (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-driller-ct-capsule/">Elitet4 Gamma Small Driller (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -4667,7 +4667,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/specimen-sap-item-CT-capsule/">Specimen Sap Item (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/specimen-sap-item-ct-capsule/">Specimen Sap Item (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -5597,7 +5597,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-harvester-CT-capsule/">Elitet4 Gamma Medium Harvester (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-harvester-ct-capsule/">Elitet4 Gamma Medium Harvester (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T4 (special)</div>
 </div>
 </div>
@@ -5621,7 +5621,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-harvester-CT-capsule/">Elitet4 Gamma Small Harvester (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-harvester-ct-capsule/">Elitet4 Gamma Small Harvester (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T4 (special)</div>
 </div>
 </div>
@@ -7121,7 +7121,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-armor-repairer-CT-capsule/">Elitet2 70 Medium Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-armor-repairer-ct-capsule/">Elitet2 70 Medium Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -7145,7 +7145,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-armor-repairer-CT-capsule/">Elitet2 70 Small Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-armor-repairer-ct-capsule/">Elitet2 70 Small Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -7169,7 +7169,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-72-medium-armor-repairer-CT-capsule/">Elitet2 72 Medium Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-medium-armor-repairer-ct-capsule/">Elitet2 72 Medium Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -7193,7 +7193,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-72-small-armor-repairer-CT-capsule/">Elitet2 72 Small Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-small-armor-repairer-ct-capsule/">Elitet2 72 Small Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -7217,7 +7217,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-armor-repairer-CT-capsule/">Elitet4 70 Medium Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-armor-repairer-ct-capsule/">Elitet4 70 Medium Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -7241,7 +7241,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-armor-repairer-CT-capsule/">Elitet4 70 Small Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-armor-repairer-ct-capsule/">Elitet4 70 Small Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -7265,7 +7265,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-72-medium-armor-repairer-CT-capsule/">Elitet4 72 Medium Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-medium-armor-repairer-ct-capsule/">Elitet4 72 Medium Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -7289,7 +7289,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-72-small-armor-repairer-CT-capsule/">Elitet4 72 Small Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-small-armor-repairer-ct-capsule/">Elitet4 72 Small Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -7883,7 +7883,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-70-sensor-booster-CT-capsule/">Elitet2 70 Sensor Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-sensor-booster-ct-capsule/">Elitet2 70 Sensor Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T2 (special)</div>
 </div>
 </div>
@@ -7907,7 +7907,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-70-sensor-booster-CT-capsule/">Elitet4 70 Sensor Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-sensor-booster-ct-capsule/">Elitet4 70 Sensor Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T4 (special)</div>
 </div>
 </div>
@@ -8589,7 +8589,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-shield-generator-CT-capsule/">Elitet2 70 Medium Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-shield-generator-ct-capsule/">Elitet2 70 Medium Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -8613,7 +8613,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-shield-generator-CT-capsule/">Elitet2 70 Small Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-shield-generator-ct-capsule/">Elitet2 70 Small Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -8637,7 +8637,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-71-medium-shield-generator-CT-capsule/">Elitet2 71 Medium Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-medium-shield-generator-ct-capsule/">Elitet2 71 Medium Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -8661,7 +8661,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-71-small-shield-generator-CT-capsule/">Elitet2 71 Small Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-small-shield-generator-ct-capsule/">Elitet2 71 Small Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -8685,7 +8685,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-shield-generator-CT-capsule/">Elitet4 70 Medium Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-shield-generator-ct-capsule/">Elitet4 70 Medium Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -8709,7 +8709,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-shield-generator-CT-capsule/">Elitet4 70 Small Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-shield-generator-ct-capsule/">Elitet4 70 Small Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -8733,7 +8733,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-71-medium-shield-generator-CT-capsule/">Elitet4 71 Medium Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-medium-shield-generator-ct-capsule/">Elitet4 71 Medium Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -8757,7 +8757,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-71-small-shield-generator-CT-capsule/">Elitet4 71 Small Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-small-shield-generator-ct-capsule/">Elitet4 71 Small Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -9727,7 +9727,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-autocannon-CT-capsule/">Elitet4 Gamma Longrange Medium Autocannon (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-autocannon-ct-capsule/">Elitet4 Gamma Longrange Medium Autocannon (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9751,7 +9751,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-laser-CT-capsule/">Elitet4 Gamma Longrange Medium Laser (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-laser-ct-capsule/">Elitet4 Gamma Longrange Medium Laser (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9775,7 +9775,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-railgun-CT-capsule/">Elitet4 Gamma Longrange Medium Railgun (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-railgun-ct-capsule/">Elitet4 Gamma Longrange Medium Railgun (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9799,7 +9799,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-autocannon-CT-capsule/">Elitet4 Gamma Medium Autocannon (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-autocannon-ct-capsule/">Elitet4 Gamma Medium Autocannon (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9823,7 +9823,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-laser-CT-capsule/">Elitet4 Gamma Medium Laser (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-laser-ct-capsule/">Elitet4 Gamma Medium Laser (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9847,7 +9847,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-railgun-CT-capsule/">Elitet4 Gamma Medium Railgun (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-railgun-ct-capsule/">Elitet4 Gamma Medium Railgun (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9871,7 +9871,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-missile-launcher-CT-capsule/">Elitet4 Gamma Missile Launcher (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-missile-launcher-ct-capsule/">Elitet4 Gamma Missile Launcher (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9895,7 +9895,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-rocket-launcher-CT-capsule/">Elitet4 Gamma Rocket Launcher (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-rocket-launcher-ct-capsule/">Elitet4 Gamma Rocket Launcher (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9919,7 +9919,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-autocannon-CT-capsule/">Elitet4 Gamma Small Autocannon (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-autocannon-ct-capsule/">Elitet4 Gamma Small Autocannon (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9943,7 +9943,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-laser-CT-capsule/">Elitet4 Gamma Small Laser (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-laser-ct-capsule/">Elitet4 Gamma Small Laser (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -9967,7 +9967,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-railgun-CT-capsule/">Elitet4 Gamma Small Railgun (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-railgun-ct-capsule/">Elitet4 Gamma Small Railgun (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -12016,7 +12016,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/specimen-sap-item-CT-capsule/">Specimen Sap Item (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/specimen-sap-item-ct-capsule/">Specimen Sap Item (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T1</div>
 </div>
 </div>
@@ -13949,7 +13949,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-70-eccm-CT-capsule/">Elitet2 70 Eccm (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-eccm-ct-capsule/">Elitet2 70 Eccm (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -13973,7 +13973,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-armor-repairer-CT-capsule/">Elitet2 70 Medium Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-armor-repairer-ct-capsule/">Elitet2 70 Medium Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -13997,7 +13997,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-core-booster-CT-capsule/">Elitet2 70 Medium Core Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-core-booster-ct-capsule/">Elitet2 70 Medium Core Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14021,7 +14021,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-shield-generator-CT-capsule/">Elitet2 70 Medium Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-medium-shield-generator-ct-capsule/">Elitet2 70 Medium Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -14045,7 +14045,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-70-sensor-booster-CT-capsule/">Elitet2 70 Sensor Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-sensor-booster-ct-capsule/">Elitet2 70 Sensor Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T2 (special)</div>
 </div>
 </div>
@@ -14069,7 +14069,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-armor-repairer-CT-capsule/">Elitet2 70 Small Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-armor-repairer-ct-capsule/">Elitet2 70 Small Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -14093,7 +14093,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-core-booster-CT-capsule/">Elitet2 70 Small Core Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-core-booster-ct-capsule/">Elitet2 70 Small Core Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14117,7 +14117,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-shield-generator-CT-capsule/">Elitet2 70 Small Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-small-shield-generator-ct-capsule/">Elitet2 70 Small Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -14141,7 +14141,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-70-tracking-upgrade-CT-capsule/">Elitet2 70 Tracking Upgrade (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-tracking-upgrade-ct-capsule/">Elitet2 70 Tracking Upgrade (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14165,7 +14165,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-70-webber-CT-capsule/">Elitet2 70 Webber (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-70-webber-ct-capsule/">Elitet2 70 Webber (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14189,7 +14189,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-71-maneuvering-upgrade-CT-capsule/">Elitet2 71 Maneuvering Upgrade (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-maneuvering-upgrade-ct-capsule/">Elitet2 71 Maneuvering Upgrade (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14213,7 +14213,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-71-medium-shield-generator-CT-capsule/">Elitet2 71 Medium Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-medium-shield-generator-ct-capsule/">Elitet2 71 Medium Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -14237,7 +14237,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-71-mining-probe-module-CT-capsule/">Elitet2 71 Mining Probe Module (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-mining-probe-module-ct-capsule/">Elitet2 71 Mining Probe Module (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14261,7 +14261,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-71-small-shield-generator-CT-capsule/">Elitet2 71 Small Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-71-small-shield-generator-ct-capsule/">Elitet2 71 Small Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T2 (special)</div>
 </div>
 </div>
@@ -14285,7 +14285,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-72-damage-mod-projectile-CT-capsule/">Elitet2 72 Damage Mod Projectile (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-damage-mod-projectile-ct-capsule/">Elitet2 72 Damage Mod Projectile (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14309,7 +14309,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-72-mass-reductor-CT-capsule/">Elitet2 72 Mass Reductor (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-mass-reductor-ct-capsule/">Elitet2 72 Mass Reductor (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T2 (special)</div>
 </div>
 </div>
@@ -14333,7 +14333,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-72-medium-armor-repairer-CT-capsule/">Elitet2 72 Medium Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-medium-armor-repairer-ct-capsule/">Elitet2 72 Medium Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -14357,7 +14357,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet2-72-small-armor-repairer-CT-capsule/">Elitet2 72 Small Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet2-72-small-armor-repairer-ct-capsule/">Elitet2 72 Small Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T2 (special)</div>
 </div>
 </div>
@@ -19895,7 +19895,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-70-eccm-CT-capsule/">Elitet4 70 Eccm (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-eccm-ct-capsule/">Elitet4 70 Eccm (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -19919,7 +19919,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-armor-repairer-CT-capsule/">Elitet4 70 Medium Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-armor-repairer-ct-capsule/">Elitet4 70 Medium Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -19943,7 +19943,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-core-booster-CT-capsule/">Elitet4 70 Medium Core Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-core-booster-ct-capsule/">Elitet4 70 Medium Core Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -19967,7 +19967,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-shield-generator-CT-capsule/">Elitet4 70 Medium Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-medium-shield-generator-ct-capsule/">Elitet4 70 Medium Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -19991,7 +19991,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-70-sensor-booster-CT-capsule/">Elitet4 70 Sensor Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-sensor-booster-ct-capsule/">Elitet4 70 Sensor Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Sensors & scanning, tier T4 (special)</div>
 </div>
 </div>
@@ -20015,7 +20015,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-armor-repairer-CT-capsule/">Elitet4 70 Small Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-armor-repairer-ct-capsule/">Elitet4 70 Small Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -20039,7 +20039,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-core-booster-CT-capsule/">Elitet4 70 Small Core Booster (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-core-booster-ct-capsule/">Elitet4 70 Small Core Booster (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20063,7 +20063,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-shield-generator-CT-capsule/">Elitet4 70 Small Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-small-shield-generator-ct-capsule/">Elitet4 70 Small Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -20087,7 +20087,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-70-tracking-upgrade-CT-capsule/">Elitet4 70 Tracking Upgrade (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-tracking-upgrade-ct-capsule/">Elitet4 70 Tracking Upgrade (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20111,7 +20111,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-70-webber-CT-capsule/">Elitet4 70 Webber (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-70-webber-ct-capsule/">Elitet4 70 Webber (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20135,7 +20135,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-71-maneuvering-upgrade-CT-capsule/">Elitet4 71 Maneuvering Upgrade (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-maneuvering-upgrade-ct-capsule/">Elitet4 71 Maneuvering Upgrade (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20159,7 +20159,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-71-medium-shield-generator-CT-capsule/">Elitet4 71 Medium Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-medium-shield-generator-ct-capsule/">Elitet4 71 Medium Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -20183,7 +20183,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-71-mining-probe-module-CT-capsule/">Elitet4 71 Mining Probe Module (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-mining-probe-module-ct-capsule/">Elitet4 71 Mining Probe Module (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20207,7 +20207,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-71-small-shield-generator-CT-capsule/">Elitet4 71 Small Shield Generator (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-71-small-shield-generator-ct-capsule/">Elitet4 71 Small Shield Generator (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Shield, tier T4 (special)</div>
 </div>
 </div>
@@ -20231,7 +20231,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-72-damage-mod-projectile-CT-capsule/">Elitet4 72 Damage Mod Projectile (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-damage-mod-projectile-ct-capsule/">Elitet4 72 Damage Mod Projectile (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20255,7 +20255,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-72-mass-reductor-CT-capsule/">Elitet4 72 Mass Reductor (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-mass-reductor-ct-capsule/">Elitet4 72 Mass Reductor (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20279,7 +20279,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-72-medium-armor-repairer-CT-capsule/">Elitet4 72 Medium Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-medium-armor-repairer-ct-capsule/">Elitet4 72 Medium Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -20303,7 +20303,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-72-small-armor-repairer-CT-capsule/">Elitet4 72 Small Armor Repairer (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-72-small-armor-repairer-ct-capsule/">Elitet4 72 Small Armor Repairer (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Repair, tier T4 (special)</div>
 </div>
 </div>
@@ -20327,7 +20327,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-autocannon-CT-capsule/">Elitet4 Gamma Longrange Medium Autocannon (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-autocannon-ct-capsule/">Elitet4 Gamma Longrange Medium Autocannon (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20351,7 +20351,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-laser-CT-capsule/">Elitet4 Gamma Longrange Medium Laser (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-laser-ct-capsule/">Elitet4 Gamma Longrange Medium Laser (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20375,7 +20375,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-railgun-CT-capsule/">Elitet4 Gamma Longrange Medium Railgun (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-longrange-medium-railgun-ct-capsule/">Elitet4 Gamma Longrange Medium Railgun (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20399,7 +20399,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-autocannon-CT-capsule/">Elitet4 Gamma Medium Autocannon (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-autocannon-ct-capsule/">Elitet4 Gamma Medium Autocannon (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20423,7 +20423,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-driller-CT-capsule/">Elitet4 Gamma Medium Driller (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-driller-ct-capsule/">Elitet4 Gamma Medium Driller (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20447,7 +20447,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-harvester-CT-capsule/">Elitet4 Gamma Medium Harvester (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-harvester-ct-capsule/">Elitet4 Gamma Medium Harvester (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T4 (special)</div>
 </div>
 </div>
@@ -20471,7 +20471,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-laser-CT-capsule/">Elitet4 Gamma Medium Laser (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-laser-ct-capsule/">Elitet4 Gamma Medium Laser (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20495,7 +20495,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-railgun-CT-capsule/">Elitet4 Gamma Medium Railgun (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-medium-railgun-ct-capsule/">Elitet4 Gamma Medium Railgun (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20519,7 +20519,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-missile-launcher-CT-capsule/">Elitet4 Gamma Missile Launcher (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-missile-launcher-ct-capsule/">Elitet4 Gamma Missile Launcher (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20543,7 +20543,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-rocket-launcher-CT-capsule/">Elitet4 Gamma Rocket Launcher (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-rocket-launcher-ct-capsule/">Elitet4 Gamma Rocket Launcher (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20567,7 +20567,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-autocannon-CT-capsule/">Elitet4 Gamma Small Autocannon (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-autocannon-ct-capsule/">Elitet4 Gamma Small Autocannon (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20591,7 +20591,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-driller-CT-capsule/">Elitet4 Gamma Small Driller (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-driller-ct-capsule/">Elitet4 Gamma Small Driller (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Enhancements, tier T4 (special)</div>
 </div>
 </div>
@@ -20615,7 +20615,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-harvester-CT-capsule/">Elitet4 Gamma Small Harvester (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-harvester-ct-capsule/">Elitet4 Gamma Small Harvester (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Harvesting, tier T4 (special)</div>
 </div>
 </div>
@@ -20639,7 +20639,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-laser-CT-capsule/">Elitet4 Gamma Small Laser (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-laser-ct-capsule/">Elitet4 Gamma Small Laser (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>
@@ -20663,7 +20663,7 @@ description: "Modules catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-railgun-CT-capsule/">Elitet4 Gamma Small Railgun (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/elitet4-gamma-small-railgun-ct-capsule/">Elitet4 Gamma Small Railgun (CT capsule)</a></div>
 <div class="mission-card-sub">Modules / Weapons, tier T4 (special)</div>
 </div>
 </div>

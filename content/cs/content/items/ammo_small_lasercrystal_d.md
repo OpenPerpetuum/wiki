@@ -30,7 +30,7 @@ description: "Ammo / Beam & laser"
 **Vyráběn z 2 komponentách, výzkumná úroveň 1** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Small thermic energy cell CT](/cs/content/items/ammo-small-lasercrystal-d-cprg/)
+**Výkres:** [Small thermic energy cell CT](/content/items/ammo-small-lasercrystal-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/polynucleit/">Polynucleit</a></div><div class="prod-card-body">potřebné: <b>100</b></div></div>

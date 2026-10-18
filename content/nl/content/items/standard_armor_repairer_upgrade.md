@@ -33,7 +33,7 @@ description: "Modules / Repair, tier T1"
 **Geproduceerd uit 5 componentën, onderzoekslevel 3** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Standard armor repairer tuning CT](/nl/content/items/standard-armor-repairer-upgrade-cprg/)
+**Bouwtekening:** [Standard armor repairer tuning CT](/content/items/standard-armor-repairer-upgrade-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">vereist: <b>50</b></div></div>

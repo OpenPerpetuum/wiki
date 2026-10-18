@@ -37,7 +37,7 @@ description: "Modules / Weapons, tier T1"
 **Produzido a partir de 5 componentes** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [Standard Hell Cannon Cprg](/pt/content/items/standard-hell-cannon-cprg/)
+**Plano:** [Standard Hell Cannon Cprg](/content/items/standard-hell-cannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/alligior/">Alligior</a></div><div class="prod-card-body">necessário: <b>100</b></div></div>

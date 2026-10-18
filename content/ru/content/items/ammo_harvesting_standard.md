@@ -25,7 +25,7 @@ _Нет статистики — этот предмет не имеет агр�
 **Производится из 2 компонентах, уровень исследований 1** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Universal harvester charge CT](/ru/content/items/ammo-harvesting-standard-cprg/)
+**Чертёж:** [Universal harvester charge CT](/content/items/ammo-harvesting-standard-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">нужно: <b>20</b></div></div>

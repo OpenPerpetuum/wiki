@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T3"
 **Prodotto da 8 componenti, livello di ricerca 6** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Iopis-II velocity NEXUS module CT](/it/content/items/named2-gang-assist-speed-module-cprg/)
+**Piano:** [Iopis-II velocity NEXUS module CT](/content/items/named2-gang-assist-speed-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/chollonin/">Chollonin</a></div><div class="prod-card-body">richiesto: <b>300</b></div></div>

@@ -35,7 +35,7 @@ description: "Modules / Enhancements, tier T4"
 **Produkcja z 10 komponentów, poziom badań 9** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** ['Rogue' signal detector CT](/pl/content/items/named3-detection-modul-cprg/)
+**Nakładka:** ['Rogue' signal detector CT](/content/items/named3-detection-modul-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">wymagane: <b>50</b></div></div>

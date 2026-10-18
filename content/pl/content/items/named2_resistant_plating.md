@@ -35,7 +35,7 @@ description: "Modules / Enhancements, tier T3"
 **Produkcja z 12 komponentów, poziom badań 5** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [UNI300pls universal armor CT](/pl/content/items/named2-resistant-plating-cprg/)
+**Nakładka:** [UNI300pls universal armor CT](/content/items/named2-resistant-plating-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">wymagane: <b>150</b></div></div>

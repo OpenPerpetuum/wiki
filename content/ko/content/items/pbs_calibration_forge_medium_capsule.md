@@ -36,7 +36,7 @@ description: "Special & other / Miscellaneous, tier T2"
 **구성 요소 13개로 생산** — 구성 요소를 조립하여 제작합니다 (전체 목록은 [레시피](/ko/content/recipes/) 참조):
 
 
-**제작도:** [Advanced calibration lab foundation CT](/ko/content/items/pbs-calibration-forge-medium-capsule-cprg/)
+**제작도:** [Advanced calibration lab foundation CT](/content/items/pbs-calibration-forge-medium-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ko/content/items/alligior/">Alligior</a></div><div class="prod-card-body">필요: <b>2.5k</b></div></div>

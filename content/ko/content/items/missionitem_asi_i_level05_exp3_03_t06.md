@@ -25,7 +25,7 @@ _통계 없음 — 이 아이템에는 집계 값이 없습니다._
 **구성 요소 2개로 생산 , 연구 레벨 1** — 구성 요소를 조립하여 제작합니다 (전체 목록은 [레시피](/ko/content/recipes/) 참조):
 
 
-**제작도:** [Mobile fusion reactor [Monolith - III] CT](/ko/content/items/missionitem-asi-i-level05-exp3-03-t06-cprg/)
+**제작도:** [Mobile fusion reactor [Monolith - III] CT](/content/items/missionitem-asi-i-level05-exp3-03-t06-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ko/content/items/missionitem-asi-i-level05-exp3-03-t04/">Fusion cells [Monolith - III]</a></div><div class="prod-card-body">필요: <b>1</b></div></div>

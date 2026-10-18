@@ -34,7 +34,7 @@ description: "Modules / Armor, tier T3"
 **Produit à partir de 7 composants** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [T3 Large Armor Plate Cprg](/fr/content/items/named2-large-armor-plate-cprg/)
+**Plan :** [T3 Large Armor Plate Cprg](/content/items/named2-large-armor-plate-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/alligior/">Alligior</a></div><div class="prod-card-body">requis : <b>525</b></div></div>

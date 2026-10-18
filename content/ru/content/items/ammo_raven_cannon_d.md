@@ -32,7 +32,7 @@ description: "Ammo / Cannon"
 **Производится из 5 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Ammo Raven Cannon D Cprg](/ru/content/items/ammo-raven-cannon-d-cprg/)
+**Чертёж:** [Ammo Raven Cannon D Cprg](/content/items/ammo-raven-cannon-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/biotichrin/">Biotichrin</a></div><div class="prod-card-body">нужно: <b>200</b></div></div>

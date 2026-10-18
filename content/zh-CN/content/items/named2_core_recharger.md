@@ -32,7 +32,7 @@ description: "Modules / Power, tier T3"
 **由组件 6个生产 ，研究等级 5** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [Duobar 300xs-'Othys' accumulator recharger CT](/zh-CN/content/items/named2-core-recharger-cprg/)
+**蓝图:** [Duobar 300xs-'Othys' accumulator recharger CT](/content/items/named2-core-recharger-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">需要: <b>125</b></div></div>

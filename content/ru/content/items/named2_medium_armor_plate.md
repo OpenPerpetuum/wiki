@@ -34,7 +34,7 @@ description: "Modules / Armor, tier T3"
 **Производится из 6 компонентах, уровень исследований 5** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Invigor II. medium armor plate CT](/ru/content/items/named2-medium-armor-plate-cprg/)
+**Чертёж:** [Invigor II. medium armor plate CT](/content/items/named2-medium-armor-plate-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/alligior/">Alligior</a></div><div class="prod-card-body">нужно: <b>350</b></div></div>

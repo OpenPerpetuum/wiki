@@ -32,7 +32,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **コンポーネント2個から製造 、研究レベル 2** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Standart Harvesting Turret Unit Cprg](/ja/content/items/standart-harvesting-turret-unit-cprg/)
+**設計図:** [Standart Harvesting Turret Unit Cprg](/content/items/standart-harvesting-turret-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">必要: <b>500</b></div></div>

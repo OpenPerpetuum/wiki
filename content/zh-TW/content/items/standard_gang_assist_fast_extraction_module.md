@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T1"
 **由組件 3個生產 ，研究等級 4** — 組裝組件來製造它（完整列表見[配方](/zh-TW/content/recipes/)）:
 
 
-**藍圖:** [Standard fast extractor NEXUS module CT](/zh-TW/content/items/standard-gang-assist-fast-extraction-module-cprg/)
+**藍圖:** [Standard fast extractor NEXUS module CT](/content/items/standard-gang-assist-fast-extraction-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-TW/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">需要: <b>500</b></div></div>

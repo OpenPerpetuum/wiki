@@ -34,7 +34,7 @@ description: "Modules / Weapons, tier T3"
 **Производится из 8 компонентах, уровень исследований 6** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Sharpsy weapon stabilizer CT](/ru/content/items/named2-weapon-stabilizer-cprg/)
+**Чертёж:** [Sharpsy weapon stabilizer CT](/content/items/named2-weapon-stabilizer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">нужно: <b>175</b></div></div>

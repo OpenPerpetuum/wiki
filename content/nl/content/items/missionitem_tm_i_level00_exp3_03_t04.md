@@ -25,7 +25,7 @@ _Geen statistieken — dit item draagt geen geaggregeerde waarden._
 **Geproduceerd uit 2 componentën, onderzoekslevel 1** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Emergency Accumulator [Elephant III] CT](/nl/content/items/missionitem-tm-i-level00-exp3-03-t04-cprg/)
+**Bouwtekening:** [Emergency Accumulator [Elephant III] CT](/content/items/missionitem-tm-i-level00-exp3-03-t04-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/missionitem-tm-i-level00-exp3-03-t02/">Storage coils [Elephant III]</a></div><div class="prod-card-body">vereist: <b>1</b></div></div>

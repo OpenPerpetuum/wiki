@@ -32,7 +32,7 @@ description: "Ammo / Missiles"
 **コンポーネント3個から製造 、研究レベル 3** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Medium chemoactive compact missile CT](/ja/content/items/ammo-missile-b-cprg/)
+**設計図:** [Medium chemoactive compact missile CT](/content/items/ammo-missile-b-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">必要: <b>100</b></div></div>

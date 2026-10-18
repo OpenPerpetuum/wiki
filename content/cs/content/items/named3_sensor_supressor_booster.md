@@ -34,7 +34,7 @@ description: "Modules / Sensors & scanning, tier T4"
 **Vyráběn z 10 komponentách, výzkumná úroveň 8** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [DDX700-Mist sensor suppressor tuning CT](/cs/content/items/named3-sensor-supressor-booster-cprg/)
+**Výkres:** [DDX700-Mist sensor suppressor tuning CT](/content/items/named3-sensor-supressor-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/espitium/">Espitium</a></div><div class="prod-card-body">potřebné: <b>300</b></div></div>

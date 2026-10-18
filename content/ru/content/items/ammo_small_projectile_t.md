@@ -48,7 +48,7 @@ graph LR
 **Производится из 5 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Ammo Small Projectile T Cprg](/ru/content/items/ammo-small-projectile-t-cprg/)
+**Чертёж:** [Ammo Small Projectile T Cprg](/content/items/ammo-small-projectile-t-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">нужно: <b>100</b></div></div>

@@ -33,7 +33,7 @@ description: "Modules / Shield, tier T4"
 **Hergestellt aus 12 Komponenten, Forschungsebene 6** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Guardian shield hardener CT](/de/content/items/named3-shield-hardener-cprg/)
+**Bauplan:** [Guardian shield hardener CT](/content/items/named3-shield-hardener-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/alligior/">Alligior</a></div><div class="prod-card-body">benötigt: <b>300</b></div></div>

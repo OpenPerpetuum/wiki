@@ -34,7 +34,7 @@ description: "Modules / Sensors & scanning, tier T1"
 **Geproduceerd uit 3 componentën, onderzoekslevel 5** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Standard sensor suppressor tuning CT](/nl/content/items/standard-sensor-supressor-booster-cprg/)
+**Bouwtekening:** [Standard sensor suppressor tuning CT](/content/items/standard-sensor-supressor-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">vereist: <b>150</b></div></div>

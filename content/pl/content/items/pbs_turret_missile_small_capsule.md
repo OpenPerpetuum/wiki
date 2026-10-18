@@ -48,7 +48,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Produkcja z 6 komponentów** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Standard missile turret foundation CT](/pl/content/items/pbs-turret-missile-small-capsule-cprg/)
+**Nakładka:** [Standard missile turret foundation CT](/content/items/pbs-turret-missile-small-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>500</b></div></div>

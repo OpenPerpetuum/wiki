@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T1"
 **Vyráběn z 2 komponentách, výzkumná úroveň 3** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Standard medium machine gun CT](/cs/content/items/standard-medium-autocannon-cprg/)
+**Výkres:** [Standard medium machine gun CT](/content/items/standard-medium-autocannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">potřebné: <b>200</b></div></div>

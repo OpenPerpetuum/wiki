@@ -34,7 +34,7 @@ description: "Modules / Enhancements, tier T4"
 **Produit à partir de 8 composants, niveau de recherche 4** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [Eksplor-q3000 geoscanner CT](/fr/content/items/named3-mining-probe-module-cprg/)
+**Plan :** [Eksplor-q3000 geoscanner CT](/content/items/named3-mining-probe-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">requis : <b>350</b></div></div>

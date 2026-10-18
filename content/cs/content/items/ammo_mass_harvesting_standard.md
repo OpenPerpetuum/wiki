@@ -25,7 +25,7 @@ _Žádné statistiky — tento předmět nenese žádné agregované hodnoty._
 **Vyráběn z 2 komponentách** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Ammo Mass Harvesting Standard Cprg](/cs/content/items/ammo-mass-harvesting-standard-cprg/)
+**Výkres:** [Ammo Mass Harvesting Standard Cprg](/content/items/ammo-mass-harvesting-standard-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">potřebné: <b>225</b></div></div>

@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T2"
 **Producido desde 6 componentes, nivel de investigación 3** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Nuimtec-ROWO light EM-gun CT](/es/content/items/named1-small-railgun-cprg/)
+**Planos:** [Nuimtec-ROWO light EM-gun CT](/content/items/named1-small-railgun-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">requerido: <b>50</b></div></div>

@@ -42,7 +42,7 @@ description: "Modules / Remote control, tier T3"
 **Hergestellt aus 8 Komponenten** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [T3 Remote Command Translator Cprg](/de/content/items/named2-remote-command-translator-cprg/)
+**Bauplan:** [T3 Remote Command Translator Cprg](/content/items/named2-remote-command-translator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">benötigt: <b>125</b></div></div>

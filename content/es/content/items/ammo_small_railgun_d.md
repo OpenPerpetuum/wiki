@@ -30,7 +30,7 @@ description: "Ammo / Cannon"
 **Producido desde 2 componentes, nivel de investigación 1** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Small compositecore slug CT](/es/content/items/ammo-small-railgun-d-cprg/)
+**Planos:** [Small compositecore slug CT](/content/items/ammo-small-railgun-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/polynitrocol/">Polynitrocol</a></div><div class="prod-card-body">requerido: <b>100</b></div></div>

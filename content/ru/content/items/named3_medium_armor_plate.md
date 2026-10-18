@@ -34,7 +34,7 @@ description: "Modules / Armor, tier T4"
 **Производится из 8 компонентах, уровень исследований 6** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [THL-Testudo medium armor plate CT](/ru/content/items/named3-medium-armor-plate-cprg/)
+**Чертёж:** [THL-Testudo medium armor plate CT](/content/items/named3-medium-armor-plate-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/alligior/">Alligior</a></div><div class="prod-card-body">нужно: <b>700</b></div></div>

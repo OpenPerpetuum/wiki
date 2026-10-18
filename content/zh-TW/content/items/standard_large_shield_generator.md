@@ -35,7 +35,7 @@ description: "Modules / Shield, tier T1"
 **由組件 6個生產** — 組裝組件來製造它（完整列表見[配方](/zh-TW/content/recipes/)）:
 
 
-**藍圖:** [Standard Large Shield Generator Cprg](/zh-TW/content/items/standard-large-shield-generator-cprg/)
+**藍圖:** [Standard Large Shield Generator Cprg](/content/items/standard-large-shield-generator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-TW/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">需要: <b>300</b></div></div>

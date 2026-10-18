@@ -80,7 +80,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/arbalest-mk2-A-CT-capsule/">Arbalest MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/arbalest-mk2-a-ct-capsule/">Arbalest MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -88,7 +88,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/arbalest-mk2-A-dynamic-cprg/">Arbalest MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/arbalest-mk2-a-dynamic-cprg/">Arbalest MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -96,7 +96,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/arbalest-mk2-B-CT-capsule/">Arbalest MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/arbalest-mk2-b-ct-capsule/">Arbalest MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -104,7 +104,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/arbalest-mk2-B-dynamic-cprg/">Arbalest MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/arbalest-mk2-b-dynamic-cprg/">Arbalest MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -112,7 +112,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/arbalest-mk2-C-CT-capsule/">Arbalest MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/arbalest-mk2-c-ct-capsule/">Arbalest MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -120,7 +120,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/arbalest-mk2-C-dynamic-cprg/">Arbalest MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/arbalest-mk2-c-dynamic-cprg/">Arbalest MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -128,7 +128,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/argano-mk2-A-CT-capsule/">Argano MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/argano-mk2-a-ct-capsule/">Argano MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -136,7 +136,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/argano-mk2-A-dynamic-cprg/">Argano MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/argano-mk2-a-dynamic-cprg/">Argano MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -144,7 +144,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/argano-mk2-B-CT-capsule/">Argano MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/argano-mk2-b-ct-capsule/">Argano MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -152,7 +152,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/argano-mk2-B-dynamic-cprg/">Argano MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/argano-mk2-b-dynamic-cprg/">Argano MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -160,7 +160,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/argano-mk2-C-CT-capsule/">Argano MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/argano-mk2-c-ct-capsule/">Argano MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -168,7 +168,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/argano-mk2-C-dynamic-cprg/">Argano MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/argano-mk2-c-dynamic-cprg/">Argano MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -176,7 +176,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/artemis-mk2-A-CT-capsule/">Artemis MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/artemis-mk2-a-ct-capsule/">Artemis MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -184,7 +184,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/artemis-mk2-A-dynamic-cprg/">Artemis MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/artemis-mk2-a-dynamic-cprg/">Artemis MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -192,7 +192,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/artemis-mk2-B-CT-capsule/">Artemis MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/artemis-mk2-b-ct-capsule/">Artemis MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -200,7 +200,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/artemis-mk2-B-dynamic-cprg/">Artemis MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/artemis-mk2-b-dynamic-cprg/">Artemis MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -208,7 +208,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/artemis-mk2-C-CT-capsule/">Artemis MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/artemis-mk2-c-ct-capsule/">Artemis MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -216,7 +216,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/artemis-mk2-C-dynamic-cprg/">Artemis MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/artemis-mk2-c-dynamic-cprg/">Artemis MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -224,7 +224,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/baphomet-mk2-A-CT-capsule/">Baphomet MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/baphomet-mk2-a-ct-capsule/">Baphomet MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -232,7 +232,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/baphomet-mk2-A-dynamic-cprg/">Baphomet MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/baphomet-mk2-a-dynamic-cprg/">Baphomet MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -240,7 +240,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/baphomet-mk2-B-CT-capsule/">Baphomet MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/baphomet-mk2-b-ct-capsule/">Baphomet MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -248,7 +248,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/baphomet-mk2-B-dynamic-cprg/">Baphomet MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/baphomet-mk2-b-dynamic-cprg/">Baphomet MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -256,7 +256,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/baphomet-mk2-C-CT-capsule/">Baphomet MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/baphomet-mk2-c-ct-capsule/">Baphomet MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -264,7 +264,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/baphomet-mk2-C-dynamic-cprg/">Baphomet MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/baphomet-mk2-c-dynamic-cprg/">Baphomet MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -272,7 +272,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/callisto-bot-CT-capsule/">Callisto Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/callisto-bot-ct-capsule/">Callisto Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -288,7 +288,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/cameleon-mk2-A-CT-capsule/">Cameleon MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/cameleon-mk2-a-ct-capsule/">Cameleon MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -296,7 +296,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/cameleon-mk2-A-dynamic-cprg/">Cameleon MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/cameleon-mk2-a-dynamic-cprg/">Cameleon MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -304,7 +304,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/cameleon-mk2-B-CT-capsule/">Cameleon MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/cameleon-mk2-b-ct-capsule/">Cameleon MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -312,7 +312,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/cameleon-mk2-B-dynamic-cprg/">Cameleon MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/cameleon-mk2-b-dynamic-cprg/">Cameleon MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -320,7 +320,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/cameleon-mk2-C-CT-capsule/">Cameleon MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/cameleon-mk2-c-ct-capsule/">Cameleon MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -328,7 +328,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/cameleon-mk2-C-dynamic-cprg/">Cameleon MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/cameleon-mk2-c-dynamic-cprg/">Cameleon MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -336,7 +336,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/castel-mk2-A-CT-capsule/">Castel MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/castel-mk2-a-ct-capsule/">Castel MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -344,7 +344,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/castel-mk2-A-dynamic-cprg/">Castel MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/castel-mk2-a-dynamic-cprg/">Castel MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -352,7 +352,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/castel-mk2-B-CT-capsule/">Castel MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/castel-mk2-b-ct-capsule/">Castel MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -360,7 +360,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/castel-mk2-B-dynamic-cprg/">Castel MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/castel-mk2-b-dynamic-cprg/">Castel MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -368,7 +368,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/castel-mk2-C-CT-capsule/">Castel MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/castel-mk2-c-ct-capsule/">Castel MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -376,7 +376,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/castel-mk2-C-dynamic-cprg/">Castel MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/castel-mk2-c-dynamic-cprg/">Castel MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -384,7 +384,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/cronus-bot-CT-capsule/">Cronus Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/cronus-bot-ct-capsule/">Cronus Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -400,7 +400,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/daidalos-bot-CT-capsule/">Daidalos Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/daidalos-bot-ct-capsule/">Daidalos Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -416,7 +416,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/echelon-bot-CT-capsule/">Echelon Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/echelon-bot-ct-capsule/">Echelon Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -432,7 +432,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/gargoyle-mk2-A-CT-capsule/">Gargoyle MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gargoyle-mk2-a-ct-capsule/">Gargoyle MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -440,7 +440,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/gargoyle-mk2-A-dynamic-cprg/">Gargoyle MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gargoyle-mk2-a-dynamic-cprg/">Gargoyle MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -448,7 +448,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/gargoyle-mk2-B-CT-capsule/">Gargoyle MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gargoyle-mk2-b-ct-capsule/">Gargoyle MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -456,7 +456,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/gargoyle-mk2-B-dynamic-cprg/">Gargoyle MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gargoyle-mk2-b-dynamic-cprg/">Gargoyle MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -464,7 +464,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/gargoyle-mk2-C-CT-capsule/">Gargoyle MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gargoyle-mk2-c-ct-capsule/">Gargoyle MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -472,7 +472,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/gargoyle-mk2-C-dynamic-cprg/">Gargoyle MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gargoyle-mk2-c-dynamic-cprg/">Gargoyle MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -480,7 +480,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/gropho-mk2-A-CT-capsule/">Gropho MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gropho-mk2-a-ct-capsule/">Gropho MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -488,7 +488,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/gropho-mk2-A-dynamic-cprg/">Gropho MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gropho-mk2-a-dynamic-cprg/">Gropho MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -496,7 +496,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/gropho-mk2-B-CT-capsule/">Gropho MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gropho-mk2-b-ct-capsule/">Gropho MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -504,7 +504,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/gropho-mk2-B-dynamic-cprg/">Gropho MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gropho-mk2-b-dynamic-cprg/">Gropho MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -512,7 +512,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/gropho-mk2-C-CT-capsule/">Gropho MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gropho-mk2-c-ct-capsule/">Gropho MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -520,7 +520,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/gropho-mk2-C-dynamic-cprg/">Gropho MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gropho-mk2-c-dynamic-cprg/">Gropho MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -528,7 +528,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/helix-bot-CT-capsule/">Helix Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/helix-bot-ct-capsule/">Helix Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -544,7 +544,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/hermes-bot-CT-capsule/">Hermes Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/hermes-bot-ct-capsule/">Hermes Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -560,7 +560,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/ictus-mk2-A-CT-capsule/">Ictus MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ictus-mk2-a-ct-capsule/">Ictus MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -568,7 +568,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/ictus-mk2-A-dynamic-cprg/">Ictus MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ictus-mk2-a-dynamic-cprg/">Ictus MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -576,7 +576,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/ictus-mk2-B-CT-capsule/">Ictus MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ictus-mk2-b-ct-capsule/">Ictus MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -584,7 +584,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/ictus-mk2-B-dynamic-cprg/">Ictus MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ictus-mk2-b-dynamic-cprg/">Ictus MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -592,7 +592,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/ictus-mk2-C-CT-capsule/">Ictus MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ictus-mk2-c-ct-capsule/">Ictus MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -600,7 +600,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/ictus-mk2-C-dynamic-cprg/">Ictus MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ictus-mk2-c-dynamic-cprg/">Ictus MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -608,7 +608,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/ikarus-bot-CT-capsule/">Ikarus Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ikarus-bot-ct-capsule/">Ikarus Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -624,7 +624,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/intakt-mk2-A-CT-capsule/">Intakt MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/intakt-mk2-a-ct-capsule/">Intakt MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -632,7 +632,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/intakt-mk2-A-dynamic-cprg/">Intakt MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/intakt-mk2-a-dynamic-cprg/">Intakt MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -640,7 +640,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/intakt-mk2-B-CT-capsule/">Intakt MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/intakt-mk2-b-ct-capsule/">Intakt MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -648,7 +648,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/intakt-mk2-B-dynamic-cprg/">Intakt MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/intakt-mk2-b-dynamic-cprg/">Intakt MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -656,7 +656,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/intakt-mk2-C-CT-capsule/">Intakt MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/intakt-mk2-c-ct-capsule/">Intakt MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -664,7 +664,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/intakt-mk2-C-dynamic-cprg/">Intakt MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/intakt-mk2-c-dynamic-cprg/">Intakt MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -672,7 +672,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/kain-mk2-A-CT-capsule/">Kain MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kain-mk2-a-ct-capsule/">Kain MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -680,7 +680,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/kain-mk2-A-dynamic-cprg/">Kain MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kain-mk2-a-dynamic-cprg/">Kain MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -688,7 +688,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/kain-mk2-B-CT-capsule/">Kain MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kain-mk2-b-ct-capsule/">Kain MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -696,7 +696,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/kain-mk2-B-dynamic-cprg/">Kain MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kain-mk2-b-dynamic-cprg/">Kain MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -704,7 +704,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/kain-mk2-C-CT-capsule/">Kain MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kain-mk2-c-ct-capsule/">Kain MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -712,7 +712,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/kain-mk2-C-dynamic-cprg/">Kain MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kain-mk2-c-dynamic-cprg/">Kain MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -720,7 +720,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/laird-mk2-A-CT-capsule/">Laird MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/laird-mk2-a-ct-capsule/">Laird MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -728,7 +728,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/laird-mk2-A-dynamic-cprg/">Laird MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/laird-mk2-a-dynamic-cprg/">Laird MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -736,7 +736,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/laird-mk2-B-CT-capsule/">Laird MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/laird-mk2-b-ct-capsule/">Laird MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -744,7 +744,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/laird-mk2-B-dynamic-cprg/">Laird MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/laird-mk2-b-dynamic-cprg/">Laird MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -752,7 +752,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/laird-mk2-C-CT-capsule/">Laird MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/laird-mk2-c-ct-capsule/">Laird MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -760,7 +760,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/laird-mk2-C-dynamic-cprg/">Laird MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/laird-mk2-c-dynamic-cprg/">Laird MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -768,7 +768,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/legatus-bot-CT-capsule/">Legatus Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/legatus-bot-ct-capsule/">Legatus Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -784,7 +784,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/lithus-mk2-A-CT-capsule/">Lithus MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/lithus-mk2-a-ct-capsule/">Lithus MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -792,7 +792,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/lithus-mk2-A-dynamic-cprg/">Lithus MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/lithus-mk2-a-dynamic-cprg/">Lithus MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -800,7 +800,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/lithus-mk2-B-CT-capsule/">Lithus MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/lithus-mk2-b-ct-capsule/">Lithus MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -808,7 +808,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/lithus-mk2-B-dynamic-cprg/">Lithus MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/lithus-mk2-b-dynamic-cprg/">Lithus MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -816,7 +816,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/lithus-mk2-C-CT-capsule/">Lithus MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/lithus-mk2-c-ct-capsule/">Lithus MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -824,7 +824,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/lithus-mk2-C-dynamic-cprg/">Lithus MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/lithus-mk2-c-dynamic-cprg/">Lithus MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -832,7 +832,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/locust-bot-CT-capsule/">Locust Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/locust-bot-ct-capsule/">Locust Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -848,7 +848,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/mesmer-mk2-A-CT-capsule/">Mesmer MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mesmer-mk2-a-ct-capsule/">Mesmer MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -856,7 +856,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/mesmer-mk2-A-dynamic-cprg/">Mesmer MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mesmer-mk2-a-dynamic-cprg/">Mesmer MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -864,7 +864,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/mesmer-mk2-B-CT-capsule/">Mesmer MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mesmer-mk2-b-ct-capsule/">Mesmer MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -872,7 +872,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/mesmer-mk2-B-dynamic-cprg/">Mesmer MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mesmer-mk2-b-dynamic-cprg/">Mesmer MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -880,7 +880,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/mesmer-mk2-C-CT-capsule/">Mesmer MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mesmer-mk2-c-ct-capsule/">Mesmer MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -888,7 +888,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/mesmer-mk2-C-dynamic-cprg/">Mesmer MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mesmer-mk2-c-dynamic-cprg/">Mesmer MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -896,7 +896,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/metis-bot-CT-capsule/">Metis Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/metis-bot-ct-capsule/">Metis Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -912,7 +912,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/prometheus-mk2-A-CT-capsule/">Prometheus MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/prometheus-mk2-a-ct-capsule/">Prometheus MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -920,7 +920,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/prometheus-mk2-A-dynamic-cprg/">Prometheus MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/prometheus-mk2-a-dynamic-cprg/">Prometheus MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -928,7 +928,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/prometheus-mk2-B-CT-capsule/">Prometheus MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/prometheus-mk2-b-ct-capsule/">Prometheus MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -936,7 +936,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/prometheus-mk2-B-dynamic-cprg/">Prometheus MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/prometheus-mk2-b-dynamic-cprg/">Prometheus MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -944,7 +944,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/prometheus-mk2-C-CT-capsule/">Prometheus MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/prometheus-mk2-c-ct-capsule/">Prometheus MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -952,7 +952,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/prometheus-mk2-C-dynamic-cprg/">Prometheus MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/prometheus-mk2-c-dynamic-cprg/">Prometheus MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -960,7 +960,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/riveler-mk2-A-CT-capsule/">Riveler MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/riveler-mk2-a-ct-capsule/">Riveler MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -968,7 +968,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/riveler-mk2-A-dynamic-cprg/">Riveler MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/riveler-mk2-a-dynamic-cprg/">Riveler MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -976,7 +976,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/riveler-mk2-B-CT-capsule/">Riveler MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/riveler-mk2-b-ct-capsule/">Riveler MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -984,7 +984,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/riveler-mk2-B-dynamic-cprg/">Riveler MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/riveler-mk2-b-dynamic-cprg/">Riveler MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -992,7 +992,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/riveler-mk2-C-CT-capsule/">Riveler MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/riveler-mk2-c-ct-capsule/">Riveler MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1000,7 +1000,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/riveler-mk2-C-dynamic-cprg/">Riveler MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/riveler-mk2-c-dynamic-cprg/">Riveler MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1008,7 +1008,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/scarab-mk2-A-CT-capsule/">Scarab MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/scarab-mk2-a-ct-capsule/">Scarab MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1016,7 +1016,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/scarab-mk2-A-dynamic-cprg/">Scarab MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/scarab-mk2-a-dynamic-cprg/">Scarab MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1024,7 +1024,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/scarab-mk2-B-CT-capsule/">Scarab MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/scarab-mk2-b-ct-capsule/">Scarab MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1032,7 +1032,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/scarab-mk2-B-dynamic-cprg/">Scarab MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/scarab-mk2-b-dynamic-cprg/">Scarab MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1040,7 +1040,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/scarab-mk2-C-CT-capsule/">Scarab MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/scarab-mk2-c-ct-capsule/">Scarab MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1048,7 +1048,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/scarab-mk2-C-dynamic-cprg/">Scarab MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/scarab-mk2-c-dynamic-cprg/">Scarab MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1056,7 +1056,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/sequer-mk2-A-CT-capsule/">Sequer MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sequer-mk2-a-ct-capsule/">Sequer MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1064,7 +1064,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/sequer-mk2-A-dynamic-cprg/">Sequer MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sequer-mk2-a-dynamic-cprg/">Sequer MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1072,7 +1072,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/sequer-mk2-B-CT-capsule/">Sequer MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sequer-mk2-b-ct-capsule/">Sequer MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1080,7 +1080,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/sequer-mk2-B-dynamic-cprg/">Sequer MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sequer-mk2-b-dynamic-cprg/">Sequer MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1088,7 +1088,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/sequer-mk2-C-CT-capsule/">Sequer MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sequer-mk2-c-ct-capsule/">Sequer MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1096,7 +1096,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/sequer-mk2-C-dynamic-cprg/">Sequer MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sequer-mk2-c-dynamic-cprg/">Sequer MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1104,7 +1104,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/seth-mk2-A-CT-capsule/">Seth MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/seth-mk2-a-ct-capsule/">Seth MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1112,7 +1112,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/seth-mk2-A-dynamic-cprg/">Seth MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/seth-mk2-a-dynamic-cprg/">Seth MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1120,7 +1120,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/seth-mk2-B-CT-capsule/">Seth MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/seth-mk2-b-ct-capsule/">Seth MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1128,7 +1128,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/seth-mk2-B-dynamic-cprg/">Seth MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/seth-mk2-b-dynamic-cprg/">Seth MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1136,7 +1136,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/seth-mk2-C-CT-capsule/">Seth MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/seth-mk2-c-ct-capsule/">Seth MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1144,7 +1144,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/seth-mk2-C-dynamic-cprg/">Seth MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/seth-mk2-c-dynamic-cprg/">Seth MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1160,7 +1160,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/spectator-bot-A-dynamic-cprg/">Spectator Bot A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/spectator-bot-a-dynamic-cprg/">Spectator Bot A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1168,7 +1168,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/spectator-mk3-A-CT-capsule/">Spectator Mk3 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/spectator-mk3-a-ct-capsule/">Spectator Mk3 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1176,7 +1176,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/symbiont-mk2-A-CT-capsule/">Symbiont MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/symbiont-mk2-a-ct-capsule/">Symbiont MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1184,7 +1184,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/symbiont-mk2-A-dynamic-cprg/">Symbiont MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/symbiont-mk2-a-dynamic-cprg/">Symbiont MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1192,7 +1192,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/symbiont-mk2-B-CT-capsule/">Symbiont MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/symbiont-mk2-b-ct-capsule/">Symbiont MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1200,7 +1200,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/symbiont-mk2-B-dynamic-cprg/">Symbiont MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/symbiont-mk2-b-dynamic-cprg/">Symbiont MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1208,7 +1208,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/symbiont-mk2-C-CT-capsule/">Symbiont MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/symbiont-mk2-c-ct-capsule/">Symbiont MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1216,7 +1216,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/symbiont-mk2-C-dynamic-cprg/">Symbiont MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/symbiont-mk2-c-dynamic-cprg/">Symbiont MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1224,7 +1224,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/termis-mk2-A-CT-capsule/">Termis MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/termis-mk2-a-ct-capsule/">Termis MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1232,7 +1232,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/termis-mk2-A-dynamic-cprg/">Termis MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/termis-mk2-a-dynamic-cprg/">Termis MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1240,7 +1240,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/termis-mk2-B-CT-capsule/">Termis MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/termis-mk2-b-ct-capsule/">Termis MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1248,7 +1248,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/termis-mk2-B-dynamic-cprg/">Termis MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/termis-mk2-b-dynamic-cprg/">Termis MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1256,7 +1256,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/termis-mk2-C-CT-capsule/">Termis MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/termis-mk2-c-ct-capsule/">Termis MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1264,7 +1264,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/termis-mk2-C-dynamic-cprg/">Termis MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/termis-mk2-c-dynamic-cprg/">Termis MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1272,7 +1272,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/troiar-mk2-A-CT-capsule/">Troiar MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/troiar-mk2-a-ct-capsule/">Troiar MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1280,7 +1280,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/troiar-mk2-A-dynamic-cprg/">Troiar MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/troiar-mk2-a-dynamic-cprg/">Troiar MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1288,7 +1288,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/troiar-mk2-B-CT-capsule/">Troiar MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/troiar-mk2-b-ct-capsule/">Troiar MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1296,7 +1296,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/troiar-mk2-B-dynamic-cprg/">Troiar MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/troiar-mk2-b-dynamic-cprg/">Troiar MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1304,7 +1304,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/troiar-mk2-C-CT-capsule/">Troiar MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/troiar-mk2-c-ct-capsule/">Troiar MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1312,7 +1312,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/troiar-mk2-C-dynamic-cprg/">Troiar MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/troiar-mk2-c-dynamic-cprg/">Troiar MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1320,7 +1320,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/tyrannos-mk2-A-CT-capsule/">Tyrannos MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tyrannos-mk2-a-ct-capsule/">Tyrannos MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1328,7 +1328,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/tyrannos-mk2-A-dynamic-cprg/">Tyrannos MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tyrannos-mk2-a-dynamic-cprg/">Tyrannos MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1336,7 +1336,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/tyrannos-mk2-B-CT-capsule/">Tyrannos MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tyrannos-mk2-b-ct-capsule/">Tyrannos MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1344,7 +1344,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/tyrannos-mk2-B-dynamic-cprg/">Tyrannos MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tyrannos-mk2-b-dynamic-cprg/">Tyrannos MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1352,7 +1352,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/tyrannos-mk2-C-CT-capsule/">Tyrannos MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tyrannos-mk2-c-ct-capsule/">Tyrannos MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1360,7 +1360,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/tyrannos-mk2-C-dynamic-cprg/">Tyrannos MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tyrannos-mk2-c-dynamic-cprg/">Tyrannos MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1368,7 +1368,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/vagabond-mk2-A-CT-capsule/">Vagabond MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/vagabond-mk2-a-ct-capsule/">Vagabond MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1376,7 +1376,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/vagabond-mk2-A-dynamic-cprg/">Vagabond MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/vagabond-mk2-a-dynamic-cprg/">Vagabond MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1384,7 +1384,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/vagabond-mk2-B-CT-capsule/">Vagabond MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/vagabond-mk2-b-ct-capsule/">Vagabond MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1392,7 +1392,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/vagabond-mk2-B-dynamic-cprg/">Vagabond MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/vagabond-mk2-b-dynamic-cprg/">Vagabond MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1400,7 +1400,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/vagabond-mk2-C-CT-capsule/">Vagabond MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/vagabond-mk2-c-ct-capsule/">Vagabond MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1408,7 +1408,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/vagabond-mk2-C-dynamic-cprg/">Vagabond MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/vagabond-mk2-c-dynamic-cprg/">Vagabond MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1416,7 +1416,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/vektor-bot-CT-capsule/">Vektor Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/vektor-bot-ct-capsule/">Vektor Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -1432,7 +1432,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/waspish-mk2-A-CT-capsule/">Waspish MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/waspish-mk2-a-ct-capsule/">Waspish MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1440,7 +1440,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/waspish-mk2-A-dynamic-cprg/">Waspish MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/waspish-mk2-a-dynamic-cprg/">Waspish MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1448,7 +1448,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/waspish-mk2-B-CT-capsule/">Waspish MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/waspish-mk2-b-ct-capsule/">Waspish MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1456,7 +1456,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/waspish-mk2-B-dynamic-cprg/">Waspish MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/waspish-mk2-b-dynamic-cprg/">Waspish MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1464,7 +1464,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/waspish-mk2-C-CT-capsule/">Waspish MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/waspish-mk2-c-ct-capsule/">Waspish MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1472,7 +1472,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/waspish-mk2-C-dynamic-cprg/">Waspish MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/waspish-mk2-c-dynamic-cprg/">Waspish MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1480,7 +1480,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/yagel-mk2-A-CT-capsule/">Yagel MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/yagel-mk2-a-ct-capsule/">Yagel MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1488,7 +1488,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/yagel-mk2-A-dynamic-cprg/">Yagel MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/yagel-mk2-a-dynamic-cprg/">Yagel MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1496,7 +1496,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/yagel-mk2-B-CT-capsule/">Yagel MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/yagel-mk2-b-ct-capsule/">Yagel MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1504,7 +1504,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/yagel-mk2-B-dynamic-cprg/">Yagel MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/yagel-mk2-b-dynamic-cprg/">Yagel MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1512,7 +1512,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/yagel-mk2-C-CT-capsule/">Yagel MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/yagel-mk2-c-ct-capsule/">Yagel MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1520,7 +1520,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/yagel-mk2-C-dynamic-cprg/">Yagel MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/yagel-mk2-c-dynamic-cprg/">Yagel MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1528,7 +1528,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/zenith-mk2-A-CT-capsule/">Zenith MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zenith-mk2-a-ct-capsule/">Zenith MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1536,7 +1536,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/zenith-mk2-A-dynamic-cprg/">Zenith MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zenith-mk2-a-dynamic-cprg/">Zenith MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1544,7 +1544,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/zenith-mk2-B-CT-capsule/">Zenith MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zenith-mk2-b-ct-capsule/">Zenith MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1552,7 +1552,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/zenith-mk2-B-dynamic-cprg/">Zenith MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zenith-mk2-b-dynamic-cprg/">Zenith MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1560,7 +1560,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/zenith-mk2-C-CT-capsule/">Zenith MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zenith-mk2-c-ct-capsule/">Zenith MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1568,7 +1568,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/zenith-mk2-C-dynamic-cprg/">Zenith MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zenith-mk2-c-dynamic-cprg/">Zenith MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -3469,7 +3469,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/pbs-XL-core-transmitter-large/">Hi-tech energy backbone node</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-large/">Hi-tech energy backbone node</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -3477,7 +3477,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/pbs-XL-core-transmitter-large-capsule/">Pbs XL Core Transmitter Large Capsule</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-large-capsule/">Pbs XL Core Transmitter Large Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -3485,7 +3485,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/pbs-XL-core-transmitter-large-capsule-pr/">Pbs XL Core Transmitter Large Capsule Pr</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-large-capsule-pr/">Pbs XL Core Transmitter Large Capsule Pr</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3 (prototype)</div>
 </div>
 </div>
@@ -3493,7 +3493,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/pbs-XL-core-transmitter-large-object/">Pbs XL Core Transmitter Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-large-object/">Pbs XL Core Transmitter Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -3501,7 +3501,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/pbs-XL-core-transmitter-medium/">Advanced energy backbone node</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-medium/">Advanced energy backbone node</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -3509,7 +3509,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/pbs-XL-core-transmitter-medium-capsule/">Pbs XL Core Transmitter Medium Capsule</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-medium-capsule/">Pbs XL Core Transmitter Medium Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -3517,7 +3517,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/pbs-XL-core-transmitter-medium-capsule-pr/">Pbs XL Core Transmitter Medium Capsule Pr</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-medium-capsule-pr/">Pbs XL Core Transmitter Medium Capsule Pr</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2 (prototype)</div>
 </div>
 </div>
@@ -3525,7 +3525,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/pbs-XL-core-transmitter-medium-object/">Pbs XL Core Transmitter Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-medium-object/">Pbs XL Core Transmitter Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -3533,7 +3533,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/pbs-XL-core-transmitter-small/">Standard energy backbone node</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-small/">Standard energy backbone node</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -3541,7 +3541,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/pbs-XL-core-transmitter-small-capsule/">Pbs XL Core Transmitter Small Capsule</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-small-capsule/">Pbs XL Core Transmitter Small Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -3549,7 +3549,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/pbs-XL-core-transmitter-small-capsule-pr/">Pbs XL Core Transmitter Small Capsule Pr</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-small-capsule-pr/">Pbs XL Core Transmitter Small Capsule Pr</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1 (prototype)</div>
 </div>
 </div>
@@ -3557,7 +3557,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/pbs-XL-core-transmitter-small-object/">Pbs XL Core Transmitter Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-small-object/">Pbs XL Core Transmitter Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>

@@ -30,7 +30,7 @@ description: "Special & other / Miscellaneous"
 **Produkcja z 2 komponentów, poziom badań 3** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Standard energy injector charge CT](/pl/content/items/corebooster-ammo-cprg/)
+**Nakładka:** [Standard energy injector charge CT](/content/items/corebooster-ammo-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>500</b></div></div>

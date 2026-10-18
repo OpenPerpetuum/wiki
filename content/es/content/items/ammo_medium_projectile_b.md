@@ -33,7 +33,7 @@ description: "Ammo / Projectiles"
 **Producido desde 5 componentes, nivel de investigación 2** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Medium metal-ceramic bullet CT](/es/content/items/ammo-medium-projectile-b-cprg/)
+**Planos:** [Medium metal-ceramic bullet CT](/content/items/ammo-medium-projectile-b-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">requerido: <b>50</b></div></div>

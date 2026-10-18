@@ -25,7 +25,7 @@ _Aucune statistique — cet article ne porte aucune valeur agrégée._
 **Produit à partir de 2 composants, niveau de recherche 1** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [Emergency Accumulator [Eden III] CT](/fr/content/items/missionitem-ics-i-level00-exp3-03-t04-cprg/)
+**Plan :** [Emergency Accumulator [Eden III] CT](/content/items/missionitem-ics-i-level00-exp3-03-t04-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/missionitem-ics-i-level00-exp3-03-t02/">Storage coils [Eden III]</a></div><div class="prod-card-body">requis : <b>1</b></div></div>

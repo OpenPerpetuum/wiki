@@ -31,7 +31,7 @@ description: "Ammo / Beam & laser"
 **Производится из 4 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Ammo Large Lasercrystal C Cprg](/ru/content/items/ammo-large-lasercrystal-c-cprg/)
+**Чертёж:** [Ammo Large Lasercrystal C Cprg](/content/items/ammo-large-lasercrystal-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/polynitrocol/">Polynitrocol</a></div><div class="prod-card-body">нужно: <b>75</b></div></div>

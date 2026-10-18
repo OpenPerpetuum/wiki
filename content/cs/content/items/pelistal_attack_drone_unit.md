@@ -39,7 +39,7 @@ description: "Special & other / Miscellaneous"
 **Vyráběn z 4 komponentách, výzkumná úroveň 5** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Pelistal Attack Drone Unit Cprg](/cs/content/items/pelistal-attack-drone-unit-cprg/)
+**Výkres:** [Pelistal Attack Drone Unit Cprg](/content/items/pelistal-attack-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/espitium/">Espitium</a></div><div class="prod-card-body">potřebné: <b>100</b></div></div>

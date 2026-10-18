@@ -31,7 +31,7 @@ description: "Ammo / Missiles"
 **コンポーネント2個から製造 、研究レベル 3** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Medium sonic compact missile CT](/ja/content/items/ammo-missile-d-cprg/)
+**設計図:** [Medium sonic compact missile CT](/content/items/ammo-missile-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">必要: <b>200</b></div></div>

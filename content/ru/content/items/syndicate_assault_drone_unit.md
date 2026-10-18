@@ -44,7 +44,7 @@ description: "Special & other / Miscellaneous"
 **Производится из 7 компонентах, уровень исследований 5** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Syndicate Assault Drone Unit Cprg](/ru/content/items/syndicate-assault-drone-unit-cprg/)
+**Чертёж:** [Syndicate Assault Drone Unit Cprg](/content/items/syndicate-assault-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">нужно: <b>1.0k</b></div></div>

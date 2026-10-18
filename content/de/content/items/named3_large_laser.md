@@ -37,7 +37,7 @@ description: "Modules / Weapons, tier T4"
 **Hergestellt aus 11 Komponenten** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [T4 Large Laser Cprg](/de/content/items/named3-large-laser-cprg/)
+**Bauplan:** [T4 Large Laser Cprg](/content/items/named3-large-laser-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/hydrobenol/">Hydrobenol</a></div><div class="prod-card-body">benötigt: <b>300</b></div></div>

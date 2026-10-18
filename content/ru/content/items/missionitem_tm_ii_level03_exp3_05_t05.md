@@ -25,7 +25,7 @@ _Нет статистики — этот предмет не имеет агр�
 **Производится из 2 компонентах, уровень исследований 1** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Infrared robotic eyes [Obelisk V] CT](/ru/content/items/missionitem-tm-ii-level03-exp3-05-t05-cprg/)
+**Чертёж:** [Infrared robotic eyes [Obelisk V] CT](/content/items/missionitem-tm-ii-level03-exp3-05-t05-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/missionitem-tm-ii-level03-exp3-05-t02/">Eye sensors [Obelisk V]</a></div><div class="prod-card-body">нужно: <b>1</b></div></div>

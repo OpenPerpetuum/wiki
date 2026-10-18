@@ -37,7 +37,7 @@ description: "Modules / Weapons, tier T2"
 **コンポーネント7個から製造** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [T2 Large Laser Cprg](/ja/content/items/named1-large-laser-cprg/)
+**設計図:** [T2 Large Laser Cprg](/content/items/named1-large-laser-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">必要: <b>150</b></div></div>

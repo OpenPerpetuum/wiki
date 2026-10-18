@@ -37,7 +37,7 @@ description: "Modules / Weapons, tier T2"
 **구성 요소 9개로 생산** — 구성 요소를 조립하여 제작합니다 (전체 목록은 [레시피](/ko/content/recipes/) 참조):
 
 
-**제작도:** [T2 Longrange Large Laser Cprg](/ko/content/items/named1-longrange-large-laser-cprg/)
+**제작도:** [T2 Longrange Large Laser Cprg](/content/items/named1-longrange-large-laser-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ko/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">필요: <b>75</b></div></div>

@@ -36,7 +36,7 @@ description: "Modules / Shield, tier T4"
 **Производится из 9 компонентах, уровень исследований 5** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [SBA-200 Forebrace small shield generator CT](/ru/content/items/named3-small-shield-generator-cprg/)
+**Чертёж:** [SBA-200 Forebrace small shield generator CT](/content/items/named3-small-shield-generator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/alligior/">Alligior</a></div><div class="prod-card-body">нужно: <b>400</b></div></div>

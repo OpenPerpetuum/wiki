@@ -33,7 +33,7 @@ description: "Modules / Shield, tier T4"
 **Производится из 12 компонентах, уровень исследований 6** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Guardian shield hardener CT](/ru/content/items/named3-shield-hardener-cprg/)
+**Чертёж:** [Guardian shield hardener CT](/content/items/named3-shield-hardener-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/alligior/">Alligior</a></div><div class="prod-card-body">нужно: <b>300</b></div></div>

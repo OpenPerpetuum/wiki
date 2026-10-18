@@ -33,7 +33,7 @@ description: "Ammo / Projectiles"
 **Geproduceerd uit 5 componentën, onderzoekslevel 2** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Medium metal-ceramic bullet CT](/nl/content/items/ammo-medium-projectile-b-cprg/)
+**Bouwtekening:** [Medium metal-ceramic bullet CT](/content/items/ammo-medium-projectile-b-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">vereist: <b>50</b></div></div>

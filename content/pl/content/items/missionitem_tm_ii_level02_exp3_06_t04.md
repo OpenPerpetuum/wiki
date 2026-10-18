@@ -25,7 +25,7 @@ _Brak statystyk — ten przedmiot nie niesie żadnych wartości agregowanych._
 **Produkcja z 3 komponentów, poziom badań 1** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [OET cooling device [Techolique VI] CT](/pl/content/items/missionitem-tm-ii-level02-exp3-06-t04-cprg/)
+**Nakładka:** [OET cooling device [Techolique VI] CT](/content/items/missionitem-tm-ii-level02-exp3-06-t04-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/missionitem-tm-ii-level02-exp3-06-t01/">Cooling device casket [Techolique VI/1]</a></div><div class="prod-card-body">wymagane: <b>1</b></div></div>

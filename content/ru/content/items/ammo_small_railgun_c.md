@@ -31,7 +31,7 @@ description: "Ammo / Cannon"
 **Производится из 3 компонентах, уровень исследований 1** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Small liquidcore slug CT](/ru/content/items/ammo-small-railgun-c-cprg/)
+**Чертёж:** [Small liquidcore slug CT](/content/items/ammo-small-railgun-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">нужно: <b>25</b></div></div>

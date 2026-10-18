@@ -35,7 +35,7 @@ description: "Modules / Shield, tier T4"
 **Produkcja z 9 komponentów, poziom badań 7** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Penik medium shield generator CT](/pl/content/items/named3-medium-shield-generator-cprg/)
+**Nakładka:** [Penik medium shield generator CT](/content/items/named3-medium-shield-generator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">wymagane: <b>800</b></div></div>

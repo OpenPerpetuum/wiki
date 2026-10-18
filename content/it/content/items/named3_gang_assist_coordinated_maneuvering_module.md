@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T4"
 **Prodotto da 13 componenti, livello di ricerca 7** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [R4S-A evasive NEXUS module CT](/it/content/items/named3-gang-assist-coordinated-maneuvering-module-cprg/)
+**Piano:** [R4S-A evasive NEXUS module CT](/content/items/named3-gang-assist-coordinated-maneuvering-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/alligior/">Alligior</a></div><div class="prod-card-body">richiesto: <b>100</b></div></div>

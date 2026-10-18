@@ -32,7 +32,7 @@ description: "Ammo / Other ammo"
 **Prodotto da 3 componenti, livello di ricerca 1** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Small doublecore ballistic missile CT](/it/content/items/ammo-rocket-c-cprg/)
+**Piano:** [Small doublecore ballistic missile CT](/content/items/ammo-rocket-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">richiesto: <b>50</b></div></div>

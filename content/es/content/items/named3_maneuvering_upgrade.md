@@ -33,7 +33,7 @@ description: "Modules / Enhancements, tier T4"
 **Producido desde 10 componentes, nivel de investigación 8** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Yridan RCD evasive module CT](/es/content/items/named3-maneuvering-upgrade-cprg/)
+**Planos:** [Yridan RCD evasive module CT](/content/items/named3-maneuvering-upgrade-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/alligior/">Alligior</a></div><div class="prod-card-body">requerido: <b>150</b></div></div>

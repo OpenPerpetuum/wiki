@@ -34,7 +34,7 @@ description: "Modules / Armor, tier T2"
 **Hergestellt aus 4 Komponenten, Forschungsebene 4** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Azilo-Protec Duoforge medium armor plate CT](/de/content/items/named1-medium-armor-plate-cprg/)
+**Bauplan:** [Azilo-Protec Duoforge medium armor plate CT](/content/items/named1-medium-armor-plate-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/plasteosine/">Plasteosine</a></div><div class="prod-card-body">benötigt: <b>700</b></div></div>

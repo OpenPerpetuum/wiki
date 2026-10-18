@@ -37,7 +37,7 @@ description: "Special & other / Miscellaneous, tier T2"
 **Производится из 10 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Advanced reactor foundation CT](/ru/content/items/pbs-reactor-medium-capsule-cprg/)
+**Чертёж:** [Advanced reactor foundation CT](/content/items/pbs-reactor-medium-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/alligior/">Alligior</a></div><div class="prod-card-body">нужно: <b>3.5k</b></div></div>

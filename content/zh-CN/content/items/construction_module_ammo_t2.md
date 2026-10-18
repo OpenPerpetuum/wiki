@@ -31,7 +31,7 @@ description: "Special & other / Miscellaneous, tier T2"
 **由组件 12个生产** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [Construction Module Ammo T2 Cprg](/zh-CN/content/items/construction-module-ammo-t2-cprg/)
+**蓝图:** [Construction Module Ammo T2 Cprg](/content/items/construction-module-ammo-t2-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/alligior/">Alligior</a></div><div class="prod-card-body">需要: <b>25</b></div></div>

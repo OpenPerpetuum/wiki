@@ -31,7 +31,7 @@ description: "Ammo / Cannon"
 **Vyráběn z 3 komponentách** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Ammo Hell Cannon C Cprg](/cs/content/items/ammo-hell-cannon-c-cprg/)
+**Výkres:** [Ammo Hell Cannon C Cprg](/content/items/ammo-hell-cannon-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">potřebné: <b>150</b></div></div>

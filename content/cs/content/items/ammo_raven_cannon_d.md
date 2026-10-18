@@ -32,7 +32,7 @@ description: "Ammo / Cannon"
 **Vyráběn z 5 komponentách** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Ammo Raven Cannon D Cprg](/cs/content/items/ammo-raven-cannon-d-cprg/)
+**Výkres:** [Ammo Raven Cannon D Cprg](/content/items/ammo-raven-cannon-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/biotichrin/">Biotichrin</a></div><div class="prod-card-body">potřebné: <b>200</b></div></div>

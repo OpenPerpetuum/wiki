@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T3"
 **Produzido a partir de 10 componentes, nível de pesquisa 6** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [Nuimtec-Accolon LRS medium EM-gun CT](/pt/content/items/named2-longrange-medium-railgun-cprg/)
+**Plano:** [Nuimtec-Accolon LRS medium EM-gun CT](/content/items/named2-longrange-medium-railgun-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/chollonin/">Chollonin</a></div><div class="prod-card-body">necessário: <b>50</b></div></div>

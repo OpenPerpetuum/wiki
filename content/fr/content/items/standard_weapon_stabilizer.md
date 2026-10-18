@@ -34,7 +34,7 @@ description: "Modules / Weapons, tier T1"
 **Produit à partir de 3 composants, niveau de recherche 4** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [Standard weapon stabilizer CT](/fr/content/items/standard-weapon-stabilizer-cprg/)
+**Plan :** [Standard weapon stabilizer CT](/content/items/standard-weapon-stabilizer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">requis : <b>350</b></div></div>

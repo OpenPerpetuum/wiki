@@ -34,7 +34,7 @@ description: "Modules / Harvesting, tier T4"
 **Vyráběn z 8 komponentách, výzkumná úroveň 4** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Protrim FDV-30 small harvester CT](/cs/content/items/named3-small-harvester-cprg/)
+**Výkres:** [Protrim FDV-30 small harvester CT](/content/items/named3-small-harvester-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">potřebné: <b>50</b></div></div>

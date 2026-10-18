@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T2"
 **由組件 7個生產 ，研究等級 5** — 組裝組件來製造它（完整列表見[配方](/zh-TW/content/recipes/)）:
 
 
-**藍圖:** [JPS-Redeye lock booster NEXUS module CT](/zh-TW/content/items/named1-gang-assist-shared-dataprocessing-module-cprg/)
+**藍圖:** [JPS-Redeye lock booster NEXUS module CT](/content/items/named1-gang-assist-shared-dataprocessing-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-TW/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">需要: <b>250</b></div></div>

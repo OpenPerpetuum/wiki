@@ -39,7 +39,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Produzido a partir de 2 componentes, nível de pesquisa 3** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [Standart Pelistal Combat Drone Unit Cprg](/pt/content/items/standart-pelistal-combat-drone-unit-cprg/)
+**Plano:** [Standart Pelistal Combat Drone Unit Cprg](/content/items/standart-pelistal-combat-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">necessário: <b>2.0k</b></div></div>

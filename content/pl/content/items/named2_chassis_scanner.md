@@ -35,7 +35,7 @@ description: "Modules / Sensors & scanning, tier T3"
 **Produkcja z 6 komponentów, poziom badań 5** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Stalis CS3 chassis scanner CT](/pl/content/items/named2-chassis-scanner-cprg/)
+**Nakładka:** [Stalis CS3 chassis scanner CT](/content/items/named2-chassis-scanner-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>125</b></div></div>

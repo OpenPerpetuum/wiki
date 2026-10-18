@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T3"
 **Produkcja z 8 komponentów, poziom badań 6** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Nuimtec-Midion AMS medium Gauss gun CT](/pl/content/items/named2-medium-railgun-cprg/)
+**Nakładka:** [Nuimtec-Midion AMS medium Gauss gun CT](/content/items/named2-medium-railgun-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/hydrobenol/">Hydrobenol</a></div><div class="prod-card-body">wymagane: <b>100</b></div></div>

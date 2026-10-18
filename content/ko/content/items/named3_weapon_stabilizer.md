@@ -34,7 +34,7 @@ description: "Modules / Weapons, tier T4"
 **구성 요소 10개로 생산 , 연구 레벨 7** — 구성 요소를 조립하여 제작합니다 (전체 목록은 [레시피](/ko/content/recipes/) 참조):
 
 
-**제작도:** [Kobel 300-XZ weapon stabilizer CT](/ko/content/items/named3-weapon-stabilizer-cprg/)
+**제작도:** [Kobel 300-XZ weapon stabilizer CT](/content/items/named3-weapon-stabilizer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ko/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">필요: <b>350</b></div></div>

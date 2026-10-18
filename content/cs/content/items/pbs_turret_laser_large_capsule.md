@@ -48,7 +48,7 @@ description: "Special & other / Miscellaneous, tier T3"
 **Vyráběn z 7 komponentách** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Hi-tech laser turret foundation CT](/cs/content/items/pbs-turret-laser-large-capsule-cprg/)
+**Výkres:** [Hi-tech laser turret foundation CT](/content/items/pbs-turret-laser-large-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/espitium/">Espitium</a></div><div class="prod-card-body">potřebné: <b>500</b></div></div>

@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T2"
 **Производится из 3 компонентах, уровень исследований 4** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Grenber 28d medium machine gun CT](/ru/content/items/named1-medium-autocannon-cprg/)
+**Чертёж:** [Grenber 28d medium machine gun CT](/content/items/named1-medium-autocannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">нужно: <b>200</b></div></div>

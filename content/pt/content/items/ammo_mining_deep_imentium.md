@@ -25,7 +25,7 @@ _Sem estatísticas — este item não carrega valores agregados._
 **Produzido a partir de 2 componentes** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [Ammo Mining Deep Imentium Cprg](/pt/content/items/ammo-mining-deep-imentium-cprg/)
+**Plano:** [Ammo Mining Deep Imentium Cprg](/content/items/ammo-mining-deep-imentium-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/polynitrocol/">Polynitrocol</a></div><div class="prod-card-body">necessário: <b>180</b></div></div>

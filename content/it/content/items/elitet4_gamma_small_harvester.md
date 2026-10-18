@@ -55,7 +55,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/it/content/shop/) 
 **Prodotto da 4 componenti** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Elitet4 Gamma Small Harvester Cprg](/it/content/items/elitet4-gamma-small-harvester-cprg/)
+**Piano:** [Elitet4 Gamma Small Harvester Cprg](/content/items/elitet4-gamma-small-harvester-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/material-boss-gamma-nuimqol/">Material Boss Gamma Nuimqol</a></div><div class="prod-card-body">richiesto: <b>67</b></div></div>

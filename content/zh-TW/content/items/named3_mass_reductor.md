@@ -34,7 +34,7 @@ description: "Modules / Enhancements, tier T4"
 **由組件 10個生產 ，研究等級 6** — 組裝組件來製造它（完整列表見[配方](/zh-TW/content/recipes/)）:
 
 
-**藍圖:** [MRE 3000 lightweight frame CT](/zh-TW/content/items/named3-mass-reductor-cprg/)
+**藍圖:** [MRE 3000 lightweight frame CT](/content/items/named3-mass-reductor-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-TW/content/items/alligior/">Alligior</a></div><div class="prod-card-body">需要: <b>350</b></div></div>

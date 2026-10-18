@@ -33,7 +33,7 @@ description: "Ammo / Projectiles"
 **Vyráběn z 4 komponentách, výzkumná úroveň 2** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Medium chemoactive bullet CT](/cs/content/items/ammo-medium-projectile-d-cprg/)
+**Výkres:** [Medium chemoactive bullet CT](/content/items/ammo-medium-projectile-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">potřebné: <b>100</b></div></div>

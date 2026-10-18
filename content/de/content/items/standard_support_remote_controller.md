@@ -44,7 +44,7 @@ description: "Modules / Remote control, tier T1"
 **Hergestellt aus 4 Komponenten, Forschungsebene 5** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Standard Support Remote Controller Cprg](/de/content/items/standard-support-remote-controller-cprg/)
+**Bauplan:** [Standard Support Remote Controller Cprg](/content/items/standard-support-remote-controller-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">benötigt: <b>250</b></div></div>

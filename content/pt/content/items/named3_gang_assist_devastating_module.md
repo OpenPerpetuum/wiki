@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T4"
 **Produzido a partir de 7 componentes, nível de pesquisa 7** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [T4 Gang Assist Devastating Module Cprg](/pt/content/items/named3-gang-assist-devastating-module-cprg/)
+**Plano:** [T4 Gang Assist Devastating Module Cprg](/content/items/named3-gang-assist-devastating-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-panel"/></svg><a class="prod-card-name" href="/pt/content/items/named2-gang-assist-devastating-module/">T3 Gang Assist Devastating Module</a></div><div class="prod-card-body">necessário: <b>1</b></div></div>

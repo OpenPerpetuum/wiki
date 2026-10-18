@@ -26,7 +26,7 @@ _Nessuna statistica — questo oggetto non porta valori aggregati._
 **Prodotto da 2 componenti, livello di ricerca 1** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Miner charge (silgium) CT](/it/content/items/ammo-mining-silgium-cprg/)
+**Piano:** [Miner charge (silgium) CT](/content/items/ammo-mining-silgium-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">richiesto: <b>20</b></div></div>

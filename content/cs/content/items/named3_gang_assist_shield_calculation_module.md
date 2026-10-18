@@ -36,7 +36,7 @@ description: "Modules / Shield, tier T4"
 **Vyráběn z 12 komponentách, výzkumná úroveň 7** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Bomitar II. shield NEXUS module CT](/cs/content/items/named3-gang-assist-shield-calculation-module-cprg/)
+**Výkres:** [Bomitar II. shield NEXUS module CT](/content/items/named3-gang-assist-shield-calculation-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/alligior/">Alligior</a></div><div class="prod-card-body">potřebné: <b>100</b></div></div>

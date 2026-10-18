@@ -35,7 +35,7 @@ description: "Modules / Repair, tier T4"
 **Vyráběn z 9 komponentách, výzkumná úroveň 5** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Microforge Aestolar small armor repairer CT](/cs/content/items/named3-small-armor-repairer-cprg/)
+**Výkres:** [Microforge Aestolar small armor repairer CT](/content/items/named3-small-armor-repairer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/alligior/">Alligior</a></div><div class="prod-card-body">potřebné: <b>200</b></div></div>

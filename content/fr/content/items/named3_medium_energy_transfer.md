@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T4"
 **Produit à partir de 8 composants, niveau de recherche 7** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [Livostid PT-VI medium energy transferer CT](/fr/content/items/named3-medium-energy-transfer-cprg/)
+**Plan :** [Livostid PT-VI medium energy transferer CT](/content/items/named3-medium-energy-transfer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">requis : <b>500</b></div></div>

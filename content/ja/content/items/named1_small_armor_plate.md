@@ -34,7 +34,7 @@ description: "Modules / Armor, tier T2"
 **コンポーネント4個から製造 、研究レベル 2** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Wobost-Titangrip light armor plate CT](/ja/content/items/named1-small-armor-plate-cprg/)
+**設計図:** [Wobost-Titangrip light armor plate CT](/content/items/named1-small-armor-plate-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/plasteosine/">Plasteosine</a></div><div class="prod-card-body">必要: <b>350</b></div></div>

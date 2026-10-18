@@ -36,7 +36,7 @@ description: "Special & other / Miscellaneous, tier T3"
 **Производится из 5 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Hi-tech energy battery foundation CT](/ru/content/items/pbs-core-battery-large-capsule-cprg/)
+**Чертёж:** [Hi-tech energy battery foundation CT](/content/items/pbs-core-battery-large-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/espitium/">Espitium</a></div><div class="prod-card-body">нужно: <b>5.0k</b></div></div>

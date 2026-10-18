@@ -31,7 +31,7 @@ description: "Ammo / Cannon"
 **Producido desde 3 componentes** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Ammo Raven Cannon C Cprg](/es/content/items/ammo-raven-cannon-c-cprg/)
+**Planos:** [Ammo Raven Cannon C Cprg](/content/items/ammo-raven-cannon-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">requerido: <b>150</b></div></div>

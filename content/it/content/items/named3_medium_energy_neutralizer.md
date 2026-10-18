@@ -37,7 +37,7 @@ description: "Modules / Shield, tier T4"
 **Prodotto da 12 componenti, livello di ricerca 7** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Sicado I. medium energy neutralizer CT](/it/content/items/named3-medium-energy-neutralizer-cprg/)
+**Piano:** [Sicado I. medium energy neutralizer CT](/content/items/named3-medium-energy-neutralizer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/espitium/">Espitium</a></div><div class="prod-card-body">richiesto: <b>400</b></div></div>

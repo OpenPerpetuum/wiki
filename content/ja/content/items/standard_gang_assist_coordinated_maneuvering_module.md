@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T1"
 **コンポーネント3個から製造 、研究レベル 4** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Standard evasive NEXUS module CT](/ja/content/items/standard-gang-assist-coordinated-maneuvering-module-cprg/)
+**設計図:** [Standard evasive NEXUS module CT](/content/items/standard-gang-assist-coordinated-maneuvering-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">必要: <b>500</b></div></div>

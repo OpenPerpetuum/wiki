@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T4"
 **Prodotto da 12 componenti, livello di ricerca 7** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Phisker 30PW medium HCL laser CT](/it/content/items/named3-longrange-medium-laser-cprg/)
+**Piano:** [Phisker 30PW medium HCL laser CT](/content/items/named3-longrange-medium-laser-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/espitium/">Espitium</a></div><div class="prod-card-body">richiesto: <b>100</b></div></div>

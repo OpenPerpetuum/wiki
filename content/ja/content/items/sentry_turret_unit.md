@@ -44,7 +44,7 @@ description: "Special & other / Miscellaneous"
 **コンポーネント7個から製造 、研究レベル 5** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Sentry Turret Unit Cprg](/ja/content/items/sentry-turret-unit-cprg/)
+**設計図:** [Sentry Turret Unit Cprg](/content/items/sentry-turret-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">必要: <b>1.0k</b></div></div>

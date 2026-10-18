@@ -37,7 +37,7 @@ description: "Modules / Weapons, tier T1"
 **Geproduceerd uit 6 componentën** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Standard Raven Cannon Cprg](/nl/content/items/standard-raven-cannon-cprg/)
+**Bouwtekening:** [Standard Raven Cannon Cprg](/content/items/standard-raven-cannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">vereist: <b>100</b></div></div>

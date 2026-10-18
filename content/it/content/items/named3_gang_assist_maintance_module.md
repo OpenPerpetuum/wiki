@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T4"
 **Prodotto da 12 componenti, livello di ricerca 7** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [ACF-9900 repairer NEXUS module CT](/it/content/items/named3-gang-assist-maintance-module-cprg/)
+**Piano:** [ACF-9900 repairer NEXUS module CT](/content/items/named3-gang-assist-maintance-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/alligior/">Alligior</a></div><div class="prod-card-body">richiesto: <b>300</b></div></div>

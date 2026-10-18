@@ -26,7 +26,7 @@ _无统计 — 此物品没有聚合值。_
 **由组件 9个生产** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [Reactor Booster C Cprg](/zh-CN/content/items/reactor-booster-c-cprg/)
+**蓝图:** [Reactor Booster C Cprg](/content/items/reactor-booster-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">需要: <b>1.1k</b></div></div>

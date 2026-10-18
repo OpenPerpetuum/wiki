@@ -37,7 +37,7 @@ description: "Modules / Weapons, tier T4"
 **Producido desde 13 componentes** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [T4 Longrange Large Railgun Cprg](/es/content/items/named3-longrange-large-railgun-cprg/)
+**Planos:** [T4 Longrange Large Railgun Cprg](/content/items/named3-longrange-large-railgun-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/chollonin/">Chollonin</a></div><div class="prod-card-body">requerido: <b>150</b></div></div>

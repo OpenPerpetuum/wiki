@@ -25,7 +25,7 @@ _无统计 — 此物品没有聚合值。_
 **由组件 4个生产** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [Ammo Mining Deep Fluxore Cprg](/zh-CN/content/items/ammo-mining-deep-fluxore-cprg/)
+**蓝图:** [Ammo Mining Deep Fluxore Cprg](/content/items/ammo-mining-deep-fluxore-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/isopropentol/">Isopropentol</a></div><div class="prod-card-body">需要: <b>90</b></div></div>

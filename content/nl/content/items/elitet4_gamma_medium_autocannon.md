@@ -59,7 +59,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/nl/content/shop/) 
 **Geproduceerd uit 2 componentën** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Elitet4 Gamma Medium Autocannon Cprg](/nl/content/items/elitet4-gamma-medium-autocannon-cprg/)
+**Bouwtekening:** [Elitet4 Gamma Medium Autocannon Cprg](/content/items/elitet4-gamma-medium-autocannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/material-boss-gamma-syndicate/">Material Boss Gamma Syndicate</a></div><div class="prod-card-body">vereist: <b>400</b></div></div>

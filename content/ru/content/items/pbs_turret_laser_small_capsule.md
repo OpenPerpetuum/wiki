@@ -48,7 +48,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Производится из 6 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Standard laser turret foundation CT](/ru/content/items/pbs-turret-laser-small-capsule-cprg/)
+**Чертёж:** [Standard laser turret foundation CT](/content/items/pbs-turret-laser-small-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">нужно: <b>500</b></div></div>

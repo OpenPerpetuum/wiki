@@ -36,7 +36,7 @@ description: "Special & other / Miscellaneous, tier T3"
 **Producido desde 5 componentes** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Hi-tech energy backbone node foundation CT](/es/content/items/pbs-xl-core-transmitter-large-capsule-cprg/)
+**Planos:** [Hi-tech energy backbone node foundation CT](/content/items/pbs-xl-core-transmitter-large-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/espitium/">Espitium</a></div><div class="prod-card-body">requerido: <b>400</b></div></div>

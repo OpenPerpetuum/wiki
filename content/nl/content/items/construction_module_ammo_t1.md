@@ -31,7 +31,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Geproduceerd uit 8 componentën** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Construction Module Ammo T1 Cprg](/nl/content/items/construction-module-ammo-t1-cprg/)
+**Bouwtekening:** [Construction Module Ammo T1 Cprg](/content/items/construction-module-ammo-t1-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">vereist: <b>25</b></div></div>

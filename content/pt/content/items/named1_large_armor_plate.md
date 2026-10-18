@@ -34,7 +34,7 @@ description: "Modules / Armor, tier T2"
 **Produzido a partir de 5 componentes** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [T2 Large Armor Plate Cprg](/pt/content/items/named1-large-armor-plate-cprg/)
+**Plano:** [T2 Large Armor Plate Cprg](/content/items/named1-large-armor-plate-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/plasteosine/">Plasteosine</a></div><div class="prod-card-body">necessário: <b>1.1k</b></div></div>

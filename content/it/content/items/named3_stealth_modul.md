@@ -34,7 +34,7 @@ description: "Modules / Enhancements, tier T4"
 **Prodotto da 10 componenti, livello di ricerca 9** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Longlag signal masker CT](/it/content/items/named3-stealth-modul-cprg/)
+**Piano:** [Longlag signal masker CT](/content/items/named3-stealth-modul-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/alligior/">Alligior</a></div><div class="prod-card-body">richiesto: <b>50</b></div></div>

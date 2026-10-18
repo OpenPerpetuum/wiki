@@ -25,7 +25,7 @@ _Geen statistieken — dit item draagt geen geaggregeerde waarden._
 **Geproduceerd uit 2 componentën, onderzoekslevel 1** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Infrared robotic eyes [Obelisk V] CT](/nl/content/items/missionitem-tm-ii-level03-exp3-05-t05-cprg/)
+**Bouwtekening:** [Infrared robotic eyes [Obelisk V] CT](/content/items/missionitem-tm-ii-level03-exp3-05-t05-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/missionitem-tm-ii-level03-exp3-05-t02/">Eye sensors [Obelisk V]</a></div><div class="prod-card-body">vereist: <b>1</b></div></div>

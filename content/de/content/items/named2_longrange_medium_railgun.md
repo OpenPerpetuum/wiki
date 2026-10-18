@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T3"
 **Hergestellt aus 10 Komponenten, Forschungsebene 6** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Nuimtec-Accolon LRS medium EM-gun CT](/de/content/items/named2-longrange-medium-railgun-cprg/)
+**Bauplan:** [Nuimtec-Accolon LRS medium EM-gun CT](/content/items/named2-longrange-medium-railgun-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/chollonin/">Chollonin</a></div><div class="prod-card-body">benötigt: <b>50</b></div></div>

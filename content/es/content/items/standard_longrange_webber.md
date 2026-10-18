@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T1"
 **Producido desde 3 componentes, nivel de investigación 6** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Standard L-demobilizer CT](/es/content/items/standard-longrange-webber-cprg/)
+**Planos:** [Standard L-demobilizer CT](/content/items/standard-longrange-webber-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">requerido: <b>500</b></div></div>

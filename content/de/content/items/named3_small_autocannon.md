@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T4"
 **Hergestellt aus 5 Komponenten, Forschungsebene 4** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Astoc M45 light autocannon CT](/de/content/items/named3-small-autocannon-cprg/)
+**Bauplan:** [Astoc M45 light autocannon CT](/content/items/named3-small-autocannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">benötigt: <b>100</b></div></div>

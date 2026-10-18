@@ -34,7 +34,7 @@ description: "Modules / Armor, tier T4"
 **Produkcja z 8 komponentów, poziom badań 6** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [THL-Testudo medium armor plate CT](/pl/content/items/named3-medium-armor-plate-cprg/)
+**Nakładka:** [THL-Testudo medium armor plate CT](/content/items/named3-medium-armor-plate-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">wymagane: <b>700</b></div></div>

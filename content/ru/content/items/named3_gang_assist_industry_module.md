@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T4"
 **Производится из 10 компонентах, уровень исследований 7** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Rypoa industrial NEXUS module CT](/ru/content/items/named3-gang-assist-industry-module-cprg/)
+**Чертёж:** [Rypoa industrial NEXUS module CT](/content/items/named3-gang-assist-industry-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/alligior/">Alligior</a></div><div class="prod-card-body">нужно: <b>100</b></div></div>

@@ -25,7 +25,7 @@ _Nessuna statistica — questo oggetto non porta valori aggregati._
 **Prodotto da 2 componenti** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Ammo Mining Deep Liquizit Cprg](/it/content/items/ammo-mining-deep-liquizit-cprg/)
+**Piano:** [Ammo Mining Deep Liquizit Cprg](/content/items/ammo-mining-deep-liquizit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">richiesto: <b>225</b></div></div>

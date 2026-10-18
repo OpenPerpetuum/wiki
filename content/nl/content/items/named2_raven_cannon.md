@@ -37,7 +37,7 @@ description: "Modules / Weapons, tier T3"
 **Geproduceerd uit 9 componentën** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [T3 Raven Cannon Cprg](/nl/content/items/named2-raven-cannon-cprg/)
+**Bouwtekening:** [T3 Raven Cannon Cprg](/content/items/named2-raven-cannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">vereist: <b>100</b></div></div>

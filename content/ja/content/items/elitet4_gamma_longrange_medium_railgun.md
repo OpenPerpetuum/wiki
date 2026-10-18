@@ -59,7 +59,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/ja/content/shop/) 
 **コンポーネント2個から製造** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Elitet4 Gamma Longrange Medium Railgun Cprg](/ja/content/items/elitet4-gamma-longrange-medium-railgun-cprg/)
+**設計図:** [Elitet4 Gamma Longrange Medium Railgun Cprg](/content/items/elitet4-gamma-longrange-medium-railgun-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/material-boss-gamma-nuimqol/">Material Boss Gamma Nuimqol</a></div><div class="prod-card-body">必要: <b>400</b></div></div>

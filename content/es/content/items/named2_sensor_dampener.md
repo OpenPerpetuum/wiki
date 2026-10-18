@@ -38,7 +38,7 @@ description: "Modules / Sensors & scanning, tier T3"
 **Producido desde 10 componentes, nivel de investigación 5** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [MSD m\\2315 'Filch' sensor suppressor CT](/es/content/items/named2-sensor-dampener-cprg/)
+**Planos:** [MSD m\\2315 'Filch' sensor suppressor CT](/content/items/named2-sensor-dampener-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/espitium/">Espitium</a></div><div class="prod-card-body">requerido: <b>100</b></div></div>

@@ -34,7 +34,7 @@ description: "Modules / Armor, tier T3"
 **由组件 7个生产** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [T3 Large Armor Plate Cprg](/zh-CN/content/items/named2-large-armor-plate-cprg/)
+**蓝图:** [T3 Large Armor Plate Cprg](/content/items/named2-large-armor-plate-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/alligior/">Alligior</a></div><div class="prod-card-body">需要: <b>525</b></div></div>

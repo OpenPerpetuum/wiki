@@ -36,7 +36,7 @@ description: "Modules / Shield, tier T4"
 **コンポーネント9個から製造 、研究レベル 5** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [SBA-200 Forebrace small shield generator CT](/ja/content/items/named3-small-shield-generator-cprg/)
+**設計図:** [SBA-200 Forebrace small shield generator CT](/content/items/named3-small-shield-generator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/alligior/">Alligior</a></div><div class="prod-card-body">必要: <b>400</b></div></div>

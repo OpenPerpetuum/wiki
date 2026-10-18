@@ -55,7 +55,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/es/content/shop/) 
 **Producido desde 2 componentes** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Elitet2 71 Maneuvering Upgrade Cprg](/es/content/items/elitet2-71-maneuvering-upgrade-cprg/)
+**Planos:** [Elitet2 71 Maneuvering Upgrade Cprg](/content/items/elitet2-71-maneuvering-upgrade-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/material-boss-z71/">Material Boss Z71</a></div><div class="prod-card-body">requerido: <b>300</b></div></div>

@@ -30,7 +30,7 @@ description: "Ammo / Cannon"
 **Hergestellt aus 2 Komponenten, Forschungsebene 3** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Medium compositecore slug CT](/de/content/items/ammo-medium-railgun-d-cprg/)
+**Bauplan:** [Medium compositecore slug CT](/content/items/ammo-medium-railgun-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/polynitrocol/">Polynitrocol</a></div><div class="prod-card-body">benötigt: <b>200</b></div></div>

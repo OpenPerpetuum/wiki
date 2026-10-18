@@ -41,7 +41,7 @@ description: "Modules / Remote control, tier T2"
 **Produkcja z 6 komponentów** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [T2 Remote Command Translator Cprg](/pl/content/items/named1-remote-command-translator-cprg/)
+**Nakładka:** [T2 Remote Command Translator Cprg](/content/items/named1-remote-command-translator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>250</b></div></div>

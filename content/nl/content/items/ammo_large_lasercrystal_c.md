@@ -31,7 +31,7 @@ description: "Ammo / Beam & laser"
 **Geproduceerd uit 4 componentën** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Ammo Large Lasercrystal C Cprg](/nl/content/items/ammo-large-lasercrystal-c-cprg/)
+**Bouwtekening:** [Ammo Large Lasercrystal C Cprg](/content/items/ammo-large-lasercrystal-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/polynitrocol/">Polynitrocol</a></div><div class="prod-card-body">vereist: <b>75</b></div></div>

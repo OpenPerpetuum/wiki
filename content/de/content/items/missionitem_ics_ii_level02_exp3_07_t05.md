@@ -25,7 +25,7 @@ _Keine Statistiken — dieses Element trägt keine aggregierten Werte._
 **Hergestellt aus 2 Komponenten, Forschungsebene 1** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Transformator [Meteora VII] CT](/de/content/items/missionitem-ics-ii-level02-exp3-07-t05-cprg/)
+**Bauplan:** [Transformator [Meteora VII] CT](/content/items/missionitem-ics-ii-level02-exp3-07-t05-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/missionitem-ics-ii-level02-exp3-07-t03/">Transformator casing [Meteora VII/1]</a></div><div class="prod-card-body">benötigt: <b>1</b></div></div>

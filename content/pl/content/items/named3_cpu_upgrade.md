@@ -32,7 +32,7 @@ description: "Modules / Enhancements, tier T4"
 **Produkcja z 8 komponentów, poziom badań 6** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Processyt-C1000 coprocessor CT](/pl/content/items/named3-cpu-upgrade-cprg/)
+**Nakładka:** [Processyt-C1000 coprocessor CT](/content/items/named3-cpu-upgrade-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>350</b></div></div>

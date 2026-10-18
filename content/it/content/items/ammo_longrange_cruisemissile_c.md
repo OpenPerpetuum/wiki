@@ -33,7 +33,7 @@ description: "Ammo / Missiles"
 **Prodotto da 4 componenti** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Ammo Longrange Cruisemissile C Cprg](/it/content/items/ammo-longrange-cruisemissile-c-cprg/)
+**Piano:** [Ammo Longrange Cruisemissile C Cprg](/content/items/ammo-longrange-cruisemissile-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">richiesto: <b>150</b></div></div>

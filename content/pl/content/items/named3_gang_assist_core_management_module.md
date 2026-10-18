@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T4"
 **Produkcja z 9 komponentów, poziom badań 7** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [ARMS X500 recharger NEXUS module CT](/pl/content/items/named3-gang-assist-core-management-module-cprg/)
+**Nakładka:** [ARMS X500 recharger NEXUS module CT](/content/items/named3-gang-assist-core-management-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">wymagane: <b>100</b></div></div>

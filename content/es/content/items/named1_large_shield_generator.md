@@ -35,7 +35,7 @@ description: "Modules / Shield, tier T2"
 **Producido desde 8 componentes** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [T2 Large Shield Generator Cprg](/es/content/items/named1-large-shield-generator-cprg/)
+**Planos:** [T2 Large Shield Generator Cprg](/content/items/named1-large-shield-generator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">requerido: <b>300</b></div></div>

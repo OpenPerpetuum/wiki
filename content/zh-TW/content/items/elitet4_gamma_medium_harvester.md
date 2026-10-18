@@ -55,7 +55,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/zh-TW/content/shop
 **由組件 4個生產** — 組裝組件來製造它（完整列表見[配方](/zh-TW/content/recipes/)）:
 
 
-**藍圖:** [Elitet4 Gamma Medium Harvester Cprg](/zh-TW/content/items/elitet4-gamma-medium-harvester-cprg/)
+**藍圖:** [Elitet4 Gamma Medium Harvester Cprg](/content/items/elitet4-gamma-medium-harvester-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-TW/content/items/material-boss-gamma-nuimqol/">Material Boss Gamma Nuimqol</a></div><div class="prod-card-body">需要: <b>134</b></div></div>

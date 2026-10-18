@@ -55,7 +55,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/ko/content/shop/) 
 **구성 요소 4개로 생산** — 구성 요소를 조립하여 제작합니다 (전체 목록은 [레시피](/ko/content/recipes/) 참조):
 
 
-**제작도:** [Elitet4 Gamma Medium Harvester Cprg](/ko/content/items/elitet4-gamma-medium-harvester-cprg/)
+**제작도:** [Elitet4 Gamma Medium Harvester Cprg](/content/items/elitet4-gamma-medium-harvester-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ko/content/items/material-boss-gamma-nuimqol/">Material Boss Gamma Nuimqol</a></div><div class="prod-card-body">필요: <b>134</b></div></div>

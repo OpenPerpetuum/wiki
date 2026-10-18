@@ -40,7 +40,7 @@ description: "Special & other / Miscellaneous, tier T2"
 **由组件 2个生产 ，研究等级 4** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [T2 Nuimqol Combat Drone Unit Cprg](/zh-CN/content/items/named1-nuimqol-combat-drone-unit-cprg/)
+**蓝图:** [T2 Nuimqol Combat Drone Unit Cprg](/content/items/named1-nuimqol-combat-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/polynitrocol/">Polynitrocol</a></div><div class="prod-card-body">需要: <b>3.0k</b></div></div>

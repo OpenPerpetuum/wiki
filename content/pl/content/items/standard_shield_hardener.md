@@ -33,7 +33,7 @@ description: "Modules / Shield, tier T1"
 **Produkcja z 5 komponentów, poziom badań 3** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Standard shield hardener CT](/pl/content/items/standard-shield-hardener-cprg/)
+**Nakładka:** [Standard shield hardener CT](/content/items/standard-shield-hardener-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>200</b></div></div>

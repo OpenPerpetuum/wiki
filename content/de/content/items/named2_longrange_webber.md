@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T3"
 **Hergestellt aus 8 Komponenten, Forschungsebene 8** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [GLOO L-demobilizer CT](/de/content/items/named2-longrange-webber-cprg/)
+**Bauplan:** [GLOO L-demobilizer CT](/content/items/named2-longrange-webber-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">benötigt: <b>250</b></div></div>

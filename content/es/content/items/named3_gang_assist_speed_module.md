@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T4"
 **Producido desde 10 componentes, nivel de investigación 7** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Contra velocity NEXUS module CT](/es/content/items/named3-gang-assist-speed-module-cprg/)
+**Planos:** [Contra velocity NEXUS module CT](/content/items/named3-gang-assist-speed-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/chollonin/">Chollonin</a></div><div class="prod-card-body">requerido: <b>600</b></div></div>

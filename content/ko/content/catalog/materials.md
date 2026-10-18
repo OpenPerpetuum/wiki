@@ -19,7 +19,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/admin-trashcan/">Admin Trashcan</a></div>
+<div><div class="mission-card-title"><a href="/content/items/admin-trashcan/">Admin Trashcan</a></div>
 </div>
 </div>
 </div>
@@ -33,35 +33,35 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/arbalest-bot-cprg/">Arbalest CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/arbalest-bot-cprg/">Arbalest CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/ares-bot-cprg/">Ares Bot Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ares-bot-cprg/">Ares Bot Cprg</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/argano-bot-cprg/">Argano CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/argano-bot-cprg/">Argano CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/artemis-bot-cprg/">Artemis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/artemis-bot-cprg/">Artemis CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/asi-zone-item-shop/">Asi Zone Item Shop</a></div>
+<div><div class="mission-card-title"><a href="/content/items/asi-zone-item-shop/">Asi Zone Item Shop</a></div>
 </div>
 </div>
 </div>
@@ -82,14 +82,14 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/baphomet-bot-cprg/">Baphomet CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/baphomet-bot-cprg/">Baphomet CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/beholder-bot-cprg/">Beholder Bot Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/beholder-bot-cprg/">Beholder Bot Cprg</a></div>
 </div>
 </div>
 </div>
@@ -103,21 +103,21 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/cameleon-bot-cprg/">Cameleon CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/cameleon-bot-cprg/">Cameleon CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/castel-bot-cprg/">Castel CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/castel-bot-cprg/">Castel CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/character-storage/">Character Storage</a></div>
+<div><div class="mission-card-title"><a href="/content/items/character-storage/">Character Storage</a></div>
 </div>
 </div>
 </div>
@@ -131,56 +131,56 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/common-energy-core-high/">Common Energy Core High</a></div>
+<div><div class="mission-card-title"><a href="/content/items/common-energy-core-high/">Common Energy Core High</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/common-energy-core-low/">Common Energy Core Low</a></div>
+<div><div class="mission-card-title"><a href="/content/items/common-energy-core-low/">Common Energy Core Low</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/common-energy-core-medium/">Common Energy Core Medium</a></div>
+<div><div class="mission-card-title"><a href="/content/items/common-energy-core-medium/">Common Energy Core Medium</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/common-reactor-plasma/">Common reactor plasma</a></div>
+<div><div class="mission-card-title"><a href="/content/items/common-reactor-plasma/">Common reactor plasma</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/construction-module-ammo-normal-cprg/">Construction block CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/construction-module-ammo-normal-cprg/">Construction block CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/corebooster-ammo-cprg/">Standard energy injector charge CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/corebooster-ammo-cprg/">Standard energy injector charge CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/corporate-hangar-folder/">Storage folder</a></div>
+<div><div class="mission-card-title"><a href="/content/items/corporate-hangar-folder/">Storage folder</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/corporate-hangar-standard/">Corporation storage</a></div>
+<div><div class="mission-card-title"><a href="/content/items/corporate-hangar-standard/">Corporation storage</a></div>
 </div>
 </div>
 </div>
@@ -215,21 +215,21 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/default-alliance-storage/">Default Alliance Storage</a></div>
+<div><div class="mission-card-title"><a href="/content/items/default-alliance-storage/">Default Alliance Storage</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/default-corporation-storage/">Default Corporation Storage</a></div>
+<div><div class="mission-card-title"><a href="/content/items/default-corporation-storage/">Default Corporation Storage</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/deploy-punchbag/">Deploy Punchbag</a></div>
+<div><div class="mission-card-title"><a href="/content/items/deploy-punchbag/">Deploy Punchbag</a></div>
 </div>
 </div>
 </div>
@@ -264,35 +264,35 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/empty-alarm-switch/">Empty Alarm Switch</a></div>
+<div><div class="mission-card-title"><a href="/content/items/empty-alarm-switch/">Empty Alarm Switch</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/empty-item-supply/">Item supply</a></div>
+<div><div class="mission-card-title"><a href="/content/items/empty-item-supply/">Item supply</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/empty-kiosk/">Empty Kiosk</a></div>
+<div><div class="mission-card-title"><a href="/content/items/empty-kiosk/">Empty Kiosk</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/empty-simple-switch/">Empty Simple Switch</a></div>
+<div><div class="mission-card-title"><a href="/content/items/empty-simple-switch/">Empty Simple Switch</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/energymineral/">Energy field</a></div>
+<div><div class="mission-card-title"><a href="/content/items/energymineral/">Energy field</a></div>
 </div>
 </div>
 </div>
@@ -334,7 +334,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/felos-bot-cprg/">Felos Bot Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/felos-bot-cprg/">Felos Bot Cprg</a></div>
 </div>
 </div>
 </div>
@@ -390,91 +390,91 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/gargoyle-bot-cprg/">Gargoyle CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gargoyle-bot-cprg/">Gargoyle CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/geoscan-document-crude/">Mineral data (HDT)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/geoscan-document-crude/">Mineral data (HDT)</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/geoscan-document-dhdt/">Geoscan Document Dhdt</a></div>
+<div><div class="mission-card-title"><a href="/content/items/geoscan-document-dhdt/">Geoscan Document Dhdt</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/geoscan-document-epriton/">Mineral data (Epriton)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/geoscan-document-epriton/">Mineral data (Epriton)</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/geoscan-document-fluxore/">Geoscan Document Fluxore</a></div>
+<div><div class="mission-card-title"><a href="/content/items/geoscan-document-fluxore/">Geoscan Document Fluxore</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/geoscan-document-gravel/">Mineral data (Solibdit)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/geoscan-document-gravel/">Mineral data (Solibdit)</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/geoscan-document-imentium/">Mineral data (Imentium)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/geoscan-document-imentium/">Mineral data (Imentium)</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/geoscan-document-liquizit/">Mineral data (Liquizit)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/geoscan-document-liquizit/">Mineral data (Liquizit)</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/geoscan-document-silgium/">Mineral data (Silgium)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/geoscan-document-silgium/">Mineral data (Silgium)</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/geoscan-document-stermonit/">Mineral data (Stermonit)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/geoscan-document-stermonit/">Mineral data (Stermonit)</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/geoscan-document-titan/">Mineral data (Titan)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/geoscan-document-titan/">Mineral data (Titan)</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/gropho-bot-cprg/">Gropho CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gropho-bot-cprg/">Gropho CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/harvesting-industrial-drone-unit-cprg/">Harvesting Industrial Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/harvesting-industrial-drone-unit-cprg/">Harvesting Industrial Drone Unit Cprg</a></div>
 </div>
 </div>
 </div>
@@ -509,7 +509,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/hydra-bot-cprg/">Hydra Bot Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/hydra-bot-cprg/">Hydra Bot Cprg</a></div>
 </div>
 </div>
 </div>
@@ -523,14 +523,14 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/ics-zone-item-shop/">Ics Zone Item Shop</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ics-zone-item-shop/">Ics Zone Item Shop</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/ictus-bot-cprg/">Ictus CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ictus-bot-cprg/">Ictus CT</a></div>
 </div>
 </div>
 </div>
@@ -558,7 +558,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/intakt-bot-cprg/">Intakt CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/intakt-bot-cprg/">Intakt CT</a></div>
 </div>
 </div>
 </div>
@@ -572,70 +572,70 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/kain-bot-cprg/">Kain CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kain-bot-cprg/">Kain CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/kernel-common/">Common kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kernel-common/">Common kernel</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/kernel-hitech/">Hitech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kernel-hitech/">Hitech kernel</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/kernel-industrial/">Nian Industrial Trust kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kernel-industrial/">Nian Industrial Trust kernel</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/kernel-newtech/">Advanced kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kernel-newtech/">Advanced kernel</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/kernel-nuimqol/">Nuimqol kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kernel-nuimqol/">Nuimqol kernel</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/kernel-pelistal/">Pelistal kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kernel-pelistal/">Pelistal kernel</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/kernel-thelodica/">Thelodica kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kernel-thelodica/">Thelodica kernel</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/laird-bot-cprg/">Laird CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/laird-bot-cprg/">Laird CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/limited-capacity-box-standard/">Small container</a></div>
+<div><div class="mission-card-title"><a href="/content/items/limited-capacity-box-standard/">Small container</a></div>
 </div>
 </div>
 </div>
@@ -670,14 +670,14 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/lithus-bot-cprg/">Lithus CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/lithus-bot-cprg/">Lithus CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/loot-container-object/">Loot Container Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/loot-container-object/">Loot Container Object</a></div>
 </div>
 </div>
 </div>
@@ -733,7 +733,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/mesmer-bot-cprg/">Mesmer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mesmer-bot-cprg/">Mesmer CT</a></div>
 </div>
 </div>
 </div>
@@ -747,77 +747,77 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/mining-industrial-drone-unit-cprg/">Mining Industrial Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mining-industrial-drone-unit-cprg/">Mining Industrial Drone Unit Cprg</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/nuimqol-assault-drone-unit-cprg/">Nuimqol Assault Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/nuimqol-assault-drone-unit-cprg/">Nuimqol Assault Drone Unit Cprg</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/nuimqol-attack-drone-unit-cprg/">Nuimqol Attack Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/nuimqol-attack-drone-unit-cprg/">Nuimqol Attack Drone Unit Cprg</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/nuimqol-energy-core-high/">Nuimqol Energy Core High</a></div>
+<div><div class="mission-card-title"><a href="/content/items/nuimqol-energy-core-high/">Nuimqol Energy Core High</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/nuimqol-energy-core-low/">Nuimqol Energy Core Low</a></div>
+<div><div class="mission-card-title"><a href="/content/items/nuimqol-energy-core-low/">Nuimqol Energy Core Low</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/nuimqol-energy-core-medium/">Nuimqol Energy Core Medium</a></div>
+<div><div class="mission-card-title"><a href="/content/items/nuimqol-energy-core-medium/">Nuimqol Energy Core Medium</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/nuimqol-reactor-plasma/">Nuimqol reactor plasma</a></div>
+<div><div class="mission-card-title"><a href="/content/items/nuimqol-reactor-plasma/">Nuimqol reactor plasma</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/onyx-bot-cprg/">Onyx Bot Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/onyx-bot-cprg/">Onyx Bot Cprg</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pelistal-assault-drone-unit-cprg/">Pelistal Assault Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pelistal-assault-drone-unit-cprg/">Pelistal Assault Drone Unit Cprg</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pelistal-attack-drone-unit-cprg/">Pelistal Attack Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pelistal-attack-drone-unit-cprg/">Pelistal Attack Drone Unit Cprg</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pelistal-reactor-plasma/">Pelistal reactor plasma</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pelistal-reactor-plasma/">Pelistal reactor plasma</a></div>
 </div>
 </div>
 </div>
@@ -838,7 +838,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/police-storage/">Police Storage</a></div>
+<div><div class="mission-card-title"><a href="/content/items/police-storage/">Police Storage</a></div>
 </div>
 </div>
 </div>
@@ -894,35 +894,35 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/private-alliance-storage/">Private Alliance Storage</a></div>
+<div><div class="mission-card-title"><a href="/content/items/private-alliance-storage/">Private Alliance Storage</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/private-container-standard/">Private Container Standard</a></div>
+<div><div class="mission-card-title"><a href="/content/items/private-container-standard/">Private Container Standard</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/private-corporation-storage/">Private Corporation Storage</a></div>
+<div><div class="mission-card-title"><a href="/content/items/private-corporation-storage/">Private Corporation Storage</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/prometheus-bot-cprg/">Prometheus CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/prometheus-bot-cprg/">Prometheus CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/public-corporate-hangars-storage/">Corporation storages</a></div>
+<div><div class="mission-card-title"><a href="/content/items/public-corporate-hangars-storage/">Corporation storages</a></div>
 </div>
 </div>
 </div>
@@ -957,98 +957,98 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/repair-support-drone-unit-cprg/">Repair Support Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/repair-support-drone-unit-cprg/">Repair Support Drone Unit Cprg</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/research-kit-0/">Level 0 decoder</a></div>
+<div><div class="mission-card-title"><a href="/content/items/research-kit-0/">Level 0 decoder</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/research-kit-1/">Level 1 decoder</a></div>
+<div><div class="mission-card-title"><a href="/content/items/research-kit-1/">Level 1 decoder</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/research-kit-10/">Level 10 decoder</a></div>
+<div><div class="mission-card-title"><a href="/content/items/research-kit-10/">Level 10 decoder</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/research-kit-2/">Level 2 decoder</a></div>
+<div><div class="mission-card-title"><a href="/content/items/research-kit-2/">Level 2 decoder</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/research-kit-3/">Level 3 decoder</a></div>
+<div><div class="mission-card-title"><a href="/content/items/research-kit-3/">Level 3 decoder</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/research-kit-4/">Level 4 decoder</a></div>
+<div><div class="mission-card-title"><a href="/content/items/research-kit-4/">Level 4 decoder</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/research-kit-5/">Level 5 decoder</a></div>
+<div><div class="mission-card-title"><a href="/content/items/research-kit-5/">Level 5 decoder</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/research-kit-6/">Level 6 decoder</a></div>
+<div><div class="mission-card-title"><a href="/content/items/research-kit-6/">Level 6 decoder</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/research-kit-7/">Level 7 decoder</a></div>
+<div><div class="mission-card-title"><a href="/content/items/research-kit-7/">Level 7 decoder</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/research-kit-8/">Level 8 decoder</a></div>
+<div><div class="mission-card-title"><a href="/content/items/research-kit-8/">Level 8 decoder</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/research-kit-9/">Level 9 decoder</a></div>
+<div><div class="mission-card-title"><a href="/content/items/research-kit-9/">Level 9 decoder</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/research-kit-tutorial/">Research Kit Tutorial</a></div>
+<div><div class="mission-card-title"><a href="/content/items/research-kit-tutorial/">Research Kit Tutorial</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/riveler-bot-cprg/">Riveler CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/riveler-bot-cprg/">Riveler CT</a></div>
 </div>
 </div>
 </div>
@@ -1139,28 +1139,28 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/scarab-bot-cprg/">Scarab CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/scarab-bot-cprg/">Scarab CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/sentry-turret-unit-cprg/">Sentry Turret Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sentry-turret-unit-cprg/">Sentry Turret Unit Cprg</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/sequer-bot-cprg/">Sequer CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sequer-bot-cprg/">Sequer CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/seth-bot-cprg/">Seth CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/seth-bot-cprg/">Seth CT</a></div>
 </div>
 </div>
 </div>
@@ -1188,7 +1188,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/soil/">soil</a></div>
+<div><div class="mission-card-title"><a href="/content/items/soil/">soil</a></div>
 </div>
 </div>
 </div>
@@ -1202,7 +1202,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/spectator-bot-cprg/">Spectator Bot Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/spectator-bot-cprg/">Spectator Bot Cprg</a></div>
 </div>
 </div>
 </div>
@@ -1237,77 +1237,77 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/symbiont-bot-cprg/">Symbiont CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/symbiont-bot-cprg/">Symbiont CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/syndicate-assault-drone-unit-cprg/">Syndicate Assault Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/syndicate-assault-drone-unit-cprg/">Syndicate Assault Drone Unit Cprg</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/syndicate-attack-drone-unit-cprg/">Syndicate Attack Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/syndicate-attack-drone-unit-cprg/">Syndicate Attack Drone Unit Cprg</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/teleport-column-storage/">Teleport Column Storage</a></div>
+<div><div class="mission-card-title"><a href="/content/items/teleport-column-storage/">Teleport Column Storage</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/termis-bot-cprg/">Termis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/termis-bot-cprg/">Termis CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/terramotus-bot-cprg/">Terramotus Bot Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/terramotus-bot-cprg/">Terramotus Bot Cprg</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/test-potion/">Test Potion</a></div>
+<div><div class="mission-card-title"><a href="/content/items/test-potion/">Test Potion</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/test-speed-booster/">Test Speed Booster</a></div>
+<div><div class="mission-card-title"><a href="/content/items/test-speed-booster/">Test Speed Booster</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/thelodica-assault-drone-unit-cprg/">Thelodica Assault Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/thelodica-assault-drone-unit-cprg/">Thelodica Assault Drone Unit Cprg</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/thelodica-attack-drone-unit-cprg/">Thelodica Attack Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/thelodica-attack-drone-unit-cprg/">Thelodica Attack Drone Unit Cprg</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/thelodica-reactor-plasma/">Thelodica reactor plasma</a></div>
+<div><div class="mission-card-title"><a href="/content/items/thelodica-reactor-plasma/">Thelodica reactor plasma</a></div>
 </div>
 </div>
 </div>
@@ -1342,14 +1342,14 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/tm-zone-item-shop/">Tm Zone Item Shop</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tm-zone-item-shop/">Tm Zone Item Shop</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/transport-storage/">Transport Storage</a></div>
+<div><div class="mission-card-title"><a href="/content/items/transport-storage/">Transport Storage</a></div>
 </div>
 </div>
 </div>
@@ -1384,21 +1384,21 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/troiar-bot-cprg/">Troiar CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/troiar-bot-cprg/">Troiar CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/tutorial-industry-item-a/">Tutorial Industry Item A</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tutorial-industry-item-a/">Tutorial Industry Item A</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/tyrannos-bot-cprg/">Tyrannos CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tyrannos-bot-cprg/">Tyrannos CT</a></div>
 </div>
 </div>
 </div>
@@ -1412,7 +1412,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/vagabond-bot-cprg/">Vagabond CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/vagabond-bot-cprg/">Vagabond CT</a></div>
 </div>
 </div>
 </div>
@@ -1426,28 +1426,28 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/waspish-bot-cprg/">Waspish CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/waspish-bot-cprg/">Waspish CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/yagel-bot-cprg/">Yagel CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/yagel-bot-cprg/">Yagel CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/zenith-bot-cprg/">Zenith CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zenith-bot-cprg/">Zenith CT</a></div>
 </div>
 </div>
 </div>
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/zone-storage/">Zone Storage</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zone-storage/">Zone Storage</a></div>
 </div>
 </div>
 </div>
@@ -1459,7 +1459,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/construction-module-ammo-t1-cprg/">Construction Module Ammo T1 Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/construction-module-ammo-t1-cprg/">Construction Module Ammo T1 Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1467,7 +1467,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-XL-core-transmitter-small-capsule-cprg/">Standard energy backbone node foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-small-capsule-cprg/">Standard energy backbone node foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1475,7 +1475,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-armor-repairer-small-capsule-cprg/">Standard repair node foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-armor-repairer-small-capsule-cprg/">Standard repair node foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1483,7 +1483,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-aura-emitter-small-capsule-cprg/">Standard Aura emitter foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-aura-emitter-small-capsule-cprg/">Standard Aura emitter foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1491,7 +1491,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-calibration-forge-small-capsule-cprg/">Standard calibration lab foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-calibration-forge-small-capsule-cprg/">Standard calibration lab foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1499,7 +1499,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-control-tower-small-capsule-cprg/">Standard command relay foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-control-tower-small-capsule-cprg/">Standard command relay foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1507,7 +1507,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-core-battery-small-capsule-cprg/">Standard energy battery foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-core-battery-small-capsule-cprg/">Standard energy battery foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1515,7 +1515,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-core-transmitter-small-capsule-cprg/">Standard energy transmitter node foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-core-transmitter-small-capsule-cprg/">Standard energy transmitter node foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1523,7 +1523,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-docking-base-small-capsule-cprg/">Standard main terminal foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-docking-base-small-capsule-cprg/">Standard main terminal foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1531,7 +1531,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-effect-supplier-small-capsule-cprg/">Standard booster node foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-effect-supplier-small-capsule-cprg/">Standard booster node foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1539,7 +1539,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-energywell-small-capsule-cprg/">Standard energy well foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-energywell-small-capsule-cprg/">Standard energy well foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1547,7 +1547,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-highwaynode-small-capsule-cprg/">Standard accelerator strip foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-highwaynode-small-capsule-cprg/">Standard accelerator strip foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1555,7 +1555,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-maskertower-small-capsule-cprg/">Standard masker foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-maskertower-small-capsule-cprg/">Standard masker foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1563,7 +1563,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-mill-small-capsule-cprg/">Standard factory foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-mill-small-capsule-cprg/">Standard factory foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1571,7 +1571,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-mining-tower-small-capsule-cprg/">Standard mining outpost foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-mining-tower-small-capsule-cprg/">Standard mining outpost foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1579,7 +1579,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-production-upgrade-small-capsule-cprg/">Standard facility upgrade foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-production-upgrade-small-capsule-cprg/">Standard facility upgrade foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1587,7 +1587,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-prototyper-small-capsule-cprg/">Standard prototype facility foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-prototyper-small-capsule-cprg/">Standard prototype facility foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1595,7 +1595,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-reactor-small-capsule-cprg/">Standard reactor foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-reactor-small-capsule-cprg/">Standard reactor foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1603,7 +1603,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-refinery-small-capsule-cprg/">Standard refinery foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-refinery-small-capsule-cprg/">Standard refinery foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1611,7 +1611,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-repair-small-capsule-cprg/">Standard repair shop foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-repair-small-capsule-cprg/">Standard repair shop foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1619,7 +1619,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-reprocessor-small-capsule-cprg/">Standard recycling plant foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-reprocessor-small-capsule-cprg/">Standard recycling plant foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1627,7 +1627,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-research-kit-forge-small-capsule-cprg/">Standard decoder lab foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-research-kit-forge-small-capsule-cprg/">Standard decoder lab foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1635,7 +1635,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-research-lab-small-capsule-cprg/">Standard reverse engineering foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-research-lab-small-capsule-cprg/">Standard reverse engineering foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1643,7 +1643,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-turret-ew-small-capsule-cprg/">Standard EW turret foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-ew-small-capsule-cprg/">Standard EW turret foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1651,7 +1651,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-turret-laser-small-capsule-cprg/">Standard laser turret foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-laser-small-capsule-cprg/">Standard laser turret foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1659,7 +1659,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-turret-missile-small-capsule-cprg/">Standard missile turret foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-missile-small-capsule-cprg/">Standard missile turret foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1667,7 +1667,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-turret-rail-small-capsule-cprg/">Standard EM-turret foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-rail-small-capsule-cprg/">Standard EM-turret foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1683,7 +1683,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/reactor-booster-a-cprg/">Energy storage cell CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/reactor-booster-a-cprg/">Energy storage cell CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1699,7 +1699,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/standard-hunter-drone-rcu-pve-cprg/">Standard Hunter Drone Rcu Pve Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-hunter-drone-rcu-pve-cprg/">Standard Hunter Drone Rcu Pve Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1707,7 +1707,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/standard-hunter-drone-rcu-pvp-cprg/">Standard Hunter Drone Rcu Pvp Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-hunter-drone-rcu-pvp-cprg/">Standard Hunter Drone Rcu Pvp Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1715,7 +1715,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/standard-small-industrial-aoe-tile-ammo-a-cprg/">Standard Small Industrial Aoe Tile Ammo A Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-small-industrial-aoe-tile-ammo-a-cprg/">Standard Small Industrial Aoe Tile Ammo A Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1723,7 +1723,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/standart-harvesting-turret-unit-cprg/">Standart Harvesting Turret Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standart-harvesting-turret-unit-cprg/">Standart Harvesting Turret Unit Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1731,7 +1731,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/standart-mining-turret-unit-cprg/">Standart Mining Turret Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standart-mining-turret-unit-cprg/">Standart Mining Turret Unit Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1739,7 +1739,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/standart-nuimqol-combat-drone-unit-cprg/">Standart Nuimqol Combat Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standart-nuimqol-combat-drone-unit-cprg/">Standart Nuimqol Combat Drone Unit Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1747,7 +1747,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/standart-pelistal-combat-drone-unit-cprg/">Standart Pelistal Combat Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standart-pelistal-combat-drone-unit-cprg/">Standart Pelistal Combat Drone Unit Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1755,7 +1755,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/standart-thelodica-combat-drone-unit-cprg/">Standart Thelodica Combat Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standart-thelodica-combat-drone-unit-cprg/">Standart Thelodica Combat Drone Unit Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1781,7 +1781,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/construction-module-ammo-t2-cprg/">Construction Module Ammo T2 Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/construction-module-ammo-t2-cprg/">Construction Module Ammo T2 Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1789,7 +1789,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/named1-harvesting-turret-unit-cprg/">T2 Harvesting Turret Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-harvesting-turret-unit-cprg/">T2 Harvesting Turret Unit Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1797,7 +1797,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/named1-mining-turret-unit-cprg/">T2 Mining Turret Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-mining-turret-unit-cprg/">T2 Mining Turret Unit Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1805,7 +1805,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/named1-nuimqol-combat-drone-unit-cprg/">T2 Nuimqol Combat Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-nuimqol-combat-drone-unit-cprg/">T2 Nuimqol Combat Drone Unit Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1813,7 +1813,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/named1-pelistal-combat-drone-unit-cprg/">T2 Pelistal Combat Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-pelistal-combat-drone-unit-cprg/">T2 Pelistal Combat Drone Unit Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1821,7 +1821,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/named1-thelodica-combat-drone-unit-cprg/">T2 Thelodica Combat Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-thelodica-combat-drone-unit-cprg/">T2 Thelodica Combat Drone Unit Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1829,7 +1829,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-XL-core-transmitter-medium-capsule-cprg/">Advanced energy backbone node foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-medium-capsule-cprg/">Advanced energy backbone node foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1837,7 +1837,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-armor-repairer-medium-capsule-cprg/">Advanced repair node foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-armor-repairer-medium-capsule-cprg/">Advanced repair node foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1845,7 +1845,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-aura-emitter-medium-capsule-cprg/">Advanced Aura emitter foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-aura-emitter-medium-capsule-cprg/">Advanced Aura emitter foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1853,7 +1853,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-calibration-forge-medium-capsule-cprg/">Advanced calibration lab foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-calibration-forge-medium-capsule-cprg/">Advanced calibration lab foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1861,7 +1861,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-control-tower-medium-capsule-cprg/">Advanced command relay foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-control-tower-medium-capsule-cprg/">Advanced command relay foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1869,7 +1869,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-core-battery-medium-capsule-cprg/">Advanced energy battery foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-core-battery-medium-capsule-cprg/">Advanced energy battery foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1877,7 +1877,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-core-transmitter-medium-capsule-cprg/">Advanced energy transmitter node foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-core-transmitter-medium-capsule-cprg/">Advanced energy transmitter node foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1885,7 +1885,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-docking-base-medium-capsule-cprg/">Advanced main terminal foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-docking-base-medium-capsule-cprg/">Advanced main terminal foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1893,7 +1893,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-effect-supplier-medium-capsule-cprg/">Advanced booster node foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-effect-supplier-medium-capsule-cprg/">Advanced booster node foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1901,7 +1901,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-energywell-medium-capsule-cprg/">Advanced energy well foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-energywell-medium-capsule-cprg/">Advanced energy well foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1909,7 +1909,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-highwaynode-medium-capsule-cprg/">Advanced accelerator strip foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-highwaynode-medium-capsule-cprg/">Advanced accelerator strip foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1917,7 +1917,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-maskertower-medium-capsule-cprg/">Advanced masker foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-maskertower-medium-capsule-cprg/">Advanced masker foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1925,7 +1925,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-mill-medium-capsule-cprg/">Advanced factory foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-mill-medium-capsule-cprg/">Advanced factory foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1933,7 +1933,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-mining-tower-medium-capsule-cprg/">Advanced mining outpost foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-mining-tower-medium-capsule-cprg/">Advanced mining outpost foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1941,7 +1941,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-production-upgrade-medium-capsule-cprg/">Advanced facility upgrade foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-production-upgrade-medium-capsule-cprg/">Advanced facility upgrade foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1949,7 +1949,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-prototyper-medium-capsule-cprg/">Advanced prototype facility foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-prototyper-medium-capsule-cprg/">Advanced prototype facility foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1957,7 +1957,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-reactor-medium-capsule-cprg/">Advanced reactor foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-reactor-medium-capsule-cprg/">Advanced reactor foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1965,7 +1965,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-refinery-medium-capsule-cprg/">Advanced refinery foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-refinery-medium-capsule-cprg/">Advanced refinery foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1973,7 +1973,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-repair-medium-capsule-cprg/">Advanced repair shop foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-repair-medium-capsule-cprg/">Advanced repair shop foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1981,7 +1981,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-reprocessor-medium-capsule-cprg/">Advanced recycling plant foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-reprocessor-medium-capsule-cprg/">Advanced recycling plant foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1989,7 +1989,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-research-kit-forge-medium-capsule-cprg/">Advanced decoder lab foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-research-kit-forge-medium-capsule-cprg/">Advanced decoder lab foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -1997,7 +1997,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-research-lab-medium-capsule-cprg/">Advanced reverse engineering foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-research-lab-medium-capsule-cprg/">Advanced reverse engineering foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -2005,7 +2005,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-turret-ew-medium-capsule-cprg/">Advanced EW turret foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-ew-medium-capsule-cprg/">Advanced EW turret foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -2013,7 +2013,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-turret-laser-medium-capsule-cprg/">Advanced laser turret foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-laser-medium-capsule-cprg/">Advanced laser turret foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -2021,7 +2021,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-turret-missile-medium-capsule-cprg/">Advanced missile turret foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-missile-medium-capsule-cprg/">Advanced missile turret foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -2029,7 +2029,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-turret-rail-medium-capsule-cprg/">Advanced EM-turret foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-rail-medium-capsule-cprg/">Advanced EM-turret foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -2045,7 +2045,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/reactor-booster-b-cprg/">Reactor Booster B Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/reactor-booster-b-cprg/">Reactor Booster B Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -2071,7 +2071,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/construction-module-ammo-t3-cprg/">Construction Module Ammo T3 Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/construction-module-ammo-t3-cprg/">Construction Module Ammo T3 Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2079,7 +2079,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/named2-harvesting-turret-unit-cprg/">T3 Harvesting Turret Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-harvesting-turret-unit-cprg/">T3 Harvesting Turret Unit Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2087,7 +2087,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/named2-mining-turret-unit-cprg/">T3 Mining Turret Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-mining-turret-unit-cprg/">T3 Mining Turret Unit Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2095,7 +2095,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/named2-nuimqol-combat-drone-unit-cprg/">T3 Nuimqol Combat Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-nuimqol-combat-drone-unit-cprg/">T3 Nuimqol Combat Drone Unit Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2103,7 +2103,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/named2-pelistal-combat-drone-unit-cprg/">T3 Pelistal Combat Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-pelistal-combat-drone-unit-cprg/">T3 Pelistal Combat Drone Unit Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2111,7 +2111,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/named2-thelodica-combat-drone-unit-cprg/">T3 Thelodica Combat Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-thelodica-combat-drone-unit-cprg/">T3 Thelodica Combat Drone Unit Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2119,7 +2119,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-XL-core-transmitter-large-capsule-cprg/">Hi-tech energy backbone node foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-large-capsule-cprg/">Hi-tech energy backbone node foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2127,7 +2127,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-armor-repairer-large-capsule-cprg/">Hi-tech repair node foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-armor-repairer-large-capsule-cprg/">Hi-tech repair node foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2135,7 +2135,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-aura-emitter-large-capsule-cprg/">Hi-tech Aura emitter foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-aura-emitter-large-capsule-cprg/">Hi-tech Aura emitter foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2143,7 +2143,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-calibration-forge-large-capsule-cprg/">Hi-tech calibration lab foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-calibration-forge-large-capsule-cprg/">Hi-tech calibration lab foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2151,7 +2151,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-control-tower-large-capsule-cprg/">Hi-tech command relay foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-control-tower-large-capsule-cprg/">Hi-tech command relay foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2159,7 +2159,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-core-battery-large-capsule-cprg/">Hi-tech energy battery foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-core-battery-large-capsule-cprg/">Hi-tech energy battery foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2167,7 +2167,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-core-transmitter-large-capsule-cprg/">Hi-tech energy transmitter node foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-core-transmitter-large-capsule-cprg/">Hi-tech energy transmitter node foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2175,7 +2175,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-docking-base-large-capsule-cprg/">Hi-tech main terminal foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-docking-base-large-capsule-cprg/">Hi-tech main terminal foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2183,7 +2183,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-effect-supplier-large-capsule-cprg/">Hi-tech booster node foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-effect-supplier-large-capsule-cprg/">Hi-tech booster node foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2191,7 +2191,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-energywell-large-capsule-cprg/">Hi-tech energy well foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-energywell-large-capsule-cprg/">Hi-tech energy well foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2199,7 +2199,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-highwaynode-large-capsule-cprg/">Hi-tech accelerator strip foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-highwaynode-large-capsule-cprg/">Hi-tech accelerator strip foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2207,7 +2207,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-maskertower-large-capsule-cprg/">Hi-tech masker foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-maskertower-large-capsule-cprg/">Hi-tech masker foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2215,7 +2215,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-mill-large-capsule-cprg/">Hi-tech factory foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-mill-large-capsule-cprg/">Hi-tech factory foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2223,7 +2223,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-mining-tower-large-capsule-cprg/">Hi-tech mining outpost foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-mining-tower-large-capsule-cprg/">Hi-tech mining outpost foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2231,7 +2231,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-production-upgrade-large-capsule-cprg/">Hi-tech facility upgrade foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-production-upgrade-large-capsule-cprg/">Hi-tech facility upgrade foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2239,7 +2239,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-prototyper-large-capsule-cprg/">Hi-tech prototype facility foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-prototyper-large-capsule-cprg/">Hi-tech prototype facility foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2247,7 +2247,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-reactor-large-capsule-cprg/">Hi-tech reactor foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-reactor-large-capsule-cprg/">Hi-tech reactor foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2255,7 +2255,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-refinery-large-capsule-cprg/">Hi-tech refinery foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-refinery-large-capsule-cprg/">Hi-tech refinery foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2263,7 +2263,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-repair-large-capsule-cprg/">Hi-tech repair shop foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-repair-large-capsule-cprg/">Hi-tech repair shop foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2271,7 +2271,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-reprocessor-large-capsule-cprg/">Hi-tech recycling plant foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-reprocessor-large-capsule-cprg/">Hi-tech recycling plant foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2279,7 +2279,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-research-kit-forge-large-capsule-cprg/">Hi-tech decoder lab foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-research-kit-forge-large-capsule-cprg/">Hi-tech decoder lab foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2287,7 +2287,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-research-lab-large-capsule-cprg/">Hi-tech reverse engineering foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-research-lab-large-capsule-cprg/">Hi-tech reverse engineering foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2295,7 +2295,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-turret-ew-large-capsule-cprg/">Hi-tech EW turret foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-ew-large-capsule-cprg/">Hi-tech EW turret foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2303,7 +2303,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-turret-laser-large-capsule-cprg/">Hi-tech laser turret foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-laser-large-capsule-cprg/">Hi-tech laser turret foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2311,7 +2311,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-turret-missile-large-capsule-cprg/">Hi-tech missile turret foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-missile-large-capsule-cprg/">Hi-tech missile turret foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2319,7 +2319,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/pbs-turret-rail-large-capsule-cprg/">Hi-tech EM-turret foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-rail-large-capsule-cprg/">Hi-tech EM-turret foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2335,7 +2335,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/reactor-booster-c-cprg/">Reactor Booster C Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/reactor-booster-c-cprg/">Reactor Booster C Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>
@@ -2361,7 +2361,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/named3-harvesting-turret-unit-cprg/">T4 Harvesting Turret Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-harvesting-turret-unit-cprg/">T4 Harvesting Turret Unit Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T4</div>
 </div>
 </div>
@@ -2369,7 +2369,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/named3-mining-turret-unit-cprg/">T4 Mining Turret Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-mining-turret-unit-cprg/">T4 Mining Turret Unit Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T4</div>
 </div>
 </div>
@@ -2377,7 +2377,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/named3-nuimqol-combat-drone-unit-cprg/">T4 Nuimqol Combat Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-nuimqol-combat-drone-unit-cprg/">T4 Nuimqol Combat Drone Unit Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T4</div>
 </div>
 </div>
@@ -2385,7 +2385,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/named3-pelistal-combat-drone-unit-cprg/">T4 Pelistal Combat Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-pelistal-combat-drone-unit-cprg/">T4 Pelistal Combat Drone Unit Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T4</div>
 </div>
 </div>
@@ -2393,7 +2393,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ko/content/items/named3-thelodica-combat-drone-unit-cprg/">T4 Thelodica Combat Drone Unit Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-thelodica-combat-drone-unit-cprg/">T4 Thelodica Combat Drone Unit Cprg</a></div>
 <div class="mission-card-sub">Materials, tier T4</div>
 </div>
 </div>

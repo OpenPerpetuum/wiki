@@ -36,7 +36,7 @@ description: "Modules / Weapons, tier T3"
 **Producido desde 8 componentes, nivel de investigación 4** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Morteq light missile launcher CT](/es/content/items/named2-rocket-launcher-cprg/)
+**Planos:** [Morteq light missile launcher CT](/content/items/named2-rocket-launcher-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/hydrobenol/">Hydrobenol</a></div><div class="prod-card-body">requerido: <b>50</b></div></div>

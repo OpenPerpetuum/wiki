@@ -34,7 +34,7 @@ description: "Modules / Armor, tier T4"
 **由組件 8個生產 ，研究等級 6** — 組裝組件來製造它（完整列表見[配方](/zh-TW/content/recipes/)）:
 
 
-**藍圖:** [THL-Testudo medium armor plate CT](/zh-TW/content/items/named3-medium-armor-plate-cprg/)
+**藍圖:** [THL-Testudo medium armor plate CT](/content/items/named3-medium-armor-plate-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-TW/content/items/alligior/">Alligior</a></div><div class="prod-card-body">需要: <b>700</b></div></div>

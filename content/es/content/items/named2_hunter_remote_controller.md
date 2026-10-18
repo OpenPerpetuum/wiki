@@ -38,7 +38,7 @@ description: "Modules / Remote control, tier T3"
 **Producido desde 6 componentes** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [T3 Hunter Remote Controller Cprg](/es/content/items/named2-hunter-remote-controller-cprg/)
+**Planos:** [T3 Hunter Remote Controller Cprg](/content/items/named2-hunter-remote-controller-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">requerido: <b>125</b></div></div>

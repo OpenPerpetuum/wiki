@@ -37,7 +37,7 @@ description: "Modules / Weapons, tier T1"
 **Geproduceerd uit 5 componentën** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Standard Hell Cannon Cprg](/nl/content/items/standard-hell-cannon-cprg/)
+**Bouwtekening:** [Standard Hell Cannon Cprg](/content/items/standard-hell-cannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">vereist: <b>100</b></div></div>

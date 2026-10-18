@@ -26,7 +26,7 @@ _통계 없음 — 이 아이템에는 집계 값이 없습니다._
 **구성 요소 9개로 생산** — 구성 요소를 조립하여 제작합니다 (전체 목록은 [레시피](/ko/content/recipes/) 참조):
 
 
-**제작도:** [Reactor Booster C Cprg](/ko/content/items/reactor-booster-c-cprg/)
+**제작도:** [Reactor Booster C Cprg](/content/items/reactor-booster-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ko/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">필요: <b>1.1k</b></div></div>

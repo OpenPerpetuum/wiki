@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T2"
 **Geproduceerd uit 3 componentën, onderzoekslevel 5** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [T2 Gang Assist Devastating Module Cprg](/nl/content/items/named1-gang-assist-devastating-module-cprg/)
+**Bouwtekening:** [T2 Gang Assist Devastating Module Cprg](/content/items/named1-gang-assist-devastating-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-crystal"/></svg><a class="prod-card-name" href="/nl/content/items/robotshard-nuimqol-basic/">Damaged nuimqol fragment</a></div><div class="prod-card-body">vereist: <b>15</b></div></div>

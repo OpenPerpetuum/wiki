@@ -30,7 +30,7 @@ description: "Ammo / Beam & laser"
 **コンポーネント2個から製造 、研究レベル 3** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Medium thermic energy cell CT](/ja/content/items/ammo-medium-lasercrystal-d-cprg/)
+**設計図:** [Medium thermic energy cell CT](/content/items/ammo-medium-lasercrystal-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/polynucleit/">Polynucleit</a></div><div class="prod-card-body">必要: <b>200</b></div></div>

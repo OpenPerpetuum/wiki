@@ -57,7 +57,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/ru/content/shop/) 
 **Производится из 2 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Elitet2 70 Small Shield Generator Cprg](/ru/content/items/elitet2-70-small-shield-generator-cprg/)
+**Чертёж:** [Elitet2 70 Small Shield Generator Cprg](/content/items/elitet2-70-small-shield-generator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/material-boss-z70/">Material Boss Z70</a></div><div class="prod-card-body">нужно: <b>150</b></div></div>

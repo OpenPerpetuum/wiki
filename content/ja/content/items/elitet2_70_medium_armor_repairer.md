@@ -56,7 +56,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/ja/content/shop/) 
 **コンポーネント2個から製造** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Elitet2 70 Medium Armor Repairer Cprg](/ja/content/items/elitet2-70-medium-armor-repairer-cprg/)
+**設計図:** [Elitet2 70 Medium Armor Repairer Cprg](/content/items/elitet2-70-medium-armor-repairer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/material-boss-z70/">Material Boss Z70</a></div><div class="prod-card-body">必要: <b>300</b></div></div>

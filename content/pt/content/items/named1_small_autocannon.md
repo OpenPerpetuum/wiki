@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T2"
 **Produzido a partir de 3 componentes, nível de pesquisa 2** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [Malleus light autocannon CT](/pt/content/items/named1-small-autocannon-cprg/)
+**Plano:** [Malleus light autocannon CT](/content/items/named1-small-autocannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">necessário: <b>100</b></div></div>

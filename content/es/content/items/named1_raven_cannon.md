@@ -37,7 +37,7 @@ description: "Modules / Weapons, tier T2"
 **Producido desde 8 componentes** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [T2 Raven Cannon Cprg](/es/content/items/named1-raven-cannon-cprg/)
+**Planos:** [T2 Raven Cannon Cprg](/content/items/named1-raven-cannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/alligior/">Alligior</a></div><div class="prod-card-body">requerido: <b>100</b></div></div>

@@ -34,7 +34,7 @@ description: "Modules / Harvesting, tier T1"
 **Geproduceerd uit 2 componentën, onderzoekslevel 1** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Standard small harvester CT](/nl/content/items/standard-small-harvester-cprg/)
+**Bouwtekening:** [Standard small harvester CT](/content/items/standard-small-harvester-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">vereist: <b>50</b></div></div>

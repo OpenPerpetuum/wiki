@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T2"
 **Prodotto da 5 componenti, livello di ricerca 5** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [AE-D250 fast extractor NEXUS module CT](/it/content/items/named1-gang-assist-fast-extraction-module-cprg/)
+**Piano:** [AE-D250 fast extractor NEXUS module CT](/content/items/named1-gang-assist-fast-extraction-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">richiesto: <b>500</b></div></div>

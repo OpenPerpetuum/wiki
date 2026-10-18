@@ -35,7 +35,7 @@ description: "Modules / Sensors & scanning, tier T2"
 **구성 요소 4개로 생산 , 연구 레벨 4** — 구성 요소를 조립하여 제작합니다 (전체 목록은 [레시피](/ko/content/recipes/) 참조):
 
 
-**제작도:** [Bullz-I 6601 sensor amplifier CT](/ko/content/items/named1-sensor-booster-cprg/)
+**제작도:** [Bullz-I 6601 sensor amplifier CT](/content/items/named1-sensor-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ko/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">필요: <b>400</b></div></div>

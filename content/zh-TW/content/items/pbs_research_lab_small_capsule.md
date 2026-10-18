@@ -36,7 +36,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **由組件 8個生產** — 組裝組件來製造它（完整列表見[配方](/zh-TW/content/recipes/)）:
 
 
-**藍圖:** [Standard reverse engineering foundation CT](/zh-TW/content/items/pbs-research-lab-small-capsule-cprg/)
+**藍圖:** [Standard reverse engineering foundation CT](/content/items/pbs-research-lab-small-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-TW/content/items/alligior/">Alligior</a></div><div class="prod-card-body">需要: <b>2.5k</b></div></div>

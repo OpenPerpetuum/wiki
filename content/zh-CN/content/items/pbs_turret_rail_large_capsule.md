@@ -48,7 +48,7 @@ description: "Special & other / Miscellaneous, tier T3"
 **由组件 7个生产** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [Hi-tech EM-turret foundation CT](/zh-CN/content/items/pbs-turret-rail-large-capsule-cprg/)
+**蓝图:** [Hi-tech EM-turret foundation CT](/content/items/pbs-turret-rail-large-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/espitium/">Espitium</a></div><div class="prod-card-body">需要: <b>500</b></div></div>

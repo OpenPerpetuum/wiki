@@ -32,7 +32,7 @@ description: "Modules / Enhancements, tier T3"
 **Produzido a partir de 6 componentes, nível de pesquisa 5** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [Cerebellum-1000 coprocessor CT](/pt/content/items/named2-cpu-upgrade-cprg/)
+**Plano:** [Cerebellum-1000 coprocessor CT](/content/items/named2-cpu-upgrade-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">necessário: <b>175</b></div></div>

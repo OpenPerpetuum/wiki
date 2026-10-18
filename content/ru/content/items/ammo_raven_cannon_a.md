@@ -31,7 +31,7 @@ description: "Ammo / Cannon"
 **Производится из 3 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Ammo Raven Cannon A Cprg](/ru/content/items/ammo-raven-cannon-a-cprg/)
+**Чертёж:** [Ammo Raven Cannon A Cprg](/content/items/ammo-raven-cannon-a-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">нужно: <b>150</b></div></div>

@@ -31,7 +31,7 @@ description: "Special & other / Miscellaneous, tier T3"
 **Hergestellt aus 12 Komponenten** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Construction Module Ammo T3 Cprg](/de/content/items/construction-module-ammo-t3-cprg/)
+**Bauplan:** [Construction Module Ammo T3 Cprg](/content/items/construction-module-ammo-t3-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/alligior/">Alligior</a></div><div class="prod-card-body">benötigt: <b>50</b></div></div>

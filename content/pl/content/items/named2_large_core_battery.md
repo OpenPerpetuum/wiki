@@ -32,7 +32,7 @@ description: "Modules / Power, tier T3"
 **Produkcja z 7 komponentów** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [T3 Large Core Battery Cprg](/pl/content/items/named2-large-core-battery-cprg/)
+**Nakładka:** [T3 Large Core Battery Cprg](/content/items/named2-large-core-battery-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>300</b></div></div>

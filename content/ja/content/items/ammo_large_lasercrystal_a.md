@@ -31,7 +31,7 @@ description: "Ammo / Beam & laser"
 **コンポーネント4個から製造** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Ammo Large Lasercrystal A Cprg](/ja/content/items/ammo-large-lasercrystal-a-cprg/)
+**設計図:** [Ammo Large Lasercrystal A Cprg](/content/items/ammo-large-lasercrystal-a-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">必要: <b>150</b></div></div>

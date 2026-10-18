@@ -37,7 +37,7 @@ description: "Modules / Weapons, tier T2"
 **Geproduceerd uit 7 componentën** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [T2 Large Railgun Cprg](/nl/content/items/named1-large-railgun-cprg/)
+**Bouwtekening:** [T2 Large Railgun Cprg](/content/items/named1-large-railgun-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">vereist: <b>150</b></div></div>

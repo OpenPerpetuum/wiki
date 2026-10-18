@@ -56,7 +56,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/cs/content/shop/) 
 **Vyráběn z 2 komponentách** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Elitet4 70 Medium Armor Repairer Cprg](/cs/content/items/elitet4-70-medium-armor-repairer-cprg/)
+**Výkres:** [Elitet4 70 Medium Armor Repairer Cprg](/content/items/elitet4-70-medium-armor-repairer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/material-boss-z70/">Material Boss Z70</a></div><div class="prod-card-body">potřebné: <b>400</b></div></div>

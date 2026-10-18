@@ -30,7 +30,7 @@ description: "Ammo / Beam & laser"
 **Producido desde 2 componentes, nivel de investigación 3** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Medium thermic energy cell CT](/es/content/items/ammo-medium-lasercrystal-d-cprg/)
+**Planos:** [Medium thermic energy cell CT](/content/items/ammo-medium-lasercrystal-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/polynucleit/">Polynucleit</a></div><div class="prod-card-body">requerido: <b>200</b></div></div>

@@ -30,7 +30,7 @@ description: "Ammo / Beam & laser"
 **Geproduceerd uit 2 componentën, onderzoekslevel 3** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Medium thermic energy cell CT](/nl/content/items/ammo-medium-lasercrystal-d-cprg/)
+**Bouwtekening:** [Medium thermic energy cell CT](/content/items/ammo-medium-lasercrystal-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/polynucleit/">Polynucleit</a></div><div class="prod-card-body">vereist: <b>200</b></div></div>

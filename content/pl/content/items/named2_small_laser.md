@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T3"
 **Produkcja z 8 komponentów, poziom badań 4** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Pikolo light HCL laser CT](/pl/content/items/named2-small-laser-cprg/)
+**Nakładka:** [Pikolo light HCL laser CT](/content/items/named2-small-laser-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/hydrobenol/">Hydrobenol</a></div><div class="prod-card-body">wymagane: <b>50</b></div></div>

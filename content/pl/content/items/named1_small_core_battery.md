@@ -32,7 +32,7 @@ description: "Modules / Power, tier T2"
 **Produkcja z 4 komponentów, poziom badań 4** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Co-Fuse small auxiliary accumulator CT](/pl/content/items/named1-small-core-battery-cprg/)
+**Nakładka:** [Co-Fuse small auxiliary accumulator CT](/content/items/named1-small-core-battery-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>200</b></div></div>

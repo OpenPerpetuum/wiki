@@ -40,7 +40,7 @@ description: "Special & other / Miscellaneous, tier T2"
 **Производится из 2 компонентах, уровень исследований 4** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [T2 Pelistal Combat Drone Unit Cprg](/ru/content/items/named1-pelistal-combat-drone-unit-cprg/)
+**Чертёж:** [T2 Pelistal Combat Drone Unit Cprg](/content/items/named1-pelistal-combat-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">нужно: <b>3.0k</b></div></div>

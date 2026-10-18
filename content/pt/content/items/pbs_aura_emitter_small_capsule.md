@@ -36,7 +36,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Produzido a partir de 6 componentes** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [Standard Aura emitter foundation CT](/pt/content/items/pbs-aura-emitter-small-capsule-cprg/)
+**Plano:** [Standard Aura emitter foundation CT](/content/items/pbs-aura-emitter-small-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">necessário: <b>500</b></div></div>

@@ -35,7 +35,7 @@ description: "Modules / Shield, tier T4"
 **Производится из 9 компонентах, уровень исследований 7** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Penik medium shield generator CT](/ru/content/items/named3-medium-shield-generator-cprg/)
+**Чертёж:** [Penik medium shield generator CT](/content/items/named3-medium-shield-generator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/alligior/">Alligior</a></div><div class="prod-card-body">нужно: <b>800</b></div></div>

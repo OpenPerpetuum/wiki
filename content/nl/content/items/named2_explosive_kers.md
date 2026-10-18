@@ -35,7 +35,7 @@ description: "Modules / Enhancements, tier T3"
 **Geproduceerd uit 10 componentën, onderzoekslevel 7** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [SER-300 'Devactico' seismic ERP CT](/nl/content/items/named2-explosive-kers-cprg/)
+**Bouwtekening:** [SER-300 'Devactico' seismic ERP CT](/content/items/named2-explosive-kers-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">vereist: <b>100</b></div></div>

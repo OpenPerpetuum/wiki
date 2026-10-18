@@ -32,7 +32,7 @@ description: "Modules / Enhancements, tier T1"
 **Vyráběn z 2 komponentách, výzkumná úroveň 3** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Standard coprocessor CT](/cs/content/items/standard-cpu-upgrade-cprg/)
+**Výkres:** [Standard coprocessor CT](/content/items/standard-cpu-upgrade-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">potřebné: <b>350</b></div></div>

@@ -34,7 +34,7 @@ description: "Modules / Enhancements, tier T2"
 **コンポーネント5個から製造 、研究レベル 7** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Mimique signal masker CT](/ja/content/items/named1-stealth-modul-cprg/)
+**設計図:** [Mimique signal masker CT](/content/items/named1-stealth-modul-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">必要: <b>450</b></div></div>

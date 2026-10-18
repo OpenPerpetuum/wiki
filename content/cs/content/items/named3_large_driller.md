@@ -33,7 +33,7 @@ description: "Modules / Enhancements, tier T4"
 **Vyráběn z 8 komponentách** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [T4 Large Driller Cprg](/cs/content/items/named3-large-driller-cprg/)
+**Výkres:** [T4 Large Driller Cprg](/content/items/named3-large-driller-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">potřebné: <b>800</b></div></div>

@@ -35,7 +35,7 @@ description: "Special & other / Miscellaneous, tier T3"
 **Prodotto da 5 componenti** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Hi-tech command relay foundation CT](/it/content/items/pbs-control-tower-large-capsule-cprg/)
+**Piano:** [Hi-tech command relay foundation CT](/content/items/pbs-control-tower-large-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/espitium/">Espitium</a></div><div class="prod-card-body">richiesto: <b>500</b></div></div>

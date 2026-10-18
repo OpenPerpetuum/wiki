@@ -35,7 +35,7 @@ description: "Modules / Weapons, tier T2"
 **Производится из 7 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [T2 Cruisemissile Launcher Cprg](/ru/content/items/named1-cruisemissile-launcher-cprg/)
+**Чертёж:** [T2 Cruisemissile Launcher Cprg](/content/items/named1-cruisemissile-launcher-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">нужно: <b>150</b></div></div>

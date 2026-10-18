@@ -32,7 +32,7 @@ description: "Modules / Enhancements, tier T4"
 **Producido desde 15 componentes** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [T4 Adaptive Alloy Cprg](/es/content/items/named3-adaptive-alloy-cprg/)
+**Planos:** [T4 Adaptive Alloy Cprg](/content/items/named3-adaptive-alloy-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/alligior/">Alligior</a></div><div class="prod-card-body">requerido: <b>500</b></div></div>

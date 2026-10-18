@@ -31,7 +31,7 @@ description: "Ammo / Other ammo"
 **Produkcja z 2 komponentów, poziom badań 1** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Small sonic ballistic missile CT](/pl/content/items/ammo-rocket-d-cprg/)
+**Nakładka:** [Small sonic ballistic missile CT](/content/items/ammo-rocket-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">wymagane: <b>100</b></div></div>

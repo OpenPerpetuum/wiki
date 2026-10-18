@@ -55,7 +55,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/fr/content/shop/) 
 **Produit à partir de 2 composants** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [Elitet4 70 Medium Core Booster Cprg](/fr/content/items/elitet4-70-medium-core-booster-cprg/)
+**Plan :** [Elitet4 70 Medium Core Booster Cprg](/content/items/elitet4-70-medium-core-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/material-boss-z70/">Material Boss Z70</a></div><div class="prod-card-body">requis : <b>400</b></div></div>

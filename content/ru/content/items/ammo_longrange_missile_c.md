@@ -33,7 +33,7 @@ description: "Ammo / Missiles"
 **Производится из 3 компонентах, уровень исследований 3** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Medium doublecore ballistic missile CT](/ru/content/items/ammo-longrange-missile-c-cprg/)
+**Чертёж:** [Medium doublecore ballistic missile CT](/content/items/ammo-longrange-missile-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">нужно: <b>100</b></div></div>

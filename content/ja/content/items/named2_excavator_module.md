@@ -36,7 +36,7 @@ description: "Modules / Harvesting, tier T3"
 **コンポーネント6個から製造** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [T3 Excavator Module Cprg](/ja/content/items/named2-excavator-module-cprg/)
+**設計図:** [T3 Excavator Module Cprg](/content/items/named2-excavator-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">必要: <b>400</b></div></div>

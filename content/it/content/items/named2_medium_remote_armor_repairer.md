@@ -36,7 +36,7 @@ description: "Modules / Repair, tier T3"
 **Prodotto da 8 componenti, livello di ricerca 6** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Basio medium remote armor repairer CT](/it/content/items/named2-medium-remote-armor-repairer-cprg/)
+**Piano:** [Basio medium remote armor repairer CT](/content/items/named2-medium-remote-armor-repairer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/alligior/">Alligior</a></div><div class="prod-card-body">richiesto: <b>250</b></div></div>

@@ -37,7 +37,7 @@ description: "Modules / Enhancements, tier T1"
 **Prodotto da 2 componenti, livello di ricerca 2** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Standard small energy transferer CT](/it/content/items/standard-small-energy-transfer-cprg/)
+**Piano:** [Standard small energy transferer CT](/content/items/standard-small-energy-transfer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">richiesto: <b>250</b></div></div>

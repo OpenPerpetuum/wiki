@@ -48,7 +48,7 @@ description: "Special & other / Miscellaneous, tier T3"
 **Producido desde 7 componentes** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Hi-tech missile turret foundation CT](/es/content/items/pbs-turret-missile-large-capsule-cprg/)
+**Planos:** [Hi-tech missile turret foundation CT](/content/items/pbs-turret-missile-large-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/espitium/">Espitium</a></div><div class="prod-card-body">requerido: <b>500</b></div></div>

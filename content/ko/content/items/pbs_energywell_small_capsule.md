@@ -37,7 +37,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **구성 요소 6개로 생산** — 구성 요소를 조립하여 제작합니다 (전체 목록은 [레시피](/ko/content/recipes/) 참조):
 
 
-**제작도:** [Standard energy well foundation CT](/ko/content/items/pbs-energywell-small-capsule-cprg/)
+**제작도:** [Standard energy well foundation CT](/content/items/pbs-energywell-small-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ko/content/items/alligior/">Alligior</a></div><div class="prod-card-body">필요: <b>1.2k</b></div></div>

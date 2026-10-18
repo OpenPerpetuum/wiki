@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T4"
 **Produit à partir de 5 composants, niveau de recherche 6** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [Torrex-G17 medium machine gun CT](/fr/content/items/named3-medium-autocannon-cprg/)
+**Plan :** [Torrex-G17 medium machine gun CT](/content/items/named3-medium-autocannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">requis : <b>200</b></div></div>

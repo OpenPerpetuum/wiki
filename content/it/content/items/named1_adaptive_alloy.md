@@ -32,7 +32,7 @@ description: "Modules / Enhancements, tier T2"
 **Prodotto da 11 componenti** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [T2 Adaptive Alloy Cprg](/it/content/items/named1-adaptive-alloy-cprg/)
+**Piano:** [T2 Adaptive Alloy Cprg](/content/items/named1-adaptive-alloy-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">richiesto: <b>200</b></div></div>

@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T4"
 **Producido desde 10 componentes, nivel de investigación 8** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Omini interference module CT](/es/content/items/named3-blob-emission-modulator-cprg/)
+**Planos:** [Omini interference module CT](/content/items/named3-blob-emission-modulator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">requerido: <b>250</b></div></div>

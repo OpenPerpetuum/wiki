@@ -34,7 +34,7 @@ description: "Modules / Repair, tier T3"
 **Producido desde 8 componentes, nivel de investigación 6** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [FO-150 'Reparator' medium armor repairer CT](/es/content/items/named2-medium-armor-repairer-cprg/)
+**Planos:** [FO-150 'Reparator' medium armor repairer CT](/content/items/named2-medium-armor-repairer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/alligior/">Alligior</a></div><div class="prod-card-body">requerido: <b>200</b></div></div>

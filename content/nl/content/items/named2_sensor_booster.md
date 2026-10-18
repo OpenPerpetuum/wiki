@@ -35,7 +35,7 @@ description: "Modules / Sensors & scanning, tier T3"
 **Geproduceerd uit 6 componentën, onderzoekslevel 5** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Desenspure sensor amplifier CT](/nl/content/items/named2-sensor-booster-cprg/)
+**Bouwtekening:** [Desenspure sensor amplifier CT](/content/items/named2-sensor-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">vereist: <b>200</b></div></div>

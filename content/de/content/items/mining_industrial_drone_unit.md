@@ -31,7 +31,7 @@ description: "Special & other / Miscellaneous"
 **Hergestellt aus 4 Komponenten, Forschungsebene 5** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Mining Industrial Drone Unit Cprg](/de/content/items/mining-industrial-drone-unit-cprg/)
+**Bauplan:** [Mining Industrial Drone Unit Cprg](/content/items/mining-industrial-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">benötigt: <b>1.0k</b></div></div>

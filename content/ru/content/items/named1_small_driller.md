@@ -34,7 +34,7 @@ description: "Modules / Enhancements, tier T2"
 **Производится из 4 компонентах, уровень исследований 2** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Biroter 5050 small miner module CT](/ru/content/items/named1-small-driller-cprg/)
+**Чертёж:** [Biroter 5050 small miner module CT](/content/items/named1-small-driller-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">нужно: <b>50</b></div></div>

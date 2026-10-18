@@ -36,7 +36,7 @@ description: "Modules / Shield, tier T4"
 **由组件 9个生产 ，研究等级 5** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [SBA-200 Forebrace small shield generator CT](/zh-CN/content/items/named3-small-shield-generator-cprg/)
+**蓝图:** [SBA-200 Forebrace small shield generator CT](/content/items/named3-small-shield-generator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/alligior/">Alligior</a></div><div class="prod-card-body">需要: <b>400</b></div></div>

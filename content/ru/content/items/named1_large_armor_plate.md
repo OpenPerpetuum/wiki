@@ -34,7 +34,7 @@ description: "Modules / Armor, tier T2"
 **Производится из 5 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [T2 Large Armor Plate Cprg](/ru/content/items/named1-large-armor-plate-cprg/)
+**Чертёж:** [T2 Large Armor Plate Cprg](/content/items/named1-large-armor-plate-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/plasteosine/">Plasteosine</a></div><div class="prod-card-body">нужно: <b>1.1k</b></div></div>

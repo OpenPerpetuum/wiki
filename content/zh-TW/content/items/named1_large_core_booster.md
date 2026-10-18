@@ -33,7 +33,7 @@ description: "Modules / Enhancements, tier T2"
 **由組件 5個生產** — 組裝組件來製造它（完整列表見[配方](/zh-TW/content/recipes/)）:
 
 
-**藍圖:** [T2 Large Core Booster Cprg](/zh-TW/content/items/named1-large-core-booster-cprg/)
+**藍圖:** [T2 Large Core Booster Cprg](/content/items/named1-large-core-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-TW/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">需要: <b>600</b></div></div>

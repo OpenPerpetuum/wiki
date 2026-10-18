@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T3"
 **Производится из 6 компонентах, уровень исследований 6** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Martimal farlock NEXUS module CT](/ru/content/items/named2-gang-assist-information-module-cprg/)
+**Чертёж:** [Martimal farlock NEXUS module CT](/content/items/named2-gang-assist-information-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/espitium/">Espitium</a></div><div class="prod-card-body">нужно: <b>300</b></div></div>

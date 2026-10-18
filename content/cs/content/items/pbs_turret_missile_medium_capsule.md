@@ -48,7 +48,7 @@ description: "Special & other / Miscellaneous, tier T2"
 **Vyráběn z 10 komponentách** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Advanced missile turret foundation CT](/cs/content/items/pbs-turret-missile-medium-capsule-cprg/)
+**Výkres:** [Advanced missile turret foundation CT](/content/items/pbs-turret-missile-medium-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">potřebné: <b>250</b></div></div>

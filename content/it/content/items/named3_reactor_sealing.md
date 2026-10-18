@@ -32,7 +32,7 @@ description: "Modules / Enhancements, tier T4"
 **Prodotto da 10 componenti, livello di ricerca 6** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [GRIP-500p reactor sealing CT](/it/content/items/named3-reactor-sealing-cprg/)
+**Piano:** [GRIP-500p reactor sealing CT](/content/items/named3-reactor-sealing-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/alligior/">Alligior</a></div><div class="prod-card-body">richiesto: <b>250</b></div></div>

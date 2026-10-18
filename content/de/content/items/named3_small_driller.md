@@ -34,7 +34,7 @@ description: "Modules / Enhancements, tier T4"
 **Hergestellt aus 8 Komponenten, Forschungsebene 4** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Scraper-990 small miner module CT](/de/content/items/named3-small-driller-cprg/)
+**Bauplan:** [Scraper-990 small miner module CT](/content/items/named3-small-driller-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">benötigt: <b>50</b></div></div>

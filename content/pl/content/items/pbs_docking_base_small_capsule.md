@@ -35,7 +35,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Produkcja z 8 komponentów** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Standard main terminal foundation CT](/pl/content/items/pbs-docking-base-small-capsule-cprg/)
+**Nakładka:** [Standard main terminal foundation CT](/content/items/pbs-docking-base-small-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">wymagane: <b>7.5k</b></div></div>

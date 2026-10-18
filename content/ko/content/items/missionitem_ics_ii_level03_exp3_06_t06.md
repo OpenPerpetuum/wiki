@@ -25,7 +25,7 @@ _통계 없음 — 이 아이템에는 집계 값이 없습니다._
 **구성 요소 2개로 생산 , 연구 레벨 1** — 구성 요소를 조립하여 제작합니다 (전체 목록은 [레시피](/ko/content/recipes/) 참조):
 
 
-**제작도:** [Mobile synthesizer [Helicon VI] CT](/ko/content/items/missionitem-ics-ii-level03-exp3-06-t06-cprg/)
+**제작도:** [Mobile synthesizer [Helicon VI] CT](/content/items/missionitem-ics-ii-level03-exp3-06-t06-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ko/content/items/missionitem-ics-ii-level03-exp3-06-t04/">Mobile synthesizer casing [Helicon VI]</a></div><div class="prod-card-body">필요: <b>1</b></div></div>

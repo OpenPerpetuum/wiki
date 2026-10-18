@@ -39,7 +39,7 @@ description: "Modules / Enhancements, tier T4"
 **コンポーネント8個から製造** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [T4 Dreadnought Module Cprg](/ja/content/items/named3-dreadnought-module-cprg/)
+**設計図:** [T4 Dreadnought Module Cprg](/content/items/named3-dreadnought-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">必要: <b>800</b></div></div>

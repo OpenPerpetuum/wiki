@@ -25,7 +25,7 @@ _Нет статистики — этот предмет не имеет агр�
 **Производится из 2 компонентах, уровень исследований 1** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Mobile synthesizer [Helicon VI] CT](/ru/content/items/missionitem-ics-ii-level03-exp3-06-t06-cprg/)
+**Чертёж:** [Mobile synthesizer [Helicon VI] CT](/content/items/missionitem-ics-ii-level03-exp3-06-t06-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/missionitem-ics-ii-level03-exp3-06-t04/">Mobile synthesizer casing [Helicon VI]</a></div><div class="prod-card-body">нужно: <b>1</b></div></div>

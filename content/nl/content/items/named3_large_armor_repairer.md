@@ -34,7 +34,7 @@ description: "Modules / Repair, tier T4"
 **Geproduceerd uit 10 componentën** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [T4 Large Armor Repairer Cprg](/nl/content/items/named3-large-armor-repairer-cprg/)
+**Bouwtekening:** [T4 Large Armor Repairer Cprg](/content/items/named3-large-armor-repairer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">vereist: <b>600</b></div></div>

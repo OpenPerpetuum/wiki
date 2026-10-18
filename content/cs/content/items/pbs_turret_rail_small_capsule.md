@@ -48,7 +48,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Vyráběn z 6 komponentách** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Standard EM-turret foundation CT](/cs/content/items/pbs-turret-rail-small-capsule-cprg/)
+**Výkres:** [Standard EM-turret foundation CT](/content/items/pbs-turret-rail-small-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">potřebné: <b>500</b></div></div>

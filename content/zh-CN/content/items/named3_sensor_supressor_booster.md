@@ -34,7 +34,7 @@ description: "Modules / Sensors & scanning, tier T4"
 **由组件 10个生产 ，研究等级 8** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [DDX700-Mist sensor suppressor tuning CT](/zh-CN/content/items/named3-sensor-supressor-booster-cprg/)
+**蓝图:** [DDX700-Mist sensor suppressor tuning CT](/content/items/named3-sensor-supressor-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/espitium/">Espitium</a></div><div class="prod-card-body">需要: <b>300</b></div></div>

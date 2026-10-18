@@ -25,7 +25,7 @@ _Nessuna statistica — questo oggetto non porta valori aggregati._
 **Prodotto da 2 componenti, livello di ricerca 1** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Compressor [T-M Industry V] CT](/it/content/items/missionitem-tm-i-tutorial-exp3-05-t04-cprg/)
+**Piano:** [Compressor [T-M Industry V] CT](/content/items/missionitem-tm-i-tutorial-exp3-05-t04-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/missionitem-tm-i-tutorial-exp3-05-t02/">Compressor valve [T-M Industry V]</a></div><div class="prod-card-body">richiesto: <b>1</b></div></div>

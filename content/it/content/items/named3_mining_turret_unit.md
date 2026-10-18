@@ -33,7 +33,7 @@ description: "Special & other / Miscellaneous, tier T4"
 **Prodotto da 6 componenti, livello di ricerca 5** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [T4 Mining Turret Unit Cprg](/it/content/items/named3-mining-turret-unit-cprg/)
+**Piano:** [T4 Mining Turret Unit Cprg](/content/items/named3-mining-turret-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">richiesto: <b>1.0k</b></div></div>

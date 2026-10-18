@@ -33,7 +33,7 @@ description: "Modules / Enhancements, tier T4"
 **由组件 9个生产** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [T4 Large Core Booster Cprg](/zh-CN/content/items/named3-large-core-booster-cprg/)
+**蓝图:** [T4 Large Core Booster Cprg](/content/items/named3-large-core-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">需要: <b>300</b></div></div>

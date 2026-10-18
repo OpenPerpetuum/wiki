@@ -57,7 +57,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/it/content/shop/) 
 **Prodotto da 2 componenti** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Elitet2 71 Medium Shield Generator Cprg](/it/content/items/elitet2-71-medium-shield-generator-cprg/)
+**Piano:** [Elitet2 71 Medium Shield Generator Cprg](/content/items/elitet2-71-medium-shield-generator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/material-boss-z71/">Material Boss Z71</a></div><div class="prod-card-body">richiesto: <b>300</b></div></div>

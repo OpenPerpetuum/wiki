@@ -25,7 +25,7 @@ _Aucune statistique — cet article ne porte aucune valeur agrégée._
 **Produit à partir de 2 composants, niveau de recherche 1** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [Compressor [Asintec Industry V] CT](/fr/content/items/missionitem-asi-i-tutorial-exp3-05-t04-cprg/)
+**Plan :** [Compressor [Asintec Industry V] CT](/content/items/missionitem-asi-i-tutorial-exp3-05-t04-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/missionitem-asi-i-tutorial-exp3-05-t02/">Compressor valve [Asintec Industry V]</a></div><div class="prod-card-body">requis : <b>1</b></div></div>

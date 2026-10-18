@@ -35,7 +35,7 @@ description: "Modules / Repair, tier T3"
 **Producido desde 8 componentes, nivel de investigación 4** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Quissot's small armor repairer CT](/es/content/items/named2-small-armor-repairer-cprg/)
+**Planos:** [Quissot's small armor repairer CT](/content/items/named2-small-armor-repairer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/alligior/">Alligior</a></div><div class="prod-card-body">requerido: <b>100</b></div></div>

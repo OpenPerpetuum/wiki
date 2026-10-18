@@ -26,7 +26,7 @@ _Brak statystyk — ten przedmiot nie niesie żadnych wartości agregowanych._
 **Produkcja z 9 komponentów** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Reactor Booster C Cprg](/pl/content/items/reactor-booster-c-cprg/)
+**Nakładka:** [Reactor Booster C Cprg](/content/items/reactor-booster-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>1.1k</b></div></div>

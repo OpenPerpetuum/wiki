@@ -33,7 +33,7 @@ description: "Ammo / Cannon"
 **Geproduceerd uit 4 componentën** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Ammo Hell Cannon T Cprg](/nl/content/items/ammo-hell-cannon-t-cprg/)
+**Bouwtekening:** [Ammo Hell Cannon T Cprg](/content/items/ammo-hell-cannon-t-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/biotichrin/">Biotichrin</a></div><div class="prod-card-body">vereist: <b>600</b></div></div>

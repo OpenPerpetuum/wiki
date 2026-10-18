@@ -36,7 +36,7 @@ description: "Modules / Sensors & scanning, tier T4"
 **Produkcja z 12 komponentów, poziom badań 6** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Tenion ECM CT](/pl/content/items/named3-sensor-jammer-cprg/)
+**Nakładka:** [Tenion ECM CT](/content/items/named3-sensor-jammer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/chollonin/">Chollonin</a></div><div class="prod-card-body">wymagane: <b>200</b></div></div>

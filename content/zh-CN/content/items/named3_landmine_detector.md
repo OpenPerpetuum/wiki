@@ -34,7 +34,7 @@ description: "Modules / Enhancements, tier T4"
 **由组件 8个生产** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [T4 Landmine Detector Cprg](/zh-CN/content/items/named3-landmine-detector-cprg/)
+**蓝图:** [T4 Landmine Detector Cprg](/content/items/named3-landmine-detector-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">需要: <b>400</b></div></div>

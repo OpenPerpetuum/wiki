@@ -32,7 +32,7 @@ description: "Modules / Enhancements, tier T3"
 **Производится из 8 компонентах, уровень исследований 4** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Deshrud-QW ECCM CT](/ru/content/items/named2-eccm-cprg/)
+**Чертёж:** [Deshrud-QW ECCM CT](/content/items/named2-eccm-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/alligior/">Alligior</a></div><div class="prod-card-body">нужно: <b>25</b></div></div>

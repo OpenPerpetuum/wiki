@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T4"
 **Geproduceerd uit 10 componentën, onderzoekslevel 7** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Matriot-IV fast extractor NEXUS module CT](/nl/content/items/named3-gang-assist-fast-extraction-module-cprg/)
+**Bouwtekening:** [Matriot-IV fast extractor NEXUS module CT](/content/items/named3-gang-assist-fast-extraction-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">vereist: <b>50</b></div></div>

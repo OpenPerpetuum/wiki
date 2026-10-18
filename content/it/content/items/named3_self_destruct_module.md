@@ -33,7 +33,7 @@ description: "Modules / Enhancements, tier T4"
 **Prodotto da 7 componenti** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [T4 Self Destruct Module Cprg](/it/content/items/named3-self-destruct-module-cprg/)
+**Piano:** [T4 Self Destruct Module Cprg](/content/items/named3-self-destruct-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">richiesto: <b>250</b></div></div>

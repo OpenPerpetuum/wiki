@@ -30,7 +30,7 @@ description: "Ammo / Cannon"
 **由组件 2个生产 ，研究等级 3** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [Medium compositecore slug CT](/zh-CN/content/items/ammo-medium-railgun-d-cprg/)
+**蓝图:** [Medium compositecore slug CT](/content/items/ammo-medium-railgun-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/polynitrocol/">Polynitrocol</a></div><div class="prod-card-body">需要: <b>200</b></div></div>

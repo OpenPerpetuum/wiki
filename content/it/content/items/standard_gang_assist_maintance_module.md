@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T1"
 **Prodotto da 5 componenti, livello di ricerca 4** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Standard repairer NEXUS module CT](/it/content/items/standard-gang-assist-maintance-module-cprg/)
+**Piano:** [Standard repairer NEXUS module CT](/content/items/standard-gang-assist-maintance-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">richiesto: <b>150</b></div></div>

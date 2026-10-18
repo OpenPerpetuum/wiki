@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T2"
 **Vyráběn z 3 komponentách, výzkumná úroveň 5** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [T2 Gang Assist Resilience Module Cprg](/cs/content/items/named1-gang-assist-resilience-module-cprg/)
+**Výkres:** [T2 Gang Assist Resilience Module Cprg](/content/items/named1-gang-assist-resilience-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-crystal"/></svg><a class="prod-card-name" href="/cs/content/items/robotshard-pelistal-basic/">Damaged pelistal fragment</a></div><div class="prod-card-body">potřebné: <b>15</b></div></div>

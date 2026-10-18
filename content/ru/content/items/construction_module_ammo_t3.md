@@ -31,7 +31,7 @@ description: "Special & other / Miscellaneous, tier T3"
 **Производится из 12 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Construction Module Ammo T3 Cprg](/ru/content/items/construction-module-ammo-t3-cprg/)
+**Чертёж:** [Construction Module Ammo T3 Cprg](/content/items/construction-module-ammo-t3-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/alligior/">Alligior</a></div><div class="prod-card-body">нужно: <b>50</b></div></div>

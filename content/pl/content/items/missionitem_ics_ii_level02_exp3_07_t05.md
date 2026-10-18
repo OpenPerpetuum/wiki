@@ -25,7 +25,7 @@ _Brak statystyk — ten przedmiot nie niesie żadnych wartości agregowanych._
 **Produkcja z 2 komponentów, poziom badań 1** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Transformator [Meteora VII] CT](/pl/content/items/missionitem-ics-ii-level02-exp3-07-t05-cprg/)
+**Nakładka:** [Transformator [Meteora VII] CT](/content/items/missionitem-ics-ii-level02-exp3-07-t05-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/missionitem-ics-ii-level02-exp3-07-t03/">Transformator casing [Meteora VII/1]</a></div><div class="prod-card-body">wymagane: <b>1</b></div></div>

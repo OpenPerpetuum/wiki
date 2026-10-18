@@ -45,7 +45,7 @@ description: "Modules / Remote control, tier T1"
 **Производится из 4 компонентах, уровень исследований 5** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Standard Engineering Remote Controller Cprg](/ru/content/items/standard-engineering-remote-controller-cprg/)
+**Чертёж:** [Standard Engineering Remote Controller Cprg](/content/items/standard-engineering-remote-controller-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">нужно: <b>250</b></div></div>

@@ -33,7 +33,7 @@ description: "Modules / Repair, tier T1"
 **Vyráběn z 5 komponentách, výzkumná úroveň 3** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Standard armor repairer tuning CT](/cs/content/items/standard-armor-repairer-upgrade-cprg/)
+**Výkres:** [Standard armor repairer tuning CT](/content/items/standard-armor-repairer-upgrade-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">potřebné: <b>50</b></div></div>

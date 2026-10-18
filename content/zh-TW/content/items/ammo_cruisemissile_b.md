@@ -33,7 +33,7 @@ description: "Ammo / Missiles"
 **由組件 4個生產** — 組裝組件來製造它（完整列表見[配方](/zh-TW/content/recipes/)）:
 
 
-**藍圖:** [Ammo Cruisemissile B Cprg](/zh-TW/content/items/ammo-cruisemissile-b-cprg/)
+**藍圖:** [Ammo Cruisemissile B Cprg](/content/items/ammo-cruisemissile-b-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-TW/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">需要: <b>150</b></div></div>

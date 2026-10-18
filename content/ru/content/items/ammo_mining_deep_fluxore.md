@@ -25,7 +25,7 @@ _Нет статистики — этот предмет не имеет агр�
 **Производится из 4 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Ammo Mining Deep Fluxore Cprg](/ru/content/items/ammo-mining-deep-fluxore-cprg/)
+**Чертёж:** [Ammo Mining Deep Fluxore Cprg](/content/items/ammo-mining-deep-fluxore-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/isopropentol/">Isopropentol</a></div><div class="prod-card-body">нужно: <b>90</b></div></div>

@@ -36,7 +36,7 @@ description: "Modules / Shield, tier T1"
 **Produzido a partir de 5 componentes, nível de pesquisa 4** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [Standard shield NEXUS module CT](/pt/content/items/standard-gang-assist-shield-calculation-module-cprg/)
+**Plano:** [Standard shield NEXUS module CT](/content/items/standard-gang-assist-shield-calculation-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">necessário: <b>250</b></div></div>

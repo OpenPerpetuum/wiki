@@ -25,7 +25,7 @@ _Sin estadísticas — este elemento no porta valores agregados._
 **Producido desde 2 componentes** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Ammo Mining Deep Stermonit Cprg](/es/content/items/ammo-mining-deep-stermonit-cprg/)
+**Planos:** [Ammo Mining Deep Stermonit Cprg](/content/items/ammo-mining-deep-stermonit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/polynucleit/">Polynucleit</a></div><div class="prod-card-body">requerido: <b>180</b></div></div>

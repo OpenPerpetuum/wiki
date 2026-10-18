@@ -39,7 +39,7 @@ description: "Modules / Enhancements, tier T3"
 **Prodotto da 6 componenti** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [T3 Dreadnought Module Cprg](/it/content/items/named2-dreadnought-module-cprg/)
+**Piano:** [T3 Dreadnought Module Cprg](/content/items/named2-dreadnought-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">richiesto: <b>400</b></div></div>

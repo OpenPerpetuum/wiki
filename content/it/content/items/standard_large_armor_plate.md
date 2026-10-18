@@ -34,7 +34,7 @@ description: "Modules / Armor, tier T1"
 **Prodotto da 3 componenti** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Standard Large Armor Plate Cprg](/it/content/items/standard-large-armor-plate-cprg/)
+**Piano:** [Standard Large Armor Plate Cprg](/content/items/standard-large-armor-plate-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/plasteosine/">Plasteosine</a></div><div class="prod-card-body">richiesto: <b>1.1k</b></div></div>

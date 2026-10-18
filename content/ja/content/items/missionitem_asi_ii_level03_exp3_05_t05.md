@@ -25,7 +25,7 @@ _統計なし — このアイテムには集約値がありません。_
 **コンポーネント2個から製造 、研究レベル 1** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Infrared robotic eyes [Sahel V] CT](/ja/content/items/missionitem-asi-ii-level03-exp3-05-t05-cprg/)
+**設計図:** [Infrared robotic eyes [Sahel V] CT](/content/items/missionitem-asi-ii-level03-exp3-05-t05-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/missionitem-asi-ii-level03-exp3-05-t02/">Eye sensors [Sahel V]</a></div><div class="prod-card-body">必要: <b>1</b></div></div>

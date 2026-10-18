@@ -167,7 +167,7 @@ def _render_cards(items: list, cat_title: str) -> list:
     lines = []
     lines.append('<div class="mission-cards">')
     for item in items:
-        url = f"/content/items/{item['slug'].replace('_', '-')}/"
+        url = f"/content/items/{item['slug'].replace('_', '-').lower()}/"
         lines.append('<div class="mission-card">')
         lines.append('<div class="mission-card-head">')
         lines.append('<span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>')
@@ -356,7 +356,7 @@ def generate_components_page(items: list, component_slugs: set) -> str:
         lines.append("")
         lines.append('<div class="mission-cards">')
         for item in cat_items:
-            url = f"/content/items/{item['slug'].replace('_', '-')}/"
+            url = f"/content/items/{item['slug'].replace('_', '-').lower()}/"
             lines.append('<div class="mission-card">')
             lines.append('<div class="mission-card-head">')
             lines.append('<span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>')

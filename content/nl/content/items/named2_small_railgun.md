@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T3"
 **Geproduceerd uit 8 componentën, onderzoekslevel 4** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Proto-Gard II. light EM-gun CT](/nl/content/items/named2-small-railgun-cprg/)
+**Bouwtekening:** [Proto-Gard II. light EM-gun CT](/content/items/named2-small-railgun-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/hydrobenol/">Hydrobenol</a></div><div class="prod-card-body">vereist: <b>50</b></div></div>

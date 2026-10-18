@@ -59,7 +59,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/zh-CN/content/shop
 **由组件 2个生产** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [Elitet4 Gamma Longrange Medium Laser Cprg](/zh-CN/content/items/elitet4-gamma-longrange-medium-laser-cprg/)
+**蓝图:** [Elitet4 Gamma Longrange Medium Laser Cprg](/content/items/elitet4-gamma-longrange-medium-laser-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/material-boss-gamma-thelodica/">Material Boss Gamma Thelodica</a></div><div class="prod-card-body">需要: <b>400</b></div></div>

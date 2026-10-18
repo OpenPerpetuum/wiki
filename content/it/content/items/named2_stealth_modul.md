@@ -34,7 +34,7 @@ description: "Modules / Enhancements, tier T3"
 **Prodotto da 8 componenti, livello di ricerca 8** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [MSMD signal masker CT](/it/content/items/named2-stealth-modul-cprg/)
+**Piano:** [MSMD signal masker CT](/content/items/named2-stealth-modul-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/alligior/">Alligior</a></div><div class="prod-card-body">richiesto: <b>25</b></div></div>

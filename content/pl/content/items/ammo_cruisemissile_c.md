@@ -33,7 +33,7 @@ description: "Ammo / Missiles"
 **Produkcja z 4 komponentów** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Ammo Cruisemissile C Cprg](/pl/content/items/ammo-cruisemissile-c-cprg/)
+**Nakładka:** [Ammo Cruisemissile C Cprg](/content/items/ammo-cruisemissile-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">wymagane: <b>150</b></div></div>

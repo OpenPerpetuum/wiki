@@ -26,7 +26,7 @@ _統計なし — このアイテムには集約値がありません。_
 **コンポーネント2個から製造 、研究レベル 1** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Miner charge (silgium) CT](/ja/content/items/ammo-mining-silgium-cprg/)
+**設計図:** [Miner charge (silgium) CT](/content/items/ammo-mining-silgium-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">必要: <b>20</b></div></div>

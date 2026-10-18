@@ -30,7 +30,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Производится из 7 компонентах, уровень исследований 5** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Standard Hunter Drone Rcu Pve Cprg](/ru/content/items/standard-hunter-drone-rcu-pve-cprg/)
+**Чертёж:** [Standard Hunter Drone Rcu Pve Cprg](/content/items/standard-hunter-drone-rcu-pve-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">нужно: <b>500</b></div></div>

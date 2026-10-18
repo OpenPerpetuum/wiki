@@ -33,7 +33,7 @@ description: "Special & other / Miscellaneous, tier T3"
 **Prodotto da 3 componenti, livello di ricerca 4** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [T3 Harvesting Turret Unit Cprg](/it/content/items/named2-harvesting-turret-unit-cprg/)
+**Piano:** [T3 Harvesting Turret Unit Cprg](/content/items/named2-harvesting-turret-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">richiesto: <b>750</b></div></div>

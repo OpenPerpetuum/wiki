@@ -32,7 +32,7 @@ description: "Modules / Power, tier T2"
 **Produkcja z 4 komponentów, poziom badań 5** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Ovostec-gpc7000 medium auxiliary accumulator CT](/pl/content/items/named1-medium-core-battery-cprg/)
+**Nakładka:** [Ovostec-gpc7000 medium auxiliary accumulator CT](/content/items/named1-medium-core-battery-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>400</b></div></div>

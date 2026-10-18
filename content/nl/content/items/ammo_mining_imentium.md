@@ -25,7 +25,7 @@ _Geen statistieken — dit item draagt geen geaggregeerde waarden._
 **Geproduceerd uit 2 componentën, onderzoekslevel 1** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Miner charge (imentium) CT](/nl/content/items/ammo-mining-imentium-cprg/)
+**Bouwtekening:** [Miner charge (imentium) CT](/content/items/ammo-mining-imentium-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/polynitrocol/">Polynitrocol</a></div><div class="prod-card-body">vereist: <b>20</b></div></div>

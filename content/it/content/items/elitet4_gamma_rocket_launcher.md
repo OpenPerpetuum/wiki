@@ -57,7 +57,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/it/content/shop/) 
 **Prodotto da 2 componenti** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Elitet4 Gamma Rocket Launcher Cprg](/it/content/items/elitet4-gamma-rocket-launcher-cprg/)
+**Piano:** [Elitet4 Gamma Rocket Launcher Cprg](/content/items/elitet4-gamma-rocket-launcher-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/material-boss-gamma-pelistal/">Material Boss Gamma Pelistal</a></div><div class="prod-card-body">richiesto: <b>200</b></div></div>

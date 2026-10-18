@@ -19,7 +19,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/account-bound-container/">Account Bound Container</a></div>
+<div><div class="mission-card-title"><a href="/content/items/account-bound-container/">Account Bound Container</a></div>
 <div class="mission-card-sub">Special & other / Containers</div>
 </div>
 </div>
@@ -27,7 +27,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/field-container/">Field container</a></div>
+<div><div class="mission-card-title"><a href="/content/items/field-container/">Field container</a></div>
 <div class="mission-card-sub">Special & other / Containers</div>
 </div>
 </div>
@@ -35,7 +35,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/infinite-capacity-box-container/">Infinite Capacity Box Container</a></div>
+<div><div class="mission-card-title"><a href="/content/items/infinite-capacity-box-container/">Infinite Capacity Box Container</a></div>
 <div class="mission-card-sub">Special & other / Containers</div>
 </div>
 </div>
@@ -43,7 +43,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/loot-container/">Loot Container</a></div>
+<div><div class="mission-card-title"><a href="/content/items/loot-container/">Loot Container</a></div>
 <div class="mission-card-sub">Special & other / Containers</div>
 </div>
 </div>
@@ -51,7 +51,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/public-container/">Private storage</a></div>
+<div><div class="mission-card-title"><a href="/content/items/public-container/">Private storage</a></div>
 <div class="mission-card-sub">Special & other / Containers</div>
 </div>
 </div>
@@ -59,7 +59,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/system-container/">System Container</a></div>
+<div><div class="mission-card-title"><a href="/content/items/system-container/">System Container</a></div>
 <div class="mission-card-sub">Special & other / Containers</div>
 </div>
 </div>
@@ -67,7 +67,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/volume-wrapper-container/">Volume Wrapper Container</a></div>
+<div><div class="mission-card-title"><a href="/content/items/volume-wrapper-container/">Volume Wrapper Container</a></div>
 <div class="mission-card-sub">Special & other / Containers</div>
 </div>
 </div>
@@ -80,7 +80,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/arbalest-mk2-A-CT-capsule/">Arbalest MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/arbalest-mk2-a-ct-capsule/">Arbalest MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -88,7 +88,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/arbalest-mk2-A-dynamic-cprg/">Arbalest MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/arbalest-mk2-a-dynamic-cprg/">Arbalest MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -96,7 +96,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/arbalest-mk2-B-CT-capsule/">Arbalest MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/arbalest-mk2-b-ct-capsule/">Arbalest MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -104,7 +104,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/arbalest-mk2-B-dynamic-cprg/">Arbalest MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/arbalest-mk2-b-dynamic-cprg/">Arbalest MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -112,7 +112,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/arbalest-mk2-C-CT-capsule/">Arbalest MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/arbalest-mk2-c-ct-capsule/">Arbalest MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -120,7 +120,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/arbalest-mk2-C-dynamic-cprg/">Arbalest MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/arbalest-mk2-c-dynamic-cprg/">Arbalest MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -128,7 +128,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/argano-mk2-A-CT-capsule/">Argano MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/argano-mk2-a-ct-capsule/">Argano MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -136,7 +136,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/argano-mk2-A-dynamic-cprg/">Argano MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/argano-mk2-a-dynamic-cprg/">Argano MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -144,7 +144,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/argano-mk2-B-CT-capsule/">Argano MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/argano-mk2-b-ct-capsule/">Argano MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -152,7 +152,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/argano-mk2-B-dynamic-cprg/">Argano MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/argano-mk2-b-dynamic-cprg/">Argano MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -160,7 +160,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/argano-mk2-C-CT-capsule/">Argano MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/argano-mk2-c-ct-capsule/">Argano MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -168,7 +168,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/argano-mk2-C-dynamic-cprg/">Argano MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/argano-mk2-c-dynamic-cprg/">Argano MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -176,7 +176,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/artemis-mk2-A-CT-capsule/">Artemis MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/artemis-mk2-a-ct-capsule/">Artemis MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -184,7 +184,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/artemis-mk2-A-dynamic-cprg/">Artemis MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/artemis-mk2-a-dynamic-cprg/">Artemis MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -192,7 +192,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/artemis-mk2-B-CT-capsule/">Artemis MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/artemis-mk2-b-ct-capsule/">Artemis MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -200,7 +200,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/artemis-mk2-B-dynamic-cprg/">Artemis MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/artemis-mk2-b-dynamic-cprg/">Artemis MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -208,7 +208,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/artemis-mk2-C-CT-capsule/">Artemis MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/artemis-mk2-c-ct-capsule/">Artemis MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -216,7 +216,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/artemis-mk2-C-dynamic-cprg/">Artemis MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/artemis-mk2-c-dynamic-cprg/">Artemis MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -224,7 +224,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/baphomet-mk2-A-CT-capsule/">Baphomet MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/baphomet-mk2-a-ct-capsule/">Baphomet MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -232,7 +232,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/baphomet-mk2-A-dynamic-cprg/">Baphomet MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/baphomet-mk2-a-dynamic-cprg/">Baphomet MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -240,7 +240,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/baphomet-mk2-B-CT-capsule/">Baphomet MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/baphomet-mk2-b-ct-capsule/">Baphomet MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -248,7 +248,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/baphomet-mk2-B-dynamic-cprg/">Baphomet MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/baphomet-mk2-b-dynamic-cprg/">Baphomet MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -256,7 +256,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/baphomet-mk2-C-CT-capsule/">Baphomet MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/baphomet-mk2-c-ct-capsule/">Baphomet MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -264,7 +264,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/baphomet-mk2-C-dynamic-cprg/">Baphomet MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/baphomet-mk2-c-dynamic-cprg/">Baphomet MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -272,7 +272,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/callisto-bot-CT-capsule/">Callisto Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/callisto-bot-ct-capsule/">Callisto Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -280,7 +280,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/callisto-bot-cprg/">Callisto Bot Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/callisto-bot-cprg/">Callisto Bot Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -288,7 +288,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/cameleon-mk2-A-CT-capsule/">Cameleon MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/cameleon-mk2-a-ct-capsule/">Cameleon MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -296,7 +296,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/cameleon-mk2-A-dynamic-cprg/">Cameleon MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/cameleon-mk2-a-dynamic-cprg/">Cameleon MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -304,7 +304,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/cameleon-mk2-B-CT-capsule/">Cameleon MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/cameleon-mk2-b-ct-capsule/">Cameleon MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -312,7 +312,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/cameleon-mk2-B-dynamic-cprg/">Cameleon MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/cameleon-mk2-b-dynamic-cprg/">Cameleon MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -320,7 +320,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/cameleon-mk2-C-CT-capsule/">Cameleon MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/cameleon-mk2-c-ct-capsule/">Cameleon MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -328,7 +328,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/cameleon-mk2-C-dynamic-cprg/">Cameleon MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/cameleon-mk2-c-dynamic-cprg/">Cameleon MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -336,7 +336,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/castel-mk2-A-CT-capsule/">Castel MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/castel-mk2-a-ct-capsule/">Castel MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -344,7 +344,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/castel-mk2-A-dynamic-cprg/">Castel MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/castel-mk2-a-dynamic-cprg/">Castel MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -352,7 +352,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/castel-mk2-B-CT-capsule/">Castel MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/castel-mk2-b-ct-capsule/">Castel MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -360,7 +360,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/castel-mk2-B-dynamic-cprg/">Castel MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/castel-mk2-b-dynamic-cprg/">Castel MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -368,7 +368,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/castel-mk2-C-CT-capsule/">Castel MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/castel-mk2-c-ct-capsule/">Castel MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -376,7 +376,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/castel-mk2-C-dynamic-cprg/">Castel MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/castel-mk2-c-dynamic-cprg/">Castel MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -384,7 +384,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/cronus-bot-CT-capsule/">Cronus Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/cronus-bot-ct-capsule/">Cronus Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -392,7 +392,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/cronus-bot-cprg/">Cronus Bot Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/cronus-bot-cprg/">Cronus Bot Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -400,7 +400,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/daidalos-bot-CT-capsule/">Daidalos Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/daidalos-bot-ct-capsule/">Daidalos Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -408,7 +408,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/daidalos-bot-cprg/">Daidalos CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/daidalos-bot-cprg/">Daidalos CT</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -416,7 +416,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/echelon-bot-CT-capsule/">Echelon Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/echelon-bot-ct-capsule/">Echelon Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -424,7 +424,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/echelon-bot-cprg/">Echelon Bot Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/echelon-bot-cprg/">Echelon Bot Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -432,7 +432,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/gargoyle-mk2-A-CT-capsule/">Gargoyle MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gargoyle-mk2-a-ct-capsule/">Gargoyle MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -440,7 +440,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/gargoyle-mk2-A-dynamic-cprg/">Gargoyle MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gargoyle-mk2-a-dynamic-cprg/">Gargoyle MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -448,7 +448,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/gargoyle-mk2-B-CT-capsule/">Gargoyle MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gargoyle-mk2-b-ct-capsule/">Gargoyle MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -456,7 +456,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/gargoyle-mk2-B-dynamic-cprg/">Gargoyle MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gargoyle-mk2-b-dynamic-cprg/">Gargoyle MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -464,7 +464,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/gargoyle-mk2-C-CT-capsule/">Gargoyle MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gargoyle-mk2-c-ct-capsule/">Gargoyle MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -472,7 +472,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/gargoyle-mk2-C-dynamic-cprg/">Gargoyle MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gargoyle-mk2-c-dynamic-cprg/">Gargoyle MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -480,7 +480,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/gropho-mk2-A-CT-capsule/">Gropho MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gropho-mk2-a-ct-capsule/">Gropho MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -488,7 +488,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/gropho-mk2-A-dynamic-cprg/">Gropho MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gropho-mk2-a-dynamic-cprg/">Gropho MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -496,7 +496,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/gropho-mk2-B-CT-capsule/">Gropho MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gropho-mk2-b-ct-capsule/">Gropho MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -504,7 +504,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/gropho-mk2-B-dynamic-cprg/">Gropho MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gropho-mk2-b-dynamic-cprg/">Gropho MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -512,7 +512,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/gropho-mk2-C-CT-capsule/">Gropho MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gropho-mk2-c-ct-capsule/">Gropho MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -520,7 +520,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/gropho-mk2-C-dynamic-cprg/">Gropho MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gropho-mk2-c-dynamic-cprg/">Gropho MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -528,7 +528,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/helix-bot-CT-capsule/">Helix Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/helix-bot-ct-capsule/">Helix Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -536,7 +536,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/helix-bot-cprg/">Helix Bot Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/helix-bot-cprg/">Helix Bot Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -544,7 +544,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/hermes-bot-CT-capsule/">Hermes Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/hermes-bot-ct-capsule/">Hermes Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -552,7 +552,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/hermes-bot-cprg/">Hermes Bot Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/hermes-bot-cprg/">Hermes Bot Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -560,7 +560,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/ictus-mk2-A-CT-capsule/">Ictus MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ictus-mk2-a-ct-capsule/">Ictus MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -568,7 +568,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/ictus-mk2-A-dynamic-cprg/">Ictus MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ictus-mk2-a-dynamic-cprg/">Ictus MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -576,7 +576,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/ictus-mk2-B-CT-capsule/">Ictus MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ictus-mk2-b-ct-capsule/">Ictus MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -584,7 +584,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/ictus-mk2-B-dynamic-cprg/">Ictus MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ictus-mk2-b-dynamic-cprg/">Ictus MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -592,7 +592,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/ictus-mk2-C-CT-capsule/">Ictus MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ictus-mk2-c-ct-capsule/">Ictus MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -600,7 +600,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/ictus-mk2-C-dynamic-cprg/">Ictus MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ictus-mk2-c-dynamic-cprg/">Ictus MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -608,7 +608,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/ikarus-bot-CT-capsule/">Ikarus Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ikarus-bot-ct-capsule/">Ikarus Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -616,7 +616,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/ikarus-bot-cprg/">Ikarus Bot Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ikarus-bot-cprg/">Ikarus Bot Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -624,7 +624,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/intakt-mk2-A-CT-capsule/">Intakt MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/intakt-mk2-a-ct-capsule/">Intakt MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -632,7 +632,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/intakt-mk2-A-dynamic-cprg/">Intakt MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/intakt-mk2-a-dynamic-cprg/">Intakt MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -640,7 +640,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/intakt-mk2-B-CT-capsule/">Intakt MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/intakt-mk2-b-ct-capsule/">Intakt MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -648,7 +648,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/intakt-mk2-B-dynamic-cprg/">Intakt MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/intakt-mk2-b-dynamic-cprg/">Intakt MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -656,7 +656,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/intakt-mk2-C-CT-capsule/">Intakt MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/intakt-mk2-c-ct-capsule/">Intakt MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -664,7 +664,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/intakt-mk2-C-dynamic-cprg/">Intakt MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/intakt-mk2-c-dynamic-cprg/">Intakt MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -672,7 +672,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/kain-mk2-A-CT-capsule/">Kain MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kain-mk2-a-ct-capsule/">Kain MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -680,7 +680,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/kain-mk2-A-dynamic-cprg/">Kain MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kain-mk2-a-dynamic-cprg/">Kain MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -688,7 +688,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/kain-mk2-B-CT-capsule/">Kain MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kain-mk2-b-ct-capsule/">Kain MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -696,7 +696,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/kain-mk2-B-dynamic-cprg/">Kain MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kain-mk2-b-dynamic-cprg/">Kain MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -704,7 +704,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/kain-mk2-C-CT-capsule/">Kain MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kain-mk2-c-ct-capsule/">Kain MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -712,7 +712,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/kain-mk2-C-dynamic-cprg/">Kain MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kain-mk2-c-dynamic-cprg/">Kain MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -720,7 +720,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/laird-mk2-A-CT-capsule/">Laird MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/laird-mk2-a-ct-capsule/">Laird MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -728,7 +728,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/laird-mk2-A-dynamic-cprg/">Laird MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/laird-mk2-a-dynamic-cprg/">Laird MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -736,7 +736,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/laird-mk2-B-CT-capsule/">Laird MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/laird-mk2-b-ct-capsule/">Laird MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -744,7 +744,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/laird-mk2-B-dynamic-cprg/">Laird MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/laird-mk2-b-dynamic-cprg/">Laird MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -752,7 +752,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/laird-mk2-C-CT-capsule/">Laird MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/laird-mk2-c-ct-capsule/">Laird MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -760,7 +760,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/laird-mk2-C-dynamic-cprg/">Laird MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/laird-mk2-c-dynamic-cprg/">Laird MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -768,7 +768,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/legatus-bot-CT-capsule/">Legatus Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/legatus-bot-ct-capsule/">Legatus Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -776,7 +776,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/legatus-bot-cprg/">Legatus Bot Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/legatus-bot-cprg/">Legatus Bot Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -784,7 +784,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/lithus-mk2-A-CT-capsule/">Lithus MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/lithus-mk2-a-ct-capsule/">Lithus MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -792,7 +792,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/lithus-mk2-A-dynamic-cprg/">Lithus MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/lithus-mk2-a-dynamic-cprg/">Lithus MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -800,7 +800,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/lithus-mk2-B-CT-capsule/">Lithus MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/lithus-mk2-b-ct-capsule/">Lithus MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -808,7 +808,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/lithus-mk2-B-dynamic-cprg/">Lithus MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/lithus-mk2-b-dynamic-cprg/">Lithus MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -816,7 +816,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/lithus-mk2-C-CT-capsule/">Lithus MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/lithus-mk2-c-ct-capsule/">Lithus MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -824,7 +824,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/lithus-mk2-C-dynamic-cprg/">Lithus MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/lithus-mk2-c-dynamic-cprg/">Lithus MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -832,7 +832,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/locust-bot-CT-capsule/">Locust Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/locust-bot-ct-capsule/">Locust Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -840,7 +840,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/locust-bot-cprg/">Locust Bot Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/locust-bot-cprg/">Locust Bot Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -848,7 +848,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mesmer-mk2-A-CT-capsule/">Mesmer MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mesmer-mk2-a-ct-capsule/">Mesmer MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -856,7 +856,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mesmer-mk2-A-dynamic-cprg/">Mesmer MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mesmer-mk2-a-dynamic-cprg/">Mesmer MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -864,7 +864,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mesmer-mk2-B-CT-capsule/">Mesmer MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mesmer-mk2-b-ct-capsule/">Mesmer MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -872,7 +872,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mesmer-mk2-B-dynamic-cprg/">Mesmer MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mesmer-mk2-b-dynamic-cprg/">Mesmer MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -880,7 +880,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mesmer-mk2-C-CT-capsule/">Mesmer MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mesmer-mk2-c-ct-capsule/">Mesmer MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -888,7 +888,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mesmer-mk2-C-dynamic-cprg/">Mesmer MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mesmer-mk2-c-dynamic-cprg/">Mesmer MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -896,7 +896,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/metis-bot-CT-capsule/">Metis Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/metis-bot-ct-capsule/">Metis Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -904,7 +904,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/metis-bot-cprg/">Metis Bot Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/metis-bot-cprg/">Metis Bot Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -912,7 +912,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/prometheus-mk2-A-CT-capsule/">Prometheus MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/prometheus-mk2-a-ct-capsule/">Prometheus MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -920,7 +920,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/prometheus-mk2-A-dynamic-cprg/">Prometheus MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/prometheus-mk2-a-dynamic-cprg/">Prometheus MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -928,7 +928,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/prometheus-mk2-B-CT-capsule/">Prometheus MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/prometheus-mk2-b-ct-capsule/">Prometheus MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -936,7 +936,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/prometheus-mk2-B-dynamic-cprg/">Prometheus MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/prometheus-mk2-b-dynamic-cprg/">Prometheus MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -944,7 +944,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/prometheus-mk2-C-CT-capsule/">Prometheus MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/prometheus-mk2-c-ct-capsule/">Prometheus MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -952,7 +952,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/prometheus-mk2-C-dynamic-cprg/">Prometheus MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/prometheus-mk2-c-dynamic-cprg/">Prometheus MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -960,7 +960,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/riveler-mk2-A-CT-capsule/">Riveler MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/riveler-mk2-a-ct-capsule/">Riveler MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -968,7 +968,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/riveler-mk2-A-dynamic-cprg/">Riveler MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/riveler-mk2-a-dynamic-cprg/">Riveler MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -976,7 +976,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/riveler-mk2-B-CT-capsule/">Riveler MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/riveler-mk2-b-ct-capsule/">Riveler MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -984,7 +984,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/riveler-mk2-B-dynamic-cprg/">Riveler MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/riveler-mk2-b-dynamic-cprg/">Riveler MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -992,7 +992,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/riveler-mk2-C-CT-capsule/">Riveler MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/riveler-mk2-c-ct-capsule/">Riveler MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1000,7 +1000,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/riveler-mk2-C-dynamic-cprg/">Riveler MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/riveler-mk2-c-dynamic-cprg/">Riveler MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1008,7 +1008,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/scarab-mk2-A-CT-capsule/">Scarab MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/scarab-mk2-a-ct-capsule/">Scarab MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1016,7 +1016,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/scarab-mk2-A-dynamic-cprg/">Scarab MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/scarab-mk2-a-dynamic-cprg/">Scarab MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1024,7 +1024,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/scarab-mk2-B-CT-capsule/">Scarab MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/scarab-mk2-b-ct-capsule/">Scarab MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1032,7 +1032,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/scarab-mk2-B-dynamic-cprg/">Scarab MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/scarab-mk2-b-dynamic-cprg/">Scarab MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1040,7 +1040,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/scarab-mk2-C-CT-capsule/">Scarab MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/scarab-mk2-c-ct-capsule/">Scarab MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1048,7 +1048,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/scarab-mk2-C-dynamic-cprg/">Scarab MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/scarab-mk2-c-dynamic-cprg/">Scarab MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1056,7 +1056,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/sequer-mk2-A-CT-capsule/">Sequer MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sequer-mk2-a-ct-capsule/">Sequer MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1064,7 +1064,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/sequer-mk2-A-dynamic-cprg/">Sequer MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sequer-mk2-a-dynamic-cprg/">Sequer MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1072,7 +1072,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/sequer-mk2-B-CT-capsule/">Sequer MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sequer-mk2-b-ct-capsule/">Sequer MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1080,7 +1080,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/sequer-mk2-B-dynamic-cprg/">Sequer MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sequer-mk2-b-dynamic-cprg/">Sequer MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1088,7 +1088,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/sequer-mk2-C-CT-capsule/">Sequer MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sequer-mk2-c-ct-capsule/">Sequer MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1096,7 +1096,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/sequer-mk2-C-dynamic-cprg/">Sequer MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sequer-mk2-c-dynamic-cprg/">Sequer MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1104,7 +1104,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/seth-mk2-A-CT-capsule/">Seth MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/seth-mk2-a-ct-capsule/">Seth MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1112,7 +1112,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/seth-mk2-A-dynamic-cprg/">Seth MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/seth-mk2-a-dynamic-cprg/">Seth MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1120,7 +1120,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/seth-mk2-B-CT-capsule/">Seth MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/seth-mk2-b-ct-capsule/">Seth MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1128,7 +1128,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/seth-mk2-B-dynamic-cprg/">Seth MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/seth-mk2-b-dynamic-cprg/">Seth MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1136,7 +1136,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/seth-mk2-C-CT-capsule/">Seth MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/seth-mk2-c-ct-capsule/">Seth MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1144,7 +1144,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/seth-mk2-C-dynamic-cprg/">Seth MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/seth-mk2-c-dynamic-cprg/">Seth MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1152,7 +1152,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/specimen-sap-item-dynamic-cprg/">Specimen Sap Item Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/specimen-sap-item-dynamic-cprg/">Specimen Sap Item Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1160,7 +1160,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/spectator-bot-A-dynamic-cprg/">Spectator Bot A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/spectator-bot-a-dynamic-cprg/">Spectator Bot A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1168,7 +1168,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/spectator-mk3-A-CT-capsule/">Spectator Mk3 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/spectator-mk3-a-ct-capsule/">Spectator Mk3 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1176,7 +1176,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/symbiont-mk2-A-CT-capsule/">Symbiont MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/symbiont-mk2-a-ct-capsule/">Symbiont MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1184,7 +1184,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/symbiont-mk2-A-dynamic-cprg/">Symbiont MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/symbiont-mk2-a-dynamic-cprg/">Symbiont MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1192,7 +1192,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/symbiont-mk2-B-CT-capsule/">Symbiont MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/symbiont-mk2-b-ct-capsule/">Symbiont MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1200,7 +1200,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/symbiont-mk2-B-dynamic-cprg/">Symbiont MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/symbiont-mk2-b-dynamic-cprg/">Symbiont MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1208,7 +1208,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/symbiont-mk2-C-CT-capsule/">Symbiont MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/symbiont-mk2-c-ct-capsule/">Symbiont MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1216,7 +1216,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/symbiont-mk2-C-dynamic-cprg/">Symbiont MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/symbiont-mk2-c-dynamic-cprg/">Symbiont MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1224,7 +1224,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/termis-mk2-A-CT-capsule/">Termis MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/termis-mk2-a-ct-capsule/">Termis MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1232,7 +1232,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/termis-mk2-A-dynamic-cprg/">Termis MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/termis-mk2-a-dynamic-cprg/">Termis MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1240,7 +1240,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/termis-mk2-B-CT-capsule/">Termis MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/termis-mk2-b-ct-capsule/">Termis MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1248,7 +1248,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/termis-mk2-B-dynamic-cprg/">Termis MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/termis-mk2-b-dynamic-cprg/">Termis MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1256,7 +1256,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/termis-mk2-C-CT-capsule/">Termis MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/termis-mk2-c-ct-capsule/">Termis MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1264,7 +1264,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/termis-mk2-C-dynamic-cprg/">Termis MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/termis-mk2-c-dynamic-cprg/">Termis MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1272,7 +1272,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/troiar-mk2-A-CT-capsule/">Troiar MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/troiar-mk2-a-ct-capsule/">Troiar MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1280,7 +1280,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/troiar-mk2-A-dynamic-cprg/">Troiar MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/troiar-mk2-a-dynamic-cprg/">Troiar MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1288,7 +1288,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/troiar-mk2-B-CT-capsule/">Troiar MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/troiar-mk2-b-ct-capsule/">Troiar MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1296,7 +1296,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/troiar-mk2-B-dynamic-cprg/">Troiar MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/troiar-mk2-b-dynamic-cprg/">Troiar MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1304,7 +1304,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/troiar-mk2-C-CT-capsule/">Troiar MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/troiar-mk2-c-ct-capsule/">Troiar MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1312,7 +1312,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/troiar-mk2-C-dynamic-cprg/">Troiar MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/troiar-mk2-c-dynamic-cprg/">Troiar MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1320,7 +1320,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/tyrannos-mk2-A-CT-capsule/">Tyrannos MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tyrannos-mk2-a-ct-capsule/">Tyrannos MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1328,7 +1328,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/tyrannos-mk2-A-dynamic-cprg/">Tyrannos MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tyrannos-mk2-a-dynamic-cprg/">Tyrannos MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1336,7 +1336,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/tyrannos-mk2-B-CT-capsule/">Tyrannos MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tyrannos-mk2-b-ct-capsule/">Tyrannos MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1344,7 +1344,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/tyrannos-mk2-B-dynamic-cprg/">Tyrannos MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tyrannos-mk2-b-dynamic-cprg/">Tyrannos MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1352,7 +1352,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/tyrannos-mk2-C-CT-capsule/">Tyrannos MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tyrannos-mk2-c-ct-capsule/">Tyrannos MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1360,7 +1360,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/tyrannos-mk2-C-dynamic-cprg/">Tyrannos MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tyrannos-mk2-c-dynamic-cprg/">Tyrannos MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1368,7 +1368,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/vagabond-mk2-A-CT-capsule/">Vagabond MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/vagabond-mk2-a-ct-capsule/">Vagabond MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1376,7 +1376,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/vagabond-mk2-A-dynamic-cprg/">Vagabond MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/vagabond-mk2-a-dynamic-cprg/">Vagabond MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1384,7 +1384,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/vagabond-mk2-B-CT-capsule/">Vagabond MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/vagabond-mk2-b-ct-capsule/">Vagabond MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1392,7 +1392,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/vagabond-mk2-B-dynamic-cprg/">Vagabond MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/vagabond-mk2-b-dynamic-cprg/">Vagabond MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1400,7 +1400,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/vagabond-mk2-C-CT-capsule/">Vagabond MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/vagabond-mk2-c-ct-capsule/">Vagabond MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1408,7 +1408,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/vagabond-mk2-C-dynamic-cprg/">Vagabond MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/vagabond-mk2-c-dynamic-cprg/">Vagabond MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1416,7 +1416,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/vektor-bot-CT-capsule/">Vektor Bot (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/vektor-bot-ct-capsule/">Vektor Bot (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -1424,7 +1424,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/vektor-bot-cprg/">Vektor Bot Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/vektor-bot-cprg/">Vektor Bot Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs</div>
 </div>
 </div>
@@ -1432,7 +1432,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/waspish-mk2-A-CT-capsule/">Waspish MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/waspish-mk2-a-ct-capsule/">Waspish MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1440,7 +1440,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/waspish-mk2-A-dynamic-cprg/">Waspish MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/waspish-mk2-a-dynamic-cprg/">Waspish MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1448,7 +1448,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/waspish-mk2-B-CT-capsule/">Waspish MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/waspish-mk2-b-ct-capsule/">Waspish MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1456,7 +1456,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/waspish-mk2-B-dynamic-cprg/">Waspish MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/waspish-mk2-b-dynamic-cprg/">Waspish MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1464,7 +1464,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/waspish-mk2-C-CT-capsule/">Waspish MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/waspish-mk2-c-ct-capsule/">Waspish MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1472,7 +1472,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/waspish-mk2-C-dynamic-cprg/">Waspish MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/waspish-mk2-c-dynamic-cprg/">Waspish MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1480,7 +1480,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/yagel-mk2-A-CT-capsule/">Yagel MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/yagel-mk2-a-ct-capsule/">Yagel MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1488,7 +1488,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/yagel-mk2-A-dynamic-cprg/">Yagel MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/yagel-mk2-a-dynamic-cprg/">Yagel MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1496,7 +1496,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/yagel-mk2-B-CT-capsule/">Yagel MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/yagel-mk2-b-ct-capsule/">Yagel MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1504,7 +1504,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/yagel-mk2-B-dynamic-cprg/">Yagel MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/yagel-mk2-b-dynamic-cprg/">Yagel MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1512,7 +1512,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/yagel-mk2-C-CT-capsule/">Yagel MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/yagel-mk2-c-ct-capsule/">Yagel MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1520,7 +1520,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/yagel-mk2-C-dynamic-cprg/">Yagel MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/yagel-mk2-c-dynamic-cprg/">Yagel MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1528,7 +1528,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/zenith-mk2-A-CT-capsule/">Zenith MK2 A (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zenith-mk2-a-ct-capsule/">Zenith MK2 A (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T1</div>
 </div>
 </div>
@@ -1536,7 +1536,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/zenith-mk2-A-dynamic-cprg/">Zenith MK2 A Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zenith-mk2-a-dynamic-cprg/">Zenith MK2 A Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1544,7 +1544,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/zenith-mk2-B-CT-capsule/">Zenith MK2 B (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zenith-mk2-b-ct-capsule/">Zenith MK2 B (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1552,7 +1552,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/zenith-mk2-B-dynamic-cprg/">Zenith MK2 B Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zenith-mk2-b-dynamic-cprg/">Zenith MK2 B Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1560,7 +1560,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/zenith-mk2-C-CT-capsule/">Zenith MK2 C (CT capsule)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zenith-mk2-c-ct-capsule/">Zenith MK2 C (CT capsule)</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T3</div>
 </div>
 </div>
@@ -1568,7 +1568,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/zenith-mk2-C-dynamic-cprg/">Zenith MK2 C Dynamic Cprg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zenith-mk2-c-dynamic-cprg/">Zenith MK2 C Dynamic Cprg</a></div>
 <div class="mission-card-sub">Special & other / Fit capsules & programs, tier T2</div>
 </div>
 </div>
@@ -1581,7 +1581,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/account/">Account</a></div>
+<div><div class="mission-card-title"><a href="/content/items/account/">Account</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1589,7 +1589,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/anniversary-package/">Alien Improbability Device</a></div>
+<div><div class="mission-card-title"><a href="/content/items/anniversary-package/">Alien Improbability Device</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1597,7 +1597,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/area-bomb/">Area Bomb</a></div>
+<div><div class="mission-card-title"><a href="/content/items/area-bomb/">Area Bomb</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1605,7 +1605,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/area-bomb-capsule/">Area Bomb Capsule</a></div>
+<div><div class="mission-card-title"><a href="/content/items/area-bomb-capsule/">Area Bomb Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1613,7 +1613,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/arena-guard/">Arena Guard</a></div>
+<div><div class="mission-card-title"><a href="/content/items/arena-guard/">Arena Guard</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1621,7 +1621,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/arkhe2-bot-pink/">Arkhe2 Bot Pink</a></div>
+<div><div class="mission-card-title"><a href="/content/items/arkhe2-bot-pink/">Arkhe2 Bot Pink</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -1629,7 +1629,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/asi-mission-coin/">Asintec token</a></div>
+<div><div class="mission-card-title"><a href="/content/items/asi-mission-coin/">Asintec token</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1637,7 +1637,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/basic-attack-remote-command/">Basic Attack Remote Command</a></div>
+<div><div class="mission-card-title"><a href="/content/items/basic-attack-remote-command/">Basic Attack Remote Command</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1645,7 +1645,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/basic-defend-remote-command/">Basic Defend Remote Command</a></div>
+<div><div class="mission-card-title"><a href="/content/items/basic-defend-remote-command/">Basic Defend Remote Command</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1653,7 +1653,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/basic-gather-remote-command/">Basic Gather Remote Command</a></div>
+<div><div class="mission-card-title"><a href="/content/items/basic-gather-remote-command/">Basic Gather Remote Command</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1661,7 +1661,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/basic-support-remote-command/">Basic Support Remote Command</a></div>
+<div><div class="mission-card-title"><a href="/content/items/basic-support-remote-command/">Basic Support Remote Command</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1669,7 +1669,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/blob-emission-ammo-a/">High frequency emitter</a></div>
+<div><div class="mission-card-title"><a href="/content/items/blob-emission-ammo-a/">High frequency emitter</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1677,7 +1677,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/blob-emission-ammo-b/">Low frequency emitter</a></div>
+<div><div class="mission-card-title"><a href="/content/items/blob-emission-ammo-b/">Low frequency emitter</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1685,7 +1685,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/blob-emitter/">Interference emitter</a></div>
+<div><div class="mission-card-title"><a href="/content/items/blob-emitter/">Interference emitter</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1693,7 +1693,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/boost-ep-t0/">Boost Ep T0</a></div>
+<div><div class="mission-card-title"><a href="/content/items/boost-ep-t0/">Boost Ep T0</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1701,7 +1701,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/boost-ep-t1/">Boost Ep T1</a></div>
+<div><div class="mission-card-title"><a href="/content/items/boost-ep-t1/">Boost Ep T1</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -1709,7 +1709,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/boost-ep-t2/">Boost Ep T2</a></div>
+<div><div class="mission-card-title"><a href="/content/items/boost-ep-t2/">Boost Ep T2</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -1717,7 +1717,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/boost-ep-t3/">Boost Ep T3</a></div>
+<div><div class="mission-card-title"><a href="/content/items/boost-ep-t3/">Boost Ep T3</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -1725,7 +1725,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/construction-module-ammo-deconstruct/">Deconstruction charge</a></div>
+<div><div class="mission-card-title"><a href="/content/items/construction-module-ammo-deconstruct/">Deconstruction charge</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1733,7 +1733,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/construction-module-ammo-deconstruct-dev/">Construction Module Ammo Deconstruct Dev</a></div>
+<div><div class="mission-card-title"><a href="/content/items/construction-module-ammo-deconstruct-dev/">Construction Module Ammo Deconstruct Dev</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1741,7 +1741,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/construction-module-ammo-dev/">Construction Module Ammo Dev</a></div>
+<div><div class="mission-card-title"><a href="/content/items/construction-module-ammo-dev/">Construction Module Ammo Dev</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1749,7 +1749,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/construction-module-ammo-syndicate/">Syn-tec construction block</a></div>
+<div><div class="mission-card-title"><a href="/content/items/construction-module-ammo-syndicate/">Syn-tec construction block</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1757,7 +1757,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/construction-module-ammo-t0/">Construction Module Ammo T0</a></div>
+<div><div class="mission-card-title"><a href="/content/items/construction-module-ammo-t0/">Construction Module Ammo T0</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1813,7 +1813,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/container-capsule/">Field container capsule</a></div>
+<div><div class="mission-card-title"><a href="/content/items/container-capsule/">Field container capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1829,7 +1829,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/default-alliance/">Default Alliance</a></div>
+<div><div class="mission-card-title"><a href="/content/items/default-alliance/">Default Alliance</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1837,7 +1837,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/default-corporation/">Default Corporation</a></div>
+<div><div class="mission-card-title"><a href="/content/items/default-corporation/">Default Corporation</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1845,7 +1845,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-dummy-decoy/">Drone kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-dummy-decoy/">Drone kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1853,7 +1853,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-crawler-rank1/">'Copper' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-crawler-rank1/">'Copper' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1861,7 +1861,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-crawler-rank2/">'Iron' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-crawler-rank2/">'Iron' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1869,7 +1869,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-crawler-rank3/">'Bronze' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-crawler-rank3/">'Bronze' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1877,7 +1877,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-crawler-rank4/">'Silver' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-crawler-rank4/">'Silver' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1885,7 +1885,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-crawler-rank5/">'Golden' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-crawler-rank5/">'Golden' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1893,7 +1893,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-heavyglider-rank1/">'Copper' heavy glider kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-heavyglider-rank1/">'Copper' heavy glider kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1901,7 +1901,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-heavyglider-rank2/">'Iron' heavy glider kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-heavyglider-rank2/">'Iron' heavy glider kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1909,7 +1909,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-heavyglider-rank3/">'Bronze' heavy glider kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-heavyglider-rank3/">'Bronze' heavy glider kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1917,7 +1917,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-heavyglider-rank4/">'Silver' heavy glider kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-heavyglider-rank4/">'Silver' heavy glider kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1925,7 +1925,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-heavyglider-rank5/">'Golden' heavy glider kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-heavyglider-rank5/">'Golden' heavy glider kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1933,7 +1933,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-heavymech-rank1/">'Copper' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-heavymech-rank1/">'Copper' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1941,7 +1941,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-heavymech-rank2/">'Iron' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-heavymech-rank2/">'Iron' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1949,7 +1949,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-heavymech-rank3/">'Bronze' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-heavymech-rank3/">'Bronze' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1957,7 +1957,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-heavymech-rank4/">'Silver' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-heavymech-rank4/">'Silver' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1965,7 +1965,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-heavymech-rank5/">'Golden' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-heavymech-rank5/">'Golden' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1973,7 +1973,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-mech-rank1/">'Copper' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-mech-rank1/">'Copper' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1981,7 +1981,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-mech-rank2/">'Iron' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-mech-rank2/">'Iron' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1989,7 +1989,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-mech-rank3/">'Bronze' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-mech-rank3/">'Bronze' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -1997,7 +1997,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-mech-rank4/">'Silver' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-mech-rank4/">'Silver' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2005,7 +2005,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-mech-rank5/">'Golden' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-mech-rank5/">'Golden' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2013,7 +2013,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-runner-rank1/">'Copper' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-runner-rank1/">'Copper' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2021,7 +2021,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-runner-rank2/">'Iron' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-runner-rank2/">'Iron' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2029,7 +2029,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-runner-rank3/">'Bronze' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-runner-rank3/">'Bronze' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2037,7 +2037,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-runner-rank4/">'Silver' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-runner-rank4/">'Silver' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2045,7 +2045,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-indy-runner-rank5/">'Golden' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-indy-runner-rank5/">'Golden' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2053,7 +2053,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-crawler-elite1/">Nuimqol 'Observer' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-crawler-elite1/">Nuimqol 'Observer' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2061,7 +2061,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-crawler-rank1/">'1st star' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-crawler-rank1/">'1st star' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2069,7 +2069,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-crawler-rank2/">'2nd star' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-crawler-rank2/">'2nd star' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2077,7 +2077,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-crawler-rank3/">'3rd star' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-crawler-rank3/">'3rd star' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2085,7 +2085,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-crawler-rank4/">'4th star' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-crawler-rank4/">'4th star' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2093,7 +2093,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-crawler-rank5/">'5th star' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-crawler-rank5/">'5th star' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2101,7 +2101,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-heavymech-elite1/">Nuimqol 'Observer' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-heavymech-elite1/">Nuimqol 'Observer' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2109,7 +2109,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-heavymech-rank1/">'1st star' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-heavymech-rank1/">'1st star' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2117,7 +2117,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-heavymech-rank2/">'2nd star' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-heavymech-rank2/">'2nd star' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2125,7 +2125,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-heavymech-rank3/">'3rd star' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-heavymech-rank3/">'3rd star' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2133,7 +2133,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-heavymech-rank4/">'4th star' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-heavymech-rank4/">'4th star' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2141,7 +2141,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-heavymech-rank5/">'5th star' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-heavymech-rank5/">'5th star' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2149,7 +2149,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-mech-elite1/">Nuimqol 'Observer' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-mech-elite1/">Nuimqol 'Observer' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2157,7 +2157,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-mech-rank1/">'1st star' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-mech-rank1/">'1st star' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2165,7 +2165,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-mech-rank2/">'2nd star' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-mech-rank2/">'2nd star' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2173,7 +2173,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-mech-rank3/">'3rd star' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-mech-rank3/">'3rd star' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2181,7 +2181,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-mech-rank4/">'4th star' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-mech-rank4/">'4th star' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2189,7 +2189,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-mech-rank5/">'5th star' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-mech-rank5/">'5th star' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2197,7 +2197,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-runner-elite1/">Nuimqol 'Observer' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-runner-elite1/">Nuimqol 'Observer' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2205,7 +2205,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-runner-rank1/">'1st star' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-runner-rank1/">'1st star' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2213,7 +2213,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-runner-rank2/">'2nd star' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-runner-rank2/">'2nd star' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2221,7 +2221,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-runner-rank3/">'3rd star' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-runner-rank3/">'3rd star' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2229,7 +2229,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-runner-rank4/">'4th star' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-runner-rank4/">'4th star' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2237,7 +2237,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-nuimqol-runner-rank5/">'5th star' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-nuimqol-runner-rank5/">'5th star' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2245,7 +2245,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pbs-rank5/">Structure kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pbs-rank5/">Structure kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2253,7 +2253,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-crawler-elite1/">Pelistal 'Observer' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-crawler-elite1/">Pelistal 'Observer' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2261,7 +2261,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-crawler-rank1/">'Servant' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-crawler-rank1/">'Servant' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2269,7 +2269,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-crawler-rank2/">'Patrician' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-crawler-rank2/">'Patrician' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2277,7 +2277,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-crawler-rank3/">'Arbiter' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-crawler-rank3/">'Arbiter' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2285,7 +2285,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-crawler-rank4/">'Hero' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-crawler-rank4/">'Hero' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2293,7 +2293,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-crawler-rank5/">'Overlord' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-crawler-rank5/">'Overlord' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2301,7 +2301,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-heavymech-elite1/">Pelistal 'Observer' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-heavymech-elite1/">Pelistal 'Observer' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2309,7 +2309,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-heavymech-rank1/">'Servant' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-heavymech-rank1/">'Servant' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2317,7 +2317,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-heavymech-rank2/">'Patrician' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-heavymech-rank2/">'Patrician' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2325,7 +2325,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-heavymech-rank3/">'Arbiter' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-heavymech-rank3/">'Arbiter' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2333,7 +2333,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-heavymech-rank4/">'Hero' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-heavymech-rank4/">'Hero' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2341,7 +2341,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-heavymech-rank5/">'Overlord' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-heavymech-rank5/">'Overlord' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2349,7 +2349,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-mech-elite1/">Pelistal 'Observer' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-mech-elite1/">Pelistal 'Observer' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2357,7 +2357,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-mech-rank1/">'Servant' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-mech-rank1/">'Servant' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2365,7 +2365,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-mech-rank2/">'Patrician' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-mech-rank2/">'Patrician' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2373,7 +2373,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-mech-rank3/">'Arbiter' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-mech-rank3/">'Arbiter' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2381,7 +2381,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-mech-rank4/">'Hero' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-mech-rank4/">'Hero' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2389,7 +2389,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-mech-rank5/">'Overlord' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-mech-rank5/">'Overlord' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2397,7 +2397,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-runner-elite1/">Pelistal 'Observer' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-runner-elite1/">Pelistal 'Observer' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2405,7 +2405,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-runner-rank1/">'Servant' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-runner-rank1/">'Servant' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2413,7 +2413,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-runner-rank2/">'Patrician' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-runner-rank2/">'Patrician' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2421,7 +2421,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-runner-rank3/">'Arbiter' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-runner-rank3/">'Arbiter' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2429,7 +2429,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-runner-rank4/">'Hero' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-runner-rank4/">'Hero' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2437,7 +2437,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-pelistal-runner-rank5/">'Overlord' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-pelistal-runner-rank5/">'Overlord' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2445,7 +2445,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-crawler-elite1/">Thelodica 'Observer' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-crawler-elite1/">Thelodica 'Observer' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2453,7 +2453,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-crawler-rank1/">'Rookie' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-crawler-rank1/">'Rookie' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2461,7 +2461,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-crawler-rank2/">'Warrior' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-crawler-rank2/">'Warrior' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2469,7 +2469,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-crawler-rank3/">'Veteran' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-crawler-rank3/">'Veteran' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2477,7 +2477,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-crawler-rank4/">'Elite' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-crawler-rank4/">'Elite' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2485,7 +2485,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-crawler-rank5/">'Supreme' assault robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-crawler-rank5/">'Supreme' assault robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2493,7 +2493,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-heavymech-elite1/">Thelodica 'Observer' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-heavymech-elite1/">Thelodica 'Observer' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2501,7 +2501,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-heavymech-rank1/">'Rookie' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-heavymech-rank1/">'Rookie' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2509,7 +2509,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-heavymech-rank2/">'Warrior' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-heavymech-rank2/">'Warrior' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2517,7 +2517,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-heavymech-rank3/">'Veteran' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-heavymech-rank3/">'Veteran' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2525,7 +2525,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-heavymech-rank4/">'Elite' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-heavymech-rank4/">'Elite' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2533,7 +2533,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-heavymech-rank5/">'Supreme' heavy mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-heavymech-rank5/">'Supreme' heavy mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2541,7 +2541,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-mech-elite1/">Thelodica 'Observer' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-mech-elite1/">Thelodica 'Observer' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2549,7 +2549,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-mech-rank1/">'Rookie' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-mech-rank1/">'Rookie' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2557,7 +2557,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-mech-rank2/">'Warrior' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-mech-rank2/">'Warrior' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2565,7 +2565,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-mech-rank3/">'Veteran' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-mech-rank3/">'Veteran' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2573,7 +2573,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-mech-rank4/">'Elite' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-mech-rank4/">'Elite' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2581,7 +2581,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-mech-rank5/">'Supreme' mech kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-mech-rank5/">'Supreme' mech kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2589,7 +2589,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-runner-elite1/">Thelodica 'Observer' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-runner-elite1/">Thelodica 'Observer' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2597,7 +2597,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-runner-rank1/">'Rookie' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-runner-rank1/">'Rookie' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2605,7 +2605,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-runner-rank2/">'Warrior' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-runner-rank2/">'Warrior' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2613,7 +2613,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-runner-rank3/">'Veteran' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-runner-rank3/">'Veteran' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2621,7 +2621,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-runner-rank4/">'Elite' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-runner-rank4/">'Elite' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2629,7 +2629,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/dogtag-thelodica-runner-rank5/">'Supreme' light robot kernel</a></div>
+<div><div class="mission-card-title"><a href="/content/items/dogtag-thelodica-runner-rank5/">'Supreme' light robot kernel</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2637,7 +2637,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/field-terminal-nuimqol/">Field Terminal Nuimqol</a></div>
+<div><div class="mission-card-title"><a href="/content/items/field-terminal-nuimqol/">Field Terminal Nuimqol</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2645,7 +2645,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/field-terminal-pelistal/">Field Terminal Pelistal</a></div>
+<div><div class="mission-card-title"><a href="/content/items/field-terminal-pelistal/">Field Terminal Pelistal</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2653,7 +2653,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/field-terminal-rally/">Field Terminal Rally</a></div>
+<div><div class="mission-card-title"><a href="/content/items/field-terminal-rally/">Field Terminal Rally</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2661,7 +2661,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/field-terminal-thelodica/">Field Terminal Thelodica</a></div>
+<div><div class="mission-card-title"><a href="/content/items/field-terminal-thelodica/">Field Terminal Thelodica</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2669,7 +2669,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/gate/">Forcefield gate</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gate/">Forcefield gate</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2677,7 +2677,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/harvesting-industrial-drone/">Harvesting Industrial Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/harvesting-industrial-drone/">Harvesting Industrial Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2693,7 +2693,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/heavy-landmine/">Heavy Landmine</a></div>
+<div><div class="mission-card-title"><a href="/content/items/heavy-landmine/">Heavy Landmine</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2701,7 +2701,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/hybrid-robot/">Hybrid Robot</a></div>
+<div><div class="mission-card-title"><a href="/content/items/hybrid-robot/">Hybrid Robot</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2709,7 +2709,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/ice/">ICE (Instant Credit Extender)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ice/">ICE (Instant Credit Extender)</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2717,7 +2717,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/ics-mission-coin/">ICS token</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ics-mission-coin/">ICS token</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2725,7 +2725,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/improved-attack-remote-command/">Improved Attack Remote Command</a></div>
+<div><div class="mission-card-title"><a href="/content/items/improved-attack-remote-command/">Improved Attack Remote Command</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2733,7 +2733,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/improved-defend-remote-command/">Improved Defend Remote Command</a></div>
+<div><div class="mission-card-title"><a href="/content/items/improved-defend-remote-command/">Improved Defend Remote Command</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2741,7 +2741,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/improved-gather-remote-command/">Improved Gather Remote Command</a></div>
+<div><div class="mission-card-title"><a href="/content/items/improved-gather-remote-command/">Improved Gather Remote Command</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2749,7 +2749,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/improved-support-remote-command/">Improved Support Remote Command</a></div>
+<div><div class="mission-card-title"><a href="/content/items/improved-support-remote-command/">Improved Support Remote Command</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2757,7 +2757,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/instrusion-test-outpost/">Instrusion Test Outpost</a></div>
+<div><div class="mission-card-title"><a href="/content/items/instrusion-test-outpost/">Instrusion Test Outpost</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2765,7 +2765,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/light-landmine/">Light Landmine</a></div>
+<div><div class="mission-card-title"><a href="/content/items/light-landmine/">Light Landmine</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2773,7 +2773,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/masker-beacon/">Masker Beacon</a></div>
+<div><div class="mission-card-title"><a href="/content/items/masker-beacon/">Masker Beacon</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2781,7 +2781,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/masker-beacon-capsule/">Masker Beacon Capsule</a></div>
+<div><div class="mission-card-title"><a href="/content/items/masker-beacon-capsule/">Masker Beacon Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2789,7 +2789,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/medium-landmine/">Medium Landmine</a></div>
+<div><div class="mission-card-title"><a href="/content/items/medium-landmine/">Medium Landmine</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2797,7 +2797,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mining-industrial-drone/">Mining Industrial Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mining-industrial-drone/">Mining Industrial Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2813,7 +2813,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mining-probe-ammo-one-tile/">Universal geoscanner charge</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mining-probe-ammo-one-tile/">Universal geoscanner charge</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2821,7 +2821,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mining-probe-result-area/">Area-based scanning data</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mining-probe-result-area/">Area-based scanning data</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2829,7 +2829,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mining-probe-result-area-crude/">Mining Probe Result Area Crude</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mining-probe-result-area-crude/">Mining Probe Result Area Crude</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2837,7 +2837,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mining-probe-result-area-epriton/">Mining Probe Result Area Epriton</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mining-probe-result-area-epriton/">Mining Probe Result Area Epriton</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2845,7 +2845,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mining-probe-result-area-imentium/">Mining Probe Result Area Imentium</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mining-probe-result-area-imentium/">Mining Probe Result Area Imentium</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2853,7 +2853,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mining-probe-result-area-liquizit/">Mining Probe Result Area Liquizit</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mining-probe-result-area-liquizit/">Mining Probe Result Area Liquizit</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2861,7 +2861,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mining-probe-result-area-stermonit/">Mining Probe Result Area Stermonit</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mining-probe-result-area-stermonit/">Mining Probe Result Area Stermonit</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2869,7 +2869,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mining-probe-result-area-titan/">Mining Probe Result Area Titan</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mining-probe-result-area-titan/">Mining Probe Result Area Titan</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2877,7 +2877,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mining-probe-result-tile/">Tile-based scanning data</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mining-probe-result-tile/">Tile-based scanning data</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2885,7 +2885,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mobile-arena-teleporter-warrior-object/">Arena warrior starter position teleport</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mobile-arena-teleporter-warrior-object/">Arena warrior starter position teleport</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2893,7 +2893,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mobile-arena-teleporter-warriorhome-object/">Warrior exit teleport</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mobile-arena-teleporter-warriorhome-object/">Warrior exit teleport</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2901,7 +2901,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mobile-field-eccm/">Mobile Field Eccm</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mobile-field-eccm/">Mobile Field Eccm</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2909,7 +2909,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mobile-field-masker/">Mobile Field Masker</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mobile-field-masker/">Mobile Field Masker</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2917,7 +2917,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mobile-field-masker-capsule/">Mobile Field Masker Capsule</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mobile-field-masker-capsule/">Mobile Field Masker Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2925,7 +2925,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mobile-field-reactor-stabilizer/">Mobile Field Reactor Stabilizer</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mobile-field-reactor-stabilizer/">Mobile Field Reactor Stabilizer</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2933,7 +2933,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mobile-field-reactor-stabilizer-capsule/">Mobile Field Reactor Stabilizer Capsule</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mobile-field-reactor-stabilizer-capsule/">Mobile Field Reactor Stabilizer Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2941,7 +2941,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mobile-teleport-capsule-armored/">Mobile Teleport Capsule Armored</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mobile-teleport-capsule-armored/">Mobile Teleport Capsule Armored</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2949,7 +2949,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mobile-teleport-capsule-emergency/">Mobile Teleport Capsule Emergency</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mobile-teleport-capsule-emergency/">Mobile Teleport Capsule Emergency</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2957,7 +2957,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mobile-teleport-capsule-standard/">Mobile Teleport Capsule Standard</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mobile-teleport-capsule-standard/">Mobile Teleport Capsule Standard</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2965,7 +2965,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mobile-teleport-column-armored/">Mobile Teleport Column Armored</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mobile-teleport-column-armored/">Mobile Teleport Column Armored</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2973,7 +2973,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mobile-teleport-column-emergency/">Mobile Teleport Column Emergency</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mobile-teleport-column-emergency/">Mobile Teleport Column Emergency</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2981,7 +2981,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mobile-teleport-column-standard/">Mobile Teleport Column Standard</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mobile-teleport-column-standard/">Mobile Teleport Column Standard</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2989,7 +2989,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mobile-teleport-stronghold-basic/">Mobile Teleport Stronghold Basic</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mobile-teleport-stronghold-basic/">Mobile Teleport Stronghold Basic</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -2997,7 +2997,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mobile-teleport-stronghold-capsule/">Mobile Teleport Stronghold Capsule</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mobile-teleport-stronghold-capsule/">Mobile Teleport Stronghold Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3005,7 +3005,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mobile-teleport-stronghold-level-02/">Mobile Teleport Stronghold Level 02</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mobile-teleport-stronghold-level-02/">Mobile Teleport Stronghold Level 02</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3013,7 +3013,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mobile-teleport-stronghold-level-02-capsule/">Mobile Teleport Stronghold Level 02 Capsule</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mobile-teleport-stronghold-level-02-capsule/">Mobile Teleport Stronghold Level 02 Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3021,7 +3021,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mobile-world-teleport-capsule/">Mobile World Teleport Capsule</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mobile-world-teleport-capsule/">Mobile World Teleport Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3029,7 +3029,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/mobile-world-teleporter-basic/">Mobile World Teleporter Basic</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mobile-world-teleporter-basic/">Mobile World Teleporter Basic</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3037,7 +3037,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/named1-harvesting-turret/">T2 Harvesting Turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-harvesting-turret/">T2 Harvesting Turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -3053,7 +3053,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/named1-mining-turret/">T2 Mining Turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-mining-turret/">T2 Mining Turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -3069,7 +3069,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/named1-nuimqol-combat-drone/">T2 Nuimqol Combat Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-nuimqol-combat-drone/">T2 Nuimqol Combat Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -3085,7 +3085,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/named1-pelistal-combat-drone/">T2 Pelistal Combat Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-pelistal-combat-drone/">T2 Pelistal Combat Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -3109,7 +3109,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/named1-thelodica-combat-drone/">T2 Thelodica Combat Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named1-thelodica-combat-drone/">T2 Thelodica Combat Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -3125,7 +3125,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/named2-harvesting-turret/">T3 Harvesting Turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-harvesting-turret/">T3 Harvesting Turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -3141,7 +3141,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/named2-mining-turret/">T3 Mining Turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-mining-turret/">T3 Mining Turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -3157,7 +3157,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/named2-nuimqol-combat-drone/">T3 Nuimqol Combat Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-nuimqol-combat-drone/">T3 Nuimqol Combat Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -3173,7 +3173,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/named2-pelistal-combat-drone/">T3 Pelistal Combat Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-pelistal-combat-drone/">T3 Pelistal Combat Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -3197,7 +3197,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/named2-thelodica-combat-drone/">T3 Thelodica Combat Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named2-thelodica-combat-drone/">T3 Thelodica Combat Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -3213,7 +3213,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/named3-harvesting-turret/">T4 Harvesting Turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-harvesting-turret/">T4 Harvesting Turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T4</div>
 </div>
 </div>
@@ -3229,7 +3229,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/named3-mining-turret/">T4 Mining Turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-mining-turret/">T4 Mining Turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T4</div>
 </div>
 </div>
@@ -3245,7 +3245,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/named3-nuimqol-combat-drone/">T4 Nuimqol Combat Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-nuimqol-combat-drone/">T4 Nuimqol Combat Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T4</div>
 </div>
 </div>
@@ -3261,7 +3261,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/named3-pelistal-combat-drone/">T4 Pelistal Combat Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-pelistal-combat-drone/">T4 Pelistal Combat Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T4</div>
 </div>
 </div>
@@ -3285,7 +3285,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/named3-thelodica-combat-drone/">T4 Thelodica Combat Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/named3-thelodica-combat-drone/">T4 Thelodica Combat Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T4</div>
 </div>
 </div>
@@ -3301,7 +3301,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/nuimqol-assault-drone/">Nuimqol Assault Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/nuimqol-assault-drone/">Nuimqol Assault Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3317,7 +3317,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/nuimqol-attack-drone/">Nuimqol Attack Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/nuimqol-attack-drone/">Nuimqol Attack Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3333,7 +3333,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/outpost-decay/">Outpost Decay</a></div>
+<div><div class="mission-card-title"><a href="/content/items/outpost-decay/">Outpost Decay</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -3341,7 +3341,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/paint-black/">Paint Black</a></div>
+<div><div class="mission-card-title"><a href="/content/items/paint-black/">Paint Black</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3349,7 +3349,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/paint-blue/">Paint Blue</a></div>
+<div><div class="mission-card-title"><a href="/content/items/paint-blue/">Paint Blue</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3357,7 +3357,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/paint-blue-dark/">Paint Blue Dark</a></div>
+<div><div class="mission-card-title"><a href="/content/items/paint-blue-dark/">Paint Blue Dark</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3365,7 +3365,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/paint-cyan/">Paint Cyan</a></div>
+<div><div class="mission-card-title"><a href="/content/items/paint-cyan/">Paint Cyan</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3373,7 +3373,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/paint-gray/">Paint Gray</a></div>
+<div><div class="mission-card-title"><a href="/content/items/paint-gray/">Paint Gray</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3381,7 +3381,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/paint-green/">Paint Green</a></div>
+<div><div class="mission-card-title"><a href="/content/items/paint-green/">Paint Green</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3389,7 +3389,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/paint-green-dark/">Paint Green Dark</a></div>
+<div><div class="mission-card-title"><a href="/content/items/paint-green-dark/">Paint Green Dark</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3397,7 +3397,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/paint-magenta/">Paint Magenta</a></div>
+<div><div class="mission-card-title"><a href="/content/items/paint-magenta/">Paint Magenta</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3405,7 +3405,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/paint-maroon-dark/">Paint Maroon Dark</a></div>
+<div><div class="mission-card-title"><a href="/content/items/paint-maroon-dark/">Paint Maroon Dark</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3413,7 +3413,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/paint-orange/">Paint Orange</a></div>
+<div><div class="mission-card-title"><a href="/content/items/paint-orange/">Paint Orange</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3421,7 +3421,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/paint-purple/">Paint Purple</a></div>
+<div><div class="mission-card-title"><a href="/content/items/paint-purple/">Paint Purple</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3429,7 +3429,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/paint-red/">Paint Red</a></div>
+<div><div class="mission-card-title"><a href="/content/items/paint-red/">Paint Red</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3437,7 +3437,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/paint-red-dark/">Paint Red Dark</a></div>
+<div><div class="mission-card-title"><a href="/content/items/paint-red-dark/">Paint Red Dark</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3445,7 +3445,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/paint-teal/">Paint Teal</a></div>
+<div><div class="mission-card-title"><a href="/content/items/paint-teal/">Paint Teal</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3453,7 +3453,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/paint-white/">Paint White</a></div>
+<div><div class="mission-card-title"><a href="/content/items/paint-white/">Paint White</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3461,7 +3461,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/paint-yellow/">Paint Yellow</a></div>
+<div><div class="mission-card-title"><a href="/content/items/paint-yellow/">Paint Yellow</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -3469,7 +3469,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-XL-core-transmitter-large/">Hi-tech energy backbone node</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-large/">Hi-tech energy backbone node</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -3477,7 +3477,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-XL-core-transmitter-large-capsule/">Pbs XL Core Transmitter Large Capsule</a></div>
+<div><div class="mission-card-title"><a href="/it/content/items/pbs-xl-core-transmitter-large-capsule/">Pbs XL Core Transmitter Large Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -3485,7 +3485,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-XL-core-transmitter-large-capsule-pr/">Pbs XL Core Transmitter Large Capsule Pr</a></div>
+<div><div class="mission-card-title"><a href="/it/content/items/pbs-xl-core-transmitter-large-capsule-pr/">Pbs XL Core Transmitter Large Capsule Pr</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3 (prototype)</div>
 </div>
 </div>
@@ -3493,7 +3493,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-XL-core-transmitter-large-object/">Pbs XL Core Transmitter Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-large-object/">Pbs XL Core Transmitter Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -3501,7 +3501,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-XL-core-transmitter-medium/">Advanced energy backbone node</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-medium/">Advanced energy backbone node</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -3509,7 +3509,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-XL-core-transmitter-medium-capsule/">Pbs XL Core Transmitter Medium Capsule</a></div>
+<div><div class="mission-card-title"><a href="/it/content/items/pbs-xl-core-transmitter-medium-capsule/">Pbs XL Core Transmitter Medium Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -3517,7 +3517,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-XL-core-transmitter-medium-capsule-pr/">Pbs XL Core Transmitter Medium Capsule Pr</a></div>
+<div><div class="mission-card-title"><a href="/it/content/items/pbs-xl-core-transmitter-medium-capsule-pr/">Pbs XL Core Transmitter Medium Capsule Pr</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2 (prototype)</div>
 </div>
 </div>
@@ -3525,7 +3525,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-XL-core-transmitter-medium-object/">Pbs XL Core Transmitter Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-medium-object/">Pbs XL Core Transmitter Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -3533,7 +3533,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-XL-core-transmitter-small/">Standard energy backbone node</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-small/">Standard energy backbone node</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -3541,7 +3541,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-XL-core-transmitter-small-capsule/">Pbs XL Core Transmitter Small Capsule</a></div>
+<div><div class="mission-card-title"><a href="/it/content/items/pbs-xl-core-transmitter-small-capsule/">Pbs XL Core Transmitter Small Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -3549,7 +3549,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-XL-core-transmitter-small-capsule-pr/">Pbs XL Core Transmitter Small Capsule Pr</a></div>
+<div><div class="mission-card-title"><a href="/it/content/items/pbs-xl-core-transmitter-small-capsule-pr/">Pbs XL Core Transmitter Small Capsule Pr</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1 (prototype)</div>
 </div>
 </div>
@@ -3557,7 +3557,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-XL-core-transmitter-small-object/">Pbs XL Core Transmitter Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-small-object/">Pbs XL Core Transmitter Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -3565,7 +3565,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-armor-repairer-large/">Hi-tech repair node</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-armor-repairer-large/">Hi-tech repair node</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -3573,7 +3573,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-armor-repairer-large-object/">Hi-tech repair node foundation</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-armor-repairer-large-object/">Hi-tech repair node foundation</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -3581,7 +3581,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-armor-repairer-medium/">Advanced repair node</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-armor-repairer-medium/">Advanced repair node</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -3589,7 +3589,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-armor-repairer-medium-object/">Advanced repair node foundation</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-armor-repairer-medium-object/">Advanced repair node foundation</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -3597,7 +3597,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-armor-repairer-small/">Standard repair node</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-armor-repairer-small/">Standard repair node</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -3605,7 +3605,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-armor-repairer-small-object/">Standard repair node foundation</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-armor-repairer-small-object/">Standard repair node foundation</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -3613,7 +3613,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-aura-emitter-large/">Hi-tech Aura emitter</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-aura-emitter-large/">Hi-tech Aura emitter</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -3637,7 +3637,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-aura-emitter-large-object/">Pbs Aura Emitter Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-aura-emitter-large-object/">Pbs Aura Emitter Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -3645,7 +3645,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-aura-emitter-medium/">Advanced Aura emitter</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-aura-emitter-medium/">Advanced Aura emitter</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -3669,7 +3669,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-aura-emitter-medium-object/">Pbs Aura Emitter Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-aura-emitter-medium-object/">Pbs Aura Emitter Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -3677,7 +3677,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-aura-emitter-small/">Standard Aura emitter</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-aura-emitter-small/">Standard Aura emitter</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -3701,7 +3701,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-aura-emitter-small-object/">Pbs Aura Emitter Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-aura-emitter-small-object/">Pbs Aura Emitter Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -3709,7 +3709,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-calibration-forge-large/">Hi-tech calibration lab</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-calibration-forge-large/">Hi-tech calibration lab</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -3733,7 +3733,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-calibration-forge-large-object/">Pbs Calibration Forge Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-calibration-forge-large-object/">Pbs Calibration Forge Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -3741,7 +3741,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-calibration-forge-medium/">Advanced calibration lab</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-calibration-forge-medium/">Advanced calibration lab</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -3765,7 +3765,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-calibration-forge-medium-object/">Pbs Calibration Forge Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-calibration-forge-medium-object/">Pbs Calibration Forge Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -3773,7 +3773,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-calibration-forge-small/">Standard calibration lab</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-calibration-forge-small/">Standard calibration lab</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -3797,7 +3797,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-calibration-forge-small-object/">Pbs Calibration Forge Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-calibration-forge-small-object/">Pbs Calibration Forge Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -3805,7 +3805,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-control-tower-large/">Hi-tech command relay</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-control-tower-large/">Hi-tech command relay</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -3829,7 +3829,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-control-tower-large-object/">Pbs Control Tower Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-control-tower-large-object/">Pbs Control Tower Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -3837,7 +3837,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-control-tower-medium/">Advanced command relay</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-control-tower-medium/">Advanced command relay</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -3861,7 +3861,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-control-tower-medium-object/">Pbs Control Tower Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-control-tower-medium-object/">Pbs Control Tower Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -3869,7 +3869,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-control-tower-small/">Standard command relay</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-control-tower-small/">Standard command relay</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -3893,7 +3893,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-control-tower-small-object/">Pbs Control Tower Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-control-tower-small-object/">Pbs Control Tower Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -3901,7 +3901,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-core-battery-large/">Hi-tech energy battery</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-core-battery-large/">Hi-tech energy battery</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -3925,7 +3925,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-core-battery-large-object/">Pbs Core Battery Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-core-battery-large-object/">Pbs Core Battery Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -3933,7 +3933,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-core-battery-medium/">Advanced energy battery</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-core-battery-medium/">Advanced energy battery</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -3957,7 +3957,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-core-battery-medium-object/">Pbs Core Battery Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-core-battery-medium-object/">Pbs Core Battery Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -3965,7 +3965,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-core-battery-small/">Standard energy battery</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-core-battery-small/">Standard energy battery</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -3989,7 +3989,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-core-battery-small-object/">Pbs Core Battery Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-core-battery-small-object/">Pbs Core Battery Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -3997,7 +3997,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-core-transmitter-large/">Hi-tech energy transmitter node</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-core-transmitter-large/">Hi-tech energy transmitter node</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -4021,7 +4021,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-core-transmitter-large-object/">Pbs Core Transmitter Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-core-transmitter-large-object/">Pbs Core Transmitter Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -4029,7 +4029,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-core-transmitter-medium/">Advanced energy transmitter node</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-core-transmitter-medium/">Advanced energy transmitter node</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -4053,7 +4053,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-core-transmitter-medium-object/">Pbs Core Transmitter Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-core-transmitter-medium-object/">Pbs Core Transmitter Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -4061,7 +4061,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-core-transmitter-small/">Standard energy transmitter node</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-core-transmitter-small/">Standard energy transmitter node</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -4085,7 +4085,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-core-transmitter-small-object/">Pbs Core Transmitter Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-core-transmitter-small-object/">Pbs Core Transmitter Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -4093,7 +4093,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-docking-base-large/">Hi-tech main terminal</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-docking-base-large/">Hi-tech main terminal</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -4117,7 +4117,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-docking-base-large-object/">Pbs Docking Base Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-docking-base-large-object/">Pbs Docking Base Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -4125,7 +4125,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-docking-base-medium/">Advanced main terminal</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-docking-base-medium/">Advanced main terminal</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -4149,7 +4149,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-docking-base-medium-object/">Pbs Docking Base Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-docking-base-medium-object/">Pbs Docking Base Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -4157,7 +4157,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-docking-base-small/">Standard main terminal</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-docking-base-small/">Standard main terminal</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -4181,7 +4181,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-docking-base-small-object/">Pbs Docking Base Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-docking-base-small-object/">Pbs Docking Base Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -4189,7 +4189,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-effect-supplier-large/">Hi-tech booster node</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-effect-supplier-large/">Hi-tech booster node</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -4197,7 +4197,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-effect-supplier-large-object/">Hi-tech booster node foundation</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-effect-supplier-large-object/">Hi-tech booster node foundation</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -4205,7 +4205,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-effect-supplier-medium/">Advanced booster node</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-effect-supplier-medium/">Advanced booster node</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -4213,7 +4213,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-effect-supplier-medium-object/">Advanced booster node foundation</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-effect-supplier-medium-object/">Advanced booster node foundation</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -4221,7 +4221,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-effect-supplier-object/">Pbs Effect Supplier Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-effect-supplier-object/">Pbs Effect Supplier Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -4229,7 +4229,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-effect-supplier-small/">Standard booster node</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-effect-supplier-small/">Standard booster node</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -4237,7 +4237,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-effect-supplier-small-object/">Standard booster node foundation</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-effect-supplier-small-object/">Standard booster node foundation</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -4245,7 +4245,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-energywell-large/">Hi-tech energy well</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-energywell-large/">Hi-tech energy well</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -4269,7 +4269,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-energywell-large-object/">Pbs Energywell Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-energywell-large-object/">Pbs Energywell Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -4277,7 +4277,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-energywell-medium/">Advanced energy well</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-energywell-medium/">Advanced energy well</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -4301,7 +4301,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-energywell-medium-object/">Pbs Energywell Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-energywell-medium-object/">Pbs Energywell Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -4309,7 +4309,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-energywell-small/">Standard energy well</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-energywell-small/">Standard energy well</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -4333,7 +4333,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-energywell-small-object/">Pbs Energywell Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-energywell-small-object/">Pbs Energywell Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -4341,7 +4341,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-expiring-docking-base/">Pbs Expiring Docking Base</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-expiring-docking-base/">Pbs Expiring Docking Base</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -4349,7 +4349,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-expiring-docking-base-capsule/">Pbs Expiring Docking Base Capsule</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-expiring-docking-base-capsule/">Pbs Expiring Docking Base Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -4357,7 +4357,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-expiring-docking-base-object/">Pbs Expiring Docking Base Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-expiring-docking-base-object/">Pbs Expiring Docking Base Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -4365,7 +4365,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-facility-calibration-program-forge/">Calibration lab</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-facility-calibration-program-forge/">Calibration lab</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -4373,7 +4373,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-facility-mill/">Pbs Facility Mill</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-facility-mill/">Pbs Facility Mill</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -4381,7 +4381,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-facility-prototyper/">Pbs Facility Prototyper</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-facility-prototyper/">Pbs Facility Prototyper</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -4389,7 +4389,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-facility-refinery/">Pbs Facility Refinery</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-facility-refinery/">Pbs Facility Refinery</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -4397,7 +4397,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-facility-repair/">Pbs Facility Repair</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-facility-repair/">Pbs Facility Repair</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -4405,7 +4405,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-facility-reprocessor/">Pbs Facility Reprocessor</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-facility-reprocessor/">Pbs Facility Reprocessor</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -4413,7 +4413,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-facility-research-kit-forge/">Decoder lab</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-facility-research-kit-forge/">Decoder lab</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -4421,7 +4421,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-facility-research-lab/">Pbs Facility Research Lab</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-facility-research-lab/">Pbs Facility Research Lab</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -4429,7 +4429,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-highwaynode-large/">Hi-tech accelerator strip</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-highwaynode-large/">Hi-tech accelerator strip</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -4453,7 +4453,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-highwaynode-large-object/">Pbs Highwaynode Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-highwaynode-large-object/">Pbs Highwaynode Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -4461,7 +4461,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-highwaynode-medium/">Advanced accelerator strip</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-highwaynode-medium/">Advanced accelerator strip</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -4485,7 +4485,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-highwaynode-medium-object/">Pbs Highwaynode Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-highwaynode-medium-object/">Pbs Highwaynode Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -4493,7 +4493,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-highwaynode-small/">Standard accelerator strip</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-highwaynode-small/">Standard accelerator strip</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -4517,7 +4517,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-highwaynode-small-object/">Pbs Highwaynode Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-highwaynode-small-object/">Pbs Highwaynode Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -4525,7 +4525,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-maskertower-large/">Hi-tech masker</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-maskertower-large/">Hi-tech masker</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -4549,7 +4549,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-maskertower-large-object/">Pbs Maskertower Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-maskertower-large-object/">Pbs Maskertower Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -4557,7 +4557,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-maskertower-medium/">Advanced masker</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-maskertower-medium/">Advanced masker</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -4581,7 +4581,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-maskertower-medium-object/">Pbs Maskertower Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-maskertower-medium-object/">Pbs Maskertower Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -4589,7 +4589,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-maskertower-small/">Standard masker</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-maskertower-small/">Standard masker</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -4613,7 +4613,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-maskertower-small-object/">Pbs Maskertower Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-maskertower-small-object/">Pbs Maskertower Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -4621,7 +4621,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-mill-large/">Hi-tech factory</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-mill-large/">Hi-tech factory</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -4645,7 +4645,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-mill-large-object/">Pbs Mill Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-mill-large-object/">Pbs Mill Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -4653,7 +4653,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-mill-medium/">Advanced factory</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-mill-medium/">Advanced factory</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -4677,7 +4677,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-mill-medium-object/">Pbs Mill Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-mill-medium-object/">Pbs Mill Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -4685,7 +4685,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-mill-small/">Standard factory</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-mill-small/">Standard factory</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -4709,7 +4709,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-mill-small-object/">Pbs Mill Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-mill-small-object/">Pbs Mill Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -4717,7 +4717,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-mining-tower-large/">Hi-tech mining outpost</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-mining-tower-large/">Hi-tech mining outpost</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -4741,7 +4741,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-mining-tower-large-object/">Pbs Mining Tower Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-mining-tower-large-object/">Pbs Mining Tower Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -4749,7 +4749,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-mining-tower-medium/">Advanced mining outpost</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-mining-tower-medium/">Advanced mining outpost</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -4773,7 +4773,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-mining-tower-medium-object/">Pbs Mining Tower Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-mining-tower-medium-object/">Pbs Mining Tower Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -4781,7 +4781,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-mining-tower-small/">Standard mining outpost</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-mining-tower-small/">Standard mining outpost</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -4805,7 +4805,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-mining-tower-small-object/">Pbs Mining Tower Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-mining-tower-small-object/">Pbs Mining Tower Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -4813,7 +4813,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-production-upgrade-large/">Hi-tech facility upgrade</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-production-upgrade-large/">Hi-tech facility upgrade</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -4837,7 +4837,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-production-upgrade-large-object/">Pbs Production Upgrade Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-production-upgrade-large-object/">Pbs Production Upgrade Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -4845,7 +4845,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-production-upgrade-medium/">Advanced facility upgrade</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-production-upgrade-medium/">Advanced facility upgrade</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -4869,7 +4869,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-production-upgrade-medium-object/">Pbs Production Upgrade Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-production-upgrade-medium-object/">Pbs Production Upgrade Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -4877,7 +4877,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-production-upgrade-small/">Standard facility upgrade</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-production-upgrade-small/">Standard facility upgrade</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -4901,7 +4901,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-production-upgrade-small-object/">Pbs Production Upgrade Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-production-upgrade-small-object/">Pbs Production Upgrade Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -4909,7 +4909,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-prototyper-large/">Hi-tech prototype facility</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-prototyper-large/">Hi-tech prototype facility</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -4933,7 +4933,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-prototyper-large-object/">Pbs Prototyper Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-prototyper-large-object/">Pbs Prototyper Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -4941,7 +4941,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-prototyper-medium/">Advanced prototype facility</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-prototyper-medium/">Advanced prototype facility</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -4965,7 +4965,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-prototyper-medium-object/">Pbs Prototyper Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-prototyper-medium-object/">Pbs Prototyper Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -4973,7 +4973,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-prototyper-small/">Standard prototype facility</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-prototyper-small/">Standard prototype facility</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -4997,7 +4997,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-prototyper-small-object/">Pbs Prototyper Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-prototyper-small-object/">Pbs Prototyper Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5005,7 +5005,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-reactor-large/">Hi-tech reactor</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-reactor-large/">Hi-tech reactor</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -5029,7 +5029,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-reactor-large-object/">Pbs Reactor Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-reactor-large-object/">Pbs Reactor Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -5037,7 +5037,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-reactor-medium/">Advanced reactor</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-reactor-medium/">Advanced reactor</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -5061,7 +5061,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-reactor-medium-object/">Pbs Reactor Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-reactor-medium-object/">Pbs Reactor Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -5069,7 +5069,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-reactor-small/">Standard reactor</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-reactor-small/">Standard reactor</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5093,7 +5093,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-reactor-small-object/">Pbs Reactor Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-reactor-small-object/">Pbs Reactor Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5101,7 +5101,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-refinery-large/">Hi-tech refinery</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-refinery-large/">Hi-tech refinery</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -5125,7 +5125,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-refinery-large-object/">Pbs Refinery Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-refinery-large-object/">Pbs Refinery Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -5133,7 +5133,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-refinery-medium/">Advanced refinery</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-refinery-medium/">Advanced refinery</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -5157,7 +5157,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-refinery-medium-object/">Pbs Refinery Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-refinery-medium-object/">Pbs Refinery Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -5165,7 +5165,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-refinery-small/">Standard refinery</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-refinery-small/">Standard refinery</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5189,7 +5189,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-refinery-small-object/">Pbs Refinery Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-refinery-small-object/">Pbs Refinery Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5197,7 +5197,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-repair-large/">Hi-tech repair shop</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-repair-large/">Hi-tech repair shop</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -5221,7 +5221,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-repair-large-object/">Pbs Repair Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-repair-large-object/">Pbs Repair Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -5229,7 +5229,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-repair-medium/">Advanced repair shop</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-repair-medium/">Advanced repair shop</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -5253,7 +5253,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-repair-medium-object/">Pbs Repair Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-repair-medium-object/">Pbs Repair Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -5261,7 +5261,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-repair-small/">Standard repair shop</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-repair-small/">Standard repair shop</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5285,7 +5285,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-repair-small-object/">Pbs Repair Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-repair-small-object/">Pbs Repair Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5293,7 +5293,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-reprocessor-large/">Hi-tech recycling plant</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-reprocessor-large/">Hi-tech recycling plant</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -5317,7 +5317,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-reprocessor-large-object/">Pbs Reprocessor Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-reprocessor-large-object/">Pbs Reprocessor Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -5325,7 +5325,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-reprocessor-medium/">Advanced recycling plant</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-reprocessor-medium/">Advanced recycling plant</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -5349,7 +5349,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-reprocessor-medium-object/">Pbs Reprocessor Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-reprocessor-medium-object/">Pbs Reprocessor Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -5357,7 +5357,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-reprocessor-small/">Standard recycling plant</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-reprocessor-small/">Standard recycling plant</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5381,7 +5381,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-reprocessor-small-object/">Pbs Reprocessor Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-reprocessor-small-object/">Pbs Reprocessor Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5389,7 +5389,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-research-kit-forge-large/">Hi-tech decoder lab</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-research-kit-forge-large/">Hi-tech decoder lab</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -5413,7 +5413,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-research-kit-forge-large-object/">Pbs Research Kit Forge Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-research-kit-forge-large-object/">Pbs Research Kit Forge Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -5421,7 +5421,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-research-kit-forge-medium/">Advanced decoder lab</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-research-kit-forge-medium/">Advanced decoder lab</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -5445,7 +5445,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-research-kit-forge-medium-object/">Pbs Research Kit Forge Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-research-kit-forge-medium-object/">Pbs Research Kit Forge Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -5453,7 +5453,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-research-kit-forge-small/">Standard decoder lab</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-research-kit-forge-small/">Standard decoder lab</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5477,7 +5477,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-research-kit-forge-small-object/">Pbs Research Kit Forge Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-research-kit-forge-small-object/">Pbs Research Kit Forge Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5485,7 +5485,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-research-lab-large/">Hi-tech reverse engineering</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-research-lab-large/">Hi-tech reverse engineering</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -5509,7 +5509,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-research-lab-large-object/">Pbs Research Lab Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-research-lab-large-object/">Pbs Research Lab Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -5517,7 +5517,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-research-lab-medium/">Advanced reverse engineering</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-research-lab-medium/">Advanced reverse engineering</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -5541,7 +5541,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-research-lab-medium-object/">Pbs Research Lab Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-research-lab-medium-object/">Pbs Research Lab Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -5549,7 +5549,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-research-lab-small/">Standard reverse engineering</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-research-lab-small/">Standard reverse engineering</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5573,7 +5573,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-research-lab-small-object/">Pbs Research Lab Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-research-lab-small-object/">Pbs Research Lab Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5581,7 +5581,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-ew-large/">Hi-tech EW turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-ew-large/">Hi-tech EW turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -5605,7 +5605,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-ew-large-object/">Pbs Turret Ew Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-ew-large-object/">Pbs Turret Ew Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -5613,7 +5613,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-ew-medium/">Advanced EW turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-ew-medium/">Advanced EW turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -5637,7 +5637,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-ew-medium-object/">Pbs Turret Ew Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-ew-medium-object/">Pbs Turret Ew Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -5645,7 +5645,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-ew-small/">Standard EW turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-ew-small/">Standard EW turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5669,7 +5669,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-ew-small-object/">Pbs Turret Ew Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-ew-small-object/">Pbs Turret Ew Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5677,7 +5677,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-laser-large/">Hi-tech laser turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-laser-large/">Hi-tech laser turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -5701,7 +5701,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-laser-large-object/">Pbs Turret Laser Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-laser-large-object/">Pbs Turret Laser Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -5709,7 +5709,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-laser-medium/">Advanced laser turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-laser-medium/">Advanced laser turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -5733,7 +5733,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-laser-medium-object/">Pbs Turret Laser Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-laser-medium-object/">Pbs Turret Laser Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -5741,7 +5741,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-laser-small/">Standard laser turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-laser-small/">Standard laser turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5765,7 +5765,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-laser-small-object/">Pbs Turret Laser Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-laser-small-object/">Pbs Turret Laser Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5773,7 +5773,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-missile-large/">Hi-tech missile turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-missile-large/">Hi-tech missile turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -5797,7 +5797,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-missile-large-object/">Pbs Turret Missile Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-missile-large-object/">Pbs Turret Missile Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -5805,7 +5805,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-missile-medium/">Advanced missile turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-missile-medium/">Advanced missile turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -5829,7 +5829,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-missile-medium-object/">Pbs Turret Missile Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-missile-medium-object/">Pbs Turret Missile Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -5837,7 +5837,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-missile-small/">Standard missile turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-missile-small/">Standard missile turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5861,7 +5861,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-missile-small-object/">Pbs Turret Missile Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-missile-small-object/">Pbs Turret Missile Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5869,7 +5869,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-object/">Pbs Turret Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-object/">Pbs Turret Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -5877,7 +5877,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-rail-large/">Hi-tech EM-turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-rail-large/">Hi-tech EM-turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -5901,7 +5901,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-rail-large-object/">Pbs Turret Rail Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-rail-large-object/">Pbs Turret Rail Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -5909,7 +5909,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-rail-medium/">Advanced EM-turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-rail-medium/">Advanced EM-turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -5933,7 +5933,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-rail-medium-object/">Pbs Turret Rail Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-rail-medium-object/">Pbs Turret Rail Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -5941,7 +5941,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-rail-small/">Standard EM-turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-rail-small/">Standard EM-turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5965,7 +5965,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pbs-turret-rail-small-object/">Pbs Turret Rail Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-turret-rail-small-object/">Pbs Turret Rail Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -5973,7 +5973,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pelistal-assault-drone/">Pelistal Assault Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pelistal-assault-drone/">Pelistal Assault Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -5989,7 +5989,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/pelistal-attack-drone/">Pelistal Attack Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pelistal-attack-drone/">Pelistal Attack Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6005,7 +6005,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/plant-bomb/">Plant Bomb</a></div>
+<div><div class="mission-card-title"><a href="/content/items/plant-bomb/">Plant Bomb</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6013,7 +6013,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/plant-bomb-capsule/">Plant Bomb Capsule</a></div>
+<div><div class="mission-card-title"><a href="/content/items/plant-bomb-capsule/">Plant Bomb Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6021,7 +6021,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/plant-seed-bonsai/">Uropsia incubator</a></div>
+<div><div class="mission-card-title"><a href="/content/items/plant-seed-bonsai/">Uropsia incubator</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6029,7 +6029,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/plant-seed-coppertree/">Oryovia incubator</a></div>
+<div><div class="mission-card-title"><a href="/content/items/plant-seed-coppertree/">Oryovia incubator</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6037,7 +6037,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/plant-seed-electroplant/">Noralgis incubator</a></div>
+<div><div class="mission-card-title"><a href="/content/items/plant-seed-electroplant/">Noralgis incubator</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6045,7 +6045,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/plant-seed-irontree/">Prismocitae incubator</a></div>
+<div><div class="mission-card-title"><a href="/content/items/plant-seed-irontree/">Prismocitae incubator</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6053,7 +6053,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/plant-seed-pinetree/">Amidopsia incubator</a></div>
+<div><div class="mission-card-title"><a href="/content/items/plant-seed-pinetree/">Amidopsia incubator</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6061,7 +6061,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/plant-seed-poffeteg/">Aclya incubator</a></div>
+<div><div class="mission-card-title"><a href="/content/items/plant-seed-poffeteg/">Aclya incubator</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6069,7 +6069,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/plant-seed-quag/">Armelion incubator</a></div>
+<div><div class="mission-card-title"><a href="/content/items/plant-seed-quag/">Armelion incubator</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6077,7 +6077,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/plant-seed-rango/">Quarmyra incubator</a></div>
+<div><div class="mission-card-title"><a href="/content/items/plant-seed-rango/">Quarmyra incubator</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6085,7 +6085,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/plant-seed-rustbush/">Helioptris incubator</a></div>
+<div><div class="mission-card-title"><a href="/content/items/plant-seed-rustbush/">Helioptris incubator</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6093,7 +6093,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/plant-seed-slimeroot/">Triandlus incubator</a></div>
+<div><div class="mission-card-title"><a href="/content/items/plant-seed-slimeroot/">Triandlus incubator</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6101,7 +6101,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/plant-seed-titanplant/">Eplisque incubator</a></div>
+<div><div class="mission-card-title"><a href="/content/items/plant-seed-titanplant/">Eplisque incubator</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6109,7 +6109,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/player/">Player</a></div>
+<div><div class="mission-card-title"><a href="/content/items/player/">Player</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6117,7 +6117,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/private-alliance/">Private Alliance</a></div>
+<div><div class="mission-card-title"><a href="/content/items/private-alliance/">Private Alliance</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6125,7 +6125,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/private-corporation/">Private Corporation</a></div>
+<div><div class="mission-card-title"><a href="/content/items/private-corporation/">Private Corporation</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6133,7 +6133,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/public-docking-base-nuimqol/">ICS terminal</a></div>
+<div><div class="mission-card-title"><a href="/content/items/public-docking-base-nuimqol/">ICS terminal</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6141,7 +6141,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/public-docking-base-nuimqol-outpost/">Public Docking Base Nuimqol Outpost</a></div>
+<div><div class="mission-card-title"><a href="/content/items/public-docking-base-nuimqol-outpost/">Public Docking Base Nuimqol Outpost</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6149,7 +6149,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/public-docking-base-nuimqol-outpost-pve/">Public Docking Base Nuimqol Outpost Pve</a></div>
+<div><div class="mission-card-title"><a href="/content/items/public-docking-base-nuimqol-outpost-pve/">Public Docking Base Nuimqol Outpost Pve</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6157,7 +6157,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/public-docking-base-pelistal/">Truhold-Markson terminal</a></div>
+<div><div class="mission-card-title"><a href="/content/items/public-docking-base-pelistal/">Truhold-Markson terminal</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6165,7 +6165,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/public-docking-base-pelistal-outpost/">Public Docking Base Pelistal Outpost</a></div>
+<div><div class="mission-card-title"><a href="/content/items/public-docking-base-pelistal-outpost/">Public Docking Base Pelistal Outpost</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6173,7 +6173,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/public-docking-base-pelistal-outpost-pve/">Public Docking Base Pelistal Outpost Pve</a></div>
+<div><div class="mission-card-title"><a href="/content/items/public-docking-base-pelistal-outpost-pve/">Public Docking Base Pelistal Outpost Pve</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6181,7 +6181,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/public-docking-base-thelodica/">Asintec terminal</a></div>
+<div><div class="mission-card-title"><a href="/content/items/public-docking-base-thelodica/">Asintec terminal</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6189,7 +6189,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/public-docking-base-thelodica-outpost/">Public Docking Base Thelodica Outpost</a></div>
+<div><div class="mission-card-title"><a href="/content/items/public-docking-base-thelodica-outpost/">Public Docking Base Thelodica Outpost</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6197,7 +6197,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/public-docking-base-thelodica-outpost-pve/">Public Docking Base Thelodica Outpost Pve</a></div>
+<div><div class="mission-card-title"><a href="/content/items/public-docking-base-thelodica-outpost-pve/">Public Docking Base Thelodica Outpost Pve</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6205,7 +6205,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/public-market/">Market</a></div>
+<div><div class="mission-card-title"><a href="/content/items/public-market/">Market</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6213,7 +6213,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/public-teleport-column-nuimqol/">Nuimqol teleport</a></div>
+<div><div class="mission-card-title"><a href="/content/items/public-teleport-column-nuimqol/">Nuimqol teleport</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6221,7 +6221,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/public-teleport-column-pelistal/">Pelistal teleport</a></div>
+<div><div class="mission-card-title"><a href="/content/items/public-teleport-column-pelistal/">Pelistal teleport</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6229,7 +6229,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/public-teleport-column-thelodica/">Thelodica teleport</a></div>
+<div><div class="mission-card-title"><a href="/content/items/public-teleport-column-thelodica/">Thelodica teleport</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6237,7 +6237,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/random-rift-portal/">Teleport anomaly echo</a></div>
+<div><div class="mission-card-title"><a href="/content/items/random-rift-portal/">Teleport anomaly echo</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6245,7 +6245,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/redeemable-credit-dlc0/">4,800 Perpetuum Credits</a></div>
+<div><div class="mission-card-title"><a href="/content/items/redeemable-credit-dlc0/">4,800 Perpetuum Credits</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6253,7 +6253,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/redeemable-credit-dlc1/">2,500 Perpetuum Credits</a></div>
+<div><div class="mission-card-title"><a href="/content/items/redeemable-credit-dlc1/">2,500 Perpetuum Credits</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6261,7 +6261,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/redeemable-credit-standard/">200 Perpetuum Credits</a></div>
+<div><div class="mission-card-title"><a href="/content/items/redeemable-credit-standard/">200 Perpetuum Credits</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6269,7 +6269,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/redeemable-ep-dlc0/">120,000 Extension Points (EP)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/redeemable-ep-dlc0/">120,000 Extension Points (EP)</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6277,7 +6277,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/redeemable-ep-dlc1/">140,000 Extension Points (EP)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/redeemable-ep-dlc1/">140,000 Extension Points (EP)</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6285,7 +6285,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/redeemable-ep-standard/">40,000 Extension Points (EP)</a></div>
+<div><div class="mission-card-title"><a href="/content/items/redeemable-ep-standard/">40,000 Extension Points (EP)</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6293,7 +6293,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/redeemable-spark-dlc0/">Solaris ST1 \"Yuge\" spark</a></div>
+<div><div class="mission-card-title"><a href="/content/items/redeemable-spark-dlc0/">Solaris ST1 \"Yuge\" spark</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6301,7 +6301,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/redeemable-spark-dlc1/">Matsuda Suchimu Type-S spark</a></div>
+<div><div class="mission-card-title"><a href="/content/items/redeemable-spark-dlc1/">Matsuda Suchimu Type-S spark</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6309,7 +6309,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/relic/">Relic</a></div>
+<div><div class="mission-card-title"><a href="/content/items/relic/">Relic</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6317,7 +6317,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/relic-sap/">Relic Sap</a></div>
+<div><div class="mission-card-title"><a href="/content/items/relic-sap/">Relic Sap</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6325,7 +6325,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/repair-support-drone/">Repair Support Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/repair-support-drone/">Repair Support Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6341,7 +6341,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/respec-token/">Respec Token</a></div>
+<div><div class="mission-card-title"><a href="/content/items/respec-token/">Respec Token</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6349,7 +6349,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/retreat-remote-command/">Retreat Remote Command</a></div>
+<div><div class="mission-card-title"><a href="/content/items/retreat-remote-command/">Retreat Remote Command</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6357,7 +6357,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/rift/">Teleport anomaly</a></div>
+<div><div class="mission-card-title"><a href="/content/items/rift/">Teleport anomaly</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6365,7 +6365,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/rift-targetted-portal/">Rift Targetted Portal</a></div>
+<div><div class="mission-card-title"><a href="/content/items/rift-targetted-portal/">Rift Targetted Portal</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6373,7 +6373,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/sap-active-hacking/">Active hacking</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sap-active-hacking/">Active hacking</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6381,7 +6381,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/sap-destruction/">Destruction</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sap-destruction/">Destruction</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6389,7 +6389,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/sap-passive-hacking/">Passive hacking</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sap-passive-hacking/">Passive hacking</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6397,7 +6397,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/sap-specimen-processing/">Specimen processing</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sap-specimen-processing/">Specimen processing</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6405,7 +6405,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/sentry-test/">Sentry Test</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sentry-test/">Sentry Test</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6413,7 +6413,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/sentry-test-deployer/">Sentry Test Deployer</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sentry-test-deployer/">Sentry Test Deployer</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6421,7 +6421,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/sentry-test-egg/">Sentry Test Egg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sentry-test-egg/">Sentry Test Egg</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6429,7 +6429,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/sentry-turret/">Sentry Turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sentry-turret/">Sentry Turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6445,7 +6445,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/server-wide-ep-booster-t0/">Server Wide Ep Booster T0</a></div>
+<div><div class="mission-card-title"><a href="/content/items/server-wide-ep-booster-t0/">Server Wide Ep Booster T0</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6453,7 +6453,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/server-wide-ep-booster-t1/">Server Wide Ep Booster T1</a></div>
+<div><div class="mission-card-title"><a href="/content/items/server-wide-ep-booster-t1/">Server Wide Ep Booster T1</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -6461,7 +6461,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/server-wide-ep-booster-t2/">Server Wide Ep Booster T2</a></div>
+<div><div class="mission-card-title"><a href="/content/items/server-wide-ep-booster-t2/">Server Wide Ep Booster T2</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -6469,7 +6469,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/server-wide-ep-booster-t3/">Server Wide Ep Booster T3</a></div>
+<div><div class="mission-card-title"><a href="/content/items/server-wide-ep-booster-t3/">Server Wide Ep Booster T3</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T3</div>
 </div>
 </div>
@@ -6477,7 +6477,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/spark-teleport-device-daoden/">Spark Teleport Device Daoden</a></div>
+<div><div class="mission-card-title"><a href="/content/items/spark-teleport-device-daoden/">Spark Teleport Device Daoden</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6485,7 +6485,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/spark-teleport-device-hersh/">Spark Teleport Device Hersh</a></div>
+<div><div class="mission-card-title"><a href="/content/items/spark-teleport-device-hersh/">Spark Teleport Device Hersh</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6493,7 +6493,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/spark-teleport-device-nv/">Spark Teleport Device Nv</a></div>
+<div><div class="mission-card-title"><a href="/content/items/spark-teleport-device-nv/">Spark Teleport Device Nv</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6501,7 +6501,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/standard-hunter-drone-pve/">Standard Hunter Drone Pve</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-hunter-drone-pve/">Standard Hunter Drone Pve</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -6509,7 +6509,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/standard-hunter-drone-pvp/">Standard Hunter Drone Pvp</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standard-hunter-drone-pvp/">Standard Hunter Drone Pvp</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -6533,7 +6533,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/standart-harvesting-turret/">Standart Harvesting Turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standart-harvesting-turret/">Standart Harvesting Turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -6549,7 +6549,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/standart-mining-turret/">Standart Mining Turret</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standart-mining-turret/">Standart Mining Turret</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -6565,7 +6565,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/standart-nuimqol-combat-drone/">Standart Nuimqol Combat Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standart-nuimqol-combat-drone/">Standart Nuimqol Combat Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -6581,7 +6581,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/standart-pelistal-combat-drone/">Standart Pelistal Combat Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standart-pelistal-combat-drone/">Standart Pelistal Combat Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -6597,7 +6597,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/standart-thelodica-combat-drone/">Standart Thelodica Combat Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/standart-thelodica-combat-drone/">Standart Thelodica Combat Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -6613,7 +6613,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/stronghold-exit-rift/">Stronghold Exit Rift</a></div>
+<div><div class="mission-card-title"><a href="/content/items/stronghold-exit-rift/">Stronghold Exit Rift</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6621,7 +6621,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/syndicate-assault-drone/">Syndicate Assault Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/syndicate-assault-drone/">Syndicate Assault Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6637,7 +6637,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/syndicate-attack-drone/">Syndicate Attack Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/syndicate-attack-drone/">Syndicate Attack Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6653,7 +6653,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/teleport-back-home/">Teleport Back Home</a></div>
+<div><div class="mission-card-title"><a href="/content/items/teleport-back-home/">Teleport Back Home</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6661,7 +6661,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/teleport-enabler/">Teleport SAP</a></div>
+<div><div class="mission-card-title"><a href="/content/items/teleport-enabler/">Teleport SAP</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6669,7 +6669,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/terraform-buoy/">Terraform Buoy</a></div>
+<div><div class="mission-card-title"><a href="/content/items/terraform-buoy/">Terraform Buoy</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6677,7 +6677,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/terraform-buoy-capsule/">Terraform Buoy Capsule</a></div>
+<div><div class="mission-card-title"><a href="/content/items/terraform-buoy-capsule/">Terraform Buoy Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6685,7 +6685,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/test-decor/">Test Decor</a></div>
+<div><div class="mission-card-title"><a href="/content/items/test-decor/">Test Decor</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6693,7 +6693,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/test-object/">Unbeatable object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/test-object/">Unbeatable object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6701,7 +6701,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/thelodica-assault-drone/">Thelodica Assault Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/thelodica-assault-drone/">Thelodica Assault Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6717,7 +6717,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/thelodica-attack-drone/">Thelodica Attack Drone</a></div>
+<div><div class="mission-card-title"><a href="/content/items/thelodica-attack-drone/">Thelodica Attack Drone</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6733,7 +6733,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/tm-mission-coin/">Truhold-Markson token</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tm-mission-coin/">Truhold-Markson token</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6741,7 +6741,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/training-docking-base/">Terminal</a></div>
+<div><div class="mission-card-title"><a href="/content/items/training-docking-base/">Terminal</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6749,7 +6749,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/training-kill-switch/">Unknown switch</a></div>
+<div><div class="mission-card-title"><a href="/content/items/training-kill-switch/">Unknown switch</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6757,7 +6757,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/training-teleport-column-industrial/">Training Teleport Column Industrial</a></div>
+<div><div class="mission-card-title"><a href="/content/items/training-teleport-column-industrial/">Training Teleport Column Industrial</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6765,7 +6765,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/training-teleport-column-nuimqol/">Training Teleport Column Nuimqol</a></div>
+<div><div class="mission-card-title"><a href="/content/items/training-teleport-column-nuimqol/">Training Teleport Column Nuimqol</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6773,7 +6773,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/training-teleport-column-pelistal/">Training Teleport Column Pelistal</a></div>
+<div><div class="mission-card-title"><a href="/content/items/training-teleport-column-pelistal/">Training Teleport Column Pelistal</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6781,7 +6781,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/training-teleport-column-thelodica/">Training Teleport Column Thelodica</a></div>
+<div><div class="mission-card-title"><a href="/content/items/training-teleport-column-thelodica/">Training Teleport Column Thelodica</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6789,7 +6789,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/universal-mission-coin/">Universal token</a></div>
+<div><div class="mission-card-title"><a href="/content/items/universal-mission-coin/">Universal token</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6797,7 +6797,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/visibility-probe/">Visibility Probe</a></div>
+<div><div class="mission-card-title"><a href="/content/items/visibility-probe/">Visibility Probe</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6805,7 +6805,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/visibility-probe-capsule/">Visibility Probe Capsule</a></div>
+<div><div class="mission-card-title"><a href="/content/items/visibility-probe-capsule/">Visibility Probe Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6813,7 +6813,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/wall-bomb-a/">Wall Bomb A</a></div>
+<div><div class="mission-card-title"><a href="/content/items/wall-bomb-a/">Wall Bomb A</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -6821,7 +6821,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/wall-bomb-a-capsule/">Wall Bomb A Capsule</a></div>
+<div><div class="mission-card-title"><a href="/content/items/wall-bomb-a-capsule/">Wall Bomb A Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T1</div>
 </div>
 </div>
@@ -6829,7 +6829,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/wall-bomb-b/">Wall Bomb B</a></div>
+<div><div class="mission-card-title"><a href="/content/items/wall-bomb-b/">Wall Bomb B</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -6837,7 +6837,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/wall-bomb-b-capsule/">Wall Bomb B Capsule</a></div>
+<div><div class="mission-card-title"><a href="/content/items/wall-bomb-b-capsule/">Wall Bomb B Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous, tier T2</div>
 </div>
 </div>
@@ -6845,7 +6845,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/wall-builder-ammo-a/">Standard wall compiler charge</a></div>
+<div><div class="mission-card-title"><a href="/content/items/wall-builder-ammo-a/">Standard wall compiler charge</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6853,7 +6853,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/wall-healer-large-capsule/">Wall Healer Large Capsule</a></div>
+<div><div class="mission-card-title"><a href="/content/items/wall-healer-large-capsule/">Wall Healer Large Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6861,7 +6861,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/wall-healer-large-object/">Wall Healer Large Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/wall-healer-large-object/">Wall Healer Large Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6869,7 +6869,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/wall-healer-medium-capsule/">Wall Healer Medium Capsule</a></div>
+<div><div class="mission-card-title"><a href="/content/items/wall-healer-medium-capsule/">Wall Healer Medium Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6877,7 +6877,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/wall-healer-medium-object/">Wall Healer Medium Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/wall-healer-medium-object/">Wall Healer Medium Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6885,7 +6885,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/wall-healer-small-capsule/">Wall Healer Small Capsule</a></div>
+<div><div class="mission-card-title"><a href="/content/items/wall-healer-small-capsule/">Wall Healer Small Capsule</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6893,7 +6893,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/wall-healer-small-object/">Wall Healer Small Object</a></div>
+<div><div class="mission-card-title"><a href="/content/items/wall-healer-small-object/">Wall Healer Small Object</a></div>
 <div class="mission-card-sub">Special & other / Miscellaneous</div>
 </div>
 </div>
@@ -6906,7 +6906,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/amazon-c1-combat-spark-unlock/">Spark license - AC1 \"Gladius\</a></div>
+<div><div class="mission-card-title"><a href="/content/items/amazon-c1-combat-spark-unlock/">Spark license - AC1 \"Gladius\</a></div>
 <div class="mission-card-sub">Special & other / Spark unlocks</div>
 </div>
 </div>
@@ -6914,7 +6914,7 @@ description: "Special & other catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/it/content/items/amazon-c1-indy-spark-unlock/">Spark license - AM1 \"Alluvia\</a></div>
+<div><div class="mission-card-title"><a href="/content/items/amazon-c1-indy-spark-unlock/">Spark license - AM1 \"Alluvia\</a></div>
 <div class="mission-card-sub">Special & other / Spark unlocks</div>
 </div>
 </div>

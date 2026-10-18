@@ -34,7 +34,7 @@ description: "Modules / Enhancements, tier T3"
 **由组件 10个生产 ，研究等级 7** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [OM-Shock EnWar upgrade CT](/zh-CN/content/items/named2-energy-warfare-upgrade-cprg/)
+**蓝图:** [OM-Shock EnWar upgrade CT](/content/items/named2-energy-warfare-upgrade-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/espitium/">Espitium</a></div><div class="prod-card-body">需要: <b>150</b></div></div>

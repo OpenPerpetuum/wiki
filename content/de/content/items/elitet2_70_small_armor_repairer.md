@@ -56,7 +56,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/de/content/shop/) 
 **Hergestellt aus 2 Komponenten** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Elitet2 70 Small Armor Repairer Cprg](/de/content/items/elitet2-70-small-armor-repairer-cprg/)
+**Bauplan:** [Elitet2 70 Small Armor Repairer Cprg](/content/items/elitet2-70-small-armor-repairer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/material-boss-z70/">Material Boss Z70</a></div><div class="prod-card-body">benötigt: <b>150</b></div></div>

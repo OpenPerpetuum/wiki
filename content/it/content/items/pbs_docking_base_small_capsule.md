@@ -35,7 +35,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Prodotto da 8 componenti** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Standard main terminal foundation CT](/it/content/items/pbs-docking-base-small-capsule-cprg/)
+**Piano:** [Standard main terminal foundation CT](/content/items/pbs-docking-base-small-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/alligior/">Alligior</a></div><div class="prod-card-body">richiesto: <b>7.5k</b></div></div>

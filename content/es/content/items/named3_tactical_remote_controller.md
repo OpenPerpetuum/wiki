@@ -46,7 +46,7 @@ description: "Modules / Remote control, tier T4"
 **Producido desde 10 componentes** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [T4 Tactical Remote Controller Cprg](/es/content/items/named3-tactical-remote-controller-cprg/)
+**Planos:** [T4 Tactical Remote Controller Cprg](/content/items/named3-tactical-remote-controller-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">requerido: <b>250</b></div></div>

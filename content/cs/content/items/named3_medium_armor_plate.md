@@ -34,7 +34,7 @@ description: "Modules / Armor, tier T4"
 **Vyráběn z 8 komponentách, výzkumná úroveň 6** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [THL-Testudo medium armor plate CT](/cs/content/items/named3-medium-armor-plate-cprg/)
+**Výkres:** [THL-Testudo medium armor plate CT](/content/items/named3-medium-armor-plate-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/alligior/">Alligior</a></div><div class="prod-card-body">potřebné: <b>700</b></div></div>

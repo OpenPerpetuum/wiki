@@ -53,9 +53,9 @@ test.describe('search: menu tree + keyboard result navigation', () => {
     await expect(page.locator('#search-results a').first()).toBeVisible();
   }
 
-  test('the World map page title is translated in results (fr: Monde)', async ({ page, baseURL }) => {
-    // The search index holds the English title "World"; the menu label
-    // nav_zone_map ("World"/"Monde") is its translation, so the result row
+  test('the World map page title is translated in results (fr: Carte du monde)', async ({ page, baseURL }) => {
+    // The search index holds the English title "World Map"; the menu label
+    // nav_world ("World Map"/"Carte du monde") matches, so the result row
     // shows the translated form on the French page.
     await page.goto(`${baseURL}/`);
     await page.evaluate(() => localStorage.setItem('wiki-lang', 'fr'));
@@ -64,7 +64,7 @@ test.describe('search: menu tree + keyboard result navigation', () => {
     await expect(page.locator('#search-results')).toBeVisible();
     const link = page.locator('#search-results a[href="/zones/map/"]');
     await expect(link).toBeVisible();
-    await expect(link).toContainText('Monde');
+    await expect(link).toContainText('Carte du monde');
     // the English title must not appear on the French page
     await expect(link).not.toContainText('World');
   });
@@ -80,15 +80,15 @@ test.describe('search: menu tree + keyboard result navigation', () => {
   });
 
   test('sidenav anchor links are their own results and keep the fragment', async ({ page, baseURL }) => {
-    // "T0 — tc transit" (nav_map_gamma_t0) → /zones/gamma/#t0. The label is a
-    // menu-only string (the Gamma page title is "Gamma"), so the anchor entry
-    // is the top hit; the page itself follows.
-    await typeAndAwait(page, baseURL, 'tc transit');
-    const link = page.locator('#search-results a[href="/zones/gamma/#t0"]');
+    // "Mobile teleports" (nav_dep_mobile_tp) → /content/deployables/#mobile-teleports-12.
+    // The label is a menu-only string (the page title is "Deployables"), so
+    // the anchor entry is the top hit; the page itself follows.
+    await typeAndAwait(page, baseURL, 'mobile teleports');
+    const link = page.locator('#search-results a[href="/content/deployables/#mobile-teleports-12"]');
     await expect(link).toBeVisible();
-    await expect(link).toContainText('T0');
+    await expect(link).toContainText('Mobile teleports');
     await link.click();
-    await page.waitForURL('**/zones/gamma/#t0');
+    await page.waitForURL('**/content/deployables/#mobile-teleports-12');
   });
 
   test('arrow keys move the selection, Enter follows it', async ({ page, baseURL }) => {

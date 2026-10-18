@@ -40,7 +40,7 @@ description: "Special & other / Miscellaneous, tier T3"
 **Производится из 3 компонентах, уровень исследований 5** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [T3 Nuimqol Combat Drone Unit Cprg](/ru/content/items/named2-nuimqol-combat-drone-unit-cprg/)
+**Чертёж:** [T3 Nuimqol Combat Drone Unit Cprg](/content/items/named2-nuimqol-combat-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/espitium/">Espitium</a></div><div class="prod-card-body">нужно: <b>10</b></div></div>

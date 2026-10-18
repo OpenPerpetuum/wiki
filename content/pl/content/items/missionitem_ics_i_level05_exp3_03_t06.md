@@ -25,7 +25,7 @@ _Brak statystyk — ten przedmiot nie niesie żadnych wartości agregowanych._
 **Produkcja z 2 komponentów, poziom badań 1** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Mobile fusion reactor [Nibelung - III] CT](/pl/content/items/missionitem-ics-i-level05-exp3-03-t06-cprg/)
+**Nakładka:** [Mobile fusion reactor [Nibelung - III] CT](/content/items/missionitem-ics-i-level05-exp3-03-t06-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/missionitem-ics-i-level05-exp3-03-t04/">Fusion cells [Nibelung - III]</a></div><div class="prod-card-body">wymagane: <b>1</b></div></div>

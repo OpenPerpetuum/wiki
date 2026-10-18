@@ -35,7 +35,7 @@ description: "Modules / Weapons, tier T2"
 **구성 요소 6개로 생산 , 연구 레벨 3** — 구성 요소를 조립하여 제작합니다 (전체 목록은 [레시피](/ko/content/recipes/) 참조):
 
 
-**제작도:** [Pelistec-Horosol DBM light missile launcher CT](/ko/content/items/named1-rocket-launcher-cprg/)
+**제작도:** [Pelistec-Horosol DBM light missile launcher CT](/content/items/named1-rocket-launcher-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ko/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">필요: <b>50</b></div></div>

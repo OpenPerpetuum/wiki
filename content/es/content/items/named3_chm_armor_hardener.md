@@ -35,7 +35,7 @@ description: "Modules / Armor, tier T4"
 **Producido desde 10 componentes, nivel de investigación 6** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Impetar chemical armor CT](/es/content/items/named3-chm-armor-hardener-cprg/)
+**Planos:** [Impetar chemical armor CT](/content/items/named3-chm-armor-hardener-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/alligior/">Alligior</a></div><div class="prod-card-body">requerido: <b>250</b></div></div>

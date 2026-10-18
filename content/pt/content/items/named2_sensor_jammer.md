@@ -36,7 +36,7 @@ description: "Modules / Sensors & scanning, tier T3"
 **Produzido a partir de 10 componentes, nível de pesquisa 5** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [Wavoslur ECM CT](/pt/content/items/named2-sensor-jammer-cprg/)
+**Plano:** [Wavoslur ECM CT](/content/items/named2-sensor-jammer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/chollonin/">Chollonin</a></div><div class="prod-card-body">necessário: <b>100</b></div></div>

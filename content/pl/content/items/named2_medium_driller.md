@@ -34,7 +34,7 @@ description: "Modules / Enhancements, tier T3"
 **Produkcja z 6 komponentów, poziom badań 5** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Sublimator Mid-D medium miner module CT](/pl/content/items/named2-medium-driller-cprg/)
+**Nakładka:** [Sublimator Mid-D medium miner module CT](/content/items/named2-medium-driller-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>50</b></div></div>

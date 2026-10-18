@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T3"
 **Producido desde 4 componentes, nivel de investigación 5** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [.5s Hastex medium machine gun CT](/es/content/items/named2-medium-autocannon-cprg/)
+**Planos:** [.5s Hastex medium machine gun CT](/content/items/named2-medium-autocannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">requerido: <b>100</b></div></div>

@@ -39,7 +39,7 @@ description: "Modules / Enhancements, tier T3"
 **Производится из 6 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [T3 Dreadnought Module Cprg](/ru/content/items/named2-dreadnought-module-cprg/)
+**Чертёж:** [T3 Dreadnought Module Cprg](/content/items/named2-dreadnought-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">нужно: <b>400</b></div></div>

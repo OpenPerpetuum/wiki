@@ -35,7 +35,7 @@ description: "Modules / Weapons, tier T1"
 **Produkcja z 3 komponentów, poziom badań 4** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Standard medium missile launcher CT](/pl/content/items/standard-missile-launcher-cprg/)
+**Nakładka:** [Standard medium missile launcher CT](/content/items/standard-missile-launcher-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">wymagane: <b>100</b></div></div>

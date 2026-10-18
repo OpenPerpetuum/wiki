@@ -31,7 +31,7 @@ description: "Ammo / Cannon"
 **Vyráběn z 3 komponentách, výzkumná úroveň 3** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Medium chemoactive slug CT](/cs/content/items/ammo-medium-railgun-b-cprg/)
+**Výkres:** [Medium chemoactive slug CT](/content/items/ammo-medium-railgun-b-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">potřebné: <b>100</b></div></div>

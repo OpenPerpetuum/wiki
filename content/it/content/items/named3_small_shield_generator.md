@@ -36,7 +36,7 @@ description: "Modules / Shield, tier T4"
 **Prodotto da 9 componenti, livello di ricerca 5** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [SBA-200 Forebrace small shield generator CT](/it/content/items/named3-small-shield-generator-cprg/)
+**Piano:** [SBA-200 Forebrace small shield generator CT](/content/items/named3-small-shield-generator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/alligior/">Alligior</a></div><div class="prod-card-body">richiesto: <b>400</b></div></div>

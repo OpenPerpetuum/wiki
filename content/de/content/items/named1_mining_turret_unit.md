@@ -33,7 +33,7 @@ description: "Special & other / Miscellaneous, tier T2"
 **Hergestellt aus 2 Komponenten, Forschungsebene 3** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [T2 Mining Turret Unit Cprg](/de/content/items/named1-mining-turret-unit-cprg/)
+**Bauplan:** [T2 Mining Turret Unit Cprg](/content/items/named1-mining-turret-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">benötigt: <b>750</b></div></div>

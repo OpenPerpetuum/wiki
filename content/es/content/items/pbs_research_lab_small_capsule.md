@@ -36,7 +36,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Producido desde 8 componentes** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Standard reverse engineering foundation CT](/es/content/items/pbs-research-lab-small-capsule-cprg/)
+**Planos:** [Standard reverse engineering foundation CT](/content/items/pbs-research-lab-small-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/alligior/">Alligior</a></div><div class="prod-card-body">requerido: <b>2.5k</b></div></div>

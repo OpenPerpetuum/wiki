@@ -33,7 +33,7 @@ description: "Modules / Enhancements, tier T4"
 **구성 요소 7개로 생산** — 구성 요소를 조립하여 제작합니다 (전체 목록은 [레시피](/ko/content/recipes/) 참조):
 
 
-**제작도:** [T4 Self Destruct Module Cprg](/ko/content/items/named3-self-destruct-module-cprg/)
+**제작도:** [T4 Self Destruct Module Cprg](/content/items/named3-self-destruct-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ko/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">필요: <b>250</b></div></div>

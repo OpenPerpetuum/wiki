@@ -31,7 +31,7 @@ description: "Ammo / Cannon"
 **Produit à partir de 3 composants, niveau de recherche 3** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [Medium chemoactive slug CT](/fr/content/items/ammo-medium-railgun-b-cprg/)
+**Plan :** [Medium chemoactive slug CT](/content/items/ammo-medium-railgun-b-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">requis : <b>100</b></div></div>

@@ -38,7 +38,7 @@ description: "Modules / Shield, tier T3"
 **Prodotto da 10 componenti, livello di ricerca 4** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Ekcept small energy drainer CT](/it/content/items/named2-small-energy-vampire-cprg/)
+**Piano:** [Ekcept small energy drainer CT](/content/items/named2-small-energy-vampire-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">richiesto: <b>100</b></div></div>

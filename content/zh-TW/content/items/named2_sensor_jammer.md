@@ -36,7 +36,7 @@ description: "Modules / Sensors & scanning, tier T3"
 **由組件 10個生產 ，研究等級 5** — 組裝組件來製造它（完整列表見[配方](/zh-TW/content/recipes/)）:
 
 
-**藍圖:** [Wavoslur ECM CT](/zh-TW/content/items/named2-sensor-jammer-cprg/)
+**藍圖:** [Wavoslur ECM CT](/content/items/named2-sensor-jammer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-TW/content/items/chollonin/">Chollonin</a></div><div class="prod-card-body">需要: <b>100</b></div></div>

@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T3"
 **Produzido a partir de 10 componentes, nível de pesquisa 6** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [Paternis armor NEXUS module CT](/pt/content/items/named2-gang-assist-defense-module-cprg/)
+**Plano:** [Paternis armor NEXUS module CT](/content/items/named2-gang-assist-defense-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/alligior/">Alligior</a></div><div class="prod-card-body">necessário: <b>50</b></div></div>

@@ -37,7 +37,7 @@ description: "Modules / Weapons, tier T3"
 **Производится из 8 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [T3 Hell Cannon Cprg](/ru/content/items/named2-hell-cannon-cprg/)
+**Чертёж:** [T3 Hell Cannon Cprg](/content/items/named2-hell-cannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/biotichrin/">Biotichrin</a></div><div class="prod-card-body">нужно: <b>250</b></div></div>

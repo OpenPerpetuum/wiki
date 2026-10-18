@@ -32,7 +32,7 @@ description: "Modules / Enhancements, tier T3"
 **Prodotto da 10 componenti, livello di ricerca 5** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Pelistec-FBP-II. missile launcher tuning CT](/it/content/items/named2-damage-mod-missile-cprg/)
+**Piano:** [Pelistec-FBP-II. missile launcher tuning CT](/content/items/named2-damage-mod-missile-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/espitium/">Espitium</a></div><div class="prod-card-body">richiesto: <b>100</b></div></div>

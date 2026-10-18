@@ -32,7 +32,7 @@ description: "Modules / Power, tier T4"
 **コンポーネント9個から製造** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [T4 Large Core Battery Cprg](/ja/content/items/named3-large-core-battery-cprg/)
+**設計図:** [T4 Large Core Battery Cprg](/content/items/named3-large-core-battery-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">必要: <b>600</b></div></div>

@@ -36,7 +36,7 @@ description: "Special & other / Miscellaneous, tier T3"
 **Hergestellt aus 5 Komponenten** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Hi-tech energy transmitter node foundation CT](/de/content/items/pbs-core-transmitter-large-capsule-cprg/)
+**Bauplan:** [Hi-tech energy transmitter node foundation CT](/content/items/pbs-core-transmitter-large-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/espitium/">Espitium</a></div><div class="prod-card-body">benötigt: <b>300</b></div></div>

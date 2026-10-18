@@ -38,7 +38,7 @@ description: "Modules / Shield, tier T2"
 **Produkcja z 8 komponentów, poziom badań 3** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Gox I. small energy neutralizer CT](/pl/content/items/named1-small-energy-neutralizer-cprg/)
+**Nakładka:** [Gox I. small energy neutralizer CT](/content/items/named1-small-energy-neutralizer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>100</b></div></div>

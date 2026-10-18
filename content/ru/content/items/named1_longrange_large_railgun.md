@@ -37,7 +37,7 @@ description: "Modules / Weapons, tier T2"
 **Производится из 9 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [T2 Longrange Large Railgun Cprg](/ru/content/items/named1-longrange-large-railgun-cprg/)
+**Чертёж:** [T2 Longrange Large Railgun Cprg](/content/items/named1-longrange-large-railgun-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">нужно: <b>75</b></div></div>

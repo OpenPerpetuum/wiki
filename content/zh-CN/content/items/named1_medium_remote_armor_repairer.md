@@ -36,7 +36,7 @@ description: "Modules / Repair, tier T2"
 **由组件 5个生产 ，研究等级 5** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [Avaror GD-800 medium remote armor repairer CT](/zh-CN/content/items/named1-medium-remote-armor-repairer-cprg/)
+**蓝图:** [Avaror GD-800 medium remote armor repairer CT](/content/items/named1-medium-remote-armor-repairer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">需要: <b>100</b></div></div>

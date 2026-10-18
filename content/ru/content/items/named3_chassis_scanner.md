@@ -35,7 +35,7 @@ description: "Modules / Sensors & scanning, tier T4"
 **Производится из 8 компонентах, уровень исследований 6** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [sy-D-930 chassis scanner CT](/ru/content/items/named3-chassis-scanner-cprg/)
+**Чертёж:** [sy-D-930 chassis scanner CT](/content/items/named3-chassis-scanner-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">нужно: <b>250</b></div></div>

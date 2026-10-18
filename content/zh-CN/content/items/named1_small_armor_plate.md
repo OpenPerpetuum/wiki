@@ -34,7 +34,7 @@ description: "Modules / Armor, tier T2"
 **由组件 4个生产 ，研究等级 2** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [Wobost-Titangrip light armor plate CT](/zh-CN/content/items/named1-small-armor-plate-cprg/)
+**蓝图:** [Wobost-Titangrip light armor plate CT](/content/items/named1-small-armor-plate-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/plasteosine/">Plasteosine</a></div><div class="prod-card-body">需要: <b>350</b></div></div>

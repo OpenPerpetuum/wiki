@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T1"
 **由组件 5个生产 ，研究等级 4** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [Standard critical hit NEXUS module CT](/zh-CN/content/items/standard-gang-assist-precision-firing-module-cprg/)
+**蓝图:** [Standard critical hit NEXUS module CT](/content/items/standard-gang-assist-precision-firing-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">需要: <b>250</b></div></div>

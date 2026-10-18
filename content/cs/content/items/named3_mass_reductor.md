@@ -34,7 +34,7 @@ description: "Modules / Enhancements, tier T4"
 **Vyráběn z 10 komponentách, výzkumná úroveň 6** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [MRE 3000 lightweight frame CT](/cs/content/items/named3-mass-reductor-cprg/)
+**Výkres:** [MRE 3000 lightweight frame CT](/content/items/named3-mass-reductor-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/alligior/">Alligior</a></div><div class="prod-card-body">potřebné: <b>350</b></div></div>

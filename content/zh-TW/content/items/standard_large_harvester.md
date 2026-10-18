@@ -33,7 +33,7 @@ description: "Modules / Harvesting, tier T1"
 **由組件 2個生產 ，研究等級 5** — 組裝組件來製造它（完整列表見[配方](/zh-TW/content/recipes/)）:
 
 
-**藍圖:** [Standard Large Harvester Cprg](/zh-TW/content/items/standard-large-harvester-cprg/)
+**藍圖:** [Standard Large Harvester Cprg](/content/items/standard-large-harvester-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-TW/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">需要: <b>1.6k</b></div></div>

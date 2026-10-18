@@ -33,7 +33,7 @@ description: "Modules / Enhancements, tier T4"
 **Prodotto da 9 componenti** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [T4 Large Core Booster Cprg](/it/content/items/named3-large-core-booster-cprg/)
+**Piano:** [T4 Large Core Booster Cprg](/content/items/named3-large-core-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">richiesto: <b>300</b></div></div>

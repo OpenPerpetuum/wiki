@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T2"
 **Производится из 5 компонентах, уровень исследований 4** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Arachnid-type S-demobilizer CT](/ru/content/items/named1-webber-cprg/)
+**Чертёж:** [Arachnid-type S-demobilizer CT](/content/items/named1-webber-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">нужно: <b>350</b></div></div>

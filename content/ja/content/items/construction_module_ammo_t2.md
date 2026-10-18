@@ -31,7 +31,7 @@ description: "Special & other / Miscellaneous, tier T2"
 **コンポーネント12個から製造** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Construction Module Ammo T2 Cprg](/ja/content/items/construction-module-ammo-t2-cprg/)
+**設計図:** [Construction Module Ammo T2 Cprg](/content/items/construction-module-ammo-t2-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/alligior/">Alligior</a></div><div class="prod-card-body">必要: <b>25</b></div></div>

@@ -25,7 +25,7 @@ _Žádné statistiky — tento předmět nenese žádné agregované hodnoty._
 **Vyráběn z 2 komponentách** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Ammo Mining Deep Stermonit Cprg](/cs/content/items/ammo-mining-deep-stermonit-cprg/)
+**Výkres:** [Ammo Mining Deep Stermonit Cprg](/content/items/ammo-mining-deep-stermonit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/polynucleit/">Polynucleit</a></div><div class="prod-card-body">potřebné: <b>180</b></div></div>

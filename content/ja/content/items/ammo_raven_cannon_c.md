@@ -31,7 +31,7 @@ description: "Ammo / Cannon"
 **コンポーネント3個から製造** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Ammo Raven Cannon C Cprg](/ja/content/items/ammo-raven-cannon-c-cprg/)
+**設計図:** [Ammo Raven Cannon C Cprg](/content/items/ammo-raven-cannon-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">必要: <b>150</b></div></div>

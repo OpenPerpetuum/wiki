@@ -18,7 +18,7 @@ const VISIBLE_LINKS = () =>
   [...document.querySelectorAll('.sidenav a')].filter((a) => a.offsetParent !== null).length;
 const COLLAPSED = (sel) =>
   [...document.querySelectorAll(sel)].map((g) => g.classList.contains('collapsed'));
-const GROUPS = '.sidenav .nav-group'; // 9 visible in play mode (+ Dev, hidden)
+const GROUPS = '.sidenav .nav-group:not(.nav-dev)'; // 9 in play mode (Dev excluded)
 const SUBS = '.sidenav li li.nav-has-sub'; // 7 sub-lists
 
 test('home: groups open, 2nd-level sub-lists closed', async ({ page, baseURL }) => {
@@ -35,10 +35,11 @@ test('home: groups open, 2nd-level sub-lists closed', async ({ page, baseURL }) 
 
 test('caret buttons collapse and re-open groups', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/`);
+  const before = await page.evaluate(VISIBLE_LINKS);
   const carets = page.locator(`${GROUPS} > .nav-group-head .nav-caret`);
   await carets.nth(2).click(); // Gather
   expect(await page.evaluate(COLLAPSED, GROUPS)).toEqual([false, false, true, false, false, false, false, false, false]);
-  const before = await page.evaluate(VISIBLE_LINKS);
+  expect(await page.evaluate(VISIBLE_LINKS)).toBeLessThan(before);
   await carets.nth(2).click();
   expect(await page.evaluate(COLLAPSED, GROUPS)).toEqual(Array(9).fill(false));
   expect(await page.evaluate(VISIBLE_LINKS)).toBe(before);
@@ -49,7 +50,7 @@ test('World: Missions is a plain link under the World Map group', async ({ page,
   // Missions is a direct child link in the World Map group (not a sub-list)
   const missions = page.locator('.sidenav .nav-group >> nth=1 >> a[href="/features/missions/"]');
   expect(await missions.count()).toBe(1);
-  expect(await page.locator('.sidenav a.active').textContent()).toBe('Missions');
+  expect(await page.locator('.sidenav a.active').textContent()).toBe('Mission list');
 });
 
 test('Produce group carries the recipes page', async ({ page, baseURL }) => {
@@ -91,7 +92,7 @@ test('items catalog index is gone', async ({ page, baseURL }) => {
   expect(res.status()).toBe(404);
 });
 
-test('zones map: top-level World Map header is active', async ({ page, baseURL }) => {
+test('zones map: top-level World Map link is active', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}/zones/map/`);
   expect(await page.locator('.sidenav a.active').textContent()).toBe('World Map');
 });
@@ -265,10 +266,11 @@ test('scroll position is preserved when the new active entry stays visible', asy
   expect(s1).toBeGreaterThan(0); // robots is below the fold: the menu actually scrolled
   // Production sits right below Robots in the Produce group: visible at the
   // same scroll offset, so the position must carry over
-  await page.locator('.sidenav a[href="/features/production/"]').click();
+  await page.locator('.sidenav .nav-items a[href="/features/production/"]').click();
   await page.waitForLoadState('load');
   const s2 = await page.evaluate(NAV_SCROLL);
-  expect(await page.locator('.sidenav a.active').textContent()).toBe('Production');
+  // The group header ("Produce") is the active match — it shares the same href
+  expect(await page.locator('.sidenav a.active').textContent()).toBe('Produce');
   expect(Math.abs(s2 - s1)).toBeLessThan(4);
 });
 
@@ -343,9 +345,9 @@ test('translated content pages: active menu highlight and translated content ren
   await expect(page.locator('body')).toContainText('Уровень исследования');
 
   // Russian Missions
-  await page.goto(`${baseURL}/ru/content/missions/`);
-  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/ru/content/missions/');
-  await expect(page.locator('body')).toContainText('Вознаграждение');
+  await page.goto(`${baseURL}/ru/features/missions/`);
+  expect(await page.locator('.sidenav a.active').getAttribute('href')).toBe('/ru/features/missions/');
+  await expect(page.locator('h1')).toContainText('Миссии');
 
   // Russian Shop
   await page.goto(`${baseURL}/ru/content/shop/`);

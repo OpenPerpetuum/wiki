@@ -32,7 +32,7 @@ description: "Modules / Weapons, tier T1"
 **Producido desde 5 componentes, nivel de investigación 3** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Standard laser tuning CT](/es/content/items/standard-damage-mod-laser-cprg/)
+**Planos:** [Standard laser tuning CT](/content/items/standard-damage-mod-laser-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">requerido: <b>100</b></div></div>

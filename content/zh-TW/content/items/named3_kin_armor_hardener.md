@@ -35,7 +35,7 @@ description: "Modules / Armor, tier T4"
 **由組件 12個生產 ，研究等級 6** — 組裝組件來製造它（完整列表見[配方](/zh-TW/content/recipes/)）:
 
 
-**藍圖:** [Grampier-VK kinetic armor CT](/zh-TW/content/items/named3-kin-armor-hardener-cprg/)
+**藍圖:** [Grampier-VK kinetic armor CT](/content/items/named3-kin-armor-hardener-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-TW/content/items/alligior/">Alligior</a></div><div class="prod-card-body">需要: <b>250</b></div></div>

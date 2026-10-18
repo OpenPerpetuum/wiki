@@ -35,7 +35,7 @@ description: "Special & other / Miscellaneous, tier T2"
 **Производится из 7 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Advanced command relay foundation CT](/ru/content/items/pbs-control-tower-medium-capsule-cprg/)
+**Чертёж:** [Advanced command relay foundation CT](/content/items/pbs-control-tower-medium-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">нужно: <b>250</b></div></div>

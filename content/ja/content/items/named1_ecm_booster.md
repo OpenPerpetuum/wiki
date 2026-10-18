@@ -33,7 +33,7 @@ description: "Modules / Enhancements, tier T2"
 **コンポーネント6個から製造 、研究レベル 6** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Distortio ECM tuning CT](/ja/content/items/named1-ecm-booster-cprg/)
+**設計図:** [Distortio ECM tuning CT](/content/items/named1-ecm-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">必要: <b>150</b></div></div>

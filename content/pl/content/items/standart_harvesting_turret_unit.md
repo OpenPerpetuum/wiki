@@ -32,7 +32,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Produkcja z 2 komponentów, poziom badań 2** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Standart Harvesting Turret Unit Cprg](/pl/content/items/standart-harvesting-turret-unit-cprg/)
+**Nakładka:** [Standart Harvesting Turret Unit Cprg](/content/items/standart-harvesting-turret-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">wymagane: <b>500</b></div></div>

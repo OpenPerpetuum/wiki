@@ -34,7 +34,7 @@ description: "Modules / Armor, tier T3"
 **Производится из 7 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [T3 Large Armor Plate Cprg](/ru/content/items/named2-large-armor-plate-cprg/)
+**Чертёж:** [T3 Large Armor Plate Cprg](/content/items/named2-large-armor-plate-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/alligior/">Alligior</a></div><div class="prod-card-body">нужно: <b>525</b></div></div>

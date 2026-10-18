@@ -36,7 +36,7 @@ description: "Modules / Shield, tier T3"
 **Produit à partir de 10 composants, niveau de recherche 6** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [Stasis-Gen shield NEXUS module CT](/fr/content/items/named2-gang-assist-shield-calculation-module-cprg/)
+**Plan :** [Stasis-Gen shield NEXUS module CT](/content/items/named2-gang-assist-shield-calculation-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/alligior/">Alligior</a></div><div class="prod-card-body">requis : <b>50</b></div></div>

@@ -25,7 +25,7 @@ _Keine Statistiken — dieses Element trägt keine aggregierten Werte._
 **Hergestellt aus 2 Komponenten, Forschungsebene 1** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Mobile synthesizer [Sahel VI] CT](/de/content/items/missionitem-asi-ii-level03-exp3-06-t06-cprg/)
+**Bauplan:** [Mobile synthesizer [Sahel VI] CT](/content/items/missionitem-asi-ii-level03-exp3-06-t06-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/missionitem-asi-ii-level03-exp3-06-t04/">Mobile synthesizer casing [Sahel VI]</a></div><div class="prod-card-body">benötigt: <b>1</b></div></div>

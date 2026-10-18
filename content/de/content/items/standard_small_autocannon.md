@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T1"
 **Hergestellt aus 2 Komponenten, Forschungsebene 1** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Standard light autocannon CT](/de/content/items/standard-small-autocannon-cprg/)
+**Bauplan:** [Standard light autocannon CT](/content/items/standard-small-autocannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">benötigt: <b>100</b></div></div>

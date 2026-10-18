@@ -19,7 +19,7 @@ description: "Artifacts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/fr/content/items/artifact-collectible-item/">Artifact Collectible Item</a></div>
+<div><div class="mission-card-title"><a href="/content/items/artifact-collectible-item/">Artifact Collectible Item</a></div>
 </div>
 </div>
 </div>
@@ -446,7 +446,7 @@ description: "Artifacts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/fr/content/items/artifact-spark-unlock/">Ancient data console</a></div>
+<div><div class="mission-card-title"><a href="/content/items/artifact-spark-unlock/">Ancient data console</a></div>
 </div>
 </div>
 </div>

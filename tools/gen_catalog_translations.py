@@ -143,11 +143,44 @@ RECIPES_LABEL = {
 }
 
 
+def _load_lang_pages(lang: str) -> set:
+    """Load the set of pages that exist in the given language."""
+    import json
+    lp_file = REPO / "static" / "lang-pages.json"
+    if not lp_file.exists():
+        return set()
+    with open(lp_file) as f:
+        data = json.load(f)
+    return set(data.get(lang, []))
+
+
 def prefix_links(content: str, lang: str) -> str:
-    """Add language prefix to internal links."""
+    """Add language prefix to internal links that have a translated page."""
     lp = f"/{lang}"
-    content = re.sub(r'href="/content/', f'href="{lp}/content/', content)
-    content = content.replace('](/content/', f']({lp}/content/')
+    translated = _load_lang_pages(lang)
+
+    def _has_translation(url: str) -> bool:
+        # Manifest URLs have the lang prefix and no trailing slash
+        check = f"{lp}{url}"
+        if check.endswith('/'):
+            check = check.rstrip('/')
+        return check in translated
+
+    def _prefix_href(m):
+        url = m.group(1)
+        if _has_translation(url):
+            return f'href="{lp}{url}"'
+        return m.group(0)
+
+    content = re.sub(r'href="(/content/[^"]+)"', _prefix_href, content)
+
+    def _prefix_md(m):
+        url = m.group(1)
+        if _has_translation(url):
+            return f']({lp}{url})'
+        return m.group(0)
+
+    content = re.sub(r'\]\((/content/[^)]+)\)', _prefix_md, content)
     return content
 
 

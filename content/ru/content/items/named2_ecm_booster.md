@@ -33,7 +33,7 @@ description: "Modules / Enhancements, tier T3"
 **Производится из 8 компонентах, уровень исследований 7** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Hodge ECM tuning CT](/ru/content/items/named2-ecm-booster-cprg/)
+**Чертёж:** [Hodge ECM tuning CT](/content/items/named2-ecm-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/chollonin/">Chollonin</a></div><div class="prod-card-body">нужно: <b>150</b></div></div>

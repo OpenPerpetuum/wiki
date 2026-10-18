@@ -34,7 +34,7 @@ description: "Modules / Repair, tier T4"
 **Vyráběn z 9 komponentách, výzkumná úroveň 7** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [CRC40 medium armor repairer CT](/cs/content/items/named3-medium-armor-repairer-cprg/)
+**Výkres:** [CRC40 medium armor repairer CT](/content/items/named3-medium-armor-repairer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/alligior/">Alligior</a></div><div class="prod-card-body">potřebné: <b>400</b></div></div>

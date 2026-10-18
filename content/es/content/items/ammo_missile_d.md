@@ -31,7 +31,7 @@ description: "Ammo / Missiles"
 **Producido desde 2 componentes, nivel de investigación 3** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Medium sonic compact missile CT](/es/content/items/ammo-missile-d-cprg/)
+**Planos:** [Medium sonic compact missile CT](/content/items/ammo-missile-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">requerido: <b>200</b></div></div>

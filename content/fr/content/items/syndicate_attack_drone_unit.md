@@ -44,7 +44,7 @@ description: "Special & other / Miscellaneous"
 **Produit à partir de 7 composants, niveau de recherche 5** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [Syndicate Attack Drone Unit Cprg](/fr/content/items/syndicate-attack-drone-unit-cprg/)
+**Plan :** [Syndicate Attack Drone Unit Cprg](/content/items/syndicate-attack-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">requis : <b>500</b></div></div>

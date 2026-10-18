@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T3"
 **Vyráběn z 6 komponentách, výzkumná úroveň 6** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Avit-Microfloss medium energy transferer CT](/cs/content/items/named2-medium-energy-transfer-cprg/)
+**Výkres:** [Avit-Microfloss medium energy transferer CT](/content/items/named2-medium-energy-transfer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">potřebné: <b>250</b></div></div>

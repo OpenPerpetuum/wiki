@@ -33,7 +33,7 @@ description: "Ammo / Cannon"
 **Производится из 4 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Ammo Hell Cannon T Cprg](/ru/content/items/ammo-hell-cannon-t-cprg/)
+**Чертёж:** [Ammo Hell Cannon T Cprg](/content/items/ammo-hell-cannon-t-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/biotichrin/">Biotichrin</a></div><div class="prod-card-body">нужно: <b>600</b></div></div>

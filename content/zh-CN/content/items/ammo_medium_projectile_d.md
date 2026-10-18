@@ -33,7 +33,7 @@ description: "Ammo / Projectiles"
 **由组件 4个生产 ，研究等级 2** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [Medium chemoactive bullet CT](/zh-CN/content/items/ammo-medium-projectile-d-cprg/)
+**蓝图:** [Medium chemoactive bullet CT](/content/items/ammo-medium-projectile-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">需要: <b>100</b></div></div>

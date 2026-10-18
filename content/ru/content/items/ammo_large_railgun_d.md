@@ -30,7 +30,7 @@ description: "Ammo / Cannon"
 **Производится из 3 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Ammo Large Railgun D Cprg](/ru/content/items/ammo-large-railgun-d-cprg/)
+**Чертёж:** [Ammo Large Railgun D Cprg](/content/items/ammo-large-railgun-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/polynitrocol/">Polynitrocol</a></div><div class="prod-card-body">нужно: <b>300</b></div></div>

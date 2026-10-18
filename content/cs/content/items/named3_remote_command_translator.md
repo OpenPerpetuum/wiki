@@ -42,7 +42,7 @@ description: "Modules / Remote control, tier T4"
 **Vyráběn z 10 komponentách** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [T4 Remote Command Translator Cprg](/cs/content/items/named3-remote-command-translator-cprg/)
+**Výkres:** [T4 Remote Command Translator Cprg](/content/items/named3-remote-command-translator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">potřebné: <b>250</b></div></div>

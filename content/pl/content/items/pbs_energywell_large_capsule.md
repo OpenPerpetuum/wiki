@@ -37,7 +37,7 @@ description: "Special & other / Miscellaneous, tier T3"
 **Produkcja z 7 komponentów** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Hi-tech energy well foundation CT](/pl/content/items/pbs-energywell-large-capsule-cprg/)
+**Nakładka:** [Hi-tech energy well foundation CT](/content/items/pbs-energywell-large-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">wymagane: <b>1.2k</b></div></div>

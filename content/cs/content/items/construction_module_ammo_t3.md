@@ -31,7 +31,7 @@ description: "Special & other / Miscellaneous, tier T3"
 **Vyráběn z 12 komponentách** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Construction Module Ammo T3 Cprg](/cs/content/items/construction-module-ammo-t3-cprg/)
+**Výkres:** [Construction Module Ammo T3 Cprg](/content/items/construction-module-ammo-t3-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/alligior/">Alligior</a></div><div class="prod-card-body">potřebné: <b>50</b></div></div>

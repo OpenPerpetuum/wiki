@@ -37,7 +37,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Produit à partir de 6 composants** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [Standard reactor foundation CT](/fr/content/items/pbs-reactor-small-capsule-cprg/)
+**Plan :** [Standard reactor foundation CT](/content/items/pbs-reactor-small-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/alligior/">Alligior</a></div><div class="prod-card-body">requis : <b>3.5k</b></div></div>

@@ -32,7 +32,7 @@ description: "Modules / Enhancements, tier T3"
 **由組件 14個生產** — 組裝組件來製造它（完整列表見[配方](/zh-TW/content/recipes/)）:
 
 
-**藍圖:** [T3 Adaptive Alloy Cprg](/zh-TW/content/items/named2-adaptive-alloy-cprg/)
+**藍圖:** [T3 Adaptive Alloy Cprg](/content/items/named2-adaptive-alloy-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-TW/content/items/alligior/">Alligior</a></div><div class="prod-card-body">需要: <b>250</b></div></div>

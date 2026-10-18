@@ -34,7 +34,7 @@ description: "Modules / Weapons, tier T3"
 **Geproduceerd uit 8 componentën, onderzoekslevel 6** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Sharpsy weapon stabilizer CT](/nl/content/items/named2-weapon-stabilizer-cprg/)
+**Bouwtekening:** [Sharpsy weapon stabilizer CT](/content/items/named2-weapon-stabilizer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">vereist: <b>175</b></div></div>

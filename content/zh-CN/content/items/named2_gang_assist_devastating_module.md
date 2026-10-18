@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T3"
 **由组件 5个生产 ，研究等级 6** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [T3 Gang Assist Devastating Module Cprg](/zh-CN/content/items/named2-gang-assist-devastating-module-cprg/)
+**蓝图:** [T3 Gang Assist Devastating Module Cprg](/content/items/named2-gang-assist-devastating-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-panel"/></svg><a class="prod-card-name" href="/zh-CN/content/items/named1-gang-assist-devastating-module/">T2 Gang Assist Devastating Module</a></div><div class="prod-card-body">需要: <b>1</b></div></div>

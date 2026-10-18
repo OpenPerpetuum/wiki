@@ -32,7 +32,7 @@ description: "Modules / Enhancements, tier T4"
 **Produkcja z 10 komponentów, poziom badań 6** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [DVT-800g firearm tuning CT](/pl/content/items/named3-damage-mod-projectile-cprg/)
+**Nakładka:** [DVT-800g firearm tuning CT](/content/items/named3-damage-mod-projectile-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>200</b></div></div>

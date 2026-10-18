@@ -36,7 +36,7 @@ description: "Modules / Weapons, tier T4"
 **Hergestellt aus 10 Komponenten, Forschungsebene 5** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Pelistec-TR110 light missile launcher CT](/de/content/items/named3-rocket-launcher-cprg/)
+**Bauplan:** [Pelistec-TR110 light missile launcher CT](/content/items/named3-rocket-launcher-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/hydrobenol/">Hydrobenol</a></div><div class="prod-card-body">benötigt: <b>100</b></div></div>

@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T1"
 **Vyráběn z 3 komponentách, výzkumná úroveň 4** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Standard velocity NEXUS module CT](/cs/content/items/standard-gang-assist-speed-module-cprg/)
+**Výkres:** [Standard velocity NEXUS module CT](/content/items/standard-gang-assist-speed-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">potřebné: <b>300</b></div></div>

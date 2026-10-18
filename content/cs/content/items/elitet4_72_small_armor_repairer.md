@@ -56,7 +56,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/cs/content/shop/) 
 **Vyráběn z 2 komponentách** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Elitet4 72 Small Armor Repairer Cprg](/cs/content/items/elitet4-72-small-armor-repairer-cprg/)
+**Výkres:** [Elitet4 72 Small Armor Repairer Cprg](/content/items/elitet4-72-small-armor-repairer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/material-boss-z72/">Material Boss Z72</a></div><div class="prod-card-body">potřebné: <b>200</b></div></div>

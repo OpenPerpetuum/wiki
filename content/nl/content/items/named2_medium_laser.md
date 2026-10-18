@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T3"
 **Geproduceerd uit 8 componentën, onderzoekslevel 6** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Kauska Heatpin I. medium LCL laser CT](/nl/content/items/named2-medium-laser-cprg/)
+**Bouwtekening:** [Kauska Heatpin I. medium LCL laser CT](/content/items/named2-medium-laser-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/hydrobenol/">Hydrobenol</a></div><div class="prod-card-body">vereist: <b>100</b></div></div>

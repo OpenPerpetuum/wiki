@@ -32,7 +32,7 @@ description: "Ammo / Cannon"
 **由組件 3個生產** — 組裝組件來製造它（完整列表見[配方](/zh-TW/content/recipes/)）:
 
 
-**藍圖:** [Ammo Raven Cannon B Cprg](/zh-TW/content/items/ammo-raven-cannon-b-cprg/)
+**藍圖:** [Ammo Raven Cannon B Cprg](/content/items/ammo-raven-cannon-b-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-TW/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">需要: <b>150</b></div></div>

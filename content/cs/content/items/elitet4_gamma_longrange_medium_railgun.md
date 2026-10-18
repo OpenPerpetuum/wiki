@@ -59,7 +59,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/cs/content/shop/) 
 **Vyráběn z 2 komponentách** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Elitet4 Gamma Longrange Medium Railgun Cprg](/cs/content/items/elitet4-gamma-longrange-medium-railgun-cprg/)
+**Výkres:** [Elitet4 Gamma Longrange Medium Railgun Cprg](/content/items/elitet4-gamma-longrange-medium-railgun-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/material-boss-gamma-nuimqol/">Material Boss Gamma Nuimqol</a></div><div class="prod-card-body">potřebné: <b>400</b></div></div>

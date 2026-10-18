@@ -32,7 +32,7 @@ description: "Ammo / Cannon"
 **Prodotto da 5 componenti** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Ammo Raven Cannon D Cprg](/it/content/items/ammo-raven-cannon-d-cprg/)
+**Piano:** [Ammo Raven Cannon D Cprg](/content/items/ammo-raven-cannon-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/biotichrin/">Biotichrin</a></div><div class="prod-card-body">richiesto: <b>200</b></div></div>

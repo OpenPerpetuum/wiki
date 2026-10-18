@@ -34,7 +34,7 @@ description: "Modules / Armor, tier T2"
 **Prodotto da 4 componenti, livello di ricerca 2** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Wobost-Titangrip light armor plate CT](/it/content/items/named1-small-armor-plate-cprg/)
+**Piano:** [Wobost-Titangrip light armor plate CT](/content/items/named1-small-armor-plate-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/plasteosine/">Plasteosine</a></div><div class="prod-card-body">richiesto: <b>350</b></div></div>

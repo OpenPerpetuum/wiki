@@ -25,7 +25,7 @@ _无统计 — 此物品没有聚合值。_
 **由组件 2个生产** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [Ammo Mining Deep Liquizit Cprg](/zh-CN/content/items/ammo-mining-deep-liquizit-cprg/)
+**蓝图:** [Ammo Mining Deep Liquizit Cprg](/content/items/ammo-mining-deep-liquizit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">需要: <b>225</b></div></div>

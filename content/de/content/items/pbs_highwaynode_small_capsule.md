@@ -37,7 +37,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Hergestellt aus 6 Komponenten** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Standard accelerator strip foundation CT](/de/content/items/pbs-highwaynode-small-capsule-cprg/)
+**Bauplan:** [Standard accelerator strip foundation CT](/content/items/pbs-highwaynode-small-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">benötigt: <b>500</b></div></div>

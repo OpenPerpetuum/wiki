@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T2"
 **Producido desde 3 componentes, nivel de investigación 5** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [T2 Gang Assist Resilience Module Cprg](/es/content/items/named1-gang-assist-resilience-module-cprg/)
+**Planos:** [T2 Gang Assist Resilience Module Cprg](/content/items/named1-gang-assist-resilience-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-crystal"/></svg><a class="prod-card-name" href="/es/content/items/robotshard-pelistal-basic/">Damaged pelistal fragment</a></div><div class="prod-card-body">requerido: <b>15</b></div></div>

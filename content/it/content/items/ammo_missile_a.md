@@ -33,7 +33,7 @@ description: "Ammo / Missiles"
 **Prodotto da 3 componenti, livello di ricerca 3** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Medium armor-piercing compact missile CT](/it/content/items/ammo-missile-a-cprg/)
+**Piano:** [Medium armor-piercing compact missile CT](/content/items/ammo-missile-a-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">richiesto: <b>100</b></div></div>

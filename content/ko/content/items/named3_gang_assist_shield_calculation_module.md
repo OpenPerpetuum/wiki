@@ -36,7 +36,7 @@ description: "Modules / Shield, tier T4"
 **구성 요소 12개로 생산 , 연구 레벨 7** — 구성 요소를 조립하여 제작합니다 (전체 목록은 [레시피](/ko/content/recipes/) 참조):
 
 
-**제작도:** [Bomitar II. shield NEXUS module CT](/ko/content/items/named3-gang-assist-shield-calculation-module-cprg/)
+**제작도:** [Bomitar II. shield NEXUS module CT](/content/items/named3-gang-assist-shield-calculation-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ko/content/items/alligior/">Alligior</a></div><div class="prod-card-body">필요: <b>100</b></div></div>

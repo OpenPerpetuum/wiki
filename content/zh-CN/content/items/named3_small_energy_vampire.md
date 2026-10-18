@@ -38,7 +38,7 @@ description: "Modules / Shield, tier T4"
 **由组件 13个生产 ，研究等级 5** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [Io-trail SVU small energy drainer CT](/zh-CN/content/items/named3-small-energy-vampire-cprg/)
+**蓝图:** [Io-trail SVU small energy drainer CT](/content/items/named3-small-energy-vampire-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">需要: <b>200</b></div></div>

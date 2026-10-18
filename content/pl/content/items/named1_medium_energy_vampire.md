@@ -37,7 +37,7 @@ description: "Modules / Shield, tier T2"
 **Produkcja z 6 komponentów, poziom badań 5** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Portio II. medium energy drainer CT](/pl/content/items/named1-medium-energy-vampire-cprg/)
+**Nakładka:** [Portio II. medium energy drainer CT](/content/items/named1-medium-energy-vampire-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>400</b></div></div>

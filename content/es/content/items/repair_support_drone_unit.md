@@ -33,7 +33,7 @@ description: "Special & other / Miscellaneous"
 **Producido desde 4 componentes, nivel de investigación 5** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Repair Support Drone Unit Cprg](/es/content/items/repair-support-drone-unit-cprg/)
+**Planos:** [Repair Support Drone Unit Cprg](/content/items/repair-support-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">requerido: <b>1.0k</b></div></div>

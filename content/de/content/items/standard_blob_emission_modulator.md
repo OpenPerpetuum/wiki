@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T1"
 **Hergestellt aus 3 Komponenten, Forschungsebene 5** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Standard interference module CT](/de/content/items/standard-blob-emission-modulator-cprg/)
+**Bauplan:** [Standard interference module CT](/content/items/standard-blob-emission-modulator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">benötigt: <b>250</b></div></div>

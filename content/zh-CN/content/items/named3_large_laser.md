@@ -37,7 +37,7 @@ description: "Modules / Weapons, tier T4"
 **由组件 11个生产** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [T4 Large Laser Cprg](/zh-CN/content/items/named3-large-laser-cprg/)
+**蓝图:** [T4 Large Laser Cprg](/content/items/named3-large-laser-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/hydrobenol/">Hydrobenol</a></div><div class="prod-card-body">需要: <b>300</b></div></div>

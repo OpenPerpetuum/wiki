@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T4"
 **Производится из 10 компонентах, уровень исследований 7** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Thermodissector medium LCL laser CT](/ru/content/items/named3-medium-laser-cprg/)
+**Чертёж:** [Thermodissector medium LCL laser CT](/content/items/named3-medium-laser-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/hydrobenol/">Hydrobenol</a></div><div class="prod-card-body">нужно: <b>200</b></div></div>

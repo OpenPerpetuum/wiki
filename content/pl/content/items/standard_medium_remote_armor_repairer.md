@@ -36,7 +36,7 @@ description: "Modules / Repair, tier T1"
 **Produkcja z 3 komponentów, poziom badań 4** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Standard medium remote armor repairer CT](/pl/content/items/standard-medium-remote-armor-repairer-cprg/)
+**Nakładka:** [Standard medium remote armor repairer CT](/content/items/standard-medium-remote-armor-repairer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>100</b></div></div>

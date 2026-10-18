@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T4"
 **Vyráběn z 7 komponentách, výzkumná úroveň 7** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [T4 Gang Assist Devastating Module Cprg](/cs/content/items/named3-gang-assist-devastating-module-cprg/)
+**Výkres:** [T4 Gang Assist Devastating Module Cprg](/content/items/named3-gang-assist-devastating-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-panel"/></svg><a class="prod-card-name" href="/cs/content/items/named2-gang-assist-devastating-module/">T3 Gang Assist Devastating Module</a></div><div class="prod-card-body">potřebné: <b>1</b></div></div>

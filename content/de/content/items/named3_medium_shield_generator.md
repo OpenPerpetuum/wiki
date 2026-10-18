@@ -35,7 +35,7 @@ description: "Modules / Shield, tier T4"
 **Hergestellt aus 9 Komponenten, Forschungsebene 7** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Penik medium shield generator CT](/de/content/items/named3-medium-shield-generator-cprg/)
+**Bauplan:** [Penik medium shield generator CT](/content/items/named3-medium-shield-generator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/alligior/">Alligior</a></div><div class="prod-card-body">benötigt: <b>800</b></div></div>

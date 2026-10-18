@@ -38,7 +38,7 @@ description: "Modules / Sensors & scanning, tier T4"
 **Prodotto da 12 componenti, livello di ricerca 6** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Stellis sensor suppressor CT](/it/content/items/named3-sensor-dampener-cprg/)
+**Piano:** [Stellis sensor suppressor CT](/content/items/named3-sensor-dampener-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/espitium/">Espitium</a></div><div class="prod-card-body">richiesto: <b>200</b></div></div>

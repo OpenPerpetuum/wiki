@@ -30,7 +30,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Produzido a partir de 7 componentes, nível de pesquisa 5** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [Standard Hunter Drone Rcu Pvp Cprg](/pt/content/items/standard-hunter-drone-rcu-pvp-cprg/)
+**Plano:** [Standard Hunter Drone Rcu Pvp Cprg](/content/items/standard-hunter-drone-rcu-pvp-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">necessário: <b>500</b></div></div>

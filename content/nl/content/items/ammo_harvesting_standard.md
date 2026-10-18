@@ -25,7 +25,7 @@ _Geen statistieken — dit item draagt geen geaggregeerde waarden._
 **Geproduceerd uit 2 componentën, onderzoekslevel 1** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Universal harvester charge CT](/nl/content/items/ammo-harvesting-standard-cprg/)
+**Bouwtekening:** [Universal harvester charge CT](/content/items/ammo-harvesting-standard-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">vereist: <b>20</b></div></div>

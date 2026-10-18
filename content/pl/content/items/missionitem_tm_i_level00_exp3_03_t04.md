@@ -25,7 +25,7 @@ _Brak statystyk — ten przedmiot nie niesie żadnych wartości agregowanych._
 **Produkcja z 2 komponentów, poziom badań 1** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Emergency Accumulator [Elephant III] CT](/pl/content/items/missionitem-tm-i-level00-exp3-03-t04-cprg/)
+**Nakładka:** [Emergency Accumulator [Elephant III] CT](/content/items/missionitem-tm-i-level00-exp3-03-t04-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/missionitem-tm-i-level00-exp3-03-t02/">Storage coils [Elephant III]</a></div><div class="prod-card-body">wymagane: <b>1</b></div></div>

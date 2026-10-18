@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T2"
 **Geproduceerd uit 4 componentën, onderzoekslevel 4** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [GTRB medium autocannon CT](/nl/content/items/named1-longrange-medium-autocannon-cprg/)
+**Bouwtekening:** [GTRB medium autocannon CT](/content/items/named1-longrange-medium-autocannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">vereist: <b>100</b></div></div>

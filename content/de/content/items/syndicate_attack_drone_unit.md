@@ -44,7 +44,7 @@ description: "Special & other / Miscellaneous"
 **Hergestellt aus 7 Komponenten, Forschungsebene 5** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Syndicate Attack Drone Unit Cprg](/de/content/items/syndicate-attack-drone-unit-cprg/)
+**Bauplan:** [Syndicate Attack Drone Unit Cprg](/content/items/syndicate-attack-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">benötigt: <b>500</b></div></div>

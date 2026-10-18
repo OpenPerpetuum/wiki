@@ -32,7 +32,7 @@ description: "Ammo / Projectiles"
 **Produkcja z 5 komponentów, poziom badań 2** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Medium composite bullet CT](/pl/content/items/ammo-medium-projectile-c-cprg/)
+**Nakładka:** [Medium composite bullet CT](/content/items/ammo-medium-projectile-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">wymagane: <b>50</b></div></div>

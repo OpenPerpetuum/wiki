@@ -35,7 +35,7 @@ description: "Modules / Armor, tier T1"
 **Prodotto da 5 componenti, livello di ricerca 3** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Standard thermal armor CT](/it/content/items/standard-thrm-armor-hardener-cprg/)
+**Piano:** [Standard thermal armor CT](/content/items/standard-thrm-armor-hardener-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">richiesto: <b>50</b></div></div>

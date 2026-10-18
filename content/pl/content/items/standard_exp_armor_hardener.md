@@ -35,7 +35,7 @@ description: "Modules / Armor, tier T1"
 **Produkcja z 5 komponentów, poziom badań 3** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Standard seismic armor CT](/pl/content/items/standard-exp-armor-hardener-cprg/)
+**Nakładka:** [Standard seismic armor CT](/content/items/standard-exp-armor-hardener-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>50</b></div></div>

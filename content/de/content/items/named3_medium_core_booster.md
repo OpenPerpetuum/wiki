@@ -33,7 +33,7 @@ description: "Modules / Enhancements, tier T4"
 **Hergestellt aus 8 Komponenten, Forschungsebene 7** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Cerepter II. medium energy injector CT](/de/content/items/named3-medium-core-booster-cprg/)
+**Bauplan:** [Cerepter II. medium energy injector CT](/content/items/named3-medium-core-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">benötigt: <b>200</b></div></div>

@@ -40,7 +40,7 @@ description: "Special & other / Miscellaneous, tier T4"
 **Producido desde 6 componentes, nivel de investigación 6** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [T4 Pelistal Combat Drone Unit Cprg](/es/content/items/named3-pelistal-combat-drone-unit-cprg/)
+**Planos:** [T4 Pelistal Combat Drone Unit Cprg](/content/items/named3-pelistal-combat-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/espitium/">Espitium</a></div><div class="prod-card-body">requerido: <b>200</b></div></div>

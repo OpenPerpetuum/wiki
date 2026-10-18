@@ -26,7 +26,7 @@ _Nessuna statistica — questo oggetto non porta valori aggregati._
 **Prodotto da 7 componenti** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Energy storage cell CT](/it/content/items/reactor-booster-a-cprg/)
+**Piano:** [Energy storage cell CT](/content/items/reactor-booster-a-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">richiesto: <b>500</b></div></div>

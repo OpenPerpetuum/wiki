@@ -34,7 +34,7 @@ description: "Modules / Sensors & scanning, tier T3"
 **Producido desde 8 componentes, nivel de investigación 7** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Radiocor sensor suppressor tuning CT](/es/content/items/named2-sensor-supressor-booster-cprg/)
+**Planos:** [Radiocor sensor suppressor tuning CT](/content/items/named2-sensor-supressor-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/espitium/">Espitium</a></div><div class="prod-card-body">requerido: <b>150</b></div></div>

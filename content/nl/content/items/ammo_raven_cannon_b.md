@@ -32,7 +32,7 @@ description: "Ammo / Cannon"
 **Geproduceerd uit 3 componentën** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Ammo Raven Cannon B Cprg](/nl/content/items/ammo-raven-cannon-b-cprg/)
+**Bouwtekening:** [Ammo Raven Cannon B Cprg](/content/items/ammo-raven-cannon-b-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">vereist: <b>150</b></div></div>

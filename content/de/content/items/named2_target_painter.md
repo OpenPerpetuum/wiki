@@ -35,7 +35,7 @@ description: "Modules / Enhancements, tier T3"
 **Hergestellt aus 8 Komponenten, Forschungsebene 6** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Colqual target marker CT](/de/content/items/named2-target-painter-cprg/)
+**Bauplan:** [Colqual target marker CT](/content/items/named2-target-painter-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">benötigt: <b>225</b></div></div>

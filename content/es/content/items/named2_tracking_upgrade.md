@@ -32,7 +32,7 @@ description: "Modules / Enhancements, tier T3"
 **Producido desde 8 componentes, nivel de investigación 5** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Unotron 60s-'Crack shot' range extender CT](/es/content/items/named2-tracking-upgrade-cprg/)
+**Planos:** [Unotron 60s-'Crack shot' range extender CT](/content/items/named2-tracking-upgrade-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">requerido: <b>150</b></div></div>

@@ -56,7 +56,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/pt/content/shop/) 
 **Produzido a partir de 2 componentes** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [Elitet2 72 Small Armor Repairer Cprg](/pt/content/items/elitet2-72-small-armor-repairer-cprg/)
+**Plano:** [Elitet2 72 Small Armor Repairer Cprg](/content/items/elitet2-72-small-armor-repairer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/material-boss-z72/">Material Boss Z72</a></div><div class="prod-card-body">necessário: <b>150</b></div></div>

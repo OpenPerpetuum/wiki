@@ -35,7 +35,7 @@ description: "Modules / Shield, tier T3"
 **Производится из 9 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [T3 Large Shield Generator Cprg](/ru/content/items/named2-large-shield-generator-cprg/)
+**Чертёж:** [T3 Large Shield Generator Cprg](/content/items/named2-large-shield-generator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/alligior/">Alligior</a></div><div class="prod-card-body">нужно: <b>600</b></div></div>

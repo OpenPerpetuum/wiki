@@ -48,7 +48,7 @@ description: "Special & other / Miscellaneous, tier T2"
 **Produit à partir de 10 composants** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [Advanced EW turret foundation CT](/fr/content/items/pbs-turret-ew-medium-capsule-cprg/)
+**Plan :** [Advanced EW turret foundation CT](/content/items/pbs-turret-ew-medium-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">requis : <b>250</b></div></div>

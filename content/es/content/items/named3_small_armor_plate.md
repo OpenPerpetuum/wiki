@@ -34,7 +34,7 @@ description: "Modules / Armor, tier T4"
 **Producido desde 8 componentes, nivel de investigación 4** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Karapas light armor plate CT](/es/content/items/named3-small-armor-plate-cprg/)
+**Planos:** [Karapas light armor plate CT](/content/items/named3-small-armor-plate-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/alligior/">Alligior</a></div><div class="prod-card-body">requerido: <b>350</b></div></div>

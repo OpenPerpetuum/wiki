@@ -33,7 +33,7 @@ description: "Ammo / Missiles"
 **Hergestellt aus 4 Komponenten** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Ammo Cruisemissile C Cprg](/de/content/items/ammo-cruisemissile-c-cprg/)
+**Bauplan:** [Ammo Cruisemissile C Cprg](/content/items/ammo-cruisemissile-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">benötigt: <b>150</b></div></div>

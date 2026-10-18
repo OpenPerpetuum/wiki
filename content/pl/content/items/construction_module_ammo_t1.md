@@ -31,7 +31,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Produkcja z 8 komponentów** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Construction Module Ammo T1 Cprg](/pl/content/items/construction-module-ammo-t1-cprg/)
+**Nakładka:** [Construction Module Ammo T1 Cprg](/content/items/construction-module-ammo-t1-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">wymagane: <b>25</b></div></div>

@@ -25,7 +25,7 @@ _Geen statistieken — dit item draagt geen geaggregeerde waarden._
 **Geproduceerd uit 4 componentën** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Ammo Mining Fluxore Cprg](/nl/content/items/ammo-mining-fluxore-cprg/)
+**Bouwtekening:** [Ammo Mining Fluxore Cprg](/content/items/ammo-mining-fluxore-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/isopropentol/">Isopropentol</a></div><div class="prod-card-body">vereist: <b>10</b></div></div>

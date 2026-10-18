@@ -33,7 +33,7 @@ description: "Modules / Harvesting, tier T1"
 **Produkcja z 2 komponentów, poziom badań 5** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Standard Large Harvester Cprg](/pl/content/items/standard-large-harvester-cprg/)
+**Nakładka:** [Standard Large Harvester Cprg](/content/items/standard-large-harvester-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>1.6k</b></div></div>

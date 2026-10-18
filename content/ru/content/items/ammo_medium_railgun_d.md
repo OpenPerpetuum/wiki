@@ -30,7 +30,7 @@ description: "Ammo / Cannon"
 **Производится из 2 компонентах, уровень исследований 3** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Medium compositecore slug CT](/ru/content/items/ammo-medium-railgun-d-cprg/)
+**Чертёж:** [Medium compositecore slug CT](/content/items/ammo-medium-railgun-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/polynitrocol/">Polynitrocol</a></div><div class="prod-card-body">нужно: <b>200</b></div></div>

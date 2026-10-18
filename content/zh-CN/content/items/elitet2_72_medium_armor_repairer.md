@@ -56,7 +56,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/zh-CN/content/shop
 **由组件 2个生产** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [Elitet2 72 Medium Armor Repairer Cprg](/zh-CN/content/items/elitet2-72-medium-armor-repairer-cprg/)
+**蓝图:** [Elitet2 72 Medium Armor Repairer Cprg](/content/items/elitet2-72-medium-armor-repairer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/material-boss-z72/">Material Boss Z72</a></div><div class="prod-card-body">需要: <b>300</b></div></div>

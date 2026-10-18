@@ -31,7 +31,7 @@ description: "Ammo / Beam & laser"
 **Prodotto da 4 componenti** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Ammo Large Lasercrystal C Cprg](/it/content/items/ammo-large-lasercrystal-c-cprg/)
+**Piano:** [Ammo Large Lasercrystal C Cprg](/content/items/ammo-large-lasercrystal-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/polynitrocol/">Polynitrocol</a></div><div class="prod-card-body">richiesto: <b>75</b></div></div>

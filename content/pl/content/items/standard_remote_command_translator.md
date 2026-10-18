@@ -41,7 +41,7 @@ description: "Modules / Remote control, tier T1"
 **Produkcja z 5 komponentów, poziom badań 5** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Standard Remote Command Translator Cprg](/pl/content/items/standard-remote-command-translator-cprg/)
+**Nakładka:** [Standard Remote Command Translator Cprg](/content/items/standard-remote-command-translator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>250</b></div></div>

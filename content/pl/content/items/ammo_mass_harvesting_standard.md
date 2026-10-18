@@ -25,7 +25,7 @@ _Brak statystyk — ten przedmiot nie niesie żadnych wartości agregowanych._
 **Produkcja z 2 komponentów** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Ammo Mass Harvesting Standard Cprg](/pl/content/items/ammo-mass-harvesting-standard-cprg/)
+**Nakładka:** [Ammo Mass Harvesting Standard Cprg](/content/items/ammo-mass-harvesting-standard-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">wymagane: <b>225</b></div></div>

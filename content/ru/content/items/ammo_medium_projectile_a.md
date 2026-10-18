@@ -32,7 +32,7 @@ description: "Ammo / Projectiles"
 **Производится из 4 компонентах, уровень исследований 2** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Medium armor-piercing bullet CT](/ru/content/items/ammo-medium-projectile-a-cprg/)
+**Чертёж:** [Medium armor-piercing bullet CT](/content/items/ammo-medium-projectile-a-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">нужно: <b>100</b></div></div>

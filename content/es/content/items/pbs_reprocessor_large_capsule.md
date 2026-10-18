@@ -36,7 +36,7 @@ description: "Special & other / Miscellaneous, tier T3"
 **Producido desde 9 componentes** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Hi-tech recycling plant foundation CT](/es/content/items/pbs-reprocessor-large-capsule-cprg/)
+**Planos:** [Hi-tech recycling plant foundation CT](/content/items/pbs-reprocessor-large-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/alligior/">Alligior</a></div><div class="prod-card-body">requerido: <b>2.5k</b></div></div>

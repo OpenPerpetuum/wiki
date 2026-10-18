@@ -59,7 +59,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/pl/content/shop/) 
 **Produkcja z 2 komponentów** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Elitet4 Gamma Medium Autocannon Cprg](/pl/content/items/elitet4-gamma-medium-autocannon-cprg/)
+**Nakładka:** [Elitet4 Gamma Medium Autocannon Cprg](/content/items/elitet4-gamma-medium-autocannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/material-boss-gamma-syndicate/">Material Boss Gamma Syndicate</a></div><div class="prod-card-body">wymagane: <b>400</b></div></div>

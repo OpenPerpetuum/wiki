@@ -36,7 +36,7 @@ description: "Modules / Shield, tier T3"
 **Produkcja z 8 komponentów, poziom badań 4** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Ovostec-Yellowray small shield generator CT](/pl/content/items/named2-small-shield-generator-cprg/)
+**Nakładka:** [Ovostec-Yellowray small shield generator CT](/content/items/named2-small-shield-generator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">wymagane: <b>200</b></div></div>

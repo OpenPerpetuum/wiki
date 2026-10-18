@@ -40,7 +40,7 @@ description: "Special & other / Miscellaneous, tier T4"
 **Produzido a partir de 6 componentes, nível de pesquisa 6** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [T4 Thelodica Combat Drone Unit Cprg](/pt/content/items/named3-thelodica-combat-drone-unit-cprg/)
+**Plano:** [T4 Thelodica Combat Drone Unit Cprg](/content/items/named3-thelodica-combat-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/espitium/">Espitium</a></div><div class="prod-card-body">necessário: <b>200</b></div></div>

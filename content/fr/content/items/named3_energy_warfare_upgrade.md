@@ -34,7 +34,7 @@ description: "Modules / Enhancements, tier T4"
 **Produit à partir de 12 composants, niveau de recherche 8** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [XT-Shock EnWar upgrade CT](/fr/content/items/named3-energy-warfare-upgrade-cprg/)
+**Plan :** [XT-Shock EnWar upgrade CT](/content/items/named3-energy-warfare-upgrade-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/espitium/">Espitium</a></div><div class="prod-card-body">requis : <b>150</b></div></div>

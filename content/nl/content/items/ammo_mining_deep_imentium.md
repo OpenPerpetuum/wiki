@@ -25,7 +25,7 @@ _Geen statistieken — dit item draagt geen geaggregeerde waarden._
 **Geproduceerd uit 2 componentën** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Ammo Mining Deep Imentium Cprg](/nl/content/items/ammo-mining-deep-imentium-cprg/)
+**Bouwtekening:** [Ammo Mining Deep Imentium Cprg](/content/items/ammo-mining-deep-imentium-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/polynitrocol/">Polynitrocol</a></div><div class="prod-card-body">vereist: <b>180</b></div></div>

@@ -30,7 +30,7 @@ description: "Ammo / Beam & laser"
 **Производится из 2 компонентах, уровень исследований 1** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Small thermic energy cell CT](/ru/content/items/ammo-small-lasercrystal-d-cprg/)
+**Чертёж:** [Small thermic energy cell CT](/content/items/ammo-small-lasercrystal-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/polynucleit/">Polynucleit</a></div><div class="prod-card-body">нужно: <b>100</b></div></div>

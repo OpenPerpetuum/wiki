@@ -57,7 +57,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/pt/content/shop/) 
 **Produzido a partir de 2 componentes** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [Elitet4 70 Tracking Upgrade Cprg](/pt/content/items/elitet4-70-tracking-upgrade-cprg/)
+**Plano:** [Elitet4 70 Tracking Upgrade Cprg](/content/items/elitet4-70-tracking-upgrade-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/material-boss-z70/">Material Boss Z70</a></div><div class="prod-card-body">necessário: <b>400</b></div></div>

@@ -33,7 +33,7 @@ description: "Modules / Enhancements, tier T3"
 **Производится из 6 компонентах, уровень исследований 4** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Joffret-Refiller small energy injector CT](/ru/content/items/named2-small-core-booster-cprg/)
+**Чертёж:** [Joffret-Refiller small energy injector CT](/content/items/named2-small-core-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">нужно: <b>50</b></div></div>

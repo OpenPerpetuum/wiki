@@ -40,7 +40,7 @@ description: "Special & other / Miscellaneous"
 **Producido desde 4 componentes, nivel de investigación 5** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Nuimqol Attack Drone Unit Cprg](/es/content/items/nuimqol-attack-drone-unit-cprg/)
+**Planos:** [Nuimqol Attack Drone Unit Cprg](/content/items/nuimqol-attack-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/espitium/">Espitium</a></div><div class="prod-card-body">requerido: <b>100</b></div></div>

@@ -34,7 +34,7 @@ description: "Modules / Enhancements, tier T2"
 **Produit à partir de 4 composants, niveau de recherche 4** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [MMA v12-'Alkhemir' medium miner module CT](/fr/content/items/named1-medium-driller-cprg/)
+**Plan :** [MMA v12-'Alkhemir' medium miner module CT](/content/items/named1-medium-driller-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">requis : <b>100</b></div></div>

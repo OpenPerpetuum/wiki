@@ -32,7 +32,7 @@ description: "Modules / Enhancements, tier T2"
 **Produkcja z 5 komponentów, poziom badań 4** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Opaletrak range extender CT](/pl/content/items/named1-tracking-upgrade-cprg/)
+**Nakładka:** [Opaletrak range extender CT](/content/items/named1-tracking-upgrade-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>300</b></div></div>

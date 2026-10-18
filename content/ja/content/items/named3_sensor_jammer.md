@@ -36,7 +36,7 @@ description: "Modules / Sensors & scanning, tier T4"
 **コンポーネント12個から製造 、研究レベル 6** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Tenion ECM CT](/ja/content/items/named3-sensor-jammer-cprg/)
+**設計図:** [Tenion ECM CT](/content/items/named3-sensor-jammer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/chollonin/">Chollonin</a></div><div class="prod-card-body">必要: <b>200</b></div></div>

@@ -38,7 +38,7 @@ description: "Modules / Shield, tier T1"
 **Производится из 3 компонентах, уровень исследований 2** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Standard small energy drainer CT](/ru/content/items/standard-small-energy-vampire-cprg/)
+**Чертёж:** [Standard small energy drainer CT](/content/items/standard-small-energy-vampire-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">нужно: <b>200</b></div></div>

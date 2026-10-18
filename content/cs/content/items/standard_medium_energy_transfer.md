@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T1"
 **Vyráběn z 2 komponentách, výzkumná úroveň 4** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Standard medium energy transferer CT](/cs/content/items/standard-medium-energy-transfer-cprg/)
+**Výkres:** [Standard medium energy transferer CT](/content/items/standard-medium-energy-transfer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">potřebné: <b>500</b></div></div>

@@ -39,7 +39,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Производится из 2 компонентах, уровень исследований 3** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Standart Nuimqol Combat Drone Unit Cprg](/ru/content/items/standart-nuimqol-combat-drone-unit-cprg/)
+**Чертёж:** [Standart Nuimqol Combat Drone Unit Cprg](/content/items/standart-nuimqol-combat-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/polynitrocol/">Polynitrocol</a></div><div class="prod-card-body">нужно: <b>2.0k</b></div></div>

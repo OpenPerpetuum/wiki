@@ -40,7 +40,7 @@ description: "Special & other / Miscellaneous, tier T2"
 **由組件 2個生產 ，研究等級 4** — 組裝組件來製造它（完整列表見[配方](/zh-TW/content/recipes/)）:
 
 
-**藍圖:** [T2 Pelistal Combat Drone Unit Cprg](/zh-TW/content/items/named1-pelistal-combat-drone-unit-cprg/)
+**藍圖:** [T2 Pelistal Combat Drone Unit Cprg](/content/items/named1-pelistal-combat-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-TW/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">需要: <b>3.0k</b></div></div>

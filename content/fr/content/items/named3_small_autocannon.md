@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T4"
 **Produit à partir de 5 composants, niveau de recherche 4** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [Astoc M45 light autocannon CT](/fr/content/items/named3-small-autocannon-cprg/)
+**Plan :** [Astoc M45 light autocannon CT](/content/items/named3-small-autocannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">requis : <b>100</b></div></div>

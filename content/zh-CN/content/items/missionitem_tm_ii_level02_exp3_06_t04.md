@@ -25,7 +25,7 @@ _无统计 — 此物品没有聚合值。_
 **由组件 3个生产 ，研究等级 1** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [OET cooling device [Techolique VI] CT](/zh-CN/content/items/missionitem-tm-ii-level02-exp3-06-t04-cprg/)
+**蓝图:** [OET cooling device [Techolique VI] CT](/content/items/missionitem-tm-ii-level02-exp3-06-t04-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/missionitem-tm-ii-level02-exp3-06-t01/">Cooling device casket [Techolique VI/1]</a></div><div class="prod-card-body">需要: <b>1</b></div></div>

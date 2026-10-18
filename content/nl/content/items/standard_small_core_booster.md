@@ -33,7 +33,7 @@ description: "Modules / Enhancements, tier T1"
 **Geproduceerd uit 2 componentën, onderzoekslevel 2** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Standard small energy injector CT](/nl/content/items/standard-small-core-booster-cprg/)
+**Bouwtekening:** [Standard small energy injector CT](/content/items/standard-small-core-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">vereist: <b>100</b></div></div>

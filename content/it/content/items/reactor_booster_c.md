@@ -26,7 +26,7 @@ _Nessuna statistica — questo oggetto non porta valori aggregati._
 **Prodotto da 9 componenti** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Reactor Booster C Cprg](/it/content/items/reactor-booster-c-cprg/)
+**Piano:** [Reactor Booster C Cprg](/content/items/reactor-booster-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">richiesto: <b>1.1k</b></div></div>

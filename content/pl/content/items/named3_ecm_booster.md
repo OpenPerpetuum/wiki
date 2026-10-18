@@ -33,7 +33,7 @@ description: "Modules / Enhancements, tier T4"
 **Produkcja z 10 komponentów, poziom badań 8** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Sludge ECM tuning CT](/pl/content/items/named3-ecm-booster-cprg/)
+**Nakładka:** [Sludge ECM tuning CT](/content/items/named3-ecm-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/chollonin/">Chollonin</a></div><div class="prod-card-body">wymagane: <b>300</b></div></div>

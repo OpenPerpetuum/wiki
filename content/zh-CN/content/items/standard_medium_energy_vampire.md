@@ -37,7 +37,7 @@ description: "Modules / Shield, tier T1"
 **由组件 3个生产 ，研究等级 4** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [Standard medium energy drainer CT](/zh-CN/content/items/standard-medium-energy-vampire-cprg/)
+**蓝图:** [Standard medium energy drainer CT](/content/items/standard-medium-energy-vampire-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">需要: <b>400</b></div></div>

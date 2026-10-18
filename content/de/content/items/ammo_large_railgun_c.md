@@ -31,7 +31,7 @@ description: "Ammo / Cannon"
 **Hergestellt aus 4 Komponenten** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Ammo Large Railgun C Cprg](/de/content/items/ammo-large-railgun-c-cprg/)
+**Bauplan:** [Ammo Large Railgun C Cprg](/content/items/ammo-large-railgun-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">benötigt: <b>75</b></div></div>

@@ -59,7 +59,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/es/content/shop/) 
 **Producido desde 2 componentes** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Elitet4 Gamma Small Laser Cprg](/es/content/items/elitet4-gamma-small-laser-cprg/)
+**Planos:** [Elitet4 Gamma Small Laser Cprg](/content/items/elitet4-gamma-small-laser-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/material-boss-gamma-thelodica/">Material Boss Gamma Thelodica</a></div><div class="prod-card-body">requerido: <b>200</b></div></div>

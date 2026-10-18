@@ -36,7 +36,7 @@ description: "Special & other / Miscellaneous, tier T2"
 **Produkcja z 13 komponentów** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Advanced reverse engineering foundation CT](/pl/content/items/pbs-research-lab-medium-capsule-cprg/)
+**Nakładka:** [Advanced reverse engineering foundation CT](/content/items/pbs-research-lab-medium-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">wymagane: <b>2.5k</b></div></div>

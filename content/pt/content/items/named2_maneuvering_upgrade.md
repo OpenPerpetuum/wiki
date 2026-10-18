@@ -33,7 +33,7 @@ description: "Modules / Enhancements, tier T3"
 **Produzido a partir de 8 componentes, nível de pesquisa 7** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [Deflectik evasive module CT](/pt/content/items/named2-maneuvering-upgrade-cprg/)
+**Plano:** [Deflectik evasive module CT](/content/items/named2-maneuvering-upgrade-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/alligior/">Alligior</a></div><div class="prod-card-body">necessário: <b>75</b></div></div>

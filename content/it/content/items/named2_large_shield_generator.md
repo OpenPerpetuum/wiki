@@ -35,7 +35,7 @@ description: "Modules / Shield, tier T3"
 **Prodotto da 9 componenti** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [T3 Large Shield Generator Cprg](/it/content/items/named2-large-shield-generator-cprg/)
+**Piano:** [T3 Large Shield Generator Cprg](/content/items/named2-large-shield-generator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/alligior/">Alligior</a></div><div class="prod-card-body">richiesto: <b>600</b></div></div>

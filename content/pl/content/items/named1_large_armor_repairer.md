@@ -34,7 +34,7 @@ description: "Modules / Repair, tier T2"
 **Produkcja z 8 komponentów** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [T2 Large Armor Repairer Cprg](/pl/content/items/named1-large-armor-repairer-cprg/)
+**Nakładka:** [T2 Large Armor Repairer Cprg](/content/items/named1-large-armor-repairer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>75</b></div></div>

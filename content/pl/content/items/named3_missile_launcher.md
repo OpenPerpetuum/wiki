@@ -36,7 +36,7 @@ description: "Modules / Weapons, tier T4"
 **Produkcja z 10 komponentów, poziom badań 7** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Pelistec-TR250 medium missile launcher CT](/pl/content/items/named3-missile-launcher-cprg/)
+**Nakładka:** [Pelistec-TR250 medium missile launcher CT](/content/items/named3-missile-launcher-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/hydrobenol/">Hydrobenol</a></div><div class="prod-card-body">wymagane: <b>200</b></div></div>

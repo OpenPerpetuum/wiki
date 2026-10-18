@@ -34,7 +34,7 @@ description: "Modules / Enhancements, tier T3"
 **Geproduceerd uit 6 componentën, onderzoekslevel 3** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Sublimator Low-D small miner module CT](/nl/content/items/named2-small-driller-cprg/)
+**Bouwtekening:** [Sublimator Low-D small miner module CT](/content/items/named2-small-driller-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">vereist: <b>25</b></div></div>

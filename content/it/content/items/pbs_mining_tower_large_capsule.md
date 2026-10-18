@@ -36,7 +36,7 @@ description: "Special & other / Miscellaneous, tier T3"
 **Prodotto da 7 componenti** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Hi-tech mining outpost foundation CT](/it/content/items/pbs-mining-tower-large-capsule-cprg/)
+**Piano:** [Hi-tech mining outpost foundation CT](/content/items/pbs-mining-tower-large-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/alligior/">Alligior</a></div><div class="prod-card-body">richiesto: <b>2.5k</b></div></div>

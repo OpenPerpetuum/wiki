@@ -25,7 +25,7 @@ _Geen statistieken — dit item draagt geen geaggregeerde waarden._
 **Geproduceerd uit 2 componentën, onderzoekslevel 1** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Compressor [Asintec Industry V] CT](/nl/content/items/missionitem-asi-i-tutorial-exp3-05-t04-cprg/)
+**Bouwtekening:** [Compressor [Asintec Industry V] CT](/content/items/missionitem-asi-i-tutorial-exp3-05-t04-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/missionitem-asi-i-tutorial-exp3-05-t02/">Compressor valve [Asintec Industry V]</a></div><div class="prod-card-body">vereist: <b>1</b></div></div>

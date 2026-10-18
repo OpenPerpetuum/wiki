@@ -40,7 +40,7 @@ description: "Special & other / Miscellaneous, tier T4"
 **コンポーネント6個から製造 、研究レベル 6** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [T4 Nuimqol Combat Drone Unit Cprg](/ja/content/items/named3-nuimqol-combat-drone-unit-cprg/)
+**設計図:** [T4 Nuimqol Combat Drone Unit Cprg](/content/items/named3-nuimqol-combat-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/espitium/">Espitium</a></div><div class="prod-card-body">必要: <b>200</b></div></div>

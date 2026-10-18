@@ -40,7 +40,7 @@ description: "Special & other / Miscellaneous"
 **구성 요소 4개로 생산 , 연구 레벨 5** — 구성 요소를 조립하여 제작합니다 (전체 목록은 [레시피](/ko/content/recipes/) 참조):
 
 
-**제작도:** [Thelodica Attack Drone Unit Cprg](/ko/content/items/thelodica-attack-drone-unit-cprg/)
+**제작도:** [Thelodica Attack Drone Unit Cprg](/content/items/thelodica-attack-drone-unit-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ko/content/items/espitium/">Espitium</a></div><div class="prod-card-body">필요: <b>100</b></div></div>

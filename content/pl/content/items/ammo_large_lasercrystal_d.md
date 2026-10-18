@@ -30,7 +30,7 @@ description: "Ammo / Beam & laser"
 **Produkcja z 3 komponentów** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Ammo Large Lasercrystal D Cprg](/pl/content/items/ammo-large-lasercrystal-d-cprg/)
+**Nakładka:** [Ammo Large Lasercrystal D Cprg](/content/items/ammo-large-lasercrystal-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/polynucleit/">Polynucleit</a></div><div class="prod-card-body">wymagane: <b>300</b></div></div>

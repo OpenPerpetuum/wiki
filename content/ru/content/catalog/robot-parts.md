@@ -19,7 +19,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/arbalest-chassis-cprg/">Arbalest chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/arbalest-chassis-cprg/">Arbalest chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -27,7 +27,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/argano-chassis-cprg/">Argano chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/argano-chassis-cprg/">Argano chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -35,7 +35,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/artemis-chassis-cprg/">Artemis chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/artemis-chassis-cprg/">Artemis chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -43,7 +43,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/baphomet-chassis-cprg/">Baphomet chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/baphomet-chassis-cprg/">Baphomet chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -51,7 +51,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/cameleon-chassis-cprg/">Cameleon chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/cameleon-chassis-cprg/">Cameleon chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -59,7 +59,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/castel-chassis-cprg/">Castel chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/castel-chassis-cprg/">Castel chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -67,7 +67,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/gargoyle-chassis-cprg/">Gargoyle chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gargoyle-chassis-cprg/">Gargoyle chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -75,7 +75,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/gropho-chassis-cprg/">Gropho chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gropho-chassis-cprg/">Gropho chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -83,7 +83,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/ictus-chassis-cprg/">Ictus chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ictus-chassis-cprg/">Ictus chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -91,7 +91,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/intakt-chassis-cprg/">Intakt chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/intakt-chassis-cprg/">Intakt chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -99,7 +99,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/kain-chassis-cprg/">Kain chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kain-chassis-cprg/">Kain chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -107,7 +107,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/laird-chassis-cprg/">Laird chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/laird-chassis-cprg/">Laird chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -115,7 +115,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/mesmer-chassis-cprg/">Mesmer chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mesmer-chassis-cprg/">Mesmer chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -123,7 +123,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/npcpbs-invis-chassis/">Npcpbs Invis Chassis</a></div>
+<div><div class="mission-card-title"><a href="/content/items/npcpbs-invis-chassis/">Npcpbs Invis Chassis</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -131,7 +131,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/npcpbs-turret-chassis/">Npcpbs Turret Chassis</a></div>
+<div><div class="mission-card-title"><a href="/content/items/npcpbs-turret-chassis/">Npcpbs Turret Chassis</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -139,7 +139,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/prometheus-chassis-cprg/">Prometheus chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/prometheus-chassis-cprg/">Prometheus chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -147,7 +147,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/riveler-chassis-cprg/">Riveler chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/riveler-chassis-cprg/">Riveler chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -155,7 +155,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/sequer-chassis-cprg/">Sequer chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sequer-chassis-cprg/">Sequer chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -163,7 +163,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/seth-chassis-cprg/">Seth chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/seth-chassis-cprg/">Seth chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -171,7 +171,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/symbiont-chassis-cprg/">Symbiont chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/symbiont-chassis-cprg/">Symbiont chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -179,7 +179,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/termis-chassis-cprg/">Termis chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/termis-chassis-cprg/">Termis chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -187,7 +187,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/troiar-chassis-cprg/">Troiar chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/troiar-chassis-cprg/">Troiar chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -195,7 +195,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/tyrannos-chassis-cprg/">Tyrannos chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tyrannos-chassis-cprg/">Tyrannos chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -203,7 +203,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/vagabond-chassis-cprg/">Vagabond chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/vagabond-chassis-cprg/">Vagabond chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -211,7 +211,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/waspish-chassis-cprg/">Waspish chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/waspish-chassis-cprg/">Waspish chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -219,7 +219,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/yagel-chassis-cprg/">Yagel chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/yagel-chassis-cprg/">Yagel chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -227,7 +227,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/zenith-chassis-cprg/">Zenith chassis CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zenith-chassis-cprg/">Zenith chassis CT</a></div>
 <div class="mission-card-sub">Robot parts / Chassis</div>
 </div>
 </div>
@@ -240,7 +240,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/arbalest-head-cprg/">Arbalest head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/arbalest-head-cprg/">Arbalest head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -248,7 +248,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/argano-head-cprg/">Argano head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/argano-head-cprg/">Argano head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -256,7 +256,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/artemis-head-cprg/">Artemis head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/artemis-head-cprg/">Artemis head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -264,7 +264,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/baphomet-head-cprg/">Baphomet head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/baphomet-head-cprg/">Baphomet head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -272,7 +272,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/cameleon-head-cprg/">Cameleon head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/cameleon-head-cprg/">Cameleon head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -280,7 +280,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/castel-head-cprg/">Castel head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/castel-head-cprg/">Castel head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -288,7 +288,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/gargoyle-head-cprg/">Gargoyle head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gargoyle-head-cprg/">Gargoyle head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -296,7 +296,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/gropho-head-cprg/">Gropho head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gropho-head-cprg/">Gropho head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -304,7 +304,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/ictus-head-cprg/">Ictus head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ictus-head-cprg/">Ictus head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -312,7 +312,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/intakt-head-cprg/">Intakt head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/intakt-head-cprg/">Intakt head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -320,7 +320,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/kain-head-cprg/">Kain head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kain-head-cprg/">Kain head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -328,7 +328,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/laird-head-cprg/">Laird head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/laird-head-cprg/">Laird head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -336,7 +336,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/mesmer-head-cprg/">Mesmer head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mesmer-head-cprg/">Mesmer head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -344,7 +344,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/npcpbs-invis-head/">Npcpbs Invis Head</a></div>
+<div><div class="mission-card-title"><a href="/content/items/npcpbs-invis-head/">Npcpbs Invis Head</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -352,7 +352,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/npcpbs-turret-head/">Npcpbs Turret Head</a></div>
+<div><div class="mission-card-title"><a href="/content/items/npcpbs-turret-head/">Npcpbs Turret Head</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -360,7 +360,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/prometheus-head-cprg/">Prometheus head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/prometheus-head-cprg/">Prometheus head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -368,7 +368,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/riveler-head-cprg/">Riveler head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/riveler-head-cprg/">Riveler head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -376,7 +376,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/sequer-head-cprg/">Sequer head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sequer-head-cprg/">Sequer head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -384,7 +384,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/seth-head-cprg/">Seth head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/seth-head-cprg/">Seth head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -392,7 +392,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/symbiont-head-cprg/">Symbiont head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/symbiont-head-cprg/">Symbiont head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -400,7 +400,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/termis-head-cprg/">Termis head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/termis-head-cprg/">Termis head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -408,7 +408,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/troiar-head-cprg/">Troiar head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/troiar-head-cprg/">Troiar head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -416,7 +416,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/tyrannos-head-cprg/">Tyrannos head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tyrannos-head-cprg/">Tyrannos head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -424,7 +424,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/vagabond-head-cprg/">Vagabond head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/vagabond-head-cprg/">Vagabond head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -432,7 +432,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/waspish-head-cprg/">Waspish head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/waspish-head-cprg/">Waspish head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -440,7 +440,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/yagel-head-cprg/">Yagel head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/yagel-head-cprg/">Yagel head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -448,7 +448,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/zenith-head-cprg/">Zenith head CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zenith-head-cprg/">Zenith head CT</a></div>
 <div class="mission-card-sub">Robot parts / Heads</div>
 </div>
 </div>
@@ -461,7 +461,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/arbalest-leg-cprg/">Arbalest legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/arbalest-leg-cprg/">Arbalest legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -469,7 +469,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/argano-leg-cprg/">Argano legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/argano-leg-cprg/">Argano legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -477,7 +477,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/artemis-leg-cprg/">Artemis legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/artemis-leg-cprg/">Artemis legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -485,7 +485,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/baphomet-leg-cprg/">Baphomet legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/baphomet-leg-cprg/">Baphomet legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -493,7 +493,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/cameleon-leg-cprg/">Cameleon legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/cameleon-leg-cprg/">Cameleon legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -501,7 +501,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/castel-leg-cprg/">Castel legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/castel-leg-cprg/">Castel legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -509,7 +509,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/gargoyle-leg-cprg/">Gargoyle legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gargoyle-leg-cprg/">Gargoyle legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -517,7 +517,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/gropho-leg-cprg/">Gropho legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/gropho-leg-cprg/">Gropho legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -525,7 +525,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/ictus-leg-cprg/">Ictus legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/ictus-leg-cprg/">Ictus legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -533,7 +533,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/intakt-leg-cprg/">Intakt legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/intakt-leg-cprg/">Intakt legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -541,7 +541,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/kain-leg-cprg/">Kain legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/kain-leg-cprg/">Kain legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -549,7 +549,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/laird-leg-cprg/">Laird legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/laird-leg-cprg/">Laird legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -557,7 +557,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/mesmer-leg-cprg/">Mesmer legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/mesmer-leg-cprg/">Mesmer legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -565,7 +565,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/npcpbs-base-large-leg/">Npcpbs Base Large Leg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/npcpbs-base-large-leg/">Npcpbs Base Large Leg</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -573,7 +573,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/npcpbs-base-medium-leg/">Npcpbs Base Medium Leg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/npcpbs-base-medium-leg/">Npcpbs Base Medium Leg</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -581,7 +581,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/npcpbs-base-small-leg/">Npcpbs Base Small Leg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/npcpbs-base-small-leg/">Npcpbs Base Small Leg</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -589,7 +589,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/npcpbs-control-tower-leg/">Npcpbs Control Tower Leg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/npcpbs-control-tower-leg/">Npcpbs Control Tower Leg</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -597,7 +597,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/npcpbs-e-battery-leg/">Npcpbs E Battery Leg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/npcpbs-e-battery-leg/">Npcpbs E Battery Leg</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -605,7 +605,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/npcpbs-e-transfer-leg/">Npcpbs E Transfer Leg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/npcpbs-e-transfer-leg/">Npcpbs E Transfer Leg</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -613,7 +613,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/npcpbs-e-transmitter-leg/">Npcpbs E Transmitter Leg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/npcpbs-e-transmitter-leg/">Npcpbs E Transmitter Leg</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -621,7 +621,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/npcpbs-eff-booster-leg/">Npcpbs Eff Booster Leg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/npcpbs-eff-booster-leg/">Npcpbs Eff Booster Leg</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -629,7 +629,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/npcpbs-eff-emitter-leg/">Npcpbs Eff Emitter Leg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/npcpbs-eff-emitter-leg/">Npcpbs Eff Emitter Leg</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -637,7 +637,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/npcpbs-facility-leg/">Npcpbs Facility Leg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/npcpbs-facility-leg/">Npcpbs Facility Leg</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -645,7 +645,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/npcpbs-facility-upgrade-leg/">Npcpbs Facility Upgrade Leg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/npcpbs-facility-upgrade-leg/">Npcpbs Facility Upgrade Leg</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -653,7 +653,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/npcpbs-mining-tower-leg/">Npcpbs Mining Tower Leg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/npcpbs-mining-tower-leg/">Npcpbs Mining Tower Leg</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -661,7 +661,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/npcpbs-reactor-leg/">Npcpbs Reactor Leg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/npcpbs-reactor-leg/">Npcpbs Reactor Leg</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -669,7 +669,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/npcpbs-repair-leg/">Npcpbs Repair Leg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/npcpbs-repair-leg/">Npcpbs Repair Leg</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -677,7 +677,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/npcpbs-turret-leg/">Npcpbs Turret Leg</a></div>
+<div><div class="mission-card-title"><a href="/content/items/npcpbs-turret-leg/">Npcpbs Turret Leg</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -685,7 +685,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/prometheus-leg-cprg/">Prometheus legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/prometheus-leg-cprg/">Prometheus legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -693,7 +693,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/riveler-leg-cprg/">Riveler legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/riveler-leg-cprg/">Riveler legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -701,7 +701,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/sequer-leg-cprg/">Sequer legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/sequer-leg-cprg/">Sequer legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -709,7 +709,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/seth-leg-cprg/">Seth legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/seth-leg-cprg/">Seth legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -717,7 +717,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/symbiont-leg-cprg/">Symbiont legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/symbiont-leg-cprg/">Symbiont legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -725,7 +725,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/termis-leg-cprg/">Termis legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/termis-leg-cprg/">Termis legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -733,7 +733,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/troiar-leg-cprg/">Troiar legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/troiar-leg-cprg/">Troiar legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -741,7 +741,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/tyrannos-leg-cprg/">Tyrannos legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/tyrannos-leg-cprg/">Tyrannos legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -749,7 +749,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/vagabond-leg-cprg/">Vagabond legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/vagabond-leg-cprg/">Vagabond legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -757,7 +757,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/waspish-leg-cprg/">Waspish legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/waspish-leg-cprg/">Waspish legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -765,7 +765,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/yagel-leg-cprg/">Yagel legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/yagel-leg-cprg/">Yagel legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>
@@ -773,7 +773,7 @@ description: "Robot parts catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/ru/content/items/zenith-leg-cprg/">Zenith legs CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/zenith-leg-cprg/">Zenith legs CT</a></div>
 <div class="mission-card-sub">Robot parts / Legs</div>
 </div>
 </div>

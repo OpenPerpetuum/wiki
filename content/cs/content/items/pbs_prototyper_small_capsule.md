@@ -36,7 +36,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Vyráběn z 8 komponentách** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Standard prototype facility foundation CT](/cs/content/items/pbs-prototyper-small-capsule-cprg/)
+**Výkres:** [Standard prototype facility foundation CT](/content/items/pbs-prototyper-small-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/alligior/">Alligior</a></div><div class="prod-card-body">potřebné: <b>2.5k</b></div></div>

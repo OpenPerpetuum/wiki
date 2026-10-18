@@ -48,7 +48,7 @@ graph LR
 **Producido desde 5 componentes** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Ammo Small Projectile T Cprg](/es/content/items/ammo-small-projectile-t-cprg/)
+**Planos:** [Ammo Small Projectile T Cprg](/content/items/ammo-small-projectile-t-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">requerido: <b>100</b></div></div>

@@ -30,7 +30,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Produkcja z 7 komponentów, poziom badań 5** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Standard Hunter Drone Rcu Pvp Cprg](/pl/content/items/standard-hunter-drone-rcu-pvp-cprg/)
+**Nakładka:** [Standard Hunter Drone Rcu Pvp Cprg](/content/items/standard-hunter-drone-rcu-pvp-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">wymagane: <b>500</b></div></div>

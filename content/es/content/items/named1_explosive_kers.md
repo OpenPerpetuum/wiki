@@ -35,7 +35,7 @@ description: "Modules / Enhancements, tier T2"
 **Producido desde 8 componentes, nivel de investigación 6** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [SER-250 'Eruptico' seismic ERP CT](/es/content/items/named1-explosive-kers-cprg/)
+**Planos:** [SER-250 'Eruptico' seismic ERP CT](/content/items/named1-explosive-kers-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">requerido: <b>200</b></div></div>

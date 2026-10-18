@@ -34,7 +34,7 @@ description: "Modules / Armor, tier T2"
 **Производится из 4 компонентах, уровень исследований 4** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Azilo-Protec Duoforge medium armor plate CT](/ru/content/items/named1-medium-armor-plate-cprg/)
+**Чертёж:** [Azilo-Protec Duoforge medium armor plate CT](/content/items/named1-medium-armor-plate-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/plasteosine/">Plasteosine</a></div><div class="prod-card-body">нужно: <b>700</b></div></div>

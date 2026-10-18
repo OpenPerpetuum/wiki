@@ -32,7 +32,7 @@ description: "Ammo / Missiles"
 **Производится из 3 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Ammo Longrange Cruisemissile D Cprg](/ru/content/items/ammo-longrange-cruisemissile-d-cprg/)
+**Чертёж:** [Ammo Longrange Cruisemissile D Cprg](/content/items/ammo-longrange-cruisemissile-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">нужно: <b>300</b></div></div>

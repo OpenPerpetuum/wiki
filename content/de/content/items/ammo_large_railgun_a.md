@@ -31,7 +31,7 @@ description: "Ammo / Cannon"
 **Hergestellt aus 4 Komponenten** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Ammo Large Railgun A Cprg](/de/content/items/ammo-large-railgun-a-cprg/)
+**Bauplan:** [Ammo Large Railgun A Cprg](/content/items/ammo-large-railgun-a-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/polynitrocol/">Polynitrocol</a></div><div class="prod-card-body">benötigt: <b>150</b></div></div>

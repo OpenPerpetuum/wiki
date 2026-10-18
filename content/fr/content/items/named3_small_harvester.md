@@ -34,7 +34,7 @@ description: "Modules / Harvesting, tier T4"
 **Produit à partir de 8 composants, niveau de recherche 4** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [Protrim FDV-30 small harvester CT](/fr/content/items/named3-small-harvester-cprg/)
+**Plan :** [Protrim FDV-30 small harvester CT](/content/items/named3-small-harvester-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">requis : <b>50</b></div></div>

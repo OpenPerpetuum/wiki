@@ -34,7 +34,7 @@ description: "Modules / Weapons, tier T4"
 **Производится из 10 компонентах, уровень исследований 7** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Kobel 300-XZ weapon stabilizer CT](/ru/content/items/named3-weapon-stabilizer-cprg/)
+**Чертёж:** [Kobel 300-XZ weapon stabilizer CT](/content/items/named3-weapon-stabilizer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">нужно: <b>350</b></div></div>

@@ -48,7 +48,7 @@ description: "Special & other / Miscellaneous, tier T2"
 **Produzido a partir de 10 componentes** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [Advanced missile turret foundation CT](/pt/content/items/pbs-turret-missile-medium-capsule-cprg/)
+**Plano:** [Advanced missile turret foundation CT](/content/items/pbs-turret-missile-medium-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">necessário: <b>250</b></div></div>

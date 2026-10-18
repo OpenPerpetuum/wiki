@@ -34,7 +34,7 @@ description: "Modules / Sensors & scanning, tier T4"
 **Hergestellt aus 10 Komponenten, Forschungsebene 8** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [DDX700-Mist sensor suppressor tuning CT](/de/content/items/named3-sensor-supressor-booster-cprg/)
+**Bauplan:** [DDX700-Mist sensor suppressor tuning CT](/content/items/named3-sensor-supressor-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/espitium/">Espitium</a></div><div class="prod-card-body">benötigt: <b>300</b></div></div>

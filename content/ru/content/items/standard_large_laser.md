@@ -37,7 +37,7 @@ description: "Modules / Weapons, tier T1"
 **Производится из 4 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Standard Large Laser Cprg](/ru/content/items/standard-large-laser-cprg/)
+**Чертёж:** [Standard Large Laser Cprg](/content/items/standard-large-laser-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">нужно: <b>150</b></div></div>

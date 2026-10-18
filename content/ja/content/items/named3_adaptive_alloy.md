@@ -32,7 +32,7 @@ description: "Modules / Enhancements, tier T4"
 **コンポーネント15個から製造** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [T4 Adaptive Alloy Cprg](/ja/content/items/named3-adaptive-alloy-cprg/)
+**設計図:** [T4 Adaptive Alloy Cprg](/content/items/named3-adaptive-alloy-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/alligior/">Alligior</a></div><div class="prod-card-body">必要: <b>500</b></div></div>

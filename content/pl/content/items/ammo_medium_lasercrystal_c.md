@@ -31,7 +31,7 @@ description: "Ammo / Beam & laser"
 **Produkcja z 3 komponentów, poziom badań 3** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Medium photokinetic energy cell CT](/pl/content/items/ammo-medium-lasercrystal-c-cprg/)
+**Nakładka:** [Medium photokinetic energy cell CT](/content/items/ammo-medium-lasercrystal-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/polynitrocol/">Polynitrocol</a></div><div class="prod-card-body">wymagane: <b>50</b></div></div>

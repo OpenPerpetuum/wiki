@@ -37,7 +37,7 @@ description: "Modules / Weapons, tier T3"
 **Produzido a partir de 11 componentes** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [T3 Longrange Large Railgun Cprg](/pt/content/items/named2-longrange-large-railgun-cprg/)
+**Plano:** [T3 Longrange Large Railgun Cprg](/content/items/named2-longrange-large-railgun-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/chollonin/">Chollonin</a></div><div class="prod-card-body">necessário: <b>75</b></div></div>

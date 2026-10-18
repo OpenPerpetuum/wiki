@@ -37,7 +37,7 @@ description: "Modules / Sensors & scanning, tier T4"
 **Vyráběn z 8 komponentách, výzkumná úroveň 6** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Ambassador-RU2 remote sensor amplifier CT](/cs/content/items/named3-remote-sensor-booster-cprg/)
+**Výkres:** [Ambassador-RU2 remote sensor amplifier CT](/content/items/named3-remote-sensor-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">potřebné: <b>400</b></div></div>

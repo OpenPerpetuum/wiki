@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T2"
 **Produit à partir de 3 composants, niveau de recherche 5** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [T2 Gang Assist Devastating Module Cprg](/fr/content/items/named1-gang-assist-devastating-module-cprg/)
+**Plan :** [T2 Gang Assist Devastating Module Cprg](/content/items/named1-gang-assist-devastating-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-crystal"/></svg><a class="prod-card-name" href="/fr/content/items/robotshard-nuimqol-basic/">Damaged nuimqol fragment</a></div><div class="prod-card-body">requis : <b>15</b></div></div>

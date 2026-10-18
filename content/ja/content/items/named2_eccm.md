@@ -32,7 +32,7 @@ description: "Modules / Enhancements, tier T3"
 **コンポーネント8個から製造 、研究レベル 4** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Deshrud-QW ECCM CT](/ja/content/items/named2-eccm-cprg/)
+**設計図:** [Deshrud-QW ECCM CT](/content/items/named2-eccm-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/alligior/">Alligior</a></div><div class="prod-card-body">必要: <b>25</b></div></div>

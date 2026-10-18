@@ -37,7 +37,7 @@ description: "Modules / Weapons, tier T4"
 **Producido desde 13 componentes** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [T4 Longrange Large Laser Cprg](/es/content/items/named3-longrange-large-laser-cprg/)
+**Planos:** [T4 Longrange Large Laser Cprg](/content/items/named3-longrange-large-laser-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/espitium/">Espitium</a></div><div class="prod-card-body">requerido: <b>150</b></div></div>

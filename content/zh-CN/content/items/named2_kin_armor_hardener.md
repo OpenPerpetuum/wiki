@@ -35,7 +35,7 @@ description: "Modules / Armor, tier T3"
 **由组件 10个生产 ，研究等级 5** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [Apparod Defragger kinetic armor CT](/zh-CN/content/items/named2-kin-armor-hardener-cprg/)
+**蓝图:** [Apparod Defragger kinetic armor CT](/content/items/named2-kin-armor-hardener-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/alligior/">Alligior</a></div><div class="prod-card-body">需要: <b>125</b></div></div>

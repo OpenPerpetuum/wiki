@@ -37,7 +37,7 @@ description: "Special & other / Miscellaneous, tier T2"
 **Prodotto da 10 componenti** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Advanced reactor foundation CT](/it/content/items/pbs-reactor-medium-capsule-cprg/)
+**Piano:** [Advanced reactor foundation CT](/content/items/pbs-reactor-medium-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/alligior/">Alligior</a></div><div class="prod-card-body">richiesto: <b>3.5k</b></div></div>

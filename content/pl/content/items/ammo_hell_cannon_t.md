@@ -33,7 +33,7 @@ description: "Ammo / Cannon"
 **Produkcja z 4 komponentów** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Ammo Hell Cannon T Cprg](/pl/content/items/ammo-hell-cannon-t-cprg/)
+**Nakładka:** [Ammo Hell Cannon T Cprg](/content/items/ammo-hell-cannon-t-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/biotichrin/">Biotichrin</a></div><div class="prod-card-body">wymagane: <b>600</b></div></div>

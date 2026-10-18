@@ -33,7 +33,7 @@ description: "Modules / Repair, tier T1"
 **Производится из 5 компонентах, уровень исследований 3** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Standard armor repairer tuning CT](/ru/content/items/standard-armor-repairer-upgrade-cprg/)
+**Чертёж:** [Standard armor repairer tuning CT](/content/items/standard-armor-repairer-upgrade-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">нужно: <b>50</b></div></div>

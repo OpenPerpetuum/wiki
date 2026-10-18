@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T4"
 **Vyráběn z 10 komponentách, výzkumná úroveň 7** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Yzla-2500 EW NEXUS module CT](/cs/content/items/named3-gang-assist-ewar-range-module-cprg/)
+**Výkres:** [Yzla-2500 EW NEXUS module CT](/content/items/named3-gang-assist-ewar-range-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">potřebné: <b>500</b></div></div>

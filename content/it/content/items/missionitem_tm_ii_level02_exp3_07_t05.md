@@ -25,7 +25,7 @@ _Nessuna statistica — questo oggetto non porta valori aggregati._
 **Prodotto da 2 componenti, livello di ricerca 1** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Transformator [Techolique VII] CT](/it/content/items/missionitem-tm-ii-level02-exp3-07-t05-cprg/)
+**Piano:** [Transformator [Techolique VII] CT](/content/items/missionitem-tm-ii-level02-exp3-07-t05-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/missionitem-tm-ii-level02-exp3-07-t03/">Transformator casing [Techolique VII/1]</a></div><div class="prod-card-body">richiesto: <b>1</b></div></div>

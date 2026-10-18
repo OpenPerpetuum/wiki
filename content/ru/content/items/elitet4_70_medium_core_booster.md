@@ -55,7 +55,7 @@ Fixed-price vendors that sell this item (see the [Item shop](/ru/content/shop/) 
 **Производится из 2 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Elitet4 70 Medium Core Booster Cprg](/ru/content/items/elitet4-70-medium-core-booster-cprg/)
+**Чертёж:** [Elitet4 70 Medium Core Booster Cprg](/content/items/elitet4-70-medium-core-booster-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/material-boss-z70/">Material Boss Z70</a></div><div class="prod-card-body">нужно: <b>400</b></div></div>

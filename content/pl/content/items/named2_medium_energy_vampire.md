@@ -37,7 +37,7 @@ description: "Modules / Shield, tier T3"
 **Produkcja z 10 komponentów, poziom badań 6** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [V90-Quadres medium energy drainer CT](/pl/content/items/named2-medium-energy-vampire-cprg/)
+**Nakładka:** [V90-Quadres medium energy drainer CT](/content/items/named2-medium-energy-vampire-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>200</b></div></div>

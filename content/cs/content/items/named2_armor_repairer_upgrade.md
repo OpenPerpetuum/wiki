@@ -33,7 +33,7 @@ description: "Modules / Repair, tier T3"
 **Vyráběn z 10 komponentách, výzkumná úroveň 5** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [WPG3000 armor repairer tuning CT](/cs/content/items/named2-armor-repairer-upgrade-cprg/)
+**Výkres:** [WPG3000 armor repairer tuning CT](/content/items/named2-armor-repairer-upgrade-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/alligior/">Alligior</a></div><div class="prod-card-body">potřebné: <b>150</b></div></div>

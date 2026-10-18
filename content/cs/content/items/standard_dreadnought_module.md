@@ -39,7 +39,7 @@ description: "Modules / Enhancements, tier T1"
 **Vyráběn z 2 komponentách, výzkumná úroveň 5** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Standard Dreadnought Module Cprg](/cs/content/items/standard-dreadnought-module-cprg/)
+**Výkres:** [Standard Dreadnought Module Cprg](/content/items/standard-dreadnought-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">potřebné: <b>1.6k</b></div></div>

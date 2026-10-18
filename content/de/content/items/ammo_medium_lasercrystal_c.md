@@ -31,7 +31,7 @@ description: "Ammo / Beam & laser"
 **Hergestellt aus 3 Komponenten, Forschungsebene 3** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Medium photokinetic energy cell CT](/de/content/items/ammo-medium-lasercrystal-c-cprg/)
+**Bauplan:** [Medium photokinetic energy cell CT](/content/items/ammo-medium-lasercrystal-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/polynitrocol/">Polynitrocol</a></div><div class="prod-card-body">benötigt: <b>50</b></div></div>

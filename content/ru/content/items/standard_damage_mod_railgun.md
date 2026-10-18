@@ -32,7 +32,7 @@ description: "Modules / Weapons, tier T1"
 **Производится из 5 компонентах, уровень исследований 3** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Standard magnetic weapon tuning CT](/ru/content/items/standard-damage-mod-railgun-cprg/)
+**Чертёж:** [Standard magnetic weapon tuning CT](/content/items/standard-damage-mod-railgun-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">нужно: <b>100</b></div></div>

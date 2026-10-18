@@ -34,7 +34,7 @@ description: "Modules / Repair, tier T4"
 **由組件 9個生產 ，研究等級 7** — 組裝組件來製造它（完整列表見[配方](/zh-TW/content/recipes/)）:
 
 
-**藍圖:** [CRC40 medium armor repairer CT](/zh-TW/content/items/named3-medium-armor-repairer-cprg/)
+**藍圖:** [CRC40 medium armor repairer CT](/content/items/named3-medium-armor-repairer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-TW/content/items/alligior/">Alligior</a></div><div class="prod-card-body">需要: <b>400</b></div></div>

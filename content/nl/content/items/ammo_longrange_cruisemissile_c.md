@@ -33,7 +33,7 @@ description: "Ammo / Missiles"
 **Geproduceerd uit 4 componentën** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Ammo Longrange Cruisemissile C Cprg](/nl/content/items/ammo-longrange-cruisemissile-c-cprg/)
+**Bouwtekening:** [Ammo Longrange Cruisemissile C Cprg](/content/items/ammo-longrange-cruisemissile-c-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">vereist: <b>150</b></div></div>

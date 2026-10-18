@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T4"
 **Geproduceerd uit 12 componentën, onderzoekslevel 7** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [ACF-9900 repairer NEXUS module CT](/nl/content/items/named3-gang-assist-maintance-module-cprg/)
+**Bouwtekening:** [ACF-9900 repairer NEXUS module CT](/content/items/named3-gang-assist-maintance-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">vereist: <b>300</b></div></div>

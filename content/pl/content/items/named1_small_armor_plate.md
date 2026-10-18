@@ -34,7 +34,7 @@ description: "Modules / Armor, tier T2"
 **Produkcja z 4 komponentów, poziom badań 2** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Wobost-Titangrip light armor plate CT](/pl/content/items/named1-small-armor-plate-cprg/)
+**Nakładka:** [Wobost-Titangrip light armor plate CT](/content/items/named1-small-armor-plate-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/plasteosine/">Plasteosine</a></div><div class="prod-card-body">wymagane: <b>350</b></div></div>

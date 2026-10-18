@@ -30,7 +30,7 @@ description: "Ammo / Cannon"
 **Vyráběn z 2 komponentách, výzkumná úroveň 1** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Small compositecore slug CT](/cs/content/items/ammo-small-railgun-d-cprg/)
+**Výkres:** [Small compositecore slug CT](/content/items/ammo-small-railgun-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/polynitrocol/">Polynitrocol</a></div><div class="prod-card-body">potřebné: <b>100</b></div></div>

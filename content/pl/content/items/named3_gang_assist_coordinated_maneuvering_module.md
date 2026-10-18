@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T4"
 **Produkcja z 13 komponentów, poziom badań 7** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [R4S-A evasive NEXUS module CT](/pl/content/items/named3-gang-assist-coordinated-maneuvering-module-cprg/)
+**Nakładka:** [R4S-A evasive NEXUS module CT](/content/items/named3-gang-assist-coordinated-maneuvering-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">wymagane: <b>100</b></div></div>

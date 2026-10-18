@@ -36,7 +36,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Geproduceerd uit 8 componentën** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Standard prototype facility foundation CT](/nl/content/items/pbs-prototyper-small-capsule-cprg/)
+**Bouwtekening:** [Standard prototype facility foundation CT](/content/items/pbs-prototyper-small-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">vereist: <b>2.5k</b></div></div>

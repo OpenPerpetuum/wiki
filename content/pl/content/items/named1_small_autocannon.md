@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T2"
 **Produkcja z 3 komponentów, poziom badań 2** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Malleus light autocannon CT](/pl/content/items/named1-small-autocannon-cprg/)
+**Nakładka:** [Malleus light autocannon CT](/content/items/named1-small-autocannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">wymagane: <b>100</b></div></div>

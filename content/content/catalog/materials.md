@@ -1467,7 +1467,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/pbs-XL-core-transmitter-small-capsule-cprg/">Standard energy backbone node foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-small-capsule-cprg/">Standard energy backbone node foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T1</div>
 </div>
 </div>
@@ -1829,7 +1829,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/pbs-XL-core-transmitter-medium-capsule-cprg/">Advanced energy backbone node foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-medium-capsule-cprg/">Advanced energy backbone node foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T2</div>
 </div>
 </div>
@@ -2119,7 +2119,7 @@ description: "Materials catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/pbs-XL-core-transmitter-large-capsule-cprg/">Hi-tech energy backbone node foundation CT</a></div>
+<div><div class="mission-card-title"><a href="/content/items/pbs-xl-core-transmitter-large-capsule-cprg/">Hi-tech energy backbone node foundation CT</a></div>
 <div class="mission-card-sub">Materials, tier T3</div>
 </div>
 </div>

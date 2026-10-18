@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T3"
 **Producido desde 8 componentes, nivel de investigación 6** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [Matriot-II fast extractor NEXUS module CT](/es/content/items/named2-gang-assist-fast-extraction-module-cprg/)
+**Planos:** [Matriot-II fast extractor NEXUS module CT](/content/items/named2-gang-assist-fast-extraction-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/alligior/">Alligior</a></div><div class="prod-card-body">requerido: <b>25</b></div></div>

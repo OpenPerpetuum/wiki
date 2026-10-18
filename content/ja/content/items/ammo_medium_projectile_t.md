@@ -48,7 +48,7 @@ graph LR
 **コンポーネント5個から製造** — コンポーネントを組立てて製造します（全リストは[レシピ](/ja/content/recipes/)を参照）:
 
 
-**設計図:** [Ammo Medium Projectile T Cprg](/ja/content/items/ammo-medium-projectile-t-cprg/)
+**設計図:** [Ammo Medium Projectile T Cprg](/content/items/ammo-medium-projectile-t-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ja/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">必要: <b>200</b></div></div>

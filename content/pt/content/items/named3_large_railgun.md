@@ -37,7 +37,7 @@ description: "Modules / Weapons, tier T4"
 **Produzido a partir de 11 componentes** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [T4 Large Railgun Cprg](/pt/content/items/named3-large-railgun-cprg/)
+**Plano:** [T4 Large Railgun Cprg](/content/items/named3-large-railgun-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/hydrobenol/">Hydrobenol</a></div><div class="prod-card-body">necessário: <b>300</b></div></div>

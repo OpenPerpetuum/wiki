@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T3"
 **Производится из 10 компонентах, уровень исследований 6** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Mobba assault NEXUS module CT](/ru/content/items/named2-gang-assist-siege-module-cprg/)
+**Чертёж:** [Mobba assault NEXUS module CT](/content/items/named2-gang-assist-siege-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/chollonin/">Chollonin</a></div><div class="prod-card-body">нужно: <b>250</b></div></div>

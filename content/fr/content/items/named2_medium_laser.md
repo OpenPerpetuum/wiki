@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T3"
 **Produit à partir de 8 composants, niveau de recherche 6** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [Kauska Heatpin I. medium LCL laser CT](/fr/content/items/named2-medium-laser-cprg/)
+**Plan :** [Kauska Heatpin I. medium LCL laser CT](/content/items/named2-medium-laser-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/hydrobenol/">Hydrobenol</a></div><div class="prod-card-body">requis : <b>100</b></div></div>

@@ -30,7 +30,7 @@ description: "Special & other / Miscellaneous"
 **Produit à partir de 2 composants, niveau de recherche 3** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [Standard energy injector charge CT](/fr/content/items/corebooster-ammo-cprg/)
+**Plan :** [Standard energy injector charge CT](/content/items/corebooster-ammo-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">requis : <b>500</b></div></div>

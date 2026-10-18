@@ -363,6 +363,17 @@ T = {
 }
 
 
+def _load_lang_pages(lang: str) -> set:
+    """Load the set of pages that exist in the given language."""
+    import json
+    lp_file = REPO / "static" / "lang-pages.json"
+    if not lp_file.exists():
+        return set()
+    with open(lp_file) as f:
+        data = json.load(f)
+    return set(data.get(lang, []))
+
+
 def slug_from_filename(fname: str) -> str:
     """Convert filename to URL slug: ammo_cruisemissile_a.md → ammo-cruisemissile-a"""
     return fname.replace("_", "-").removesuffix(".md")
@@ -453,19 +464,24 @@ def translate_item(content: str, lang: str, slug: str) -> str:
         content
     )
 
-    # ── Links: add language prefix to internal links ──
-    # HTML: href="/content/..." → href="/{lang}/content/..."
-    content = re.sub(r'href="/content/', f'href="{lp}/content/', content)
-    content = re.sub(r'href="/zones/', f'href="{lp}/zones/', content)
-    content = re.sub(r'href="/features/', f'href="{lp}/features/', content)
-    content = re.sub(r'href="/formats/', f'href="{lp}/formats/', content)
-    # Markdown: ](/content/...) → ](/{lang}/content/...)
-    content = content.replace('](/content/', f']({lp}/content/')
-    content = content.replace('](/zones/', f']({lp}/zones/')
-    content = content.replace('](/features/', f']({lp}/features/')
-    # Mermaid click links: click X "/content/..." → click X "/{lang}/content/..."
-    content = content.replace('"/content/', f'"{lp}/content/')
-    content = content.replace('"/zones/', f'"{lp}/zones/')
+    # ── Links: add language prefix to internal links (only if translated) ──
+    translated_pages = _load_lang_pages(lang)
+
+    def _has_trans(url):
+        check = f"{lp}{url}"
+        if check.endswith('/'):
+            check = check.rstrip('/')
+        return check in translated_pages
+
+    def _prefix_href(m):
+        url = m.group(1)
+        if _has_trans(url):
+            return f'href="{lp}{url}"'
+        return m.group(0)
+
+    content = re.sub(r'href="(/(?:content|zones|features|formats)/[^"]*)"', _prefix_href, content)
+    content = re.sub(r'\]\((/(?:content|zones|features)/[^)]*)\)', lambda m: f']({lp}{m.group(1)})' if _has_trans(m.group(1)) else m.group(0), content)
+    content = re.sub(r'"(/(?:content|zones)/[^"]*)"', lambda m: f'"{lp}{m.group(1)}"' if _has_trans(m.group(1)) else m.group(0), content)
 
     return content
 

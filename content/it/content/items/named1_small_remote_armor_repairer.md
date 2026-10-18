@@ -37,7 +37,7 @@ description: "Modules / Repair, tier T2"
 **Prodotto da 5 componenti, livello di ricerca 3** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [Avaror GD-200 small remote armor repairer CT](/it/content/items/named1-small-remote-armor-repairer-cprg/)
+**Piano:** [Avaror GD-200 small remote armor repairer CT](/content/items/named1-small-remote-armor-repairer-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/it/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">richiesto: <b>50</b></div></div>

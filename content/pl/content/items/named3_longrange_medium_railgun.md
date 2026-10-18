@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T4"
 **Produkcja z 12 komponentów, poziom badań 7** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [5.5-Glipler medium EM-gun CT](/pl/content/items/named3-longrange-medium-railgun-cprg/)
+**Nakładka:** [5.5-Glipler medium EM-gun CT](/content/items/named3-longrange-medium-railgun-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/chollonin/">Chollonin</a></div><div class="prod-card-body">wymagane: <b>100</b></div></div>

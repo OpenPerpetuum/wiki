@@ -34,7 +34,7 @@ description: "Modules / Enhancements, tier T2"
 **Производится из 4 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [T2 Landmine Detector Cprg](/ru/content/items/named1-landmine-detector-cprg/)
+**Чертёж:** [T2 Landmine Detector Cprg](/content/items/named1-landmine-detector-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">нужно: <b>400</b></div></div>

@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T4"
 **由组件 10个生产 ，研究等级 7** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [Yzla-2500 EW NEXUS module CT](/zh-CN/content/items/named3-gang-assist-ewar-range-module-cprg/)
+**蓝图:** [Yzla-2500 EW NEXUS module CT](/content/items/named3-gang-assist-ewar-range-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">需要: <b>500</b></div></div>

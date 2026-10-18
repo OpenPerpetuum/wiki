@@ -32,7 +32,7 @@ description: "Modules / Enhancements, tier T4"
 **Produkcja z 12 komponentów, poziom badań 6** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Dozer-IMT missile launcher tuning CT](/pl/content/items/named3-damage-mod-missile-cprg/)
+**Nakładka:** [Dozer-IMT missile launcher tuning CT](/content/items/named3-damage-mod-missile-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/espitium/">Espitium</a></div><div class="prod-card-body">wymagane: <b>200</b></div></div>

@@ -38,7 +38,7 @@ description: "Modules / Weapons, tier T2"
 **Hergestellt aus 4 Komponenten, Forschungsebene 4** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [GTRB medium autocannon CT](/de/content/items/named1-longrange-medium-autocannon-cprg/)
+**Bauplan:** [GTRB medium autocannon CT](/content/items/named1-longrange-medium-autocannon-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">benötigt: <b>100</b></div></div>

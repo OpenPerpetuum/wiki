@@ -37,7 +37,7 @@ description: "Modules / Shield, tier T2"
 **Vyráběn z 6 komponentách, výzkumná úroveň 5** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Portio II. medium energy drainer CT](/cs/content/items/named1-medium-energy-vampire-cprg/)
+**Výkres:** [Portio II. medium energy drainer CT](/content/items/named1-medium-energy-vampire-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">potřebné: <b>400</b></div></div>

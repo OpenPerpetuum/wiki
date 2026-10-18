@@ -36,7 +36,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Produkcja z 8 komponentów** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Standard refinery foundation CT](/pl/content/items/pbs-refinery-small-capsule-cprg/)
+**Nakładka:** [Standard refinery foundation CT](/content/items/pbs-refinery-small-capsule-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">wymagane: <b>2.5k</b></div></div>

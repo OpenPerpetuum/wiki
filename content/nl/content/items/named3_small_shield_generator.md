@@ -36,7 +36,7 @@ description: "Modules / Shield, tier T4"
 **Geproduceerd uit 9 componentën, onderzoekslevel 5** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [SBA-200 Forebrace small shield generator CT](/nl/content/items/named3-small-shield-generator-cprg/)
+**Bouwtekening:** [SBA-200 Forebrace small shield generator CT](/content/items/named3-small-shield-generator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/alligior/">Alligior</a></div><div class="prod-card-body">vereist: <b>400</b></div></div>

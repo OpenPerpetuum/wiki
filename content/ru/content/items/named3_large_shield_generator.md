@@ -35,7 +35,7 @@ description: "Modules / Shield, tier T4"
 **Производится из 10 компонентах** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [T4 Large Shield Generator Cprg](/ru/content/items/named3-large-shield-generator-cprg/)
+**Чертёж:** [T4 Large Shield Generator Cprg](/content/items/named3-large-shield-generator-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/alligior/">Alligior</a></div><div class="prod-card-body">нужно: <b>1.2k</b></div></div>

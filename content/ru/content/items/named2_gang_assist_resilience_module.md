@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T3"
 **Производится из 5 компонентах, уровень исследований 6** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [T3 Gang Assist Resilience Module Cprg](/ru/content/items/named2-gang-assist-resilience-module-cprg/)
+**Чертёж:** [T3 Gang Assist Resilience Module Cprg](/content/items/named2-gang-assist-resilience-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-panel"/></svg><a class="prod-card-name" href="/ru/content/items/named1-gang-assist-resilience-module/">T2 Gang Assist Resilience Module</a></div><div class="prod-card-body">нужно: <b>1</b></div></div>

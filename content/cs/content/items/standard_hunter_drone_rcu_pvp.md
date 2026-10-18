@@ -30,7 +30,7 @@ description: "Special & other / Miscellaneous, tier T1"
 **Vyráběn z 7 komponentách, výzkumná úroveň 5** — sestavte komponenty pro jeho výrobu (celkový seznam najdete v [Receptury](/cs/content/recipes/)):
 
 
-**Výkres:** [Standard Hunter Drone Rcu Pvp Cprg](/cs/content/items/standard-hunter-drone-rcu-pvp-cprg/)
+**Výkres:** [Standard Hunter Drone Rcu Pvp Cprg](/content/items/standard-hunter-drone-rcu-pvp-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/cs/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">potřebné: <b>500</b></div></div>

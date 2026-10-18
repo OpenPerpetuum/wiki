@@ -35,7 +35,7 @@ description: "Modules / Weapons, tier T1"
 **Produzido a partir de 4 componentes** — monte os componentes para construí-lo (lista completa em [Receitas](/pt/content/recipes/)):
 
 
-**Plano:** [Standard Cruisemissile Launcher Cprg](/pt/content/items/standard-cruisemissile-launcher-cprg/)
+**Plano:** [Standard Cruisemissile Launcher Cprg](/content/items/standard-cruisemissile-launcher-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pt/content/items/axicoline/">Axicoline</a></div><div class="prod-card-body">necessário: <b>150</b></div></div>

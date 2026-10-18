@@ -33,7 +33,7 @@ description: "Modules / Enhancements, tier T4"
 **Produit à partir de 8 composants** — assemblez les composants pour le fabriquer (liste complète dans [Recettes](/fr/content/recipes/)):
 
 
-**Plan :** [T4 Large Driller Cprg](/fr/content/items/named3-large-driller-cprg/)
+**Plan :** [T4 Large Driller Cprg](/content/items/named3-large-driller-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/fr/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">requis : <b>800</b></div></div>

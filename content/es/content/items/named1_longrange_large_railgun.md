@@ -37,7 +37,7 @@ description: "Modules / Weapons, tier T2"
 **Producido desde 9 componentes** — ensambla los componentes para construirlo (lista completa en [Recetas](/es/content/recipes/)):
 
 
-**Planos:** [T2 Longrange Large Railgun Cprg](/es/content/items/named1-longrange-large-railgun-cprg/)
+**Planos:** [T2 Longrange Large Railgun Cprg](/content/items/named1-longrange-large-railgun-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/es/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">requerido: <b>75</b></div></div>

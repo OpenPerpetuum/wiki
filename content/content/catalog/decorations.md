@@ -1994,7 +1994,7 @@ description: "Decorations catalog"
 <div class="mission-card">
 <div class="mission-card-head">
 <span class="icon-mask mission-card-icon" role="img" aria-label="item icon"></span>
-<div><div class="mission-card-title"><a href="/content/items/decor-t-s-base-Arc-01/">Decor T S Base Arc 01</a></div>
+<div><div class="mission-card-title"><a href="/content/items/decor-t-s-base-arc-01/">Decor T S Base Arc 01</a></div>
 </div>
 </div>
 </div>

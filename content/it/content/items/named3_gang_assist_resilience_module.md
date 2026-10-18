@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T4"
 **Prodotto da 7 componenti, livello di ricerca 7** — assembra i componenti per costruirlo (lista completa in [Ricette](/it/content/recipes/)):
 
 
-**Piano:** [T4 Gang Assist Resilience Module Cprg](/it/content/items/named3-gang-assist-resilience-module-cprg/)
+**Piano:** [T4 Gang Assist Resilience Module Cprg](/content/items/named3-gang-assist-resilience-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-panel"/></svg><a class="prod-card-name" href="/it/content/items/named2-gang-assist-resilience-module/">T3 Gang Assist Resilience Module</a></div><div class="prod-card-body">richiesto: <b>1</b></div></div>

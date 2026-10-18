@@ -32,7 +32,7 @@ description: "Ammo / Missiles"
 **Hergestellt aus 2 Komponenten, Forschungsebene 3** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [Medium sonic ballistic missile CT](/de/content/items/ammo-longrange-missile-d-cprg/)
+**Bauplan:** [Medium sonic ballistic missile CT](/content/items/ammo-longrange-missile-d-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">benötigt: <b>200</b></div></div>

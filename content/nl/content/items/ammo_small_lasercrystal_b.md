@@ -31,7 +31,7 @@ description: "Ammo / Beam & laser"
 **Geproduceerd uit 3 componentën, onderzoekslevel 1** — monteer de componenten om het te bouwen (volledige lijst in [Recepten](/nl/content/recipes/)):
 
 
-**Bouwtekening:** [Small sonic energy cell CT](/nl/content/items/ammo-small-lasercrystal-b-cprg/)
+**Bouwtekening:** [Small sonic energy cell CT](/content/items/ammo-small-lasercrystal-b-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/nl/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">vereist: <b>25</b></div></div>

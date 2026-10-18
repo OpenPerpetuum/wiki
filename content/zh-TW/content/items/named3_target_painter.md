@@ -35,7 +35,7 @@ description: "Modules / Enhancements, tier T4"
 **由組件 10個生產 ，研究等級 7** — 組裝組件來製造它（完整列表見[配方](/zh-TW/content/recipes/)）:
 
 
-**藍圖:** [Pulsus target marker CT](/zh-TW/content/items/named3-target-painter-cprg/)
+**藍圖:** [Pulsus target marker CT](/content/items/named3-target-painter-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-TW/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">需要: <b>450</b></div></div>

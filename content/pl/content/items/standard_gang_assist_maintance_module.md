@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T1"
 **Produkcja z 5 komponentów, poziom badań 4** — zmontuj komponenty, aby go zbudować (pełna lista w [Przepisy](/pl/content/recipes/)):
 
 
-**Nakładka:** [Standard repairer NEXUS module CT](/pl/content/items/standard-gang-assist-maintance-module-cprg/)
+**Nakładka:** [Standard repairer NEXUS module CT](/content/items/standard-gang-assist-maintance-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/pl/content/items/axicol/">Cryoperine</a></div><div class="prod-card-body">wymagane: <b>150</b></div></div>

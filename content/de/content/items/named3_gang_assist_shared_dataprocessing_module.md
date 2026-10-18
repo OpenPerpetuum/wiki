@@ -36,7 +36,7 @@ description: "Modules / Enhancements, tier T4"
 **Hergestellt aus 9 Komponenten, Forschungsebene 7** — baue die Komponenten zusammen, um es herzustellen (vollständige Liste in [Rezepte](/de/content/recipes/)):
 
 
-**Bauplan:** [JPS-Greeneye lock booster NEXUS module CT](/de/content/items/named3-gang-assist-shared-dataprocessing-module-cprg/)
+**Bauplan:** [JPS-Greeneye lock booster NEXUS module CT](/content/items/named3-gang-assist-shared-dataprocessing-module-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/de/content/items/espitium/">Espitium</a></div><div class="prod-card-body">benötigt: <b>500</b></div></div>

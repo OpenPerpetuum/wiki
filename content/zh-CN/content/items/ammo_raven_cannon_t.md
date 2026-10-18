@@ -33,7 +33,7 @@ description: "Ammo / Cannon"
 **由组件 4个生产** — 组装组件来制造它（完整列表见[配方](/zh-CN/content/recipes/)）:
 
 
-**蓝图:** [Ammo Raven Cannon T Cprg](/zh-CN/content/items/ammo-raven-cannon-t-cprg/)
+**蓝图:** [Ammo Raven Cannon T Cprg](/content/items/ammo-raven-cannon-t-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/zh-CN/content/items/biotichrin/">Biotichrin</a></div><div class="prod-card-body">需要: <b>600</b></div></div>

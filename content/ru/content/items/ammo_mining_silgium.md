@@ -26,7 +26,7 @@ _Нет статистики — этот предмет не имеет агр�
 **Производится из 2 компонентах, уровень исследований 1** — соберите компоненты для изготовления (полный список в [Рецепты](/ru/content/recipes/)):
 
 
-**Чертёж:** [Miner charge (silgium) CT](/ru/content/items/ammo-mining-silgium-cprg/)
+**Чертёж:** [Miner charge (silgium) CT](/content/items/ammo-mining-silgium-cprg/)
 
 <div class="prod-cards">
 <div class="prod-card"><div class="prod-card-head"><svg class="prod-card-icon" aria-hidden="true"><use href="#mi-grid"/></svg><a class="prod-card-name" href="/ru/content/items/phlobotil/">Phlobotil</a></div><div class="prod-card-body">нужно: <b>20</b></div></div>
