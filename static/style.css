@@ -170,18 +170,7 @@ pre code { background: none; padding: 0; }
     padding: 0.35rem 0.6rem 0.15rem;
 }
 .palette-group:first-child { padding-top: 0.25rem; }
-.theme-toggle {
-    width: 36px; height: 34px;
-    display: inline-flex; align-items: center; justify-content: center;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid var(--neon-dim);
-    border-radius: 8px;
-    color: var(--neon);
-    font-size: 1.05rem; line-height: 1;
-    cursor: pointer;
-    padding: 0;
-}
-.theme-toggle:hover { background: var(--neon-faint); box-shadow: 0 0 10px var(--neon-faint); }
+
 #wiki-search {
     padding: 0.45rem 0.7rem;
     border: 1px solid var(--neon-dim);
@@ -385,7 +374,7 @@ html[data-mode="dev"] .sidenav .mode-tab.active {
 .sidenav .nav-group-head.row-active,
 .sidenav .nav-sub-head.row-active {
     outline: 2px solid var(--neon);
-    outline-offset: 2px;
+    outline-offset: -1px;
     border-radius: 6px;
     background: var(--neon-faint);
 }
@@ -418,11 +407,12 @@ html[data-mode="dev"] .sidenav .mode-tab.active {
 }
 .sidenav .nav-group-link {
     display: flex; align-items: center; gap: 0.5rem;
-    flex: 1; /* span the row (incl. the gap before the caret) so the active
-                outline covers the full entry width */
+    flex: 1; min-width: 0; /* span the row, allow shrinking so caret stays visible */
     padding: 0.2rem 0.6rem; margin: -0.2rem -0.6rem 0;
     border-radius: 6px; text-decoration: none;
+    overflow: hidden;
 }
+.sidenav .nav-group-link span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .sidenav .nav-group-link:hover {
     background: var(--neon-faint); color: var(--neon);
     border-left-color: transparent;
@@ -462,7 +452,22 @@ main p, main li, main blockquote, main dt, main dd {
    the hamburger (top left of the two-row topbar). Touch behaviour: tap the
    hamburger or the dimmed backdrop to close, tap a link to navigate +
    close, swipe the drawer left to close, Escape closes. */
-.sidenav-toggle { display: none; }
+.sidenav-toggle {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 2.2rem; height: 2.2rem; flex: none;
+    font-size: 1rem; line-height: 1;
+    color: var(--chrome-fg);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--neon-dim);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.sidenav-toggle:hover, .sidenav-toggle:focus-visible {
+    border-color: var(--neon); color: var(--neon); outline: none;
+}
+/* Desktop: hide sidenav when toggled off */
+body.sidenav-hidden .sidenav { display: none; }
+body.sidenav-hidden .layout { gap: 0; }
 @media (max-width: 800px) {
     /* no extra side margin: .layout and the footer below share the same
        1.2rem inset, so the panel edges line up top to bottom */
@@ -498,18 +503,9 @@ main p, main li, main blockquote, main dt, main dd {
         z-index: 44;
     }
     .sidenav-toggle {
-        display: inline-flex; align-items: center; justify-content: center;
-        width: 2.4rem; height: 2.4rem; flex: none;
-        font-size: 1.1rem; line-height: 1;
-        color: var(--chrome-fg);
-        background: rgba(255, 255, 255, 0.05);
-        border: 1px solid var(--neon-dim);
-        border-radius: 8px;
-        cursor: pointer;
+        width: 2.4rem; height: 2.4rem;
+        font-size: 1.1rem;
         -webkit-tap-highlight-color: transparent;
-    }
-    .sidenav-toggle:hover, .sidenav-toggle:focus-visible {
-        border-color: var(--neon); color: var(--neon); outline: none;
     }
     @media (prefers-reduced-motion: reduce) {
         .sidenav { transition: none; }
@@ -522,7 +518,7 @@ main p, main li, main blockquote, main dt, main dd {
     .topbar-main { gap: 0.5rem; }
     /* row 1 must fit a phone: keep the title short enough for the icons */
     .brand { font-size: 0.72rem; letter-spacing: 0.08em; white-space: nowrap; }
-    .sidenav-toggle, .theme-toggle, .palette-toggle { width: 34px; height: 34px; }
+    .sidenav-toggle, .palette-toggle { width: 34px; height: 34px; }
     #wiki-search { min-width: 0; }
 }
 
@@ -653,175 +649,31 @@ html[data-palette="amber"] {
     --chrome-fg: #e6dcc4;
     --chrome-muted: #9c8f6f;
 }
-/* light mode: same palettes, deepened to keep contrast on the pale chrome */
-html[data-theme="light"][data-palette="violet"] {
-    --neon: #6d28d9;
-    --neon-dim: rgba(109, 40, 217, 0.45);
-    --neon-faint: rgba(109, 40, 217, 0.10);
-    --accent: #6d28d9;
-    --grid-line: rgba(109, 40, 217, 0.08);
-    --th-bg: #d5c9f2;
-    --th-fg: #3b1d70;
-    --th-edge: rgba(109, 40, 217, 0.5);
-    --bg-top: #faf8ff;
-    --bg-bottom: #efeafb;
-    --fg: #241c38;
-    --muted: #5c5280;
-    --bg: #f7f5fd;
-    --bg-soft: #efeafb;
-    --border: #cfc3e8;
-    --code-bg: #e8e2f6;
-    --chrome-bg: #e4ddf3;
-    --chrome-bg2: #f0ecfa;
-    --chrome-fg: #332a52;
-    --chrome-muted: #6a6094;
+html[data-palette="dark"] {
+    --neon: #41d3ff;
+    --neon-dim: rgba(65, 211, 255, 0.38);
+    --neon-faint: rgba(65, 211, 255, 0.12);
+    --accent: #41d3ff;
+    --glow-a: rgba(65, 211, 255, 0.06);
+    --glow-b: rgba(65, 211, 255, 0.03);
+    --grid-line: rgba(65, 211, 255, 0.04);
+    --th-bg: #0f1a2e;
+    --th-fg: #c8f0ff;
+    --th-edge: rgba(65, 211, 255, 0.5);
+    --bg-top: #000000;
+    --bg-bottom: #000000;
+    /* pure black (OLED) */
+    --fg: #c8d6e5;
+    --muted: #5a6a7e;
+    --bg: #000000;
+    --bg-soft: #0a0a0a;
+    --border: #1a1a2e;
+    --code-bg: #0a0a14;
+    --chrome-bg: #000000;
+    --chrome-bg2: #050508;
+    --chrome-fg: #c0ccd8;
+    --chrome-muted: #4a5568;
 }
-html[data-theme="light"][data-palette="green"] {
-    --neon: #15803d;
-    --neon-dim: rgba(21, 128, 61, 0.45);
-    --neon-faint: rgba(21, 128, 61, 0.10);
-    --accent: #15803d;
-    --grid-line: rgba(21, 128, 61, 0.08);
-    --th-bg: #bfe3cc;
-    --th-fg: #124324;
-    --th-edge: rgba(21, 128, 61, 0.5);
-    --bg-top: #f8fefb;
-    --bg-bottom: #e6f4ec;
-    --fg: #16281e;
-    --muted: #4a7560;
-    --bg: #f3fbf6;
-    --bg-soft: #e4f4e9;
-    --border: #bfe0cd;
-    --code-bg: #ddefe2;
-    --chrome-bg: #d9efe0;
-    --chrome-bg2: #ecf8f1;
-    --chrome-fg: #1d3a2b;
-    --chrome-muted: #55806a;
-}
-html[data-theme="light"][data-palette="amber"] {
-    --neon: #b45309;
-    --neon-dim: rgba(180, 83, 9, 0.45);
-    --neon-faint: rgba(180, 83, 9, 0.10);
-    --accent: #b45309;
-    --grid-line: rgba(180, 83, 9, 0.08);
-    --th-bg: #f2ddb4;
-    --th-fg: #5c3403;
-    --th-edge: rgba(180, 83, 9, 0.5);
-    --bg-top: #fffdf7;
-    --bg-bottom: #f6eeda;
-    --fg: #2a2010;
-    --muted: #7c6a48;
-    --bg: #fdf9f0;
-    --bg-soft: #f7eed9;
-    --border: #e0cfa5;
-    --code-bg: #f3e8cf;
-    --chrome-bg: #f3e8d4;
-    --chrome-bg2: #faf3e5;
-    --chrome-fg: #46381c;
-    --chrome-muted: #8a7850;
-}
-html[data-theme="light"] {
-    --th-bg: #bcd7ec;
-    --th-fg: #0d3a5c;
-    --th-edge: rgba(13, 111, 174, 0.6);
-    --bg-top: #f7fbfe;
-    --bg-bottom: #eaf3fa;
-    --fg: var(--light-fg);
-    --muted: var(--light-muted);
-    --accent: var(--light-accent);
-    --bg: var(--light-bg);
-    --bg-soft: var(--light-bg-soft);
-    --border: var(--light-border);
-    --code-bg: var(--light-code-bg);
-    --grid-line: var(--light-grid-line);
-    /* chrome goes light too: same sci-fi shapes, soft blue-grey palette */
-    --chrome-bg: #dce8f3;
-    --chrome-bg2: #edf4fb;
-    --chrome-fg: #22384e;
-    --chrome-muted: #51667f;
-    --neon: #0d6fae;
-    --neon-dim: rgba(13, 111, 174, 0.45);
-    --neon-faint: rgba(13, 111, 174, 0.10);
-}
-html[data-theme="light"] body {
-    background:
-        radial-gradient(1100px 500px at 85% -10%, rgba(13, 111, 174, 0.06), transparent 60%),
-        radial-gradient(900px 420px at 8% 108%, rgba(13, 111, 174, 0.04), transparent 60%),
-        #d3e1ef;
-}
-html[data-theme="light"] .topbar,
-html[data-theme="light"] .sidenav,
-html[data-theme="light"] footer {
-    box-shadow: 0 6px 22px rgba(30, 60, 100, 0.14);
-}
-html[data-theme="light"] .topbar { border-bottom-color: var(--neon-dim); }
-html[data-theme="light"] .sidenav { border-color: var(--neon-dim); }
-html[data-theme="light"] footer { border-top-color: var(--neon-dim); }
-html[data-theme="light"] .brand { color: #14212e; text-shadow: none; }
-html[data-theme="light"] .theme-toggle,
-html[data-theme="light"] #wiki-search,
-html[data-theme="light"] .search-results a:hover {
-    background: rgba(13, 111, 174, 0.08);
-}
-html[data-theme="light"] .theme-toggle:hover,
-html[data-theme="light"] #wiki-search:focus {
-    box-shadow: 0 0 10px rgba(13, 111, 174, 0.25);
-}
-html[data-theme="light"] .sidenav a { color: var(--chrome-muted); }
-html[data-theme="light"] .sidenav a:hover { color: var(--neon); background: var(--neon-faint); }
-html[data-theme="light"] .search-results {
-    box-shadow: 0 10px 30px rgba(30, 60, 100, 0.2);
-    border-color: var(--neon-dim);
-}
-html[data-theme="light"] .footnav .here strong { color: #14212e; text-shadow: none; }
-html[data-theme="light"] main {
-    background:
-        linear-gradient(var(--grid-line) 1px, transparent 1px),
-        linear-gradient(90deg, var(--grid-line) 1px, transparent 1px),
-        linear-gradient(180deg, var(--bg-top), var(--bg-bottom));
-    background-size: 28px 28px, 28px 28px, 100% 100%;
-}
-html[data-theme="light"] h1 { color: #0e1c29; box-shadow: none; }
-html[data-theme="light"] h2 { color: #10243a; }
-html[data-theme="light"] tr:nth-child(even) td { background: #ebf4fa; }
-
-/* zone-map family colors: class-driven so colorblind modes can recolor */
-.mapfam-tm { fill: var(--map-tm); background-color: var(--map-tm); }
-.mapfam-ics { fill: var(--map-ics); background-color: var(--map-ics); }
-.mapfam-asi { fill: var(--map-asi); background-color: var(--map-asi); }
-.mapfam-gamma { fill: var(--map-gamma); background-color: var(--map-gamma); }
-.mapfam-special { fill: var(--map-special); background-color: var(--map-special); }
-
-/* ============ colorblind modes (independent of accent palette) ============
-   Okabe-Ito-based sets: distinguishable per CVD type. Each mode retints the
-   map family colors AND the accent so links/highlights stay usable. */
-html[data-cb="deutan"], html[data-cb="protan"] {
-    --map-tm: #56B4E9; --map-ics: #0072B2; --map-asi: #E69F00;
-    --map-gamma: #CC79A7; --map-special: #999999;
-    --neon: #56B4E9; --neon-dim: rgba(86, 180, 233, 0.4); --neon-faint: rgba(86, 180, 233, 0.12);
-    --accent: #56B4E9;
-    --glow-a: rgba(86, 180, 233, 0.08); --glow-b: rgba(86, 180, 233, 0.05);
-}
-html[data-cb="tritan"] {
-    --map-tm: #E69F00; --map-ics: #009E73; --map-asi: #56B4E9;
-    --map-gamma: #CC79A7; --map-special: #999999;
-    --neon: #E69F00; --neon-dim: rgba(230, 159, 0, 0.4); --neon-faint: rgba(230, 159, 0, 0.12);
-    --accent: #E69F00;
-    --glow-a: rgba(230, 159, 0, 0.08); --glow-b: rgba(230, 159, 0, 0.05);
-}
-html[data-cb="achro"] {
-    --map-tm: #f2f2f2; --map-ics: #c2c2c2; --map-asi: #929292;
-    --map-gamma: #626262; --map-special: #3a3a3a;
-    --neon: #e8e8e8; --neon-dim: rgba(232, 232, 232, 0.4); --neon-faint: rgba(232, 232, 232, 0.12);
-    --accent: #e8e8e8;
-    --glow-a: rgba(232, 232, 232, 0.06); --glow-b: rgba(232, 232, 232, 0.04);
-}
-html[data-theme="light"][data-cb="achro"] {
-    --neon: #222222; --neon-dim: rgba(34, 34, 34, 0.45); --neon-faint: rgba(34, 34, 34, 0.10);
-    --accent: #222222;
-    --map-special: #e0e0e0;
-}
-
 /* interactive SVG wrappers (world map + extension tree) */
 .map-zoom-wrap {
     position: relative;
@@ -875,7 +727,7 @@ html[data-theme="light"][data-cb="achro"] {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4px;
+    gap: 10px;
     z-index: 10;
     pointer-events: auto;
 }
@@ -886,6 +738,10 @@ html[data-theme="light"][data-cb="achro"] {
     letter-spacing: 0.05em;
     color: var(--muted);
     writing-mode: horizontal-tb;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 1px 4px;
 }
 .zm-zs-track {
     width: 6px;
@@ -906,6 +762,7 @@ html[data-theme="light"][data-cb="achro"] {
     border: 2px solid var(--bg);
     box-shadow: 0 1px 4px rgba(0,0,0,0.4);
     cursor: grab;
+    margin-bottom: -7px; /* center on position */
 }
 /* Disable interaction on static diagrams (NOT zone maps or world map) */
 .mermaid:not(.zonemap-wrap):not(.zonemap) {
@@ -1042,6 +899,10 @@ html[data-theme="light"][data-cb="achro"] {
 .zonetp-wrap.zm-hide-roads .zm-roads {
     display: none !important;
 }
+.zonetp-wrap.zm-hide-nonpassable #zm-nonpassable,
+.zonetp-wrap.zm-hide-nonpassable .zm-nonpassable {
+    display: none !important;
+}
 .zonetp-wrap.zm-hide-labels text,
 .zonetp-wrap.zm-hide-labels .zm-label {
     display: none !important;
@@ -1072,10 +933,13 @@ html[data-theme="light"][data-cb="achro"] {
    Desktop pointers: almost invisible at rest — map.js fades the line in
    while the cursor is near it (.zm-tp-on); touch layouts keep them plainly
    visible (no mouse to "approach" with). */
-.zonemap-tp { stroke-width: 0.8; stroke-opacity: 0.65; stroke-dasharray: 3 3; vector-effect: non-scaling-stroke; pointer-events: none; }
+.zonemap-tp { stroke-opacity: 0.65; vector-effect: non-scaling-stroke; pointer-events: none; }
+.zonemap-tp.zm-tp-casing { stroke-opacity: 0.45; }
 @media (hover: hover) and (pointer: fine) {
   .zonemap-tp { stroke-opacity: 0.25; transition: stroke-opacity 0.2s; }
+  .zonemap-tp.zm-tp-casing { stroke-opacity: 0.15; }
   .zonemap-tp.zm-tp-on { stroke-opacity: 0.65; }
+  .zonemap-tp.zm-tp-casing.zm-tp-on { stroke-opacity: 0.45; }
 }
 .zonemap-link { stroke: var(--accent); stroke-width: 1.2; stroke-opacity: 0.85; stroke-dasharray: 3 2; vector-effect: non-scaling-stroke; }
 .zonemap-link:hover { stroke: var(--neon); stroke-width: 1.6; }
@@ -1215,6 +1079,14 @@ main [id] { scroll-margin-top: 4.2rem; }
 .menuhead { white-space: nowrap; }
 .menuhead .menuicon { vertical-align: -0.25em; margin-right: 0.4rem; color: var(--accent); }
 
+/* Activity cards (home page) */
+.activity-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; margin: 0.8rem 0 1.2rem; }
+.activity-card { display: flex; align-items: flex-start; gap: 0.8rem; padding: 1rem; border: 1px solid var(--neon-dim); border-radius: 8px; background: var(--bg-soft); text-decoration: none; color: var(--text); transition: border-color 0.15s, box-shadow 0.15s; }
+.activity-card:hover { border-color: var(--neon); box-shadow: 0 0 12px var(--neon-faint); }
+.activity-card h3 { margin: 0 0 0.25rem; font-size: 1em; color: var(--accent); }
+.activity-card p { margin: 0; font-size: 0.88em; color: var(--muted); line-height: 1.4; }
+.activity-icon { width: 32px; height: 32px; flex: 0 0 auto; color: var(--accent); margin-top: 0.15rem; }
+
 /* robot model icons (robots page; masked placeholder icon) */
 .robot-icon {
     height: 2.6em; width: auto;
@@ -1352,7 +1224,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
     gap: 0.8rem;
-    margin: 1.1rem 0 1.6rem;
+    margin: 1.1rem 0 0;
 }
 .home-card {
     display: flex; flex-direction: column; gap: 0.4rem;
@@ -1479,6 +1351,14 @@ footer {
 
 /* ============ missions catalog: per-type tier cards ============ */
 .mission-index { line-height: 2; margin: 0.8rem 0; }
+/* Catalog dual-view toggle */
+.catalog-dual-header { display: flex; align-items: center; gap: 0.8rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
+.catalog-dual-header h1 { margin: 0; }
+.catalog-count { color: var(--muted); font-size: 0.9em; }
+.catalog-toggle { margin-left: auto; display: flex; gap: 0; border: 1px solid var(--neon-dim); border-radius: 6px; overflow: hidden; }
+.catalog-toggle-btn { background: var(--bg-soft); border: none; color: var(--muted); padding: 0.3rem 0.7rem; font-size: 0.85em; cursor: pointer; transition: all 0.15s; }
+.catalog-toggle-btn.active { background: var(--neon-dim); color: var(--text); }
+.catalog-toggle-btn:hover:not(.active) { color: var(--text); }
 .mission-type-chip {
     display: inline-block; padding: 0.1rem 0.55rem; margin: 0.05rem 0.15rem;
     border: 1px solid var(--neon-dim); border-radius: 999px;

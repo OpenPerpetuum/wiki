@@ -46,18 +46,15 @@ test.describe('i18n under the /wiki subpath', () => {
     await expect(page.locator('.mode-tab[data-mode-tab="home"]')).toContainText('Home');
   });
 
-  test('switching on a page WITHOUT a translation swaps chrome only', async ({ page, baseURL }) => {
-    // /content/items/titanium/ has no French equivalent
+  test('switching to French on an item page navigates to the translated URL', async ({ page, baseURL }) => {
     await page.goto(`${baseURL}/content/items/titanium/`);
     await clearLang(page);
     await page.reload();
     await page.locator('#lang-toggle').click();
     await page.locator('#lang-menu button[data-lang="fr"]').click();
-    await page.waitForTimeout(300);
-    expect(page.url()).not.toMatch(/\/fr\//);
+    await page.waitForURL('**/wiki/fr/content/items/titanium/**');
     await expect(page.locator('.mode-tab[data-mode-tab="home"]')).toContainText('Accueil');
     await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
-    await expect(page.locator('h1')).toContainText('Titanium');
   });
 
   test('nav links are rewritten with the /wiki/<lang> prefix (no bare /<lang> links)', async ({ page, baseURL }) => {

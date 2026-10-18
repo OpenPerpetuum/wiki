@@ -26,7 +26,7 @@
     "loading": "読み込み中…",
     "error": "エラー",
     "nav_start": "スタート",
-    "nav_world": "ワールド",
+    "nav_world": "ワールドマップ",
     "nav_play": "プレイ",
     "nav_systems": "システム",
     "nav_dev": "開発",
@@ -187,7 +187,18 @@
     "sc_move": "検索結果の選択を移動",
     "sc_jump": "最初 / 最後の結果へ",
     "sc_open": "選択した結果を開く",
-    "sc_toggle": "このウィンドウの表示切替"
+    "sc_toggle": "このウィンドウの表示切替",
+    "nav_character_feat": "キャラクター概要",
+    "nav_content_components": "コンポーネント",
+    "nav_gather": "採集",
+    "nav_items_inv": "アイテム＆インベントリ",
+    "nav_market_feat": "マーケット概要",
+    "nav_produce": "ロボットと装備",
+    "nav_refine": "生産",
+    "nav_research_feat": "研究概要",
+    "nav_tech_groups": "テックグループ",
+    "palette_dark": "ダーク (OLED)",
+    "zonemap_lm_nonpassable": "非通過可能エリア"
   },
   "names": {},
   "labels": {

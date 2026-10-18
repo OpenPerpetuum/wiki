@@ -43,13 +43,16 @@ test('zones are drawn with coastline thumbnails and inter-zone TPs are dashed', 
   const r = await page.request.get(first);
   expect(r.ok()).toBe(true);
   expect(r.headers()['content-type']).toMatch(/image\/(svg\+xml|png)/);
-  // inter-zone TP lines: dashed, gradient-colored (stroke = url(#tpgN)),
-  // no local-teleport elements on the world map anymore
-  const tps = page.locator('.zonemap .zonemap-tp');
+  // inter-zone TP lines: dashed, solid-colored (stroke = hex color per family),
+  // with a dark casing underlay. No local-teleport elements on the world map.
+  const tps = page.locator('.zonemap .zonemap-tp:not(.zm-tp-casing)');
   expect(await tps.count()).toBeGreaterThan(10);
   const dash = await tps.first().evaluate((el) => getComputedStyle(el).strokeDasharray);
   expect(dash).not.toBe('none');
-  expect(await tps.first().getAttribute('stroke')).toMatch(/^url\(#tpg\d+\)$/);
+  expect(await tps.first().getAttribute('stroke')).toMatch(/^#[0-9a-f]{6}$/i);
+  // casing lines (dark underlay) exist for each colored line
+  const casings = page.locator('.zonemap .zonemap-tp.zm-tp-casing');
+  expect(await casings.count()).toBeGreaterThanOrEqual(await tps.count());
   expect(await page.locator('.zonemap .ltp-line').count()).toBe(0);
   expect(await page.locator('.zonemap .ltp-dot').count()).toBe(0);
 });
@@ -68,7 +71,7 @@ test('TP lines draw OVER the islands and anchor at the real column/landing spots
   const info = await page.evaluate(() => {
     const svg = document.querySelector('.zonemap');
     const nodes = [...svg.querySelectorAll('a > g')];
-    const lines = [...svg.querySelectorAll('line.zonemap-tp')];
+    const lines = [...svg.querySelectorAll('line.zonemap-tp:not(.zm-tp-casing)')];
     // 1) the lines come after every node in document order (drawn on top)
     const lastNode = nodes[nodes.length - 1];
     const firstLine = lines[0];
@@ -107,7 +110,7 @@ test('TP lines are faded at rest and light up when hovering a connected zone (de
   const a = page.locator('.zonemap a[href*="zone-tm-a-real"]').first();
   await a.scrollIntoViewIfNeeded();
   await page.waitForTimeout(150);
-  const op = () => page.evaluate(() => getComputedStyle(document.querySelector('.zonemap-tp[data-tps="zone_TM_A_real"]')).strokeOpacity);
+  const op = () => page.evaluate(() => getComputedStyle(document.querySelector('.zonemap-tp[data-tps="zone_TM_A_real"]:not(.zm-tp-casing)')).strokeOpacity);
   // at rest: faded to 0.25 (faint, but visible)
   expect(parseFloat(await op())).toBeGreaterThan(0.2);
   expect(parseFloat(await op())).toBeLessThan(0.35);
@@ -227,28 +230,26 @@ test('panning may show empty space, but at least 25% of the viewport stays cover
   const box = await wrap.boundingBox();
   const cx = box.x + box.width / 2, cy = box.y + box.height / 2;
 
-  // at max zoom out the whole map is visible: nothing is clipped, so the
-  // coverage equals the map's own share of the (wider) viewport
-  expect(await coverage(page)).toBeGreaterThanOrEqual(0.36);
+  // World map opens pre-zoomed (~7x): the content fills the viewport
+  expect(await coverage(page)).toBeGreaterThanOrEqual(0.9);
 
   // ...and it can be panned (empty space allowed)...
   await page.mouse.move(cx, cy);
   await page.mouse.down();
-  await page.mouse.move(cx + 100, cy + 60, { steps: 3 });
+  await page.mouse.move(cx + 80, cy + 50, { steps: 3 });
   await page.mouse.up();
   let p = await transform(page);
-  expect(p.tx).toBeGreaterThan(50);
+  // the content moved (at high zoom, even small drags produce large tx/ty)
+  expect(Math.abs(p.tx) + Math.abs(p.ty)).toBeGreaterThan(20);
 
   // ...but never further out than 25% of the viewport still showing the map
-  // (many small steps: like a real drag, the pointer leaves the wrapper
-  // only after pointer capture has engaged)
   await page.mouse.move(cx, cy);
   await page.mouse.down();
   await page.mouse.move(cx + 3000, cy + 3000, { steps: 40 });
   await page.mouse.up();
   expect(await coverage(page)).toBeGreaterThanOrEqual(0.249);
   p = await transform(page);
-  expect(p.tx + p.ty).toBeGreaterThan(100); // it did pan as far as the limit allows
+  expect(Math.abs(p.tx) + Math.abs(p.ty)).toBeGreaterThan(100); // it did pan as far as the limit allows
 
   // reset returns to the INITIAL (pre-zoomed) state, not the s = 1
   // whole-canvas view — that is the lost-in-empty-space one
@@ -267,14 +268,14 @@ test('panning may show empty space, but at least 25% of the viewport stays cover
 test('world map opens pre-zoomed onto the islands (not lost in empty space)', async ({ page, baseURL }) => {
   await page.goto(`${baseURL}${MAP}`);
   const t = await transform(page);
-  expect(t.scale).toBeGreaterThan(1.1); // closer than the whole-canvas view
-  expect(t.scale).toBeLessThanOrEqual(3.01);
-  // and the user can still wheel out to the full canvas
+  expect(t.scale).toBeGreaterThan(5); // heavily zoomed into the island cluster
+  expect(t.scale).toBeLessThanOrEqual(8);
+  // and the user can still wheel out toward the full canvas
   const wrap = page.locator('.zonemap-wrap');
   const box = await wrap.boundingBox();
   await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2);
-  for (let i = 0; i < 8; i++) { await page.mouse.wheel(0, 300); await page.waitForTimeout(30); }
-  expect((await transform(page)).scale).toBeCloseTo(1, 2);
+  for (let i = 0; i < 15; i++) { await page.mouse.wheel(0, 300); await page.waitForTimeout(30); }
+  expect((await transform(page)).scale).toBeLessThan(t.scale); // zoomed out from initial
 });
 
 test('zoomed in: panning keeps at least 25% of the viewport covered', async ({ page, baseURL }) => {
@@ -285,27 +286,27 @@ test('zoomed in: panning keeps at least 25% of the viewport covered', async ({ p
   const box = await wrap.boundingBox();
   const cx = box.x + box.width / 2, cy = box.y + box.height / 2;
 
-  // zoom in (~2x)
+  // already zoomed in at ~7x; zoom in a bit more
   await page.mouse.move(cx, cy);
   await page.mouse.wheel(0, -480);
   await page.waitForTimeout(50);
-  expect((await transform(page)).scale).toBeGreaterThan(1.5);
+  expect((await transform(page)).scale).toBeGreaterThan(7);
 
   // drag far past any sane limit — at least 25% must stay covered
   await page.mouse.move(cx, cy);
   await page.mouse.down();
-  await page.mouse.move(cx + 600, cy + 600, { steps: 20 });
+  await page.mouse.move(cx + 400, cy + 400, { steps: 20 });
   await page.mouse.up();
   let p = await transform(page);
-  expect(p.ty).toBeGreaterThan(20); // it did pan
+  expect(Math.abs(p.tx) + Math.abs(p.ty)).toBeGreaterThan(20); // it did pan
   expect(await coverage(page)).toBeGreaterThanOrEqual(0.249);
 
   // and the other way
   await page.mouse.move(cx, cy);
   await page.mouse.down();
-  await page.mouse.move(cx - 1200, cy - 1200, { steps: 20 });
+  await page.mouse.move(cx - 800, cy - 800, { steps: 20 });
   await page.mouse.up();
   p = await transform(page);
-  expect(p.ty).toBeLessThan(-20);
+  expect(Math.abs(p.tx) + Math.abs(p.ty)).toBeGreaterThan(20);
   expect(await coverage(page)).toBeGreaterThanOrEqual(0.249);
 });

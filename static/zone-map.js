@@ -27,6 +27,7 @@
         outposts: true,
         terminals: true,
         roads: true,
+        nonpassable: false,
         labels: true
     };
 
@@ -50,6 +51,12 @@
         wrap.classList.toggle('zm-hide-outposts', !cfg.outposts);
         wrap.classList.toggle('zm-hide-terminals', !cfg.terminals);
         wrap.classList.toggle('zm-hide-roads', !cfg.roads);
+        var npEnabled = !!cfg.nonpassable;
+        wrap.classList.toggle('zm-hide-nonpassable', !npEnabled);
+        // The SVG has inline style="display:none" to avoid a flash before
+        // landmarks are applied. Remove it when the user enables the layer.
+        var npEl = wrap.querySelector('#zm-nonpassable');
+        if (npEl) npEl.style.display = npEnabled ? '' : 'none';
         wrap.classList.toggle('zm-hide-labels', !cfg.labels);
 
         var panel = wrap.querySelector('.zonemap-landmarks-panel');
@@ -150,8 +157,12 @@
             svg.removeAttribute('width');
             svg.removeAttribute('height');
             // teleport links + terrain <image>s: prefix the deploy base
+            var lang = (window.WIKI_getLang && window.WIKI_getLang()) || 'en';
+            var langPrefix = (lang !== 'en') ? '/' + lang : '';
             Array.prototype.forEach.call(svg.querySelectorAll('a[href]'), function (a) {
-                a.setAttribute('href', withRoot(a.getAttribute('href')));
+                var h = a.getAttribute('href');
+                if (h && h.indexOf('/zones/') === 1) h = langPrefix + h;
+                a.setAttribute('href', withRoot(h));
             });
             Array.prototype.forEach.call(svg.querySelectorAll('image'), function (im) {
                 var h = im.getAttribute('href') || im.getAttribute('xlink:href');
@@ -203,6 +214,7 @@
                 { key: 'outposts', label: ui.zonemapLmOutposts || 'Outposts', icon: '◉' },
                 { key: 'terminals', label: ui.zonemapLmTerminals || 'Field terminals', icon: '▽' },
                 { key: 'roads', label: ui.zonemapLmRoads || 'Roads', icon: '━' },
+                { key: 'nonpassable', label: ui.zonemapLmNonpassable || 'Non-passable', icon: '▓' },
                 { key: 'labels', label: ui.zonemapLmLabels || 'Labels', icon: 'Aa' }
             ];
 
@@ -298,6 +310,8 @@
                 ? img.parentNode
                 : img;
             host.parentNode.replaceChild(wrap, host);
+            // Re-run i18n link rewrite now that SVG <a> elements are in the DOM
+            if (window.WIKI_rewriteLinks) window.WIKI_rewriteLinks();
         }).catch(function () { /* keep the static <img> */ });
     }
 
@@ -348,6 +362,7 @@
         }
     }
 
+    window.WIKI_rescanZoneMaps = scan;
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', scan);
     } else {

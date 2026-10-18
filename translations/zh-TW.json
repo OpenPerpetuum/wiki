@@ -26,7 +26,7 @@
     "loading": "載入中…",
     "error": "錯誤",
     "nav_start": "開始",
-    "nav_world": "世界",
+    "nav_world": "世界地圖",
     "nav_play": "遊戲",
     "nav_systems": "系統",
     "nav_dev": "開發",
@@ -187,7 +187,18 @@
     "sc_move": "移動搜尋選擇",
     "sc_jump": "跳到第一個 / 最後一個結果",
     "sc_open": "打開所選結果",
-    "sc_toggle": "顯示 / 隱藏此視窗"
+    "sc_toggle": "顯示 / 隱藏此視窗",
+    "nav_character_feat": "角色概覽",
+    "nav_content_components": "組件",
+    "nav_gather": "採集",
+    "nav_items_inv": "物品與背包",
+    "nav_market_feat": "市場概覽",
+    "nav_produce": "機器人與裝備",
+    "nav_refine": "生產",
+    "nav_research_feat": "研究概覽",
+    "nav_tech_groups": "科技分組",
+    "palette_dark": "深色 (OLED)",
+    "zonemap_lm_nonpassable": "不可通過區域"
   },
   "names": {},
   "labels": {
