@@ -204,18 +204,66 @@ def main():
         return null;
     }
 
+    // Fetch a page and swap the <article> content + title in-place (no full reload).
+    function swapContent(url) {
+        var art = document.querySelector('article');
+        if (!art) { window.location.href = url; return; }
+        // Brief fade-out for smoothness
+        art.style.transition = 'opacity 0.15s';
+        art.style.opacity = '0';
+        fetch(url, { credentials: 'same-origin' })
+            .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
+            .then(function (html) {
+                var doc = new DOMParser().parseFromString(html, 'text/html');
+                var newArt = doc.querySelector('article');
+                if (!newArt) throw new Error('no <article> in response');
+                // Swap innerHTML (preserves the <article> element itself)
+                art.innerHTML = newArt.innerHTML;
+                // Update title
+                var newTitle = doc.querySelector('title');
+                if (newTitle) document.title = newTitle.textContent;
+                // Update URL without reload
+                try { history.pushState({ path: url }, '', url); } catch (e) { /* ignore */ }
+                // Re-apply translations to the new content (data-i18n elements)
+                applyLang(getLang());
+                // Re-init interactive elements in the new content
+                if (window.WIKI_rescanZoneMaps) window.WIKI_rescanZoneMaps();
+                // Re-render mermaid diagrams if present
+                if (window.mermaid && art.querySelector('.mermaid')) {
+                    window.mermaid.run({ nodes: art.querySelectorAll('.mermaid') });
+                }
+                // Dispatch event so other scripts can react
+                document.dispatchEvent(new CustomEvent('wiki:content-swapped', { detail: { url: url } }));
+            })
+            .catch(function (err) {
+                console.warn('[i18n] content swap failed, falling back to navigation:', err);
+                // Reset opacity before navigating (avoid blank flash)
+                art.style.transition = '';
+                art.style.opacity = '';
+                window.location.href = url;
+            })
+            .then(function () {
+                // Always fade back in (runs after both success and catch)
+                requestAnimationFrame(function () {
+                    art.style.opacity = '1';
+                });
+            });
+    }
+
     function setLang(l) {
         try { localStorage.setItem('wiki-lang', l); } catch (e) {}
-        applyLang(l);
-        if (LANG_PAGES) rewriteNavLinks(l);
-        if (window.WIKI_syncLists) window.WIKI_syncLists();
-        if (window.WIKI_selectActive) window.WIKI_selectActive();
-        if (window.WIKI_paletteDevLock) window.WIKI_paletteDevLock();
-        // If a translated version of this page exists, navigate to it
+        // Full page reload to the translated URL (handles mermaid, zone maps, etc.)
         var url = translatedUrl(l);
         if (url && url !== window.location.pathname) {
             window.location.href = url;
+            return;
         }
+        // No translated page — just update chrome in-place
+        try { applyLang(l); } catch (e) { console.warn('[i18n] applyLang:', e); }
+        try { if (LANG_PAGES) rewriteNavLinks(l); } catch (e) { console.warn('[i18n] rewriteNavLinks:', e); }
+        try { if (window.WIKI_syncLists) window.WIKI_syncLists(); } catch (e) { console.warn('[i18n] syncLists:', e); }
+        try { if (window.WIKI_selectActive) window.WIKI_selectActive(); } catch (e) { console.warn('[i18n] selectActive:', e); }
+        try { if (window.WIKI_paletteDevLock) window.WIKI_paletteDevLock(); } catch (e) { console.warn('[i18n] paletteDevLock:', e); }
     }
 
     // Swap all translatable chrome strings + game names.

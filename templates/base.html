@@ -4,11 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
-        // Apply the saved theme + language before first paint (no flash).
+        // Apply the saved palette + language before first paint (no flash).
         (function () {
             try {
-                if (localStorage.getItem("wiki-theme") === "light")
-                    document.documentElement.setAttribute("data-theme", "light");
                 var p = localStorage.getItem("wiki-palette");
                 if (p && p !== "cyan")
                     document.documentElement.setAttribute("data-palette", p);
@@ -61,6 +59,11 @@
 <symbol id="mi-grid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="4" width="17" height="16" rx="1.5"/><path d="M3.5 9.5h17M3.5 14.5h17M9.5 4v16"/></symbol>
         <symbol id="mi-map" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4 3.5 6v14L9 18l6 2 5.5-2V4L15 6 9 4ZM9 4v14M15 6v14"/></symbol>
         <symbol id="mi-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 10.5 12 3.5l8.5 7"/><path d="M5.5 9.5V20h13V9.5"/><path d="M10 20v-5.5h4V20"/></symbol>
+        <symbol id="mi-flask" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2.5h4M10 2.5v7L4.5 19a1.5 1.5 0 0 0 1.3 2.2h12.4a1.5 1.5 0 0 0 1.3-2.2L14 9.5v-7"/><path d="M7 15h10"/></symbol>
+        <symbol id="mi-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 4.5A1.5 1.5 0 0 1 6 3h12a1.5 1.5 0 0 1 1.5 1.5V19.5A1.5 1.5 0 0 1 18 21H6a1.5 1.5 0 0 1-1.5-1.5Z"/><path d="M8 7h8M8 11h8M8 15h5"/></symbol>
+        <symbol id="mi-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M5 20.5c0-3.5 3-6.5 7-6.5s7 3 7 6.5"/></symbol>
+        <symbol id="mi-box" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8.5 12 3.5 3 8.5v7L12 20.5l9-5Z"/><path d="M3 8.5l9 5 9-5M12 13.5v7"/></symbol>
+        <symbol id="mi-shop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7.5 5.5 3h13L20 7.5"/><path d="M4 7.5h16v13H4Z"/><path d="M9 20.5v-7h6v7"/></symbol>
     </defs>
 </svg>
 <div id="wiki-ui-strings" hidden
@@ -99,10 +102,10 @@
         </button>
         <div id="palette-menu" class="palette-menu" role="menu">
             <div class="palette-group" data-i18n="menu_palette_group">{{ config.extra.ui.menu_palette_group }}</div>
-            <button type="button" role="menuitem" data-palette="cyan" aria-pressed="true"><span class="palette-dot" aria-hidden="true" style="background:#41d3ff"></span><span data-i18n="palette_cyan">{{ config.extra.ui.palette_cyan }}</span></button>
-            <button type="button" role="menuitem" data-palette="violet" aria-pressed="false"><span class="palette-dot" aria-hidden="true" style="background:#a78bfa"></span><span data-i18n="palette_violet">{{ config.extra.ui.palette_violet }}</span></button>
-            <button type="button" role="menuitem" data-palette="green" aria-pressed="false"><span class="palette-dot" aria-hidden="true" style="background:#4ade80"></span><span data-i18n="palette_phosphor">{{ config.extra.ui.palette_phosphor }}</span></button>
             <button type="button" role="menuitem" data-palette="amber" aria-pressed="false"><span class="palette-dot" aria-hidden="true" style="background:#fbbf24"></span><span data-i18n="palette_amber">{{ config.extra.ui.palette_amber }}</span></button>
+            <button type="button" role="menuitem" data-palette="green" aria-pressed="false"><span class="palette-dot" aria-hidden="true" style="background:#4ade80"></span><span data-i18n="palette_phosphor">{{ config.extra.ui.palette_phosphor }}</span></button>
+            <button type="button" role="menuitem" data-palette="cyan" aria-pressed="true"><span class="palette-dot" aria-hidden="true" style="background:#41d3ff"></span><span data-i18n="palette_cyan">{{ config.extra.ui.palette_cyan }}</span></button>
+            <button type="button" role="menuitem" data-palette="dark" aria-pressed="false"><span class="palette-dot" aria-hidden="true" style="background:#000;border:1px solid #333"></span><span data-i18n="palette_dark">{{ config.extra.ui.palette_dark }}</span></button>
             <div class="palette-group" data-i18n="menu_cb_group">{{ config.extra.ui.menu_cb_group }}</div>
             <button type="button" role="menuitem" data-cb="none" aria-pressed="true"><span data-i18n="cb_default">{{ config.extra.ui.cb_default }}</span></button>
             <button type="button" role="menuitem" data-cb="deutan"><span data-i18n="cb_deutan">{{ config.extra.ui.cb_deutan }}</span></button>
@@ -110,7 +113,7 @@
             <button type="button" role="menuitem" data-cb="tritan"><span data-i18n="cb_tritan">{{ config.extra.ui.cb_tritan }}</span></button>
             <button type="button" role="menuitem" data-cb="achro"><span data-i18n="cb_achro">{{ config.extra.ui.cb_achro }}</span></button>
         </div>
-        <button id="theme-toggle" class="theme-toggle" type="button" data-i18n-aria="aria_theme_toggle" aria-label="{{ config.extra.ui.aria_theme_toggle}}" title="{{ config.extra.ui.aria_theme_toggle}}">☾</button>
+
         </div>
     </div>
     <!-- Row 2: the search bar (wide, centered). -->
@@ -142,6 +145,7 @@
                 <button type="button" class="mode-tab" data-mode-tab="dev" role="tab" aria-selected="false" data-i18n-aria="aria_mode_toggle" aria-label="{{ config.extra.ui.aria_mode_toggle }}"><span data-i18n="nav_mode_dev">{{ config.extra.ui.nav_mode_dev }}</span></button>
             </div>
         </li>
+        <!-- START -->
         <li class="nav-group">
             <div class="nav-group-head">
                 <a class="nav-group-link" href="/menu/start/"><svg class="navicon" aria-hidden="true"><use href="#mi-start"/></svg><span data-i18n="nav_start">{{ config.extra.ui.nav_start}}</span></a>
@@ -154,113 +158,60 @@
                 <li><a href="/features/client-setup/" data-i18n="nav_client_setup">{{ config.extra.ui.nav_client_setup }}</a></li>
             </ul>
         </li>
+        <!-- WORLD -->
         <li class="nav-group">
             <div class="nav-group-head">
-                <a class="nav-group-link" href="/zones/map/"><svg class="navicon" aria-hidden="true"><use href="#mi-map"/></svg><span data-i18n="nav_zone_map">{{ config.extra.ui.nav_zone_map}}</span></a>
-                <button type="button" class="nav-caret" aria-expanded="true" data-i18n-aria="nav_collapse" aria-label="{{ config.extra.ui.nav_collapse}}" title="{{ config.extra.ui.nav_collapse}}">▾</button>
-            </div>
-            <ul class="nav-items">
-                <li><a href="/zones/zone-training/" data-i18n="nav_map_training">{{ config.extra.ui.nav_map_training }}</a></li>
-                <li class="nav-has-sub">
-                    <div class="nav-sub-head">
-                        <a href="/zones/protection/" data-i18n="nav_map_protection">{{ config.extra.ui.nav_map_protection }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
-                    </div>
-                    <ul class="nav-sub">
-                        <li><a href="/zones/generation/" data-i18n="nav_zones_generation">{{ config.extra.ui.nav_zones_generation }}</a></li>
-                    </ul>
-                </li>
-                <li><a href="/zones/alpha/" data-i18n="nav_map_alpha">{{ config.extra.ui.nav_map_alpha }}</a></li>
-                <li><a href="/zones/beta/" data-i18n="nav_map_beta">{{ config.extra.ui.nav_map_beta }}</a></li>
-                <li class="nav-has-sub">
-                    <div class="nav-sub-head">
-                        <a href="/zones/gamma/" data-i18n="nav_map_gamma">{{ config.extra.ui.nav_map_gamma }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
-                    </div>
-                    <ul class="map-sub map-sub-deep">
-                        <li><a href="/zones/gamma/#t0" data-i18n="nav_map_gamma_t0">{{ config.extra.ui.nav_map_gamma_t0 }}</a></li>
-                        <li><a href="/zones/gamma/#t1" data-i18n="nav_map_gamma_t1">{{ config.extra.ui.nav_map_gamma_t1 }}</a></li>
-                        <li><a href="/zones/gamma/#t2" data-i18n="nav_map_gamma_t2">{{ config.extra.ui.nav_map_gamma_t2 }}</a></li>
-                        <li><a href="/zones/gamma/#t3" data-i18n="nav_map_gamma_t3">{{ config.extra.ui.nav_map_gamma_t3 }}</a></li>
-                        <li><a href="/zones/gamma/#t4" data-i18n="nav_map_gamma_t4">{{ config.extra.ui.nav_map_gamma_t4 }}</a></li>
-                    </ul>
-                </li>
-                <li><a href="/zones/zone-index/" data-i18n="nav_all_zones">{{ config.extra.ui.nav_all_zones }}</a></li>
-            </ul>
-        </li>
-        <li class="nav-group">
-            <div class="nav-group-head">
-                <a class="nav-group-link" href="/menu/play/"><svg class="navicon" aria-hidden="true"><use href="#mi-radar"/></svg><span data-i18n="nav_play">{{ config.extra.ui.nav_play}}</span></a>
+                <a class="nav-group-link" href="/zones/map/"><svg class="navicon" aria-hidden="true"><use href="#mi-map"/></svg><span data-i18n="nav_world">{{ config.extra.ui.nav_world}}</span></a>
                 <button type="button" class="nav-caret" aria-expanded="true" data-i18n-aria="nav_collapse" aria-label="{{ config.extra.ui.nav_collapse}}" title="{{ config.extra.ui.nav_collapse}}">▾</button>
             </div>
             <ul class="nav-items">
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
-                        <a href="/features/gathering/" data-i18n="nav_gathering">{{ config.extra.ui.nav_gathering }}</a>
+                        <a href="/zones/map/" data-i18n="nav_zone_map">{{ config.extra.ui.nav_zone_map }}</a>
                         <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                     </div>
                     <ul class="nav-sub">
-                        <li><a href="/content/ores/" data-i18n="nav_content_ores">{{ config.extra.ui.nav_content_ores }}</a></li>
-                        <li><a href="/content/plants/" data-i18n="nav_content_plants">{{ config.extra.ui.nav_content_plants }}</a></li>
+                        <li><a href="/zones/zone-training/" data-i18n="nav_map_training">{{ config.extra.ui.nav_map_training }}</a></li>
+                        <li><a href="/zones/alpha/" data-i18n="nav_map_alpha">{{ config.extra.ui.nav_map_alpha }}</a></li>
+                        <li><a href="/zones/beta/" data-i18n="nav_map_beta">{{ config.extra.ui.nav_map_beta }}</a></li>
+                        <li><a href="/zones/gamma/" data-i18n="nav_map_gamma">{{ config.extra.ui.nav_map_gamma }}</a></li>
+                        <li><a href="/zones/zone-index/" data-i18n="nav_all_zones">{{ config.extra.ui.nav_all_zones }}</a></li>
                     </ul>
                 </li>
-                <li class="nav-has-sub">
-                    <div class="nav-sub-head">
-                        <a href="/features/combat/" data-i18n="nav_combat">{{ config.extra.ui.nav_combat }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
-                    </div>
-                    <ul class="nav-sub">
-                        <li><a href="/features/npcs/" data-i18n="nav_npcs">{{ config.extra.ui.nav_npcs }}</a></li>
-                    </ul>
-                </li>
-                <li class="nav-has-sub">
-                    <div class="nav-sub-head">
-                        <a href="/features/missions/" data-i18n="nav_missions">{{ config.extra.ui.nav_missions }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
-                    </div>
-                    <ul class="nav-sub">
-                        <li><a href="/content/missions/" data-i18n="nav_content_missions">{{ config.extra.ui.nav_content_missions }}</a></li>
-                    </ul>
-                </li>
-                <li class="nav-has-sub">
-                    <div class="nav-sub-head">
-                        <a href="/features/movement/" data-i18n="nav_movement">{{ config.extra.ui.nav_movement }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
-                    </div>
-                    <ul class="nav-sub">
-                        <li><a href="/features/exploration/" data-i18n="nav_exploration">{{ config.extra.ui.nav_exploration }}</a></li>
-                        <li><a href="/features/probes/" data-i18n="nav_probes">{{ config.extra.ui.nav_probes }}</a></li>
-                    </ul>
-                </li>
+                <li><a href="/features/movement/" data-i18n="nav_movement">{{ config.extra.ui.nav_movement }}</a></li>
+                <li><a href="/features/exploration/" data-i18n="nav_exploration">{{ config.extra.ui.nav_exploration }}</a></li>
+                <li><a href="/features/probes/" data-i18n="nav_probes">{{ config.extra.ui.nav_probes }}</a></li>
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
                         <a href="/features/pbs/" data-i18n="nav_bases_sites">{{ config.extra.ui.nav_bases_sites }}</a>
                         <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                     </div>
                     <ul class="nav-sub">
-                        <li><a href="/features/pbs/" data-i18n="nav_pbs">{{ config.extra.ui.nav_pbs }}</a></li>
                         <li><a href="/features/outposts/" data-i18n="nav_outposts">{{ config.extra.ui.nav_outposts }}</a></li>
                         <li><a href="/features/intrusion/" data-i18n="nav_intrusion">{{ config.extra.ui.nav_intrusion }}</a></li>
-                        <li class="nav-has-sub">
-                            <div class="nav-sub-head">
-                                <a href="/content/deployables/" data-i18n="nav_content_deployables">{{ config.extra.ui.nav_content_deployables }}</a>
-                                <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
-                            </div>
-                            <ul class="nav-sub">
-                                <li><a href="/content/deployables/#mobile-teleports-12" data-i18n="nav_dep_mobile_tp">{{ config.extra.ui.nav_dep_mobile_tp }}</a></li>
-                                <li><a href="/content/deployables/#mobile-fields-6" data-i18n="nav_dep_mobile_fields">{{ config.extra.ui.nav_dep_mobile_fields }}</a></li>
-                                <li><a href="/content/deployables/#arena-teleports-2" data-i18n="nav_dep_arena_tp">{{ config.extra.ui.nav_dep_arena_tp }}</a></li>
-                                <li><a href="/content/deployables/#mines-bombs-7" data-i18n="nav_dep_mines">{{ config.extra.ui.nav_dep_mines }}</a></li>
-                                <li><a href="/content/deployables/#wall-repairers-3" data-i18n="nav_dep_wall">{{ config.extra.ui.nav_dep_wall }}</a></li>
-                                <li><a href="/content/deployables/#plant-seeds-13" data-i18n="nav_dep_seeds">{{ config.extra.ui.nav_dep_seeds }}</a></li>
-                                <li><a href="/content/deployables/#npc-eggs-82" data-i18n="nav_dep_eggs">{{ config.extra.ui.nav_dep_eggs }}</a></li>
-                                <li><a href="/content/deployables/#gates-1" data-i18n="nav_dep_gates">{{ config.extra.ui.nav_dep_gates }}</a></li>
-                                <li><a href="/content/deployables/#containers-1" data-i18n="nav_dep_containers">{{ config.extra.ui.nav_dep_containers }}</a></li>
-                                <li><a href="/content/deployables/#miscellaneous-6" data-i18n="nav_dep_misc">{{ config.extra.ui.nav_dep_misc }}</a></li>
-                            </ul>
-                        </li>
                     </ul>
                 </li>
+                <li class="nav-has-sub collapsed">
+                    <div class="nav-sub-head">
+                        <a href="/content/deployables/" data-i18n="nav_content_deployables">{{ config.extra.ui.nav_content_deployables }}</a>
+                        <button type="button" class="nav-caret" aria-expanded="true" data-i18n-aria="nav_collapse" aria-label="{{ config.extra.ui.nav_collapse}}" title="{{ config.extra.ui.nav_collapse}}">▾</button>
+                    </div>
+                    <ul class="nav-sub">
+                        <li><a href="/content/deployables/#mobile-teleports-12" data-i18n="nav_dep_mobile_tp">{{ config.extra.ui.nav_dep_mobile_tp }}</a></li>
+                        <li><a href="/content/deployables/#mobile-fields-6" data-i18n="nav_dep_mobile_fields">{{ config.extra.ui.nav_dep_mobile_fields }}</a></li>
+                        <li><a href="/content/deployables/#arena-teleports-2" data-i18n="nav_dep_arena_tp">{{ config.extra.ui.nav_dep_arena_tp }}</a></li>
+                        <li><a href="/content/deployables/#mines-bombs-7" data-i18n="nav_dep_mines">{{ config.extra.ui.nav_dep_mines }}</a></li>
+                        <li><a href="/content/deployables/#wall-repairers-3" data-i18n="nav_dep_wall">{{ config.extra.ui.nav_dep_wall }}</a></li>
+                        <li><a href="/content/deployables/#plant-seeds-13" data-i18n="nav_dep_seeds">{{ config.extra.ui.nav_dep_seeds }}</a></li>
+                        <li><a href="/content/deployables/#npc-eggs-82" data-i18n="nav_dep_eggs">{{ config.extra.ui.nav_dep_eggs }}</a></li>
+                        <li><a href="/content/deployables/#gates-1" data-i18n="nav_dep_gates">{{ config.extra.ui.nav_dep_gates }}</a></li>
+                        <li><a href="/content/deployables/#containers-1" data-i18n="nav_dep_containers">{{ config.extra.ui.nav_dep_containers }}</a></li>
+                        <li><a href="/content/deployables/#miscellaneous-6" data-i18n="nav_dep_misc">{{ config.extra.ui.nav_dep_misc }}</a></li>
+                    </ul>
+                </li>
+                <li><a href="/features/combat/" data-i18n="nav_combat">{{ config.extra.ui.nav_combat }}</a></li>
+                <li><a href="/features/npcs/" data-i18n="nav_npcs">{{ config.extra.ui.nav_npcs }}</a></li>
+                <li><a href="/features/missions/" data-i18n="nav_missions">{{ config.extra.ui.nav_missions }}</a></li>
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
                         <a href="/features/groups/" data-i18n="nav_with_others">{{ config.extra.ui.nav_with_others }}</a>
@@ -273,37 +224,57 @@
                 </li>
             </ul>
         </li>
+        <!-- GATHER -->
         <li class="nav-group">
             <div class="nav-group-head">
-                <a class="nav-group-link" href="/menu/systems/"><svg class="navicon" aria-hidden="true"><use href="#mi-arm"/></svg><span data-i18n="nav_systems">{{ config.extra.ui.nav_systems}}</span></a>
+                <a class="nav-group-link" href="/features/gathering/"><svg class="navicon" aria-hidden="true"><use href="#mi-radar"/></svg><span data-i18n="nav_gather">{{ config.extra.ui.nav_gather}}</span></a>
                 <button type="button" class="nav-caret" aria-expanded="true" data-i18n-aria="nav_collapse" aria-label="{{ config.extra.ui.nav_collapse}}" title="{{ config.extra.ui.nav_collapse}}">▾</button>
             </div>
             <ul class="nav-items">
+                <li><a href="/features/gathering/" data-i18n="nav_gathering">{{ config.extra.ui.nav_gathering }}</a></li>
+                <li><a href="/content/ores/" data-i18n="nav_content_ores">{{ config.extra.ui.nav_content_ores }}</a></li>
+                <li><a href="/content/plants/" data-i18n="nav_content_plants">{{ config.extra.ui.nav_content_plants }}</a></li>
+            </ul>
+        </li>
+        <!-- REFINE -->
+        <li class="nav-group">
+            <div class="nav-group-head">
+                <a class="nav-group-link" href="/features/production/"><svg class="navicon" aria-hidden="true"><use href="#mi-flask"/></svg><span data-i18n="nav_refine">{{ config.extra.ui.nav_refine}}</span></a>
+                <button type="button" class="nav-caret" aria-expanded="true" data-i18n-aria="nav_collapse" aria-label="{{ config.extra.ui.nav_collapse}}" title="{{ config.extra.ui.nav_collapse}}">▾</button>
+            </div>
+            <ul class="nav-items">
+                <li><a href="/features/production/" data-i18n="nav_production">{{ config.extra.ui.nav_production }}</a></li>
+                <li><a href="/content/recipes/" data-i18n="nav_content_recipes">{{ config.extra.ui.nav_content_recipes }}</a></li>
+                <li><a href="/content/components/" data-i18n="nav_content_components">Components</a></li>
+            </ul>
+        </li>
+        <!-- PRODUCE -->
+        <li class="nav-group">
+            <div class="nav-group-head">
+                <a class="nav-group-link" href="/features/robots/"><svg class="navicon" aria-hidden="true"><use href="#mi-arm"/></svg><span data-i18n="nav_produce">{{ config.extra.ui.nav_produce}}</span></a>
+                <button type="button" class="nav-caret" aria-expanded="true" data-i18n-aria="nav_collapse" aria-label="{{ config.extra.ui.nav_collapse}}" title="{{ config.extra.ui.nav_collapse}}">▾</button>
+            </div>
+            <ul class="nav-items">
+                <li><a href="/features/robots/" data-i18n="nav_robots">{{ config.extra.ui.nav_robots }}</a></li>
+                <li><a href="/content/robots/" data-i18n="nav_content_robots">{{ config.extra.ui.nav_content_robots }}</a></li>
+                <li><a href="/features/modules/" data-i18n="nav_modules">{{ config.extra.ui.nav_modules }}</a></li>
+            </ul>
+        </li>
+        <!-- RESEARCH -->
+        <li class="nav-group">
+            <div class="nav-group-head">
+                <a class="nav-group-link" href="/features/research/"><svg class="navicon" aria-hidden="true"><use href="#mi-book"/></svg><span data-i18n="nav_research">{{ config.extra.ui.nav_research}}</span></a>
+                <button type="button" class="nav-caret" aria-expanded="true" data-i18n-aria="nav_collapse" aria-label="{{ config.extra.ui.nav_collapse}}" title="{{ config.extra.ui.nav_collapse}}">▾</button>
+            </div>
+            <ul class="nav-items">
+                <li><a href="/features/research/" data-i18n="nav_research_feat">{{ config.extra.ui.nav_research_feat }}</a></li>
+                <li><a href="/content/techtree/" data-i18n="nav_content_techtree">{{ config.extra.ui.nav_content_techtree }}</a></li>
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
-                        <a href="/features/robots/" data-i18n="nav_robots">{{ config.extra.ui.nav_robots }}</a>
+                        <span data-i18n="nav_tech_groups">Tech groups</span>
                         <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                     </div>
                     <ul class="nav-sub">
-                        <li><a href="/content/robots/" data-i18n="nav_content_robots">{{ config.extra.ui.nav_content_robots }}</a></li>
-                    </ul>
-                </li>
-                <li class="nav-has-sub">
-                    <div class="nav-sub-head">
-                        <a href="/features/production/" data-i18n="nav_production">{{ config.extra.ui.nav_production }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
-                    </div>
-                    <ul class="nav-sub">
-                        <li><a href="/content/recipes/" data-i18n="nav_content_recipes">{{ config.extra.ui.nav_content_recipes }}</a></li>
-                    </ul>
-                </li>
-                <li class="nav-has-sub">
-                    <div class="nav-sub-head">
-                        <a href="/features/research/" data-i18n="nav_research">{{ config.extra.ui.nav_research }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
-                    </div>
-                    <ul class="nav-sub">
-                        <li><a href="/content/techtree/" data-i18n="nav_content_techtree">{{ config.extra.ui.nav_content_techtree }}</a></li>
                         <li><a href="/content/techtree/groups/common1/">Common 1</a></li>
                         <li><a href="/content/techtree/groups/common2/">Common 2</a></li>
                         <li><a href="/content/techtree/groups/indy/">Industrial</a></li>
@@ -313,39 +284,63 @@
                         <li><a href="/content/techtree/groups/thelodica/">Thelodica</a></li>
                     </ul>
                 </li>
+            </ul>
+        </li>
+        <!-- CHARACTER -->
+        <li class="nav-group">
+            <div class="nav-group-head">
+                <a class="nav-group-link" href="/features/character/"><svg class="navicon" aria-hidden="true"><use href="#mi-user"/></svg><span data-i18n="nav_character">{{ config.extra.ui.nav_character}}</span></a>
+                <button type="button" class="nav-caret" aria-expanded="true" data-i18n-aria="nav_collapse" aria-label="{{ config.extra.ui.nav_collapse}}" title="{{ config.extra.ui.nav_collapse}}">▾</button>
+            </div>
+            <ul class="nav-items">
+                <li><a href="/features/character/" data-i18n="nav_character_feat">{{ config.extra.ui.nav_character_feat }}</a></li>
+                <li><a href="/content/extensions/" data-i18n="nav_extensions">{{ config.extra.ui.nav_extensions }}</a></li>
+                <li><a href="/features/sparks/" data-i18n="nav_sparks">{{ config.extra.ui.nav_sparks }}</a></li>
+            </ul>
+        </li>
+        <!-- ITEMS & INVENTORY -->
+        <li class="nav-group">
+            <div class="nav-group-head">
+                <a class="nav-group-link" href="/features/items/"><svg class="navicon" aria-hidden="true"><use href="#mi-box"/></svg><span data-i18n="nav_items_inv">{{ config.extra.ui.nav_items_inv}}</span></a>
+                <button type="button" class="nav-caret" aria-expanded="true" data-i18n-aria="nav_collapse" aria-label="{{ config.extra.ui.nav_collapse}}" title="{{ config.extra.ui.nav_collapse}}">▾</button>
+            </div>
+            <ul class="nav-items">
+                <li><a href="/features/items/" data-i18n="nav_items">{{ config.extra.ui.nav_items }}</a></li>
+                <li><a href="/content/stat-reference/" data-i18n="nav_content_statref">{{ config.extra.ui.nav_content_statref }}</a></li>
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
-                        <a href="/features/character/" data-i18n="nav_character">{{ config.extra.ui.nav_character }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
+                        <a href="/content/catalog/">Catalog</a>
+                        <button type="button" class="nav-caret" aria-expanded="false" aria-label="Expand" title="Expand">▾</button>
                     </div>
                     <ul class="nav-sub">
-                        <li><a href="/content/extensions/" data-i18n="nav_extensions">{{ config.extra.ui.nav_extensions }}</a></li>
-                        <li><a href="/features/sparks/" data-i18n="nav_sparks">{{ config.extra.ui.nav_sparks }}</a></li>
+                        <li><a href="/content/catalog/ammo/">Ammo</a></li>
+                        <li><a href="/content/catalog/artifacts/">Artifacts</a></li>
+                        <li><a href="/content/catalog/decorations/">Decorations</a></li>
+                        <li><a href="/content/catalog/materials/">Materials</a></li>
+                        <li><a href="/content/catalog/mission-items/">Mission items</a></li>
+                        <li><a href="/content/catalog/modules/">Modules</a></li>
+                        <li><a href="/content/catalog/production/">Production</a></li>
+                        <li><a href="/content/catalog/robot-parts/">Robot parts</a></li>
+                        <li><a href="/content/catalog/special-other/">Special &amp; other</a></li>
                     </ul>
                 </li>
+            </ul>
+        </li>
+        <!-- MARKET -->
+        <li class="nav-group">
+            <div class="nav-group-head">
+                <a class="nav-group-link" href="/features/market/"><svg class="navicon" aria-hidden="true"><use href="#mi-shop"/></svg><span data-i18n="nav_market">{{ config.extra.ui.nav_market}}</span></a>
+                <button type="button" class="nav-caret" aria-expanded="true" data-i18n-aria="nav_collapse" aria-label="{{ config.extra.ui.nav_collapse}}" title="{{ config.extra.ui.nav_collapse}}">▾</button>
+            </div>
+            <ul class="nav-items">
+                <li><a href="/features/market/" data-i18n="nav_market_feat">{{ config.extra.ui.nav_market_feat }}</a></li>
+                <li><a href="/features/transport/" data-i18n="nav_transport">{{ config.extra.ui.nav_transport }}</a></li>
                 <li class="nav-has-sub">
                     <div class="nav-sub-head">
-                        <a href="/features/items/" data-i18n="nav_items">{{ config.extra.ui.nav_items }}</a>
+                        <a href="/content/shop/" data-i18n="nav_shop">{{ config.extra.ui.nav_shop }}</a>
                         <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
                     </div>
                     <ul class="nav-sub">
-                        <li><a href="/features/modules/" data-i18n="nav_modules">{{ config.extra.ui.nav_modules }}</a></li>
-                        <li><a href="/content/stat-reference/" data-i18n="nav_content_statref">{{ config.extra.ui.nav_content_statref }}</a></li>
-                    </ul>
-                </li>
-                <li class="nav-has-sub">
-                    <div class="nav-sub-head">
-                        <a href="/features/market/" data-i18n="nav_market">{{ config.extra.ui.nav_market }}</a>
-                        <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
-                    </div>
-                    <ul class="nav-sub">
-                        <li><a href="/features/transport/" data-i18n="nav_transport">{{ config.extra.ui.nav_transport }}</a></li>
-                        <li class="nav-has-sub">
-                            <div class="nav-sub-head">
-                                <a href="/content/shop/" data-i18n="nav_shop">{{ config.extra.ui.nav_shop }}</a>
-                                <button type="button" class="nav-caret" aria-expanded="false" data-i18n-aria="nav_expand" aria-label="{{ config.extra.ui.nav_expand}}" title="{{ config.extra.ui.nav_expand}}">▾</button>
-                            </div>
-                            <ul class="shop-sub">
                         <li><a href="/content/shop/ammo/">Ammo</a></li>
                         <li><a href="/content/shop/bots/">Bots</a></li>
                         <li><a href="/content/shop/paint/">Paint</a></li>
@@ -361,8 +356,7 @@
                 </li>
             </ul>
         </li>
-            </ul>
-        </li>
+        <!-- DEV (hidden unless dev mode) -->
         <li class="nav-group nav-dev">
             <div class="nav-group-head">
                 <a class="nav-group-link" href="/features/architecture/"><svg class="navicon" aria-hidden="true"><use href="#mi-tree"/></svg><span data-i18n="nav_dev">{{ config.extra.ui.nav_dev}}</span></a>
@@ -447,22 +441,7 @@
             }
             return out;
         })();
-    // Light/dark toggle: the whole site (chrome + content) switches.
-    // The icon shows the currently selected mode.
-    (function () {
-        var btn = document.getElementById("theme-toggle");
-        if (!btn) return;
-        var root = document.documentElement;
-        function isLight() { return root.getAttribute("data-theme") === "light"; }
-        btn.textContent = isLight() ? "☀" : "☾";
-        btn.addEventListener("click", function () {
-            if (isLight()) root.removeAttribute("data-theme");
-            else root.setAttribute("data-theme", "light");
-            try { localStorage.setItem("wiki-theme", isLight() ? "light" : "dark"); } catch (e) {}
-            btn.textContent = isLight() ? "☀" : "☾";
-            refreshMermaid(isLight() ? "neutral" : "dark");
-        });
-    })();
+
     // Home / Dev mode tabs (top of the sidenav): the Dev half switches the
     // matrix theme + the Dev sidenav group (the early head script restores
     // the saved mode before first paint); the Home half is a plain link to
@@ -515,6 +494,10 @@
         }
         btn.addEventListener("click", function (e) {
             e.stopPropagation();
+            // close the language menu if it's open
+            var lm = document.getElementById("lang-menu");
+            var lb = document.getElementById("lang-toggle");
+            if (lm && lm.classList.contains("open")) { lm.classList.remove("open"); if (lb) lb.setAttribute("aria-expanded", "false"); }
             setOpen(!menu.classList.contains("open"));
             current();
         });
@@ -582,6 +565,10 @@
         }
         btn.addEventListener("click", function (e) {
             e.stopPropagation();
+            // close the palette menu if it's open
+            var pm = document.getElementById("palette-menu");
+            var pb = document.getElementById("palette-toggle");
+            if (pm && pm.classList.contains("open")) { pm.classList.remove("open"); if (pb) pb.setAttribute("aria-expanded", "false"); }
             setOpen(!menu.classList.contains("open"));
         });
         Array.prototype.forEach.call(menu.querySelectorAll("button[data-lang]"), function (b) {
@@ -693,47 +680,82 @@
                 themeVariables: { fontSize: '18px' } });
         window.mermaid.run({ querySelector: ".mermaid" });
     }
-    // Sidenav drawer (mobile): the hamburger (top left) opens the off-canvas
-    // drawer; tap the backdrop to close, tap a link to navigate + close,
-    // swipe the drawer left to close, Escape closes.
+    // Sidenav toggle: on desktop the hamburger shows/hides the sidenav panel;
+    // on mobile it opens/closes the off-canvas drawer. Tap the backdrop to
+    // close (mobile), tap a link to navigate + close (mobile), swipe left to
+    // close (mobile), Escape closes (mobile).
     (function () {
         var btn = document.getElementById("sidenav-toggle");
         var nav = document.getElementById("sidenav");
         if (!btn || !nav) return;
-        function isOpen() { return document.body.classList.contains("sidenav-open"); }
-        function open(v) {
-            if (v === isOpen()) return;
-            document.body.classList.toggle("sidenav-open", v);
-            btn.setAttribute("aria-expanded", v ? "true" : "false");
-            btn.setAttribute("aria-label", v ? "Close the menu" : "Open the menu");
-            btn.textContent = v ? "\u2715" : "\u2630"; // ✕ / ☰
+        var MQ = window.matchMedia("(max-width: 800px)");
+        function isMobile() { return MQ.matches; }
+        // Desktop: sidenav is visible unless body has .sidenav-hidden
+        function desktopVisible() { return !document.body.classList.contains("sidenav-hidden"); }
+        // Mobile: drawer is open when body has .sidenav-open
+        function mobileOpen() { return document.body.classList.contains("sidenav-open"); }
+        function update() {
+            var visible = isMobile() ? mobileOpen() : desktopVisible();
+            btn.setAttribute("aria-expanded", visible ? "true" : "false");
+            btn.textContent = visible ? "\u2630" : "\u2630"; // always ☰ (toggle is show/hide)
         }
-        btn.addEventListener("click", function () { open(!isOpen()); });
-        // a tap anywhere outside the drawer (the dimmed backdrop) closes it —
-        // except the hamburger itself, whose click toggles (its bubble would
-        // otherwise close the drawer the instant it opens)
+        btn.addEventListener("click", function () {
+            if (isMobile()) {
+                var v = !mobileOpen();
+                document.body.classList.toggle("sidenav-open", v);
+            } else {
+                document.body.classList.toggle("sidenav-hidden");
+            }
+            update();
+        });
+        // Mobile only: tap backdrop to close
         document.addEventListener("click", function (e) {
-            if (!isOpen()) return;
+            if (!isMobile() || !mobileOpen()) return;
             if (e.target.closest && e.target.closest("#sidenav, #sidenav-toggle")) return;
-            open(false);
+            document.body.classList.remove("sidenav-open");
+            update();
         });
-        // tapping a link navigates and closes (the caret buttons do not)
+        // Mobile only: tap a link to navigate + close
         nav.addEventListener("click", function (e) {
-            if (isOpen() && e.target.closest && e.target.closest("a[href]")) open(false);
+            if (isMobile() && mobileOpen() && e.target.closest && e.target.closest("a[href]")) {
+                document.body.classList.remove("sidenav-open");
+                update();
+            }
         });
+        // Mobile only: Escape closes
         document.addEventListener("keydown", function (e) {
-            if (e.key === "Escape" && isOpen()) open(false);
+            if (e.key === "Escape" && isMobile() && mobileOpen()) {
+                document.body.classList.remove("sidenav-open");
+                update();
+            }
         });
-        // swipe the drawer left to close (touch only)
+        // Mobile only: swipe left to close (touch)
         var sx = null;
         nav.addEventListener("touchstart", function (e) {
-            if (e.touches.length === 1) sx = e.touches[0].clientX;
+            if (isMobile() && e.touches.length === 1) sx = e.touches[0].clientX;
         }, { passive: true });
         nav.addEventListener("touchmove", function (e) {
-            if (sx === null || e.touches.length !== 1) return;
-            if (sx - e.touches[0].clientX > 70) { open(false); sx = null; }
+            if (sx === null || !isMobile() || e.touches.length !== 1) return;
+            if (sx - e.touches[0].clientX > 70) {
+                document.body.classList.remove("sidenav-open");
+                sx = null;
+                update();
+            }
         }, { passive: true });
         nav.addEventListener("touchend", function () { sx = null; }, { passive: true });
+        // Persist desktop preference
+        try {
+            var saved = localStorage.getItem("wiki-sidenav");
+            if (saved === "hidden" && !isMobile()) document.body.classList.add("sidenav-hidden");
+        } catch (e) {}
+        btn.addEventListener("click", function () {
+            if (!isMobile()) {
+                try {
+                    localStorage.setItem("wiki-sidenav", desktopVisible() ? "visible" : "hidden");
+                } catch (e) {}
+            }
+        });
+        update();
     })();
     // Sidenav: every caret button collapses/expands its own section — a
     // top-level group (.nav-group) or a sub-list (.nav-has-sub). Groups and
@@ -819,6 +841,7 @@
         // stay collapsed). Re-run on same-page hash navigation.
         function syncLists() {
             Array.prototype.slice.call(document.querySelectorAll(".sidenav li li.nav-has-sub")).forEach(function (el) {
+                if (el.hasAttribute("data-always-open")) return;
                 var inside = Array.prototype.slice.call(el.querySelectorAll("a[href]"))
                     .some(function (a) { return linkInside(a.getAttribute("href")); });
                 setCollapsed(el, !inside);
@@ -966,18 +989,18 @@
         // the back button) of a URL that still carries a menu sub-anchor must
         // NOT re-jump — the browser restores the scroll position instead. The
         // highlight for the current hash is handled by selectActive() above.
-        var hash = document.location.hash;
-        var freshAnchorClick = false;
-        try {
-            var entry = document.querySelector('.sidenav a[data-mapanchor][href$="' + hash + '"]');
-            if (entry && document.activeElement === entry) freshAnchorClick = true;
-        } catch (e) {}
-        if (hash.length > 1 && freshAnchorClick) {
+        // Scroll to hash target on page load and on same-page hash changes
+        function scrollToHash() {
+            var hash = document.location.hash;
+            if (hash.length < 2) return;
             var target = document.getElementById(hash.substring(1));
-            if (target) {
-                target.scrollIntoView();
-            }
+            if (target) target.scrollIntoView();
         }
+        if (document.location.hash.length > 1) {
+            // Delay to ensure content is rendered
+            requestAnimationFrame(scrollToHash);
+        }
+        window.addEventListener("hashchange", scrollToHash);
     })();
     // Left-menu scroll: restore the last position after navigation and make
     // sure the highlighted entry is visible (a reset scroll must not hide the
@@ -1041,8 +1064,7 @@
             el.closest("pre").replaceWith(div);
         });
         if (window.mermaid) {
-            var theme = document.documentElement.getAttribute("data-theme") === "light" ? "neutral" : "dark";
-            window.mermaid.initialize({ startOnLoad: false, theme: theme,
+            window.mermaid.initialize({ startOnLoad: false, theme: "dark",
                 securityLevel: 'loose',
                 themeVariables: { fontSize: '18px' } });
             window.mermaid.run({ querySelector: ".mermaid" });
@@ -1052,8 +1074,7 @@
             var timer = setInterval(function () {
                 if (window.mermaid) {
                     clearInterval(timer);
-                    var theme = document.documentElement.getAttribute("data-theme") === "light" ? "neutral" : "dark";
-                    window.mermaid.initialize({ startOnLoad: false, theme: theme,
+                    window.mermaid.initialize({ startOnLoad: false, theme: "dark",
                         securityLevel: 'loose',
                         themeVariables: { fontSize: '18px' } });
                     window.mermaid.run({ querySelector: ".mermaid" });

@@ -164,7 +164,10 @@ def _layer_bytes(name):
 
 # TerrainControlFlags (server: Perpetuum/Zones/Terrains/TerrainControlFlags.cs);
 # the on-disk control layer is one ushort per tile (little-endian).
+FLAG_CONCRETE_A = 1 << 3
+FLAG_CONCRETE_B = 1 << 4
 FLAG_HIGHWAY = 1 << 7
+FLAG_NONPASSABLE = FLAG_CONCRETE_A | FLAG_CONCRETE_B
 # sea level for the ramp (shore transition) — roads below it are over water
 # the ramp has no colors between 950 (shore) and 1500 (grass) — the real
 # sea/land boundary sits in that gap; these thresholds split it
@@ -200,24 +203,30 @@ def load_terrain(zid, w, h, size):
 
     fx, fy = w // size, h // size
     acc = [[0.0] * w for _ in range(size)]
-    roads = [[0] * size for _ in range(size)] if ctl_raw is not None and len(ctl_raw) == w * h * 2 else None
+    has_ctl = ctl_raw is not None and len(ctl_raw) == w * h * 2
+    roads = [[0] * size for _ in range(size)] if has_ctl else None
+    nonpass = [[0] * size for _ in range(size)] if has_ctl else None
     for y in range(h):
         row = struct.unpack_from(f"<{w}H", alt_raw, y * w * 2)
-        crow = struct.unpack_from(f"<{w}H", ctl_raw, y * w * 2) if roads is not None else None
+        crow = struct.unpack_from(f"<{w}H", ctl_raw, y * w * 2) if has_ctl else None
         ay = acc[y // fy]
         cy = y // fy
         rrow = roads[cy] if roads is not None else None
+        nrow = nonpass[cy] if nonpass is not None else None
         for x in range(w):
             ay[x] += row[x]
-            if rrow is not None and crow[x] & FLAG_HIGHWAY:
-                rrow[x // fx] = 1
+            if crow is not None:
+                if crow[x] & FLAG_HIGHWAY:
+                    rrow[x // fx] = 1
+                if crow[x] & FLAG_NONPASSABLE:
+                    nrow[x // fx] = 1
     alt = []
     for oy in range(size):
         ps = [0]
         ps.extend(accumulate(acc[oy]))  # ps[i] = sum of columns [0, i)
         alt.append([(ps[(ox + 1) * fx] - ps[ox * fx]) / (fx * fy) for ox in range(size)])
 
-    return alt, coast_mask(alt), roads, None
+    return alt, coast_mask(alt), roads, nonpass
 
 
 def coast_mask(alt):
@@ -374,6 +383,21 @@ def roads_svg(roads):
     if not path_roads:
         return None
     return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {size} {size}"><path stroke="#f5a05a" stroke-width="1.0" d="{"".join(path_roads)}"/></svg>'.encode('utf-8')
+
+def nonpassable_svg(nonpass):
+    """SVG overlay for non-passable tiles (ConcreteA | ConcreteB)."""
+    if not nonpass:
+        return None
+    size = len(nonpass)
+    path_np = []
+    for y in range(size):
+        row = nonpass[y]
+        for x in range(size):
+            if row[x]:
+                path_np.append(f"M{x},{y}h1v1h-1z")
+    if not path_np:
+        return None
+    return f'<g id="zm-nonpassable" class="zm-nonpassable" transform="scale({2048.0/size})"><path fill="#ef4444" fill-opacity="0.35" stroke="#ef4444" stroke-width="0.3" stroke-opacity="0.5" d="{"".join(path_np)}"/></g>'
 
 def height_svg(alt, roads, _isl):
     return _generate_contours_svg(alt, roads, None, "height")
@@ -884,18 +908,23 @@ def rebuild(path, name2slug, slug2id, slug2size):
     have_fallback = (os.path.isfile(os.path.join(fb, "height.png"))
                      and os.path.isfile(os.path.join(fb, "color.png")))
     if real[0] is not None:
-        alt, coast, roads, isl = real
+        alt, coast, roads, nonpass = real
         d = os.path.join(ZONEMAPS, slug)
         os.makedirs(d, exist_ok=True)
-        open(os.path.join(d, "height.svg"), "wb").write(height_svg(alt, roads, isl))
-        open(os.path.join(d, "color.svg"), "wb").write(color_svg(alt, coast, roads, isl))
+        open(os.path.join(d, "height.svg"), "wb").write(height_svg(alt, roads, nonpass))
+        open(os.path.join(d, "color.svg"), "wb").write(color_svg(alt, coast, roads, nonpass))
         # world-map swatches: map.md references <slug>/{height,color}.png
         # (the .NET map generator emits the references when the files exist)
-        open(os.path.join(d, "height.png"), "wb").write(height_png(alt, roads, isl))
-        open(os.path.join(d, "color.png"), "wb").write(color_png(alt, coast, roads, isl))
+        open(os.path.join(d, "height.png"), "wb").write(height_png(alt, roads, nonpass))
+        open(os.path.join(d, "color.png"), "wb").write(color_png(alt, coast, roads, nonpass))
         r_svg = roads_svg(roads)
         if r_svg:
             open(os.path.join(d, "roads.svg"), "wb").write(r_svg)
+        np_svg = nonpassable_svg(nonpass)
+        if np_svg:
+            # Write as a standalone SVG file (same format as roads.svg)
+            np_standalone = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {len(nonpass)} {len(nonpass)}"><path fill="#ef4444" fill-opacity="0.35" stroke="#ef4444" stroke-width="0.3" stroke-opacity="0.5" d="{"".join(f"M{x},{y}h1v1h-1z" for y in range(len(nonpass)) for x in range(len(nonpass[y])) if nonpass[y][x])}"/></svg>'
+            open(os.path.join(d, "nonpassable.svg"), "wb").write(np_standalone.encode('utf-8'))
         # world-map node + index-card thumbnail (same altitude data)
         open(os.path.join(d, "world.png"), "wb").write(world_png(alt, roads))
         # the thumb targets 256×256 (a native-512 zone would otherwise draw
@@ -987,6 +1016,9 @@ def rebuild(path, name2slug, slug2id, slug2size):
         roads_inner = get_inner_svg("roads.svg", "zm-roads", extra_class="zm-roads")
         if roads_inner:
             out.append("    " + roads_inner)
+        np_inner = get_inner_svg("nonpassable.svg", "zm-nonpassable", extra_class="zm-nonpassable", display="display:none")
+        if np_inner:
+            out.append("    " + np_inner)
     else:
         b64 = base64.b64encode(heightmap_png(zone)).decode("ascii")
         out.append(f'    <image id="zm-height" x="0" y="0" width="{w}" height="{h}" href="data:image/png;base64,{b64}" opacity="0.55" preserveAspectRatio="none"/>')
@@ -1079,9 +1111,9 @@ def rebuild(path, name2slug, slug2id, slug2size):
     # emphasized zone border on top of the heightmap
     pc = prot_color(zone) or '#54658a'
     if coast_d:
-        out.append(f'  <path class="zm-coastline-border" transform="scale({sf})" d="{coast_d}" fill="none" stroke="{pc}" stroke-width="{4 * f / sf}" pointer-events="none"/>')
+        out.append(f'  <path class="zm-coastline-border" transform="scale({sf})" d="{coast_d}" fill="none" stroke="{pc}" stroke-width="{8 * f / sf}" pointer-events="none"/>')
     else:
-        out.append(f'  <rect class="zm-coastline-border" x="0" y="0" width="{w}" height="{h}" rx="{16 * f}" fill="none" stroke="{pc}" stroke-width="{4 * f}" pointer-events="none"/>')
+        out.append(f'  <rect class="zm-coastline-border" x="0" y="0" width="{w}" height="{h}" rx="{16 * f}" fill="none" stroke="{pc}" stroke-width="{8 * f}" pointer-events="none"/>')
     out.append("</svg>")
 
     with open(path, "w", encoding="utf-8") as fh:

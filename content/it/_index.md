@@ -1,70 +1,72 @@
 ---
-title: "Wiki di Open Perpetuum"
+title: "Open Perpetuum Wiki"
 template: "index.html"
-description: "La tua guida al server Open Perpetuum: cosa puoi fare, come iniziare e dove approfondire."
+description: "Open Perpetuum wiki - it"
 ---
 
-## Nuovo da queste parti?
+<div class="activity-cards">
+  <a href="/it/features/gathering/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-radar"/></svg>
+    <div class="activity-card-body">
+      <h3>Raccogli</h3>
+      <p>Estrai minerali e raccogli piante — la base dell'economia.</p>
+    </div>
+  </a>
+  <a href="/it/features/production/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-flask"/></svg>
+    <div class="activity-card-body">
+      <h3>Raffina</h3>
+      <p>Produzione, ricette e componenti — trasforma le materie prime in prodotti.</p>
+    </div>
+  </a>
+  <a href="/it/features/production/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-arm"/></svg>
+    <div class="activity-card-body">
+      <h3>Produci</h3>
+      <p>Costruisci robot, monta moduli e fabbrica equipaggiamento.</p>
+    </div>
+  </a>
+  <a href="/it/features/research/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-book"/></svg>
+    <div class="activity-card-body">
+      <h3>Ricerca</h3>
+      <p>Estensioni, albero tecnologico e sblocco di nuove capacità.</p>
+    </div>
+  </a>
+  <a href="/it/features/character/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-user"/></svg>
+    <div class="activity-card-body">
+      <h3>Personaggio</h3>
+      <p>Il tuo agente: statistiche, estensioni e scintille.</p>
+    </div>
+  </a>
+  <a href="/it/features/items/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-box"/></svg>
+    <div class="activity-card-body">
+      <h3>Oggetti e inventario</h3>
+      <p>Catalogo oggetti, riferimento statistiche, contenitori e impilamento.</p>
+    </div>
+  </a>
+  <a href="/it/features/market/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-shop"/></svg>
+    <div class="activity-card-body">
+      <h3>Mercato</h3>
+      <p>Compra, vendi, scambia e trasporta merci tra i giocatori.</p>
+    </div>
+  </a>
+</div>
 
-1. [**Guida introduttiva**](/it/features/getting-started/) — account, personaggio, il tuo primo
-   robot e come ottenere i tuoi primi crediti.
-2. [**FAQ**](/it/features/faq/) — il tutorial, la scelta di una fazione, cosa fare dopo.
-3. [**Movimento e zone**](/it/features/movement/) — come spostarsi (teletrasporti,
-   interzone, attracco).
-4. [**Raccolta risorse**](/it/features/gathering/) — minerali e piante, il fondamento
-   dell'economia.
+## Nuovo qui?
 
-## Cosa puoi fare
+1. [**Primi passi**](/it/features/getting-started/) — account, personaggio, il tuo primo robot e come ottenere i primi crediti.
+2. [**FAQ**](/it/features/faq/) — il tutorial, la scelta della fazione, cosa fare dopo.
+3. [**Movimento e zone**](/it/features/movement/) — come spostarsi (teleport, interzone, aggancio).
+4. [**Raccolta**](/it/features/gathering/) — minerali e piante, la base dell'economia.
 
-**<span class="menuhead"><svg class="menuicon" aria-hidden="true"><use href="#mi-radar"/></svg> Sul campo</span>**
-- [Raccolta e scansione](/it/features/gathering/) — estrai minerali, raccogli piante, scansiona i giacimenti
-- [Combattimento](/it/features/combat/) — combattimento PvP e contro NPC, tipi di danno, bottino e assicurazione
-- [NPC e caccia PvE](/it/features/npcs/) — ranghi, punti deboli, spawn, TAP, tattiche
-- [Esplorazione](/it/features/exploration/) — artefatti e reliquie sotto la superficie
-- [Missioni](/it/features/missions/) — incarichi ripetibili per crediti, oggetti ed EP
-- [Movimento e zone](/it/features/movement/) — viaggi, teletrasporti, tipi di zona
 
-**<span class="menuhead"><svg class="menuicon" aria-hidden="true"><use href="#mi-arm"/></svg> Industria e progresso</span>**
-- [Robot e configurazione](/it/features/robots/) — chassis, classi e statistiche per modello
-- [Moduli e configurazione](/it/features/modules/) — famiglie di moduli e regole di montaggio
-- [Produzione](/it/features/production/) — il ciclo di vita degli oggetti: reverse engineering, lavorazione, prototipi
-- [Ricerca](/it/features/research/) — estensioni e albero tecnologico
-- [Spark](/it/features/sparks/) — il nanobot del tuo agente e i relativi bonus alle abilità
-- [Oggetti e inventario](/it/features/items/) — contenitori, pile, imballaggio
+## Riferimento dati
 
-**<span class="menuhead"><svg class="menuicon" aria-hidden="true"><use href="#mi-panel"/></svg> Commercio ed economia</span>**
-- [Mercato e scambi](/it/features/market/) — acquista, vendi e commercia con altri giocatori
-- [Trasporto](/it/features/transport/) — ingaggia corrieri o trasporta il carico in prima persona
-- [Negozio](/content/shop/) — oggetti del negozio lato server (tabella generata)
+- [**Tabelle di contenuto**](/it/content/) — ogni minerale, pianta, oggetto, robot, estensione, ricetta, missione, nodo dell'albero tech e item del negozio
+- [**Zone**](/it/zones/) — l'indice completo delle zone, regole delle risorse e la [mappa mondiale](/it/zones/map/)
 
-**<span class="menuhead"><svg class="menuicon" aria-hidden="true"><use href="#mi-star"/></svg> Gioco su larga scala</span>**
-- [Stazioni base energetiche](/it/features/pbs/) — costruisci e gestisci una PBS: reattori, produzione,
-  difesa, attracco
-- [Avamposti e SAP](/it/features/outposts/) — controllo degli avamposti, stabilità e i quattro
-  tipi di attività SAP
-- [Intrusione](/it/features/intrusion/) — contesta siti tramite SAP, aumenta la stabilità, sblocca
-  strutture
-- [Terraformazione e risorse di zona](/zones/) — generazione di minerali e piante nelle zone, e
-  zone terraformabili (vedi gli [esempi pratici di zona](/zones/zone-tm/) e la
-  [zona gamma 106](/zones/zone-gamma-z106/))
-
-**<span class="menuhead"><svg class="menuicon" aria-hidden="true"><use href="#mi-robots"/></svg> Con altri giocatori</span>**
-- [Gruppi](/it/features/groups/) — corporazioni, alleanze, gang
-- [Sociale](/it/features/social/) — posta, canali, amici, relazioni diplomatiche
-
-**<span class="menuhead"><svg class="menuicon" aria-hidden="true"><use href="#mi-crystal"/></svg> Conoscenza</span>**
-- [FAQ](/it/features/faq/) — domande per le fasi iniziali e gergo comune (EP, NIC, CT, EWar…)
-- [Lore](/it/features/lore/) — l'ambientazione: Nia, i Niani, il Sindacato
-- [Configurazione client e PC](/it/features/client-setup/) — esecuzione del client, regole sul multi-boxing,
-  scalabilità dell'interfaccia utente
-
-## Dati di riferimento
-
-- [**Tabelle dei contenuti**](/content/) — ogni minerale, pianta, oggetto, robot, estensione, ricetta,
-  missione, nodo dell'albero tecnologico e articolo del negozio, generati dal database live
-- [**Zone**](/zones/) — l'indice completo delle zone, le regole di generazione delle risorse e la
-  [mappa del mondo](/zones/map/)
-  (ogni zona sulla griglia con i relativi collegamenti di teletrasporto)
-
-Le pagine dedicate agli sviluppatori (formati dei file, architettura interna del server) si trovano nella **Modalità Dev** —
-attivala dalla barra superiore.
+Le pagine sviluppatore (formati file, interni del server) sono in **modalità Dev** — cambiare tramite le schede Home/Dev in alto nella barra laterale.

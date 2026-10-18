@@ -1,61 +1,72 @@
 ---
-title: "Open Perpetuum 維基"
+title: "Open Perpetuum Wiki"
 template: "index.html"
-description: "您的 Open Perpetuum 伺服器指南：您可以做什麼、如何開始，以及深入探索的方向。"
+description: "Open Perpetuum wiki - zh-TW"
 ---
 
-## 初來乍到？
+<div class="activity-cards">
+  <a href="/zh-TW/features/gathering/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-radar"/></svg>
+    <div class="activity-card-body">
+      <h3>採集</h3>
+      <p>開採礦物和收穫植物 — 經濟的基礎。</p>
+    </div>
+  </a>
+  <a href="/zh-TW/features/production/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-flask"/></svg>
+    <div class="activity-card-body">
+      <h3>提煉</h3>
+      <p>生產、配方和組件 — 將原材料轉化為商品。</p>
+    </div>
+  </a>
+  <a href="/zh-TW/features/production/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-arm"/></svg>
+    <div class="activity-card-body">
+      <h3>製造</h3>
+      <p>建造機器人、安裝模組和製作裝備。</p>
+    </div>
+  </a>
+  <a href="/zh-TW/features/research/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-book"/></svg>
+    <div class="activity-card-body">
+      <h3>研究</h3>
+      <p>擴展、科技樹和新能力解鎖。</p>
+    </div>
+  </a>
+  <a href="/zh-TW/features/character/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-user"/></svg>
+    <div class="activity-card-body">
+      <h3>角色</h3>
+      <p>你的代理：屬性、擴展和火花。</p>
+    </div>
+  </a>
+  <a href="/zh-TW/features/items/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-box"/></svg>
+    <div class="activity-card-body">
+      <h3>物品與背包</h3>
+      <p>物品目錄、屬性參考、容器和堆疊。</p>
+    </div>
+  </a>
+  <a href="/zh-TW/features/market/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-shop"/></svg>
+    <div class="activity-card-body">
+      <h3>市場</h3>
+      <p>玩家間的買賣、交易和貨物運輸。</p>
+    </div>
+  </a>
+</div>
 
-1. [**快速入門**](/zh-TW/features/getting-started/) — 帳號、角色、您的第一台機器人，以及如何獲得第一筆信用點。
-2. [**常見問題**](/zh-TW/features/faq/) — 教學、選擇陣營、下一步該做什麼。
-3. [**移動與區域**](/zh-TW/features/movement/) — 如何移動（傳送、跨區、停泊）。
-4. [**採集**](/zh-TW/features/gathering/) — 礦石與植物，經濟的基礎。
+## 初次使用？
 
-## 您可以做什麼
+1. [**入門指南**](/zh-TW/features/getting-started/) — 帳號、角色、第一個機器人和如何獲得第一批信用點。
+2. [**常見問題**](/zh-TW/features/faq/) — 教學、陣營選擇、下一步做什麼。
+3. [**移動與區域**](/zh-TW/features/movement/) — 如何移動（傳送、跨區域、停靠）。
+4. [**採集**](/zh-TW/features/gathering/) — 礦物和植物，經濟的基礎。
 
-**<span class="menuhead"><svg class="menuicon" aria-hidden="true"><use href="#mi-radar"/></svg> 野外活動</span>**
-- [採集與掃描](/zh-TW/features/gathering/) — 開採礦石、收割植物、掃描節點
-- [戰鬥](/zh-TW/features/combat/) — PvP 與 NPC 戰鬥、傷害類型、戰利品與保險
-- [NPC 與 PVE 狩獵](/zh-TW/features/npcs/) — 等級、弱點、刷新、TAP、戰術
-- [探索](/zh-TW/features/exploration/) — 地表下的遺跡與文物
-- [任務](/zh-TW/features/missions/) — 可重複的任務，獲得信用點、物品和 EP
-- [移動與區域](/zh-TW/features/movement/) — 旅行、傳送、區域類型
-
-**<span class="menuhead"><svg class="menuicon" aria-hidden="true"><use href="#mi-arm"/></svg> 工業與發展</span>**
-- [機器人与配裝](/zh-TW/features/robots/) — 機體、類別與各型號屬性
-- [模組與配裝](/zh-TW/features/modules/) — 模組家族與配裝規則
-- [生產](/zh-TW/features/production/) — 物品生命週期：逆向工程、研磨、原型
-- [研究](/zh-TW/features/research/) — 擴展與科技樹
-- [火花](/zh-TW/features/sparks/) — 您的代理人的奈米機器人及其能力加成
-- [物品與庫存](/zh-TW/features/items/) — 容器、堆疊、打包
-
-**<span class="menuhead"><svg class="menuicon" aria-hidden="true"><use href="#mi-panel"/></svg> 貿易與經濟</span>**
-- [市場與貿易](/zh-TW/features/market/) — 購買、出售並與其他玩家交易
-- [運輸](/zh-TW/features/transport/) — 僱用快遞或自行運輸貨物
-- [商店](/content/shop/) — 伺服器端商店物品（自動生成的表格）
-
-**<span class="menuhead"><svg class="menuicon" aria-hidden="true"><use href="#mi-star"/></svg> 大型玩法</span>**
-- [電力基地站](/zh-TW/features/pbs/) — 建造與運營 PBS：反應堆、生產、防禦、停泊
-- [前哨站與 SAP](/zh-TW/features/outposts/) — 前哨站所有權、穩定度與四種 SAP 活動類型
-- [入侵](/zh-TW/features/intrusion/) — 以 SAP 爭奪據點、提升穩定度、解鎖設施
-- [地形改造與區域資源](/zones/) — 區域如何生長礦石與植物，以及可改造的區域（參見[實際區域範例](/zones/zone-tm/)和
-  [Gamma 區域 106](/zones/zone-gamma-z106/)）
-
-**<span class="menuhead"><svg class="menuicon" aria-hidden="true"><use href="#mi-robots"/></svg> 社群互動</span>**
-- [團體](/zh-TW/features/groups/) — 公司、聯盟、幫派
-- [社交](/zh-TW/features/social/) — 郵件、頻道、好友、聲望
-
-**<span class="menuhead"><svg class="menuicon" aria-hidden="true"><use href="#mi-crystal"/></svg> 知識庫</span>**
-- [常見問題](/zh-TW/features/faq/) — 前期問題與術語（EP、NIC、CT、EWar…）
-- [世界觀](/zh-TW/features/lore/) — 背景設定：Nia、Nians、辛迪加
-- [客戶端與電腦設定](/zh-TW/features/client-setup/) — 運行客戶端、多開規則、UI 縮放
 
 ## 資料參考
 
-- [**內容表格**](/content/) — 所有礦石、植物、物品、機器人、擴展、配方、任務、科技樹節點和商店物品，從即時資料庫生成
-- [**區域**](/zones/) — 完整區域索引、資源生成規則與
-  [世界地圖](/zones/map/)
-  （網格上每個區域及其傳送連結）
+- [**內容表格**](/zh-TW/content/) — 每種礦物、植物、物品、機器人、擴展、配方、任務、科技樹節點和商店物品
+- [**區域**](/zh-TW/zones/) — 完整區域索引、資源規則和[世界地圖](/zh-TW/zones/map/)
 
-開發者頁面（檔案格式、伺服器內部機制）位於**開發模式**中——
-從頂部欄切換。
+開發者頁面（檔案格式、伺服器內部）在**Dev模式**中 — 透過側邊欄頂部的Home/Dev標籤切換。

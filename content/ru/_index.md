@@ -1,70 +1,72 @@
 ---
-title: "База знаний Open Perpetuum"
+title: "Open Perpetuum Wiki"
 template: "index.html"
-description: "Ваш путеводитель по серверу Open Perpetuum: доступные возможности, основы игры и подробные руководства."
+description: "Open Perpetuum wiki - ru"
 ---
 
-## Впервые здесь?
+<div class="activity-cards">
+  <a href="/ru/features/gathering/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-radar"/></svg>
+    <div class="activity-card-body">
+      <h3>Сбор</h3>
+      <p>Добыча руды и сбор растений — основа экономики.</p>
+    </div>
+  </a>
+  <a href="/ru/features/production/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-flask"/></svg>
+    <div class="activity-card-body">
+      <h3>Обработка</h3>
+      <p>Производство, рецепты и компоненты — превращение сырья в товары.</p>
+    </div>
+  </a>
+  <a href="/ru/features/production/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-arm"/></svg>
+    <div class="activity-card-body">
+      <h3>Производство</h3>
+      <p>Постройка роботов, установка модулей и создание оборудования.</p>
+    </div>
+  </a>
+  <a href="/ru/features/research/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-book"/></svg>
+    <div class="activity-card-body">
+      <h3>Исследования</h3>
+      <p>Экстеншены, технологическое дерево и открытие новых возможностей.</p>
+    </div>
+  </a>
+  <a href="/ru/features/character/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-user"/></svg>
+    <div class="activity-card-body">
+      <h3>Персонаж</h3>
+      <p>Ваш агент: характеристики, экстеншены и искры.</p>
+    </div>
+  </a>
+  <a href="/ru/features/items/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-box"/></svg>
+    <div class="activity-card-body">
+      <h3>Предметы и инвентарь</h3>
+      <p>Каталог предметов, справочник характеристик, контейнеры и стопки.</p>
+    </div>
+  </a>
+  <a href="/ru/features/market/" class="activity-card">
+    <svg class="activity-icon" aria-hidden="true"><use href="#mi-shop"/></svg>
+    <div class="activity-card-body">
+      <h3>Рынок</h3>
+      <p>Покупка, продажа, обмен и перевозка товаров между игроками.</p>
+    </div>
+  </a>
+</div>
 
-1. [**С чего начать**](/ru/features/getting-started/) — учетная запись, персонаж, ваш первый
-   робот и получение первых кредитов.
-2. [**Часто задаваемые вопросы (FAQ)**](/ru/features/faq/) — обучающее руководство, выбор фракции и дальнейшие шаги.
-3. [**Перемещение и зоны**](/ru/features/movement/) — способы передвижения (телепорты,
-   межзоновые переходы, стыковка).
-4. [**Сбор ресурсов**](/ru/features/gathering/) — руды и растения: фундамент
-   экономики.
+## Вы здесь впервые?
 
-## Доступные возможности
+1. [**Начало**](/ru/features/getting-started/) — аккаунт, персонаж, ваш первый робот и как получить первые кредиты.
+2. [**FAQ**](/ru/features/faq/) — туториал, выбор фракции, что делать дальше.
+3. [**Перемещение и зоны**](/ru/features/movement/) — как передвигаться (телепорты, межзонные переходы, докинг).
+4. [**Сбор**](/ru/features/gathering/) — руда и растения, основа экономики.
 
-**<span class="menuhead"><svg class="menuicon" aria-hidden="true"><use href="#mi-radar"/></svg> В открытом мире</span>**
-- [Сбор ресурсов и сканирование](/ru/features/gathering/) — добыча руды, сбор растений, поиск месторождений
-- [Бой](/ru/features/combat/) — PvP и сражения с NPC, типы урона, добыча и страховка
-- [NPC и PvE-охота](/ru/features/npcs/) — ранги, уязвимости, точки появления, TAP, тактика
-- [Исследование](/ru/features/exploration/) — артефакты и реликвии под поверхностью
-- [Миссии](/ru/features/missions/) — повторяемые задания за кредиты, предметы и очки EP
-- [Перемещение и зоны](/ru/features/movement/) — путешествия, телепорты, типы зон
 
-**<span class="menuhead"><svg class="menuicon" aria-hidden="true"><use href="#mi-arm"/></svg> Промышленность и развитие</span>**
-- [Роботы и оснащение](/ru/features/robots/) — шасси, классы и характеристики моделей
-- [Модули и оснащение](/ru/features/modules/) — семейства модулей и правила фитинга
-- [Производство](/ru/features/production/) — жизненный цикл предмета: реверс-инжиниринг, переработка, прототипы
-- [Исследования](/ru/features/research/) — расширения (extensions) и дерево технологий
-- [Спарки](/ru/features/sparks/) — нанобот вашего агента и бонусы к способностям
-- [Предметы и инвентарь](/ru/features/items/) — контейнеры, стопки, упаковка
+## Справочные данные
 
-**<span class="menuhead"><svg class="menuicon" aria-hidden="true"><use href="#mi-panel"/></svg> Торговля и экономика</span>**
-- [Рынок и торговля](/ru/features/market/) — покупка, продажа и торговля с другими игроками
-- [Транспортировка](/ru/features/transport/) — наем курьеров или самостоятельная перевозка грузов
-- [Магазин](/content/shop/) — предметы серверного магазина (генерируемая таблица)
+- [**Таблицы контента**](/ru/content/) — каждая руда, растение, предмет, робот, экстеншен, рецепт, миссия, узел техдерева и магазинный предмет
+- [**Зоны**](/ru/zones/) — полный индекс зон, правила генерации ресурсов и [мировая карта](/ru/zones/map/)
 
-**<span class="menuhead"><svg class="menuicon" aria-hidden="true"><use href="#mi-star"/></svg> Масштабные действия</span>**
-- [Опорные базы (PBS)](/ru/features/pbs/) — постройка и управление PBS: реакторы, производство,
-  оборона, стыковка
-- [Аванпосты и SAP](/ru/features/outposts/) — владение аванпостами, стабильность и четыре
-  типа активности SAP
-- [Вторжение (Intrusion)](/ru/features/intrusion/) — борьба за объекты с помощью SAP, повышение стабильности, открытие
-  сооружений
-- [Терраформирование и ресурсы зон](/zones/) — генерация руды и растений в зонах, а также
-  терраформируемые зоны (см. [примеры зон](/zones/zone-tm/) и
-  [гамма-зону 106](/zones/zone-gamma-z106/))
-
-**<span class="menuhead"><svg class="menuicon" aria-hidden="true"><use href="#mi-robots"/></svg> Сообщество</span>**
-- [Группы](/ru/features/groups/) — корпорации, альянсы, банды
-- [Общение](/ru/features/social/) — почта, каналы чата, контакты, репутация
-
-**<span class="menuhead"><svg class="menuicon" aria-hidden="true"><use href="#mi-crystal"/></svg> База знаний</span>**
-- [FAQ](/ru/features/faq/) — вопросы для новичков и терминология (EP, NIC, CT, EWar…)
-- [Лор](/ru/features/lore/) — предыстория мира: Ниа, нианцы, Синдикат
-- [Настройка клиента и ПК](/ru/features/client-setup/) — запуск клиента, правила мультибоксинга,
-  масштабирование интерфейса
-
-## База данных
-
-- [**Таблицы контента**](/content/) — все руды, растения, предметы, роботы, расширения, чертежи,
-  миссии, узлы дерева технологий и товары в магазине, сформированные из актуальной базы данных
-- [**Зоны**](/zones/) — полный каталог зон, правила генерации ресурсов и
-  [карта мира](/zones/map/)
-  (все зоны на сетке с маршрутами телепортов)
-
-Разделы для разработчиков (форматы файлов, внутренняя структура сервера) доступны в **Режиме разработчика (Dev mode)** —
-его можно включить в верхней панели.
+Страницы разработчика (форматы файлов, внутренности сервера) в **режиме Dev** — переключите на вкладках Home/Dev вверху боковой панели.

@@ -26,6 +26,92 @@ make serve   # live-reload server on http://localhost:8085 (WIKI_PORT=NNNN to ov
 make clean   # remove public/
 ```
 
+## Architecture
+
+```
++--------------------------------------------------------------+
+| GAME SERVER DATABASE (.NET)                                  |
+| Perpetuum.WikiGenerate (C#)                                  |
++------------------------------+-------------------------------+
+                               |  make generate (WIKI_DB=...)
+                               v
++--------------------------------------------------------------+
+| content/  (English markdown, committed to git)               |
+|   _index.md          (home page)                             |
+|   features/*.md      (gameplay systems)                      |
+|   content/*.md       (item stat pages, 4500+ files)          |
+|   zones/*.md         (zone pages + world map SVG)            |
+|   formats/*.md       (dev field reference)                   |
++-------------+--------------------------------+---------------+
+              | make i18n                      | make zonemaps
+              v                                v
++---------------------------+   +------------------------------+
+| translations/*.json       |   | gen_zone_teleport_maps.py    |
+| (14 language files)       |   | (Python, numpy, matplotlib)  |
++-------------+-------------+   +--------------+---------------+
+              | gen_content_translations.py    |
+              | gen_zone_translations.py       |
+              | gen_lang_pages.py              |
+              | gen_i18n.py                    |
+              | gen_menu_tree.py               |
+              | gen_item_translations.py       |
+              | gen_item_catalog.py            |
+              v                                v
++---------------------------+   +------------------------------+
+| content/<lang>/*.md       |   | static/zonemaps/<slug>/*.svg |
+| (13 translated trees,     |   | (80 zone SVGs + thumbs       |
+|  ~19 500 item pages each) |   |  + non-passable overlays)    |
++-------------+-------------+   +--------------+---------------+
+              |                                |
+              +---------------+----------------+
+                              |
+                              v
++--------------------------------------------------------------+
+| static/  (JS, CSS, JSON)                                     |
+|   i18n.js           (generated: STRINGS, LANG_PAGES)         |
+|   lang-pages.json   (page manifest, 2692 pages)              |
+|   menu_tree.json    (sidenav, 99 entries)                    |
+|   search_index.json (40 700 pages)                           |
+|   map.js              (world map zoom/pan)                   |
+|   zone-map.js         (zone map modes, landmarks)            |
+|   style.css           (dark theme, 4 palettes)               |
++------------------------------+-------------------------------+
+                               |
+                               v
++--------------------------------------------------------------+
+| templates/  (Tera templates)                                 |
+|   base.html    (topbar, sidenav, palette, i18n)              |
+|   page.html    (article wrapper, extends base)               |
+|   index.html   (home page: activity cards)                   |
++------------------------------+-------------------------------+
+                               |  zola build (Docker, pinned v0.
+                               v
++--------------------------------------------------------------+
+| public/  (40 601 static HTML pages)                          |
+|   index.html           (English home)                        |
+|   de/index.html        (German home)                         |
+|   features/robots/     (English feature page)                |
+|   de/features/robots/  (German feature page)                 |
+|   ...                (x 14 languages)                        |
++------------------------------+-------------------------------+
+                               |  GitHub Pages / any static host
+                               v
++--------------------------------------------------------------+
+| LIVE SITE  (openperpetuum.github.io/wiki)                    |
++--------------------------------------------------------------+
+```
+
+### Build pipeline (top → bottom)
+
+| Stage | Tool | Input | Output |
+|---|---|---|---|
+| 1. Generate | .NET `Perpetuum.WikiGenerate` | Game DB | `content/**/*.md` (English) |
+| 2. Translate | Python `tools/gen_*.py` | English md + `translations/*.json` | `content/<lang>/**/*.md` |
+| 3. Zone maps | Python `tools/gen_zone_teleport_maps.py` | Game DB (terrain) | `static/zonemaps/*.svg` |
+| 4. i18n assets | Python `tools/gen_i18n.py` | `translations/*.json` + content | `static/i18n.js`, `lang-pages.json`, `menu_tree.json` |
+| 5. Search index | Python `tools/gen_search_index.py` | All built pages | `static/search_index.json` |
+| 6. Static build | Zola (Docker) | content + templates + static | `public/` (40 601 HTML files) |
+
 ## Languages
 
 The site is available in English (the source language) and 13 more — Čeština,

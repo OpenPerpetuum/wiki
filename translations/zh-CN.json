@@ -26,7 +26,7 @@
     "loading": "加载中…",
     "error": "错误",
     "nav_start": "开始",
-    "nav_world": "世界",
+    "nav_world": "世界地图",
     "nav_play": "游戏",
     "nav_systems": "系统",
     "nav_dev": "开发",
@@ -187,7 +187,18 @@
     "sc_move": "移动搜索选择",
     "sc_jump": "跳到第一个 / 最后一个结果",
     "sc_open": "打开所选结果",
-    "sc_toggle": "显示 / 隐藏此窗口"
+    "sc_toggle": "显示 / 隐藏此窗口",
+    "nav_character_feat": "角色概览",
+    "nav_content_components": "组件",
+    "nav_gather": "采集",
+    "nav_items_inv": "物品与背包",
+    "nav_market_feat": "市场概览",
+    "nav_produce": "机器人与装备",
+    "nav_refine": "生产",
+    "nav_research_feat": "研究概览",
+    "nav_tech_groups": "科技分组",
+    "palette_dark": "深色 (OLED)",
+    "zonemap_lm_nonpassable": "不可通过区域"
   },
   "names": {},
   "labels": {
