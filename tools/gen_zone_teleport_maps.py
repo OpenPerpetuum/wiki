@@ -164,10 +164,13 @@ def _layer_bytes(name):
 
 # TerrainControlFlags (server: Perpetuum/Zones/Terrains/TerrainControlFlags.cs);
 # the on-disk control layer is one ushort per tile (little-endian).
-FLAG_CONCRETE_A = 1 << 3
-FLAG_CONCRETE_B = 1 << 4
 FLAG_HIGHWAY = 1 << 7
-FLAG_NONPASSABLE = FLAG_CONCRETE_A | FLAG_CONCRETE_B
+# BlockingFlags (server: Perpetuum/Zones/Terrains/BlockingFlags.cs);
+# the on-disk blocks layer is two bytes per tile: 1 byte flags + 1 byte height.
+BLOCK_OBSTACLE = 1
+BLOCK_DECOR = 1 << 2
+BLOCK_ISLAND = 1 << 3
+BLOCK_NONPASSABLE = BLOCK_OBSTACLE | BLOCK_DECOR  # 0x05 (walls, terminals, entities; not island boundary)
 # sea level for the ramp (shore transition) — roads below it are over water
 # the ramp has no colors between 950 (shore) and 1500 (grass) — the real
 # sea/land boundary sits in that gap; these thresholds split it
@@ -176,25 +179,29 @@ SEA_COAST = 1200    # below: sea (coastline derived from this crossing)
 
 
 def load_terrain(zid, w, h, size):
-    """(alt, coast, roads, None) from the game's layers, size×size grids.
+    """(alt, coast, roads, nonpass) from the game's layers.
 
-    alt: box-averaged elevation. coast: 1 on cells where the sea/land
-    boundary runs (altitude crossing SEA_COAST). roads: 1 on cells
-    containing a Highway tile (control layer). (None, ...) when the zone
-    has no layer data anywhere.
+    alt/coast/roads/nonpass: size×size grids (downsampled).
+    nonpass combines blocks layer (Obstacle|Decor) + slope/cliff check.
+    (None, ...) when the zone has no layer data anywhere.
     """
     id4 = f"{zid:04d}"
     alt_path = os.path.join(ASSETS, "custom-layers", f"altitude.{id4}.bin")
     ctl_path = os.path.join(ASSETS, "custom-layers", f"control.{id4}.bin")
-    alt_raw = ctl_raw = None
+    blk_path = os.path.join(ASSETS, "custom-layers", f"blocks.{id4}.bin")
+    alt_raw = ctl_raw = blk_raw = None
     if os.path.isfile(alt_path):
         alt_raw = open(alt_path, "rb").read()
         if os.path.isfile(ctl_path):
             ctl_raw = open(ctl_path, "rb").read()
+        if os.path.isfile(blk_path):
+            blk_raw = open(blk_path, "rb").read()
     else:
         alt_raw = _layer_bytes(f"altitude{id4}")
         if ctl_raw is None and alt_raw is not None:
             ctl_raw = _layer_bytes(f"control{id4}")
+        if blk_raw is None and alt_raw is not None:
+            blk_raw = _layer_bytes(f"blocks{id4}")
     if alt_raw is None:
         return None, None, None, None
     if len(alt_raw) != w * h * 2:
@@ -204,8 +211,9 @@ def load_terrain(zid, w, h, size):
     fx, fy = w // size, h // size
     acc = [[0.0] * w for _ in range(size)]
     has_ctl = ctl_raw is not None and len(ctl_raw) == w * h * 2
+    has_blk = blk_raw is not None and len(blk_raw) == w * h * 2
     roads = [[0] * size for _ in range(size)] if has_ctl else None
-    nonpass = [[0] * size for _ in range(size)] if has_ctl else None
+    nonpass = [[0] * size for _ in range(size)] if has_blk else None
     for y in range(h):
         row = struct.unpack_from(f"<{w}H", alt_raw, y * w * 2)
         crow = struct.unpack_from(f"<{w}H", ctl_raw, y * w * 2) if has_ctl else None
@@ -215,10 +223,12 @@ def load_terrain(zid, w, h, size):
         nrow = nonpass[cy] if nonpass is not None else None
         for x in range(w):
             ay[x] += row[x]
-            if crow is not None:
-                if crow[x] & FLAG_HIGHWAY:
-                    rrow[x // fx] = 1
-                if crow[x] & FLAG_NONPASSABLE:
+            if crow is not None and crow[x] & FLAG_HIGHWAY:
+                rrow[x // fx] = 1
+            if nrow is not None:
+                # blocks layer: 2 bytes per tile (flags byte + height byte)
+                bflags = blk_raw[(y * w + x) * 2]
+                if bflags & BLOCK_NONPASSABLE:
                     nrow[x // fx] = 1
     alt = []
     for oy in range(size):
@@ -226,7 +236,19 @@ def load_terrain(zid, w, h, size):
         ps.extend(accumulate(acc[oy]))  # ps[i] = sum of columns [0, i)
         alt.append([(ps[(ox + 1) * fx] - ps[ox * fx]) / (fx * fy) for ox in range(size)])
 
-    return alt, coast_mask(alt), roads, nonpass
+    # Add slope/cliff-based non-passable tiles (OR into existing nonpass grid)
+    # Default threshold: slope >= 32 (corresponds to slope attribute 8.0)
+    SLOPE_DEFAULT = 32
+    slope = slope_mask(alt_raw, w, h, size)
+    if slope is not None:
+        if nonpass is None:
+            nonpass = [[0] * size for _ in range(size)]
+        for y in range(size):
+            for x in range(size):
+                if slope[y][x] >= SLOPE_DEFAULT:
+                    nonpass[y][x] = 1
+
+    return alt, coast_mask(alt), roads, nonpass, slope
 
 
 def coast_mask(alt):
@@ -243,6 +265,104 @@ def coast_mask(alt):
               or (x < size - 1 and sea[y][x + 1] != s) or (y < size - 1 and sea[y + 1][x] != s):
                 coast[y][x] = 1
     return coast
+
+
+def slope_mask(alt_raw, w, h, size):
+    """Compute slope-based non-passable tiles. Computes at 1024×1024
+    (limited RAM), then downsamples to size×size.
+    A tile is non-passable when its slope value >= 16.
+    Returns a size×size grid or None."""
+    try:
+        import numpy as np
+    except ImportError:
+        return None
+    # Parse altitude into numpy array, downsample to max 1024 for memory safety.
+    # GetAltitude() returns raw >> 5 (range 0-2047), not the raw ushort.
+    alt_full = np.frombuffer(alt_raw, dtype='<u2').reshape(h, w).astype(np.int32) >> 5
+    # Downsample to 1024×1024 max (box average) to limit RAM
+    tw = min(1024, w)
+    th = min(1024, h)
+    if tw < w or th < h:
+        fx, fy = w // tw, h // th
+        alt = alt_full[:th*fy, :tw*fx].reshape(th, fy, tw, fx).mean(axis=(1, 3)).astype(np.int32)
+    else:
+        alt = alt_full
+    ah, aw = alt.shape
+    # Compute slope using the game's algorithm (2x2 block)
+    a = alt[:-1, :-1]
+    b = alt[:-1, 1:]
+    c = alt[1:, 1:]
+    d = alt[1:, :-1]
+    e = (a + b) >> 1
+    f = (b + c) >> 1
+    g = (c + d) >> 1
+    h_ = (d + e) >> 1
+    i = (a + b + c + d) >> 2
+    slope = (np.abs(i - a) + np.abs(i - b) + np.abs(i - c) + np.abs(i - d) +
+             np.abs(i - e) + np.abs(i - f) + np.abs(i - g) + np.abs(i - h_)) * 2
+    slope = np.clip(slope, 0, 255)
+    # Pad to full tw×th (slope was computed on (th-1)×(tw-1) sub-grid)
+    full = np.zeros((th, tw), dtype=np.uint8)
+    full[:-1, :-1] = slope
+    # Downsample to size×size: max slope in each block
+    fx2, fy2 = tw // size, th // size
+    full_cropped = full[:size*fy2, :size*fx2].reshape(size, fy2, size, fx2)
+    result = full_cropped.max(axis=(1, 3)).tolist()
+    # Free large arrays
+    del alt_full, alt, a, b, c, d, e, f, g, h_, i, slope, full, full_cropped
+    return result
+
+
+def coastline_path_d(alt_raw, w, h):
+    """Generate a precise SVG path tracing the island coastline at full
+    resolution (2048×2048). Uses numpy flood-fill + matplotlib contour
+    for pixel-level precision."""
+    try:
+        import numpy as np
+        import matplotlib.pyplot as plt
+    except ImportError:
+        return None
+    # Parse altitude at full resolution
+    alt = np.frombuffer(alt_raw, dtype='<u2').reshape(h, w).astype(np.uint16)
+    # Binary sea mask: 1 = sea (below SEA_COAST)
+    sea = (alt < SEA_COAST).astype(np.uint8)
+    del alt
+    # Flood fill from edges using iterative numpy dilation (fast, C-level)
+    outside = np.zeros((h, w), dtype=np.uint8)
+    # Seed: sea pixels on the border
+    outside[0, :] = sea[0, :]
+    outside[-1, :] = sea[-1, :]
+    outside[:, 0] = np.maximum(outside[:, 0], sea[:, 0])
+    outside[:, -1] = np.maximum(outside[:, -1], sea[:, -1])
+    # Iteratively expand: add sea pixels adjacent to already-marked outside
+    for _ in range(max(h, w)):
+        prev = outside.copy()
+        # Dilate: any sea pixel next to an outside pixel becomes outside
+        padded = np.pad(prev, 1, mode='constant', constant_values=0)
+        neighbors = (padded[:-2, 1:-1] + padded[2:, 1:-1] +
+                     padded[1:-1, :-2] + padded[1:-1, 2:])
+        outside = np.where((sea == 1) & (neighbors > 0), 1, prev).astype(np.uint8)
+        if (outside != prev).sum() == 0:
+            break
+    del sea, prev, padded, neighbors
+    # Trace the boundary using contour (iso-line at 0.5)
+    cs = plt.contour(outside.astype(np.float32), levels=[0.5],
+                     origin='upper', linewidths=0)
+    parts = []
+    for path in cs.get_paths():
+        v = path.vertices
+        if len(v) < 3:
+            continue
+        d = [f"M{v[0][0]:.1f},{v[0][1]:.1f}"]
+        for i in range(1, len(v)):
+            d.append(f"L{v[i][0]:.1f},{v[i][1]:.1f}")
+        d.append("Z")
+        parts.append(" ".join(d))
+    plt.close()
+    del outside, cs
+    if not parts:
+        return None
+    return " ".join(parts)
 
 
 RAMP = [  # (elevation, rgb) — deep water to snow line
@@ -382,22 +502,130 @@ def roads_svg(roads):
                 path_roads.append(f"M{x},{y}h1")
     if not path_roads:
         return None
-    return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {size} {size}"><path stroke="#f5a05a" stroke-width="1.0" d="{"".join(path_roads)}"/></svg>'.encode('utf-8')
+    return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {size} {size}"><path stroke="#d4a800" stroke-width="1.0" d="{"".join(path_roads)}"/></svg>'.encode('utf-8')
 
-def nonpassable_svg(nonpass):
-    """SVG overlay for non-passable tiles (ConcreteA | ConcreteB)."""
+def _merge_rects(nonpass):
+    """Merge adjacent non-passable tiles into maximal rectangles.
+    Returns list of (x, y, w, h) rectangles."""
+    size = len(nonpass)
+    # Build a mutable grid; True = still unassigned
+    grid = [row[:] for row in nonpass]
+    rects = []
+    for y in range(size):
+        row = grid[y]
+        for x in range(size):
+            if not row[x]:
+                continue
+            # Grow right
+            w = 1
+            while x + w < size and row[x + w]:
+                w += 1
+            # Grow down (only if all rows below have the same x-range)
+            h = 1
+            while y + h < size:
+                below = grid[y + h]
+                if not below[x] or (x + w < size and not below[x + w - 1]):
+                    break
+                # Check the entire width is filled in the row below
+                all_filled = all(below[x + i] for i in range(w))
+                if not all_filled:
+                    break
+                h += 1
+            # Carve out the rectangle
+            for dy in range(h):
+                for dx in range(w):
+                    grid[y + dy][x + dx] = False
+            rects.append((x, y, w, h))
+    return rects
+
+
+def nonpassable_path_d(nonpass):
+    """Generate optimized SVG path data from non-passable tile grid."""
+    rects = _merge_rects(nonpass)
+    if not rects:
+        return None
+    parts = []
+    for x, y, w, h in rects:
+        parts.append(f"M{x},{y}h{w}v{h}h-{w}z")
+    return "".join(parts)
+
+
+def nonpassable_png(nonpass):
+    """Render non-passable tiles as an RGBA PNG (red, 35% opacity).
+    Returns base64-encoded PNG bytes or None."""
     if not nonpass:
         return None
     size = len(nonpass)
-    path_np = []
+    try:
+        import numpy as np
+    except ImportError:
+        return None
+    # RGBA: non-passable = (10, 5, 0, 230) almost black at 90% opacity
+    # passable = (0, 0, 0, 0) fully transparent
+    px = np.zeros((size, size, 4), dtype=np.uint8)
     for y in range(size):
         row = nonpass[y]
         for x in range(size):
             if row[x]:
-                path_np.append(f"M{x},{y}h1v1h-1z")
-    if not path_np:
+                px[y, x] = (220, 20, 20, 128)
+    # Encode as PNG (filter 0, no compression needed for small images)
+    import zlib, struct as st
+    def _png_chunk(tag, data):
+        chunk = tag + data
+        return st.pack('>I', len(data)) + chunk + st.pack('>I', zlib.crc32(chunk) & 0xffffffff)
+    ihdr = st.pack('>IIBBBBB', size, size, 8, 6, 0, 0, 0)  # 8-bit RGBA
+    # Prepend filter byte 0 to each row
+    raw = b''.join(b'\x00' + px[y].tobytes() for y in range(size))
+    idat = zlib.compress(raw, 6)
+    png = (b'\x89PNG\r\n\x1a\n' + _png_chunk(b'IHDR', ihdr)
+           + _png_chunk(b'IDAT', idat) + _png_chunk(b'IEND', b''))
+    return base64.b64encode(png).decode('ascii')
+
+
+def nonpassable_svg(nonpass):
+    """SVG overlay for non-passable tiles: raster PNG fill + vector outline.
+    GPU-accelerated fill, lightweight stroke for the black border."""
+    if not nonpass:
         return None
-    return f'<g id="zm-nonpassable" class="zm-nonpassable" transform="scale({2048.0/size})"><path fill="#ef4444" fill-opacity="0.35" stroke="#ef4444" stroke-width="0.3" stroke-opacity="0.5" d="{"".join(path_np)}"/></g>'
+    size = len(nonpass)
+    b64 = nonpassable_png(nonpass)
+    if not b64:
+        return None
+    # Black outline from merged rectangles
+    rects = _merge_rects(nonpass)
+    outline = "".join(f"M{x},{y}h{w}v{h}h-{w}z" for x, y, w, h in rects)
+    outline_el = f'<path fill="none" stroke="#000" stroke-width="0.5" d="{outline}"/>' if rects else ""
+    return f'<g id="zm-nonpassable" class="zm-nonpassable" transform="scale({2048.0/size})"><image width="{size}" height="{size}" href="data:image/png;base64,{b64}"/>{outline_el}</g>'
+
+def slope_png(slope):
+    """Render slope values as a grayscale PNG (pixel value = slope 0-255).
+    Used by JS to threshold at runtime for configurable slope display."""
+    if not slope:
+        return None
+    size = len(slope)
+    try:
+        import numpy as np
+    except ImportError:
+        return None
+    # Grayscale: pixel value = slope value (0-255)
+    px = np.zeros((size, size, 3), dtype=np.uint8)
+    for y in range(size):
+        row = slope[y]
+        for x in range(size):
+            v = row[x]
+            px[y, x] = (v, v, v)
+    # Encode as PNG (RGB, no alpha)
+    import zlib, struct as st
+    def _png_chunk(tag, data):
+        chunk = tag + data
+        return st.pack('>I', len(data)) + chunk + st.pack('>I', zlib.crc32(chunk) & 0xffffffff)
+    ihdr = st.pack('>IIBBBBB', size, size, 8, 2, 0, 0, 0)  # 8-bit RGB
+    raw = b''.join(b'\x00' + px[y].tobytes() for y in range(size))
+    idat = zlib.compress(raw, 6)
+    png = (b'\x89PNG\r\n\x1a\n' + _png_chunk(b'IHDR', ihdr)
+           + _png_chunk(b'IDAT', idat) + _png_chunk(b'IEND', b''))
+    return base64.b64encode(png).decode('ascii')
+
 
 def height_svg(alt, roads, _isl):
     return _generate_contours_svg(alt, roads, None, "height")
@@ -648,7 +876,7 @@ def thumb_svg(coast, color, prot, roads=None):
                 if row[x]:
                     path_roads.append(f"M{x},{y}h1")
         if path_roads:
-            svg.append(f'<path stroke="#f5a05a" stroke-width="1.0" d="{"".join(path_roads)}"/>')
+            svg.append(f'<path stroke="#d4a800" stroke-width="1.0" d="{"".join(path_roads)}"/>')
 
     svg.append('</svg>')
     __import__('matplotlib.pyplot', fromlist=['']).close()
@@ -854,10 +1082,16 @@ def parse(svg_text):
     svg_text = re2.sub(r'<g id="zm-height".*?</g>', '', svg_text, flags=re2.DOTALL)
     svg_text = re2.sub(r'<g id="zm-color".*?</g>', '', svg_text, flags=re2.DOTALL)
     svg_text = re2.sub(r'<g id="zm-roads".*?</g>', '', svg_text, flags=re2.DOTALL)
+    svg_text = re2.sub(r'<g id="zm-nonpassable".*?</g>', '', svg_text, flags=re2.DOTALL)
+    svg_text = re2.sub(r'<path[^>]*fill="#ef4444"[^>]*fill-opacity="0\.35"[^>]*/?>', '', svg_text)
     svg_text = re2.sub(r'<clipPath id="coast-clip-[^"]+">.*?</clipPath>', '', svg_text, flags=re2.DOTALL)
     svg_text = re2.sub(r'<path[^>]*transform="scale\([^"]*\)"[^>]*/>', '', svg_text)
     svg_text = re2.sub(r'<path[^>]*class="[^"]*zm-coastline-border[^"]*"[^>]*/>', '', svg_text)
     svg_text = re2.sub(r'<path[^>]*class="[^"]*zm-bg-island[^"]*"[^>]*/>', '', svg_text)
+    # Convert non-self-closing path/circle/rect (with <title> children) to self-closing
+    svg_text = re2.sub(r'<(path|circle|rect)\b([^>]*?)><title>[^<]*</title></\1>', r'<\1\2 />', svg_text)
+    svg_text = re2.sub(r'<(path|circle|rect)\b([^>]*?)></\1>', r'<\1\2 />', svg_text)
+
     
     els = []
     for tm in ITEM.finditer(svg_text):
@@ -895,7 +1129,7 @@ def rebuild(path, name2slug, slug2id, slug2size):
     # data, an embedded procedural heightmap.
 
     zid = slug2id.get(slug)
-    real = (None, None, None, None)
+    real = (None, None, None, None, None)
     if zid is not None:
         try:
             # never upsample: tiny zones (256×256) keep their native size
@@ -908,7 +1142,7 @@ def rebuild(path, name2slug, slug2id, slug2size):
     have_fallback = (os.path.isfile(os.path.join(fb, "height.png"))
                      and os.path.isfile(os.path.join(fb, "color.png")))
     if real[0] is not None:
-        alt, coast, roads, nonpass = real
+        alt, coast, roads, nonpass, slope = real
         d = os.path.join(ZONEMAPS, slug)
         os.makedirs(d, exist_ok=True)
         open(os.path.join(d, "height.svg"), "wb").write(height_svg(alt, roads, nonpass))
@@ -922,9 +1156,17 @@ def rebuild(path, name2slug, slug2id, slug2size):
             open(os.path.join(d, "roads.svg"), "wb").write(r_svg)
         np_svg = nonpassable_svg(nonpass)
         if np_svg:
-            # Write as a standalone SVG file (same format as roads.svg)
-            np_standalone = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {len(nonpass)} {len(nonpass)}"><path fill="#ef4444" fill-opacity="0.35" stroke="#ef4444" stroke-width="0.3" stroke-opacity="0.5" d="{"".join(f"M{x},{y}h1v1h-1z" for y in range(len(nonpass)) for x in range(len(nonpass[y])) if nonpass[y][x])}"/></svg>'
-            open(os.path.join(d, "nonpassable.svg"), "wb").write(np_standalone.encode('utf-8'))
+            # Write as a standalone SVG file (PNG-based, same approach)
+            np_b64 = nonpassable_png(nonpass)
+            if np_b64:
+                np_size = len(nonpass)
+                np_standalone = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {np_size} {np_size}"><image width="{np_size}" height="{np_size}" href="data:image/png;base64,{np_b64}"/></svg>'
+                open(os.path.join(d, "nonpassable.svg"), "wb").write(np_standalone.encode('utf-8'))
+        # Slope grayscale PNG for configurable threshold in JS
+        if slope is not None:
+            slope_b64 = slope_png(slope)
+            if slope_b64:
+                open(os.path.join(d, "slope.png"), "wb").write(base64.b64decode(slope_b64))
         # world-map node + index-card thumbnail (same altitude data)
         open(os.path.join(d, "world.png"), "wb").write(world_png(alt, roads))
         # the thumb targets 256×256 (a native-512 zone would otherwise draw
@@ -1019,12 +1261,18 @@ def rebuild(path, name2slug, slug2id, slug2size):
             
         out.append("    " + get_inner_svg("height.svg", "zm-height"))
         out.append("    " + get_inner_svg("color.svg", "zm-color", "display:none"))
+        np_inner = get_inner_svg("nonpassable.svg", "zm-nonpassable", extra_class="zm-nonpassable")
+        if np_inner:
+            out.append("    " + np_inner)
+        # Slope grayscale image (hidden, used by JS for configurable threshold)
+        slope_path = os.path.join(ZONEMAPS, slug, "slope.png")
+        if os.path.isfile(slope_path):
+            slope_b64 = base64.b64encode(open(slope_path, "rb").read()).decode("ascii")
+            s = len(alt)
+            out.append(f'    <image id="zm-slope-data" width="{s}" height="{s}" href="data:image/png;base64,{slope_b64}" style="display:none"/>')
         roads_inner = get_inner_svg("roads.svg", "zm-roads", extra_class="zm-roads")
         if roads_inner:
             out.append("    " + roads_inner)
-        np_inner = get_inner_svg("nonpassable.svg", "zm-nonpassable", extra_class="zm-nonpassable", display="display:none")
-        if np_inner:
-            out.append("    " + np_inner)
     else:
         b64 = base64.b64encode(heightmap_png(zone)).decode("ascii")
         out.append(f'    <image id="zm-height" x="0" y="0" width="{w}" height="{h}" href="data:image/png;base64,{b64}" opacity="0.55" preserveAspectRatio="none"/>')
@@ -1036,6 +1284,12 @@ def rebuild(path, name2slug, slug2id, slug2size):
     # endpoint column circles pass through untouched.
     last_shape = None  # (kind, markup, radius-growth) waiting for its label
     in_clip = True
+    # Coastline border: emitted before landmarks so labels render on top
+    pc = prot_color(zone) or '#54658a'
+    if coast_d:
+        out.append(f'  <path class="zm-coastline-border" transform="scale({sf})" d="{coast_d}" fill="none" stroke="{pc}" stroke-width="{8 * f / sf}" pointer-events="none"/>')
+    else:
+        out.append(f'  <rect class="zm-coastline-border" x="0" y="0" width="{w}" height="{h}" rx="{16 * f}" fill="none" stroke="{pc}" stroke-width="{8 * f}" pointer-events="none"/>')
     for kind, at, txt in els:
         if kind == "rect":
             if at.get("fill") == "#10151f":
@@ -1044,10 +1298,39 @@ def rebuild(path, name2slug, slug2id, slug2size):
                 continue  # border added by a previous run of this script
             if "zonemap-node-special" in at.get("class", ""):
                 dt = at.get("data-title", "")
-                if "Field terminal" in dt and "zm-node-terminal" not in at["class"]:
-                    at["class"] += " zm-node-terminal"
-                elif "Outpost" in dt and "zm-node-outpost" not in at["class"]:
-                    at["class"] += " zm-node-outpost"
+                if "Field terminal" in dt:
+                    # Replace rect with bright green upside-down triangle
+                    cx = float(at.get("x", 0)) + float(at.get("width", 6)) / 2
+                    cy = float(at.get("y", 0)) + float(at.get("height", 6)) / 2
+                    s = 7  # triangle half-size
+                    cls = at.get("class", "")
+                    if "zm-node-terminal" not in cls:
+                        cls += " zm-node-terminal"
+                    title = at.get("data-title", "")
+                    out.append(f'  <path class="{cls}" d="M{cx-s},{cy-s} L{cx+s},{cy-s} L{cx},{cy+s} Z" fill="#374151" stroke="#fff" stroke-width="1.5" vector-effect="non-scaling-stroke" data-title="{title}"><title>{title}</title></path>')
+                    continue
+                elif "Outpost" in dt:
+                    # Replace rect with ◉ icon (thick ring circle, 3x terminal size)
+                    cx = float(at.get("x", 0)) + float(at.get("width", 12)) / 2
+                    cy = float(at.get("y", 0)) + float(at.get("height", 12)) / 2
+                    r = 14  # 2x terminal radius
+                    cls = at.get("class", "")
+                    if "zm-node-outpost" not in cls:
+                        cls += " zm-node-outpost"
+                    title = at.get("data-title", "")
+                    out.append(f'  <circle class="{cls}" cx="{cx}" cy="{cy}" r="{r}" fill="#fbbf24" fill-opacity="0.3" stroke="#fbbf24" stroke-width="3" vector-effect="non-scaling-stroke" data-title="{title}"><title>{title}</title></circle>')
+                    continue
+                elif "Main terminal" in dt:
+                    # Replace rect with square icon (larger, distinct from terminals/outposts)
+                    cx = float(at.get("x", 0)) + float(at.get("width", 16)) / 2
+                    cy = float(at.get("y", 0)) + float(at.get("height", 16)) / 2
+                    s = 12  # half-size of the square
+                    cls = at.get("class", "")
+                    if "zm-node-docking" not in cls:
+                        cls += " zm-node-docking"
+                    title = at.get("data-title", "")
+                    out.append(f'  <rect class="{cls}" x="{cx-s}" y="{cy-s}" width="{s*2}" height="{s*2}" rx="2" fill="#ef4444" fill-opacity="0.4" stroke="#ef4444" stroke-width="2" vector-effect="non-scaling-stroke" data-title="{title}"><title>{title}</title></rect>')
+                    continue
             out.append("  " + markup(kind, at))
         elif kind == "line":
             if at.get("stroke") == "#1d2534":
@@ -1095,6 +1378,17 @@ def rebuild(path, name2slug, slug2id, slug2size):
             if in_clip:
                 out.append("  </g>")
                 in_clip = False
+            # Pass through previously-generated terminal/outpost/docking icons as-is
+            if "zm-node-terminal" in at.get("class", "") or "zm-node-outpost" in at.get("class", "") or "zm-node-docking" in at.get("class", ""):
+                dt = at.get("data-title", "")
+                if dt:
+                    m = markup(kind, at)
+                    # Convert self-closing to non-self-closing with <title>
+                    m = m.replace("/>", f"><title>{dt}</title></{kind}>")
+                    out.append("  " + m)
+                else:
+                    out.append("  " + markup(kind, at))
+                continue
             if last_shape is not None:
                 out.append("  " + last_shape[1])
             shape_kind = "spot" if kind == "circle" and "stroke-dasharray" in at else \
@@ -1114,12 +1408,6 @@ def rebuild(path, name2slug, slug2id, slug2size):
         out.append("  </g>")
     if last_shape is not None:
         out.append("  " + last_shape[1])
-    # emphasized zone border on top of the heightmap
-    pc = prot_color(zone) or '#54658a'
-    if coast_d:
-        out.append(f'  <path class="zm-coastline-border" transform="scale({sf})" d="{coast_d}" fill="none" stroke="{pc}" stroke-width="{8 * f / sf}" pointer-events="none"/>')
-    else:
-        out.append(f'  <rect class="zm-coastline-border" x="0" y="0" width="{w}" height="{h}" rx="{16 * f}" fill="none" stroke="{pc}" stroke-width="{8 * f}" pointer-events="none"/>')
     out.append("</svg>")
 
     with open(path, "w", encoding="utf-8") as fh:
@@ -1163,7 +1451,7 @@ def main():
         open(os.path.join(d, "thumb.svg"), "wb").write(thumb)
         open(os.path.join(d, "thumb.png"), "wb").write(thumb)
     workers = max(1, min(len(files), os.cpu_count() or 1))
-    with Pool(workers) as pool:  # one process per core, one zone each
+    with Pool(workers) as pool:
         results = pool.starmap(_rebuild_one, [(f, name2slug, slug2id, slug2size) for f in files])
     linked = sum(r[2] for r in results)
     real = sum(1 for r in results if r[3])

@@ -27,7 +27,7 @@
         outposts: true,
         terminals: true,
         roads: true,
-        nonpassable: false,
+        nonpassable: true,
         labels: true
     };
 
@@ -56,7 +56,10 @@
         // The SVG has inline style="display:none" to avoid a flash before
         // landmarks are applied. Remove it when the user enables the layer.
         var npEl = wrap.querySelector('#zm-nonpassable');
-        if (npEl) npEl.style.display = npEnabled ? '' : 'none';
+        if (npEl) {
+            npEl.style.display = npEnabled ? '' : 'none';
+            if (npEnabled) applySlopeThreshold(wrap, 8);
+        }
         wrap.classList.toggle('zm-hide-labels', !cfg.labels);
 
         var panel = wrap.querySelector('.zonemap-landmarks-panel');
@@ -83,6 +86,42 @@
             applyLandmarksGlobally(getLandmarks());
         }
     });
+
+    // Apply a slope threshold to the non-passable overlay using canvas.
+    // Reads the grayscale slope image, thresholds it, and replaces the
+    // non-passable PNG with the combined result (blocks + slope >= threshold*4).
+    function applySlopeThreshold(wrap, slopeLevel) {
+        var slopeImg = wrap.querySelector('#zm-slope-data');
+        var npEl = wrap.querySelector('#zm-nonpassable');
+        if (!slopeImg || !npEl) return;
+        var threshold = slopeLevel * 4;
+        var size = parseInt(slopeImg.getAttribute('width'), 10);
+        if (!size) return;
+        var canvas = document.createElement('canvas');
+        canvas.width = size; canvas.height = size;
+        var ctx = canvas.getContext('2d');
+        var img = new Image();
+        img.onload = function () {
+            ctx.drawImage(img, 0, 0, size, size);
+            var data = ctx.getImageData(0, 0, size, size);
+            var px = data.data;
+            // Red at 50% opacity for blocked tiles, transparent for passable
+            for (var i = 0; i < px.length; i += 4) {
+                if (px[i] >= threshold) {
+                    px[i] = 220; px[i+1] = 20; px[i+2] = 20; px[i+3] = 128;
+                } else {
+                    px[i+3] = 0;
+                }
+            }
+            ctx.putImageData(data, 0, 0);
+            // Replace the non-passable image src with the canvas output
+            var npImage = npEl.querySelector('image');
+            if (npImage) {
+                npImage.setAttribute('href', canvas.toDataURL('image/png'));
+            }
+        };
+        img.src = slopeImg.getAttribute('href');
+    }
     function applyWorldMode(svg, mode) {
         if (mode !== 'color' && mode !== 'height') mode = 'base';
         Array.prototype.forEach.call(svg.querySelectorAll('.wm-base'), function(el) { el.style.display = mode === 'base' ? '' : 'none'; });
@@ -244,6 +283,33 @@
             });
             lmPanel.appendChild(lmList);
 
+            // Slope threshold selector for non-passable layer
+            var SLOPE_LEVELS = [4, 8, 12, 16];
+            var slopeSection = document.createElement('div');
+            slopeSection.className = 'zonemap-slope-section';
+            var slopeLabel = document.createElement('span');
+            slopeLabel.className = 'zonemap-slope-label';
+            slopeLabel.textContent = ui.zonemapLmSlope || 'Max slope';
+            slopeSection.appendChild(slopeLabel);
+            var slopeBtns = document.createElement('div');
+            slopeBtns.className = 'zonemap-slope-btns';
+            SLOPE_LEVELS.forEach(function (lv) {
+                var btn = document.createElement('button');
+                btn.type = 'button';
+                btn.className = 'zonemap-slope-btn' + (lv === 8 ? ' active' : '');
+                btn.textContent = lv;
+                btn.setAttribute('data-slope', lv);
+                btn.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    slopeBtns.querySelectorAll('.active').forEach(function (b) { b.classList.remove('active'); });
+                    btn.classList.add('active');
+                    applySlopeThreshold(wrap, lv);
+                });
+                slopeBtns.appendChild(btn);
+            });
+            slopeSection.appendChild(slopeBtns);
+            lmPanel.appendChild(slopeSection);
+
             lmToggleAll.addEventListener('click', function (e) {
                 e.stopPropagation();
                 var cfg = getLandmarks();
@@ -271,6 +337,8 @@
 
             wrap.appendChild(lmToggle);
             wrap.appendChild(lmPanel);
+
+
 
             // display modes (Height / Color) — only for zones whose
             // SVG carries both real-terrain images

@@ -59,7 +59,7 @@ public static class ZoneMapSvg
             FROM zones zn
             JOIN zoneentities z ON z.zoneid = zn.id
             JOIN entities e ON e.eid = z.eid
-            WHERE (e.ename LIKE 'fieldTerminal_%' OR e.ename LIKE '%outpost%')
+            WHERE (e.ename LIKE 'fieldTerminal_%' OR e.ename LIKE '%outpost%' OR e.ename LIKE 'pbs_docking_base%')
               AND e.ename NOT LIKE '%_agent%' AND e.ename NOT LIKE '%storage%'
             AND zn.id < 49000
             """)
@@ -294,9 +294,11 @@ public static class ZoneMapSvg
         foreach (var p in zPois)
         {
             var isOutpost = p.Ename.Contains("outpost", StringComparison.OrdinalIgnoreCase);
-            var title = isOutpost ? "Outpost" : "Field terminal";
-            var rShape = isOutpost ? 6 * f : 3 * f;
-            sb.Append($"  <rect class=\"zonemap-node-special\" x=\"{Fx(p.X - rShape)}\" y=\"{Fx(p.Y - rShape)}\" width=\"{Fx(rShape * 2)}\" height=\"{Fx(rShape * 2)}\" fill=\"{FamilyColor(name)}\" stroke=\"#1d2534\" stroke-width=\"{1.5 * f}\" vector-effect=\"non-scaling-stroke\" data-title=\"{Escape(title)} ({Escape(p.Ename)})\" />\n");
+            var isDocking = p.Ename.Contains("docking_base", StringComparison.OrdinalIgnoreCase);
+            var title = isDocking ? "Main terminal" : (isOutpost ? "Outpost" : "Field terminal");
+            var rShape = isDocking ? 8 * f : (isOutpost ? 6 * f : 3 * f);
+            var cls = isDocking ? "zonemap-node-special zm-node-docking" : (isOutpost ? "zonemap-node-special zm-node-outpost" : "zonemap-node-special zm-node-terminal");
+            sb.Append($"  <rect class=\"{cls}\" x=\"{Fx(p.X - rShape)}\" y=\"{Fx(p.Y - rShape)}\" width=\"{Fx(rShape * 2)}\" height=\"{Fx(rShape * 2)}\" fill=\"{FamilyColor(name)}\" stroke=\"#1d2534\" stroke-width=\"{1.5 * f}\" vector-effect=\"non-scaling-stroke\" data-title=\"{Escape(title)} ({Escape(p.Ename)})\" />\n");
         }
         sb.Append("</svg>\n");
         return sb.ToString();
