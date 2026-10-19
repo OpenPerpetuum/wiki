@@ -943,6 +943,33 @@ html[data-cb="achro"] .map-zoom-wrap svg {
     color: var(--chrome-muted); font-size: 0.85em;
 }
 
+.zonemap-slope-section {
+    padding: 0.3rem 0.6rem; border-top: 1px solid var(--border);
+    display: flex; align-items: center; gap: 0.5rem;
+}
+.zonemap-slope-label {
+    font-size: 0.75rem; color: var(--chrome-muted); white-space: nowrap;
+}
+.zonemap-slope-btns {
+    display: flex; gap: 0.25rem;
+}
+.zonemap-slope-btn {
+    padding: 0.1rem 0.4rem; font-size: 0.75rem; border-radius: 4px;
+    border: 1px solid var(--border); background: transparent; color: var(--text);
+    cursor: pointer;
+}
+.zonemap-slope-btn:hover {
+    background: var(--neon-faint); border-color: var(--neon);
+}
+.zonemap-slope-btn.active {
+    background: var(--neon-faint); border-color: var(--neon); color: var(--neon);
+}
+
+/* Landmark hover: pointer cursor */
+.zonetp-wrap [data-title] {
+    cursor: pointer;
+}
+
 /* Zone map landmark visibility toggles */
 .zonetp-wrap.zm-hide-teleports .zm-node-teleport,
 .zonetp-wrap.zm-hide-teleports .zm-teleport-line,
